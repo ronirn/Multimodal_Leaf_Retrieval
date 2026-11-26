@@ -1,0 +1,21 @@
+﻿Indicator,Result
+Gallery samples,104
+Plant classes,5
+Representative queries,5
+Text configurations,2
+Visual weight,0.5
+Text weight,0.5
+Top-K,5
+Retrieval records,50
+Query summary records,10
+Gallery image files found,104
+Gallery image files missing,0
+Unique images used in figures,34
+Image reading errors,0
+Generated figures,4
+Technical checks,17
+Passed checks,17
+Failed checks,0
+Final fusion weight selected,False
+Independent evaluation completed,False
+Analysis scope,Full-Gallery Exploratory Visualization

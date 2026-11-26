@@ -1,0 +1,11 @@
+﻿category,total_checks,passed_checks,failed_checks
+Alpha Grid,67,67,0
+Cross-Cell Results,3,3,0
+Input Integrity,1,1,0
+Matrix Integrity,25,25,0
+Pipeline Stages,12,12,0
+Query Policies,8,8,0
+Reference Endpoints,7,7,0
+Retrieval API,8,8,0
+Sample Alignment,10,10,0
+Source Similarity,3,3,0

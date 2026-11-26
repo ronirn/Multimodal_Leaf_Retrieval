@@ -1,0 +1,28 @@
+{
+    "notebook": "05_multimodal_fusion.ipynb",
+    "cell": 17,
+    "method": "Top-K Multimodal Retrieval Visualization",
+    "sample_count": 104,
+    "sample_alignment_signature": "2f3f33e97394bf3dd2bee7fbb2ff54b554874fc7a9cde45dd99352ea07c368d6",
+    "text_configurations": [
+        "Unigram",
+        "Unigram + Bigram"
+    ],
+    "visual_weight": 0.5,
+    "text_weight": 0.5,
+    "top_k": 5,
+    "representative_query_ids": [
+        "leaf_165d2f32c7fda707",
+        "leaf_c29e2560b188fb2c",
+        "leaf_df16548c53396aeb",
+        "leaf_1d4f34320b1b8b8d",
+        "leaf_7be37d0f3c7e488a"
+    ],
+    "image_files_found": 104,
+    "image_files_missing": 0,
+    "unreadable_image_files": [],
+    "self_matches_excluded": true,
+    "independent_evaluation_completed": false,
+    "analysis_scope": "Full-Gallery Exploratory Visualization",
+    "next_cell": "18 - Fusion Validation"
+}

@@ -1,0 +1,18 @@
+﻿category,validation_check,passed,status
+Inventory,Five representative queries,True,Passed
+Inventory,Two TF-IDF configurations,True,Passed
+Inventory,Exactly 50 retrieval records,True,Passed
+Inventory,Exactly 10 query summaries,True,Passed
+Ranking,Rank values within Top-5,True,Passed
+Ranking,No self-match in retrieved results,True,Passed
+Ranking,No duplicate result within each query,True,Passed
+Scores,All fusion similarity scores finite,True,Passed
+Scores,"All fusion similarity scores in [0,1]",True,Passed
+Scores,Weighted-sum formula consistent,True,Passed
+Ranking,Fusion scores sorted descending,True,Passed
+Cross-Cell Consistency,Top-5 sample order matches Cell 16,True,Passed
+Cross-Cell Consistency,Top-5 similarity scores match Cell 16,True,Passed
+Figures,Exactly four figures generated,True,Passed
+Figures,All figure files exist and are nonempty,True,Passed
+Image Metadata,All 104 gallery samples have path diagnostics,True,Passed
+Score Reporting,All query summaries have valid class shares,True,Passed

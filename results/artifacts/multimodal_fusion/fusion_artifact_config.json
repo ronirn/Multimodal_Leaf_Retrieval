@@ -1,0 +1,72 @@
+{
+  "notebook": "05_multimodal_fusion.ipynb",
+  "cell": 19,
+  "artifact_version": "1.0",
+  "method": "Score-Level Late Fusion",
+  "strategy": "Weighted Sum",
+  "sample_count": 104,
+  "sample_alignment_signature": "2f3f33e97394bf3dd2bee7fbb2ff54b554874fc7a9cde45dd99352ea07c368d6",
+  "class_names": [
+    "Mangkok",
+    "Salam",
+    "Sambang Darah",
+    "Sirih",
+    "Tapak Kuda"
+  ],
+  "matrix_shape": [
+    104,
+    104
+  ],
+  "visual_feature_shape": [
+    104,
+    143
+  ],
+  "tfidf_feature_shapes": {
+    "Unigram": [
+      104,
+      68
+    ],
+    "Unigram + Bigram": [
+      104,
+      261
+    ]
+  },
+  "visual_distance_method": "euclidean",
+  "visual_similarity_method": "inverse_distance",
+  "visual_distance_scale": 1.0,
+  "text_similarity_method": "cosine",
+  "text_configurations": [
+    "Unigram",
+    "Unigram + Bigram"
+  ],
+  "default_visual_weight": 0.5,
+  "default_text_weight": 0.5,
+  "alpha_grid": [
+    0.0,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0
+  ],
+  "top_k_values": [
+    1,
+    3,
+    5,
+    10
+  ],
+  "self_match_excluded_during_gallery_retrieval": true,
+  "matrix_diagonal_self_similarity_preserved": true,
+  "ranking_rule": "score_descending_then_sample_id_ascending",
+  "source_feature_transformers_refitted": false,
+  "final_alpha_selected": false,
+  "final_text_configuration_selected": false,
+  "independent_evaluation_completed": false,
+  "analysis_scope": "Full-Gallery Exploratory Development",
+  "dependency_note": "For external raw-image or raw-text queries, the exact preprocessing pipeline, fitted visual transformer, and fitted TF-IDF vectorizers from previous notebooks are still required. This export preserves gallery features and similarity scores, not those fitted transformers."
+}

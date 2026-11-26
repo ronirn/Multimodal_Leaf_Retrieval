@@ -1,0 +1,9 @@
+﻿scenario,passed
+External visual-only query falls back to Image Only,True
+OOV text with visual input falls back to Image Only,True
+Empty query rejected,True
+All-OOV text-only query rejected,True
+"Multimodal required, only visual provided: rejected",True
+Unknown gallery sample rejected,True
+Out-of-range alpha rejected,True
+Gallery query Top-K 104 rejected,True

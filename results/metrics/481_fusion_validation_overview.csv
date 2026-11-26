@@ -1,0 +1,16 @@
+﻿indicator,result
+Samples,104
+Plant classes,5
+Compared source/fusion matrices,5
+Alpha/text configurations,22
+Gallery-query audits,208
+Gallery Top-K diagnostic rows,832
+Cross-cell Top-5 rows,50
+Query policy scenarios,8
+Total technical checks,144
+Passed technical checks,144
+Failed technical checks,0
+Figures,2
+Selected optimal alpha,False
+Independent held-out evaluation,False
+Scope,Full-gallery technical validation; not independent evaluation

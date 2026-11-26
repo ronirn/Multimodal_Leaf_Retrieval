@@ -1,0 +1,6 @@
+﻿matrix,shape,min,max,maximum_symmetry_error,maximum_diagonal_error,all_checks_pass
+Visual,"(104, 104)",0.15707630087495056,1,0,0,True
+Text / Unigram,"(104, 104)",0.079566816764249468,1,0,5.5511151231257827e-16,True
+Text / Unigram + Bigram,"(104, 104)",0.040643439789309066,1,0,3.3306690738754696e-16,True
+Fusion / Unigram,"(104, 104)",0.16351457488237808,1,0,2.2204460492503131e-16,True
+Fusion / Unigram + Bigram,"(104, 104)",0.12310671446703955,1,0,2.2204460492503131e-16,True

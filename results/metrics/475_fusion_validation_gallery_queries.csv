@@ -1,0 +1,209 @@
+﻿text_configuration,query_sample_id,query_class,top10_ids_match_matrix,top10_fusion_scores_match_matrix,top10_visual_scores_match_matrix,top10_text_scores_match_matrix,self_match_excluded,effective_mode_correct
+Unigram,leaf_165d2f32c7fda707,Mangkok,True,True,True,True,True,True
+Unigram,leaf_8473270c3702f48b,Mangkok,True,True,True,True,True,True
+Unigram,leaf_8f425d66b1e193b9,Mangkok,True,True,True,True,True,True
+Unigram,leaf_0ebc8f4f3ee9c8d5,Mangkok,True,True,True,True,True,True
+Unigram,leaf_b0c5f55e42499cae,Mangkok,True,True,True,True,True,True
+Unigram,leaf_de9e3e4ed5d89dfc,Mangkok,True,True,True,True,True,True
+Unigram,leaf_23b789945271fb92,Mangkok,True,True,True,True,True,True
+Unigram,leaf_84de0dc731018607,Mangkok,True,True,True,True,True,True
+Unigram,leaf_36d4f083fa652592,Mangkok,True,True,True,True,True,True
+Unigram,leaf_c9d8d87fbc748d16,Mangkok,True,True,True,True,True,True
+Unigram,leaf_4de65b11758965f6,Mangkok,True,True,True,True,True,True
+Unigram,leaf_8f09fd62c7391c0d,Mangkok,True,True,True,True,True,True
+Unigram,leaf_a6da65cb0493ceef,Mangkok,True,True,True,True,True,True
+Unigram,leaf_1a80f5749cc68900,Mangkok,True,True,True,True,True,True
+Unigram,leaf_ef0854556175e2b0,Mangkok,True,True,True,True,True,True
+Unigram,leaf_fff6592ee517103e,Mangkok,True,True,True,True,True,True
+Unigram,leaf_e9cfa616ea5f1f19,Mangkok,True,True,True,True,True,True
+Unigram,leaf_12439b9ebf0eb8d3,Mangkok,True,True,True,True,True,True
+Unigram,leaf_de455d31a4df8c43,Mangkok,True,True,True,True,True,True
+Unigram,leaf_663a651dd51f9c94,Mangkok,True,True,True,True,True,True
+Unigram,leaf_c29e2560b188fb2c,Salam,True,True,True,True,True,True
+Unigram,leaf_c4840a77b6d0c158,Salam,True,True,True,True,True,True
+Unigram,leaf_fd4b025e69b9f321,Salam,True,True,True,True,True,True
+Unigram,leaf_45414f432e49469a,Salam,True,True,True,True,True,True
+Unigram,leaf_1da6bca6d5320ae2,Salam,True,True,True,True,True,True
+Unigram,leaf_b8ebef3e9731e352,Salam,True,True,True,True,True,True
+Unigram,leaf_8809ccde35d4b945,Salam,True,True,True,True,True,True
+Unigram,leaf_1ebaf9512209a61f,Salam,True,True,True,True,True,True
+Unigram,leaf_68b0c81b496519cd,Salam,True,True,True,True,True,True
+Unigram,leaf_0a8999109a734f1d,Salam,True,True,True,True,True,True
+Unigram,leaf_ca3c3b7a5db35c1d,Salam,True,True,True,True,True,True
+Unigram,leaf_a838808299383884,Salam,True,True,True,True,True,True
+Unigram,leaf_a7704c0316865cd7,Salam,True,True,True,True,True,True
+Unigram,leaf_ac463b36b6e61052,Salam,True,True,True,True,True,True
+Unigram,leaf_fdd0a74681efeff6,Salam,True,True,True,True,True,True
+Unigram,leaf_9a710afa1505390e,Salam,True,True,True,True,True,True
+Unigram,leaf_d12754f94f5ff7fc,Salam,True,True,True,True,True,True
+Unigram,leaf_9c7d463a5bb1a561,Salam,True,True,True,True,True,True
+Unigram,leaf_a57a1270adf22253,Salam,True,True,True,True,True,True
+Unigram,leaf_df16548c53396aeb,Sambang Darah,True,True,True,True,True,True
+Unigram,leaf_1a45e1e109be76ee,Sambang Darah,True,True,True,True,True,True
+Unigram,leaf_ad660412d798bd65,Sambang Darah,True,True,True,True,True,True
+Unigram,leaf_b230b822f6a38f1c,Sambang Darah,True,True,True,True,True,True
+Unigram,leaf_22cacefa73426c68,Sambang Darah,True,True,True,True,True,True
+Unigram,leaf_519627b0b7c509da,Sambang Darah,True,True,True,True,True,True
+Unigram,leaf_e57489e729c801d7,Sambang Darah,True,True,True,True,True,True
+Unigram,leaf_62ef0ed49ad4e2d3,Sambang Darah,True,True,True,True,True,True
+Unigram,leaf_ce6b898792146850,Sambang Darah,True,True,True,True,True,True
+Unigram,leaf_3c3fafa9c7913736,Sambang Darah,True,True,True,True,True,True
+Unigram,leaf_eacbf33f28cb6b28,Sambang Darah,True,True,True,True,True,True
+Unigram,leaf_0e58a931923c4e40,Sambang Darah,True,True,True,True,True,True
+Unigram,leaf_a21b39e63066049c,Sambang Darah,True,True,True,True,True,True
+Unigram,leaf_ad626da03abf4532,Sambang Darah,True,True,True,True,True,True
+Unigram,leaf_45d4826ed41c51b4,Sambang Darah,True,True,True,True,True,True
+Unigram,leaf_c289208cb093f769,Sambang Darah,True,True,True,True,True,True
+Unigram,leaf_620d73b8cfb217b6,Sambang Darah,True,True,True,True,True,True
+Unigram,leaf_d9d0b97961feaeac,Sambang Darah,True,True,True,True,True,True
+Unigram,leaf_6e53ecd8713a9128,Sambang Darah,True,True,True,True,True,True
+Unigram,leaf_ac5e952a9ae56c36,Sambang Darah,True,True,True,True,True,True
+Unigram,leaf_1d4f34320b1b8b8d,Sirih,True,True,True,True,True,True
+Unigram,leaf_d0f42a660bf2b3ee,Sirih,True,True,True,True,True,True
+Unigram,leaf_1ef1bffd5f4186c1,Sirih,True,True,True,True,True,True
+Unigram,leaf_a280fa2ae09d329b,Sirih,True,True,True,True,True,True
+Unigram,leaf_6fcc4b52889490ca,Sirih,True,True,True,True,True,True
+Unigram,leaf_1193856cea5a1287,Sirih,True,True,True,True,True,True
+Unigram,leaf_3f1cc0b714c4164e,Sirih,True,True,True,True,True,True
+Unigram,leaf_347efec2afc78e44,Sirih,True,True,True,True,True,True
+Unigram,leaf_9dad4bfe9db99263,Sirih,True,True,True,True,True,True
+Unigram,leaf_57905de77bc7f811,Sirih,True,True,True,True,True,True
+Unigram,leaf_1b922f2bd904d1fc,Sirih,True,True,True,True,True,True
+Unigram,leaf_6397705392627f3c,Sirih,True,True,True,True,True,True
+Unigram,leaf_c8bf421408781594,Sirih,True,True,True,True,True,True
+Unigram,leaf_66c00e535609f186,Sirih,True,True,True,True,True,True
+Unigram,leaf_2574445c571a7dc3,Sirih,True,True,True,True,True,True
+Unigram,leaf_afba9495e801278e,Sirih,True,True,True,True,True,True
+Unigram,leaf_693f93e999e7c6a3,Sirih,True,True,True,True,True,True
+Unigram,leaf_7f9c59b7594e5833,Sirih,True,True,True,True,True,True
+Unigram,leaf_338b7ee25be7d52d,Sirih,True,True,True,True,True,True
+Unigram,leaf_47ab03f4e71a0717,Sirih,True,True,True,True,True,True
+Unigram,leaf_7be37d0f3c7e488a,Tapak Kuda,True,True,True,True,True,True
+Unigram,leaf_328651beb5d48483,Tapak Kuda,True,True,True,True,True,True
+Unigram,leaf_22bf36f7b3abd78c,Tapak Kuda,True,True,True,True,True,True
+Unigram,leaf_8129d1a748a118de,Tapak Kuda,True,True,True,True,True,True
+Unigram,leaf_549670d83912aed7,Tapak Kuda,True,True,True,True,True,True
+Unigram,leaf_655b2ffd3499bbea,Tapak Kuda,True,True,True,True,True,True
+Unigram,leaf_43ae297ca838aebb,Tapak Kuda,True,True,True,True,True,True
+Unigram,leaf_28712bf465655732,Tapak Kuda,True,True,True,True,True,True
+Unigram,leaf_721244faca19b94f,Tapak Kuda,True,True,True,True,True,True
+Unigram,leaf_bb707568bb3ed9ce,Tapak Kuda,True,True,True,True,True,True
+Unigram,leaf_d755ad14cfc3f8bf,Tapak Kuda,True,True,True,True,True,True
+Unigram,leaf_2976a10d6fff3cd5,Tapak Kuda,True,True,True,True,True,True
+Unigram,leaf_acea8a79416b27c0,Tapak Kuda,True,True,True,True,True,True
+Unigram,leaf_f72f88757c4de8ba,Tapak Kuda,True,True,True,True,True,True
+Unigram,leaf_93d488369f0a2cc4,Tapak Kuda,True,True,True,True,True,True
+Unigram,leaf_25803393f335987a,Tapak Kuda,True,True,True,True,True,True
+Unigram,leaf_012389d8d324b6c8,Tapak Kuda,True,True,True,True,True,True
+Unigram,leaf_193e4fc967161d9a,Tapak Kuda,True,True,True,True,True,True
+Unigram,leaf_d19ceb083d0a7e82,Tapak Kuda,True,True,True,True,True,True
+Unigram,leaf_8d727458048a81c7,Tapak Kuda,True,True,True,True,True,True
+Unigram,leaf_8f8d177305fb06f2,Tapak Kuda,True,True,True,True,True,True
+Unigram,leaf_cef9b535077d5397,Tapak Kuda,True,True,True,True,True,True
+Unigram,leaf_5fafb790c4773c55,Tapak Kuda,True,True,True,True,True,True
+Unigram,leaf_055c97f32cf57da5,Tapak Kuda,True,True,True,True,True,True
+Unigram,leaf_41f02313a5460236,Tapak Kuda,True,True,True,True,True,True
+Unigram + Bigram,leaf_165d2f32c7fda707,Mangkok,True,True,True,True,True,True
+Unigram + Bigram,leaf_8473270c3702f48b,Mangkok,True,True,True,True,True,True
+Unigram + Bigram,leaf_8f425d66b1e193b9,Mangkok,True,True,True,True,True,True
+Unigram + Bigram,leaf_0ebc8f4f3ee9c8d5,Mangkok,True,True,True,True,True,True
+Unigram + Bigram,leaf_b0c5f55e42499cae,Mangkok,True,True,True,True,True,True
+Unigram + Bigram,leaf_de9e3e4ed5d89dfc,Mangkok,True,True,True,True,True,True
+Unigram + Bigram,leaf_23b789945271fb92,Mangkok,True,True,True,True,True,True
+Unigram + Bigram,leaf_84de0dc731018607,Mangkok,True,True,True,True,True,True
+Unigram + Bigram,leaf_36d4f083fa652592,Mangkok,True,True,True,True,True,True
+Unigram + Bigram,leaf_c9d8d87fbc748d16,Mangkok,True,True,True,True,True,True
+Unigram + Bigram,leaf_4de65b11758965f6,Mangkok,True,True,True,True,True,True
+Unigram + Bigram,leaf_8f09fd62c7391c0d,Mangkok,True,True,True,True,True,True
+Unigram + Bigram,leaf_a6da65cb0493ceef,Mangkok,True,True,True,True,True,True
+Unigram + Bigram,leaf_1a80f5749cc68900,Mangkok,True,True,True,True,True,True
+Unigram + Bigram,leaf_ef0854556175e2b0,Mangkok,True,True,True,True,True,True
+Unigram + Bigram,leaf_fff6592ee517103e,Mangkok,True,True,True,True,True,True
+Unigram + Bigram,leaf_e9cfa616ea5f1f19,Mangkok,True,True,True,True,True,True
+Unigram + Bigram,leaf_12439b9ebf0eb8d3,Mangkok,True,True,True,True,True,True
+Unigram + Bigram,leaf_de455d31a4df8c43,Mangkok,True,True,True,True,True,True
+Unigram + Bigram,leaf_663a651dd51f9c94,Mangkok,True,True,True,True,True,True
+Unigram + Bigram,leaf_c29e2560b188fb2c,Salam,True,True,True,True,True,True
+Unigram + Bigram,leaf_c4840a77b6d0c158,Salam,True,True,True,True,True,True
+Unigram + Bigram,leaf_fd4b025e69b9f321,Salam,True,True,True,True,True,True
+Unigram + Bigram,leaf_45414f432e49469a,Salam,True,True,True,True,True,True
+Unigram + Bigram,leaf_1da6bca6d5320ae2,Salam,True,True,True,True,True,True
+Unigram + Bigram,leaf_b8ebef3e9731e352,Salam,True,True,True,True,True,True
+Unigram + Bigram,leaf_8809ccde35d4b945,Salam,True,True,True,True,True,True
+Unigram + Bigram,leaf_1ebaf9512209a61f,Salam,True,True,True,True,True,True
+Unigram + Bigram,leaf_68b0c81b496519cd,Salam,True,True,True,True,True,True
+Unigram + Bigram,leaf_0a8999109a734f1d,Salam,True,True,True,True,True,True
+Unigram + Bigram,leaf_ca3c3b7a5db35c1d,Salam,True,True,True,True,True,True
+Unigram + Bigram,leaf_a838808299383884,Salam,True,True,True,True,True,True
+Unigram + Bigram,leaf_a7704c0316865cd7,Salam,True,True,True,True,True,True
+Unigram + Bigram,leaf_ac463b36b6e61052,Salam,True,True,True,True,True,True
+Unigram + Bigram,leaf_fdd0a74681efeff6,Salam,True,True,True,True,True,True
+Unigram + Bigram,leaf_9a710afa1505390e,Salam,True,True,True,True,True,True
+Unigram + Bigram,leaf_d12754f94f5ff7fc,Salam,True,True,True,True,True,True
+Unigram + Bigram,leaf_9c7d463a5bb1a561,Salam,True,True,True,True,True,True
+Unigram + Bigram,leaf_a57a1270adf22253,Salam,True,True,True,True,True,True
+Unigram + Bigram,leaf_df16548c53396aeb,Sambang Darah,True,True,True,True,True,True
+Unigram + Bigram,leaf_1a45e1e109be76ee,Sambang Darah,True,True,True,True,True,True
+Unigram + Bigram,leaf_ad660412d798bd65,Sambang Darah,True,True,True,True,True,True
+Unigram + Bigram,leaf_b230b822f6a38f1c,Sambang Darah,True,True,True,True,True,True
+Unigram + Bigram,leaf_22cacefa73426c68,Sambang Darah,True,True,True,True,True,True
+Unigram + Bigram,leaf_519627b0b7c509da,Sambang Darah,True,True,True,True,True,True
+Unigram + Bigram,leaf_e57489e729c801d7,Sambang Darah,True,True,True,True,True,True
+Unigram + Bigram,leaf_62ef0ed49ad4e2d3,Sambang Darah,True,True,True,True,True,True
+Unigram + Bigram,leaf_ce6b898792146850,Sambang Darah,True,True,True,True,True,True
+Unigram + Bigram,leaf_3c3fafa9c7913736,Sambang Darah,True,True,True,True,True,True
+Unigram + Bigram,leaf_eacbf33f28cb6b28,Sambang Darah,True,True,True,True,True,True
+Unigram + Bigram,leaf_0e58a931923c4e40,Sambang Darah,True,True,True,True,True,True
+Unigram + Bigram,leaf_a21b39e63066049c,Sambang Darah,True,True,True,True,True,True
+Unigram + Bigram,leaf_ad626da03abf4532,Sambang Darah,True,True,True,True,True,True
+Unigram + Bigram,leaf_45d4826ed41c51b4,Sambang Darah,True,True,True,True,True,True
+Unigram + Bigram,leaf_c289208cb093f769,Sambang Darah,True,True,True,True,True,True
+Unigram + Bigram,leaf_620d73b8cfb217b6,Sambang Darah,True,True,True,True,True,True
+Unigram + Bigram,leaf_d9d0b97961feaeac,Sambang Darah,True,True,True,True,True,True
+Unigram + Bigram,leaf_6e53ecd8713a9128,Sambang Darah,True,True,True,True,True,True
+Unigram + Bigram,leaf_ac5e952a9ae56c36,Sambang Darah,True,True,True,True,True,True
+Unigram + Bigram,leaf_1d4f34320b1b8b8d,Sirih,True,True,True,True,True,True
+Unigram + Bigram,leaf_d0f42a660bf2b3ee,Sirih,True,True,True,True,True,True
+Unigram + Bigram,leaf_1ef1bffd5f4186c1,Sirih,True,True,True,True,True,True
+Unigram + Bigram,leaf_a280fa2ae09d329b,Sirih,True,True,True,True,True,True
+Unigram + Bigram,leaf_6fcc4b52889490ca,Sirih,True,True,True,True,True,True
+Unigram + Bigram,leaf_1193856cea5a1287,Sirih,True,True,True,True,True,True
+Unigram + Bigram,leaf_3f1cc0b714c4164e,Sirih,True,True,True,True,True,True
+Unigram + Bigram,leaf_347efec2afc78e44,Sirih,True,True,True,True,True,True
+Unigram + Bigram,leaf_9dad4bfe9db99263,Sirih,True,True,True,True,True,True
+Unigram + Bigram,leaf_57905de77bc7f811,Sirih,True,True,True,True,True,True
+Unigram + Bigram,leaf_1b922f2bd904d1fc,Sirih,True,True,True,True,True,True
+Unigram + Bigram,leaf_6397705392627f3c,Sirih,True,True,True,True,True,True
+Unigram + Bigram,leaf_c8bf421408781594,Sirih,True,True,True,True,True,True
+Unigram + Bigram,leaf_66c00e535609f186,Sirih,True,True,True,True,True,True
+Unigram + Bigram,leaf_2574445c571a7dc3,Sirih,True,True,True,True,True,True
+Unigram + Bigram,leaf_afba9495e801278e,Sirih,True,True,True,True,True,True
+Unigram + Bigram,leaf_693f93e999e7c6a3,Sirih,True,True,True,True,True,True
+Unigram + Bigram,leaf_7f9c59b7594e5833,Sirih,True,True,True,True,True,True
+Unigram + Bigram,leaf_338b7ee25be7d52d,Sirih,True,True,True,True,True,True
+Unigram + Bigram,leaf_47ab03f4e71a0717,Sirih,True,True,True,True,True,True
+Unigram + Bigram,leaf_7be37d0f3c7e488a,Tapak Kuda,True,True,True,True,True,True
+Unigram + Bigram,leaf_328651beb5d48483,Tapak Kuda,True,True,True,True,True,True
+Unigram + Bigram,leaf_22bf36f7b3abd78c,Tapak Kuda,True,True,True,True,True,True
+Unigram + Bigram,leaf_8129d1a748a118de,Tapak Kuda,True,True,True,True,True,True
+Unigram + Bigram,leaf_549670d83912aed7,Tapak Kuda,True,True,True,True,True,True
+Unigram + Bigram,leaf_655b2ffd3499bbea,Tapak Kuda,True,True,True,True,True,True
+Unigram + Bigram,leaf_43ae297ca838aebb,Tapak Kuda,True,True,True,True,True,True
+Unigram + Bigram,leaf_28712bf465655732,Tapak Kuda,True,True,True,True,True,True
+Unigram + Bigram,leaf_721244faca19b94f,Tapak Kuda,True,True,True,True,True,True
+Unigram + Bigram,leaf_bb707568bb3ed9ce,Tapak Kuda,True,True,True,True,True,True
+Unigram + Bigram,leaf_d755ad14cfc3f8bf,Tapak Kuda,True,True,True,True,True,True
+Unigram + Bigram,leaf_2976a10d6fff3cd5,Tapak Kuda,True,True,True,True,True,True
+Unigram + Bigram,leaf_acea8a79416b27c0,Tapak Kuda,True,True,True,True,True,True
+Unigram + Bigram,leaf_f72f88757c4de8ba,Tapak Kuda,True,True,True,True,True,True
+Unigram + Bigram,leaf_93d488369f0a2cc4,Tapak Kuda,True,True,True,True,True,True
+Unigram + Bigram,leaf_25803393f335987a,Tapak Kuda,True,True,True,True,True,True
+Unigram + Bigram,leaf_012389d8d324b6c8,Tapak Kuda,True,True,True,True,True,True
+Unigram + Bigram,leaf_193e4fc967161d9a,Tapak Kuda,True,True,True,True,True,True
+Unigram + Bigram,leaf_d19ceb083d0a7e82,Tapak Kuda,True,True,True,True,True,True
+Unigram + Bigram,leaf_8d727458048a81c7,Tapak Kuda,True,True,True,True,True,True
+Unigram + Bigram,leaf_8f8d177305fb06f2,Tapak Kuda,True,True,True,True,True,True
+Unigram + Bigram,leaf_cef9b535077d5397,Tapak Kuda,True,True,True,True,True,True
+Unigram + Bigram,leaf_5fafb790c4773c55,Tapak Kuda,True,True,True,True,True,True
+Unigram + Bigram,leaf_055c97f32cf57da5,Tapak Kuda,True,True,True,True,True,True
+Unigram + Bigram,leaf_41f02313a5460236,Tapak Kuda,True,True,True,True,True,True

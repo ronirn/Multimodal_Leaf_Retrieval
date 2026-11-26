@@ -1,0 +1,23 @@
+﻿text_configuration,alpha_visual,beta_text,max_formula_error,max_reference_error,within_convex_bounds,symmetric,diagonal_one,all_checks_pass
+Unigram,0,1,0,0,True,True,True,True
+Unigram,0.10000000000000001,0.90000000000000002,0,,True,True,True,True
+Unigram,0.20000000000000001,0.80000000000000004,0,,True,True,True,True
+Unigram,0.29999999999999999,0.69999999999999996,0,,True,True,True,True
+Unigram,0.40000000000000002,0.59999999999999998,0,,True,True,True,True
+Unigram,0.5,0.5,0,0,True,True,True,True
+Unigram,0.59999999999999998,0.40000000000000002,0,,True,True,True,True
+Unigram,0.69999999999999996,0.30000000000000004,0,,True,True,True,True
+Unigram,0.80000000000000004,0.19999999999999996,0,,True,True,True,True
+Unigram,0.90000000000000002,0.099999999999999978,0,,True,True,True,True
+Unigram,1,0,0,0,True,True,True,True
+Unigram + Bigram,0,1,0,0,True,True,True,True
+Unigram + Bigram,0.10000000000000001,0.90000000000000002,0,,True,True,True,True
+Unigram + Bigram,0.20000000000000001,0.80000000000000004,0,,True,True,True,True
+Unigram + Bigram,0.29999999999999999,0.69999999999999996,0,,True,True,True,True
+Unigram + Bigram,0.40000000000000002,0.59999999999999998,0,,True,True,True,True
+Unigram + Bigram,0.5,0.5,0,0,True,True,True,True
+Unigram + Bigram,0.59999999999999998,0.40000000000000002,0,,True,True,True,True
+Unigram + Bigram,0.69999999999999996,0.30000000000000004,0,,True,True,True,True
+Unigram + Bigram,0.80000000000000004,0.19999999999999996,0,,True,True,True,True
+Unigram + Bigram,0.90000000000000002,0.099999999999999978,0,,True,True,True,True
+Unigram + Bigram,1,0,0,0,True,True,True,True

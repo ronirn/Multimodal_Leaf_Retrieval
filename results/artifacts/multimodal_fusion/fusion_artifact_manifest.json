@@ -1,0 +1,86 @@
+{
+  "artifact_version": "1.0",
+  "artifact_count": 13,
+  "sample_count": 104,
+  "sample_alignment_signature": "2f3f33e97394bf3dd2bee7fbb2ff54b554874fc7a9cde45dd99352ea07c368d6",
+  "entries": [
+    {
+      "artifact_key": "visual_distance",
+      "filename": "visual_euclidean_distance.npy",
+      "size_bytes": 86656,
+      "sha256": "0625bdd3d2ba3f91a140446c22990713245b784fde1dffc759b0867ebfb80ddc"
+    },
+    {
+      "artifact_key": "visual_similarity",
+      "filename": "visual_similarity.npy",
+      "size_bytes": 86656,
+      "sha256": "8fc6aa5cddc6629e77f267cb5ab55b3110c56814f83ddccdaad0a2c6877a0dbf"
+    },
+    {
+      "artifact_key": "visual_features",
+      "filename": "visual_features_normalized.npy",
+      "size_bytes": 119104,
+      "sha256": "ee895109bff88e88a2ee5e11dadfbf90496b5772a9d0630248064c0969be2647"
+    },
+    {
+      "artifact_key": "text_similarity_unigram",
+      "filename": "text_cosine_unigram.npy",
+      "size_bytes": 86656,
+      "sha256": "718ad770bf13a953c1911bdb224fc4c4c5cf17344af79a92e0f18930d3175df0"
+    },
+    {
+      "artifact_key": "default_fusion_unigram",
+      "filename": "fusion_default_unigram_alpha_0p5.npy",
+      "size_bytes": 86656,
+      "sha256": "c16aa11caf3aa7ef47d08c0080e7fdf211bb2aa9754b8b81baa59caf5dbf05b4"
+    },
+    {
+      "artifact_key": "tfidf_features_unigram",
+      "filename": "tfidf_features_unigram.npz",
+      "size_bytes": 11080,
+      "sha256": "dd0e51a174a4a62556efc24d8d68b3578ff3296169d586efe6b2b3bedc081e6f"
+    },
+    {
+      "artifact_key": "text_similarity_unigram_bigram",
+      "filename": "text_cosine_unigram_bigram.npy",
+      "size_bytes": 86656,
+      "sha256": "cf3e6d6f90441002f34d032ddca2b6e0f8d7c35b74784c1e5eace5fe2bf3a985"
+    },
+    {
+      "artifact_key": "default_fusion_unigram_bigram",
+      "filename": "fusion_default_unigram_bigram_alpha_0p5.npy",
+      "size_bytes": 86656,
+      "sha256": "bf8314412dbe8edb75e849fb74ff9e1ad4a979e6a6c0fef94afd9cf175facba8"
+    },
+    {
+      "artifact_key": "tfidf_features_unigram_bigram",
+      "filename": "tfidf_features_unigram_bigram.npz",
+      "size_bytes": 18183,
+      "sha256": "6600087ae9956684a1d8b0aab60ce6d109f21b5e614e870868c1fb2fb2b997f8"
+    },
+    {
+      "artifact_key": "alpha_grid",
+      "filename": "fusion_all_alpha_grid.npz",
+      "size_bytes": 1405319,
+      "sha256": "7ea4066dd4c357de2905eab2306dba9fc1c4b86e96ce2d4cec8343bc2ab9ebe7"
+    },
+    {
+      "artifact_key": "gallery_index",
+      "filename": "gallery_index.csv",
+      "size_bytes": 3690,
+      "sha256": "776d9e6cebbdfe256295c041b3abc21d49e99abf74ff5521516e024e6fd4986d"
+    },
+    {
+      "artifact_key": "gallery_metadata",
+      "filename": "gallery_metadata.csv",
+      "size_bytes": 159209,
+      "sha256": "ffd33daa70fd166f0f5d6404857e280d5e02e65a43244d7ce1a711ad136bda1b"
+    },
+    {
+      "artifact_key": "config",
+      "filename": "fusion_artifact_config.json",
+      "size_bytes": 1845,
+      "sha256": "927ff75531ccbc30b3c8610ab922d48ccacda469c2ef6c804d2ba7c623485378"
+    }
+  ]
+}
