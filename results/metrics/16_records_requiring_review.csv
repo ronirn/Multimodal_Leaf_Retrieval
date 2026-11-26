@@ -1,0 +1,49 @@
+nama_file,kelas,tampilan_daun,image_status,is_duplicate,contains_class_name,is_low_resolution,has_incomplete_morphology,catatan_verifikasi,quality_status
+mangkok 10.jpeg,Mangkok,belakang,Valid,False,False,False,False,Tampilan mengikuti folder; verifikasi sisi daun bila diperlukan.,Needs Review
+mangkok 6.jpeg,Mangkok,belakang,Valid,False,False,False,False,Tampilan mengikuti folder; verifikasi sisi daun bila diperlukan.,Needs Review
+mangkok 7.jpeg,Mangkok,belakang,Valid,False,False,False,False,Detail visual terbatas; periksa foto resolusi asli jika diperlukan. Tampilan mengikuti folder; verifikasi sisi daun bila diperlukan.,Needs Review
+mangkok 8.jpeg,Mangkok,belakang,Valid,False,False,False,False,Tampilan mengikuti folder; verifikasi sisi daun bila diperlukan.,Needs Review
+mangkok 9.jpeg,Mangkok,belakang,Valid,False,False,False,False,Tampilan mengikuti folder; verifikasi sisi daun bila diperlukan.,Needs Review
+daun salam 6.jpeg,Salam,belakang,Valid,False,False,False,False,Detail visual terbatas; periksa foto resolusi asli jika diperlukan.,Needs Review
+daun salam 7.jpeg,Salam,belakang,Valid,True,False,False,False,,Needs Review
+daun salam 8.jpeg,Salam,belakang,Valid,True,False,False,False,Duplikat identik: dataset/daun_salam/foto belakang/daun salam 7.jpeg,Exclude Candidate
+daun salam 9.jpeg,Salam,belakang,Valid,False,False,False,False,Detail visual terbatas; periksa foto resolusi asli jika diperlukan.,Needs Review
+daun salam 2.jpeg,Salam,depan,Valid,False,False,False,False,Detail visual terbatas; periksa foto resolusi asli jika diperlukan.,Needs Review
+sambang darah 11.png,Sambang Darah,belakang,Valid,False,False,False,False,Warna berbeda dari foto belakang merah; verifikasi label dan tampilan.,Needs Review
+sambang darah 12.png,Sambang Darah,belakang,Valid,False,False,False,False,Warna berbeda dari foto belakang merah; verifikasi label dan tampilan.,Needs Review
+sambang darah 13.png,Sambang Darah,belakang,Valid,False,False,False,False,Warna berbeda dari foto belakang merah; verifikasi label dan tampilan.,Needs Review
+sambang darah 14.png,Sambang Darah,belakang,Valid,False,False,False,False,Warna berbeda dari foto belakang merah; verifikasi label dan tampilan.,Needs Review
+sambang darah 15.png,Sambang Darah,belakang,Valid,False,False,False,False,Warna berbeda dari foto belakang merah; verifikasi label dan tampilan.,Needs Review
+sambang darah 6.jpeg,Sambang Darah,belakang,Valid,False,False,False,False,Detail visual terbatas; periksa foto resolusi asli jika diperlukan.,Needs Review
+sambang darah 1.jpeg,Sambang Darah,depan,Valid,False,False,False,False,Detail visual terbatas; periksa foto resolusi asli jika diperlukan.,Needs Review
+sirih 6.jpeg,Sirih,belakang,Valid,False,False,False,False,Detail visual terbatas; periksa foto resolusi asli jika diperlukan.,Needs Review
+Hijau_Sehat11.jpg,Sirih,depan,Valid,False,False,False,False,Bentuk yang terlihat dipengaruhi lipatan daun.,Needs Review
+Hijau_Sehat3.jpg,Sirih,depan,Valid,False,False,False,False,Bentuk yang terlihat dipengaruhi lipatan daun.,Needs Review
+Hijau_Sehat4.jpg,Sirih,depan,Valid,False,False,False,False,Bentuk yang terlihat dipengaruhi lipatan daun.,Needs Review
+Hijau_Sehat6.jpg,Sirih,depan,Valid,False,False,False,False,Bentuk yang terlihat dipengaruhi lipatan daun.,Needs Review
+Hijau_Sehat9.jpg,Sirih,depan,Valid,False,False,False,False,Bentuk yang terlihat dipengaruhi lipatan daun.,Needs Review
+tapak kuda 11.jpeg,Tapak Kuda,belakang,Valid,False,False,False,False,Label mengikuti folder; identitas botani perlu diverifikasi karena bentuk menyerupai ginjal dan tepi berlekuk. Detail visual terbatas; periksa foto resolusi asli jika diperlukan.,Needs Review
+tapak kuda 12.jpeg,Tapak Kuda,belakang,Valid,False,False,False,False,Label mengikuti folder; identitas botani perlu diverifikasi karena bentuk menyerupai ginjal dan tepi berlekuk.,Needs Review
+tapak kuda 13.jpeg,Tapak Kuda,belakang,Valid,False,False,False,False,Label mengikuti folder; identitas botani perlu diverifikasi karena bentuk menyerupai ginjal dan tepi berlekuk. Detail visual terbatas; periksa foto resolusi asli jika diperlukan.,Needs Review
+tapak kuda 14.jpeg,Tapak Kuda,belakang,Valid,False,False,False,False,Label mengikuti folder; identitas botani perlu diverifikasi karena bentuk menyerupai ginjal dan tepi berlekuk.,Needs Review
+tapak kuda 15.jpeg,Tapak Kuda,belakang,Valid,False,False,False,False,Label mengikuti folder; identitas botani perlu diverifikasi karena bentuk menyerupai ginjal dan tepi berlekuk.,Needs Review
+tapak kuda 16.png,Tapak Kuda,belakang,Valid,False,False,False,False,Label mengikuti folder; identitas botani perlu diverifikasi karena bentuk menyerupai ginjal dan tepi berlekuk.,Needs Review
+tapak kuda 17.png,Tapak Kuda,belakang,Valid,False,False,False,False,Label mengikuti folder; identitas botani perlu diverifikasi karena bentuk menyerupai ginjal dan tepi berlekuk.,Needs Review
+tapak kuda 18.png,Tapak Kuda,belakang,Valid,False,False,False,False,Label mengikuti folder; identitas botani perlu diverifikasi karena bentuk menyerupai ginjal dan tepi berlekuk.,Needs Review
+tapak kuda 19.png,Tapak Kuda,belakang,Valid,False,False,False,False,Label mengikuti folder; identitas botani perlu diverifikasi karena bentuk menyerupai ginjal dan tepi berlekuk.,Needs Review
+tapak kuda 20.png,Tapak Kuda,belakang,Valid,False,False,False,False,Label mengikuti folder; identitas botani perlu diverifikasi karena bentuk menyerupai ginjal dan tepi berlekuk.,Needs Review
+tapak kuda 1.jpeg,Tapak Kuda,depan,Valid,False,False,False,False,Label mengikuti folder; identitas botani perlu diverifikasi karena bentuk menyerupai ginjal dan tepi berlekuk.,Needs Review
+tapak kuda 10.jpeg,Tapak Kuda,depan,Valid,False,False,False,False,Label mengikuti folder; identitas botani perlu diverifikasi karena bentuk menyerupai ginjal dan tepi berlekuk. Detail visual terbatas; periksa foto resolusi asli jika diperlukan.,Needs Review
+tapak kuda 10.png,Tapak Kuda,depan,Valid,False,False,False,False,Label mengikuti folder; identitas botani perlu diverifikasi karena bentuk menyerupai ginjal dan tepi berlekuk.,Needs Review
+tapak kuda 11.png,Tapak Kuda,depan,Valid,False,False,False,False,Label mengikuti folder; identitas botani perlu diverifikasi karena bentuk menyerupai ginjal dan tepi berlekuk.,Needs Review
+tapak kuda 12.png,Tapak Kuda,depan,Valid,False,False,False,False,Label mengikuti folder; identitas botani perlu diverifikasi karena bentuk menyerupai ginjal dan tepi berlekuk.,Needs Review
+tapak kuda 13.png,Tapak Kuda,depan,Valid,False,False,False,False,Label mengikuti folder; identitas botani perlu diverifikasi karena bentuk menyerupai ginjal dan tepi berlekuk.,Needs Review
+tapak kuda 14.png,Tapak Kuda,depan,Valid,False,False,False,False,Label mengikuti folder; identitas botani perlu diverifikasi karena bentuk menyerupai ginjal dan tepi berlekuk.,Needs Review
+tapak kuda 2.jpeg,Tapak Kuda,depan,Valid,False,False,False,False,Label mengikuti folder; identitas botani perlu diverifikasi karena bentuk menyerupai ginjal dan tepi berlekuk.,Needs Review
+tapak kuda 3.jpeg,Tapak Kuda,depan,Valid,False,False,False,False,Label mengikuti folder; identitas botani perlu diverifikasi karena bentuk menyerupai ginjal dan tepi berlekuk.,Needs Review
+tapak kuda 4.jpeg,Tapak Kuda,depan,Valid,False,False,False,False,Label mengikuti folder; identitas botani perlu diverifikasi karena bentuk menyerupai ginjal dan tepi berlekuk.,Needs Review
+tapak kuda 5.jpeg,Tapak Kuda,depan,Valid,False,False,False,False,Label mengikuti folder; identitas botani perlu diverifikasi karena bentuk menyerupai ginjal dan tepi berlekuk. Detail visual terbatas; periksa foto resolusi asli jika diperlukan.,Needs Review
+tapak kuda 6.jpeg,Tapak Kuda,depan,Valid,False,False,False,False,Label mengikuti folder; identitas botani perlu diverifikasi karena bentuk menyerupai ginjal dan tepi berlekuk.,Needs Review
+tapak kuda 7.jpeg,Tapak Kuda,depan,Valid,False,False,False,False,Label mengikuti folder; identitas botani perlu diverifikasi karena bentuk menyerupai ginjal dan tepi berlekuk.,Needs Review
+tapak kuda 8.jpeg,Tapak Kuda,depan,Valid,False,False,False,False,Label mengikuti folder; identitas botani perlu diverifikasi karena bentuk menyerupai ginjal dan tepi berlekuk. Detail visual terbatas; periksa foto resolusi asli jika diperlukan.,Needs Review
+tapak kuda 9.jpeg,Tapak Kuda,depan,Valid,False,False,False,False,Label mengikuti folder; identitas botani perlu diverifikasi karena bentuk menyerupai ginjal dan tepi berlekuk.,Needs Review

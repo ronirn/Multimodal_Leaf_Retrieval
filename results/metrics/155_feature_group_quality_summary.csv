@@ -1,0 +1,4 @@
+﻿feature_group,samples,feature_dimension,total_values,zero_values,zero_ratio,constant_features,low_variance_features,high_zero_ratio_features,high_correlation_pairs,features_with_outliers,zero_iqr_features,total_outlier_values,nan_values,infinite_values,numerical_valid
+HSV,104,64,6656,3034,0.45582932692307693,0,15,3,11,41,21,446,0,0,True
+GLCM,104,72,7488,0,0,0,0,0,363,38,0,225,0,0,True
+Hu Moments,104,7,728,0,0,0,0,0,0,2,0,25,0,0,True

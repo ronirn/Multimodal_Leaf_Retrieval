@@ -1,0 +1,5 @@
+﻿Feature Group,Feature Type,Dimension
+HSV Histogram,Color,64
+GLCM,Texture,72
+Hu Moments,Shape,7
+Combined Visual Features,Color + Texture + Shape,143

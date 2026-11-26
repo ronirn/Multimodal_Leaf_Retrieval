@@ -1,0 +1,9 @@
+﻿Component,Ready,Status
+Processed RGB Images,True,Technically Ready
+Binary Masks,True,Technically Ready
+HSV Histogram Input,True,Technically Ready
+GLCM Input,True,Technically Ready
+Hu Moments Input,True,Technically Ready
+TF-IDF Input,True,Technically Ready
+Multimodal Metadata,True,Technically Ready
+Feature Extraction,True,Technically Ready

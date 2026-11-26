@@ -1,0 +1,5 @@
+﻿Artifact,Path,Available
+Final metadata,D:\Project\Multimodal_Leaf_Retrieval\dataset\processed\metadata_processed.csv,True
+Dataset manifest,D:\Project\Multimodal_Leaf_Retrieval\dataset\processed\dataset_manifest.json,True
+Image preprocessing configuration,D:\Project\Multimodal_Leaf_Retrieval\dataset\processed\preprocessing_config_final.json,True
+Text preprocessing configuration,D:\Project\Multimodal_Leaf_Retrieval\dataset\processed\text_preprocessing_config.json,True

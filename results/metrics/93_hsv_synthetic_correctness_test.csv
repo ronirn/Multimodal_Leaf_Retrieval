@@ -1,0 +1,4 @@
+﻿Channel,Expected Bin,Actual Bin,Passed
+Hue,10,10,True
+Saturation,15,15,True
+Value,15,15,True

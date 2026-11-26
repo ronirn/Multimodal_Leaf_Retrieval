@@ -1,0 +1,61 @@
+﻿sample_id,kelas,distance,angle,row_offset,col_offset,valid_pixel_pairs,matrix_sum,nonzero_matrix_cells,symmetric
+leaf_8f09fd62c7391c0d,Mangkok,1,0,0,1,18556,1.0000000000000002,217,True
+leaf_8f09fd62c7391c0d,Mangkok,1,45,1,1,18528,0.9999999999999999,233,True
+leaf_8f09fd62c7391c0d,Mangkok,1,90,1,0,18614,1.0,217,True
+leaf_8f09fd62c7391c0d,Mangkok,1,135,1,-1,18466,1.0,245,True
+leaf_8f09fd62c7391c0d,Mangkok,2,0,0,2,18309,1.0,243,True
+leaf_8f09fd62c7391c0d,Mangkok,2,45,2,2,18250,1.0,254,True
+leaf_8f09fd62c7391c0d,Mangkok,2,90,2,0,18424,0.9999999999999999,251,True
+leaf_8f09fd62c7391c0d,Mangkok,2,135,2,-2,18127,1.0,257,True
+leaf_8f09fd62c7391c0d,Mangkok,3,0,0,3,18062,1.0,249,True
+leaf_8f09fd62c7391c0d,Mangkok,3,45,3,3,17976,1.0,261,True
+leaf_8f09fd62c7391c0d,Mangkok,3,90,3,0,18234,1.0,256,True
+leaf_8f09fd62c7391c0d,Mangkok,3,135,3,-3,17794,1.0,266,True
+leaf_9c7d463a5bb1a561,Salam,1,0,0,1,11081,1.0,227,True
+leaf_9c7d463a5bb1a561,Salam,1,45,1,1,11072,0.9999999999999999,224,True
+leaf_9c7d463a5bb1a561,Salam,1,90,1,0,11220,1.0,170,True
+leaf_9c7d463a5bb1a561,Salam,1,135,1,-1,11085,1.0,231,True
+leaf_9c7d463a5bb1a561,Salam,2,0,0,2,10857,1.0,234,True
+leaf_9c7d463a5bb1a561,Salam,2,45,2,2,10838,1.0,238,True
+leaf_9c7d463a5bb1a561,Salam,2,90,2,0,11140,0.9999999999999999,198,True
+leaf_9c7d463a5bb1a561,Salam,2,135,2,-2,10864,1.0,229,True
+leaf_9c7d463a5bb1a561,Salam,3,0,0,3,10633,0.9999999999999999,229,True
+leaf_9c7d463a5bb1a561,Salam,3,45,3,3,10608,1.0,233,True
+leaf_9c7d463a5bb1a561,Salam,3,90,3,0,11057,0.9999999999999998,216,True
+leaf_9c7d463a5bb1a561,Salam,3,135,3,-3,10644,1.0,237,True
+leaf_d9d0b97961feaeac,Sambang Darah,1,0,0,1,26255,1.0,186,True
+leaf_d9d0b97961feaeac,Sambang Darah,1,45,1,1,26056,1.0,187,True
+leaf_d9d0b97961feaeac,Sambang Darah,1,90,1,0,26256,1.0,170,True
+leaf_d9d0b97961feaeac,Sambang Darah,1,135,1,-1,26273,1.0,188,True
+leaf_d9d0b97961feaeac,Sambang Darah,2,0,0,2,26017,1.0,203,True
+leaf_d9d0b97961feaeac,Sambang Darah,2,45,2,2,25618,0.9999999999999999,214,True
+leaf_d9d0b97961feaeac,Sambang Darah,2,90,2,0,26029,1.0,198,True
+leaf_d9d0b97961feaeac,Sambang Darah,2,135,2,-2,26054,1.0,207,True
+leaf_d9d0b97961feaeac,Sambang Darah,3,0,0,3,25782,1.0,218,True
+leaf_d9d0b97961feaeac,Sambang Darah,3,45,3,3,25185,1.0,215,True
+leaf_d9d0b97961feaeac,Sambang Darah,3,90,3,0,25803,1.0,204,True
+leaf_d9d0b97961feaeac,Sambang Darah,3,135,3,-3,25842,1.0000000000000002,216,True
+leaf_338b7ee25be7d52d,Sirih,1,0,0,1,28759,0.9999999999999999,206,True
+leaf_338b7ee25be7d52d,Sirih,1,45,1,1,28722,1.0,243,True
+leaf_338b7ee25be7d52d,Sirih,1,90,1,0,28757,1.0,231,True
+leaf_338b7ee25be7d52d,Sirih,1,135,1,-1,28583,1.0,237,True
+leaf_338b7ee25be7d52d,Sirih,2,0,0,2,28523,1.0,247,True
+leaf_338b7ee25be7d52d,Sirih,2,45,2,2,28441,1.0,276,True
+leaf_338b7ee25be7d52d,Sirih,2,90,2,0,28513,1.0,266,True
+leaf_338b7ee25be7d52d,Sirih,2,135,2,-2,28164,1.0,253,True
+leaf_338b7ee25be7d52d,Sirih,3,0,0,3,28290,1.0,267,True
+leaf_338b7ee25be7d52d,Sirih,3,45,3,3,28164,1.0,276,True
+leaf_338b7ee25be7d52d,Sirih,3,90,3,0,28270,1.0,270,True
+leaf_338b7ee25be7d52d,Sirih,3,135,3,-3,27770,1.0,261,True
+leaf_721244faca19b94f,Tapak Kuda,1,0,0,1,15208,1.0,233,True
+leaf_721244faca19b94f,Tapak Kuda,1,45,1,1,15157,1.0,236,True
+leaf_721244faca19b94f,Tapak Kuda,1,90,1,0,15305,1.0,230,True
+leaf_721244faca19b94f,Tapak Kuda,1,135,1,-1,15154,1.0,242,True
+leaf_721244faca19b94f,Tapak Kuda,2,0,0,2,14938,0.9999999999999999,242,True
+leaf_721244faca19b94f,Tapak Kuda,2,45,2,2,14834,1.0,239,True
+leaf_721244faca19b94f,Tapak Kuda,2,90,2,0,15134,1.0,241,True
+leaf_721244faca19b94f,Tapak Kuda,2,135,2,-2,14828,1.0,230,True
+leaf_721244faca19b94f,Tapak Kuda,3,0,0,3,14672,0.9999999999999999,234,True
+leaf_721244faca19b94f,Tapak Kuda,3,45,3,3,14522,1.0,225,True
+leaf_721244faca19b94f,Tapak Kuda,3,90,3,0,14965,1.0,253,True
+leaf_721244faca19b94f,Tapak Kuda,3,135,3,-3,14508,1.0,221,True

@@ -1,0 +1,7 @@
+Indicator,Before Refinement,After Refinement,Difference
+Total inspected images,104,104,0
+Foreground ratio below 5%,4,9,5
+Excessive border ratio,5,0,-5
+Passed initial check,64,64,0
+Needs review,40,40,0
+Failed inspections,0,0,0

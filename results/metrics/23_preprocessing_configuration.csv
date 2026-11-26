@@ -1,0 +1,20 @@
+Parameter,Value
+Target image size,256 x 256
+Preserve aspect ratio,True
+Padding color,"(255, 255, 255)"
+Downscale interpolation,INTER_AREA
+Upscale interpolation,INTER_CUBIC
+Apply denoising,False
+Median kernel size,3
+Apply segmentation,True
+Segmentation method,Adaptive Selection
+Morphological kernel size,3
+Opening iterations,1
+Closing iterations,1
+Keep largest component,True
+Minimum foreground ratio,0.05
+Maximum foreground ratio,0.9
+Image output format,.png
+Mask output format,.png
+Preview samples per class,2
+Random state,42

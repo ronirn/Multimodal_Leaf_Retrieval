@@ -1,0 +1,13 @@
+﻿Indicator,Result
+Total loaded samples,104
+Total classes,5
+Unique sample identifiers,104
+Available processed images,104
+Available binary masks,104
+Complete feature input pairs,104
+Technically valid multimodal pairs,104
+Initial checks passed,34
+Pending quality review,70
+Failed samples,0
+Target image width,256
+Target image height,256

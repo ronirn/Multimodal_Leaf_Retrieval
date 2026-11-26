@@ -1,0 +1,12 @@
+Quality Indicator,Count
+Total inspected images,104
+Potentially blurry images,13
+Low brightness images,0
+High brightness images,0
+Low contrast images,40
+Foreground ratio below minimum,4
+Foreground ratio above maximum,0
+Excessive border ratio,5
+Segmentation failures,0
+Images requiring review,40
+Failed inspections,0

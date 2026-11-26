@@ -1,0 +1,7 @@
+﻿property,expected_value,actual_value,absolute_difference,passed
+contrast,961.0,961.0,0.0,True
+dissimilarity,31.0,31.0,0.0,True
+homogeneity,0.0010395010395010396,0.0010395010395010396,0.0,True
+energy,0.7071067811865476,0.7071067811865476,0.0,True
+correlation,-1.0,-1.0,0.0,True
+ASM,0.5,0.5,0.0,True

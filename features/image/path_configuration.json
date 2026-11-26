@@ -1,0 +1,43 @@
+{
+    "project_root": "D:\\Project\\Multimodal_Leaf_Retrieval",
+    "input_files": {
+        "Final processed metadata": "dataset/processed/metadata_processed.csv",
+        "Dataset manifest": "dataset/processed/dataset_manifest.json",
+        "Image preprocessing configuration": "dataset/processed/preprocessing_config_final.json",
+        "Text preprocessing configuration": "dataset/processed/text_preprocessing_config.json",
+        "Preprocessing summary": "dataset/processed/preprocessing_summary.json"
+    },
+    "output_directories": [
+        "features",
+        "features/image",
+        "features/image/hsv",
+        "features/image/glcm",
+        "features/image/hu_moments",
+        "features/image/combined",
+        "features/image/scalers",
+        "results",
+        "results/figures",
+        "results/metrics",
+        "results/figures/image_feature_extraction"
+    ],
+    "planned_feature_outputs": {
+        "HSV features": "features/image/hsv/hsv_features.npy",
+        "GLCM features": "features/image/glcm/glcm_features.npy",
+        "Hu Moments features": "features/image/hu_moments/hu_moments_features.npy",
+        "Combined raw features": "features/image/combined/visual_features_raw.npy",
+        "Combined normalized features": "features/image/combined/visual_features_normalized.npy",
+        "Feature metadata": "features/image/image_feature_metadata.csv",
+        "Sample identifiers": "features/image/sample_ids.npy",
+        "Feature names": "features/image/feature_names.json",
+        "Feature configuration": "features/image/image_feature_config.json",
+        "Feature summary": "features/image/image_feature_summary.json",
+        "Feature manifest": "features/image/image_feature_manifest.json"
+    },
+    "inventory": {
+        "processed_rgb_images": 104,
+        "binary_masks": 104,
+        "matched_image_mask_paths": 104,
+        "images_without_masks": [],
+        "masks_without_images": []
+    }
+}

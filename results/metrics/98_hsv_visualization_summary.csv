@@ -1,0 +1,13 @@
+﻿Indicator,Result
+Total visualized samples,5.0
+Total represented classes,5.0
+Hue histogram bins,32.0
+Saturation histogram bins,16.0
+Value histogram bins,16.0
+Total HSV features,64.0
+Feature matrix rows,5.0
+Feature matrix columns,64.0
+Minimum feature value,0.0
+Maximum feature value,0.7127883322414923
+Mean nonzero features per sample,34.8
+Generated visualizations,4.0

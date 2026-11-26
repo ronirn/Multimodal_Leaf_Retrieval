@@ -1,0 +1,8 @@
+﻿moment,expected_value,actual_value,absolute_difference,passed
+Hu_1,0.1666259765625,0.1666259765625,0,True
+Hu_2,0,0,0,True
+Hu_3,0,0,0,True
+Hu_4,0,0,0,True
+Hu_5,0,0,0,True
+Hu_6,0,0,0,True
+Hu_7,0,0,0,True

@@ -1,0 +1,15 @@
+﻿Indicator,Result
+Total visualized samples,5
+Total represented classes,5
+Raw Hu Moments per sample,7
+Transformed Hu Moments per sample,7
+Feature matrix rows,5
+Feature matrix columns,7
+Total shape feature values,35
+Minimum transformed value,-12.366987212819312
+Maximum transformed value,12.037622784142771
+Positive transformed values,30
+Negative transformed values,5
+Zero transformed values,0
+Invariance moment tests passed,21
+Generated visualizations,6

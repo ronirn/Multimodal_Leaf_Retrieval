@@ -1,0 +1,20 @@
+﻿feature_group,validation_check,passed,status
+HSV,HSV values are non-negative,True,Passed
+HSV,HSV values do not exceed one,True,Passed
+HSV,Hue histograms sum to one,True,Passed
+HSV,Saturation histograms sum to one,True,Passed
+HSV,Value histograms sum to one,True,Passed
+HSV,Combined HSV histograms sum to three,True,Passed
+GLCM,GLCM contrast within theoretical range,True,Passed
+GLCM,GLCM dissimilarity within theoretical range,True,Passed
+GLCM,GLCM homogeneity within theoretical range,True,Passed
+GLCM,GLCM energy within theoretical range,True,Passed
+GLCM,GLCM correlation within theoretical range,True,Passed
+GLCM,GLCM ASM within theoretical range,True,Passed
+GLCM,GLCM Energy squared equals ASM,True,Passed
+GLCM,GLCM Contrast is not below Dissimilarity,True,Passed
+Hu Moments,Hu Moments contain seven features,True,Passed
+Hu Moments,Raw Hu Moments are finite,True,Passed
+Hu Moments,Signed log transformation is consistent,True,Passed
+Hu Moments,Exact zero Hu Moments are preserved,True,Passed
+Hu Moments,First four raw Hu Moments are non-negative,True,Passed

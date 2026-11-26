@@ -1,0 +1,19 @@
+Indicator,Result
+Total descriptions,104.0
+Successfully tokenized descriptions,104.0
+Total tokens,2188.0
+Vocabulary size,68.0
+Minimum tokens per description,18.0
+Maximum tokens per description,24.0
+Average tokens per description,21.03846153846154
+Average unique tokens,20.057692307692307
+Average lexical diversity,0.9543058271819712
+Empty token sequences,0.0
+Insufficient token sequences,0.0
+Invalid token formats,0.0
+Inconsistent tokenization,0.0
+Class names in tokens,0.0
+Duplicate token sequences,17.0
+Passed initial check,87.0
+Needs review,17.0
+Failed tokenization,0.0

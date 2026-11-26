@@ -1,0 +1,6 @@
+nama_file,kelas,original_width,original_height,scale,resized_width,resized_height,output_width,output_height,pad_left,pad_right,pad_top,pad_bottom,valid_output_size
+mangkok 10.jpeg,Mangkok,960,1280,0.2,192,256,256,256,32,32,0,0,True
+daun salam 10.jpeg,Salam,960,1280,0.2,192,256,256,256,32,32,0,0,True
+sambang darah 10.jpeg,Sambang Darah,960,1280,0.2,192,256,256,256,32,32,0,0,True
+Hijau_Sehat1.jpg,Sirih,224,224,1.1428571428571428,256,256,256,256,0,0,0,0,True
+tapak kuda 19.png,Tapak Kuda,1122,1402,0.1825962910128388,205,256,256,256,25,26,0,0,True

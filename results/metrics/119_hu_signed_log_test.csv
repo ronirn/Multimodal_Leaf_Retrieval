@@ -1,0 +1,8 @@
+﻿moment,raw_value,expected_value,actual_value,passed
+Hu_1,0.10000000000000001,1,1,True
+Hu_2,0.001,3,3,True
+Hu_3,9.9999999999999995e-07,6,6,True
+Hu_4,-9.9999999999999995e-07,-6,-6,True
+Hu_5,1.0000000000000001e-09,9,9,True
+Hu_6,-9.9999999999999998e-13,-12,-12,True
+Hu_7,0,0,0,True

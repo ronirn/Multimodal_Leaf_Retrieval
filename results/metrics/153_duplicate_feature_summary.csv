@@ -1,0 +1,5 @@
+﻿feature_group,total_samples,unique_vectors,duplicate_vector_groups,samples_in_duplicate_groups,redundant_vectors
+HSV,104,104,0,0,0
+GLCM,104,104,0,0,0
+Hu Moments,104,104,0,0,0
+All Visual Features,104,104,0,0,0

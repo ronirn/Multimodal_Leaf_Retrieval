@@ -1,0 +1,16 @@
+Quality Indicator,Count,Percentage (%)
+Total metadata records,105,100.0
+Valid image files,105,100.0
+Missing image files,0,0.0
+Corrupted image files,0,0.0
+Redundant image copies,1,0.95
+Hash failures,0,0.0
+Missing essential metadata,0,0.0
+Incomplete morphology attributes,0,0.0
+Invalid class labels,0,0.0
+Invalid leaf view labels,0,0.0
+Empty descriptions,0,0.0
+Descriptions containing class names,0,0.0
+Repeated descriptions,19,18.1
+Low-resolution images,0,0.0
+Manual verification notes,47,44.76

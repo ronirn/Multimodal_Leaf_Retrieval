@@ -1,0 +1,14 @@
+﻿Indicator,Result
+Total test samples,5
+Represented classes,5
+Raw Hu Moments per sample,7
+Transformed Hu Moments per sample,7
+Successful extractions,5
+Failed extractions,0
+Samples containing NaN,0
+Samples containing infinity,0
+Geometry tests passed,5
+Signed log tests passed,7
+Synthetic shape tests passed,7
+Invariance moment tests passed,21
+Mean extraction time (ms),3.0992999999999999

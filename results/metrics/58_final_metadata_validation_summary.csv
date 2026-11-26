@@ -1,0 +1,15 @@
+﻿Indicator,Result
+Total candidate records,104
+Unique sample IDs,104
+Valid processed RGB images,104
+Valid binary masks,104
+Aligned image-mask pairs,104
+Valid text descriptions,104
+Valid class labels,104
+Valid leaf view labels,104
+Valid multimodal pairs,104
+Invalid multimodal pairs,0
+Ready - Initial Checks Passed,34
+Ready - Pending Review,70
+Failed,0
+Total classes,5

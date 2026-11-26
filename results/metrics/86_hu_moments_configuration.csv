@@ -1,0 +1,8 @@
+﻿Parameter,Value
+Number of moments,7
+Binary mask input,True
+Log transformation,True
+Log epsilon,1e-30
+Zero handling,Preserve Zero
+Include petiole,True
+Feature dimension,7

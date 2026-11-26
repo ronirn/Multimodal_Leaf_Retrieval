@@ -1,0 +1,18 @@
+Indicator,Result
+Total metadata records,105.0
+Total plant classes,5.0
+Valid images,105.0
+Corrupted images,0.0
+Missing images,0.0
+Unique image hashes,104.0
+Redundant image copies,1.0
+Available descriptions,105.0
+Empty descriptions,0.0
+Front-view images,55.0
+Back-view images,50.0
+Unique image resolutions,4.0
+Class imbalance ratio,1.25
+Average description words,21.03
+Ready records,57.0
+Records requiring review,47.0
+Exclusion candidates,1.0

@@ -1,0 +1,18 @@
+﻿Indicator,Result
+Total validated samples,104
+Valid RGB dimensions,104
+Valid RGB data type,104
+Valid RGB mode,104
+Valid RGB format,104
+Valid mask dimensions,104
+Valid mask data type,104
+Valid mask mode,104
+Valid mask format,104
+Valid binary mask values,104
+Matching image-mask dimensions,104
+Matching image-mask paths,104
+Technically valid samples,104
+Technically invalid samples,0
+Passed initial check,34
+Needs review,70
+Failed validation,0

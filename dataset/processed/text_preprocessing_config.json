@@ -1,0 +1,44 @@
+{
+    "unicode_normalization": true,
+    "unicode_normalization_form": "NFKC",
+    "case_folding": true,
+    "remove_punctuation": true,
+    "normalize_whitespace": true,
+    "remove_numbers": false,
+    "remove_stopwords": false,
+    "apply_stemming": false,
+    "remove_class_names": true,
+    "class_name_aliases": {
+        "Mangkok": [
+            "daun mangkok",
+            "mangkok",
+            "mangkuk"
+        ],
+        "Salam": [
+            "daun salam",
+            "salam"
+        ],
+        "Sambang Darah": [
+            "daun sambang darah",
+            "sambang darah"
+        ],
+        "Sirih": [
+            "daun sirih",
+            "sirih"
+        ],
+        "Tapak Kuda": [
+            "daun tapak kuda",
+            "tapak kuda"
+        ]
+    },
+    "minimum_description_words": 5,
+    "source_text_column": "deskripsi_lengkap",
+    "output_text_column": "cleaned_description",
+    "tokenization_method": "Regex Tokenization",
+    "token_pattern": "(?u)\\b\\w\\w+\\b",
+    "minimum_tokens": 5,
+    "tokenized_text_column": "tokenized_description",
+    "token_list_column": "tokens_json",
+    "exploratory_vocabulary_size": 68,
+    "tfidf_fitted": false
+}

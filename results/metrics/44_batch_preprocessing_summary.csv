@@ -1,0 +1,13 @@
+Indicator,Result
+Total candidate images,104.0
+Successfully processed images,104.0
+Failed processing,0.0
+Passed initial check,54.0
+Images requiring review,50.0
+ROI applied,103.0
+Images with hole filling,8.0
+Total internal holes filled,21.0
+Images with remaining internal holes,3.0
+Small foreground images,0.0
+Excessive border ratio,0.0
+Processing success rate (%),100.0

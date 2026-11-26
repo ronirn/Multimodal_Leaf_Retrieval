@@ -1,0 +1,7 @@
+﻿Stage,Number of Samples,Retention Rate (%)
+Original Dataset,105,100.0
+Verified Candidates,104,99.05
+Image Preprocessing,104,99.05
+Text Cleaning,104,99.05
+Text Tokenization,104,99.05
+Final Metadata,104,99.05

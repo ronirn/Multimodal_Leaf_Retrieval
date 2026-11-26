@@ -1,0 +1,14 @@
+﻿Indicator,Result
+Total test samples,5.0
+Total represented classes,5.0
+Hue feature dimension,32.0
+Saturation feature dimension,16.0
+Value feature dimension,16.0
+Total HSV feature dimension,64.0
+Successful feature extractions,5.0
+Failed feature extractions,0.0
+Samples containing NaN,0.0
+Samples containing infinity,0.0
+Background exclusion tests passed,5.0
+Synthetic channel tests passed,3.0
+Mean extraction time (ms),1.6528

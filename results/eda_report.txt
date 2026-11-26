@@ -1,0 +1,42 @@
+MULTIMODAL MEDICINAL PLANT LEAF RETRIEVAL
+EXPLORATORY DATA ANALYSIS REPORT
+=================================================================
+
+                Indicator  Result
+   Total metadata records  105.00
+      Total plant classes    5.00
+             Valid images  105.00
+         Corrupted images    0.00
+           Missing images    0.00
+      Unique image hashes  104.00
+   Redundant image copies    1.00
+   Available descriptions  105.00
+       Empty descriptions    0.00
+        Front-view images   55.00
+         Back-view images   50.00
+ Unique image resolutions    4.00
+    Class imbalance ratio    1.25
+Average description words   21.03
+            Ready records   57.00
+ Records requiring review   47.00
+     Exclusion candidates    1.00
+
+PREPROCESSING RECOMMENDATIONS
+1. Verify image labels and morphological descriptions.
+2. Review exact duplicate groups before exclusion.
+3. Inspect near-duplicate and related leaf photographs.
+4. Preserve the original image dataset.
+5. Resize images while maintaining aspect ratio.
+6. Segment leaf objects from the background.
+7. Apply denoising only when necessary.
+8. Convert images into appropriate color spaces.
+9. Normalize and clean textual descriptions.
+10. Review explicit class names before TF-IDF.
+11. Identify front/back images of the same physical leaf.
+12. Separate reference, validation, and test queries.
+13. Prevent data leakage during retrieval evaluation.
+
+Dataset readiness: REQUIRES DATA CLEANING AND REVIEW
+Preliminary candidate records: 104
+
+Manual verification is required before final dataset approval.

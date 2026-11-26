@@ -1,0 +1,4 @@
+﻿feature_group,number_of_samples,feature_dimension,total_values,nan_values,infinite_values,all_finite,data_type
+HSV,104,64,6656,0,0,True,float64
+GLCM,104,72,7488,0,0,True,float64
+Hu Moments,104,7,728,0,0,True,float64

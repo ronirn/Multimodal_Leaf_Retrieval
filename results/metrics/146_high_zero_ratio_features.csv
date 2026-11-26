@@ -1,0 +1,4 @@
+﻿feature_group,feature_index,feature_name,minimum,maximum,mean,median,variance,standard_deviation,range,q1,q3,unique_values,zero_values,zero_ratio,negative_values,zero_variance,low_variance,high_zero_ratio,quality_status,quality_issues
+HSV,27,hsv_h_27,0,0.0030849770963821631,5.7642344604126526e-05,0,1.2874019304264632e-07,0.00035880383643802685,0.0030849770963821631,0,0,5,100,0.96153846153846156,0,False,True,True,Needs Attention,Low variance; High zero ratio
+HSV,25,hsv_h_25,0,0.001037344398340249,2.5554483564277751e-05,0,1.8146234286189911e-08,0.00013470795925330436,0.001037344398340249,0,0,6,99,0.95192307692307687,0,False,True,True,Needs Attention,Low variance; High zero ratio
+HSV,48,hsv_v_00,0,0.00017009695526450075,5.7998906622718963e-06,0,7.4786467781259852e-10,2.7347114615852959e-05,0.00017009695526450075,0,0,6,99,0.95192307692307687,0,False,True,True,Needs Attention,Low variance; High zero ratio

@@ -1,0 +1,213 @@
+{
+    "version": "1.0",
+    "dataset": {
+        "total_samples": 104,
+        "total_classes": 5,
+        "image_size": [
+            256,
+            256
+        ],
+        "image_mode": "RGB",
+        "mask_values": [
+            0,
+            255
+        ],
+        "use_foreground_mask": true
+    },
+    "hsv": {
+        "enabled": true,
+        "color_space": "HSV",
+        "histogram_type": "Independent Channel Histograms",
+        "h_bins": 32,
+        "s_bins": 16,
+        "v_bins": 16,
+        "h_range": [
+            0,
+            180
+        ],
+        "s_range": [
+            0,
+            256
+        ],
+        "v_range": [
+            0,
+            256
+        ],
+        "normalization": "L1 Per Channel",
+        "use_mask": true,
+        "feature_dimension": 64
+    },
+    "glcm": {
+        "enabled": true,
+        "levels": 32,
+        "quantization_method": "Uniform quantization from 256 to 32 gray levels",
+        "distances": [
+            1,
+            2,
+            3
+        ],
+        "angles_degrees": [
+            0,
+            45,
+            90,
+            135
+        ],
+        "angles_radians": [
+            0.0,
+            0.7853981633974483,
+            1.5707963267948966,
+            2.356194490192345
+        ],
+        "properties": [
+            "contrast",
+            "dissimilarity",
+            "homogeneity",
+            "energy",
+            "correlation",
+            "ASM"
+        ],
+        "symmetric": true,
+        "normalized": true,
+        "use_mask": true,
+        "mask_policy": "Both pixels must belong to foreground",
+        "aggregation": "None",
+        "feature_order": "Property -> Distance -> Angle",
+        "empty_pair_policy": "Raise Error",
+        "offset_convention": "Discrete directional steps (Chebyshev distance)",
+        "offsets": [
+            {
+                "Distance": 1,
+                "Angle (Degree)": 0,
+                "Row Offset": 0,
+                "Column Offset": 1
+            },
+            {
+                "Distance": 1,
+                "Angle (Degree)": 45,
+                "Row Offset": 1,
+                "Column Offset": 1
+            },
+            {
+                "Distance": 1,
+                "Angle (Degree)": 90,
+                "Row Offset": 1,
+                "Column Offset": 0
+            },
+            {
+                "Distance": 1,
+                "Angle (Degree)": 135,
+                "Row Offset": 1,
+                "Column Offset": -1
+            },
+            {
+                "Distance": 2,
+                "Angle (Degree)": 0,
+                "Row Offset": 0,
+                "Column Offset": 2
+            },
+            {
+                "Distance": 2,
+                "Angle (Degree)": 45,
+                "Row Offset": 2,
+                "Column Offset": 2
+            },
+            {
+                "Distance": 2,
+                "Angle (Degree)": 90,
+                "Row Offset": 2,
+                "Column Offset": 0
+            },
+            {
+                "Distance": 2,
+                "Angle (Degree)": 135,
+                "Row Offset": 2,
+                "Column Offset": -2
+            },
+            {
+                "Distance": 3,
+                "Angle (Degree)": 0,
+                "Row Offset": 0,
+                "Column Offset": 3
+            },
+            {
+                "Distance": 3,
+                "Angle (Degree)": 45,
+                "Row Offset": 3,
+                "Column Offset": 3
+            },
+            {
+                "Distance": 3,
+                "Angle (Degree)": 90,
+                "Row Offset": 3,
+                "Column Offset": 0
+            },
+            {
+                "Distance": 3,
+                "Angle (Degree)": 135,
+                "Row Offset": 3,
+                "Column Offset": -3
+            }
+        ],
+        "feature_dimension": 72
+    },
+    "hu_moments": {
+        "enabled": true,
+        "number_of_moments": 7,
+        "binary_mask": true,
+        "log_transform": true,
+        "log_transform_method": "-sign(hu) * log10(max(abs(hu), epsilon))",
+        "epsilon": 1e-30,
+        "zero_policy": "Preserve Zero",
+        "include_petiole_if_present": true,
+        "feature_dimension": 7
+    },
+    "normalization": {
+        "method": "StandardScaler",
+        "normalize_groups": true,
+        "balance_group_dimensions": true,
+        "fit_scope": "Reference Dataset Only",
+        "group_weights": {
+            "HSV": 0.3333333333333333,
+            "GLCM": 0.3333333333333333,
+            "Hu Moments": 0.3333333333333333
+        },
+        "group_scale_factors": {
+            "HSV": 0.07216878364870322,
+            "GLCM": 0.06804138174397717,
+            "Hu Moments": 0.21821789023599236
+        },
+        "final_l2_normalization": false,
+        "scalers_fitted": false
+    },
+    "concatenation": {
+        "method": "Feature Concatenation",
+        "order": [
+            "HSV",
+            "GLCM",
+            "Hu Moments"
+        ],
+        "group_slices": {
+            "HSV": [
+                0,
+                64
+            ],
+            "GLCM": [
+                64,
+                136
+            ],
+            "Hu Moments": [
+                136,
+                143
+            ]
+        },
+        "total_dimension": 143
+    },
+    "similarity_matching": {
+        "image_method": "Euclidean Distance",
+        "text_method": "Cosine Similarity",
+        "multimodal_fusion": "Weighted Score Late Fusion"
+    },
+    "feature_dtype": "float64",
+    "random_state": 42,
+    "feature_extraction_completed": false
+}

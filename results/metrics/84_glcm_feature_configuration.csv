@@ -1,0 +1,10 @@
+﻿Parameter,Value
+Gray levels,32
+Distances,"[1, 2, 3]"
+Angles,"[0, 45, 90, 135]"
+Properties,"contrast, dissimilarity, homogeneity, energy, correlation, ASM"
+Symmetric matrix,True
+Normalized matrix,True
+Foreground masking,True
+Aggregation,None
+Feature dimension,72

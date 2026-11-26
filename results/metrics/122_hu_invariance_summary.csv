@@ -1,0 +1,4 @@
+﻿test,total_moments,passed_moments,maximum_difference,passed
+Translation,7,7,3.7296554733501353e-17,True
+Rotation 90 Degrees,7,7,1.7347234759768071e-17,True
+Horizontal Reflection,7,7,1.7347234759768071e-17,True

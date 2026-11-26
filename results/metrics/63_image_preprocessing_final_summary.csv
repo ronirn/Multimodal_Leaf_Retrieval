@@ -1,0 +1,16 @@
+﻿Indicator,Result
+Total candidate images,104.0
+Successfully processed images,104.0
+Failed image preprocessing,0.0
+Valid RGB images,104.0
+Valid binary masks,104.0
+Aligned image-mask pairs,104.0
+ROI successfully applied,103.0
+ROI not applied,1.0
+Images with controlled hole filling,8.0
+Images with remaining internal holes,3.0
+Small foreground images,0.0
+Excessive border ratio,0.0
+Mean final foreground ratio (%),29.3651
+Image quality initial checks passed,54.0
+Image quality pending review,50.0

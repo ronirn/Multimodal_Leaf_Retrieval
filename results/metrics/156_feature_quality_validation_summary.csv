@@ -1,0 +1,25 @@
+﻿Indicator,Result
+Total samples,104
+Total visual features,143
+Total feature values,14872
+NaN values,0
+Infinite values,0
+Mathematical validation checks,19
+Mathematical checks passed,19
+Constant features,0
+Low variance nonconstant features,15
+High zero ratio features,3
+Nonconstant features,143
+Highly correlated feature pairs,374
+Features evaluated by IQR,122
+Features skipped due to zero IQR,21
+Features containing outliers,81
+Total outlier values,696
+Samples containing outliers,103
+Samples requiring previous dataset review,70
+Identical combined feature vector groups,0
+Features removed,0
+Samples removed,0
+Normalization fitted,False
+Final feature concatenation completed,False
+Ready for feature normalization,True

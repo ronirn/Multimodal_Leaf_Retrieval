@@ -1,0 +1,105 @@
+﻿sample_id,nama_file,kelas,tampilan_daun,validation_status,hsv_outlier_count,glcm_outlier_count,hu_outlier_count,total_outlier_count,outlier_ratio,contains_outlier,numerical_valid,feature_quality_status
+leaf_165d2f32c7fda707,mangkok 10.jpeg,Mangkok,belakang,Needs Review,7,0,1,8,0.055944055944055944,True,True,Statistical Review
+leaf_8473270c3702f48b,mangkok 11.png,Mangkok,belakang,Passed Initial Check,5,0,0,5,0.034965034965034968,True,True,Statistical Review
+leaf_8f425d66b1e193b9,mangkok 12.png,Mangkok,belakang,Passed Initial Check,2,0,0,2,0.013986013986013986,True,True,Statistical Review
+leaf_0ebc8f4f3ee9c8d5,mangkok 13.png,Mangkok,belakang,Passed Initial Check,2,0,0,2,0.013986013986013986,True,True,Statistical Review
+leaf_b0c5f55e42499cae,mangkok 14.png,Mangkok,belakang,Passed Initial Check,1,0,0,1,0.006993006993006993,True,True,Statistical Review
+leaf_de9e3e4ed5d89dfc,mangkok 15.png,Mangkok,belakang,Passed Initial Check,2,0,0,2,0.013986013986013986,True,True,Statistical Review
+leaf_23b789945271fb92,mangkok 6.jpeg,Mangkok,belakang,Needs Review,4,0,0,4,0.027972027972027972,True,True,Statistical Review
+leaf_84de0dc731018607,mangkok 7.jpeg,Mangkok,belakang,Needs Review,3,0,1,4,0.027972027972027972,True,True,Statistical Review
+leaf_36d4f083fa652592,mangkok 8.jpeg,Mangkok,belakang,Needs Review,5,0,0,5,0.034965034965034968,True,True,Statistical Review
+leaf_c9d8d87fbc748d16,mangkok 9.jpeg,Mangkok,belakang,Needs Review,6,0,0,6,0.04195804195804196,True,True,Statistical Review
+leaf_4de65b11758965f6,mangkok 1.jpeg,Mangkok,depan,Needs Review,1,0,1,2,0.013986013986013986,True,True,Statistical Review
+leaf_8f09fd62c7391c0d,mangkok 10.png,Mangkok,depan,Passed Initial Check,2,0,0,2,0.013986013986013986,True,True,Statistical Review
+leaf_a6da65cb0493ceef,mangkok 2.jpeg,Mangkok,depan,Needs Review,0,0,1,1,0.006993006993006993,True,True,Statistical Review
+leaf_1a80f5749cc68900,mangkok 3.jpeg,Mangkok,depan,Needs Review,7,0,0,7,0.048951048951048952,True,True,Statistical Review
+leaf_ef0854556175e2b0,mangkok 4.jpeg,Mangkok,depan,Needs Review,7,0,0,7,0.048951048951048952,True,True,Statistical Review
+leaf_fff6592ee517103e,mangkok 5.jpeg,Mangkok,depan,Passed Initial Check,1,4,0,5,0.034965034965034968,True,True,Statistical Review
+leaf_e9cfa616ea5f1f19,mangkok 6.png,Mangkok,depan,Passed Initial Check,3,0,0,3,0.02097902097902098,True,True,Statistical Review
+leaf_12439b9ebf0eb8d3,mangkok 7.png,Mangkok,depan,Passed Initial Check,3,0,1,4,0.027972027972027972,True,True,Statistical Review
+leaf_de455d31a4df8c43,mangkok 8.png,Mangkok,depan,Passed Initial Check,3,0,0,3,0.02097902097902098,True,True,Statistical Review
+leaf_663a651dd51f9c94,mangkok 9.png,Mangkok,depan,Passed Initial Check,3,0,0,3,0.02097902097902098,True,True,Statistical Review
+leaf_c29e2560b188fb2c,daun salam 10.jpeg,Salam,belakang,Needs Review,8,18,1,27,0.1888111888111888,True,True,Statistical Review
+leaf_c4840a77b6d0c158,daun salam 11.png,Salam,belakang,Passed Initial Check,2,0,0,2,0.013986013986013986,True,True,Statistical Review
+leaf_fd4b025e69b9f321,daun salam 12.png,Salam,belakang,Passed Initial Check,4,0,0,4,0.027972027972027972,True,True,Statistical Review
+leaf_45414f432e49469a,daun salam 13.png,Salam,belakang,Passed Initial Check,8,0,0,8,0.055944055944055944,True,True,Statistical Review
+leaf_1da6bca6d5320ae2,daun salam 14.png,Salam,belakang,Needs Review,9,0,0,9,0.062937062937062943,True,True,Statistical Review
+leaf_b8ebef3e9731e352,daun salam 15.png,Salam,belakang,Passed Initial Check,3,0,0,3,0.02097902097902098,True,True,Statistical Review
+leaf_8809ccde35d4b945,daun salam 6.jpeg,Salam,belakang,Needs Review,4,24,0,28,0.19580419580419581,True,True,Statistical Review
+leaf_1ebaf9512209a61f,daun salam 7.jpeg,Salam,belakang,Needs Review,7,1,0,8,0.055944055944055944,True,True,Statistical Review
+leaf_68b0c81b496519cd,daun salam 9.jpeg,Salam,belakang,Needs Review,6,8,0,14,0.097902097902097904,True,True,Statistical Review
+leaf_0a8999109a734f1d,daun salam 1.jpeg,Salam,depan,Needs Review,7,17,0,24,0.16783216783216784,True,True,Statistical Review
+leaf_ca3c3b7a5db35c1d,daun salam 10.png,Salam,depan,Passed Initial Check,7,0,1,8,0.055944055944055944,True,True,Statistical Review
+leaf_a838808299383884,daun salam 2.jpeg,Salam,depan,Needs Review,8,26,0,34,0.23776223776223776,True,True,Statistical Review
+leaf_a7704c0316865cd7,daun salam 3.jpeg,Salam,depan,Needs Review,8,17,0,25,0.17482517482517482,True,True,Statistical Review
+leaf_ac463b36b6e61052,daun salam 4.jpeg,Salam,depan,Needs Review,8,19,1,28,0.19580419580419581,True,True,Statistical Review
+leaf_fdd0a74681efeff6,daun salam 5.jpeg,Salam,depan,Needs Review,8,1,0,9,0.062937062937062943,True,True,Statistical Review
+leaf_9a710afa1505390e,daun salam 6.png,Salam,depan,Passed Initial Check,2,0,0,2,0.013986013986013986,True,True,Statistical Review
+leaf_d12754f94f5ff7fc,daun salam 7.png,Salam,depan,Passed Initial Check,2,0,0,2,0.013986013986013986,True,True,Statistical Review
+leaf_9c7d463a5bb1a561,daun salam 8.png,Salam,depan,Passed Initial Check,6,0,0,6,0.04195804195804196,True,True,Statistical Review
+leaf_a57a1270adf22253,daun salam 9.png,Salam,depan,Passed Initial Check,2,0,0,2,0.013986013986013986,True,True,Statistical Review
+leaf_df16548c53396aeb,sambang darah 10.jpeg,Sambang Darah,belakang,Needs Review,3,0,0,3,0.02097902097902098,True,True,Statistical Review
+leaf_1a45e1e109be76ee,sambang darah 11.png,Sambang Darah,belakang,Needs Review,6,0,0,6,0.04195804195804196,True,True,Statistical Review
+leaf_ad660412d798bd65,sambang darah 12.png,Sambang Darah,belakang,Needs Review,4,0,0,4,0.027972027972027972,True,True,Statistical Review
+leaf_b230b822f6a38f1c,sambang darah 13.png,Sambang Darah,belakang,Needs Review,4,0,0,4,0.027972027972027972,True,True,Statistical Review
+leaf_22cacefa73426c68,sambang darah 14.png,Sambang Darah,belakang,Needs Review,2,0,0,2,0.013986013986013986,True,True,Statistical Review
+leaf_519627b0b7c509da,sambang darah 15.png,Sambang Darah,belakang,Needs Review,3,0,1,4,0.027972027972027972,True,True,Statistical Review
+leaf_e57489e729c801d7,sambang darah 6.jpeg,Sambang Darah,belakang,Needs Review,3,16,0,19,0.13286713286713286,True,True,Statistical Review
+leaf_62ef0ed49ad4e2d3,sambang darah 7.jpeg,Sambang Darah,belakang,Needs Review,4,1,0,5,0.034965034965034968,True,True,Statistical Review
+leaf_ce6b898792146850,sambang darah 8.jpeg,Sambang Darah,belakang,Needs Review,5,5,0,10,0.069930069930069935,True,True,Statistical Review
+leaf_3c3fafa9c7913736,sambang darah 9.jpeg,Sambang Darah,belakang,Needs Review,5,16,0,21,0.14685314685314685,True,True,Statistical Review
+leaf_eacbf33f28cb6b28,sambang darah 1.jpeg,Sambang Darah,depan,Needs Review,9,11,0,20,0.13986013986013987,True,True,Statistical Review
+leaf_0e58a931923c4e40,sambang darah 10.png,Sambang Darah,depan,Passed Initial Check,1,0,0,1,0.006993006993006993,True,True,Statistical Review
+leaf_a21b39e63066049c,sambang darah 2.jpeg,Sambang Darah,depan,Needs Review,9,0,0,9,0.062937062937062943,True,True,Statistical Review
+leaf_ad626da03abf4532,sambang darah 3.jpeg,Sambang Darah,depan,Needs Review,9,0,0,9,0.062937062937062943,True,True,Statistical Review
+leaf_45d4826ed41c51b4,sambang darah 4.jpeg,Sambang Darah,depan,Needs Review,10,0,0,10,0.069930069930069935,True,True,Statistical Review
+leaf_c289208cb093f769,sambang darah 5.jpeg,Sambang Darah,depan,Needs Review,11,0,0,11,0.076923076923076927,True,True,Statistical Review
+leaf_620d73b8cfb217b6,sambang darah 6.png,Sambang Darah,depan,Needs Review,8,0,0,8,0.055944055944055944,True,True,Statistical Review
+leaf_d9d0b97961feaeac,sambang darah 7.png,Sambang Darah,depan,Passed Initial Check,3,0,0,3,0.02097902097902098,True,True,Statistical Review
+leaf_6e53ecd8713a9128,sambang darah 8.png,Sambang Darah,depan,Passed Initial Check,7,0,0,7,0.048951048951048952,True,True,Statistical Review
+leaf_ac5e952a9ae56c36,sambang darah 9.png,Sambang Darah,depan,Passed Initial Check,5,0,1,6,0.04195804195804196,True,True,Statistical Review
+leaf_1d4f34320b1b8b8d,Hijau_Sehat1.jpg,Sirih,belakang,Passed Initial Check,2,0,0,2,0.013986013986013986,True,True,Statistical Review
+leaf_d0f42a660bf2b3ee,Hijau_Sehat2.jpg,Sirih,belakang,Passed Initial Check,2,0,0,2,0.013986013986013986,True,True,Statistical Review
+leaf_1ef1bffd5f4186c1,Hijau_Sehat5.jpg,Sirih,belakang,Passed Initial Check,4,1,0,5,0.034965034965034968,True,True,Statistical Review
+leaf_a280fa2ae09d329b,Hijau_Sehat7.jpg,Sirih,belakang,Passed Initial Check,4,0,0,4,0.027972027972027972,True,True,Statistical Review
+leaf_6fcc4b52889490ca,Hijau_Sehat8.jpg,Sirih,belakang,Passed Initial Check,4,0,0,4,0.027972027972027972,True,True,Statistical Review
+leaf_1193856cea5a1287,sirih 10.jpeg,Sirih,belakang,Needs Review,3,0,0,3,0.02097902097902098,True,True,Statistical Review
+leaf_3f1cc0b714c4164e,sirih 6.jpeg,Sirih,belakang,Needs Review,1,0,0,1,0.006993006993006993,True,True,Statistical Review
+leaf_347efec2afc78e44,sirih 7.jpeg,Sirih,belakang,Passed Initial Check,0,0,0,0,0,False,True,Passed Initial Check
+leaf_9dad4bfe9db99263,sirih 8.jpeg,Sirih,belakang,Needs Review,7,0,1,8,0.055944055944055944,True,True,Statistical Review
+leaf_57905de77bc7f811,sirih 9.jpeg,Sirih,belakang,Needs Review,9,0,1,10,0.069930069930069935,True,True,Statistical Review
+leaf_1b922f2bd904d1fc,Hijau_Sehat11.jpg,Sirih,depan,Needs Review,10,2,0,12,0.083916083916083919,True,True,Statistical Review
+leaf_6397705392627f3c,Hijau_Sehat3.jpg,Sirih,depan,Needs Review,10,3,0,13,0.090909090909090912,True,True,Statistical Review
+leaf_c8bf421408781594,Hijau_Sehat4.jpg,Sirih,depan,Needs Review,8,0,0,8,0.055944055944055944,True,True,Statistical Review
+leaf_66c00e535609f186,Hijau_Sehat6.jpg,Sirih,depan,Needs Review,10,0,0,10,0.069930069930069935,True,True,Statistical Review
+leaf_2574445c571a7dc3,Hijau_Sehat9.jpg,Sirih,depan,Needs Review,12,5,0,17,0.11888111888111888,True,True,Statistical Review
+leaf_afba9495e801278e,sirih 1.jpeg,Sirih,depan,Needs Review,3,0,0,3,0.02097902097902098,True,True,Statistical Review
+leaf_693f93e999e7c6a3,sirih 2.jpeg,Sirih,depan,Passed Initial Check,4,0,0,4,0.027972027972027972,True,True,Statistical Review
+leaf_7f9c59b7594e5833,sirih 3.jpeg,Sirih,depan,Passed Initial Check,4,0,0,4,0.027972027972027972,True,True,Statistical Review
+leaf_338b7ee25be7d52d,sirih 4.jpeg,Sirih,depan,Passed Initial Check,4,0,0,4,0.027972027972027972,True,True,Statistical Review
+leaf_47ab03f4e71a0717,sirih 5.jpeg,Sirih,depan,Passed Initial Check,2,0,0,2,0.013986013986013986,True,True,Statistical Review
+leaf_7be37d0f3c7e488a,tapak kuda 11.jpeg,Tapak Kuda,belakang,Needs Review,6,0,1,7,0.048951048951048952,True,True,Statistical Review
+leaf_328651beb5d48483,tapak kuda 12.jpeg,Tapak Kuda,belakang,Needs Review,1,0,1,2,0.013986013986013986,True,True,Statistical Review
+leaf_22bf36f7b3abd78c,tapak kuda 13.jpeg,Tapak Kuda,belakang,Needs Review,1,12,1,14,0.097902097902097904,True,True,Statistical Review
+leaf_8129d1a748a118de,tapak kuda 14.jpeg,Tapak Kuda,belakang,Needs Review,1,0,1,2,0.013986013986013986,True,True,Statistical Review
+leaf_549670d83912aed7,tapak kuda 15.jpeg,Tapak Kuda,belakang,Needs Review,1,0,1,2,0.013986013986013986,True,True,Statistical Review
+leaf_655b2ffd3499bbea,tapak kuda 16.png,Tapak Kuda,belakang,Needs Review,5,0,0,5,0.034965034965034968,True,True,Statistical Review
+leaf_43ae297ca838aebb,tapak kuda 17.png,Tapak Kuda,belakang,Needs Review,7,0,0,7,0.048951048951048952,True,True,Statistical Review
+leaf_28712bf465655732,tapak kuda 18.png,Tapak Kuda,belakang,Needs Review,7,1,0,8,0.055944055944055944,True,True,Statistical Review
+leaf_721244faca19b94f,tapak kuda 19.png,Tapak Kuda,belakang,Needs Review,3,3,0,6,0.04195804195804196,True,True,Statistical Review
+leaf_bb707568bb3ed9ce,tapak kuda 20.png,Tapak Kuda,belakang,Needs Review,6,1,0,7,0.048951048951048952,True,True,Statistical Review
+leaf_d755ad14cfc3f8bf,tapak kuda 1.jpeg,Tapak Kuda,depan,Needs Review,1,0,1,2,0.013986013986013986,True,True,Statistical Review
+leaf_2976a10d6fff3cd5,tapak kuda 10.jpeg,Tapak Kuda,depan,Needs Review,1,0,1,2,0.013986013986013986,True,True,Statistical Review
+leaf_acea8a79416b27c0,tapak kuda 10.png,Tapak Kuda,depan,Needs Review,1,0,0,1,0.006993006993006993,True,True,Statistical Review
+leaf_f72f88757c4de8ba,tapak kuda 11.png,Tapak Kuda,depan,Needs Review,2,0,0,2,0.013986013986013986,True,True,Statistical Review
+leaf_93d488369f0a2cc4,tapak kuda 12.png,Tapak Kuda,depan,Needs Review,2,0,0,2,0.013986013986013986,True,True,Statistical Review
+leaf_25803393f335987a,tapak kuda 13.png,Tapak Kuda,depan,Needs Review,1,0,0,1,0.006993006993006993,True,True,Statistical Review
+leaf_012389d8d324b6c8,tapak kuda 14.png,Tapak Kuda,depan,Needs Review,2,0,0,2,0.013986013986013986,True,True,Statistical Review
+leaf_193e4fc967161d9a,tapak kuda 2.jpeg,Tapak Kuda,depan,Needs Review,1,0,1,2,0.013986013986013986,True,True,Statistical Review
+leaf_d19ceb083d0a7e82,tapak kuda 3.jpeg,Tapak Kuda,depan,Needs Review,1,0,1,2,0.013986013986013986,True,True,Statistical Review
+leaf_8d727458048a81c7,tapak kuda 4.jpeg,Tapak Kuda,depan,Needs Review,1,0,0,1,0.006993006993006993,True,True,Statistical Review
+leaf_8f8d177305fb06f2,tapak kuda 5.jpeg,Tapak Kuda,depan,Needs Review,1,13,1,15,0.1048951048951049,True,True,Statistical Review
+leaf_cef9b535077d5397,tapak kuda 6.jpeg,Tapak Kuda,depan,Needs Review,1,0,1,2,0.013986013986013986,True,True,Statistical Review
+leaf_5fafb790c4773c55,tapak kuda 7.jpeg,Tapak Kuda,depan,Needs Review,1,0,0,1,0.006993006993006993,True,True,Statistical Review
+leaf_055c97f32cf57da5,tapak kuda 8.jpeg,Tapak Kuda,depan,Needs Review,0,0,1,1,0.006993006993006993,True,True,Statistical Review
+leaf_41f02313a5460236,tapak kuda 9.jpeg,Tapak Kuda,depan,Needs Review,2,0,1,3,0.02097902097902098,True,True,Statistical Review

@@ -1,0 +1,4 @@
+﻿Channel,Number of Bins,Value Range,Normalization
+Hue,32,"[0, 180)",L1
+Saturation,16,"[0, 256)",L1
+Value,16,"[0, 256)",L1

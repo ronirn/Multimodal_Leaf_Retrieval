@@ -1,0 +1,361 @@
+﻿sample_id,kelas,property,distance,angle,value
+leaf_8f09fd62c7391c0d,Mangkok,contrast,1,0,2.0785190773873676
+leaf_8f09fd62c7391c0d,Mangkok,contrast,1,45,2.9869386873920507
+leaf_8f09fd62c7391c0d,Mangkok,contrast,1,90,2.2761899645428185
+leaf_8f09fd62c7391c0d,Mangkok,contrast,1,135,3.0850752734755775
+leaf_8f09fd62c7391c0d,Mangkok,contrast,2,0,4.005844120377965
+leaf_8f09fd62c7391c0d,Mangkok,contrast,2,45,5.314465753424652
+leaf_8f09fd62c7391c0d,Mangkok,contrast,2,90,4.435844550586192
+leaf_8f09fd62c7391c0d,Mangkok,contrast,2,135,5.133888674353174
+leaf_8f09fd62c7391c0d,Mangkok,contrast,3,0,5.319898128667919
+leaf_8f09fd62c7391c0d,Mangkok,contrast,3,45,6.809356920338227
+leaf_8f09fd62c7391c0d,Mangkok,contrast,3,90,5.893331139629264
+leaf_8f09fd62c7391c0d,Mangkok,contrast,3,135,6.261267843093182
+leaf_8f09fd62c7391c0d,Mangkok,dissimilarity,1,0,0.8983078249622771
+leaf_8f09fd62c7391c0d,Mangkok,dissimilarity,1,45,1.1200345423143327
+leaf_8f09fd62c7391c0d,Mangkok,dissimilarity,1,90,0.9326850757494368
+leaf_8f09fd62c7391c0d,Mangkok,dissimilarity,1,135,1.1098776129102148
+leaf_8f09fd62c7391c0d,Mangkok,dissimilarity,2,0,1.32486755147742
+leaf_8f09fd62c7391c0d,Mangkok,dissimilarity,2,45,1.5646575342465747
+leaf_8f09fd62c7391c0d,Mangkok,dissimilarity,2,90,1.3834129396439414
+leaf_8f09fd62c7391c0d,Mangkok,dissimilarity,2,135,1.5132123351906
+leaf_8f09fd62c7391c0d,Mangkok,dissimilarity,3,0,1.5794485660502706
+leaf_8f09fd62c7391c0d,Mangkok,dissimilarity,3,45,1.8004561637739196
+leaf_8f09fd62c7391c0d,Mangkok,dissimilarity,3,90,1.6368871339256323
+leaf_8f09fd62c7391c0d,Mangkok,dissimilarity,3,135,1.7178262335618755
+leaf_8f09fd62c7391c0d,Mangkok,homogeneity,1,0,0.6514868951243891
+leaf_8f09fd62c7391c0d,Mangkok,homogeneity,1,45,0.5941458522040665
+leaf_8f09fd62c7391c0d,Mangkok,homogeneity,1,90,0.6473772922041198
+leaf_8f09fd62c7391c0d,Mangkok,homogeneity,1,135,0.6034547237149908
+leaf_8f09fd62c7391c0d,Mangkok,homogeneity,2,0,0.5489242632047435
+leaf_8f09fd62c7391c0d,Mangkok,homogeneity,2,45,0.5017090684254939
+leaf_8f09fd62c7391c0d,Mangkok,homogeneity,2,90,0.5417945008901948
+leaf_8f09fd62c7391c0d,Mangkok,homogeneity,2,135,0.5146099920627737
+leaf_8f09fd62c7391c0d,Mangkok,homogeneity,3,0,0.49361759527711696
+leaf_8f09fd62c7391c0d,Mangkok,homogeneity,3,45,0.4608771815041571
+leaf_8f09fd62c7391c0d,Mangkok,homogeneity,3,90,0.4929962052632619
+leaf_8f09fd62c7391c0d,Mangkok,homogeneity,3,135,0.47343266890622254
+leaf_8f09fd62c7391c0d,Mangkok,energy,1,0,0.16205329939951968
+leaf_8f09fd62c7391c0d,Mangkok,energy,1,45,0.14878870643826386
+leaf_8f09fd62c7391c0d,Mangkok,energy,1,90,0.1617861782141107
+leaf_8f09fd62c7391c0d,Mangkok,energy,1,135,0.15028118871943416
+leaf_8f09fd62c7391c0d,Mangkok,energy,2,0,0.13792742628741037
+leaf_8f09fd62c7391c0d,Mangkok,energy,2,45,0.12898371175575746
+leaf_8f09fd62c7391c0d,Mangkok,energy,2,90,0.1370683780845115
+leaf_8f09fd62c7391c0d,Mangkok,energy,2,135,0.13058190518637014
+leaf_8f09fd62c7391c0d,Mangkok,energy,3,0,0.12708231402722417
+leaf_8f09fd62c7391c0d,Mangkok,energy,3,45,0.12146029238837681
+leaf_8f09fd62c7391c0d,Mangkok,energy,3,90,0.12742839900193814
+leaf_8f09fd62c7391c0d,Mangkok,energy,3,135,0.12248777929582866
+leaf_8f09fd62c7391c0d,Mangkok,correlation,1,0,0.8865626053041915
+leaf_8f09fd62c7391c0d,Mangkok,correlation,1,45,0.8366234641087271
+leaf_8f09fd62c7391c0d,Mangkok,correlation,1,90,0.875499791783955
+leaf_8f09fd62c7391c0d,Mangkok,correlation,1,135,0.8319317777823467
+leaf_8f09fd62c7391c0d,Mangkok,correlation,2,0,0.7816038321142529
+leaf_8f09fd62c7391c0d,Mangkok,correlation,2,45,0.7090464480883952
+leaf_8f09fd62c7391c0d,Mangkok,correlation,2,90,0.7566723219075415
+leaf_8f09fd62c7391c0d,Mangkok,correlation,2,135,0.7213468744885405
+leaf_8f09fd62c7391c0d,Mangkok,correlation,3,0,0.71074913591331
+leaf_8f09fd62c7391c0d,Mangkok,correlation,3,45,0.6287393781776108
+leaf_8f09fd62c7391c0d,Mangkok,correlation,3,90,0.6768237581161245
+leaf_8f09fd62c7391c0d,Mangkok,correlation,3,135,0.6628906571422032
+leaf_8f09fd62c7391c0d,Mangkok,ASM,1,0,0.026261271846270366
+leaf_8f09fd62c7391c0d,Mangkok,ASM,1,45,0.022138079163571862
+leaf_8f09fd62c7391c0d,Mangkok,ASM,1,90,0.026174767461127985
+leaf_8f09fd62c7391c0d,Mangkok,ASM,1,135,0.022584435682926184
+leaf_8f09fd62c7391c0d,Mangkok,ASM,2,0,0.01902397492226902
+leaf_8f09fd62c7391c0d,Mangkok,ASM,2,45,0.016636797898292328
+leaf_8f09fd62c7391c0d,Mangkok,ASM,2,90,0.018787740270718594
+leaf_8f09fd62c7391c0d,Mangkok,ASM,2,135,0.01705163396210216
+leaf_8f09fd62c7391c0d,Mangkok,ASM,3,0,0.016149914538514016
+leaf_8f09fd62c7391c0d,Mangkok,ASM,3,45,0.014752602627069988
+leaf_8f09fd62c7391c0d,Mangkok,ASM,3,90,0.01623799687219715
+leaf_8f09fd62c7391c0d,Mangkok,ASM,3,135,0.015003256076823632
+leaf_9c7d463a5bb1a561,Salam,contrast,1,0,3.467196101434889
+leaf_9c7d463a5bb1a561,Salam,contrast,1,45,3.3551300578034717
+leaf_9c7d463a5bb1a561,Salam,contrast,1,90,1.2102495543672034
+leaf_9c7d463a5bb1a561,Salam,contrast,1,135,3.9251240414975213
+leaf_9c7d463a5bb1a561,Salam,contrast,2,0,5.902459242884775
+leaf_9c7d463a5bb1a561,Salam,contrast,2,45,5.423878944454703
+leaf_9c7d463a5bb1a561,Salam,contrast,2,90,2.290305206463199
+leaf_9c7d463a5bb1a561,Salam,contrast,2,135,7.202687776141398
+leaf_9c7d463a5bb1a561,Salam,contrast,3,0,7.79413147747576
+leaf_9c7d463a5bb1a561,Salam,contrast,3,45,6.952582956259431
+leaf_9c7d463a5bb1a561,Salam,contrast,3,90,3.287057972325227
+leaf_9c7d463a5bb1a561,Salam,contrast,3,135,9.66102968808719
+leaf_9c7d463a5bb1a561,Salam,dissimilarity,1,0,0.976987636494901
+leaf_9c7d463a5bb1a561,Salam,dissimilarity,1,45,0.9548410404624282
+leaf_9c7d463a5bb1a561,Salam,dissimilarity,1,90,0.6676470588235304
+leaf_9c7d463a5bb1a561,Salam,dissimilarity,1,135,1.1491204330175913
+leaf_9c7d463a5bb1a561,Salam,dissimilarity,2,0,1.441558441558441
+leaf_9c7d463a5bb1a561,Salam,dissimilarity,2,45,1.3504336593467436
+leaf_9c7d463a5bb1a561,Salam,dissimilarity,2,90,0.9879712746858178
+leaf_9c7d463a5bb1a561,Salam,dissimilarity,2,135,1.7104197349042733
+leaf_9c7d463a5bb1a561,Salam,dissimilarity,3,0,1.7723126116806127
+leaf_9c7d463a5bb1a561,Salam,dissimilarity,3,45,1.63546380090498
+leaf_9c7d463a5bb1a561,Salam,dissimilarity,3,90,1.2139820927918976
+leaf_9c7d463a5bb1a561,Salam,dissimilarity,3,135,2.06914693724164
+leaf_9c7d463a5bb1a561,Salam,homogeneity,1,0,0.6672353441549489
+leaf_9c7d463a5bb1a561,Salam,homogeneity,1,45,0.6690632397096968
+leaf_9c7d463a5bb1a561,Salam,homogeneity,1,90,0.713596084786143
+leaf_9c7d463a5bb1a561,Salam,homogeneity,1,135,0.6123729183327192
+leaf_9c7d463a5bb1a561,Salam,homogeneity,2,0,0.55624642136493
+leaf_9c7d463a5bb1a561,Salam,homogeneity,2,45,0.5735103836425671
+leaf_9c7d463a5bb1a561,Salam,homogeneity,2,90,0.6151578133883805
+leaf_9c7d463a5bb1a561,Salam,homogeneity,2,135,0.4995425393377445
+leaf_9c7d463a5bb1a561,Salam,homogeneity,3,0,0.4914538744575447
+leaf_9c7d463a5bb1a561,Salam,homogeneity,3,45,0.5142719000102053
+leaf_9c7d463a5bb1a561,Salam,homogeneity,3,90,0.5602739227266295
+leaf_9c7d463a5bb1a561,Salam,homogeneity,3,135,0.4466088545591698
+leaf_9c7d463a5bb1a561,Salam,energy,1,0,0.20304715777383833
+leaf_9c7d463a5bb1a561,Salam,energy,1,45,0.1984358369775036
+leaf_9c7d463a5bb1a561,Salam,energy,1,90,0.21054984453132503
+leaf_9c7d463a5bb1a561,Salam,energy,1,135,0.19040740884793106
+leaf_9c7d463a5bb1a561,Salam,energy,2,0,0.1719319895107994
+leaf_9c7d463a5bb1a561,Salam,energy,2,45,0.17285968155252393
+leaf_9c7d463a5bb1a561,Salam,energy,2,90,0.18236059111169026
+leaf_9c7d463a5bb1a561,Salam,energy,2,135,0.1613154217164772
+leaf_9c7d463a5bb1a561,Salam,energy,3,0,0.15625068699125108
+leaf_9c7d463a5bb1a561,Salam,energy,3,45,0.1597253255283764
+leaf_9c7d463a5bb1a561,Salam,energy,3,90,0.16932724234423
+leaf_9c7d463a5bb1a561,Salam,energy,3,135,0.14906734090556947
+leaf_9c7d463a5bb1a561,Salam,correlation,1,0,0.830065413700077
+leaf_9c7d463a5bb1a561,Salam,correlation,1,45,0.8367196704699174
+leaf_9c7d463a5bb1a561,Salam,correlation,1,90,0.9420201138583241
+leaf_9c7d463a5bb1a561,Salam,correlation,1,135,0.8064149955921454
+leaf_9c7d463a5bb1a561,Salam,correlation,2,0,0.7073391436993232
+leaf_9c7d463a5bb1a561,Salam,correlation,2,45,0.7329479312286005
+leaf_9c7d463a5bb1a561,Salam,correlation,2,90,0.8891371725039757
+leaf_9c7d463a5bb1a561,Salam,correlation,2,135,0.6405785283873626
+leaf_9c7d463a5bb1a561,Salam,correlation,3,0,0.6119531258024645
+leaf_9c7d463a5bb1a561,Salam,correlation,3,45,0.6560290123685862
+leaf_9c7d463a5bb1a561,Salam,correlation,3,90,0.8394822922527662
+leaf_9c7d463a5bb1a561,Salam,correlation,3,135,0.5186149360966078
+leaf_9c7d463a5bb1a561,Salam,ASM,1,0,0.041228148280033995
+leaf_9c7d463a5bb1a561,Salam,ASM,1,45,0.039376781396962386
+leaf_9c7d463a5bb1a561,Salam,ASM,1,90,0.044331237032165134
+leaf_9c7d463a5bb1a561,Salam,ASM,1,135,0.036254981344183174
+leaf_9c7d463a5bb1a561,Salam,ASM,2,0,0.029560609017141637
+leaf_9c7d463a5bb1a561,Salam,ASM,2,45,0.029880469506439983
+leaf_9c7d463a5bb1a561,Salam,ASM,2,90,0.03325538519060508
+leaf_9c7d463a5bb1a561,Salam,ASM,2,135,0.026022665283564884
+leaf_9c7d463a5bb1a561,Salam,ASM,3,0,0.02441427718523792
+leaf_9c7d463a5bb1a561,Salam,ASM,3,45,0.025512179615145805
+leaf_9c7d463a5bb1a561,Salam,ASM,3,90,0.028671714999901596
+leaf_9c7d463a5bb1a561,Salam,ASM,3,135,0.022221072124657265
+leaf_d9d0b97961feaeac,Sambang Darah,contrast,1,0,1.8446772043420303
+leaf_d9d0b97961feaeac,Sambang Darah,contrast,1,45,2.5172704943199267
+leaf_d9d0b97961feaeac,Sambang Darah,contrast,1,90,1.5762111517367439
+leaf_d9d0b97961feaeac,Sambang Darah,contrast,1,135,2.306474327256121
+leaf_d9d0b97961feaeac,Sambang Darah,contrast,2,0,3.3762924241841867
+leaf_d9d0b97961feaeac,Sambang Darah,contrast,2,45,4.301116402529477
+leaf_d9d0b97961feaeac,Sambang Darah,contrast,2,90,2.8953090783357074
+leaf_d9d0b97961feaeac,Sambang Darah,contrast,2,135,3.6641206724495348
+leaf_d9d0b97961feaeac,Sambang Darah,contrast,3,0,4.69785121402529
+leaf_d9d0b97961feaeac,Sambang Darah,contrast,3,45,5.519118522930316
+leaf_d9d0b97961feaeac,Sambang Darah,contrast,3,90,3.904933534860292
+leaf_d9d0b97961feaeac,Sambang Darah,contrast,3,135,4.941838866960756
+leaf_d9d0b97961feaeac,Sambang Darah,dissimilarity,1,0,0.8185107598552649
+leaf_d9d0b97961feaeac,Sambang Darah,dissimilarity,1,45,0.9807338041142162
+leaf_d9d0b97961feaeac,Sambang Darah,dissimilarity,1,90,0.7760892748324175
+leaf_d9d0b97961feaeac,Sambang Darah,dissimilarity,1,135,0.9442393331557113
+leaf_d9d0b97961feaeac,Sambang Darah,dissimilarity,2,0,1.146903947418996
+leaf_d9d0b97961feaeac,Sambang Darah,dissimilarity,2,45,1.335623389804046
+leaf_d9d0b97961feaeac,Sambang Darah,dissimilarity,2,90,1.1004648661108771
+leaf_d9d0b97961feaeac,Sambang Darah,dissimilarity,2,135,1.2161280417594251
+leaf_d9d0b97961feaeac,Sambang Darah,dissimilarity,3,0,1.3718873632767046
+leaf_d9d0b97961feaeac,Sambang Darah,dissimilarity,3,45,1.553265832837008
+leaf_d9d0b97961feaeac,Sambang Darah,dissimilarity,3,90,1.2936867806069068
+leaf_d9d0b97961feaeac,Sambang Darah,dissimilarity,3,135,1.437543533782214
+leaf_d9d0b97961feaeac,Sambang Darah,homogeneity,1,0,0.6776785437069643
+leaf_d9d0b97961feaeac,Sambang Darah,homogeneity,1,45,0.6359842122548228
+leaf_d9d0b97961feaeac,Sambang Darah,homogeneity,1,90,0.6833259417374902
+leaf_d9d0b97961feaeac,Sambang Darah,homogeneity,1,135,0.6407533082924782
+leaf_d9d0b97961feaeac,Sambang Darah,homogeneity,2,0,0.598917869026081
+leaf_d9d0b97961feaeac,Sambang Darah,homogeneity,2,45,0.5567435243920289
+leaf_d9d0b97961feaeac,Sambang Darah,homogeneity,2,90,0.5985363000085684
+leaf_d9d0b97961feaeac,Sambang Darah,homogeneity,2,135,0.5782683249407802
+leaf_d9d0b97961feaeac,Sambang Darah,homogeneity,3,0,0.5547488059361556
+leaf_d9d0b97961feaeac,Sambang Darah,homogeneity,3,45,0.5126126387320529
+leaf_d9d0b97961feaeac,Sambang Darah,homogeneity,3,90,0.5579802921380626
+leaf_d9d0b97961feaeac,Sambang Darah,homogeneity,3,135,0.5339611004544614
+leaf_d9d0b97961feaeac,Sambang Darah,energy,1,0,0.2282512052481959
+leaf_d9d0b97961feaeac,Sambang Darah,energy,1,45,0.21751192656986573
+leaf_d9d0b97961feaeac,Sambang Darah,energy,1,90,0.22945707682348093
+leaf_d9d0b97961feaeac,Sambang Darah,energy,1,135,0.21200748033898228
+leaf_d9d0b97961feaeac,Sambang Darah,energy,2,0,0.20408895311099928
+leaf_d9d0b97961feaeac,Sambang Darah,energy,2,45,0.19487981189225465
+leaf_d9d0b97961feaeac,Sambang Darah,energy,2,90,0.20377190560350522
+leaf_d9d0b97961feaeac,Sambang Darah,energy,2,135,0.19592601910132454
+leaf_d9d0b97961feaeac,Sambang Darah,energy,3,0,0.19275388903213597
+leaf_d9d0b97961feaeac,Sambang Darah,energy,3,45,0.18468895363254717
+leaf_d9d0b97961feaeac,Sambang Darah,energy,3,90,0.19318560046375077
+leaf_d9d0b97961feaeac,Sambang Darah,energy,3,135,0.18560878473633508
+leaf_d9d0b97961feaeac,Sambang Darah,correlation,1,0,0.8846208099939977
+leaf_d9d0b97961feaeac,Sambang Darah,correlation,1,45,0.8407641581080455
+leaf_d9d0b97961feaeac,Sambang Darah,correlation,1,90,0.901822989587957
+leaf_d9d0b97961feaeac,Sambang Darah,correlation,1,135,0.8550446461937766
+leaf_d9d0b97961feaeac,Sambang Darah,correlation,2,0,0.7846693096506029
+leaf_d9d0b97961feaeac,Sambang Darah,correlation,2,45,0.7221723404279932
+leaf_d9d0b97961feaeac,Sambang Darah,correlation,2,90,0.8170824195764365
+leaf_d9d0b97961feaeac,Sambang Darah,correlation,2,135,0.7635058659507769
+leaf_d9d0b97961feaeac,Sambang Darah,correlation,3,0,0.6965397657750789
+leaf_d9d0b97961feaeac,Sambang Darah,correlation,3,45,0.639494508183316
+leaf_d9d0b97961feaeac,Sambang Darah,correlation,3,90,0.7508321082896455
+leaf_d9d0b97961feaeac,Sambang Darah,correlation,3,135,0.675699563712775
+leaf_d9d0b97961feaeac,Sambang Darah,ASM,1,0,0.05209861269725405
+leaf_d9d0b97961feaeac,Sambang Darah,ASM,1,45,0.04731143820013466
+leaf_d9d0b97961feaeac,Sambang Darah,ASM,1,90,0.05265055010437683
+leaf_d9d0b97961feaeac,Sambang Darah,ASM,1,135,0.04494717171968396
+leaf_d9d0b97961feaeac,Sambang Darah,ASM,2,0,0.04165230078194366
+leaf_d9d0b97961feaeac,Sambang Darah,ASM,2,45,0.037978141083160555
+leaf_d9d0b97961feaeac,Sambang Darah,ASM,2,90,0.04152298951328384
+leaf_d9d0b97961feaeac,Sambang Darah,ASM,2,135,0.03838700496089259
+leaf_d9d0b97961feaeac,Sambang Darah,ASM,3,0,0.03715406173701299
+leaf_d9d0b97961feaeac,Sambang Darah,ASM,3,45,0.03411000959388516
+leaf_d9d0b97961feaeac,Sambang Darah,ASM,3,90,0.037320676226539944
+leaf_d9d0b97961feaeac,Sambang Darah,ASM,3,135,0.034450620971299174
+leaf_338b7ee25be7d52d,Sirih,contrast,1,0,1.3785249834834317
+leaf_338b7ee25be7d52d,Sirih,contrast,1,45,2.996727247406165
+leaf_338b7ee25be7d52d,Sirih,contrast,1,90,1.7976144938623668
+leaf_338b7ee25be7d52d,Sirih,contrast,1,135,1.9193926459783797
+leaf_338b7ee25be7d52d,Sirih,contrast,2,0,3.1369771763138505
+leaf_338b7ee25be7d52d,Sirih,contrast,2,45,6.389965191097359
+leaf_338b7ee25be7d52d,Sirih,contrast,2,90,3.948795286360611
+leaf_338b7ee25be7d52d,Sirih,contrast,2,135,3.81870472944184
+leaf_338b7ee25be7d52d,Sirih,contrast,3,0,4.834782608695661
+leaf_338b7ee25be7d52d,Sirih,contrast,3,45,9.128639397812806
+leaf_338b7ee25be7d52d,Sirih,contrast,3,90,5.708454191722682
+leaf_338b7ee25be7d52d,Sirih,contrast,3,135,5.478934101548432
+leaf_338b7ee25be7d52d,Sirih,dissimilarity,1,0,0.737543030007997
+leaf_338b7ee25be7d52d,Sirih,dissimilarity,1,45,1.1465079033493477
+leaf_338b7ee25be7d52d,Sirih,dissimilarity,1,90,0.8276245783635299
+leaf_338b7ee25be7d52d,Sirih,dissimilarity,1,135,0.8617010110905076
+leaf_338b7ee25be7d52d,Sirih,dissimilarity,2,0,1.1848683518563967
+leaf_338b7ee25be7d52d,Sirih,dissimilarity,2,45,1.7961745367603112
+leaf_338b7ee25be7d52d,Sirih,dissimilarity,2,90,1.3204503209062537
+leaf_338b7ee25be7d52d,Sirih,dissimilarity,2,135,1.3119585286180937
+leaf_338b7ee25be7d52d,Sirih,dissimilarity,3,0,1.52470837751856
+leaf_338b7ee25be7d52d,Sirih,dissimilarity,3,45,2.2571722766652442
+leaf_338b7ee25be7d52d,Sirih,dissimilarity,3,90,1.6698974177573414
+leaf_338b7ee25be7d52d,Sirih,dissimilarity,3,135,1.641411595246669
+leaf_338b7ee25be7d52d,Sirih,homogeneity,1,0,0.6884835702773684
+leaf_338b7ee25be7d52d,Sirih,homogeneity,1,45,0.5792400076892483
+leaf_338b7ee25be7d52d,Sirih,homogeneity,1,90,0.6670592037799963
+leaf_338b7ee25be7d52d,Sirih,homogeneity,1,135,0.6549994374645669
+leaf_338b7ee25be7d52d,Sirih,homogeneity,2,0,0.5683433130864973
+leaf_338b7ee25be7d52d,Sirih,homogeneity,2,45,0.44834961853531907
+leaf_338b7ee25be7d52d,Sirih,homogeneity,2,90,0.5431394060173679
+leaf_338b7ee25be7d52d,Sirih,homogeneity,2,135,0.5431382859612222
+leaf_338b7ee25be7d52d,Sirih,homogeneity,3,0,0.4972902470114065
+leaf_338b7ee25be7d52d,Sirih,homogeneity,3,45,0.37442553001841095
+leaf_338b7ee25be7d52d,Sirih,homogeneity,3,90,0.47135046922363805
+leaf_338b7ee25be7d52d,Sirih,homogeneity,3,135,0.4782110689137988
+leaf_338b7ee25be7d52d,Sirih,energy,1,0,0.1647190022887368
+leaf_338b7ee25be7d52d,Sirih,energy,1,45,0.138370902302044
+leaf_338b7ee25be7d52d,Sirih,energy,1,90,0.15958323172604044
+leaf_338b7ee25be7d52d,Sirih,energy,1,135,0.15716188334475037
+leaf_338b7ee25be7d52d,Sirih,energy,2,0,0.1362736945309911
+leaf_338b7ee25be7d52d,Sirih,energy,2,45,0.11275060417453422
+leaf_338b7ee25be7d52d,Sirih,energy,2,90,0.1312920850367377
+leaf_338b7ee25be7d52d,Sirih,energy,2,135,0.13232180150839437
+leaf_338b7ee25be7d52d,Sirih,energy,3,0,0.12202614488210489
+leaf_338b7ee25be7d52d,Sirih,energy,3,45,0.1011773852541185
+leaf_338b7ee25be7d52d,Sirih,energy,3,90,0.11733065684454565
+leaf_338b7ee25be7d52d,Sirih,energy,3,135,0.1194668187099781
+leaf_338b7ee25be7d52d,Sirih,correlation,1,0,0.9301878304312892
+leaf_338b7ee25be7d52d,Sirih,correlation,1,45,0.847575971726178
+leaf_338b7ee25be7d52d,Sirih,correlation,1,90,0.9085869028482031
+leaf_338b7ee25be7d52d,Sirih,correlation,1,135,0.9021215905229958
+leaf_338b7ee25be7d52d,Sirih,correlation,2,0,0.839954268767101
+leaf_338b7ee25be7d52d,Sirih,correlation,2,45,0.6731523334293841
+leaf_338b7ee25be7d52d,Sirih,correlation,2,90,0.7984608326797904
+leaf_338b7ee25be7d52d,Sirih,correlation,2,135,0.803605068339829
+leaf_338b7ee25be7d52d,Sirih,correlation,3,0,0.7517580866960942
+leaf_338b7ee25be7d52d,Sirih,correlation,3,45,0.5316845590110233
+leaf_338b7ee25be7d52d,Sirih,correlation,3,90,0.7082300615482826
+leaf_338b7ee25be7d52d,Sirih,correlation,3,135,0.7164518959608084
+leaf_338b7ee25be7d52d,Sirih,ASM,1,0,0.027132349714996878
+leaf_338b7ee25be7d52d,Sirih,ASM,1,45,0.019146506603881803
+leaf_338b7ee25be7d52d,Sirih,ASM,1,90,0.025466807848127118
+leaf_338b7ee25be7d52d,Sirih,ASM,1,135,0.024699857576468927
+leaf_338b7ee25be7d52d,Sirih,ASM,2,0,0.01857051982112588
+leaf_338b7ee25be7d52d,Sirih,ASM,2,45,0.012712698741722494
+leaf_338b7ee25be7d52d,Sirih,ASM,2,90,0.017237611593293962
+leaf_338b7ee25be7d52d,Sirih,ASM,2,135,0.01750905915442692
+leaf_338b7ee25be7d52d,Sirih,ASM,3,0,0.014890380034788453
+leaf_338b7ee25be7d52d,Sirih,ASM,3,45,0.010236863286860316
+leaf_338b7ee25be7d52d,Sirih,ASM,3,90,0.013766483035572527
+leaf_338b7ee25be7d52d,Sirih,ASM,3,135,0.014272320772682775
+leaf_721244faca19b94f,Tapak Kuda,contrast,1,0,2.3183193056286204
+leaf_721244faca19b94f,Tapak Kuda,contrast,1,45,2.588177079897077
+leaf_721244faca19b94f,Tapak Kuda,contrast,1,90,1.9244691277360293
+leaf_721244faca19b94f,Tapak Kuda,contrast,1,135,3.137455457305001
+leaf_721244faca19b94f,Tapak Kuda,contrast,2,0,3.617418663810418
+leaf_721244faca19b94f,Tapak Kuda,contrast,2,45,3.637117432924361
+leaf_721244faca19b94f,Tapak Kuda,contrast,2,90,2.9822254526232284
+leaf_721244faca19b94f,Tapak Kuda,contrast,2,135,3.984893444834095
+leaf_721244faca19b94f,Tapak Kuda,contrast,3,0,4.297369138495086
+leaf_721244faca19b94f,Tapak Kuda,contrast,3,45,4.1528026442638755
+leaf_721244faca19b94f,Tapak Kuda,contrast,3,90,3.3805546274640865
+leaf_721244faca19b94f,Tapak Kuda,contrast,3,135,4.5235042735042725
+leaf_721244faca19b94f,Tapak Kuda,dissimilarity,1,0,0.9495660178853255
+leaf_721244faca19b94f,Tapak Kuda,dissimilarity,1,45,1.01530645906182
+leaf_721244faca19b94f,Tapak Kuda,dissimilarity,1,90,0.8739627572688645
+leaf_721244faca19b94f,Tapak Kuda,dissimilarity,1,135,1.173617526725617
+leaf_721244faca19b94f,Tapak Kuda,dissimilarity,2,0,1.2666354264292412
+leaf_721244faca19b94f,Tapak Kuda,dissimilarity,2,45,1.267156532290682
+leaf_721244faca19b94f,Tapak Kuda,dissimilarity,2,90,1.1463591912250573
+leaf_721244faca19b94f,Tapak Kuda,dissimilarity,2,135,1.3904774750472082
+leaf_721244faca19b94f,Tapak Kuda,dissimilarity,3,0,1.4116003271537594
+leaf_721244faca19b94f,Tapak Kuda,dissimilarity,3,45,1.3887205619060743
+leaf_721244faca19b94f,Tapak Kuda,dissimilarity,3,90,1.2547945205479465
+leaf_721244faca19b94f,Tapak Kuda,dissimilarity,3,135,1.5047559966914803
+leaf_721244faca19b94f,Tapak Kuda,homogeneity,1,0,0.631071051687476
+leaf_721244faca19b94f,Tapak Kuda,homogeneity,1,45,0.6121938217228056
+leaf_721244faca19b94f,Tapak Kuda,homogeneity,1,90,0.6470390639205145
+leaf_721244faca19b94f,Tapak Kuda,homogeneity,1,135,0.5649604752888827
+leaf_721244faca19b94f,Tapak Kuda,homogeneity,2,0,0.5472642506210943
+leaf_721244faca19b94f,Tapak Kuda,homogeneity,2,45,0.5483767547491268
+leaf_721244faca19b94f,Tapak Kuda,homogeneity,2,90,0.570270714310583
+leaf_721244faca19b94f,Tapak Kuda,homogeneity,2,135,0.5095464180783615
+leaf_721244faca19b94f,Tapak Kuda,homogeneity,3,0,0.5154508706101175
+leaf_721244faca19b94f,Tapak Kuda,homogeneity,3,45,0.5176899022606315
+leaf_721244faca19b94f,Tapak Kuda,homogeneity,3,90,0.5402052187255042
+leaf_721244faca19b94f,Tapak Kuda,homogeneity,3,135,0.48515282579094643
+leaf_721244faca19b94f,Tapak Kuda,energy,1,0,0.21968282454518068
+leaf_721244faca19b94f,Tapak Kuda,energy,1,45,0.213736969196355
+leaf_721244faca19b94f,Tapak Kuda,energy,1,90,0.2218881082688288
+leaf_721244faca19b94f,Tapak Kuda,energy,1,135,0.20184827471656455
+leaf_721244faca19b94f,Tapak Kuda,energy,2,0,0.19863712085866428
+leaf_721244faca19b94f,Tapak Kuda,energy,2,45,0.19828074476487406
+leaf_721244faca19b94f,Tapak Kuda,energy,2,90,0.20110397767612842
+leaf_721244faca19b94f,Tapak Kuda,energy,2,135,0.18986860298719485
+leaf_721244faca19b94f,Tapak Kuda,energy,3,0,0.1926398124915651
+leaf_721244faca19b94f,Tapak Kuda,energy,3,45,0.19227127792853252
+leaf_721244faca19b94f,Tapak Kuda,energy,3,90,0.19444288073847033
+leaf_721244faca19b94f,Tapak Kuda,energy,3,135,0.1855349000020266
+leaf_721244faca19b94f,Tapak Kuda,correlation,1,0,0.62121373951646
+leaf_721244faca19b94f,Tapak Kuda,correlation,1,45,0.5791014975479274
+leaf_721244faca19b94f,Tapak Kuda,correlation,1,90,0.6937754250066717
+leaf_721244faca19b94f,Tapak Kuda,correlation,1,135,0.48977834560083694
+leaf_721244faca19b94f,Tapak Kuda,correlation,2,0,0.40012832162834433
+leaf_721244faca19b94f,Tapak Kuda,correlation,2,45,0.3994052099792448
+leaf_721244faca19b94f,Tapak Kuda,correlation,2,90,0.5195788821887983
+leaf_721244faca19b94f,Tapak Kuda,correlation,2,135,0.34078167138239646
+leaf_721244faca19b94f,Tapak Kuda,correlation,3,0,0.2872753762459807
+leaf_721244faca19b94f,Tapak Kuda,correlation,3,45,0.3150140958296761
+leaf_721244faca19b94f,Tapak Kuda,correlation,3,90,0.4516454402080951
+leaf_721244faca19b94f,Tapak Kuda,correlation,3,135,0.24925553368682826
+leaf_721244faca19b94f,Tapak Kuda,ASM,1,0,0.04826054340014864
+leaf_721244faca19b94f,Tapak Kuda,ASM,1,45,0.045683492001243595
+leaf_721244faca19b94f,Tapak Kuda,ASM,1,90,0.049234332591119485
+leaf_721244faca19b94f,Tapak Kuda,ASM,1,135,0.04074272600605371
+leaf_721244faca19b94f,Tapak Kuda,ASM,2,0,0.0394567057830196
+leaf_721244faca19b94f,Tapak Kuda,ASM,2,45,0.03931525374451313
+leaf_721244faca19b94f,Tapak Kuda,ASM,2,90,0.040442809837160754
+leaf_721244faca19b94f,Tapak Kuda,ASM,2,135,0.03605008640030902
+leaf_721244faca19b94f,Tapak Kuda,ASM,3,0,0.03711009735678535
+leaf_721244faca19b94f,Tapak Kuda,ASM,3,45,0.03696824431627099
+leaf_721244faca19b94f,Tapak Kuda,ASM,3,90,0.037808033869874996
+leaf_721244faca19b94f,Tapak Kuda,ASM,3,135,0.034423199118762016

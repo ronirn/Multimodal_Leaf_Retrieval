@@ -1,0 +1,3 @@
+nama_file,kelas,tampilan_daun,image_path,image_hash,duplicate_remove_candidate
+daun salam 7.jpeg,Salam,belakang,dataset/daun_salam/foto belakang/daun salam 7.jpeg,83f7ce36bf9f7b4e03f0e561be6da4c21be7cc8c6a340d7ffba593f82d1d4c63,False
+daun salam 8.jpeg,Salam,belakang,dataset/daun_salam/foto belakang/daun salam 8.jpeg,83f7ce36bf9f7b4e03f0e561be6da4c21be7cc8c6a340d7ffba593f82d1d4c63,True

@@ -1,0 +1,1 @@
+﻿sample_id,nama_file,kelas,tampilan_daun,validation_status,foreground_pixels,foreground_ratio,hsv_dimension,glcm_dimension,hu_dimension,total_dimension,minimum_glcm_pairs,maximum_glcm_pairs,hsv_time_ms,glcm_time_ms,hu_time_ms,total_extraction_time_ms,processing_time_ms,contains_nan,contains_inf,extraction_success,extraction_status,failed_stage,error_message

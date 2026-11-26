@@ -1,0 +1,16 @@
+﻿Category,Indicator,Result
+Dataset,Original dataset,105.0
+Dataset,Removed candidates,1.0
+Dataset,Final samples,104.0
+Dataset,Total classes,5.0
+Dataset,Dataset retention rate (%),99.05
+Image,Valid RGB images,104.0
+Image,Valid binary masks,104.0
+Image,Image preprocessing success rate (%),100.0
+Text,Valid descriptions,104.0
+Text,Total tokens,2188.0
+Text,Exploratory vocabulary size,68.0
+Multimodal,Valid multimodal pairs,104.0
+Multimodal,Initial checks passed,34.0
+Multimodal,Pending quality review,70.0
+Multimodal,Invalid multimodal pairs,0.0

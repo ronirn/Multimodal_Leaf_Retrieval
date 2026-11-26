@@ -1,0 +1,6 @@
+nama_file,kelas,selected_method,foreground_ratio,valid_region_ratio,border_ratio,quality_score,quality_status
+mangkok 10.jpeg,Mangkok,HSV Thresholding,0.1963653564453125,0.2618204752604167,0.0,0.9717730712890625,Passed Initial Check
+daun salam 10.jpeg,Salam,Otsu Dark Foreground,0.112579345703125,0.15010579427083334,0.0,0.955015869140625,Passed Initial Check
+sambang darah 10.jpeg,Sambang Darah,Otsu Dark Foreground,0.1035003662109375,0.13800048828125,0.0,0.9532000732421875,Passed Initial Check
+Hijau_Sehat1.jpg,Sirih,HSV Thresholding,0.224578857421875,0.224578857421875,0.0,0.9661868286132812,Passed Initial Check
+tapak kuda 19.png,Tapak Kuda,Otsu Dark Foreground,0.221771240234375,0.2769435975609756,0.0,0.9740415396341463,Passed Initial Check

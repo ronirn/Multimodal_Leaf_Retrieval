@@ -1,0 +1,9 @@
+,description_char_count,description_word_count
+count,105.0,105.0
+mean,157.08,21.03
+std,11.14,1.23
+min,127.0,18.0
+25%,150.0,20.0
+50%,156.0,21.0
+75%,164.0,22.0
+max,182.0,24.0

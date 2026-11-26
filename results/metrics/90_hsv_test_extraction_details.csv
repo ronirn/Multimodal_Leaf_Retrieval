@@ -1,0 +1,6 @@
+﻿sample_id,nama_file,kelas,tampilan_daun,validation_status,foreground_pixels,foreground_ratio,hue_dimension,saturation_dimension,value_dimension,total_dimension,hue_histogram_sum,saturation_histogram_sum,value_histogram_sum,combined_feature_sum,minimum_feature_value,maximum_feature_value,nonzero_features,contains_nan,contains_inf,extraction_time_ms,extraction_status
+leaf_8f09fd62c7391c0d,mangkok 10.png,Mangkok,depan,Passed Initial Check,18806,0.286956787109375,32,16,16,64,1.0,1.0,1.0,3.0,0.0,0.6941401680314793,34,False,False,5.722400000195194,Success
+leaf_9c7d463a5bb1a561,daun salam 8.png,Salam,depan,Passed Initial Check,11306,0.172515869140625,32,16,16,64,1.0,0.9999999999999999,1.0,3.0,0.0,0.606138333628162,35,False,False,0.6461000002673245,Success
+leaf_d9d0b97961feaeac,sambang darah 7.png,Sambang Darah,depan,Passed Initial Check,26494,0.404266357421875,32,16,16,64,1.0,1.0,1.0,3.0,0.0,0.4653883898241111,33,False,False,0.6581999996342347,Success
+leaf_338b7ee25be7d52d,sirih 4.jpeg,Sirih,depan,Passed Initial Check,29003,0.4425506591796875,32,16,16,64,1.0,1.0,1.0,3.0,0.0,0.7127883322414923,39,False,False,0.6369000002450775,Success
+leaf_721244faca19b94f,tapak kuda 19.png,Tapak Kuda,belakang,Needs Review,15480,0.2362060546875,32,16,16,64,1.0,1.0,1.0,3.0,0.0,0.5381136950904393,33,False,False,0.6002000000080443,Success

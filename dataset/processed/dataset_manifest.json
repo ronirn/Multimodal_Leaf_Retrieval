@@ -1,0 +1,56 @@
+{
+    "dataset_name": "Multimodal Medicinal Plant Leaf Dataset",
+    "total_samples": 104,
+    "total_classes": 5,
+    "classes": [
+        "Mangkok",
+        "Salam",
+        "Sambang Darah",
+        "Sirih",
+        "Tapak Kuda"
+    ],
+    "modalities": [
+        "image",
+        "text"
+    ],
+    "image_size": [
+        256,
+        256
+    ],
+    "image_format": "PNG",
+    "image_mode": "RGB",
+    "mask_format": "PNG",
+    "mask_values": [
+        0,
+        255
+    ],
+    "text_token_pattern": "(?u)\\b\\w\\w+\\b",
+    "exploratory_vocabulary_size": 68,
+    "total_tokens": 2188,
+    "metadata_path": "dataset/processed/metadata_processed.csv",
+    "image_directory": "dataset/processed/images",
+    "mask_directory": "dataset/processed/masks",
+    "image_config_path": "dataset/processed/preprocessing_config_final.json",
+    "text_config_path": "dataset/processed/text_preprocessing_config.json",
+    "feature_extraction": {
+        "image": [
+            "HSV Histogram",
+            "GLCM",
+            "Hu Moments"
+        ],
+        "text": [
+            "TF-IDF"
+        ]
+    },
+    "feature_extraction_completed": false,
+    "tfidf_fitted": false,
+    "fusion_completed": false,
+    "technical_validation_passed": true,
+    "records_pending_review": 70,
+    "dataset_status": "Technically Ready - Pending Quality Review",
+    "preprocessing_completed": true,
+    "feature_extraction_ready": true,
+    "manual_quality_review_completed": false,
+    "botanical_label_verification_completed": false,
+    "preprocessing_summary_path": "dataset/processed/preprocessing_summary.json"
+}

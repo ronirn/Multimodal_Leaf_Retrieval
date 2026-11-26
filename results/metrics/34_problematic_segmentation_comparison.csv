@@ -1,0 +1,37 @@
+﻿nama_file,image_path,kelas,tampilan_daun,problem_category,method,foreground_ratio,valid_region_ratio,border_ratio,quality_score,quality_status,is_selected
+daun salam 2.jpeg,dataset/raw/daun_salam/foto depan/daun salam 2.jpeg,Salam,depan,Small Foreground,HSV Thresholding,0.03497314453125,0.046630859375,0.0,0.13949462890624997,Needs Review,True
+daun salam 2.jpeg,dataset/raw/daun_salam/foto depan/daun salam 2.jpeg,Salam,depan,Small Foreground,Otsu Dark Foreground,0.034942626953125,0.046590169270833336,0.0,0.13948852539062495,Needs Review,False
+daun salam 2.jpeg,dataset/raw/daun_salam/foto depan/daun salam 2.jpeg,Salam,depan,Small Foreground,Otsu Light Foreground,0.715057373046875,0.9534098307291666,1.0,-0.575511474609375,Needs Review,False
+daun salam 2.jpeg,dataset/raw/daun_salam/foto depan/daun salam 2.jpeg,Salam,depan,Small Foreground,GrabCut,0.75,1.0,1.0,-0.5825,Needs Review,False
+daun salam 9.jpeg,dataset/raw/daun_salam/foto belakang/daun salam 9.jpeg,Salam,belakang,Excessive Border,HSV Thresholding,0.04150390625,0.055338541666666664,0.0,0.14080078124999995,Needs Review,False
+daun salam 9.jpeg,dataset/raw/daun_salam/foto belakang/daun salam 9.jpeg,Salam,belakang,Excessive Border,Otsu Dark Foreground,0.0422515869140625,0.05633544921875,0.0,0.14095031738281244,Needs Review,False
+daun salam 9.jpeg,dataset/raw/daun_salam/foto belakang/daun salam 9.jpeg,Salam,belakang,Excessive Border,Otsu Light Foreground,0.707244873046875,0.9429931640625,0.9859234234234234,0.2359046289942286,Needs Review,True
+daun salam 9.jpeg,dataset/raw/daun_salam/foto belakang/daun salam 9.jpeg,Salam,belakang,Excessive Border,GrabCut,0.75,1.0,1.0,-0.5825,Needs Review,False
+sambang darah 1.jpeg,dataset/raw/daun_sambang_darah/foto depan/sambang darah 1.jpeg,Sambang Darah,depan,Excessive Border,HSV Thresholding,0.037994384765625,0.0506591796875,0.0,0.14009887695312495,Needs Review,False
+sambang darah 1.jpeg,dataset/raw/daun_sambang_darah/foto depan/sambang darah 1.jpeg,Sambang Darah,depan,Excessive Border,Otsu Dark Foreground,0.0391387939453125,0.05218505859375,0.0,0.14032775878906245,Needs Review,False
+sambang darah 1.jpeg,dataset/raw/daun_sambang_darah/foto depan/sambang darah 1.jpeg,Sambang Darah,depan,Excessive Border,Otsu Light Foreground,0.7108306884765625,0.9477742513020834,1.0,0.22533386230468755,Needs Review,True
+sambang darah 1.jpeg,dataset/raw/daun_sambang_darah/foto depan/sambang darah 1.jpeg,Sambang Darah,depan,Excessive Border,GrabCut,0.75,1.0,1.0,-0.5825,Needs Review,False
+sambang darah 6.jpeg,dataset/raw/daun_sambang_darah/foto belakang/sambang darah 6.jpeg,Sambang Darah,belakang,Small Foreground,HSV Thresholding,0.0323944091796875,0.043192545572916664,0.0,0.13897888183593746,Needs Review,False
+sambang darah 6.jpeg,dataset/raw/daun_sambang_darah/foto belakang/sambang darah 6.jpeg,Sambang Darah,belakang,Small Foreground,Otsu Dark Foreground,0.0330047607421875,0.04400634765625,0.0,0.13910095214843746,Needs Review,True
+sambang darah 6.jpeg,dataset/raw/daun_sambang_darah/foto belakang/sambang darah 6.jpeg,Sambang Darah,belakang,Small Foreground,Otsu Light Foreground,0.7169952392578125,0.95599365234375,1.0,-0.5758990478515625,Needs Review,False
+sambang darah 6.jpeg,dataset/raw/daun_sambang_darah/foto belakang/sambang darah 6.jpeg,Sambang Darah,belakang,Small Foreground,GrabCut,0.75,1.0,1.0,-0.5825,Needs Review,False
+sirih 1.jpeg,dataset/raw/daun_sirih/foto depan/sirih 1.jpeg,Sirih,depan,Excessive Border,HSV Thresholding,0.0452117919921875,0.060282389322916664,0.0,0.14154235839843746,Needs Review,False
+sirih 1.jpeg,dataset/raw/daun_sirih/foto depan/sirih 1.jpeg,Sirih,depan,Excessive Border,Otsu Dark Foreground,0.0450592041015625,0.060078938802083336,0.0,0.14151184082031246,Needs Review,False
+sirih 1.jpeg,dataset/raw/daun_sirih/foto depan/sirih 1.jpeg,Sirih,depan,Excessive Border,Otsu Light Foreground,0.7048797607421875,0.9398396809895834,1.0,0.22652404785156255,Needs Review,True
+sirih 1.jpeg,dataset/raw/daun_sirih/foto depan/sirih 1.jpeg,Sirih,depan,Excessive Border,GrabCut,0.75,1.0,1.0,-0.5825,Needs Review,False
+tapak kuda 11.jpeg,dataset/raw/daun_tapak_kuda/foto belakang/tapak kuda 11.jpeg,Tapak Kuda,belakang,Excessive Border,HSV Thresholding,0.037322998046875,0.049763997395833336,0.0,0.13996459960937496,Needs Review,False
+tapak kuda 11.jpeg,dataset/raw/daun_tapak_kuda/foto belakang/tapak kuda 11.jpeg,Tapak Kuda,belakang,Excessive Border,Otsu Dark Foreground,0.037261962890625,0.0496826171875,0.0,0.13995239257812497,Needs Review,False
+tapak kuda 11.jpeg,dataset/raw/daun_tapak_kuda/foto belakang/tapak kuda 11.jpeg,Tapak Kuda,belakang,Excessive Border,Otsu Light Foreground,0.7116241455078125,0.9488321940104166,0.9774774774774775,0.24094093666420327,Needs Review,True
+tapak kuda 11.jpeg,dataset/raw/daun_tapak_kuda/foto belakang/tapak kuda 11.jpeg,Tapak Kuda,belakang,Excessive Border,GrabCut,0.75,1.0,1.0,-0.5825,Needs Review,False
+tapak kuda 13.jpeg,dataset/raw/daun_tapak_kuda/foto belakang/tapak kuda 13.jpeg,Tapak Kuda,belakang,Small Foreground,HSV Thresholding,0.008697509765625,0.0115966796875,0.0,0.13423950195312495,Needs Review,False
+tapak kuda 13.jpeg,dataset/raw/daun_tapak_kuda/foto belakang/tapak kuda 13.jpeg,Tapak Kuda,belakang,Small Foreground,Otsu Dark Foreground,0.0087890625,0.01171875,0.0,0.13425781249999996,Needs Review,True
+tapak kuda 13.jpeg,dataset/raw/daun_tapak_kuda/foto belakang/tapak kuda 13.jpeg,Tapak Kuda,belakang,Small Foreground,Otsu Light Foreground,0.741180419921875,0.9882405598958334,1.0,-0.580736083984375,Needs Review,False
+tapak kuda 13.jpeg,dataset/raw/daun_tapak_kuda/foto belakang/tapak kuda 13.jpeg,Tapak Kuda,belakang,Small Foreground,GrabCut,0.75,1.0,1.0,-0.5825,Needs Review,False
+tapak kuda 5.jpeg,dataset/raw/daun_tapak_kuda/foto depan/tapak kuda 5.jpeg,Tapak Kuda,depan,Small Foreground,HSV Thresholding,0.0255126953125,0.034016927083333336,0.0,0.13760253906249995,Needs Review,True
+tapak kuda 5.jpeg,dataset/raw/daun_tapak_kuda/foto depan/tapak kuda 5.jpeg,Tapak Kuda,depan,Small Foreground,Otsu Dark Foreground,0.02532958984375,0.033772786458333336,0.0,0.13756591796874995,Needs Review,False
+tapak kuda 5.jpeg,dataset/raw/daun_tapak_kuda/foto depan/tapak kuda 5.jpeg,Tapak Kuda,depan,Small Foreground,Otsu Light Foreground,0.724517822265625,0.9660237630208334,1.0,-0.577403564453125,Needs Review,False
+tapak kuda 5.jpeg,dataset/raw/daun_tapak_kuda/foto depan/tapak kuda 5.jpeg,Tapak Kuda,depan,Small Foreground,GrabCut,0.75,1.0,1.0,-0.5825,Needs Review,False
+tapak kuda 8.jpeg,dataset/raw/daun_tapak_kuda/foto depan/tapak kuda 8.jpeg,Tapak Kuda,depan,Excessive Border,HSV Thresholding,0.04217529296875,0.056233723958333336,0.0,0.14093505859374994,Needs Review,False
+tapak kuda 8.jpeg,dataset/raw/daun_tapak_kuda/foto depan/tapak kuda 8.jpeg,Tapak Kuda,depan,Excessive Border,Otsu Dark Foreground,0.0419158935546875,0.055887858072916664,0.0,0.14088317871093747,Needs Review,False
+tapak kuda 8.jpeg,dataset/raw/daun_tapak_kuda/foto depan/tapak kuda 8.jpeg,Tapak Kuda,depan,Excessive Border,Otsu Light Foreground,0.7080841064453125,0.9441121419270834,1.0,0.22588317871093755,Needs Review,True
+tapak kuda 8.jpeg,dataset/raw/daun_tapak_kuda/foto depan/tapak kuda 8.jpeg,Tapak Kuda,depan,Excessive Border,GrabCut,0.75,1.0,1.0,-0.5825,Needs Review,False

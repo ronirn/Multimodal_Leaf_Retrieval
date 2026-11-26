@@ -1,0 +1,18 @@
+﻿Indicator,Result
+Total test samples,5.0
+Represented classes,5.0
+Gray levels,32.0
+Number of distances,3.0
+Number of angles,4.0
+Number of properties,6.0
+Spatial configurations per sample,12.0
+GLCM feature dimension,72.0
+Successful extractions,5.0
+Failed extractions,0.0
+Total GLCM matrices,60.0
+Samples containing NaN,0.0
+Samples containing infinity,0.0
+Background exclusion tests passed,5.0
+Spatial offset tests passed,12.0
+Synthetic property tests passed,6.0
+Mean extraction time (ms),5.1848

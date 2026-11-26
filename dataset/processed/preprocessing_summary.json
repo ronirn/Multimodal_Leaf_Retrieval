@@ -1,0 +1,49 @@
+{
+    "notebook": "02_preprocessing.ipynb",
+    "dataset": {
+        "original_samples": 105,
+        "verified_candidates": 104,
+        "final_samples": 104,
+        "total_classes": 5,
+        "retention_rate_percent": 99.05
+    },
+    "image_preprocessing": {
+        "target_size": [
+            256,
+            256
+        ],
+        "aspect_ratio_preserved": true,
+        "segmentation": "Refined Adaptive Selection",
+        "roi_cropping": true,
+        "controlled_hole_filling": true,
+        "denoising": false,
+        "valid_rgb_images": 104,
+        "valid_binary_masks": 104,
+        "failed_processing": 0
+    },
+    "text_preprocessing": {
+        "unicode_normalization": true,
+        "case_folding": true,
+        "punctuation_removal": true,
+        "stopword_removal": false,
+        "stemming": false,
+        "token_pattern": "(?u)\\b\\w\\w+\\b",
+        "total_tokens": 2188,
+        "exploratory_vocabulary_size": 68
+    },
+    "quality_assessment": {
+        "initial_checks_passed": 34,
+        "pending_review": 70,
+        "invalid_multimodal_pairs": 0,
+        "botanical_labels_verified": false,
+        "manual_review_completed": false
+    },
+    "readiness": {
+        "feature_extraction_ready": true,
+        "feature_extraction_completed": false,
+        "tfidf_fitted": false,
+        "fusion_completed": false,
+        "final_evaluation_completed": false
+    },
+    "next_notebook": "03_image_feature_extraction.ipynb"
+}

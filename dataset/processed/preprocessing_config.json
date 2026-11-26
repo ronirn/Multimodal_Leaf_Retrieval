@@ -1,0 +1,34 @@
+{
+    "target_width": 256,
+    "target_height": 256,
+    "preserve_aspect_ratio": true,
+    "padding_color": [
+        255,
+        255,
+        255
+    ],
+    "downscale_interpolation": "INTER_AREA",
+    "upscale_interpolation": "INTER_CUBIC",
+    "apply_denoising": false,
+    "median_kernel_size": 3,
+    "apply_segmentation": true,
+    "segmentation_method": "Adaptive Selection",
+    "candidate_segmentation_methods": [
+        "HSV Thresholding",
+        "Otsu Thresholding",
+        "GrabCut"
+    ],
+    "morph_kernel_size": 3,
+    "morph_kernel_shape": "ELLIPSE",
+    "opening_iterations": 1,
+    "closing_iterations": 1,
+    "keep_largest_component": true,
+    "min_foreground_ratio": 0.05,
+    "max_foreground_ratio": 0.9,
+    "image_output_format": ".png",
+    "mask_output_format": ".png",
+    "mask_foreground_value": 255,
+    "mask_background_value": 0,
+    "preview_samples_per_class": 2,
+    "random_state": 42
+}

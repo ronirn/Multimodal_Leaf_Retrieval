@@ -1,0 +1,15 @@
+﻿Indicator,Result
+Total visualized samples,5
+Total represented classes,5
+Gray levels,32
+Number of distances,3
+Number of angles,4
+Number of texture properties,6
+Spatial configurations per sample,12
+Total GLCM matrices,60
+GLCM feature dimension,72
+Feature matrix rows,5
+Feature matrix columns,72
+Minimum valid pixel pairs,10608
+Maximum valid pixel pairs,28759
+Generated visualizations,6

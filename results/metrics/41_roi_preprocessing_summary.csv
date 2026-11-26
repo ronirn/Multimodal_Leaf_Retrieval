@@ -1,0 +1,10 @@
+Indicator,Result
+Total tested images,19.0
+ROI applied,19.0
+ROI not applied or rejected,0.0
+Technically valid outputs,19.0
+Technically invalid outputs,0.0
+Small foreground before ROI,9.0
+Small foreground after ROI,0.0
+Mean foreground ratio before,0.1359405517578125
+Mean foreground ratio after,0.2939934981496711

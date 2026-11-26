@@ -1,0 +1,18 @@
+{
+    "total_samples": 104,
+    "technically_valid_samples": 104,
+    "technically_invalid_samples": 0,
+    "pending_quality_review": 70,
+    "target_image_size": [
+        256,
+        256
+    ],
+    "minimum_foreground_pixels": 100,
+    "minimum_foreground_review_ratio": 0.05,
+    "maximum_foreground_review_ratio": 0.9,
+    "foreground_ratio_tolerance": 1e-06,
+    "minimum_grayscale_variation": 1.0,
+    "sample_order_preserved": true,
+    "feature_extraction_ready": true,
+    "feature_extraction_completed": false
+}

@@ -1,0 +1,18 @@
+Indicator,Result
+Total image-text pairs,104.0
+Available original descriptions,104.0
+Available cleaned descriptions,104.0
+Modified descriptions,104.0
+Empty original descriptions,0.0
+Empty cleaned descriptions,0.0
+Class-name mentions before cleaning,0.0
+Class-name mentions after cleaning,0.0
+Short descriptions,0.0
+Records with duplicate descriptions,17.0
+Average words before cleaning,21.03846153846154
+Average words after cleaning,21.03846153846154
+Average characters before cleaning,157.10576923076923
+Average characters after cleaning,151.81730769230768
+Passed initial check,87.0
+Needs review,17.0
+Failed preprocessing,0.0

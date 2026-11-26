@@ -1,0 +1,6 @@
+﻿sample_id,kelas,hsv_max_difference,glcm_max_difference,hu_max_difference,passed,status
+leaf_8f09fd62c7391c0d,Mangkok,0.0,0.0,0.0,True,Consistent
+leaf_9c7d463a5bb1a561,Salam,0.0,0.0,0.0,True,Consistent
+leaf_d9d0b97961feaeac,Sambang Darah,0.0,0.0,0.0,True,Consistent
+leaf_338b7ee25be7d52d,Sirih,0.0,0.0,0.0,True,Consistent
+leaf_721244faca19b94f,Tapak Kuda,0.0,0.0,0.0,True,Consistent

@@ -1,0 +1,4 @@
+﻿feature_group,number_of_samples,feature_dimension,total_values,minimum_value,maximum_value,zero_values,negative_values,nan_values,infinite_values,data_type
+HSV,104,64,6656,0,0.96856335754640843,3034,0,0,0,float64
+GLCM,104,72,7488,0.0082539692395576254,15.209430349449473,0,0,0,0,float64
+Hu Moments,104,7,728,-12.853698416739057,13.568041006111862,0,113,0,0,float64

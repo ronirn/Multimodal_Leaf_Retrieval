@@ -1,0 +1,106 @@
+nama_file,kelas,description_char_count,description_word_count,is_empty_description,is_duplicate_description,contains_class_name
+mangkok 10.jpeg,Mangkok,152,20,False,False,False
+mangkok 11.png,Mangkok,182,23,False,False,False
+mangkok 12.png,Mangkok,160,21,False,False,False
+mangkok 13.png,Mangkok,160,21,False,False,False
+mangkok 14.png,Mangkok,172,22,False,False,False
+mangkok 15.png,Mangkok,164,22,False,False,False
+mangkok 6.jpeg,Mangkok,169,22,False,False,False
+mangkok 7.jpeg,Mangkok,160,21,False,False,False
+mangkok 8.jpeg,Mangkok,180,23,False,False,False
+mangkok 9.jpeg,Mangkok,149,20,False,False,False
+mangkok 1.jpeg,Mangkok,166,22,False,False,False
+mangkok 10.png,Mangkok,173,22,False,False,False
+mangkok 2.jpeg,Mangkok,170,23,False,False,False
+mangkok 3.jpeg,Mangkok,160,20,False,True,False
+mangkok 4.jpeg,Mangkok,160,20,False,True,False
+mangkok 5.jpeg,Mangkok,177,22,False,False,False
+mangkok 6.png,Mangkok,171,22,False,False,False
+mangkok 7.png,Mangkok,168,22,False,False,False
+mangkok 8.png,Mangkok,176,22,False,False,False
+mangkok 9.png,Mangkok,179,23,False,False,False
+daun salam 10.jpeg,Salam,146,20,False,False,False
+daun salam 11.png,Salam,158,22,False,False,False
+daun salam 12.png,Salam,163,21,False,False,False
+daun salam 13.png,Salam,161,21,False,False,False
+daun salam 14.png,Salam,140,20,False,False,False
+daun salam 15.png,Salam,155,20,False,False,False
+daun salam 6.jpeg,Salam,148,21,False,False,False
+daun salam 7.jpeg,Salam,154,20,False,True,False
+daun salam 8.jpeg,Salam,154,20,False,True,False
+daun salam 9.jpeg,Salam,138,20,False,False,False
+daun salam 1.jpeg,Salam,146,20,False,False,False
+daun salam 10.png,Salam,169,22,False,False,False
+daun salam 2.jpeg,Salam,137,20,False,False,False
+daun salam 3.jpeg,Salam,155,21,False,False,False
+daun salam 4.jpeg,Salam,134,19,False,False,False
+daun salam 5.jpeg,Salam,155,21,False,False,False
+daun salam 6.png,Salam,143,20,False,False,False
+daun salam 7.png,Salam,153,21,False,False,False
+daun salam 8.png,Salam,161,21,False,False,False
+daun salam 9.png,Salam,171,23,False,False,False
+sambang darah 10.jpeg,Sambang Darah,171,23,False,False,False
+sambang darah 11.png,Sambang Darah,155,22,False,False,False
+sambang darah 12.png,Sambang Darah,141,19,False,False,False
+sambang darah 13.png,Sambang Darah,138,19,False,False,False
+sambang darah 14.png,Sambang Darah,149,21,False,False,False
+sambang darah 15.png,Sambang Darah,149,21,False,False,False
+sambang darah 6.jpeg,Sambang Darah,150,21,False,False,False
+sambang darah 7.jpeg,Sambang Darah,153,20,False,False,False
+sambang darah 8.jpeg,Sambang Darah,155,20,False,False,False
+sambang darah 9.jpeg,Sambang Darah,162,20,False,False,False
+sambang darah 1.jpeg,Sambang Darah,152,22,False,False,False
+sambang darah 10.png,Sambang Darah,143,20,False,False,False
+sambang darah 2.jpeg,Sambang Darah,151,20,False,False,False
+sambang darah 3.jpeg,Sambang Darah,155,21,False,False,False
+sambang darah 4.jpeg,Sambang Darah,171,22,False,False,False
+sambang darah 5.jpeg,Sambang Darah,176,23,False,False,False
+sambang darah 6.png,Sambang Darah,146,20,False,False,False
+sambang darah 7.png,Sambang Darah,141,19,False,False,False
+sambang darah 8.png,Sambang Darah,145,20,False,False,False
+sambang darah 9.png,Sambang Darah,127,18,False,False,False
+Hijau_Sehat1.jpg,Sirih,155,23,False,False,False
+Hijau_Sehat2.jpg,Sirih,158,22,False,False,False
+Hijau_Sehat5.jpg,Sirih,155,21,False,False,False
+Hijau_Sehat7.jpg,Sirih,143,20,False,False,False
+Hijau_Sehat8.jpg,Sirih,156,22,False,False,False
+sirih 10.jpeg,Sirih,142,20,False,False,False
+sirih 6.jpeg,Sirih,159,23,False,False,False
+sirih 7.jpeg,Sirih,164,21,False,False,False
+sirih 8.jpeg,Sirih,145,20,False,False,False
+sirih 9.jpeg,Sirih,178,23,False,False,False
+Hijau_Sehat11.jpg,Sirih,136,18,False,False,False
+Hijau_Sehat3.jpg,Sirih,156,21,False,True,False
+Hijau_Sehat4.jpg,Sirih,157,23,False,False,False
+Hijau_Sehat6.jpg,Sirih,148,21,False,False,False
+Hijau_Sehat9.jpg,Sirih,156,21,False,True,False
+sirih 1.jpeg,Sirih,146,21,False,False,False
+sirih 2.jpeg,Sirih,163,22,False,False,False
+sirih 3.jpeg,Sirih,143,20,False,False,False
+sirih 4.jpeg,Sirih,164,22,False,False,False
+sirih 5.jpeg,Sirih,174,24,False,False,False
+tapak kuda 11.jpeg,Tapak Kuda,170,23,False,False,False
+tapak kuda 12.jpeg,Tapak Kuda,153,20,False,False,False
+tapak kuda 13.jpeg,Tapak Kuda,165,23,False,True,False
+tapak kuda 14.jpeg,Tapak Kuda,168,22,False,False,False
+tapak kuda 15.jpeg,Tapak Kuda,162,21,False,False,False
+tapak kuda 16.png,Tapak Kuda,164,22,False,False,False
+tapak kuda 17.png,Tapak Kuda,155,20,False,True,False
+tapak kuda 18.png,Tapak Kuda,157,20,False,False,False
+tapak kuda 19.png,Tapak Kuda,155,20,False,True,False
+tapak kuda 20.png,Tapak Kuda,150,20,False,False,False
+tapak kuda 1.jpeg,Tapak Kuda,150,20,False,True,False
+tapak kuda 10.jpeg,Tapak Kuda,166,22,False,True,False
+tapak kuda 10.png,Tapak Kuda,162,21,False,True,False
+tapak kuda 11.png,Tapak Kuda,162,21,False,True,False
+tapak kuda 12.png,Tapak Kuda,153,20,False,False,False
+tapak kuda 13.png,Tapak Kuda,161,21,False,False,False
+tapak kuda 14.png,Tapak Kuda,162,21,False,True,False
+tapak kuda 2.jpeg,Tapak Kuda,153,20,False,True,False
+tapak kuda 3.jpeg,Tapak Kuda,150,20,False,True,False
+tapak kuda 4.jpeg,Tapak Kuda,153,20,False,True,False
+tapak kuda 5.jpeg,Tapak Kuda,165,23,False,True,False
+tapak kuda 6.jpeg,Tapak Kuda,157,20,False,False,False
+tapak kuda 7.jpeg,Tapak Kuda,163,21,False,False,False
+tapak kuda 8.jpeg,Tapak Kuda,166,22,False,True,False
+tapak kuda 9.jpeg,Tapak Kuda,154,20,False,False,False

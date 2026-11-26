@@ -1,0 +1,11 @@
+﻿Validation,Passed
+Sample count matches manifest,True
+Class count matches manifest,True
+Class labels match manifest,True
+Unique sample identifiers,True
+Unique original image paths,True
+Unique processed image paths,True
+Unique binary mask paths,True
+All multimodal pairs technically valid,True
+Preprocessing completed,True
+Feature extraction ready,True

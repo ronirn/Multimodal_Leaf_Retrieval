@@ -1,0 +1,5 @@
+Method,Foreground Ratio,Valid Region Ratio,Border Ratio,Quality Score,Quality Status,Selected
+HSV Thresholding,0.1963653564453125,0.2618204752604167,0.0,0.9717730712890625,Passed Initial Check,True
+Otsu Dark Foreground,0.190704345703125,0.2542724609375,0.0,0.970640869140625,Passed Initial Check,False
+Otsu Light Foreground,0.5551605224609375,0.7402140299479166,1.0,0.25646789550781257,Needs Review,False
+GrabCut,0.75,1.0,1.0,-0.5825,Needs Review,False
