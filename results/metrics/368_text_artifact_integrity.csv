@@ -1,0 +1,17 @@
+﻿filename,exists,size_bytes,size_match,checksum_match,relative_path_match,passed
+tfidf_unigram_features.npz,True,11080,True,True,True,True
+tfidf_unigram_vectorizer.joblib,True,1454,True,True,True,True
+tfidf_unigram_feature_names.npy,True,3392,True,True,True,True
+tfidf_unigram_idf_weights.npy,True,672,True,True,True,True
+tfidf_unigram_vocabulary.csv,True,2697,True,True,True,True
+tfidf_unigram_bigram_features.npz,True,18183,True,True,True,True
+tfidf_unigram_bigram_vectorizer.joblib,True,3168,True,True,True,True
+tfidf_unigram_bigram_feature_names.npy,True,21008,True,True,True,True
+tfidf_unigram_bigram_idf_weights.npy,True,2216,True,True,True,True
+tfidf_unigram_bigram_vocabulary.csv,True,11827,True,True,True,True
+text_sample_ids.npy,True,8864,True,True,True,True
+text_class_labels.npy,True,5536,True,True,True,True
+multimodal_feature_metadata.csv,True,157750,True,True,True,True
+text_corpus.json,True,20771,True,True,True,True
+text_query_preprocessing_config.json,True,628,True,True,True,True
+text_feature_extraction_config.json,True,6257,True,True,True,True

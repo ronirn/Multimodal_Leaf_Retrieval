@@ -1,0 +1,17 @@
+﻿Indicator,Result
+Total samples,104
+Total classes,5
+TF-IDF configurations,2
+Unigram matrix shape,"(104, 68)"
+Combined matrix shape,"(104, 261)"
+Verified payload artifacts,16
+Aligned samples,104
+Validation checks,80
+Passed checks,80
+Failed checks,0
+Generated figures,2
+Vectorizers refitted,False
+Sample order modified,False
+Text configuration selected,False
+Independent evaluation completed,False
+Ready for multimodal validation,True

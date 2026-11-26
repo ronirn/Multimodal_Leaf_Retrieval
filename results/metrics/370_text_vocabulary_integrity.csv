@@ -1,0 +1,3 @@
+﻿configuration,vocabulary_size,feature_names_match,idf_match,document_frequency_match,reference_matrix_reproduced
+Unigram,68,True,True,True,True
+Unigram + Bigram,261,True,True,True,True

@@ -1,0 +1,3 @@
+﻿configuration,samples,feature_dimension,unigram_features,bigram_features,nonzero_values,zero_values,sparsity_percent,minimum_l2_norm,maximum_l2_norm,reproduction_max_difference,matrix_file_kib,vectorizer_file_kib
+Unigram,104,68,68,0,2086,4986,70.50339366515837,0.99999999999999978,1.0000000000000002,1.6653345369377348e-16,10.8203125,1.419921875
+Unigram + Bigram,104,261,68,193,4166,22978,84.652225169466561,0.99999999999999978,1.0000000000000002,1.1102230246251565e-16,17.7568359375,3.09375

@@ -1,0 +1,81 @@
+﻿category,validation_check,passed,status
+Manifest,Manifest covers all expected text artifacts,True,Passed
+Artifact Integrity,tfidf_unigram_features.npz integrity,True,Passed
+Artifact Integrity,tfidf_unigram_vectorizer.joblib integrity,True,Passed
+Artifact Integrity,tfidf_unigram_feature_names.npy integrity,True,Passed
+Artifact Integrity,tfidf_unigram_idf_weights.npy integrity,True,Passed
+Artifact Integrity,tfidf_unigram_vocabulary.csv integrity,True,Passed
+Artifact Integrity,tfidf_unigram_bigram_features.npz integrity,True,Passed
+Artifact Integrity,tfidf_unigram_bigram_vectorizer.joblib integrity,True,Passed
+Artifact Integrity,tfidf_unigram_bigram_feature_names.npy integrity,True,Passed
+Artifact Integrity,tfidf_unigram_bigram_idf_weights.npy integrity,True,Passed
+Artifact Integrity,tfidf_unigram_bigram_vocabulary.csv integrity,True,Passed
+Artifact Integrity,text_sample_ids.npy integrity,True,Passed
+Artifact Integrity,text_class_labels.npy integrity,True,Passed
+Artifact Integrity,multimodal_feature_metadata.csv integrity,True,Passed
+Artifact Integrity,text_corpus.json integrity,True,Passed
+Artifact Integrity,text_query_preprocessing_config.json integrity,True,Passed
+Artifact Integrity,text_feature_extraction_config.json integrity,True,Passed
+Sample Alignment,Sample IDs unique,True,Passed
+Sample Alignment,Metadata sample order preserved,True,Passed
+Sample Alignment,Metadata labels preserved,True,Passed
+Sample Alignment,Metadata descriptions preserved,True,Passed
+Sample Alignment,Text corpus sample IDs preserved,True,Passed
+Sample Alignment,Previous image-text alignment preserved,True,Passed
+Sample Alignment,Visual and text sample IDs identical,True,Passed
+Sample Alignment,Visual and text class labels identical,True,Passed
+Sample Alignment,All 104 sample-level alignment records passed,True,Passed
+Unigram,Reference matrix reproduced by transform(),True,Passed
+Unigram,Matrix shape,True,Passed
+Unigram,CSR sparse format,True,Passed
+Unigram,Float64 dtype,True,Passed
+Unigram,Finite matrix values,True,Passed
+Unigram,Nonnegative TF-IDF weights,True,Passed
+Unigram,No zero document vectors,True,Passed
+Unigram,Unit L2 row normalization,True,Passed
+Unigram,TF-IDF vectorizer type,True,Passed
+Unigram,Vectorizer fitted,True,Passed
+Unigram,N-gram configuration,True,Passed
+Unigram,Vectorizer uses L2,True,Passed
+Unigram,Vocabulary dimension,True,Passed
+Unigram,Saved feature names identical,True,Passed
+Unigram,Saved IDF weights identical,True,Passed
+Unigram,IDF values finite and positive,True,Passed
+Unigram,Vocabulary report length,True,Passed
+Unigram,Feature indices sequential,True,Passed
+Unigram,Vocabulary terms match,True,Passed
+Unigram,Vocabulary IDF matches,True,Passed
+Unigram,Document frequency matches,True,Passed
+Unigram,Vocabulary index mapping matches,True,Passed
+Unigram + Bigram,Reference matrix reproduced by transform(),True,Passed
+Unigram + Bigram,Matrix shape,True,Passed
+Unigram + Bigram,CSR sparse format,True,Passed
+Unigram + Bigram,Float64 dtype,True,Passed
+Unigram + Bigram,Finite matrix values,True,Passed
+Unigram + Bigram,Nonnegative TF-IDF weights,True,Passed
+Unigram + Bigram,No zero document vectors,True,Passed
+Unigram + Bigram,Unit L2 row normalization,True,Passed
+Unigram + Bigram,TF-IDF vectorizer type,True,Passed
+Unigram + Bigram,Vectorizer fitted,True,Passed
+Unigram + Bigram,N-gram configuration,True,Passed
+Unigram + Bigram,Vectorizer uses L2,True,Passed
+Unigram + Bigram,Vocabulary dimension,True,Passed
+Unigram + Bigram,Saved feature names identical,True,Passed
+Unigram + Bigram,Saved IDF weights identical,True,Passed
+Unigram + Bigram,IDF values finite and positive,True,Passed
+Unigram + Bigram,Vocabulary report length,True,Passed
+Unigram + Bigram,Feature indices sequential,True,Passed
+Unigram + Bigram,Vocabulary terms match,True,Passed
+Unigram + Bigram,Vocabulary IDF matches,True,Passed
+Unigram + Bigram,Document frequency matches,True,Passed
+Unigram + Bigram,Vocabulary index mapping matches,True,Passed
+Class Distribution,Five-class distribution preserved,True,Passed
+Saved Configuration,Unigram feature dimension,True,Passed
+Saved Configuration,Unigram matrix shape,True,Passed
+Saved Configuration,Unigram nonzero count,True,Passed
+Saved Configuration,Unigram + Bigram feature dimension,True,Passed
+Saved Configuration,Unigram + Bigram matrix shape,True,Passed
+Saved Configuration,Unigram + Bigram nonzero count,True,Passed
+Saved Configuration,Sample count preserved,True,Passed
+Saved Configuration,Reference-only evaluation requirement preserved,True,Passed
+Saved Configuration,No final text configuration selected,True,Passed
