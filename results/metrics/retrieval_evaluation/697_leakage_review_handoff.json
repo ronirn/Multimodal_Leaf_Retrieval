@@ -1,0 +1,15 @@
+{
+  "notebook": "06_multimodal_retrieval_evaluation.ipynb",
+  "cell": 11,
+  "sample_count": 104,
+  "selection_lock_sha256": "6c4d7c1ccc217a8a69142079fee9c648e4d1d16728cd3a2dfcf5639d18e244aa",
+  "selection_text_configuration": "Unigram + Bigram",
+  "selection_alpha": 0.3,
+  "review_status": "HOLD_REQUIRES_EVIDENCE_REVIEW",
+  "open_block_categories": 0,
+  "open_review_categories": 5,
+  "review_decisions_file": "695_review_decision_template.csv",
+  "test_metrics_computed": false,
+  "test_approval": false,
+  "next_step": "Review evidence and repair confirmed leakage; rerun affected upstream cells before test."
+}

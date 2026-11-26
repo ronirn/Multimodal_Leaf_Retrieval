@@ -1,0 +1,11 @@
+﻿issue_id,severity,finding_count,recommended_action,evidence_file,open
+IMG_EXACT_SPLIT,BLOCK,0,Verify exact duplicates and rebuild group-aware split.,690_review_exact_image_duplicates.csv,False
+IMG_CLASS_CONFLICT,BLOCK,0,Resolve conflicting class labels on identical image content.,690_review_exact_image_duplicates.csv,False
+IMG_MISSING_PIXEL_HASH,REVIEW,0,Review missing decoded image hashes in Cell 2.,690_review_exact_image_duplicates.csv,False
+IMG_NEAR_SPLIT,REVIEW,44,Inspect candidate pairs and group confirmed same specimens.,691_review_near_duplicate_candidates.csv,True
+TEXT_CLASS_NAME,REVIEW,0,Review label clues or run label-masked sensitivity analysis.,688_review_text_label_clues.csv,False
+TEXT_REPEAT_SPLIT,REVIEW,4,Review repeated descriptions across partitions.,689_review_repeated_text_groups.csv,True
+TEXT_CLASS_TEMPLATE,REVIEW,0,Document class-level description templates.,692_review_class_text_statistics.csv,False
+SPECIMEN_PROVENANCE,REVIEW,1,Verify original specimen/capture identity and grouping.,693_review_group_provenance.csv,True
+VISUAL_EXTRACTOR,REVIEW,1,Compare raw visual descriptors with Notebook 03.,694_review_provenance_notes.csv,True
+UPSTREAM_GATE,REVIEW,1,Reconcile unresolved issues from Cell 10.,680_pretest_gate_unresolved_issues.csv,True

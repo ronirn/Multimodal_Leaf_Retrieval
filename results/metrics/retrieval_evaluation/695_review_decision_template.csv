@@ -1,0 +1,6 @@
+﻿issue_id,severity,finding_count,recommended_action,evidence_file,open,review_status,reviewer_notes,supporting_evidence
+IMG_NEAR_SPLIT,REVIEW,44,Inspect candidate pairs and group confirmed same specimens.,691_review_near_duplicate_candidates.csv,True,PENDING,,
+TEXT_REPEAT_SPLIT,REVIEW,4,Review repeated descriptions across partitions.,689_review_repeated_text_groups.csv,True,PENDING,,
+SPECIMEN_PROVENANCE,REVIEW,1,Verify original specimen/capture identity and grouping.,693_review_group_provenance.csv,True,PENDING,,
+VISUAL_EXTRACTOR,REVIEW,1,Compare raw visual descriptors with Notebook 03.,694_review_provenance_notes.csv,True,PENDING,,
+UPSTREAM_GATE,REVIEW,1,Reconcile unresolved issues from Cell 10.,680_pretest_gate_unresolved_issues.csv,True,PENDING,,

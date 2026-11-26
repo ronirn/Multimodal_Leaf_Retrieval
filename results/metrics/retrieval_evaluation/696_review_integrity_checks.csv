@@ -1,0 +1,7 @@
+﻿check,passed
+104 unique aligned sample IDs,True
+No groups cross partitions,True
+Descriptions are nonempty,True
+Image paths are present,True
+Selection lock remains unchanged,True
+Cell 10 has not approved test,True

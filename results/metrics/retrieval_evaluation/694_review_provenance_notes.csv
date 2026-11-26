@@ -1,0 +1,5 @@
+﻿area,source,status
+Text,D:\Project\Multimodal_Leaf_Retrieval\dataset\processed\metadata_processed.csv,Text recovered; independence not certified
+Visual extractor,reference_extractor_unverified_against_notebook03,Notebook 03 equivalence requires verification
+Group provenance,None,Group-disjoint split; specimen identity unverified
+Fusion selection,D:\Project\Multimodal_Leaf_Retrieval\results\metrics\retrieval_evaluation\678_validation_fusion_selection_lock.json,Validation-selected configuration remains locked
