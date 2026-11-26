@@ -1,0 +1,73 @@
+﻿category,validation_check,passed,status
+Manifest,All expected visual artifacts listed,True,Passed
+Artifact Integrity,hsv_features.npy file size and checksum,True,Passed
+Artifact Integrity,glcm_features.npy file size and checksum,True,Passed
+Artifact Integrity,hu_features.npy file size and checksum,True,Passed
+Artifact Integrity,hu_raw_moments.npy file size and checksum,True,Passed
+Artifact Integrity,visual_features_raw.npy file size and checksum,True,Passed
+Artifact Integrity,visual_features_baseline.npy file size and checksum,True,Passed
+Artifact Integrity,visual_features_normalized.npy file size and checksum,True,Passed
+Artifact Integrity,visual_sample_ids.npy file size and checksum,True,Passed
+Artifact Integrity,visual_feature_metadata.csv file size and checksum,True,Passed
+Artifact Integrity,visual_feature_index.csv file size and checksum,True,Passed
+Artifact Integrity,visual_normalizer.joblib file size and checksum,True,Passed
+Artifact Integrity,baseline_visual_normalizer.joblib file size and checksum,True,Passed
+Artifact Integrity,visual_feature_names.json file size and checksum,True,Passed
+Artifact Integrity,visual_feature_config.json file size and checksum,True,Passed
+Matrix Validation,hsv_features correct dimensions,True,Passed
+Matrix Validation,hsv_features float64 dtype,True,Passed
+Matrix Validation,hsv_features finite values,True,Passed
+Matrix Validation,glcm_features correct dimensions,True,Passed
+Matrix Validation,glcm_features float64 dtype,True,Passed
+Matrix Validation,glcm_features finite values,True,Passed
+Matrix Validation,hu_features correct dimensions,True,Passed
+Matrix Validation,hu_features float64 dtype,True,Passed
+Matrix Validation,hu_features finite values,True,Passed
+Matrix Validation,hu_raw_moments correct dimensions,True,Passed
+Matrix Validation,hu_raw_moments float64 dtype,True,Passed
+Matrix Validation,hu_raw_moments finite values,True,Passed
+Matrix Validation,raw_features correct dimensions,True,Passed
+Matrix Validation,raw_features float64 dtype,True,Passed
+Matrix Validation,raw_features finite values,True,Passed
+Matrix Validation,baseline_features correct dimensions,True,Passed
+Matrix Validation,baseline_features float64 dtype,True,Passed
+Matrix Validation,baseline_features finite values,True,Passed
+Matrix Validation,normalized_features correct dimensions,True,Passed
+Matrix Validation,normalized_features float64 dtype,True,Passed
+Matrix Validation,normalized_features finite values,True,Passed
+Sample Identity,Sample ID array is one dimensional,True,Passed
+Sample Identity,Expected sample ID count,True,Passed
+Sample Identity,Sample IDs are unique,True,Passed
+Sample Identity,Sample IDs are nonempty,True,Passed
+Sample Identity,Sample IDs contain no invalid placeholders,True,Passed
+Metadata Alignment,Visual row indices sequential,True,Passed
+Metadata Alignment,sample_id matches processed metadata,True,Passed
+Metadata Alignment,nama_file matches processed metadata,True,Passed
+Metadata Alignment,kelas matches processed metadata,True,Passed
+Metadata Alignment,tampilan_daun matches processed metadata,True,Passed
+Metadata Alignment,processed_image_path matches processed metadata,True,Passed
+Metadata Alignment,mask_path matches processed metadata,True,Passed
+Metadata Alignment,All visual samples match source metadata,True,Passed
+Feature Index,Visual feature indices sequential,True,Passed
+Feature Index,Visual feature names unique,True,Passed
+Feature Index,Visual feature names nonempty,True,Passed
+Feature Index,Feature-name JSON matches feature index,True,Passed
+Feature Index,Feature configuration loaded,True,Passed
+Feature Index,Feature group order preserved,True,Passed
+Normalizer Loading,Main visual normalizer loaded,True,Passed
+Normalizer Loading,Baseline visual normalizer loaded,True,Passed
+Feature Reconstruction,Raw feature concatenation exactly preserved,True,Passed
+Normalization Reconstruction,HSV baseline normalization consistent,True,Passed
+Normalization Reconstruction,HSV proposed normalization consistent,True,Passed
+Normalization Reconstruction,GLCM baseline normalization consistent,True,Passed
+Normalization Reconstruction,GLCM proposed normalization consistent,True,Passed
+Normalization Reconstruction,Hu Moments baseline normalization consistent,True,Passed
+Normalization Reconstruction,Hu Moments proposed normalization consistent,True,Passed
+Normalization Reconstruction,Complete baseline matrix reproduced,True,Passed
+Normalization Reconstruction,Complete normalized matrix reproduced,True,Passed
+Normalization Reconstruction,Normalized features centered around zero,True,Passed
+Feature Groups,Feature dimensions reconcile,True,Passed
+Feature Groups,Feature group variance shares reconcile,True,Passed
+Class Distribution,Expected five-class distribution preserved,True,Passed
+Dataset Readiness,All source samples technically valid,True,Passed
+Dataset Readiness,Dataset review status counts reconcile,True,Passed

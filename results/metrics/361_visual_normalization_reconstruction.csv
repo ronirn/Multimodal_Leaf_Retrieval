@@ -1,0 +1,4 @@
+﻿feature_group,feature_dimension,group_weight,constant_features,sd_floor_adjusted_features,raw_total_variance,baseline_total_variance,normalized_total_variance,baseline_max_difference,normalized_max_difference
+HSV,64,0.125,0,15,0.60174444207579558,0.99999999999999989,0.83857018374356862,0,0
+GLCM,72,0.11785113019775793,0,0,56.328864324242801,1.0000000000000004,1.0000000000000004,0,0
+Hu Moments,7,0.3779644730092272,0,0,193.6191610952024,0.99999999999999989,0.99999999999999989,0,0

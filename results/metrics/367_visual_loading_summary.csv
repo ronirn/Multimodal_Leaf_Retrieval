@@ -1,0 +1,36 @@
+﻿Indicator,Result
+Total visual artifacts,14
+Verified visual artifacts,14
+Loaded NumPy arrays,8
+Loaded visual normalizers,2
+Total samples,104
+Total classes,5
+HSV feature dimension,64
+GLCM feature dimension,72
+Hu Moments feature dimension,7
+Total visual feature dimension,143
+Raw visual matrix shape,"(104, 143)"
+Baseline visual matrix shape,"(104, 143)"
+Normalized visual matrix shape,"(104, 143)"
+Raw reconstruction maximum difference,0.0
+Baseline reconstruction maximum difference,0.0
+Normalized reconstruction maximum difference,0.0
+Total normalized feature variance,2.838570183743569
+Aligned visual samples,104
+Total validation checks,72
+Validation checks passed,72
+Validation checks failed,0
+Generated figures,2
+Main visual representation,visual_features_normalized.npy
+Raw visual features retained,True
+Feature order preserved,True
+Sample order preserved,True
+Review flags preserved,True
+Saved normalizers refitted,False
+Visual features modified,False
+Independent evaluation completed,False
+Evaluation requires reference-only refit,True
+Text features loaded,False
+Image-text alignment validated,False
+Multimodal fusion completed,False
+Loading scope,Full Dataset - Gallery Development

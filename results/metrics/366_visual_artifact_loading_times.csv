@@ -1,0 +1,9 @@
+﻿artifact,filename,loading_time_ms,array_shape,dtype
+hsv_features,hsv_features.npy,0.21410000044852495,"(104, 64)",float64
+glcm_features,glcm_features.npy,0.18880000061471947,"(104, 72)",float64
+hu_features,hu_features.npy,0.13299999955052044,"(104, 7)",float64
+hu_raw_moments,hu_raw_moments.npy,0.11020000056305435,"(104, 7)",float64
+raw_features,visual_features_raw.npy,0.10019999899668619,"(104, 143)",float64
+baseline_features,visual_features_baseline.npy,0.098299999081064016,"(104, 143)",float64
+normalized_features,visual_features_normalized.npy,0.094900000476627611,"(104, 143)",float64
+sample_ids,visual_sample_ids.npy,0.079400000686291605,"(104,)",<U21
