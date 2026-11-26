@@ -1,0 +1,23 @@
+﻿text_configuration,alpha_index,alpha,visual_weight,text_weight,validation_queries,gallery_size,used_test
+Unigram,0,0.0,0.0,1.0,21,62,False
+Unigram,1,0.1,0.1,0.9,21,62,False
+Unigram,2,0.2,0.2,0.8,21,62,False
+Unigram,3,0.3,0.3,0.7,21,62,False
+Unigram,4,0.4,0.4,0.6,21,62,False
+Unigram,5,0.5,0.5,0.5,21,62,False
+Unigram,6,0.6,0.6,0.4,21,62,False
+Unigram,7,0.7,0.7,0.3,21,62,False
+Unigram,8,0.8,0.8,0.2,21,62,False
+Unigram,9,0.9,0.9,0.1,21,62,False
+Unigram,10,1.0,1.0,0.0,21,62,False
+Unigram + Bigram,0,0.0,0.0,1.0,21,62,False
+Unigram + Bigram,1,0.1,0.1,0.9,21,62,False
+Unigram + Bigram,2,0.2,0.2,0.8,21,62,False
+Unigram + Bigram,3,0.3,0.3,0.7,21,62,False
+Unigram + Bigram,4,0.4,0.4,0.6,21,62,False
+Unigram + Bigram,5,0.5,0.5,0.5,21,62,False
+Unigram + Bigram,6,0.6,0.6,0.4,21,62,False
+Unigram + Bigram,7,0.7,0.7,0.3,21,62,False
+Unigram + Bigram,8,0.8,0.8,0.2,21,62,False
+Unigram + Bigram,9,0.9,0.9,0.1,21,62,False
+Unigram + Bigram,10,1.0,1.0,0.0,21,62,False

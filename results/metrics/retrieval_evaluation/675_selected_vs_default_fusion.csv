@@ -1,0 +1,4 @@
+﻿comparison,text_configuration,alpha,map_at_5,ndcg_at_5,mrr_at_5,is_genuine_fusion
+Selected across full 22-candidate grid,Unigram + Bigram,0.3,0.7199999999999999,0.7854314614511159,0.853174603174603,True
+Default alpha=0.5 with selected text configuration,Unigram + Bigram,0.5,0.7079365079365078,0.7852688998566983,0.9325396825396824,True
+Best genuine fusion (descriptive; not selected),Unigram + Bigram,0.3,0.7199999999999999,0.7854314614511159,0.853174603174603,True

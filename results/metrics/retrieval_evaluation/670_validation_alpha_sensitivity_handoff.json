@@ -1,0 +1,45 @@
+{
+  "notebook": "06_multimodal_retrieval_evaluation.ipynb",
+  "cell": 8,
+  "partition": "validation",
+  "visual_weight_definition": "alpha",
+  "text_weight_definition": "1-alpha",
+  "alpha_grid": [
+    0.0,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0
+  ],
+  "text_configurations": [
+    "Unigram",
+    "Unigram + Bigram"
+  ],
+  "top_k_values": [
+    1,
+    3,
+    5,
+    10
+  ],
+  "primary_selection_metric": "mAP@5",
+  "ap_at_k_denominator": "min(relevant_gallery_count, K)",
+  "validation_queries": 21,
+  "gallery_count": 62,
+  "alpha_selected": false,
+  "test_evaluated": false,
+  "independent_evaluation_approved": false,
+  "pending_review": [
+    "Cell 2 readiness audit requires review.",
+    "Possible near-duplicate images cross partitions; manual verification is required.",
+    "Cell 3 split remains provisional; independent review is required.",
+    "Reference HSV/GLCM/Hu extractor may differ from the original Notebook 03 implementation.",
+    "Identical text descriptions occur across dataset partitions; review possible inflation of text retrieval performance."
+  ],
+  "next_cell": "Cell 9 - Validation-Only Fusion Weight Selection"
+}

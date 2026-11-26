@@ -1,0 +1,27 @@
+{
+  "notebook": "06_multimodal_retrieval_evaluation.ipynb",
+  "cell": 10,
+  "gate_status": "HOLD_METHODOLOGICAL_REVIEW",
+  "structurally_valid": true,
+  "review_cleared": false,
+  "approved_for_independent_evaluation": false,
+  "selection_lock_path": "D:\\Project\\Multimodal_Leaf_Retrieval\\results\\metrics\\retrieval_evaluation\\678_validation_fusion_selection_lock.json",
+  "selection_lock_sha256": "6c4d7c1ccc217a8a69142079fee9c648e4d1d16728cd3a2dfcf5639d18e244aa",
+  "selection_evidence_sha256": "01907ece9c875df733abc784e7f0ed1cc7750f6646dae75eeb17971f1781b8c6",
+  "selected_text_configuration": "Unigram + Bigram",
+  "selected_alpha": 0.3,
+  "selected_method": "Weighted Late Fusion",
+  "sample_count": 104,
+  "split_counts": {
+    "gallery": 62,
+    "validation": 21,
+    "test": 21
+  },
+  "check_count": 30,
+  "failed_hard_checks": 0,
+  "open_review_items": 5,
+  "test_scores_used": false,
+  "test_metrics_computed": false,
+  "approval_note": "Technical validity does not replace independent leakage and provenance review.",
+  "next_step": "Resolve unresolved issues before independent test evaluation."
+}

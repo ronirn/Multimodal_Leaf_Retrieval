@@ -1,0 +1,463 @@
+﻿text_configuration,alpha_index,alpha,query_sample_id,top_score_tie_count,tied_gallery_candidates
+Unigram,0,0.0,leaf_8473270c3702f48b,1,6
+Unigram,0,0.0,leaf_23b789945271fb92,1,6
+Unigram,0,0.0,leaf_ef0854556175e2b0,1,6
+Unigram,0,0.0,leaf_de455d31a4df8c43,1,6
+Unigram,0,0.0,leaf_8809ccde35d4b945,1,6
+Unigram,0,0.0,leaf_68b0c81b496519cd,1,6
+Unigram,0,0.0,leaf_a838808299383884,1,6
+Unigram,0,0.0,leaf_d12754f94f5ff7fc,1,6
+Unigram,0,0.0,leaf_ad660412d798bd65,1,6
+Unigram,0,0.0,leaf_b230b822f6a38f1c,1,6
+Unigram,0,0.0,leaf_3c3fafa9c7913736,1,6
+Unigram,0,0.0,leaf_620d73b8cfb217b6,1,6
+Unigram,0,0.0,leaf_a280fa2ae09d329b,1,6
+Unigram,0,0.0,leaf_347efec2afc78e44,1,6
+Unigram,0,0.0,leaf_57905de77bc7f811,1,6
+Unigram,0,0.0,leaf_7f9c59b7594e5833,1,6
+Unigram,0,0.0,leaf_328651beb5d48483,1,6
+Unigram,0,0.0,leaf_2976a10d6fff3cd5,1,6
+Unigram,0,0.0,leaf_25803393f335987a,2,6
+Unigram,0,0.0,leaf_012389d8d324b6c8,1,6
+Unigram,0,0.0,leaf_055c97f32cf57da5,1,6
+Unigram,1,0.1,leaf_8473270c3702f48b,1,0
+Unigram,1,0.1,leaf_23b789945271fb92,1,0
+Unigram,1,0.1,leaf_ef0854556175e2b0,1,0
+Unigram,1,0.1,leaf_de455d31a4df8c43,1,0
+Unigram,1,0.1,leaf_8809ccde35d4b945,1,0
+Unigram,1,0.1,leaf_68b0c81b496519cd,1,0
+Unigram,1,0.1,leaf_a838808299383884,1,0
+Unigram,1,0.1,leaf_d12754f94f5ff7fc,1,0
+Unigram,1,0.1,leaf_ad660412d798bd65,1,0
+Unigram,1,0.1,leaf_b230b822f6a38f1c,1,0
+Unigram,1,0.1,leaf_3c3fafa9c7913736,1,0
+Unigram,1,0.1,leaf_620d73b8cfb217b6,1,0
+Unigram,1,0.1,leaf_a280fa2ae09d329b,1,0
+Unigram,1,0.1,leaf_347efec2afc78e44,1,0
+Unigram,1,0.1,leaf_57905de77bc7f811,1,0
+Unigram,1,0.1,leaf_7f9c59b7594e5833,1,0
+Unigram,1,0.1,leaf_328651beb5d48483,1,0
+Unigram,1,0.1,leaf_2976a10d6fff3cd5,1,0
+Unigram,1,0.1,leaf_25803393f335987a,1,0
+Unigram,1,0.1,leaf_012389d8d324b6c8,1,0
+Unigram,1,0.1,leaf_055c97f32cf57da5,1,0
+Unigram,2,0.2,leaf_8473270c3702f48b,1,0
+Unigram,2,0.2,leaf_23b789945271fb92,1,0
+Unigram,2,0.2,leaf_ef0854556175e2b0,1,0
+Unigram,2,0.2,leaf_de455d31a4df8c43,1,0
+Unigram,2,0.2,leaf_8809ccde35d4b945,1,0
+Unigram,2,0.2,leaf_68b0c81b496519cd,1,0
+Unigram,2,0.2,leaf_a838808299383884,1,0
+Unigram,2,0.2,leaf_d12754f94f5ff7fc,1,0
+Unigram,2,0.2,leaf_ad660412d798bd65,1,0
+Unigram,2,0.2,leaf_b230b822f6a38f1c,1,0
+Unigram,2,0.2,leaf_3c3fafa9c7913736,1,0
+Unigram,2,0.2,leaf_620d73b8cfb217b6,1,0
+Unigram,2,0.2,leaf_a280fa2ae09d329b,1,0
+Unigram,2,0.2,leaf_347efec2afc78e44,1,0
+Unigram,2,0.2,leaf_57905de77bc7f811,1,0
+Unigram,2,0.2,leaf_7f9c59b7594e5833,1,0
+Unigram,2,0.2,leaf_328651beb5d48483,1,0
+Unigram,2,0.2,leaf_2976a10d6fff3cd5,1,0
+Unigram,2,0.2,leaf_25803393f335987a,1,0
+Unigram,2,0.2,leaf_012389d8d324b6c8,1,0
+Unigram,2,0.2,leaf_055c97f32cf57da5,1,0
+Unigram,3,0.3,leaf_8473270c3702f48b,1,0
+Unigram,3,0.3,leaf_23b789945271fb92,1,0
+Unigram,3,0.3,leaf_ef0854556175e2b0,1,0
+Unigram,3,0.3,leaf_de455d31a4df8c43,1,0
+Unigram,3,0.3,leaf_8809ccde35d4b945,1,0
+Unigram,3,0.3,leaf_68b0c81b496519cd,1,0
+Unigram,3,0.3,leaf_a838808299383884,1,0
+Unigram,3,0.3,leaf_d12754f94f5ff7fc,1,0
+Unigram,3,0.3,leaf_ad660412d798bd65,1,0
+Unigram,3,0.3,leaf_b230b822f6a38f1c,1,0
+Unigram,3,0.3,leaf_3c3fafa9c7913736,1,0
+Unigram,3,0.3,leaf_620d73b8cfb217b6,1,0
+Unigram,3,0.3,leaf_a280fa2ae09d329b,1,0
+Unigram,3,0.3,leaf_347efec2afc78e44,1,0
+Unigram,3,0.3,leaf_57905de77bc7f811,1,0
+Unigram,3,0.3,leaf_7f9c59b7594e5833,1,0
+Unigram,3,0.3,leaf_328651beb5d48483,1,0
+Unigram,3,0.3,leaf_2976a10d6fff3cd5,1,0
+Unigram,3,0.3,leaf_25803393f335987a,1,0
+Unigram,3,0.3,leaf_012389d8d324b6c8,1,0
+Unigram,3,0.3,leaf_055c97f32cf57da5,1,0
+Unigram,4,0.4,leaf_8473270c3702f48b,1,0
+Unigram,4,0.4,leaf_23b789945271fb92,1,0
+Unigram,4,0.4,leaf_ef0854556175e2b0,1,0
+Unigram,4,0.4,leaf_de455d31a4df8c43,1,0
+Unigram,4,0.4,leaf_8809ccde35d4b945,1,0
+Unigram,4,0.4,leaf_68b0c81b496519cd,1,0
+Unigram,4,0.4,leaf_a838808299383884,1,0
+Unigram,4,0.4,leaf_d12754f94f5ff7fc,1,0
+Unigram,4,0.4,leaf_ad660412d798bd65,1,0
+Unigram,4,0.4,leaf_b230b822f6a38f1c,1,0
+Unigram,4,0.4,leaf_3c3fafa9c7913736,1,0
+Unigram,4,0.4,leaf_620d73b8cfb217b6,1,0
+Unigram,4,0.4,leaf_a280fa2ae09d329b,1,0
+Unigram,4,0.4,leaf_347efec2afc78e44,1,0
+Unigram,4,0.4,leaf_57905de77bc7f811,1,0
+Unigram,4,0.4,leaf_7f9c59b7594e5833,1,0
+Unigram,4,0.4,leaf_328651beb5d48483,1,0
+Unigram,4,0.4,leaf_2976a10d6fff3cd5,1,0
+Unigram,4,0.4,leaf_25803393f335987a,1,0
+Unigram,4,0.4,leaf_012389d8d324b6c8,1,0
+Unigram,4,0.4,leaf_055c97f32cf57da5,1,0
+Unigram,5,0.5,leaf_8473270c3702f48b,1,0
+Unigram,5,0.5,leaf_23b789945271fb92,1,0
+Unigram,5,0.5,leaf_ef0854556175e2b0,1,0
+Unigram,5,0.5,leaf_de455d31a4df8c43,1,0
+Unigram,5,0.5,leaf_8809ccde35d4b945,1,0
+Unigram,5,0.5,leaf_68b0c81b496519cd,1,0
+Unigram,5,0.5,leaf_a838808299383884,1,0
+Unigram,5,0.5,leaf_d12754f94f5ff7fc,1,0
+Unigram,5,0.5,leaf_ad660412d798bd65,1,0
+Unigram,5,0.5,leaf_b230b822f6a38f1c,1,0
+Unigram,5,0.5,leaf_3c3fafa9c7913736,1,0
+Unigram,5,0.5,leaf_620d73b8cfb217b6,1,0
+Unigram,5,0.5,leaf_a280fa2ae09d329b,1,0
+Unigram,5,0.5,leaf_347efec2afc78e44,1,0
+Unigram,5,0.5,leaf_57905de77bc7f811,1,0
+Unigram,5,0.5,leaf_7f9c59b7594e5833,1,0
+Unigram,5,0.5,leaf_328651beb5d48483,1,0
+Unigram,5,0.5,leaf_2976a10d6fff3cd5,1,0
+Unigram,5,0.5,leaf_25803393f335987a,1,0
+Unigram,5,0.5,leaf_012389d8d324b6c8,1,0
+Unigram,5,0.5,leaf_055c97f32cf57da5,1,0
+Unigram,6,0.6,leaf_8473270c3702f48b,1,0
+Unigram,6,0.6,leaf_23b789945271fb92,1,0
+Unigram,6,0.6,leaf_ef0854556175e2b0,1,0
+Unigram,6,0.6,leaf_de455d31a4df8c43,1,0
+Unigram,6,0.6,leaf_8809ccde35d4b945,1,0
+Unigram,6,0.6,leaf_68b0c81b496519cd,1,0
+Unigram,6,0.6,leaf_a838808299383884,1,0
+Unigram,6,0.6,leaf_d12754f94f5ff7fc,1,0
+Unigram,6,0.6,leaf_ad660412d798bd65,1,0
+Unigram,6,0.6,leaf_b230b822f6a38f1c,1,0
+Unigram,6,0.6,leaf_3c3fafa9c7913736,1,0
+Unigram,6,0.6,leaf_620d73b8cfb217b6,1,0
+Unigram,6,0.6,leaf_a280fa2ae09d329b,1,0
+Unigram,6,0.6,leaf_347efec2afc78e44,1,0
+Unigram,6,0.6,leaf_57905de77bc7f811,1,0
+Unigram,6,0.6,leaf_7f9c59b7594e5833,1,0
+Unigram,6,0.6,leaf_328651beb5d48483,1,0
+Unigram,6,0.6,leaf_2976a10d6fff3cd5,1,0
+Unigram,6,0.6,leaf_25803393f335987a,1,0
+Unigram,6,0.6,leaf_012389d8d324b6c8,1,0
+Unigram,6,0.6,leaf_055c97f32cf57da5,1,0
+Unigram,7,0.7,leaf_8473270c3702f48b,1,0
+Unigram,7,0.7,leaf_23b789945271fb92,1,0
+Unigram,7,0.7,leaf_ef0854556175e2b0,1,0
+Unigram,7,0.7,leaf_de455d31a4df8c43,1,0
+Unigram,7,0.7,leaf_8809ccde35d4b945,1,0
+Unigram,7,0.7,leaf_68b0c81b496519cd,1,0
+Unigram,7,0.7,leaf_a838808299383884,1,0
+Unigram,7,0.7,leaf_d12754f94f5ff7fc,1,0
+Unigram,7,0.7,leaf_ad660412d798bd65,1,0
+Unigram,7,0.7,leaf_b230b822f6a38f1c,1,0
+Unigram,7,0.7,leaf_3c3fafa9c7913736,1,0
+Unigram,7,0.7,leaf_620d73b8cfb217b6,1,0
+Unigram,7,0.7,leaf_a280fa2ae09d329b,1,0
+Unigram,7,0.7,leaf_347efec2afc78e44,1,0
+Unigram,7,0.7,leaf_57905de77bc7f811,1,0
+Unigram,7,0.7,leaf_7f9c59b7594e5833,1,0
+Unigram,7,0.7,leaf_328651beb5d48483,1,0
+Unigram,7,0.7,leaf_2976a10d6fff3cd5,1,0
+Unigram,7,0.7,leaf_25803393f335987a,1,0
+Unigram,7,0.7,leaf_012389d8d324b6c8,1,0
+Unigram,7,0.7,leaf_055c97f32cf57da5,1,0
+Unigram,8,0.8,leaf_8473270c3702f48b,1,0
+Unigram,8,0.8,leaf_23b789945271fb92,1,0
+Unigram,8,0.8,leaf_ef0854556175e2b0,1,0
+Unigram,8,0.8,leaf_de455d31a4df8c43,1,0
+Unigram,8,0.8,leaf_8809ccde35d4b945,1,0
+Unigram,8,0.8,leaf_68b0c81b496519cd,1,0
+Unigram,8,0.8,leaf_a838808299383884,1,0
+Unigram,8,0.8,leaf_d12754f94f5ff7fc,1,0
+Unigram,8,0.8,leaf_ad660412d798bd65,1,0
+Unigram,8,0.8,leaf_b230b822f6a38f1c,1,0
+Unigram,8,0.8,leaf_3c3fafa9c7913736,1,0
+Unigram,8,0.8,leaf_620d73b8cfb217b6,1,0
+Unigram,8,0.8,leaf_a280fa2ae09d329b,1,0
+Unigram,8,0.8,leaf_347efec2afc78e44,1,0
+Unigram,8,0.8,leaf_57905de77bc7f811,1,0
+Unigram,8,0.8,leaf_7f9c59b7594e5833,1,0
+Unigram,8,0.8,leaf_328651beb5d48483,1,0
+Unigram,8,0.8,leaf_2976a10d6fff3cd5,1,0
+Unigram,8,0.8,leaf_25803393f335987a,1,0
+Unigram,8,0.8,leaf_012389d8d324b6c8,1,0
+Unigram,8,0.8,leaf_055c97f32cf57da5,1,0
+Unigram,9,0.9,leaf_8473270c3702f48b,1,0
+Unigram,9,0.9,leaf_23b789945271fb92,1,0
+Unigram,9,0.9,leaf_ef0854556175e2b0,1,0
+Unigram,9,0.9,leaf_de455d31a4df8c43,1,0
+Unigram,9,0.9,leaf_8809ccde35d4b945,1,0
+Unigram,9,0.9,leaf_68b0c81b496519cd,1,0
+Unigram,9,0.9,leaf_a838808299383884,1,0
+Unigram,9,0.9,leaf_d12754f94f5ff7fc,1,0
+Unigram,9,0.9,leaf_ad660412d798bd65,1,0
+Unigram,9,0.9,leaf_b230b822f6a38f1c,1,0
+Unigram,9,0.9,leaf_3c3fafa9c7913736,1,0
+Unigram,9,0.9,leaf_620d73b8cfb217b6,1,0
+Unigram,9,0.9,leaf_a280fa2ae09d329b,1,0
+Unigram,9,0.9,leaf_347efec2afc78e44,1,0
+Unigram,9,0.9,leaf_57905de77bc7f811,1,0
+Unigram,9,0.9,leaf_7f9c59b7594e5833,1,0
+Unigram,9,0.9,leaf_328651beb5d48483,1,0
+Unigram,9,0.9,leaf_2976a10d6fff3cd5,1,0
+Unigram,9,0.9,leaf_25803393f335987a,1,0
+Unigram,9,0.9,leaf_012389d8d324b6c8,1,0
+Unigram,9,0.9,leaf_055c97f32cf57da5,1,0
+Unigram,10,1.0,leaf_8473270c3702f48b,1,0
+Unigram,10,1.0,leaf_23b789945271fb92,1,0
+Unigram,10,1.0,leaf_ef0854556175e2b0,1,0
+Unigram,10,1.0,leaf_de455d31a4df8c43,1,0
+Unigram,10,1.0,leaf_8809ccde35d4b945,1,0
+Unigram,10,1.0,leaf_68b0c81b496519cd,1,0
+Unigram,10,1.0,leaf_a838808299383884,1,0
+Unigram,10,1.0,leaf_d12754f94f5ff7fc,1,0
+Unigram,10,1.0,leaf_ad660412d798bd65,1,0
+Unigram,10,1.0,leaf_b230b822f6a38f1c,1,0
+Unigram,10,1.0,leaf_3c3fafa9c7913736,1,0
+Unigram,10,1.0,leaf_620d73b8cfb217b6,1,0
+Unigram,10,1.0,leaf_a280fa2ae09d329b,1,0
+Unigram,10,1.0,leaf_347efec2afc78e44,1,0
+Unigram,10,1.0,leaf_57905de77bc7f811,1,0
+Unigram,10,1.0,leaf_7f9c59b7594e5833,1,0
+Unigram,10,1.0,leaf_328651beb5d48483,1,0
+Unigram,10,1.0,leaf_2976a10d6fff3cd5,1,0
+Unigram,10,1.0,leaf_25803393f335987a,1,0
+Unigram,10,1.0,leaf_012389d8d324b6c8,1,0
+Unigram,10,1.0,leaf_055c97f32cf57da5,1,0
+Unigram + Bigram,0,0.0,leaf_8473270c3702f48b,1,6
+Unigram + Bigram,0,0.0,leaf_23b789945271fb92,1,6
+Unigram + Bigram,0,0.0,leaf_ef0854556175e2b0,1,6
+Unigram + Bigram,0,0.0,leaf_de455d31a4df8c43,1,6
+Unigram + Bigram,0,0.0,leaf_8809ccde35d4b945,1,6
+Unigram + Bigram,0,0.0,leaf_68b0c81b496519cd,1,6
+Unigram + Bigram,0,0.0,leaf_a838808299383884,1,6
+Unigram + Bigram,0,0.0,leaf_d12754f94f5ff7fc,1,6
+Unigram + Bigram,0,0.0,leaf_ad660412d798bd65,1,6
+Unigram + Bigram,0,0.0,leaf_b230b822f6a38f1c,1,6
+Unigram + Bigram,0,0.0,leaf_3c3fafa9c7913736,1,6
+Unigram + Bigram,0,0.0,leaf_620d73b8cfb217b6,1,6
+Unigram + Bigram,0,0.0,leaf_a280fa2ae09d329b,1,6
+Unigram + Bigram,0,0.0,leaf_347efec2afc78e44,1,6
+Unigram + Bigram,0,0.0,leaf_57905de77bc7f811,1,6
+Unigram + Bigram,0,0.0,leaf_7f9c59b7594e5833,1,6
+Unigram + Bigram,0,0.0,leaf_328651beb5d48483,1,6
+Unigram + Bigram,0,0.0,leaf_2976a10d6fff3cd5,1,6
+Unigram + Bigram,0,0.0,leaf_25803393f335987a,1,6
+Unigram + Bigram,0,0.0,leaf_012389d8d324b6c8,1,6
+Unigram + Bigram,0,0.0,leaf_055c97f32cf57da5,1,6
+Unigram + Bigram,1,0.1,leaf_8473270c3702f48b,1,0
+Unigram + Bigram,1,0.1,leaf_23b789945271fb92,1,0
+Unigram + Bigram,1,0.1,leaf_ef0854556175e2b0,1,0
+Unigram + Bigram,1,0.1,leaf_de455d31a4df8c43,1,0
+Unigram + Bigram,1,0.1,leaf_8809ccde35d4b945,1,0
+Unigram + Bigram,1,0.1,leaf_68b0c81b496519cd,1,0
+Unigram + Bigram,1,0.1,leaf_a838808299383884,1,0
+Unigram + Bigram,1,0.1,leaf_d12754f94f5ff7fc,1,0
+Unigram + Bigram,1,0.1,leaf_ad660412d798bd65,1,0
+Unigram + Bigram,1,0.1,leaf_b230b822f6a38f1c,1,0
+Unigram + Bigram,1,0.1,leaf_3c3fafa9c7913736,1,0
+Unigram + Bigram,1,0.1,leaf_620d73b8cfb217b6,1,0
+Unigram + Bigram,1,0.1,leaf_a280fa2ae09d329b,1,0
+Unigram + Bigram,1,0.1,leaf_347efec2afc78e44,1,0
+Unigram + Bigram,1,0.1,leaf_57905de77bc7f811,1,0
+Unigram + Bigram,1,0.1,leaf_7f9c59b7594e5833,1,0
+Unigram + Bigram,1,0.1,leaf_328651beb5d48483,1,0
+Unigram + Bigram,1,0.1,leaf_2976a10d6fff3cd5,1,0
+Unigram + Bigram,1,0.1,leaf_25803393f335987a,1,0
+Unigram + Bigram,1,0.1,leaf_012389d8d324b6c8,1,0
+Unigram + Bigram,1,0.1,leaf_055c97f32cf57da5,1,0
+Unigram + Bigram,2,0.2,leaf_8473270c3702f48b,1,0
+Unigram + Bigram,2,0.2,leaf_23b789945271fb92,1,0
+Unigram + Bigram,2,0.2,leaf_ef0854556175e2b0,1,0
+Unigram + Bigram,2,0.2,leaf_de455d31a4df8c43,1,0
+Unigram + Bigram,2,0.2,leaf_8809ccde35d4b945,1,0
+Unigram + Bigram,2,0.2,leaf_68b0c81b496519cd,1,0
+Unigram + Bigram,2,0.2,leaf_a838808299383884,1,0
+Unigram + Bigram,2,0.2,leaf_d12754f94f5ff7fc,1,0
+Unigram + Bigram,2,0.2,leaf_ad660412d798bd65,1,0
+Unigram + Bigram,2,0.2,leaf_b230b822f6a38f1c,1,0
+Unigram + Bigram,2,0.2,leaf_3c3fafa9c7913736,1,0
+Unigram + Bigram,2,0.2,leaf_620d73b8cfb217b6,1,0
+Unigram + Bigram,2,0.2,leaf_a280fa2ae09d329b,1,0
+Unigram + Bigram,2,0.2,leaf_347efec2afc78e44,1,0
+Unigram + Bigram,2,0.2,leaf_57905de77bc7f811,1,0
+Unigram + Bigram,2,0.2,leaf_7f9c59b7594e5833,1,0
+Unigram + Bigram,2,0.2,leaf_328651beb5d48483,1,0
+Unigram + Bigram,2,0.2,leaf_2976a10d6fff3cd5,1,0
+Unigram + Bigram,2,0.2,leaf_25803393f335987a,1,0
+Unigram + Bigram,2,0.2,leaf_012389d8d324b6c8,1,0
+Unigram + Bigram,2,0.2,leaf_055c97f32cf57da5,1,0
+Unigram + Bigram,3,0.3,leaf_8473270c3702f48b,1,0
+Unigram + Bigram,3,0.3,leaf_23b789945271fb92,1,0
+Unigram + Bigram,3,0.3,leaf_ef0854556175e2b0,1,0
+Unigram + Bigram,3,0.3,leaf_de455d31a4df8c43,1,0
+Unigram + Bigram,3,0.3,leaf_8809ccde35d4b945,1,0
+Unigram + Bigram,3,0.3,leaf_68b0c81b496519cd,1,0
+Unigram + Bigram,3,0.3,leaf_a838808299383884,1,0
+Unigram + Bigram,3,0.3,leaf_d12754f94f5ff7fc,1,0
+Unigram + Bigram,3,0.3,leaf_ad660412d798bd65,1,0
+Unigram + Bigram,3,0.3,leaf_b230b822f6a38f1c,1,0
+Unigram + Bigram,3,0.3,leaf_3c3fafa9c7913736,1,0
+Unigram + Bigram,3,0.3,leaf_620d73b8cfb217b6,1,0
+Unigram + Bigram,3,0.3,leaf_a280fa2ae09d329b,1,0
+Unigram + Bigram,3,0.3,leaf_347efec2afc78e44,1,0
+Unigram + Bigram,3,0.3,leaf_57905de77bc7f811,1,0
+Unigram + Bigram,3,0.3,leaf_7f9c59b7594e5833,1,0
+Unigram + Bigram,3,0.3,leaf_328651beb5d48483,1,0
+Unigram + Bigram,3,0.3,leaf_2976a10d6fff3cd5,1,0
+Unigram + Bigram,3,0.3,leaf_25803393f335987a,1,0
+Unigram + Bigram,3,0.3,leaf_012389d8d324b6c8,1,0
+Unigram + Bigram,3,0.3,leaf_055c97f32cf57da5,1,0
+Unigram + Bigram,4,0.4,leaf_8473270c3702f48b,1,0
+Unigram + Bigram,4,0.4,leaf_23b789945271fb92,1,0
+Unigram + Bigram,4,0.4,leaf_ef0854556175e2b0,1,0
+Unigram + Bigram,4,0.4,leaf_de455d31a4df8c43,1,0
+Unigram + Bigram,4,0.4,leaf_8809ccde35d4b945,1,0
+Unigram + Bigram,4,0.4,leaf_68b0c81b496519cd,1,0
+Unigram + Bigram,4,0.4,leaf_a838808299383884,1,0
+Unigram + Bigram,4,0.4,leaf_d12754f94f5ff7fc,1,0
+Unigram + Bigram,4,0.4,leaf_ad660412d798bd65,1,0
+Unigram + Bigram,4,0.4,leaf_b230b822f6a38f1c,1,0
+Unigram + Bigram,4,0.4,leaf_3c3fafa9c7913736,1,0
+Unigram + Bigram,4,0.4,leaf_620d73b8cfb217b6,1,0
+Unigram + Bigram,4,0.4,leaf_a280fa2ae09d329b,1,0
+Unigram + Bigram,4,0.4,leaf_347efec2afc78e44,1,0
+Unigram + Bigram,4,0.4,leaf_57905de77bc7f811,1,0
+Unigram + Bigram,4,0.4,leaf_7f9c59b7594e5833,1,0
+Unigram + Bigram,4,0.4,leaf_328651beb5d48483,1,0
+Unigram + Bigram,4,0.4,leaf_2976a10d6fff3cd5,1,0
+Unigram + Bigram,4,0.4,leaf_25803393f335987a,1,0
+Unigram + Bigram,4,0.4,leaf_012389d8d324b6c8,1,0
+Unigram + Bigram,4,0.4,leaf_055c97f32cf57da5,1,0
+Unigram + Bigram,5,0.5,leaf_8473270c3702f48b,1,0
+Unigram + Bigram,5,0.5,leaf_23b789945271fb92,1,0
+Unigram + Bigram,5,0.5,leaf_ef0854556175e2b0,1,0
+Unigram + Bigram,5,0.5,leaf_de455d31a4df8c43,1,0
+Unigram + Bigram,5,0.5,leaf_8809ccde35d4b945,1,0
+Unigram + Bigram,5,0.5,leaf_68b0c81b496519cd,1,0
+Unigram + Bigram,5,0.5,leaf_a838808299383884,1,0
+Unigram + Bigram,5,0.5,leaf_d12754f94f5ff7fc,1,0
+Unigram + Bigram,5,0.5,leaf_ad660412d798bd65,1,0
+Unigram + Bigram,5,0.5,leaf_b230b822f6a38f1c,1,0
+Unigram + Bigram,5,0.5,leaf_3c3fafa9c7913736,1,0
+Unigram + Bigram,5,0.5,leaf_620d73b8cfb217b6,1,0
+Unigram + Bigram,5,0.5,leaf_a280fa2ae09d329b,1,0
+Unigram + Bigram,5,0.5,leaf_347efec2afc78e44,1,0
+Unigram + Bigram,5,0.5,leaf_57905de77bc7f811,1,0
+Unigram + Bigram,5,0.5,leaf_7f9c59b7594e5833,1,0
+Unigram + Bigram,5,0.5,leaf_328651beb5d48483,1,0
+Unigram + Bigram,5,0.5,leaf_2976a10d6fff3cd5,1,0
+Unigram + Bigram,5,0.5,leaf_25803393f335987a,1,0
+Unigram + Bigram,5,0.5,leaf_012389d8d324b6c8,1,0
+Unigram + Bigram,5,0.5,leaf_055c97f32cf57da5,1,0
+Unigram + Bigram,6,0.6,leaf_8473270c3702f48b,1,0
+Unigram + Bigram,6,0.6,leaf_23b789945271fb92,1,0
+Unigram + Bigram,6,0.6,leaf_ef0854556175e2b0,1,0
+Unigram + Bigram,6,0.6,leaf_de455d31a4df8c43,1,0
+Unigram + Bigram,6,0.6,leaf_8809ccde35d4b945,1,0
+Unigram + Bigram,6,0.6,leaf_68b0c81b496519cd,1,0
+Unigram + Bigram,6,0.6,leaf_a838808299383884,1,0
+Unigram + Bigram,6,0.6,leaf_d12754f94f5ff7fc,1,0
+Unigram + Bigram,6,0.6,leaf_ad660412d798bd65,1,0
+Unigram + Bigram,6,0.6,leaf_b230b822f6a38f1c,1,0
+Unigram + Bigram,6,0.6,leaf_3c3fafa9c7913736,1,0
+Unigram + Bigram,6,0.6,leaf_620d73b8cfb217b6,1,0
+Unigram + Bigram,6,0.6,leaf_a280fa2ae09d329b,1,0
+Unigram + Bigram,6,0.6,leaf_347efec2afc78e44,1,0
+Unigram + Bigram,6,0.6,leaf_57905de77bc7f811,1,0
+Unigram + Bigram,6,0.6,leaf_7f9c59b7594e5833,1,0
+Unigram + Bigram,6,0.6,leaf_328651beb5d48483,1,0
+Unigram + Bigram,6,0.6,leaf_2976a10d6fff3cd5,1,0
+Unigram + Bigram,6,0.6,leaf_25803393f335987a,1,0
+Unigram + Bigram,6,0.6,leaf_012389d8d324b6c8,1,0
+Unigram + Bigram,6,0.6,leaf_055c97f32cf57da5,1,0
+Unigram + Bigram,7,0.7,leaf_8473270c3702f48b,1,0
+Unigram + Bigram,7,0.7,leaf_23b789945271fb92,1,0
+Unigram + Bigram,7,0.7,leaf_ef0854556175e2b0,1,0
+Unigram + Bigram,7,0.7,leaf_de455d31a4df8c43,1,0
+Unigram + Bigram,7,0.7,leaf_8809ccde35d4b945,1,0
+Unigram + Bigram,7,0.7,leaf_68b0c81b496519cd,1,0
+Unigram + Bigram,7,0.7,leaf_a838808299383884,1,0
+Unigram + Bigram,7,0.7,leaf_d12754f94f5ff7fc,1,0
+Unigram + Bigram,7,0.7,leaf_ad660412d798bd65,1,0
+Unigram + Bigram,7,0.7,leaf_b230b822f6a38f1c,1,0
+Unigram + Bigram,7,0.7,leaf_3c3fafa9c7913736,1,0
+Unigram + Bigram,7,0.7,leaf_620d73b8cfb217b6,1,0
+Unigram + Bigram,7,0.7,leaf_a280fa2ae09d329b,1,0
+Unigram + Bigram,7,0.7,leaf_347efec2afc78e44,1,0
+Unigram + Bigram,7,0.7,leaf_57905de77bc7f811,1,0
+Unigram + Bigram,7,0.7,leaf_7f9c59b7594e5833,1,0
+Unigram + Bigram,7,0.7,leaf_328651beb5d48483,1,0
+Unigram + Bigram,7,0.7,leaf_2976a10d6fff3cd5,1,0
+Unigram + Bigram,7,0.7,leaf_25803393f335987a,1,0
+Unigram + Bigram,7,0.7,leaf_012389d8d324b6c8,1,0
+Unigram + Bigram,7,0.7,leaf_055c97f32cf57da5,1,0
+Unigram + Bigram,8,0.8,leaf_8473270c3702f48b,1,0
+Unigram + Bigram,8,0.8,leaf_23b789945271fb92,1,0
+Unigram + Bigram,8,0.8,leaf_ef0854556175e2b0,1,0
+Unigram + Bigram,8,0.8,leaf_de455d31a4df8c43,1,0
+Unigram + Bigram,8,0.8,leaf_8809ccde35d4b945,1,0
+Unigram + Bigram,8,0.8,leaf_68b0c81b496519cd,1,0
+Unigram + Bigram,8,0.8,leaf_a838808299383884,1,0
+Unigram + Bigram,8,0.8,leaf_d12754f94f5ff7fc,1,0
+Unigram + Bigram,8,0.8,leaf_ad660412d798bd65,1,0
+Unigram + Bigram,8,0.8,leaf_b230b822f6a38f1c,1,0
+Unigram + Bigram,8,0.8,leaf_3c3fafa9c7913736,1,0
+Unigram + Bigram,8,0.8,leaf_620d73b8cfb217b6,1,0
+Unigram + Bigram,8,0.8,leaf_a280fa2ae09d329b,1,0
+Unigram + Bigram,8,0.8,leaf_347efec2afc78e44,1,0
+Unigram + Bigram,8,0.8,leaf_57905de77bc7f811,1,0
+Unigram + Bigram,8,0.8,leaf_7f9c59b7594e5833,1,0
+Unigram + Bigram,8,0.8,leaf_328651beb5d48483,1,0
+Unigram + Bigram,8,0.8,leaf_2976a10d6fff3cd5,1,0
+Unigram + Bigram,8,0.8,leaf_25803393f335987a,1,0
+Unigram + Bigram,8,0.8,leaf_012389d8d324b6c8,1,0
+Unigram + Bigram,8,0.8,leaf_055c97f32cf57da5,1,0
+Unigram + Bigram,9,0.9,leaf_8473270c3702f48b,1,0
+Unigram + Bigram,9,0.9,leaf_23b789945271fb92,1,0
+Unigram + Bigram,9,0.9,leaf_ef0854556175e2b0,1,0
+Unigram + Bigram,9,0.9,leaf_de455d31a4df8c43,1,0
+Unigram + Bigram,9,0.9,leaf_8809ccde35d4b945,1,0
+Unigram + Bigram,9,0.9,leaf_68b0c81b496519cd,1,0
+Unigram + Bigram,9,0.9,leaf_a838808299383884,1,0
+Unigram + Bigram,9,0.9,leaf_d12754f94f5ff7fc,1,0
+Unigram + Bigram,9,0.9,leaf_ad660412d798bd65,1,0
+Unigram + Bigram,9,0.9,leaf_b230b822f6a38f1c,1,0
+Unigram + Bigram,9,0.9,leaf_3c3fafa9c7913736,1,0
+Unigram + Bigram,9,0.9,leaf_620d73b8cfb217b6,1,0
+Unigram + Bigram,9,0.9,leaf_a280fa2ae09d329b,1,0
+Unigram + Bigram,9,0.9,leaf_347efec2afc78e44,1,0
+Unigram + Bigram,9,0.9,leaf_57905de77bc7f811,1,0
+Unigram + Bigram,9,0.9,leaf_7f9c59b7594e5833,1,0
+Unigram + Bigram,9,0.9,leaf_328651beb5d48483,1,0
+Unigram + Bigram,9,0.9,leaf_2976a10d6fff3cd5,1,0
+Unigram + Bigram,9,0.9,leaf_25803393f335987a,1,0
+Unigram + Bigram,9,0.9,leaf_012389d8d324b6c8,1,0
+Unigram + Bigram,9,0.9,leaf_055c97f32cf57da5,1,0
+Unigram + Bigram,10,1.0,leaf_8473270c3702f48b,1,0
+Unigram + Bigram,10,1.0,leaf_23b789945271fb92,1,0
+Unigram + Bigram,10,1.0,leaf_ef0854556175e2b0,1,0
+Unigram + Bigram,10,1.0,leaf_de455d31a4df8c43,1,0
+Unigram + Bigram,10,1.0,leaf_8809ccde35d4b945,1,0
+Unigram + Bigram,10,1.0,leaf_68b0c81b496519cd,1,0
+Unigram + Bigram,10,1.0,leaf_a838808299383884,1,0
+Unigram + Bigram,10,1.0,leaf_d12754f94f5ff7fc,1,0
+Unigram + Bigram,10,1.0,leaf_ad660412d798bd65,1,0
+Unigram + Bigram,10,1.0,leaf_b230b822f6a38f1c,1,0
+Unigram + Bigram,10,1.0,leaf_3c3fafa9c7913736,1,0
+Unigram + Bigram,10,1.0,leaf_620d73b8cfb217b6,1,0
+Unigram + Bigram,10,1.0,leaf_a280fa2ae09d329b,1,0
+Unigram + Bigram,10,1.0,leaf_347efec2afc78e44,1,0
+Unigram + Bigram,10,1.0,leaf_57905de77bc7f811,1,0
+Unigram + Bigram,10,1.0,leaf_7f9c59b7594e5833,1,0
+Unigram + Bigram,10,1.0,leaf_328651beb5d48483,1,0
+Unigram + Bigram,10,1.0,leaf_2976a10d6fff3cd5,1,0
+Unigram + Bigram,10,1.0,leaf_25803393f335987a,1,0
+Unigram + Bigram,10,1.0,leaf_012389d8d324b6c8,1,0
+Unigram + Bigram,10,1.0,leaf_055c97f32cf57da5,1,0

@@ -1,0 +1,15 @@
+﻿category,validation_check,passed
+Input,Exactly 22 complete candidates,True
+Input,All metrics finite and bounded,True
+Input,Macro metrics match per-query averages,True
+Partition,Validation only; no test metrics,True
+Selection,Winner belongs to candidate grid,True
+Selection,Winning mAP@5 reaches grid maximum,True
+Selection,Deterministic under candidate-row shuffling,True
+Output,Exactly one selected candidate,True
+Output,Four K rows for selected configuration,True
+Output,Selected per-query rows complete,True
+Output,Selected Top-10 rows complete,True
+Methodology,Selected data use validation only,True
+Lock,No conflicting selection lock exists,True
+Lock,Evidence hash is a SHA-256 string,True

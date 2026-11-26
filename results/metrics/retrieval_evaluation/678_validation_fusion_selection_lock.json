@@ -1,0 +1,42 @@
+{
+  "notebook": "06_multimodal_retrieval_evaluation.ipynb",
+  "cell": 9,
+  "selection_partition": "validation",
+  "primary_metric": "mAP@5",
+  "selected_text_configuration": "Unigram + Bigram",
+  "selected_alpha": 0.3,
+  "selected_alpha_index": 3,
+  "selected_method_type": "Weighted Late Fusion",
+  "is_genuine_fusion": true,
+  "selected_validation_map_at_5": 0.7199999999999999,
+  "selected_validation_ndcg_at_5": 0.7854314614511159,
+  "selected_validation_mrr_at_5": 0.853174603174603,
+  "validation_query_count": 21,
+  "gallery_count": 62,
+  "selection_tolerance": 1e-10,
+  "candidate_count": 22,
+  "tie_break_priority": [
+    "max validation mAP@5",
+    "max validation nDCG@5 within tolerance",
+    "max validation MRR@5 within tolerance",
+    "alpha closest to 0.5",
+    "prefer Unigram if all above tied",
+    "smaller alpha"
+  ],
+  "evidence_sha256": "01907ece9c875df733abc784e7f0ed1cc7750f6646dae75eeb17971f1781b8c6",
+  "selected_using_test": false,
+  "test_metrics_computed_in_cell9": false,
+  "independent_evaluation_approved": false,
+  "review_status": "LOCKED_PROVISIONAL_REVIEW_REQUIRED",
+  "review_reasons": [
+    "Cell 2 readiness audit requires review.",
+    "Possible near-duplicate images cross partitions; manual verification is required.",
+    "Cell 3 split remains provisional; independent review is required.",
+    "Reference HSV/GLCM/Hu extractor may differ from the original Notebook 03 implementation.",
+    "Identical text descriptions occur across dataset partitions; review possible inflation of text retrieval performance.",
+    "Feature/split methodology has not yet been approved for independent evaluation.",
+    "Cell 3 split was not approved for independent evaluation.",
+    "Feature pipeline remains pending methodological approval."
+  ],
+  "next_cell": "Cell 10 - Selection Freeze and Pre-Test Integrity Gate"
+}

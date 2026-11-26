@@ -1,0 +1,31 @@
+﻿category,check,passed,severity_if_failed,detail
+Selection Lock,File and in-memory selection agree,True,BLOCK,
+Selection Lock,Exactly one selected candidate exists,True,BLOCK,matches=1
+Selection Lock,Validation evidence SHA-256 matches lock,True,BLOCK,lock_hash=01907ece9c875df733abc784e7f0ed1cc7750f6646dae75eeb17971f1781b8c6
+Selection Lock,Selected mAP@5 matches saved validation result,True,BLOCK,
+Selection Lock,"Cell 8/9 used validation, not test",True,BLOCK,
+Dataset,All 104 sample IDs are unique and aligned,True,BLOCK,
+Dataset,All samples assigned to three partitions,True,BLOCK,
+Dataset,Groups do not cross gallery/validation/test,True,BLOCK,
+Dataset,gallery: sample order matches Cell 3,True,BLOCK,count=62
+Dataset,gallery: all five classes represented,True,BLOCK,
+Dataset,validation: sample order matches Cell 3,True,BLOCK,count=21
+Dataset,validation: all five classes represented,True,BLOCK,
+Dataset,test: sample order matches Cell 3,True,BLOCK,count=21
+Dataset,test: all five classes represented,True,BLOCK,
+Raw Images,All 104 image files readable,True,BLOCK,
+Raw Images,No exact-image conflicts across splits or classes,True,BLOCK,conflict_groups=0
+Raw Images,No unresolved near-duplicates across splits,False,REVIEW,candidate_pairs=44
+Raw Text,All 104 original descriptions recovered,True,BLOCK,
+Raw Text,Text source is not only Notebook 05 gallery index,True,REVIEW,source=D:\Project\Multimodal_Leaf_Retrieval\dataset\processed\metadata_processed.csv
+Raw Text,No own-class names embedded in descriptions,True,REVIEW,flagged_samples=0
+Raw Text,No identical descriptions cross partitions,False,REVIEW,cross_split_description_groups=4
+Raw Text,No class-level identical-description templates,True,REVIEW,classes=[]
+Gallery-Only Fitting,Visual scaler fitted exclusively on gallery,True,BLOCK,
+Gallery-Only Fitting,Unigram: IDF agrees with gallery,True,BLOCK,
+Gallery-Only Fitting,Unigram: gallery matrix matches vectorizer,True,BLOCK,max_abs_error=1.110e-16
+Gallery-Only Fitting,Unigram + Bigram: IDF agrees with gallery,True,BLOCK,
+Gallery-Only Fitting,Unigram + Bigram: gallery matrix matches vectorizer,True,BLOCK,max_abs_error=1.110e-16
+Provenance,Independent specimen/capture group IDs verified,False,REVIEW,group_column=None
+Provenance,Visual extractor equivalence with Notebook 03 verified,False,REVIEW,Original Notebook 03 vectors require independent comparison; reference_extractor_unverified_against_notebook03
+Approval,Prior split and feature reviews formally approved,False,REVIEW,Cells 3 and 4 do not automatically approve independent evaluation.
