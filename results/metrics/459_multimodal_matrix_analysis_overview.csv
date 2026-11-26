@@ -1,0 +1,16 @@
+﻿Indicator,Result
+Samples,104
+Fusion configurations,2
+Default alpha,0.5
+Unique unordered pairs per configuration,5356
+Paired score comparison rows,10712
+Class-block summary rows,30
+Per-query ranking rows,208
+Query-Top-K overlap rows,1664
+Top-K aggregate rows,16
+Passed checks,20
+Failed checks,0
+Figures generated,4
+Input matrices modified,False
+Final fusion configuration selected,False
+Independent evaluation performed,False

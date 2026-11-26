@@ -1,0 +1,3 @@
+﻿text_configuration,sample_count,unique_pairs,visual_weight,text_weight,mean_visual_similarity,mean_text_similarity,mean_fusion_similarity,mean_abs_fusion_minus_visual,mean_abs_fusion_minus_text,mean_fusion_within,mean_fusion_cross,within_minus_cross_mean_gap,max_formula_error,max_cell14_consistency_error,independent_evaluation
+Unigram,104,5356,0.5,0.5,0.31500830824791343,0.34960374109677117,0.33230602467234227,0.058761351922479658,0.058761351922479658,0.44539657198007887,0.305022766329966,0.14037380565011287,0,0,False
+Unigram + Bigram,104,5356,0.5,0.5,0.31500830824791343,0.23429489613864724,0.27465160219328033,0.068710073798073229,0.068710073798073229,0.38770002324992126,0.24737850686999802,0.14032151637992324,0,0,False

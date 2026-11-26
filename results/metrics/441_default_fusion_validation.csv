@@ -1,0 +1,35 @@
+﻿category,validation_check,passed,status
+Input Matrices,Visual matrix properties valid,True,Passed
+Input Matrices,Unigram matrix properties valid,True,Passed
+Input Matrices,Unigram + Bigram matrix properties valid,True,Passed
+Sample Alignment,All 104 samples and labels aligned,True,Passed
+Pair Inventory,5356 matched unique off-diagonal pairs,True,Passed
+Pair Inventory,1041 within and 4315 cross-class pairs,True,Passed
+Unigram,shape_104x104,True,Passed
+Unigram,float64_dtype,True,Passed
+Unigram,finite_scores,True,Passed
+Unigram,scores_in_0_1,True,Passed
+Unigram,symmetric,True,Passed
+Unigram,diagonal_one,True,Passed
+Unigram,multimodal_mode,True,Passed
+Unigram,formula_consistent,True,Passed
+Unigram,convex_bounds,True,Passed
+Unigram + Bigram,shape_104x104,True,Passed
+Unigram + Bigram,float64_dtype,True,Passed
+Unigram + Bigram,finite_scores,True,Passed
+Unigram + Bigram,scores_in_0_1,True,Passed
+Unigram + Bigram,symmetric,True,Passed
+Unigram + Bigram,diagonal_one,True,Passed
+Unigram + Bigram,multimodal_mode,True,Passed
+Unigram + Bigram,formula_consistent,True,Passed
+Unigram + Bigram,convex_bounds,True,Passed
+Output Inventory,Exactly two fusion matrices,True,Passed
+Output Inventory,Both fusion matrices have 104 x 104 shape,True,Passed
+Pair Inventory,10712 paired fusion records,True,Passed
+Class Pairs,30 class-pair summary records,True,Passed
+Ranking,208 self-excluded nearest-neighbor records,True,Passed
+Ranking,50 representative Top-5 records,True,Passed
+Mathematics,All independent weighted-sum tests passed,True,Passed
+Input Integrity,Original similarity matrices unchanged,True,Passed
+Configuration,Default fusion weights are 0.5 and 0.5,True,Passed
+Configuration,Original sample order preserved,True,Passed

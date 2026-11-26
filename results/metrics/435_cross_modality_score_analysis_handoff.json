@@ -1,0 +1,24 @@
+{
+  "notebook": "05_multimodal_fusion.ipynb",
+  "cell": 12,
+  "sample_count": 104,
+  "alignment_signature": "2f3f33e97394bf3dd2bee7fbb2ff54b554874fc7a9cde45dd99352ea07c368d6",
+  "modalities": [
+    "Visual",
+    "Text - Unigram",
+    "Text - Unigram + Bigram"
+  ],
+  "unique_pairs": 5356,
+  "top_k_values": [
+    1,
+    3,
+    5,
+    10
+  ],
+  "all_diagonals_excluded_from_statistics": true,
+  "tie_breaker": "similarity_descending_then_sample_id_ascending",
+  "score_calibration_performed": false,
+  "fusion_weight_selected": false,
+  "independent_evaluation_completed": false,
+  "scope": "Full-gallery exploratory diagnostics; no hold-out evaluation"
+}

@@ -1,0 +1,27 @@
+﻿category,validation_check,passed,status
+Alignment,104 paired sample IDs and class labels preserved,True,Passed
+Alignment,"5356 unique pairs, 1041 within and 4315 cross",True,Passed
+Matrix - Visual,shape_104x104,True,Passed
+Matrix - Visual,finite,True,Passed
+Matrix - Visual,range_0_to_1,True,Passed
+Matrix - Visual,symmetric,True,Passed
+Matrix - Visual,diagonal_one,True,Passed
+Matrix - Text - Unigram,shape_104x104,True,Passed
+Matrix - Text - Unigram,finite,True,Passed
+Matrix - Text - Unigram,range_0_to_1,True,Passed
+Matrix - Text - Unigram,symmetric,True,Passed
+Matrix - Text - Unigram,diagonal_one,True,Passed
+Matrix - Text - Unigram + Bigram,shape_104x104,True,Passed
+Matrix - Text - Unigram + Bigram,finite,True,Passed
+Matrix - Text - Unigram + Bigram,range_0_to_1,True,Passed
+Matrix - Text - Unigram + Bigram,symmetric,True,Passed
+Matrix - Text - Unigram + Bigram,diagonal_one,True,Passed
+Distribution,Three modalities x three pair groups = nine summaries,True,Passed
+Distribution,Three modality scale summaries,True,Passed
+Pair Matching,Exactly 5356 distinct off-diagonal sample pairs,True,Passed
+Cross-Modal Comparison,Three modality pairs x three strata,True,Passed
+Query Profiles,Three score profiles for each of 104 queries,True,Passed
+Query Profiles,Every profile excludes its own sample,True,Passed
+Ranking,Three comparisons x 104 queries x four K values,True,Passed
+Ranking,Twelve summarized modality pair / K combinations,True,Passed
+Ranking,"Top-K overlaps stay in [0,1]",True,Passed

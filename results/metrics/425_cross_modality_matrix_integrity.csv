@@ -1,0 +1,4 @@
+﻿modality,matrix_shape,dtype,minimum_matrix_value,maximum_matrix_value,maximum_symmetry_error,maximum_diagonal_error,shape_104x104,finite,range_0_to_1,symmetric,diagonal_one
+Visual,"(104, 104)",float64,0.15707630087495056,1,0,0,True,True,True,True,True
+Text - Unigram,"(104, 104)",float64,0.079566816764249468,1,0,5.5511151231257827e-16,True,True,True,True,True
+Text - Unigram + Bigram,"(104, 104)",float64,0.040643439789309066,1,0,3.3306690738754696e-16,True,True,True,True,True

@@ -1,0 +1,26 @@
+﻿Indicator,Result
+Total multimodal samples,104
+Number of plant classes,5
+Fusion method,Score-Level Late Fusion
+Fusion strategy,Weighted Sum
+Default visual weight,0.5
+Default text weight,0.5
+Text configurations,2
+Fusion matrices generated,2
+Fusion matrix shape,"(104, 104)"
+Unique pairs per configuration,5356
+Total paired fusion records,10712
+Class-pair summary records,30
+Nearest-neighbor diagnostic records,208
+Representative Top-5 records,50
+Mathematical verification tests,12
+Technical validation checks,34
+Passed technical checks,34
+Failed technical checks,0
+Generated figures,2
+Original similarity matrices modified,False
+Feature matrices concatenated,False
+Fusion weight optimization performed,False
+Final text configuration selected,False
+Independent retrieval evaluation completed,False
+Analysis scope,Full-Gallery Exploratory Development

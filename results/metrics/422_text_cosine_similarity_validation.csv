@@ -1,0 +1,37 @@
+﻿category,validation_check,passed,status
+Sample Alignment,Text and visual sample IDs identical,True,Passed
+Sample Alignment,Text and visual labels identical,True,Passed
+Pair Inventory,5356 unique non-self pairs,True,Passed
+Pair Inventory,1041 within-class and 4315 cross-class pairs,True,Passed
+Unigram,TF-IDF matrix shape correct,True,Passed
+Unigram,All TF-IDF vectors L2-normalized,True,Passed
+Unigram,Cosine matrix shape 104 x 104,True,Passed
+Unigram,All cosine values finite,True,Passed
+Unigram,Cosine values between zero and one,True,Passed
+Unigram,Similarity matrix symmetric,True,Passed
+Unigram,Diagonal similarity equals one,True,Passed
+Unigram,Sparse dot-product result consistent,True,Passed
+Unigram,Vectorizer vocabulary matches feature dimension,True,Passed
+Unigram,Ten manual cosine calculations consistent,True,Passed
+Unigram,Class-pair counts reconcile,True,Passed
+Unigram,Class-mean matrix symmetric,True,Passed
+Unigram + Bigram,TF-IDF matrix shape correct,True,Passed
+Unigram + Bigram,All TF-IDF vectors L2-normalized,True,Passed
+Unigram + Bigram,Cosine matrix shape 104 x 104,True,Passed
+Unigram + Bigram,All cosine values finite,True,Passed
+Unigram + Bigram,Cosine values between zero and one,True,Passed
+Unigram + Bigram,Similarity matrix symmetric,True,Passed
+Unigram + Bigram,Diagonal similarity equals one,True,Passed
+Unigram + Bigram,Sparse dot-product result consistent,True,Passed
+Unigram + Bigram,Vectorizer vocabulary matches feature dimension,True,Passed
+Unigram + Bigram,Ten manual cosine calculations consistent,True,Passed
+Unigram + Bigram,Class-pair counts reconcile,True,Passed
+Unigram + Bigram,Class-mean matrix symmetric,True,Passed
+Overall,Two cosine similarity matrices generated,True,Passed
+Overall,Both matrices have shape 104 x 104,True,Passed
+Overall,Both matrices use the original sample order,True,Passed
+Overall,30 class-pair records generated,True,Passed
+Overall,20 manual pair verification records generated,True,Passed
+Overall,208 self-excluded nearest-neighbor records,True,Passed
+Overall,50 representative ranking preview records,True,Passed
+Overall,10712 unique-pair similarity records,True,Passed

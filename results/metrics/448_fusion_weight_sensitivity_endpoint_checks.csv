@@ -1,0 +1,7 @@
+﻿text_configuration,visual_weight,expected_source,maximum_absolute_difference,passed
+Unigram,0,Text Only,0,True
+Unigram,0.5,Cell 13 Balanced Fusion,0,True
+Unigram,1,Image Only,0,True
+Unigram + Bigram,0,Text Only,0,True
+Unigram + Bigram,0.5,Cell 13 Balanced Fusion,0,True
+Unigram + Bigram,1,Image Only,0,True

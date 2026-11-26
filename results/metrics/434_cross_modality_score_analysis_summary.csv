@@ -1,0 +1,20 @@
+﻿Indicator,Result
+Sample count,104
+Matched unique pairs,5356
+Within-class pairs,1041
+Cross-class pairs,4315
+Similarity matrices,3
+Distribution summaries,9
+Pairwise correlations,9
+Query profiles,312
+Top-K overlap records,1248
+Top-K summary records,12
+Technical checks,26
+Passed checks,26
+Failed checks,0
+Generated figures,4
+Score calibration performed,False
+Late fusion performed,False
+Final fusion weight selected,False
+Independent retrieval evaluation,False
+Scope,Full-gallery exploratory diagnostics; no hold-out evaluation

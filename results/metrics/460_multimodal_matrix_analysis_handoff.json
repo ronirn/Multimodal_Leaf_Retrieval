@@ -1,0 +1,22 @@
+{
+  "notebook": "05_multimodal_fusion.ipynb",
+  "cell": 15,
+  "fusion_method": "weighted_score_level_late_fusion",
+  "visual_weight": 0.5,
+  "text_weight": 0.5,
+  "text_configurations": [
+    "Unigram",
+    "Unigram + Bigram"
+  ],
+  "matrix_shape": [
+    104,
+    104
+  ],
+  "alignment_signature": "2f3f33e97394bf3dd2bee7fbb2ff54b554874fc7a9cde45dd99352ea07c368d6",
+  "self_matches_excluded_from_rankings": true,
+  "tie_breaking": "similarity_descending_then_sample_id_ascending",
+  "weight_selected_from_heldout_validation": false,
+  "independent_evaluation_completed": false,
+  "analysis_scope": "Full-gallery descriptive analysis; no held-out evaluation",
+  "next_cell": "16 - Top-K Multimodal Retrieval"
+}

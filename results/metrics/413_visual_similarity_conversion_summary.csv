@@ -1,0 +1,32 @@
+﻿Indicator,Result
+Input distance matrix,"(104, 104)"
+Output similarity matrix,"(104, 104)"
+Conversion method,inverse_distance
+Distance scale,1.0
+Total unique pairs,5356
+Within-class pairs,1041
+Cross-class pairs,4315
+Minimum off-diagonal similarity,0.15707630087495056
+Maximum off-diagonal similarity,0.8272488913556668
+Mean within-class similarity,0.35173440656180205
+Mean cross-class similarity,0.30614808383429626
+Within-minus-cross similarity gap,0.04558632272750579
+Maximum formula error,0.0
+Maximum distance reconstruction error,8.881784197001252e-16
+Maximum symmetry error,0.0
+Maximum diagonal error,0.0
+Distance-similarity Spearman,-0.9999999999999999
+Exact ranking matches,104
+Ranking matches within tolerance,104
+Total validation checks,29
+Validation checks passed,29
+Validation checks failed,0
+Conversion time milliseconds,0.1343000003544148
+Generated figures,3
+Input distance matrix modified,False
+Visual normalizer refitted,False
+Text similarity calculated,False
+Multimodal fusion applied,False
+Final fusion weight selected,False
+Independent evaluation completed,False
+Analysis scope,Full-Gallery Exploratory Development

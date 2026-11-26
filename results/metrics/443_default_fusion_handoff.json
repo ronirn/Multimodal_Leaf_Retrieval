@@ -1,0 +1,28 @@
+{
+    "notebook": "05_multimodal_fusion.ipynb",
+    "cell": 13,
+    "fusion_method": "Score-Level Late Fusion",
+    "fusion_strategy": "Weighted Sum",
+    "visual_similarity": "inverse_euclidean_distance",
+    "text_similarity": "cosine_similarity",
+    "visual_weight": 0.5,
+    "text_weight": 0.5,
+    "text_configurations": [
+        "Unigram",
+        "Unigram + Bigram"
+    ],
+    "sample_count": 104,
+    "matrix_shape": [
+        104,
+        104
+    ],
+    "sample_alignment_signature": "2f3f33e97394bf3dd2bee7fbb2ff54b554874fc7a9cde45dd99352ea07c368d6",
+    "self_matches_excluded_from_ranking": true,
+    "ranking_tie_breaking": "similarity_descending_then_sample_id_ascending",
+    "score_calibration_completed": false,
+    "final_weight_selected": false,
+    "final_text_configuration_selected": false,
+    "independent_evaluation_completed": false,
+    "analysis_scope": "Full-Gallery Exploratory Development",
+    "next_stage": "Fusion Weight Sensitivity Analysis"
+}

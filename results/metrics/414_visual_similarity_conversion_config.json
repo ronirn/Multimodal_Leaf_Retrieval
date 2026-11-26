@@ -1,0 +1,25 @@
+{
+    "notebook": "05_multimodal_fusion.ipynb",
+    "cell": 10,
+    "method": "inverse_distance",
+    "formula": "1 / (1 + distance / scale)",
+    "distance_method": "euclidean",
+    "distance_scale": 1.0,
+    "sample_count": 104,
+    "matrix_shape": [
+        104,
+        104
+    ],
+    "sample_alignment_signature": "2f3f33e97394bf3dd2bee7fbb2ff54b554874fc7a9cde45dd99352ea07c368d6",
+    "score_minimum_theoretical": 0.0,
+    "score_minimum_inclusive": false,
+    "score_maximum_theoretical": 1.0,
+    "self_matches_excluded_from_analysis": true,
+    "self_matches_preserved_on_matrix_diagonal": true,
+    "ranking_preserved_by_monotonic_conversion": true,
+    "parameters_fitted_from_gallery": false,
+    "score_calibration_completed": false,
+    "fusion_weight_selected": false,
+    "independent_evaluation_completed": false,
+    "analysis_scope": "Full-Gallery Exploratory Development"
+}

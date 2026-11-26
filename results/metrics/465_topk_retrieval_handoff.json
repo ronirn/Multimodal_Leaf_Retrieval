@@ -1,0 +1,27 @@
+{
+    "notebook": "05_multimodal_fusion.ipynb",
+    "cell": 16,
+    "sample_count": 104,
+    "alignment_signature": "2f3f33e97394bf3dd2bee7fbb2ff54b554874fc7a9cde45dd99352ea07c368d6",
+    "text_configurations": [
+        "Unigram",
+        "Unigram + Bigram"
+    ],
+    "default_alpha": 0.5,
+    "top_k_values": [
+        1,
+        3,
+        5,
+        10
+    ],
+    "supports_gallery_queries": true,
+    "supports_external_visual_queries": true,
+    "supports_external_text_queries": true,
+    "external_visual_requires_normalized_143D_features": true,
+    "external_text_requires_notebook04_preprocessing": true,
+    "gallery_self_match_excluded": true,
+    "external_self_match_not_automatically_detected": true,
+    "missing_modality_fallback": true,
+    "independent_evaluation_completed": false,
+    "next_stage": "Cell 17 - Retrieval Result Visualization"
+}

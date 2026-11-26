@@ -1,0 +1,21 @@
+﻿category,validation_check,passed,status
+Matrix Integrity,Visual,True,Passed
+Matrix Integrity,Text - Unigram,True,Passed
+Matrix Integrity,Fusion - Unigram,True,Passed
+Matrix Integrity,Text - Unigram + Bigram,True,Passed
+Matrix Integrity,Fusion - Unigram + Bigram,True,Passed
+Fusion Formula,Unigram: weighted average,True,Passed
+Fusion Formula,Unigram: Cell 14 alpha=0.5,True,Passed
+Class Blocks,Unigram: 5356 class-block pairs,True,Passed
+Fusion Formula,Unigram + Bigram: weighted average,True,Passed
+Fusion Formula,Unigram + Bigram: Cell 14 alpha=0.5,True,Passed
+Class Blocks,Unigram + Bigram: 5356 class-block pairs,True,Passed
+Output Inventory,Two fusion configuration summaries,True,Passed
+Output Inventory,10712 unique-pair comparison records,True,Passed
+Output Inventory,30 class-pair block records,True,Passed
+Output Inventory,208 per-query records,True,Passed
+Output Inventory,1664 Top-K query comparisons,True,Passed
+Output Inventory,16 Top-K summary records,True,Passed
+Output Inventory,No fusion self-matches ranked,True,Passed
+Output Inventory,"Top-K overlap scores in [0,1]",True,Passed
+Input Integrity,Original input matrices unchanged,True,Passed

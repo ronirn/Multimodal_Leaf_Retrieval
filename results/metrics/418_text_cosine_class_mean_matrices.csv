@@ -1,0 +1,51 @@
+﻿configuration,class_i,class_j,mean_similarity
+Unigram,Mangkok,Mangkok,0.62078102256049694
+Unigram,Mangkok,Salam,0.31427818571061061
+Unigram,Mangkok,Sambang Darah,0.2772730093137511
+Unigram,Mangkok,Sirih,0.2805797254356262
+Unigram,Mangkok,Tapak Kuda,0.45852893701278152
+Unigram,Salam,Mangkok,0.31427818571061061
+Unigram,Salam,Salam,0.48084696942622079
+Unigram,Salam,Sambang Darah,0.43401104533619972
+Unigram,Salam,Sirih,0.29798057539644313
+Unigram,Salam,Tapak Kuda,0.23409699387906871
+Unigram,Sambang Darah,Mangkok,0.2772730093137511
+Unigram,Sambang Darah,Salam,0.43401104533619972
+Unigram,Sambang Darah,Sambang Darah,0.4498249442267328
+Unigram,Sambang Darah,Sirih,0.29433994071764735
+Unigram,Sambang Darah,Tapak Kuda,0.22856890733203294
+Unigram,Sirih,Mangkok,0.2805797254356262
+Unigram,Sirih,Salam,0.29798057539644313
+Unigram,Sirih,Sambang Darah,0.29433994071764735
+Unigram,Sirih,Sirih,0.42278152941451697
+Unigram,Sirih,Tapak Kuda,0.23622580156481388
+Unigram,Tapak Kuda,Mangkok,0.45852893701278152
+Unigram,Tapak Kuda,Salam,0.23409699387906871
+Unigram,Tapak Kuda,Sambang Darah,0.22856890733203294
+Unigram,Tapak Kuda,Sirih,0.23622580156481388
+Unigram,Tapak Kuda,Tapak Kuda,0.65063896527157561
+Unigram + Bigram,Mangkok,Mangkok,0.47837381335263879
+Unigram + Bigram,Mangkok,Salam,0.19550038277156687
+Unigram + Bigram,Mangkok,Sambang Darah,0.16971906476730644
+Unigram + Bigram,Mangkok,Sirih,0.16568351883007787
+Unigram + Bigram,Mangkok,Tapak Kuda,0.26326921815687904
+Unigram + Bigram,Salam,Mangkok,0.19550038277156687
+Unigram + Bigram,Salam,Salam,0.35933110033763821
+Unigram + Bigram,Salam,Sambang Darah,0.32383848509990776
+Unigram + Bigram,Salam,Sirih,0.19007577960436278
+Unigram + Bigram,Salam,Tapak Kuda,0.13900378966267313
+Unigram + Bigram,Sambang Darah,Mangkok,0.16971906476730644
+Unigram + Bigram,Sambang Darah,Salam,0.32383848509990776
+Unigram + Bigram,Sambang Darah,Sambang Darah,0.34881462523080475
+Unigram + Bigram,Sambang Darah,Sirih,0.19371679346233889
+Unigram + Bigram,Sambang Darah,Tapak Kuda,0.1325895493907317
+Unigram + Bigram,Sirih,Mangkok,0.16568351883007787
+Unigram + Bigram,Sirih,Salam,0.19007577960436278
+Unigram + Bigram,Sirih,Sambang Darah,0.19371679346233889
+Unigram + Bigram,Sirih,Sirih,0.31023871138449916
+Unigram + Bigram,Sirih,Tapak Kuda,0.13733206362962369
+Unigram + Bigram,Tapak Kuda,Mangkok,0.26326921815687904
+Unigram + Bigram,Tapak Kuda,Salam,0.13900378966267313
+Unigram + Bigram,Tapak Kuda,Sambang Darah,0.1325895493907317
+Unigram + Bigram,Tapak Kuda,Sirih,0.13733206362962369
+Unigram + Bigram,Tapak Kuda,Tapak Kuda,0.54493051507951629

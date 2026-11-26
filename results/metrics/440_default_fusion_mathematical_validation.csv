@@ -1,0 +1,13 @@
+﻿mathematical_test,passed,status
+Unigram: weighted-sum formula,True,Passed
+Unigram: convex score bounds,True,Passed
+Unigram: alpha=0 gives text similarity,True,Passed
+Unigram: alpha=1 gives visual similarity,True,Passed
+Unigram: effective weights sum to one,True,Passed
+Unigram: mean fusion score identity,True,Passed
+Unigram + Bigram: weighted-sum formula,True,Passed
+Unigram + Bigram: convex score bounds,True,Passed
+Unigram + Bigram: alpha=0 gives text similarity,True,Passed
+Unigram + Bigram: alpha=1 gives visual similarity,True,Passed
+Unigram + Bigram: effective weights sum to one,True,Passed
+Unigram + Bigram: mean fusion score identity,True,Passed

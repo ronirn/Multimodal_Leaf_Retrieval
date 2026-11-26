@@ -1,0 +1,30 @@
+﻿category,validation_check,passed,status
+Input Integrity,Input distance matrix dimensions valid,True,Passed
+Input Integrity,Input sample IDs preserved,True,Passed
+Input Integrity,Input class labels preserved,True,Passed
+Input Integrity,Distance matrix unchanged from Cell 9,True,Passed
+Formula Verification,Inverse-distance formula reproduced,True,Passed
+Formula Verification,Original distance matrix recovered,True,Passed
+Similarity Matrix,Similarity matrix shape is 104 x 104,True,Passed
+Similarity Matrix,Similarity matrix uses float64,True,Passed
+Similarity Matrix,All similarity scores finite,True,Passed
+Similarity Matrix,All similarity scores strictly positive,True,Passed
+Similarity Matrix,All similarity scores at most one,True,Passed
+Similarity Matrix,Similarity matrix symmetric,True,Passed
+Similarity Matrix,Diagonal similarity equals one,True,Passed
+Similarity Matrix,Zero-distance elements map to similarity one,True,Passed
+Monotonicity,Similarity nonincreasing with distance,True,Passed
+Monotonicity,Distance-similarity Spearman approximately -1,True,Passed
+Pair Inventory,Unique pair count is 5356,True,Passed
+Pair Inventory,Within-class pair count is 1041,True,Passed
+Pair Inventory,Cross-class pair count is 4315,True,Passed
+Pair Inventory,Class pair mask preserved from Cell 9,True,Passed
+Distribution,Within and cross score counts reconcile,True,Passed
+Distribution,Mean similarity scores finite,True,Passed
+Class Pair Analysis,Five within-class and ten cross-class combinations,True,Passed
+Class Pair Analysis,Class-pair counts reconcile,True,Passed
+Class Pair Analysis,Class-mean similarity matrix symmetric,True,Passed
+Ranking Consistency,All 104 queries analyzed,True,Passed
+Ranking Consistency,All full rankings equivalent within tolerance,True,Passed
+Ranking Consistency,All Top-10 rankings equivalent within tolerance,True,Passed
+Ranking Consistency,Self-matches excluded from all rankings,True,Passed

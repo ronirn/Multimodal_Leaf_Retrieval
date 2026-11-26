@@ -1,0 +1,24 @@
+﻿Indicator,Result
+Number of samples,104
+Number of classes,5
+Text configurations,2
+Unigram input shape,"(104, 68)"
+Combined input shape,"(104, 261)"
+Unigram cosine shape,"(104, 104)"
+Combined cosine shape,"(104, 104)"
+Unique pairs per configuration,5356
+Within-class pairs per configuration,1041
+Cross-class pairs per configuration,4315
+Manual calculations checked,20
+Class-pair combinations,30
+Nearest-neighbor diagnostic records,208
+Technical validation checks,36
+Technical checks passed,36
+Technical checks failed,0
+Generated figures,4
+Vectorizers refitted,False
+Original sample order modified,False
+Visual-text scores fused,False
+Final text configuration selected,False
+Independent retrieval evaluation completed,False
+Analysis scope,Full-Gallery Exploratory Text Similarity

@@ -1,0 +1,1249 @@
+﻿modality_a,modality_b,query_sample_id,query_class,k,overlap_count,overlap_at_k,jaccard_at_k
+Visual,Text - Unigram,leaf_165d2f32c7fda707,Mangkok,1,0,0,0
+Visual,Text - Unigram,leaf_165d2f32c7fda707,Mangkok,3,0,0,0
+Visual,Text - Unigram,leaf_165d2f32c7fda707,Mangkok,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram,leaf_165d2f32c7fda707,Mangkok,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram,leaf_8473270c3702f48b,Mangkok,1,0,0,0
+Visual,Text - Unigram,leaf_8473270c3702f48b,Mangkok,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram,leaf_8473270c3702f48b,Mangkok,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram,leaf_8473270c3702f48b,Mangkok,10,6,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram,leaf_8f425d66b1e193b9,Mangkok,1,0,0,0
+Visual,Text - Unigram,leaf_8f425d66b1e193b9,Mangkok,3,0,0,0
+Visual,Text - Unigram,leaf_8f425d66b1e193b9,Mangkok,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_8f425d66b1e193b9,Mangkok,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram,leaf_0ebc8f4f3ee9c8d5,Mangkok,1,0,0,0
+Visual,Text - Unigram,leaf_0ebc8f4f3ee9c8d5,Mangkok,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram,leaf_0ebc8f4f3ee9c8d5,Mangkok,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram,leaf_0ebc8f4f3ee9c8d5,Mangkok,10,4,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_b0c5f55e42499cae,Mangkok,1,0,0,0
+Visual,Text - Unigram,leaf_b0c5f55e42499cae,Mangkok,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram,leaf_b0c5f55e42499cae,Mangkok,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_b0c5f55e42499cae,Mangkok,10,5,0.5,0.33333333333333331
+Visual,Text - Unigram,leaf_de9e3e4ed5d89dfc,Mangkok,1,0,0,0
+Visual,Text - Unigram,leaf_de9e3e4ed5d89dfc,Mangkok,3,0,0,0
+Visual,Text - Unigram,leaf_de9e3e4ed5d89dfc,Mangkok,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_de9e3e4ed5d89dfc,Mangkok,10,5,0.5,0.33333333333333331
+Visual,Text - Unigram,leaf_23b789945271fb92,Mangkok,1,1,1,1
+Visual,Text - Unigram,leaf_23b789945271fb92,Mangkok,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram,leaf_23b789945271fb92,Mangkok,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram,leaf_23b789945271fb92,Mangkok,10,5,0.5,0.33333333333333331
+Visual,Text - Unigram,leaf_84de0dc731018607,Mangkok,1,0,0,0
+Visual,Text - Unigram,leaf_84de0dc731018607,Mangkok,3,0,0,0
+Visual,Text - Unigram,leaf_84de0dc731018607,Mangkok,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_84de0dc731018607,Mangkok,10,2,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram,leaf_36d4f083fa652592,Mangkok,1,0,0,0
+Visual,Text - Unigram,leaf_36d4f083fa652592,Mangkok,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram,leaf_36d4f083fa652592,Mangkok,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_36d4f083fa652592,Mangkok,10,6,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram,leaf_c9d8d87fbc748d16,Mangkok,1,0,0,0
+Visual,Text - Unigram,leaf_c9d8d87fbc748d16,Mangkok,3,0,0,0
+Visual,Text - Unigram,leaf_c9d8d87fbc748d16,Mangkok,5,0,0,0
+Visual,Text - Unigram,leaf_c9d8d87fbc748d16,Mangkok,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram,leaf_4de65b11758965f6,Mangkok,1,0,0,0
+Visual,Text - Unigram,leaf_4de65b11758965f6,Mangkok,3,0,0,0
+Visual,Text - Unigram,leaf_4de65b11758965f6,Mangkok,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram,leaf_4de65b11758965f6,Mangkok,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram,leaf_8f09fd62c7391c0d,Mangkok,1,0,0,0
+Visual,Text - Unigram,leaf_8f09fd62c7391c0d,Mangkok,3,0,0,0
+Visual,Text - Unigram,leaf_8f09fd62c7391c0d,Mangkok,5,4,0.80000000000000004,0.66666666666666663
+Visual,Text - Unigram,leaf_8f09fd62c7391c0d,Mangkok,10,5,0.5,0.33333333333333331
+Visual,Text - Unigram,leaf_a6da65cb0493ceef,Mangkok,1,0,0,0
+Visual,Text - Unigram,leaf_a6da65cb0493ceef,Mangkok,3,0,0,0
+Visual,Text - Unigram,leaf_a6da65cb0493ceef,Mangkok,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram,leaf_a6da65cb0493ceef,Mangkok,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram,leaf_1a80f5749cc68900,Mangkok,1,1,1,1
+Visual,Text - Unigram,leaf_1a80f5749cc68900,Mangkok,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram,leaf_1a80f5749cc68900,Mangkok,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram,leaf_1a80f5749cc68900,Mangkok,10,5,0.5,0.33333333333333331
+Visual,Text - Unigram,leaf_ef0854556175e2b0,Mangkok,1,1,1,1
+Visual,Text - Unigram,leaf_ef0854556175e2b0,Mangkok,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram,leaf_ef0854556175e2b0,Mangkok,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_ef0854556175e2b0,Mangkok,10,5,0.5,0.33333333333333331
+Visual,Text - Unigram,leaf_fff6592ee517103e,Mangkok,1,0,0,0
+Visual,Text - Unigram,leaf_fff6592ee517103e,Mangkok,3,0,0,0
+Visual,Text - Unigram,leaf_fff6592ee517103e,Mangkok,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram,leaf_fff6592ee517103e,Mangkok,10,5,0.5,0.33333333333333331
+Visual,Text - Unigram,leaf_e9cfa616ea5f1f19,Mangkok,1,0,0,0
+Visual,Text - Unigram,leaf_e9cfa616ea5f1f19,Mangkok,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram,leaf_e9cfa616ea5f1f19,Mangkok,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram,leaf_e9cfa616ea5f1f19,Mangkok,10,6,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram,leaf_12439b9ebf0eb8d3,Mangkok,1,0,0,0
+Visual,Text - Unigram,leaf_12439b9ebf0eb8d3,Mangkok,3,0,0,0
+Visual,Text - Unigram,leaf_12439b9ebf0eb8d3,Mangkok,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram,leaf_12439b9ebf0eb8d3,Mangkok,10,4,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_de455d31a4df8c43,Mangkok,1,0,0,0
+Visual,Text - Unigram,leaf_de455d31a4df8c43,Mangkok,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram,leaf_de455d31a4df8c43,Mangkok,5,4,0.80000000000000004,0.66666666666666663
+Visual,Text - Unigram,leaf_de455d31a4df8c43,Mangkok,10,6,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram,leaf_663a651dd51f9c94,Mangkok,1,0,0,0
+Visual,Text - Unigram,leaf_663a651dd51f9c94,Mangkok,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram,leaf_663a651dd51f9c94,Mangkok,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram,leaf_663a651dd51f9c94,Mangkok,10,6,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram,leaf_c29e2560b188fb2c,Salam,1,0,0,0
+Visual,Text - Unigram,leaf_c29e2560b188fb2c,Salam,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram,leaf_c29e2560b188fb2c,Salam,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_c29e2560b188fb2c,Salam,10,5,0.5,0.33333333333333331
+Visual,Text - Unigram,leaf_c4840a77b6d0c158,Salam,1,0,0,0
+Visual,Text - Unigram,leaf_c4840a77b6d0c158,Salam,3,0,0,0
+Visual,Text - Unigram,leaf_c4840a77b6d0c158,Salam,5,0,0,0
+Visual,Text - Unigram,leaf_c4840a77b6d0c158,Salam,10,5,0.5,0.33333333333333331
+Visual,Text - Unigram,leaf_fd4b025e69b9f321,Salam,1,0,0,0
+Visual,Text - Unigram,leaf_fd4b025e69b9f321,Salam,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram,leaf_fd4b025e69b9f321,Salam,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram,leaf_fd4b025e69b9f321,Salam,10,6,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram,leaf_45414f432e49469a,Salam,1,0,0,0
+Visual,Text - Unigram,leaf_45414f432e49469a,Salam,3,0,0,0
+Visual,Text - Unigram,leaf_45414f432e49469a,Salam,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_45414f432e49469a,Salam,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram,leaf_1da6bca6d5320ae2,Salam,1,0,0,0
+Visual,Text - Unigram,leaf_1da6bca6d5320ae2,Salam,3,0,0,0
+Visual,Text - Unigram,leaf_1da6bca6d5320ae2,Salam,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_1da6bca6d5320ae2,Salam,10,6,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram,leaf_b8ebef3e9731e352,Salam,1,0,0,0
+Visual,Text - Unigram,leaf_b8ebef3e9731e352,Salam,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram,leaf_b8ebef3e9731e352,Salam,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram,leaf_b8ebef3e9731e352,Salam,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram,leaf_8809ccde35d4b945,Salam,1,0,0,0
+Visual,Text - Unigram,leaf_8809ccde35d4b945,Salam,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram,leaf_8809ccde35d4b945,Salam,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_8809ccde35d4b945,Salam,10,5,0.5,0.33333333333333331
+Visual,Text - Unigram,leaf_1ebaf9512209a61f,Salam,1,0,0,0
+Visual,Text - Unigram,leaf_1ebaf9512209a61f,Salam,3,0,0,0
+Visual,Text - Unigram,leaf_1ebaf9512209a61f,Salam,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_1ebaf9512209a61f,Salam,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram,leaf_68b0c81b496519cd,Salam,1,0,0,0
+Visual,Text - Unigram,leaf_68b0c81b496519cd,Salam,3,0,0,0
+Visual,Text - Unigram,leaf_68b0c81b496519cd,Salam,5,0,0,0
+Visual,Text - Unigram,leaf_68b0c81b496519cd,Salam,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram,leaf_0a8999109a734f1d,Salam,1,0,0,0
+Visual,Text - Unigram,leaf_0a8999109a734f1d,Salam,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram,leaf_0a8999109a734f1d,Salam,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_0a8999109a734f1d,Salam,10,5,0.5,0.33333333333333331
+Visual,Text - Unigram,leaf_ca3c3b7a5db35c1d,Salam,1,0,0,0
+Visual,Text - Unigram,leaf_ca3c3b7a5db35c1d,Salam,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram,leaf_ca3c3b7a5db35c1d,Salam,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram,leaf_ca3c3b7a5db35c1d,Salam,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram,leaf_a838808299383884,Salam,1,0,0,0
+Visual,Text - Unigram,leaf_a838808299383884,Salam,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram,leaf_a838808299383884,Salam,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_a838808299383884,Salam,10,5,0.5,0.33333333333333331
+Visual,Text - Unigram,leaf_a7704c0316865cd7,Salam,1,0,0,0
+Visual,Text - Unigram,leaf_a7704c0316865cd7,Salam,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram,leaf_a7704c0316865cd7,Salam,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram,leaf_a7704c0316865cd7,Salam,10,7,0.69999999999999996,0.53846153846153844
+Visual,Text - Unigram,leaf_ac463b36b6e61052,Salam,1,1,1,1
+Visual,Text - Unigram,leaf_ac463b36b6e61052,Salam,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram,leaf_ac463b36b6e61052,Salam,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_ac463b36b6e61052,Salam,10,6,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram,leaf_fdd0a74681efeff6,Salam,1,0,0,0
+Visual,Text - Unigram,leaf_fdd0a74681efeff6,Salam,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram,leaf_fdd0a74681efeff6,Salam,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_fdd0a74681efeff6,Salam,10,5,0.5,0.33333333333333331
+Visual,Text - Unigram,leaf_9a710afa1505390e,Salam,1,0,0,0
+Visual,Text - Unigram,leaf_9a710afa1505390e,Salam,3,0,0,0
+Visual,Text - Unigram,leaf_9a710afa1505390e,Salam,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram,leaf_9a710afa1505390e,Salam,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram,leaf_d12754f94f5ff7fc,Salam,1,0,0,0
+Visual,Text - Unigram,leaf_d12754f94f5ff7fc,Salam,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram,leaf_d12754f94f5ff7fc,Salam,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram,leaf_d12754f94f5ff7fc,Salam,10,4,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_9c7d463a5bb1a561,Salam,1,0,0,0
+Visual,Text - Unigram,leaf_9c7d463a5bb1a561,Salam,3,0,0,0
+Visual,Text - Unigram,leaf_9c7d463a5bb1a561,Salam,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram,leaf_9c7d463a5bb1a561,Salam,10,4,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_a57a1270adf22253,Salam,1,0,0,0
+Visual,Text - Unigram,leaf_a57a1270adf22253,Salam,3,0,0,0
+Visual,Text - Unigram,leaf_a57a1270adf22253,Salam,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_a57a1270adf22253,Salam,10,2,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram,leaf_df16548c53396aeb,Sambang Darah,1,1,1,1
+Visual,Text - Unigram,leaf_df16548c53396aeb,Sambang Darah,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram,leaf_df16548c53396aeb,Sambang Darah,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_df16548c53396aeb,Sambang Darah,10,5,0.5,0.33333333333333331
+Visual,Text - Unigram,leaf_1a45e1e109be76ee,Sambang Darah,1,0,0,0
+Visual,Text - Unigram,leaf_1a45e1e109be76ee,Sambang Darah,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram,leaf_1a45e1e109be76ee,Sambang Darah,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_1a45e1e109be76ee,Sambang Darah,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram,leaf_ad660412d798bd65,Sambang Darah,1,0,0,0
+Visual,Text - Unigram,leaf_ad660412d798bd65,Sambang Darah,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram,leaf_ad660412d798bd65,Sambang Darah,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram,leaf_ad660412d798bd65,Sambang Darah,10,6,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram,leaf_b230b822f6a38f1c,Sambang Darah,1,1,1,1
+Visual,Text - Unigram,leaf_b230b822f6a38f1c,Sambang Darah,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram,leaf_b230b822f6a38f1c,Sambang Darah,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_b230b822f6a38f1c,Sambang Darah,10,7,0.69999999999999996,0.53846153846153844
+Visual,Text - Unigram,leaf_22cacefa73426c68,Sambang Darah,1,0,0,0
+Visual,Text - Unigram,leaf_22cacefa73426c68,Sambang Darah,3,0,0,0
+Visual,Text - Unigram,leaf_22cacefa73426c68,Sambang Darah,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram,leaf_22cacefa73426c68,Sambang Darah,10,7,0.69999999999999996,0.53846153846153844
+Visual,Text - Unigram,leaf_519627b0b7c509da,Sambang Darah,1,1,1,1
+Visual,Text - Unigram,leaf_519627b0b7c509da,Sambang Darah,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram,leaf_519627b0b7c509da,Sambang Darah,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram,leaf_519627b0b7c509da,Sambang Darah,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram,leaf_e57489e729c801d7,Sambang Darah,1,0,0,0
+Visual,Text - Unigram,leaf_e57489e729c801d7,Sambang Darah,3,0,0,0
+Visual,Text - Unigram,leaf_e57489e729c801d7,Sambang Darah,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram,leaf_e57489e729c801d7,Sambang Darah,10,7,0.69999999999999996,0.53846153846153844
+Visual,Text - Unigram,leaf_62ef0ed49ad4e2d3,Sambang Darah,1,0,0,0
+Visual,Text - Unigram,leaf_62ef0ed49ad4e2d3,Sambang Darah,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram,leaf_62ef0ed49ad4e2d3,Sambang Darah,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram,leaf_62ef0ed49ad4e2d3,Sambang Darah,10,6,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram,leaf_ce6b898792146850,Sambang Darah,1,0,0,0
+Visual,Text - Unigram,leaf_ce6b898792146850,Sambang Darah,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram,leaf_ce6b898792146850,Sambang Darah,5,4,0.80000000000000004,0.66666666666666663
+Visual,Text - Unigram,leaf_ce6b898792146850,Sambang Darah,10,6,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram,leaf_3c3fafa9c7913736,Sambang Darah,1,1,1,1
+Visual,Text - Unigram,leaf_3c3fafa9c7913736,Sambang Darah,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram,leaf_3c3fafa9c7913736,Sambang Darah,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram,leaf_3c3fafa9c7913736,Sambang Darah,10,6,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram,leaf_eacbf33f28cb6b28,Sambang Darah,1,0,0,0
+Visual,Text - Unigram,leaf_eacbf33f28cb6b28,Sambang Darah,3,0,0,0
+Visual,Text - Unigram,leaf_eacbf33f28cb6b28,Sambang Darah,5,0,0,0
+Visual,Text - Unigram,leaf_eacbf33f28cb6b28,Sambang Darah,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram,leaf_0e58a931923c4e40,Sambang Darah,1,0,0,0
+Visual,Text - Unigram,leaf_0e58a931923c4e40,Sambang Darah,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram,leaf_0e58a931923c4e40,Sambang Darah,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram,leaf_0e58a931923c4e40,Sambang Darah,10,5,0.5,0.33333333333333331
+Visual,Text - Unigram,leaf_a21b39e63066049c,Sambang Darah,1,0,0,0
+Visual,Text - Unigram,leaf_a21b39e63066049c,Sambang Darah,3,0,0,0
+Visual,Text - Unigram,leaf_a21b39e63066049c,Sambang Darah,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram,leaf_a21b39e63066049c,Sambang Darah,10,6,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram,leaf_ad626da03abf4532,Sambang Darah,1,1,1,1
+Visual,Text - Unigram,leaf_ad626da03abf4532,Sambang Darah,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram,leaf_ad626da03abf4532,Sambang Darah,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_ad626da03abf4532,Sambang Darah,10,4,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_45d4826ed41c51b4,Sambang Darah,1,0,0,0
+Visual,Text - Unigram,leaf_45d4826ed41c51b4,Sambang Darah,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram,leaf_45d4826ed41c51b4,Sambang Darah,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_45d4826ed41c51b4,Sambang Darah,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram,leaf_c289208cb093f769,Sambang Darah,1,0,0,0
+Visual,Text - Unigram,leaf_c289208cb093f769,Sambang Darah,3,0,0,0
+Visual,Text - Unigram,leaf_c289208cb093f769,Sambang Darah,5,0,0,0
+Visual,Text - Unigram,leaf_c289208cb093f769,Sambang Darah,10,2,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram,leaf_620d73b8cfb217b6,Sambang Darah,1,1,1,1
+Visual,Text - Unigram,leaf_620d73b8cfb217b6,Sambang Darah,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram,leaf_620d73b8cfb217b6,Sambang Darah,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_620d73b8cfb217b6,Sambang Darah,10,4,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_d9d0b97961feaeac,Sambang Darah,1,0,0,0
+Visual,Text - Unigram,leaf_d9d0b97961feaeac,Sambang Darah,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram,leaf_d9d0b97961feaeac,Sambang Darah,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram,leaf_d9d0b97961feaeac,Sambang Darah,10,5,0.5,0.33333333333333331
+Visual,Text - Unigram,leaf_6e53ecd8713a9128,Sambang Darah,1,0,0,0
+Visual,Text - Unigram,leaf_6e53ecd8713a9128,Sambang Darah,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram,leaf_6e53ecd8713a9128,Sambang Darah,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_6e53ecd8713a9128,Sambang Darah,10,2,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram,leaf_ac5e952a9ae56c36,Sambang Darah,1,0,0,0
+Visual,Text - Unigram,leaf_ac5e952a9ae56c36,Sambang Darah,3,0,0,0
+Visual,Text - Unigram,leaf_ac5e952a9ae56c36,Sambang Darah,5,0,0,0
+Visual,Text - Unigram,leaf_ac5e952a9ae56c36,Sambang Darah,10,0,0,0
+Visual,Text - Unigram,leaf_1d4f34320b1b8b8d,Sirih,1,0,0,0
+Visual,Text - Unigram,leaf_1d4f34320b1b8b8d,Sirih,3,0,0,0
+Visual,Text - Unigram,leaf_1d4f34320b1b8b8d,Sirih,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram,leaf_1d4f34320b1b8b8d,Sirih,10,2,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram,leaf_d0f42a660bf2b3ee,Sirih,1,0,0,0
+Visual,Text - Unigram,leaf_d0f42a660bf2b3ee,Sirih,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram,leaf_d0f42a660bf2b3ee,Sirih,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram,leaf_d0f42a660bf2b3ee,Sirih,10,4,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_1ef1bffd5f4186c1,Sirih,1,1,1,1
+Visual,Text - Unigram,leaf_1ef1bffd5f4186c1,Sirih,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram,leaf_1ef1bffd5f4186c1,Sirih,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram,leaf_1ef1bffd5f4186c1,Sirih,10,4,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_a280fa2ae09d329b,Sirih,1,1,1,1
+Visual,Text - Unigram,leaf_a280fa2ae09d329b,Sirih,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram,leaf_a280fa2ae09d329b,Sirih,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram,leaf_a280fa2ae09d329b,Sirih,10,5,0.5,0.33333333333333331
+Visual,Text - Unigram,leaf_6fcc4b52889490ca,Sirih,1,0,0,0
+Visual,Text - Unigram,leaf_6fcc4b52889490ca,Sirih,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram,leaf_6fcc4b52889490ca,Sirih,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram,leaf_6fcc4b52889490ca,Sirih,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram,leaf_1193856cea5a1287,Sirih,1,0,0,0
+Visual,Text - Unigram,leaf_1193856cea5a1287,Sirih,3,0,0,0
+Visual,Text - Unigram,leaf_1193856cea5a1287,Sirih,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_1193856cea5a1287,Sirih,10,2,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram,leaf_3f1cc0b714c4164e,Sirih,1,0,0,0
+Visual,Text - Unigram,leaf_3f1cc0b714c4164e,Sirih,3,0,0,0
+Visual,Text - Unigram,leaf_3f1cc0b714c4164e,Sirih,5,0,0,0
+Visual,Text - Unigram,leaf_3f1cc0b714c4164e,Sirih,10,2,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram,leaf_347efec2afc78e44,Sirih,1,1,1,1
+Visual,Text - Unigram,leaf_347efec2afc78e44,Sirih,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram,leaf_347efec2afc78e44,Sirih,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram,leaf_347efec2afc78e44,Sirih,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram,leaf_9dad4bfe9db99263,Sirih,1,0,0,0
+Visual,Text - Unigram,leaf_9dad4bfe9db99263,Sirih,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram,leaf_9dad4bfe9db99263,Sirih,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram,leaf_9dad4bfe9db99263,Sirih,10,4,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_57905de77bc7f811,Sirih,1,0,0,0
+Visual,Text - Unigram,leaf_57905de77bc7f811,Sirih,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram,leaf_57905de77bc7f811,Sirih,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram,leaf_57905de77bc7f811,Sirih,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram,leaf_1b922f2bd904d1fc,Sirih,1,0,0,0
+Visual,Text - Unigram,leaf_1b922f2bd904d1fc,Sirih,3,3,1,1
+Visual,Text - Unigram,leaf_1b922f2bd904d1fc,Sirih,5,4,0.80000000000000004,0.66666666666666663
+Visual,Text - Unigram,leaf_1b922f2bd904d1fc,Sirih,10,4,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_6397705392627f3c,Sirih,1,0,0,0
+Visual,Text - Unigram,leaf_6397705392627f3c,Sirih,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram,leaf_6397705392627f3c,Sirih,5,4,0.80000000000000004,0.66666666666666663
+Visual,Text - Unigram,leaf_6397705392627f3c,Sirih,10,8,0.80000000000000004,0.66666666666666663
+Visual,Text - Unigram,leaf_c8bf421408781594,Sirih,1,0,0,0
+Visual,Text - Unigram,leaf_c8bf421408781594,Sirih,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram,leaf_c8bf421408781594,Sirih,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram,leaf_c8bf421408781594,Sirih,10,1,0.10000000000000001,0.052631578947368418
+Visual,Text - Unigram,leaf_66c00e535609f186,Sirih,1,0,0,0
+Visual,Text - Unigram,leaf_66c00e535609f186,Sirih,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram,leaf_66c00e535609f186,Sirih,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram,leaf_66c00e535609f186,Sirih,10,5,0.5,0.33333333333333331
+Visual,Text - Unigram,leaf_2574445c571a7dc3,Sirih,1,0,0,0
+Visual,Text - Unigram,leaf_2574445c571a7dc3,Sirih,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram,leaf_2574445c571a7dc3,Sirih,5,4,0.80000000000000004,0.66666666666666663
+Visual,Text - Unigram,leaf_2574445c571a7dc3,Sirih,10,8,0.80000000000000004,0.66666666666666663
+Visual,Text - Unigram,leaf_afba9495e801278e,Sirih,1,0,0,0
+Visual,Text - Unigram,leaf_afba9495e801278e,Sirih,3,0,0,0
+Visual,Text - Unigram,leaf_afba9495e801278e,Sirih,5,0,0,0
+Visual,Text - Unigram,leaf_afba9495e801278e,Sirih,10,2,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram,leaf_693f93e999e7c6a3,Sirih,1,0,0,0
+Visual,Text - Unigram,leaf_693f93e999e7c6a3,Sirih,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram,leaf_693f93e999e7c6a3,Sirih,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram,leaf_693f93e999e7c6a3,Sirih,10,2,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram,leaf_7f9c59b7594e5833,Sirih,1,0,0,0
+Visual,Text - Unigram,leaf_7f9c59b7594e5833,Sirih,3,0,0,0
+Visual,Text - Unigram,leaf_7f9c59b7594e5833,Sirih,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_7f9c59b7594e5833,Sirih,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram,leaf_338b7ee25be7d52d,Sirih,1,0,0,0
+Visual,Text - Unigram,leaf_338b7ee25be7d52d,Sirih,3,0,0,0
+Visual,Text - Unigram,leaf_338b7ee25be7d52d,Sirih,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram,leaf_338b7ee25be7d52d,Sirih,10,4,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_47ab03f4e71a0717,Sirih,1,1,1,1
+Visual,Text - Unigram,leaf_47ab03f4e71a0717,Sirih,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram,leaf_47ab03f4e71a0717,Sirih,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram,leaf_47ab03f4e71a0717,Sirih,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram,leaf_7be37d0f3c7e488a,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram,leaf_7be37d0f3c7e488a,Tapak Kuda,3,0,0,0
+Visual,Text - Unigram,leaf_7be37d0f3c7e488a,Tapak Kuda,5,0,0,0
+Visual,Text - Unigram,leaf_7be37d0f3c7e488a,Tapak Kuda,10,6,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram,leaf_328651beb5d48483,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram,leaf_328651beb5d48483,Tapak Kuda,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram,leaf_328651beb5d48483,Tapak Kuda,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_328651beb5d48483,Tapak Kuda,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram,leaf_22bf36f7b3abd78c,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram,leaf_22bf36f7b3abd78c,Tapak Kuda,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram,leaf_22bf36f7b3abd78c,Tapak Kuda,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram,leaf_22bf36f7b3abd78c,Tapak Kuda,10,5,0.5,0.33333333333333331
+Visual,Text - Unigram,leaf_8129d1a748a118de,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram,leaf_8129d1a748a118de,Tapak Kuda,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram,leaf_8129d1a748a118de,Tapak Kuda,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram,leaf_8129d1a748a118de,Tapak Kuda,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram,leaf_549670d83912aed7,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram,leaf_549670d83912aed7,Tapak Kuda,3,0,0,0
+Visual,Text - Unigram,leaf_549670d83912aed7,Tapak Kuda,5,0,0,0
+Visual,Text - Unigram,leaf_549670d83912aed7,Tapak Kuda,10,1,0.10000000000000001,0.052631578947368418
+Visual,Text - Unigram,leaf_655b2ffd3499bbea,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram,leaf_655b2ffd3499bbea,Tapak Kuda,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram,leaf_655b2ffd3499bbea,Tapak Kuda,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram,leaf_655b2ffd3499bbea,Tapak Kuda,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram,leaf_43ae297ca838aebb,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram,leaf_43ae297ca838aebb,Tapak Kuda,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram,leaf_43ae297ca838aebb,Tapak Kuda,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram,leaf_43ae297ca838aebb,Tapak Kuda,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram,leaf_28712bf465655732,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram,leaf_28712bf465655732,Tapak Kuda,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram,leaf_28712bf465655732,Tapak Kuda,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram,leaf_28712bf465655732,Tapak Kuda,10,6,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram,leaf_721244faca19b94f,Tapak Kuda,1,1,1,1
+Visual,Text - Unigram,leaf_721244faca19b94f,Tapak Kuda,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram,leaf_721244faca19b94f,Tapak Kuda,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram,leaf_721244faca19b94f,Tapak Kuda,10,4,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_bb707568bb3ed9ce,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram,leaf_bb707568bb3ed9ce,Tapak Kuda,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram,leaf_bb707568bb3ed9ce,Tapak Kuda,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_bb707568bb3ed9ce,Tapak Kuda,10,5,0.5,0.33333333333333331
+Visual,Text - Unigram,leaf_d755ad14cfc3f8bf,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram,leaf_d755ad14cfc3f8bf,Tapak Kuda,3,0,0,0
+Visual,Text - Unigram,leaf_d755ad14cfc3f8bf,Tapak Kuda,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram,leaf_d755ad14cfc3f8bf,Tapak Kuda,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram,leaf_2976a10d6fff3cd5,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram,leaf_2976a10d6fff3cd5,Tapak Kuda,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram,leaf_2976a10d6fff3cd5,Tapak Kuda,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram,leaf_2976a10d6fff3cd5,Tapak Kuda,10,4,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_acea8a79416b27c0,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram,leaf_acea8a79416b27c0,Tapak Kuda,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram,leaf_acea8a79416b27c0,Tapak Kuda,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_acea8a79416b27c0,Tapak Kuda,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram,leaf_f72f88757c4de8ba,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram,leaf_f72f88757c4de8ba,Tapak Kuda,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram,leaf_f72f88757c4de8ba,Tapak Kuda,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_f72f88757c4de8ba,Tapak Kuda,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram,leaf_93d488369f0a2cc4,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram,leaf_93d488369f0a2cc4,Tapak Kuda,3,0,0,0
+Visual,Text - Unigram,leaf_93d488369f0a2cc4,Tapak Kuda,5,0,0,0
+Visual,Text - Unigram,leaf_93d488369f0a2cc4,Tapak Kuda,10,5,0.5,0.33333333333333331
+Visual,Text - Unigram,leaf_25803393f335987a,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram,leaf_25803393f335987a,Tapak Kuda,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram,leaf_25803393f335987a,Tapak Kuda,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram,leaf_25803393f335987a,Tapak Kuda,10,4,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_012389d8d324b6c8,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram,leaf_012389d8d324b6c8,Tapak Kuda,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram,leaf_012389d8d324b6c8,Tapak Kuda,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram,leaf_012389d8d324b6c8,Tapak Kuda,10,5,0.5,0.33333333333333331
+Visual,Text - Unigram,leaf_193e4fc967161d9a,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram,leaf_193e4fc967161d9a,Tapak Kuda,3,0,0,0
+Visual,Text - Unigram,leaf_193e4fc967161d9a,Tapak Kuda,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram,leaf_193e4fc967161d9a,Tapak Kuda,10,4,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_d19ceb083d0a7e82,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram,leaf_d19ceb083d0a7e82,Tapak Kuda,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram,leaf_d19ceb083d0a7e82,Tapak Kuda,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_d19ceb083d0a7e82,Tapak Kuda,10,5,0.5,0.33333333333333331
+Visual,Text - Unigram,leaf_8d727458048a81c7,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram,leaf_8d727458048a81c7,Tapak Kuda,3,0,0,0
+Visual,Text - Unigram,leaf_8d727458048a81c7,Tapak Kuda,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram,leaf_8d727458048a81c7,Tapak Kuda,10,6,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram,leaf_8f8d177305fb06f2,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram,leaf_8f8d177305fb06f2,Tapak Kuda,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram,leaf_8f8d177305fb06f2,Tapak Kuda,5,4,0.80000000000000004,0.66666666666666663
+Visual,Text - Unigram,leaf_8f8d177305fb06f2,Tapak Kuda,10,6,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram,leaf_cef9b535077d5397,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram,leaf_cef9b535077d5397,Tapak Kuda,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram,leaf_cef9b535077d5397,Tapak Kuda,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram,leaf_cef9b535077d5397,Tapak Kuda,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram,leaf_5fafb790c4773c55,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram,leaf_5fafb790c4773c55,Tapak Kuda,3,0,0,0
+Visual,Text - Unigram,leaf_5fafb790c4773c55,Tapak Kuda,5,0,0,0
+Visual,Text - Unigram,leaf_5fafb790c4773c55,Tapak Kuda,10,1,0.10000000000000001,0.052631578947368418
+Visual,Text - Unigram,leaf_055c97f32cf57da5,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram,leaf_055c97f32cf57da5,Tapak Kuda,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram,leaf_055c97f32cf57da5,Tapak Kuda,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram,leaf_055c97f32cf57da5,Tapak Kuda,10,4,0.40000000000000002,0.25
+Visual,Text - Unigram,leaf_41f02313a5460236,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram,leaf_41f02313a5460236,Tapak Kuda,3,0,0,0
+Visual,Text - Unigram,leaf_41f02313a5460236,Tapak Kuda,5,0,0,0
+Visual,Text - Unigram,leaf_41f02313a5460236,Tapak Kuda,10,4,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_165d2f32c7fda707,Mangkok,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_165d2f32c7fda707,Mangkok,3,0,0,0
+Visual,Text - Unigram + Bigram,leaf_165d2f32c7fda707,Mangkok,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram + Bigram,leaf_165d2f32c7fda707,Mangkok,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram + Bigram,leaf_8473270c3702f48b,Mangkok,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_8473270c3702f48b,Mangkok,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram + Bigram,leaf_8473270c3702f48b,Mangkok,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_8473270c3702f48b,Mangkok,10,6,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_8f425d66b1e193b9,Mangkok,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_8f425d66b1e193b9,Mangkok,3,0,0,0
+Visual,Text - Unigram + Bigram,leaf_8f425d66b1e193b9,Mangkok,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_8f425d66b1e193b9,Mangkok,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram + Bigram,leaf_0ebc8f4f3ee9c8d5,Mangkok,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_0ebc8f4f3ee9c8d5,Mangkok,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram + Bigram,leaf_0ebc8f4f3ee9c8d5,Mangkok,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram + Bigram,leaf_0ebc8f4f3ee9c8d5,Mangkok,10,4,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_b0c5f55e42499cae,Mangkok,1,1,1,1
+Visual,Text - Unigram + Bigram,leaf_b0c5f55e42499cae,Mangkok,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram + Bigram,leaf_b0c5f55e42499cae,Mangkok,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_b0c5f55e42499cae,Mangkok,10,5,0.5,0.33333333333333331
+Visual,Text - Unigram + Bigram,leaf_de9e3e4ed5d89dfc,Mangkok,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_de9e3e4ed5d89dfc,Mangkok,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram + Bigram,leaf_de9e3e4ed5d89dfc,Mangkok,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_de9e3e4ed5d89dfc,Mangkok,10,5,0.5,0.33333333333333331
+Visual,Text - Unigram + Bigram,leaf_23b789945271fb92,Mangkok,1,1,1,1
+Visual,Text - Unigram + Bigram,leaf_23b789945271fb92,Mangkok,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram + Bigram,leaf_23b789945271fb92,Mangkok,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_23b789945271fb92,Mangkok,10,5,0.5,0.33333333333333331
+Visual,Text - Unigram + Bigram,leaf_84de0dc731018607,Mangkok,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_84de0dc731018607,Mangkok,3,0,0,0
+Visual,Text - Unigram + Bigram,leaf_84de0dc731018607,Mangkok,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_84de0dc731018607,Mangkok,10,2,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram + Bigram,leaf_36d4f083fa652592,Mangkok,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_36d4f083fa652592,Mangkok,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram + Bigram,leaf_36d4f083fa652592,Mangkok,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_36d4f083fa652592,Mangkok,10,6,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_c9d8d87fbc748d16,Mangkok,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_c9d8d87fbc748d16,Mangkok,3,0,0,0
+Visual,Text - Unigram + Bigram,leaf_c9d8d87fbc748d16,Mangkok,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram + Bigram,leaf_c9d8d87fbc748d16,Mangkok,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram + Bigram,leaf_4de65b11758965f6,Mangkok,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_4de65b11758965f6,Mangkok,3,0,0,0
+Visual,Text - Unigram + Bigram,leaf_4de65b11758965f6,Mangkok,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram + Bigram,leaf_4de65b11758965f6,Mangkok,10,2,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram + Bigram,leaf_8f09fd62c7391c0d,Mangkok,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_8f09fd62c7391c0d,Mangkok,3,0,0,0
+Visual,Text - Unigram + Bigram,leaf_8f09fd62c7391c0d,Mangkok,5,4,0.80000000000000004,0.66666666666666663
+Visual,Text - Unigram + Bigram,leaf_8f09fd62c7391c0d,Mangkok,10,5,0.5,0.33333333333333331
+Visual,Text - Unigram + Bigram,leaf_a6da65cb0493ceef,Mangkok,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_a6da65cb0493ceef,Mangkok,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram + Bigram,leaf_a6da65cb0493ceef,Mangkok,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_a6da65cb0493ceef,Mangkok,10,2,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram + Bigram,leaf_1a80f5749cc68900,Mangkok,1,1,1,1
+Visual,Text - Unigram + Bigram,leaf_1a80f5749cc68900,Mangkok,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram + Bigram,leaf_1a80f5749cc68900,Mangkok,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram + Bigram,leaf_1a80f5749cc68900,Mangkok,10,5,0.5,0.33333333333333331
+Visual,Text - Unigram + Bigram,leaf_ef0854556175e2b0,Mangkok,1,1,1,1
+Visual,Text - Unigram + Bigram,leaf_ef0854556175e2b0,Mangkok,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram + Bigram,leaf_ef0854556175e2b0,Mangkok,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_ef0854556175e2b0,Mangkok,10,5,0.5,0.33333333333333331
+Visual,Text - Unigram + Bigram,leaf_fff6592ee517103e,Mangkok,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_fff6592ee517103e,Mangkok,3,0,0,0
+Visual,Text - Unigram + Bigram,leaf_fff6592ee517103e,Mangkok,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram + Bigram,leaf_fff6592ee517103e,Mangkok,10,6,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_e9cfa616ea5f1f19,Mangkok,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_e9cfa616ea5f1f19,Mangkok,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram + Bigram,leaf_e9cfa616ea5f1f19,Mangkok,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_e9cfa616ea5f1f19,Mangkok,10,6,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_12439b9ebf0eb8d3,Mangkok,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_12439b9ebf0eb8d3,Mangkok,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram + Bigram,leaf_12439b9ebf0eb8d3,Mangkok,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_12439b9ebf0eb8d3,Mangkok,10,6,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_de455d31a4df8c43,Mangkok,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_de455d31a4df8c43,Mangkok,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram + Bigram,leaf_de455d31a4df8c43,Mangkok,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_de455d31a4df8c43,Mangkok,10,6,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_663a651dd51f9c94,Mangkok,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_663a651dd51f9c94,Mangkok,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram + Bigram,leaf_663a651dd51f9c94,Mangkok,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_663a651dd51f9c94,Mangkok,10,6,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_c29e2560b188fb2c,Salam,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_c29e2560b188fb2c,Salam,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram + Bigram,leaf_c29e2560b188fb2c,Salam,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram + Bigram,leaf_c29e2560b188fb2c,Salam,10,5,0.5,0.33333333333333331
+Visual,Text - Unigram + Bigram,leaf_c4840a77b6d0c158,Salam,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_c4840a77b6d0c158,Salam,3,0,0,0
+Visual,Text - Unigram + Bigram,leaf_c4840a77b6d0c158,Salam,5,0,0,0
+Visual,Text - Unigram + Bigram,leaf_c4840a77b6d0c158,Salam,10,4,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_fd4b025e69b9f321,Salam,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_fd4b025e69b9f321,Salam,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram + Bigram,leaf_fd4b025e69b9f321,Salam,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_fd4b025e69b9f321,Salam,10,6,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_45414f432e49469a,Salam,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_45414f432e49469a,Salam,3,0,0,0
+Visual,Text - Unigram + Bigram,leaf_45414f432e49469a,Salam,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram + Bigram,leaf_45414f432e49469a,Salam,10,5,0.5,0.33333333333333331
+Visual,Text - Unigram + Bigram,leaf_1da6bca6d5320ae2,Salam,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_1da6bca6d5320ae2,Salam,3,0,0,0
+Visual,Text - Unigram + Bigram,leaf_1da6bca6d5320ae2,Salam,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_1da6bca6d5320ae2,Salam,10,6,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_b8ebef3e9731e352,Salam,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_b8ebef3e9731e352,Salam,3,0,0,0
+Visual,Text - Unigram + Bigram,leaf_b8ebef3e9731e352,Salam,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram + Bigram,leaf_b8ebef3e9731e352,Salam,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram + Bigram,leaf_8809ccde35d4b945,Salam,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_8809ccde35d4b945,Salam,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram + Bigram,leaf_8809ccde35d4b945,Salam,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_8809ccde35d4b945,Salam,10,5,0.5,0.33333333333333331
+Visual,Text - Unigram + Bigram,leaf_1ebaf9512209a61f,Salam,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_1ebaf9512209a61f,Salam,3,0,0,0
+Visual,Text - Unigram + Bigram,leaf_1ebaf9512209a61f,Salam,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_1ebaf9512209a61f,Salam,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram + Bigram,leaf_68b0c81b496519cd,Salam,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_68b0c81b496519cd,Salam,3,0,0,0
+Visual,Text - Unigram + Bigram,leaf_68b0c81b496519cd,Salam,5,0,0,0
+Visual,Text - Unigram + Bigram,leaf_68b0c81b496519cd,Salam,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram + Bigram,leaf_0a8999109a734f1d,Salam,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_0a8999109a734f1d,Salam,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram + Bigram,leaf_0a8999109a734f1d,Salam,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_0a8999109a734f1d,Salam,10,5,0.5,0.33333333333333331
+Visual,Text - Unigram + Bigram,leaf_ca3c3b7a5db35c1d,Salam,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_ca3c3b7a5db35c1d,Salam,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram + Bigram,leaf_ca3c3b7a5db35c1d,Salam,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_ca3c3b7a5db35c1d,Salam,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram + Bigram,leaf_a838808299383884,Salam,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_a838808299383884,Salam,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram + Bigram,leaf_a838808299383884,Salam,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_a838808299383884,Salam,10,5,0.5,0.33333333333333331
+Visual,Text - Unigram + Bigram,leaf_a7704c0316865cd7,Salam,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_a7704c0316865cd7,Salam,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram + Bigram,leaf_a7704c0316865cd7,Salam,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram + Bigram,leaf_a7704c0316865cd7,Salam,10,6,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_ac463b36b6e61052,Salam,1,1,1,1
+Visual,Text - Unigram + Bigram,leaf_ac463b36b6e61052,Salam,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram + Bigram,leaf_ac463b36b6e61052,Salam,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_ac463b36b6e61052,Salam,10,8,0.80000000000000004,0.66666666666666663
+Visual,Text - Unigram + Bigram,leaf_fdd0a74681efeff6,Salam,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_fdd0a74681efeff6,Salam,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram + Bigram,leaf_fdd0a74681efeff6,Salam,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_fdd0a74681efeff6,Salam,10,6,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_9a710afa1505390e,Salam,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_9a710afa1505390e,Salam,3,0,0,0
+Visual,Text - Unigram + Bigram,leaf_9a710afa1505390e,Salam,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram + Bigram,leaf_9a710afa1505390e,Salam,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram + Bigram,leaf_d12754f94f5ff7fc,Salam,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_d12754f94f5ff7fc,Salam,3,0,0,0
+Visual,Text - Unigram + Bigram,leaf_d12754f94f5ff7fc,Salam,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_d12754f94f5ff7fc,Salam,10,4,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_9c7d463a5bb1a561,Salam,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_9c7d463a5bb1a561,Salam,3,0,0,0
+Visual,Text - Unigram + Bigram,leaf_9c7d463a5bb1a561,Salam,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram + Bigram,leaf_9c7d463a5bb1a561,Salam,10,4,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_a57a1270adf22253,Salam,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_a57a1270adf22253,Salam,3,0,0,0
+Visual,Text - Unigram + Bigram,leaf_a57a1270adf22253,Salam,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_a57a1270adf22253,Salam,10,2,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram + Bigram,leaf_df16548c53396aeb,Sambang Darah,1,1,1,1
+Visual,Text - Unigram + Bigram,leaf_df16548c53396aeb,Sambang Darah,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram + Bigram,leaf_df16548c53396aeb,Sambang Darah,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_df16548c53396aeb,Sambang Darah,10,6,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_1a45e1e109be76ee,Sambang Darah,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_1a45e1e109be76ee,Sambang Darah,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram + Bigram,leaf_1a45e1e109be76ee,Sambang Darah,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_1a45e1e109be76ee,Sambang Darah,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram + Bigram,leaf_ad660412d798bd65,Sambang Darah,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_ad660412d798bd65,Sambang Darah,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram + Bigram,leaf_ad660412d798bd65,Sambang Darah,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_ad660412d798bd65,Sambang Darah,10,6,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_b230b822f6a38f1c,Sambang Darah,1,1,1,1
+Visual,Text - Unigram + Bigram,leaf_b230b822f6a38f1c,Sambang Darah,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram + Bigram,leaf_b230b822f6a38f1c,Sambang Darah,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_b230b822f6a38f1c,Sambang Darah,10,8,0.80000000000000004,0.66666666666666663
+Visual,Text - Unigram + Bigram,leaf_22cacefa73426c68,Sambang Darah,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_22cacefa73426c68,Sambang Darah,3,0,0,0
+Visual,Text - Unigram + Bigram,leaf_22cacefa73426c68,Sambang Darah,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram + Bigram,leaf_22cacefa73426c68,Sambang Darah,10,7,0.69999999999999996,0.53846153846153844
+Visual,Text - Unigram + Bigram,leaf_519627b0b7c509da,Sambang Darah,1,1,1,1
+Visual,Text - Unigram + Bigram,leaf_519627b0b7c509da,Sambang Darah,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram + Bigram,leaf_519627b0b7c509da,Sambang Darah,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram + Bigram,leaf_519627b0b7c509da,Sambang Darah,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram + Bigram,leaf_e57489e729c801d7,Sambang Darah,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_e57489e729c801d7,Sambang Darah,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram + Bigram,leaf_e57489e729c801d7,Sambang Darah,5,4,0.80000000000000004,0.66666666666666663
+Visual,Text - Unigram + Bigram,leaf_e57489e729c801d7,Sambang Darah,10,7,0.69999999999999996,0.53846153846153844
+Visual,Text - Unigram + Bigram,leaf_62ef0ed49ad4e2d3,Sambang Darah,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_62ef0ed49ad4e2d3,Sambang Darah,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram + Bigram,leaf_62ef0ed49ad4e2d3,Sambang Darah,5,4,0.80000000000000004,0.66666666666666663
+Visual,Text - Unigram + Bigram,leaf_62ef0ed49ad4e2d3,Sambang Darah,10,6,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_ce6b898792146850,Sambang Darah,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_ce6b898792146850,Sambang Darah,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram + Bigram,leaf_ce6b898792146850,Sambang Darah,5,4,0.80000000000000004,0.66666666666666663
+Visual,Text - Unigram + Bigram,leaf_ce6b898792146850,Sambang Darah,10,6,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_3c3fafa9c7913736,Sambang Darah,1,1,1,1
+Visual,Text - Unigram + Bigram,leaf_3c3fafa9c7913736,Sambang Darah,3,3,1,1
+Visual,Text - Unigram + Bigram,leaf_3c3fafa9c7913736,Sambang Darah,5,4,0.80000000000000004,0.66666666666666663
+Visual,Text - Unigram + Bigram,leaf_3c3fafa9c7913736,Sambang Darah,10,7,0.69999999999999996,0.53846153846153844
+Visual,Text - Unigram + Bigram,leaf_eacbf33f28cb6b28,Sambang Darah,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_eacbf33f28cb6b28,Sambang Darah,3,0,0,0
+Visual,Text - Unigram + Bigram,leaf_eacbf33f28cb6b28,Sambang Darah,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram + Bigram,leaf_eacbf33f28cb6b28,Sambang Darah,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram + Bigram,leaf_0e58a931923c4e40,Sambang Darah,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_0e58a931923c4e40,Sambang Darah,3,0,0,0
+Visual,Text - Unigram + Bigram,leaf_0e58a931923c4e40,Sambang Darah,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram + Bigram,leaf_0e58a931923c4e40,Sambang Darah,10,5,0.5,0.33333333333333331
+Visual,Text - Unigram + Bigram,leaf_a21b39e63066049c,Sambang Darah,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_a21b39e63066049c,Sambang Darah,3,0,0,0
+Visual,Text - Unigram + Bigram,leaf_a21b39e63066049c,Sambang Darah,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram + Bigram,leaf_a21b39e63066049c,Sambang Darah,10,6,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_ad626da03abf4532,Sambang Darah,1,1,1,1
+Visual,Text - Unigram + Bigram,leaf_ad626da03abf4532,Sambang Darah,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram + Bigram,leaf_ad626da03abf4532,Sambang Darah,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_ad626da03abf4532,Sambang Darah,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram + Bigram,leaf_45d4826ed41c51b4,Sambang Darah,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_45d4826ed41c51b4,Sambang Darah,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram + Bigram,leaf_45d4826ed41c51b4,Sambang Darah,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_45d4826ed41c51b4,Sambang Darah,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram + Bigram,leaf_c289208cb093f769,Sambang Darah,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_c289208cb093f769,Sambang Darah,3,0,0,0
+Visual,Text - Unigram + Bigram,leaf_c289208cb093f769,Sambang Darah,5,0,0,0
+Visual,Text - Unigram + Bigram,leaf_c289208cb093f769,Sambang Darah,10,2,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram + Bigram,leaf_620d73b8cfb217b6,Sambang Darah,1,1,1,1
+Visual,Text - Unigram + Bigram,leaf_620d73b8cfb217b6,Sambang Darah,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram + Bigram,leaf_620d73b8cfb217b6,Sambang Darah,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_620d73b8cfb217b6,Sambang Darah,10,4,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_d9d0b97961feaeac,Sambang Darah,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_d9d0b97961feaeac,Sambang Darah,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram + Bigram,leaf_d9d0b97961feaeac,Sambang Darah,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_d9d0b97961feaeac,Sambang Darah,10,5,0.5,0.33333333333333331
+Visual,Text - Unigram + Bigram,leaf_6e53ecd8713a9128,Sambang Darah,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_6e53ecd8713a9128,Sambang Darah,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram + Bigram,leaf_6e53ecd8713a9128,Sambang Darah,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_6e53ecd8713a9128,Sambang Darah,10,2,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram + Bigram,leaf_ac5e952a9ae56c36,Sambang Darah,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_ac5e952a9ae56c36,Sambang Darah,3,0,0,0
+Visual,Text - Unigram + Bigram,leaf_ac5e952a9ae56c36,Sambang Darah,5,0,0,0
+Visual,Text - Unigram + Bigram,leaf_ac5e952a9ae56c36,Sambang Darah,10,0,0,0
+Visual,Text - Unigram + Bigram,leaf_1d4f34320b1b8b8d,Sirih,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_1d4f34320b1b8b8d,Sirih,3,0,0,0
+Visual,Text - Unigram + Bigram,leaf_1d4f34320b1b8b8d,Sirih,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram + Bigram,leaf_1d4f34320b1b8b8d,Sirih,10,2,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram + Bigram,leaf_d0f42a660bf2b3ee,Sirih,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_d0f42a660bf2b3ee,Sirih,3,0,0,0
+Visual,Text - Unigram + Bigram,leaf_d0f42a660bf2b3ee,Sirih,5,0,0,0
+Visual,Text - Unigram + Bigram,leaf_d0f42a660bf2b3ee,Sirih,10,2,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram + Bigram,leaf_1ef1bffd5f4186c1,Sirih,1,1,1,1
+Visual,Text - Unigram + Bigram,leaf_1ef1bffd5f4186c1,Sirih,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram + Bigram,leaf_1ef1bffd5f4186c1,Sirih,5,4,0.80000000000000004,0.66666666666666663
+Visual,Text - Unigram + Bigram,leaf_1ef1bffd5f4186c1,Sirih,10,4,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_a280fa2ae09d329b,Sirih,1,1,1,1
+Visual,Text - Unigram + Bigram,leaf_a280fa2ae09d329b,Sirih,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram + Bigram,leaf_a280fa2ae09d329b,Sirih,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_a280fa2ae09d329b,Sirih,10,4,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_6fcc4b52889490ca,Sirih,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_6fcc4b52889490ca,Sirih,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram + Bigram,leaf_6fcc4b52889490ca,Sirih,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_6fcc4b52889490ca,Sirih,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram + Bigram,leaf_1193856cea5a1287,Sirih,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_1193856cea5a1287,Sirih,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram + Bigram,leaf_1193856cea5a1287,Sirih,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_1193856cea5a1287,Sirih,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram + Bigram,leaf_3f1cc0b714c4164e,Sirih,1,1,1,1
+Visual,Text - Unigram + Bigram,leaf_3f1cc0b714c4164e,Sirih,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram + Bigram,leaf_3f1cc0b714c4164e,Sirih,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_3f1cc0b714c4164e,Sirih,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram + Bigram,leaf_347efec2afc78e44,Sirih,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_347efec2afc78e44,Sirih,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram + Bigram,leaf_347efec2afc78e44,Sirih,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram + Bigram,leaf_347efec2afc78e44,Sirih,10,2,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram + Bigram,leaf_9dad4bfe9db99263,Sirih,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_9dad4bfe9db99263,Sirih,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram + Bigram,leaf_9dad4bfe9db99263,Sirih,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_9dad4bfe9db99263,Sirih,10,4,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_57905de77bc7f811,Sirih,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_57905de77bc7f811,Sirih,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram + Bigram,leaf_57905de77bc7f811,Sirih,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_57905de77bc7f811,Sirih,10,4,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_1b922f2bd904d1fc,Sirih,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_1b922f2bd904d1fc,Sirih,3,3,1,1
+Visual,Text - Unigram + Bigram,leaf_1b922f2bd904d1fc,Sirih,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_1b922f2bd904d1fc,Sirih,10,4,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_6397705392627f3c,Sirih,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_6397705392627f3c,Sirih,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram + Bigram,leaf_6397705392627f3c,Sirih,5,4,0.80000000000000004,0.66666666666666663
+Visual,Text - Unigram + Bigram,leaf_6397705392627f3c,Sirih,10,7,0.69999999999999996,0.53846153846153844
+Visual,Text - Unigram + Bigram,leaf_c8bf421408781594,Sirih,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_c8bf421408781594,Sirih,3,0,0,0
+Visual,Text - Unigram + Bigram,leaf_c8bf421408781594,Sirih,5,0,0,0
+Visual,Text - Unigram + Bigram,leaf_c8bf421408781594,Sirih,10,1,0.10000000000000001,0.052631578947368418
+Visual,Text - Unigram + Bigram,leaf_66c00e535609f186,Sirih,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_66c00e535609f186,Sirih,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram + Bigram,leaf_66c00e535609f186,Sirih,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_66c00e535609f186,Sirih,10,5,0.5,0.33333333333333331
+Visual,Text - Unigram + Bigram,leaf_2574445c571a7dc3,Sirih,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_2574445c571a7dc3,Sirih,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram + Bigram,leaf_2574445c571a7dc3,Sirih,5,4,0.80000000000000004,0.66666666666666663
+Visual,Text - Unigram + Bigram,leaf_2574445c571a7dc3,Sirih,10,7,0.69999999999999996,0.53846153846153844
+Visual,Text - Unigram + Bigram,leaf_afba9495e801278e,Sirih,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_afba9495e801278e,Sirih,3,0,0,0
+Visual,Text - Unigram + Bigram,leaf_afba9495e801278e,Sirih,5,0,0,0
+Visual,Text - Unigram + Bigram,leaf_afba9495e801278e,Sirih,10,2,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram + Bigram,leaf_693f93e999e7c6a3,Sirih,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_693f93e999e7c6a3,Sirih,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram + Bigram,leaf_693f93e999e7c6a3,Sirih,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram + Bigram,leaf_693f93e999e7c6a3,Sirih,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram + Bigram,leaf_7f9c59b7594e5833,Sirih,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_7f9c59b7594e5833,Sirih,3,0,0,0
+Visual,Text - Unigram + Bigram,leaf_7f9c59b7594e5833,Sirih,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_7f9c59b7594e5833,Sirih,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram + Bigram,leaf_338b7ee25be7d52d,Sirih,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_338b7ee25be7d52d,Sirih,3,0,0,0
+Visual,Text - Unigram + Bigram,leaf_338b7ee25be7d52d,Sirih,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_338b7ee25be7d52d,Sirih,10,4,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_47ab03f4e71a0717,Sirih,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_47ab03f4e71a0717,Sirih,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram + Bigram,leaf_47ab03f4e71a0717,Sirih,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram + Bigram,leaf_47ab03f4e71a0717,Sirih,10,4,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_7be37d0f3c7e488a,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_7be37d0f3c7e488a,Tapak Kuda,3,0,0,0
+Visual,Text - Unigram + Bigram,leaf_7be37d0f3c7e488a,Tapak Kuda,5,0,0,0
+Visual,Text - Unigram + Bigram,leaf_7be37d0f3c7e488a,Tapak Kuda,10,4,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_328651beb5d48483,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_328651beb5d48483,Tapak Kuda,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram + Bigram,leaf_328651beb5d48483,Tapak Kuda,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_328651beb5d48483,Tapak Kuda,10,4,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_22bf36f7b3abd78c,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_22bf36f7b3abd78c,Tapak Kuda,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram + Bigram,leaf_22bf36f7b3abd78c,Tapak Kuda,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_22bf36f7b3abd78c,Tapak Kuda,10,6,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_8129d1a748a118de,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_8129d1a748a118de,Tapak Kuda,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram + Bigram,leaf_8129d1a748a118de,Tapak Kuda,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram + Bigram,leaf_8129d1a748a118de,Tapak Kuda,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram + Bigram,leaf_549670d83912aed7,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_549670d83912aed7,Tapak Kuda,3,0,0,0
+Visual,Text - Unigram + Bigram,leaf_549670d83912aed7,Tapak Kuda,5,0,0,0
+Visual,Text - Unigram + Bigram,leaf_549670d83912aed7,Tapak Kuda,10,1,0.10000000000000001,0.052631578947368418
+Visual,Text - Unigram + Bigram,leaf_655b2ffd3499bbea,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_655b2ffd3499bbea,Tapak Kuda,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram + Bigram,leaf_655b2ffd3499bbea,Tapak Kuda,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_655b2ffd3499bbea,Tapak Kuda,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram + Bigram,leaf_43ae297ca838aebb,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_43ae297ca838aebb,Tapak Kuda,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram + Bigram,leaf_43ae297ca838aebb,Tapak Kuda,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_43ae297ca838aebb,Tapak Kuda,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram + Bigram,leaf_28712bf465655732,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_28712bf465655732,Tapak Kuda,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram + Bigram,leaf_28712bf465655732,Tapak Kuda,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_28712bf465655732,Tapak Kuda,10,6,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_721244faca19b94f,Tapak Kuda,1,1,1,1
+Visual,Text - Unigram + Bigram,leaf_721244faca19b94f,Tapak Kuda,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram + Bigram,leaf_721244faca19b94f,Tapak Kuda,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_721244faca19b94f,Tapak Kuda,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram + Bigram,leaf_bb707568bb3ed9ce,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_bb707568bb3ed9ce,Tapak Kuda,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram + Bigram,leaf_bb707568bb3ed9ce,Tapak Kuda,5,4,0.80000000000000004,0.66666666666666663
+Visual,Text - Unigram + Bigram,leaf_bb707568bb3ed9ce,Tapak Kuda,10,4,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_d755ad14cfc3f8bf,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_d755ad14cfc3f8bf,Tapak Kuda,3,0,0,0
+Visual,Text - Unigram + Bigram,leaf_d755ad14cfc3f8bf,Tapak Kuda,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram + Bigram,leaf_d755ad14cfc3f8bf,Tapak Kuda,10,4,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_2976a10d6fff3cd5,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_2976a10d6fff3cd5,Tapak Kuda,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram + Bigram,leaf_2976a10d6fff3cd5,Tapak Kuda,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_2976a10d6fff3cd5,Tapak Kuda,10,5,0.5,0.33333333333333331
+Visual,Text - Unigram + Bigram,leaf_acea8a79416b27c0,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_acea8a79416b27c0,Tapak Kuda,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram + Bigram,leaf_acea8a79416b27c0,Tapak Kuda,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_acea8a79416b27c0,Tapak Kuda,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram + Bigram,leaf_f72f88757c4de8ba,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_f72f88757c4de8ba,Tapak Kuda,3,2,0.66666666666666663,0.5
+Visual,Text - Unigram + Bigram,leaf_f72f88757c4de8ba,Tapak Kuda,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_f72f88757c4de8ba,Tapak Kuda,10,3,0.29999999999999999,0.17647058823529413
+Visual,Text - Unigram + Bigram,leaf_93d488369f0a2cc4,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_93d488369f0a2cc4,Tapak Kuda,3,0,0,0
+Visual,Text - Unigram + Bigram,leaf_93d488369f0a2cc4,Tapak Kuda,5,0,0,0
+Visual,Text - Unigram + Bigram,leaf_93d488369f0a2cc4,Tapak Kuda,10,5,0.5,0.33333333333333331
+Visual,Text - Unigram + Bigram,leaf_25803393f335987a,Tapak Kuda,1,1,1,1
+Visual,Text - Unigram + Bigram,leaf_25803393f335987a,Tapak Kuda,3,3,1,1
+Visual,Text - Unigram + Bigram,leaf_25803393f335987a,Tapak Kuda,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_25803393f335987a,Tapak Kuda,10,4,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_012389d8d324b6c8,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_012389d8d324b6c8,Tapak Kuda,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram + Bigram,leaf_012389d8d324b6c8,Tapak Kuda,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_012389d8d324b6c8,Tapak Kuda,10,5,0.5,0.33333333333333331
+Visual,Text - Unigram + Bigram,leaf_193e4fc967161d9a,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_193e4fc967161d9a,Tapak Kuda,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram + Bigram,leaf_193e4fc967161d9a,Tapak Kuda,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_193e4fc967161d9a,Tapak Kuda,10,4,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_d19ceb083d0a7e82,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_d19ceb083d0a7e82,Tapak Kuda,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram + Bigram,leaf_d19ceb083d0a7e82,Tapak Kuda,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_d19ceb083d0a7e82,Tapak Kuda,10,6,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_8d727458048a81c7,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_8d727458048a81c7,Tapak Kuda,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram + Bigram,leaf_8d727458048a81c7,Tapak Kuda,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_8d727458048a81c7,Tapak Kuda,10,6,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_8f8d177305fb06f2,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_8f8d177305fb06f2,Tapak Kuda,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram + Bigram,leaf_8f8d177305fb06f2,Tapak Kuda,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_8f8d177305fb06f2,Tapak Kuda,10,7,0.69999999999999996,0.53846153846153844
+Visual,Text - Unigram + Bigram,leaf_cef9b535077d5397,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_cef9b535077d5397,Tapak Kuda,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram + Bigram,leaf_cef9b535077d5397,Tapak Kuda,5,2,0.40000000000000002,0.25
+Visual,Text - Unigram + Bigram,leaf_cef9b535077d5397,Tapak Kuda,10,5,0.5,0.33333333333333331
+Visual,Text - Unigram + Bigram,leaf_5fafb790c4773c55,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_5fafb790c4773c55,Tapak Kuda,3,0,0,0
+Visual,Text - Unigram + Bigram,leaf_5fafb790c4773c55,Tapak Kuda,5,0,0,0
+Visual,Text - Unigram + Bigram,leaf_5fafb790c4773c55,Tapak Kuda,10,1,0.10000000000000001,0.052631578947368418
+Visual,Text - Unigram + Bigram,leaf_055c97f32cf57da5,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_055c97f32cf57da5,Tapak Kuda,3,1,0.33333333333333331,0.20000000000000001
+Visual,Text - Unigram + Bigram,leaf_055c97f32cf57da5,Tapak Kuda,5,3,0.59999999999999998,0.42857142857142855
+Visual,Text - Unigram + Bigram,leaf_055c97f32cf57da5,Tapak Kuda,10,5,0.5,0.33333333333333331
+Visual,Text - Unigram + Bigram,leaf_41f02313a5460236,Tapak Kuda,1,0,0,0
+Visual,Text - Unigram + Bigram,leaf_41f02313a5460236,Tapak Kuda,3,0,0,0
+Visual,Text - Unigram + Bigram,leaf_41f02313a5460236,Tapak Kuda,5,1,0.20000000000000001,0.1111111111111111
+Visual,Text - Unigram + Bigram,leaf_41f02313a5460236,Tapak Kuda,10,5,0.5,0.33333333333333331
+Text - Unigram,Text - Unigram + Bigram,leaf_165d2f32c7fda707,Mangkok,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_165d2f32c7fda707,Mangkok,3,2,0.66666666666666663,0.5
+Text - Unigram,Text - Unigram + Bigram,leaf_165d2f32c7fda707,Mangkok,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_165d2f32c7fda707,Mangkok,10,8,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_8473270c3702f48b,Mangkok,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_8473270c3702f48b,Mangkok,3,2,0.66666666666666663,0.5
+Text - Unigram,Text - Unigram + Bigram,leaf_8473270c3702f48b,Mangkok,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_8473270c3702f48b,Mangkok,10,8,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_8f425d66b1e193b9,Mangkok,1,0,0,0
+Text - Unigram,Text - Unigram + Bigram,leaf_8f425d66b1e193b9,Mangkok,3,2,0.66666666666666663,0.5
+Text - Unigram,Text - Unigram + Bigram,leaf_8f425d66b1e193b9,Mangkok,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_8f425d66b1e193b9,Mangkok,10,9,0.90000000000000002,0.81818181818181823
+Text - Unigram,Text - Unigram + Bigram,leaf_0ebc8f4f3ee9c8d5,Mangkok,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_0ebc8f4f3ee9c8d5,Mangkok,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_0ebc8f4f3ee9c8d5,Mangkok,5,3,0.59999999999999998,0.42857142857142855
+Text - Unigram,Text - Unigram + Bigram,leaf_0ebc8f4f3ee9c8d5,Mangkok,10,8,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_b0c5f55e42499cae,Mangkok,1,0,0,0
+Text - Unigram,Text - Unigram + Bigram,leaf_b0c5f55e42499cae,Mangkok,3,1,0.33333333333333331,0.20000000000000001
+Text - Unigram,Text - Unigram + Bigram,leaf_b0c5f55e42499cae,Mangkok,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_b0c5f55e42499cae,Mangkok,10,8,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_de9e3e4ed5d89dfc,Mangkok,1,0,0,0
+Text - Unigram,Text - Unigram + Bigram,leaf_de9e3e4ed5d89dfc,Mangkok,3,2,0.66666666666666663,0.5
+Text - Unigram,Text - Unigram + Bigram,leaf_de9e3e4ed5d89dfc,Mangkok,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_de9e3e4ed5d89dfc,Mangkok,10,7,0.69999999999999996,0.53846153846153844
+Text - Unigram,Text - Unigram + Bigram,leaf_23b789945271fb92,Mangkok,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_23b789945271fb92,Mangkok,3,2,0.66666666666666663,0.5
+Text - Unigram,Text - Unigram + Bigram,leaf_23b789945271fb92,Mangkok,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_23b789945271fb92,Mangkok,10,10,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_84de0dc731018607,Mangkok,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_84de0dc731018607,Mangkok,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_84de0dc731018607,Mangkok,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_84de0dc731018607,Mangkok,10,8,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_36d4f083fa652592,Mangkok,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_36d4f083fa652592,Mangkok,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_36d4f083fa652592,Mangkok,5,5,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_36d4f083fa652592,Mangkok,10,10,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_c9d8d87fbc748d16,Mangkok,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_c9d8d87fbc748d16,Mangkok,3,2,0.66666666666666663,0.5
+Text - Unigram,Text - Unigram + Bigram,leaf_c9d8d87fbc748d16,Mangkok,5,3,0.59999999999999998,0.42857142857142855
+Text - Unigram,Text - Unigram + Bigram,leaf_c9d8d87fbc748d16,Mangkok,10,8,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_4de65b11758965f6,Mangkok,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_4de65b11758965f6,Mangkok,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_4de65b11758965f6,Mangkok,5,3,0.59999999999999998,0.42857142857142855
+Text - Unigram,Text - Unigram + Bigram,leaf_4de65b11758965f6,Mangkok,10,8,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_8f09fd62c7391c0d,Mangkok,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_8f09fd62c7391c0d,Mangkok,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_8f09fd62c7391c0d,Mangkok,5,5,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_8f09fd62c7391c0d,Mangkok,10,9,0.90000000000000002,0.81818181818181823
+Text - Unigram,Text - Unigram + Bigram,leaf_a6da65cb0493ceef,Mangkok,1,0,0,0
+Text - Unigram,Text - Unigram + Bigram,leaf_a6da65cb0493ceef,Mangkok,3,2,0.66666666666666663,0.5
+Text - Unigram,Text - Unigram + Bigram,leaf_a6da65cb0493ceef,Mangkok,5,3,0.59999999999999998,0.42857142857142855
+Text - Unigram,Text - Unigram + Bigram,leaf_a6da65cb0493ceef,Mangkok,10,8,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_1a80f5749cc68900,Mangkok,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_1a80f5749cc68900,Mangkok,3,2,0.66666666666666663,0.5
+Text - Unigram,Text - Unigram + Bigram,leaf_1a80f5749cc68900,Mangkok,5,5,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_1a80f5749cc68900,Mangkok,10,9,0.90000000000000002,0.81818181818181823
+Text - Unigram,Text - Unigram + Bigram,leaf_ef0854556175e2b0,Mangkok,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_ef0854556175e2b0,Mangkok,3,2,0.66666666666666663,0.5
+Text - Unigram,Text - Unigram + Bigram,leaf_ef0854556175e2b0,Mangkok,5,5,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_ef0854556175e2b0,Mangkok,10,9,0.90000000000000002,0.81818181818181823
+Text - Unigram,Text - Unigram + Bigram,leaf_fff6592ee517103e,Mangkok,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_fff6592ee517103e,Mangkok,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_fff6592ee517103e,Mangkok,5,5,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_fff6592ee517103e,Mangkok,10,9,0.90000000000000002,0.81818181818181823
+Text - Unigram,Text - Unigram + Bigram,leaf_e9cfa616ea5f1f19,Mangkok,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_e9cfa616ea5f1f19,Mangkok,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_e9cfa616ea5f1f19,Mangkok,5,5,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_e9cfa616ea5f1f19,Mangkok,10,9,0.90000000000000002,0.81818181818181823
+Text - Unigram,Text - Unigram + Bigram,leaf_12439b9ebf0eb8d3,Mangkok,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_12439b9ebf0eb8d3,Mangkok,3,2,0.66666666666666663,0.5
+Text - Unigram,Text - Unigram + Bigram,leaf_12439b9ebf0eb8d3,Mangkok,5,3,0.59999999999999998,0.42857142857142855
+Text - Unigram,Text - Unigram + Bigram,leaf_12439b9ebf0eb8d3,Mangkok,10,8,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_de455d31a4df8c43,Mangkok,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_de455d31a4df8c43,Mangkok,3,2,0.66666666666666663,0.5
+Text - Unigram,Text - Unigram + Bigram,leaf_de455d31a4df8c43,Mangkok,5,3,0.59999999999999998,0.42857142857142855
+Text - Unigram,Text - Unigram + Bigram,leaf_de455d31a4df8c43,Mangkok,10,9,0.90000000000000002,0.81818181818181823
+Text - Unigram,Text - Unigram + Bigram,leaf_663a651dd51f9c94,Mangkok,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_663a651dd51f9c94,Mangkok,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_663a651dd51f9c94,Mangkok,5,5,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_663a651dd51f9c94,Mangkok,10,8,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_c29e2560b188fb2c,Salam,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_c29e2560b188fb2c,Salam,3,1,0.33333333333333331,0.20000000000000001
+Text - Unigram,Text - Unigram + Bigram,leaf_c29e2560b188fb2c,Salam,5,3,0.59999999999999998,0.42857142857142855
+Text - Unigram,Text - Unigram + Bigram,leaf_c29e2560b188fb2c,Salam,10,10,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_c4840a77b6d0c158,Salam,1,0,0,0
+Text - Unigram,Text - Unigram + Bigram,leaf_c4840a77b6d0c158,Salam,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_c4840a77b6d0c158,Salam,5,5,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_c4840a77b6d0c158,Salam,10,9,0.90000000000000002,0.81818181818181823
+Text - Unigram,Text - Unigram + Bigram,leaf_fd4b025e69b9f321,Salam,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_fd4b025e69b9f321,Salam,3,1,0.33333333333333331,0.20000000000000001
+Text - Unigram,Text - Unigram + Bigram,leaf_fd4b025e69b9f321,Salam,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_fd4b025e69b9f321,Salam,10,8,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_45414f432e49469a,Salam,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_45414f432e49469a,Salam,3,2,0.66666666666666663,0.5
+Text - Unigram,Text - Unigram + Bigram,leaf_45414f432e49469a,Salam,5,2,0.40000000000000002,0.25
+Text - Unigram,Text - Unigram + Bigram,leaf_45414f432e49469a,Salam,10,8,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_1da6bca6d5320ae2,Salam,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_1da6bca6d5320ae2,Salam,3,2,0.66666666666666663,0.5
+Text - Unigram,Text - Unigram + Bigram,leaf_1da6bca6d5320ae2,Salam,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_1da6bca6d5320ae2,Salam,10,10,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_b8ebef3e9731e352,Salam,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_b8ebef3e9731e352,Salam,3,2,0.66666666666666663,0.5
+Text - Unigram,Text - Unigram + Bigram,leaf_b8ebef3e9731e352,Salam,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_b8ebef3e9731e352,Salam,10,6,0.59999999999999998,0.42857142857142855
+Text - Unigram,Text - Unigram + Bigram,leaf_8809ccde35d4b945,Salam,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_8809ccde35d4b945,Salam,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_8809ccde35d4b945,Salam,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_8809ccde35d4b945,Salam,10,9,0.90000000000000002,0.81818181818181823
+Text - Unigram,Text - Unigram + Bigram,leaf_1ebaf9512209a61f,Salam,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_1ebaf9512209a61f,Salam,3,2,0.66666666666666663,0.5
+Text - Unigram,Text - Unigram + Bigram,leaf_1ebaf9512209a61f,Salam,5,5,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_1ebaf9512209a61f,Salam,10,8,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_68b0c81b496519cd,Salam,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_68b0c81b496519cd,Salam,3,2,0.66666666666666663,0.5
+Text - Unigram,Text - Unigram + Bigram,leaf_68b0c81b496519cd,Salam,5,5,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_68b0c81b496519cd,Salam,10,8,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_0a8999109a734f1d,Salam,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_0a8999109a734f1d,Salam,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_0a8999109a734f1d,Salam,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_0a8999109a734f1d,Salam,10,9,0.90000000000000002,0.81818181818181823
+Text - Unigram,Text - Unigram + Bigram,leaf_ca3c3b7a5db35c1d,Salam,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_ca3c3b7a5db35c1d,Salam,3,2,0.66666666666666663,0.5
+Text - Unigram,Text - Unigram + Bigram,leaf_ca3c3b7a5db35c1d,Salam,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_ca3c3b7a5db35c1d,Salam,10,9,0.90000000000000002,0.81818181818181823
+Text - Unigram,Text - Unigram + Bigram,leaf_a838808299383884,Salam,1,0,0,0
+Text - Unigram,Text - Unigram + Bigram,leaf_a838808299383884,Salam,3,2,0.66666666666666663,0.5
+Text - Unigram,Text - Unigram + Bigram,leaf_a838808299383884,Salam,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_a838808299383884,Salam,10,10,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_a7704c0316865cd7,Salam,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_a7704c0316865cd7,Salam,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_a7704c0316865cd7,Salam,5,5,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_a7704c0316865cd7,Salam,10,8,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_ac463b36b6e61052,Salam,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_ac463b36b6e61052,Salam,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_ac463b36b6e61052,Salam,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_ac463b36b6e61052,Salam,10,8,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_fdd0a74681efeff6,Salam,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_fdd0a74681efeff6,Salam,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_fdd0a74681efeff6,Salam,5,3,0.59999999999999998,0.42857142857142855
+Text - Unigram,Text - Unigram + Bigram,leaf_fdd0a74681efeff6,Salam,10,8,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_9a710afa1505390e,Salam,1,0,0,0
+Text - Unigram,Text - Unigram + Bigram,leaf_9a710afa1505390e,Salam,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_9a710afa1505390e,Salam,5,5,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_9a710afa1505390e,Salam,10,9,0.90000000000000002,0.81818181818181823
+Text - Unigram,Text - Unigram + Bigram,leaf_d12754f94f5ff7fc,Salam,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_d12754f94f5ff7fc,Salam,3,2,0.66666666666666663,0.5
+Text - Unigram,Text - Unigram + Bigram,leaf_d12754f94f5ff7fc,Salam,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_d12754f94f5ff7fc,Salam,10,8,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_9c7d463a5bb1a561,Salam,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_9c7d463a5bb1a561,Salam,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_9c7d463a5bb1a561,Salam,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_9c7d463a5bb1a561,Salam,10,8,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_a57a1270adf22253,Salam,1,0,0,0
+Text - Unigram,Text - Unigram + Bigram,leaf_a57a1270adf22253,Salam,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_a57a1270adf22253,Salam,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_a57a1270adf22253,Salam,10,9,0.90000000000000002,0.81818181818181823
+Text - Unigram,Text - Unigram + Bigram,leaf_df16548c53396aeb,Sambang Darah,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_df16548c53396aeb,Sambang Darah,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_df16548c53396aeb,Sambang Darah,5,3,0.59999999999999998,0.42857142857142855
+Text - Unigram,Text - Unigram + Bigram,leaf_df16548c53396aeb,Sambang Darah,10,9,0.90000000000000002,0.81818181818181823
+Text - Unigram,Text - Unigram + Bigram,leaf_1a45e1e109be76ee,Sambang Darah,1,0,0,0
+Text - Unigram,Text - Unigram + Bigram,leaf_1a45e1e109be76ee,Sambang Darah,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_1a45e1e109be76ee,Sambang Darah,5,5,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_1a45e1e109be76ee,Sambang Darah,10,10,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_ad660412d798bd65,Sambang Darah,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_ad660412d798bd65,Sambang Darah,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_ad660412d798bd65,Sambang Darah,5,5,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_ad660412d798bd65,Sambang Darah,10,9,0.90000000000000002,0.81818181818181823
+Text - Unigram,Text - Unigram + Bigram,leaf_b230b822f6a38f1c,Sambang Darah,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_b230b822f6a38f1c,Sambang Darah,3,2,0.66666666666666663,0.5
+Text - Unigram,Text - Unigram + Bigram,leaf_b230b822f6a38f1c,Sambang Darah,5,5,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_b230b822f6a38f1c,Sambang Darah,10,9,0.90000000000000002,0.81818181818181823
+Text - Unigram,Text - Unigram + Bigram,leaf_22cacefa73426c68,Sambang Darah,1,0,0,0
+Text - Unigram,Text - Unigram + Bigram,leaf_22cacefa73426c68,Sambang Darah,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_22cacefa73426c68,Sambang Darah,5,5,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_22cacefa73426c68,Sambang Darah,10,10,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_519627b0b7c509da,Sambang Darah,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_519627b0b7c509da,Sambang Darah,3,2,0.66666666666666663,0.5
+Text - Unigram,Text - Unigram + Bigram,leaf_519627b0b7c509da,Sambang Darah,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_519627b0b7c509da,Sambang Darah,10,10,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_e57489e729c801d7,Sambang Darah,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_e57489e729c801d7,Sambang Darah,3,2,0.66666666666666663,0.5
+Text - Unigram,Text - Unigram + Bigram,leaf_e57489e729c801d7,Sambang Darah,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_e57489e729c801d7,Sambang Darah,10,10,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_62ef0ed49ad4e2d3,Sambang Darah,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_62ef0ed49ad4e2d3,Sambang Darah,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_62ef0ed49ad4e2d3,Sambang Darah,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_62ef0ed49ad4e2d3,Sambang Darah,10,8,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_ce6b898792146850,Sambang Darah,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_ce6b898792146850,Sambang Darah,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_ce6b898792146850,Sambang Darah,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_ce6b898792146850,Sambang Darah,10,10,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_3c3fafa9c7913736,Sambang Darah,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_3c3fafa9c7913736,Sambang Darah,3,2,0.66666666666666663,0.5
+Text - Unigram,Text - Unigram + Bigram,leaf_3c3fafa9c7913736,Sambang Darah,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_3c3fafa9c7913736,Sambang Darah,10,8,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_eacbf33f28cb6b28,Sambang Darah,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_eacbf33f28cb6b28,Sambang Darah,3,2,0.66666666666666663,0.5
+Text - Unigram,Text - Unigram + Bigram,leaf_eacbf33f28cb6b28,Sambang Darah,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_eacbf33f28cb6b28,Sambang Darah,10,10,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_0e58a931923c4e40,Sambang Darah,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_0e58a931923c4e40,Sambang Darah,3,2,0.66666666666666663,0.5
+Text - Unigram,Text - Unigram + Bigram,leaf_0e58a931923c4e40,Sambang Darah,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_0e58a931923c4e40,Sambang Darah,10,9,0.90000000000000002,0.81818181818181823
+Text - Unigram,Text - Unigram + Bigram,leaf_a21b39e63066049c,Sambang Darah,1,0,0,0
+Text - Unigram,Text - Unigram + Bigram,leaf_a21b39e63066049c,Sambang Darah,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_a21b39e63066049c,Sambang Darah,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_a21b39e63066049c,Sambang Darah,10,8,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_ad626da03abf4532,Sambang Darah,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_ad626da03abf4532,Sambang Darah,3,2,0.66666666666666663,0.5
+Text - Unigram,Text - Unigram + Bigram,leaf_ad626da03abf4532,Sambang Darah,5,3,0.59999999999999998,0.42857142857142855
+Text - Unigram,Text - Unigram + Bigram,leaf_ad626da03abf4532,Sambang Darah,10,8,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_45d4826ed41c51b4,Sambang Darah,1,0,0,0
+Text - Unigram,Text - Unigram + Bigram,leaf_45d4826ed41c51b4,Sambang Darah,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_45d4826ed41c51b4,Sambang Darah,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_45d4826ed41c51b4,Sambang Darah,10,9,0.90000000000000002,0.81818181818181823
+Text - Unigram,Text - Unigram + Bigram,leaf_c289208cb093f769,Sambang Darah,1,0,0,0
+Text - Unigram,Text - Unigram + Bigram,leaf_c289208cb093f769,Sambang Darah,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_c289208cb093f769,Sambang Darah,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_c289208cb093f769,Sambang Darah,10,7,0.69999999999999996,0.53846153846153844
+Text - Unigram,Text - Unigram + Bigram,leaf_620d73b8cfb217b6,Sambang Darah,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_620d73b8cfb217b6,Sambang Darah,3,2,0.66666666666666663,0.5
+Text - Unigram,Text - Unigram + Bigram,leaf_620d73b8cfb217b6,Sambang Darah,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_620d73b8cfb217b6,Sambang Darah,10,9,0.90000000000000002,0.81818181818181823
+Text - Unigram,Text - Unigram + Bigram,leaf_d9d0b97961feaeac,Sambang Darah,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_d9d0b97961feaeac,Sambang Darah,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_d9d0b97961feaeac,Sambang Darah,5,5,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_d9d0b97961feaeac,Sambang Darah,10,10,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_6e53ecd8713a9128,Sambang Darah,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_6e53ecd8713a9128,Sambang Darah,3,2,0.66666666666666663,0.5
+Text - Unigram,Text - Unigram + Bigram,leaf_6e53ecd8713a9128,Sambang Darah,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_6e53ecd8713a9128,Sambang Darah,10,8,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_ac5e952a9ae56c36,Sambang Darah,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_ac5e952a9ae56c36,Sambang Darah,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_ac5e952a9ae56c36,Sambang Darah,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_ac5e952a9ae56c36,Sambang Darah,10,9,0.90000000000000002,0.81818181818181823
+Text - Unigram,Text - Unigram + Bigram,leaf_1d4f34320b1b8b8d,Sirih,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_1d4f34320b1b8b8d,Sirih,3,2,0.66666666666666663,0.5
+Text - Unigram,Text - Unigram + Bigram,leaf_1d4f34320b1b8b8d,Sirih,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_1d4f34320b1b8b8d,Sirih,10,8,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_d0f42a660bf2b3ee,Sirih,1,0,0,0
+Text - Unigram,Text - Unigram + Bigram,leaf_d0f42a660bf2b3ee,Sirih,3,0,0,0
+Text - Unigram,Text - Unigram + Bigram,leaf_d0f42a660bf2b3ee,Sirih,5,3,0.59999999999999998,0.42857142857142855
+Text - Unigram,Text - Unigram + Bigram,leaf_d0f42a660bf2b3ee,Sirih,10,8,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_1ef1bffd5f4186c1,Sirih,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_1ef1bffd5f4186c1,Sirih,3,2,0.66666666666666663,0.5
+Text - Unigram,Text - Unigram + Bigram,leaf_1ef1bffd5f4186c1,Sirih,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_1ef1bffd5f4186c1,Sirih,10,8,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_a280fa2ae09d329b,Sirih,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_a280fa2ae09d329b,Sirih,3,1,0.33333333333333331,0.20000000000000001
+Text - Unigram,Text - Unigram + Bigram,leaf_a280fa2ae09d329b,Sirih,5,5,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_a280fa2ae09d329b,Sirih,10,8,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_6fcc4b52889490ca,Sirih,1,0,0,0
+Text - Unigram,Text - Unigram + Bigram,leaf_6fcc4b52889490ca,Sirih,3,2,0.66666666666666663,0.5
+Text - Unigram,Text - Unigram + Bigram,leaf_6fcc4b52889490ca,Sirih,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_6fcc4b52889490ca,Sirih,10,10,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_1193856cea5a1287,Sirih,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_1193856cea5a1287,Sirih,3,2,0.66666666666666663,0.5
+Text - Unigram,Text - Unigram + Bigram,leaf_1193856cea5a1287,Sirih,5,5,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_1193856cea5a1287,Sirih,10,9,0.90000000000000002,0.81818181818181823
+Text - Unigram,Text - Unigram + Bigram,leaf_3f1cc0b714c4164e,Sirih,1,0,0,0
+Text - Unigram,Text - Unigram + Bigram,leaf_3f1cc0b714c4164e,Sirih,3,1,0.33333333333333331,0.20000000000000001
+Text - Unigram,Text - Unigram + Bigram,leaf_3f1cc0b714c4164e,Sirih,5,3,0.59999999999999998,0.42857142857142855
+Text - Unigram,Text - Unigram + Bigram,leaf_3f1cc0b714c4164e,Sirih,10,7,0.69999999999999996,0.53846153846153844
+Text - Unigram,Text - Unigram + Bigram,leaf_347efec2afc78e44,Sirih,1,0,0,0
+Text - Unigram,Text - Unigram + Bigram,leaf_347efec2afc78e44,Sirih,3,2,0.66666666666666663,0.5
+Text - Unigram,Text - Unigram + Bigram,leaf_347efec2afc78e44,Sirih,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_347efec2afc78e44,Sirih,10,7,0.69999999999999996,0.53846153846153844
+Text - Unigram,Text - Unigram + Bigram,leaf_9dad4bfe9db99263,Sirih,1,0,0,0
+Text - Unigram,Text - Unigram + Bigram,leaf_9dad4bfe9db99263,Sirih,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_9dad4bfe9db99263,Sirih,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_9dad4bfe9db99263,Sirih,10,7,0.69999999999999996,0.53846153846153844
+Text - Unigram,Text - Unigram + Bigram,leaf_57905de77bc7f811,Sirih,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_57905de77bc7f811,Sirih,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_57905de77bc7f811,Sirih,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_57905de77bc7f811,Sirih,10,7,0.69999999999999996,0.53846153846153844
+Text - Unigram,Text - Unigram + Bigram,leaf_1b922f2bd904d1fc,Sirih,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_1b922f2bd904d1fc,Sirih,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_1b922f2bd904d1fc,Sirih,5,3,0.59999999999999998,0.42857142857142855
+Text - Unigram,Text - Unigram + Bigram,leaf_1b922f2bd904d1fc,Sirih,10,7,0.69999999999999996,0.53846153846153844
+Text - Unigram,Text - Unigram + Bigram,leaf_6397705392627f3c,Sirih,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_6397705392627f3c,Sirih,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_6397705392627f3c,Sirih,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_6397705392627f3c,Sirih,10,7,0.69999999999999996,0.53846153846153844
+Text - Unigram,Text - Unigram + Bigram,leaf_c8bf421408781594,Sirih,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_c8bf421408781594,Sirih,3,2,0.66666666666666663,0.5
+Text - Unigram,Text - Unigram + Bigram,leaf_c8bf421408781594,Sirih,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_c8bf421408781594,Sirih,10,9,0.90000000000000002,0.81818181818181823
+Text - Unigram,Text - Unigram + Bigram,leaf_66c00e535609f186,Sirih,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_66c00e535609f186,Sirih,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_66c00e535609f186,Sirih,5,5,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_66c00e535609f186,Sirih,10,9,0.90000000000000002,0.81818181818181823
+Text - Unigram,Text - Unigram + Bigram,leaf_2574445c571a7dc3,Sirih,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_2574445c571a7dc3,Sirih,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_2574445c571a7dc3,Sirih,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_2574445c571a7dc3,Sirih,10,7,0.69999999999999996,0.53846153846153844
+Text - Unigram,Text - Unigram + Bigram,leaf_afba9495e801278e,Sirih,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_afba9495e801278e,Sirih,3,2,0.66666666666666663,0.5
+Text - Unigram,Text - Unigram + Bigram,leaf_afba9495e801278e,Sirih,5,5,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_afba9495e801278e,Sirih,10,9,0.90000000000000002,0.81818181818181823
+Text - Unigram,Text - Unigram + Bigram,leaf_693f93e999e7c6a3,Sirih,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_693f93e999e7c6a3,Sirih,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_693f93e999e7c6a3,Sirih,5,5,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_693f93e999e7c6a3,Sirih,10,8,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_7f9c59b7594e5833,Sirih,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_7f9c59b7594e5833,Sirih,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_7f9c59b7594e5833,Sirih,5,5,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_7f9c59b7594e5833,Sirih,10,8,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_338b7ee25be7d52d,Sirih,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_338b7ee25be7d52d,Sirih,3,2,0.66666666666666663,0.5
+Text - Unigram,Text - Unigram + Bigram,leaf_338b7ee25be7d52d,Sirih,5,3,0.59999999999999998,0.42857142857142855
+Text - Unigram,Text - Unigram + Bigram,leaf_338b7ee25be7d52d,Sirih,10,7,0.69999999999999996,0.53846153846153844
+Text - Unigram,Text - Unigram + Bigram,leaf_47ab03f4e71a0717,Sirih,1,0,0,0
+Text - Unigram,Text - Unigram + Bigram,leaf_47ab03f4e71a0717,Sirih,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_47ab03f4e71a0717,Sirih,5,5,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_47ab03f4e71a0717,Sirih,10,7,0.69999999999999996,0.53846153846153844
+Text - Unigram,Text - Unigram + Bigram,leaf_7be37d0f3c7e488a,Tapak Kuda,1,0,0,0
+Text - Unigram,Text - Unigram + Bigram,leaf_7be37d0f3c7e488a,Tapak Kuda,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_7be37d0f3c7e488a,Tapak Kuda,5,5,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_7be37d0f3c7e488a,Tapak Kuda,10,7,0.69999999999999996,0.53846153846153844
+Text - Unigram,Text - Unigram + Bigram,leaf_328651beb5d48483,Tapak Kuda,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_328651beb5d48483,Tapak Kuda,3,1,0.33333333333333331,0.20000000000000001
+Text - Unigram,Text - Unigram + Bigram,leaf_328651beb5d48483,Tapak Kuda,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_328651beb5d48483,Tapak Kuda,10,9,0.90000000000000002,0.81818181818181823
+Text - Unigram,Text - Unigram + Bigram,leaf_22bf36f7b3abd78c,Tapak Kuda,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_22bf36f7b3abd78c,Tapak Kuda,3,1,0.33333333333333331,0.20000000000000001
+Text - Unigram,Text - Unigram + Bigram,leaf_22bf36f7b3abd78c,Tapak Kuda,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_22bf36f7b3abd78c,Tapak Kuda,10,7,0.69999999999999996,0.53846153846153844
+Text - Unigram,Text - Unigram + Bigram,leaf_8129d1a748a118de,Tapak Kuda,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_8129d1a748a118de,Tapak Kuda,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_8129d1a748a118de,Tapak Kuda,5,5,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_8129d1a748a118de,Tapak Kuda,10,8,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_549670d83912aed7,Tapak Kuda,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_549670d83912aed7,Tapak Kuda,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_549670d83912aed7,Tapak Kuda,5,5,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_549670d83912aed7,Tapak Kuda,10,8,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_655b2ffd3499bbea,Tapak Kuda,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_655b2ffd3499bbea,Tapak Kuda,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_655b2ffd3499bbea,Tapak Kuda,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_655b2ffd3499bbea,Tapak Kuda,10,7,0.69999999999999996,0.53846153846153844
+Text - Unigram,Text - Unigram + Bigram,leaf_43ae297ca838aebb,Tapak Kuda,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_43ae297ca838aebb,Tapak Kuda,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_43ae297ca838aebb,Tapak Kuda,5,5,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_43ae297ca838aebb,Tapak Kuda,10,7,0.69999999999999996,0.53846153846153844
+Text - Unigram,Text - Unigram + Bigram,leaf_28712bf465655732,Tapak Kuda,1,0,0,0
+Text - Unigram,Text - Unigram + Bigram,leaf_28712bf465655732,Tapak Kuda,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_28712bf465655732,Tapak Kuda,5,5,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_28712bf465655732,Tapak Kuda,10,9,0.90000000000000002,0.81818181818181823
+Text - Unigram,Text - Unigram + Bigram,leaf_721244faca19b94f,Tapak Kuda,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_721244faca19b94f,Tapak Kuda,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_721244faca19b94f,Tapak Kuda,5,5,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_721244faca19b94f,Tapak Kuda,10,7,0.69999999999999996,0.53846153846153844
+Text - Unigram,Text - Unigram + Bigram,leaf_bb707568bb3ed9ce,Tapak Kuda,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_bb707568bb3ed9ce,Tapak Kuda,3,2,0.66666666666666663,0.5
+Text - Unigram,Text - Unigram + Bigram,leaf_bb707568bb3ed9ce,Tapak Kuda,5,2,0.40000000000000002,0.25
+Text - Unigram,Text - Unigram + Bigram,leaf_bb707568bb3ed9ce,Tapak Kuda,10,6,0.59999999999999998,0.42857142857142855
+Text - Unigram,Text - Unigram + Bigram,leaf_d755ad14cfc3f8bf,Tapak Kuda,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_d755ad14cfc3f8bf,Tapak Kuda,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_d755ad14cfc3f8bf,Tapak Kuda,5,5,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_d755ad14cfc3f8bf,Tapak Kuda,10,9,0.90000000000000002,0.81818181818181823
+Text - Unigram,Text - Unigram + Bigram,leaf_2976a10d6fff3cd5,Tapak Kuda,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_2976a10d6fff3cd5,Tapak Kuda,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_2976a10d6fff3cd5,Tapak Kuda,5,5,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_2976a10d6fff3cd5,Tapak Kuda,10,8,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_acea8a79416b27c0,Tapak Kuda,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_acea8a79416b27c0,Tapak Kuda,3,2,0.66666666666666663,0.5
+Text - Unigram,Text - Unigram + Bigram,leaf_acea8a79416b27c0,Tapak Kuda,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_acea8a79416b27c0,Tapak Kuda,10,8,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_f72f88757c4de8ba,Tapak Kuda,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_f72f88757c4de8ba,Tapak Kuda,3,2,0.66666666666666663,0.5
+Text - Unigram,Text - Unigram + Bigram,leaf_f72f88757c4de8ba,Tapak Kuda,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_f72f88757c4de8ba,Tapak Kuda,10,8,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_93d488369f0a2cc4,Tapak Kuda,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_93d488369f0a2cc4,Tapak Kuda,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_93d488369f0a2cc4,Tapak Kuda,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_93d488369f0a2cc4,Tapak Kuda,10,9,0.90000000000000002,0.81818181818181823
+Text - Unigram,Text - Unigram + Bigram,leaf_25803393f335987a,Tapak Kuda,1,0,0,0
+Text - Unigram,Text - Unigram + Bigram,leaf_25803393f335987a,Tapak Kuda,3,1,0.33333333333333331,0.20000000000000001
+Text - Unigram,Text - Unigram + Bigram,leaf_25803393f335987a,Tapak Kuda,5,5,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_25803393f335987a,Tapak Kuda,10,8,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_012389d8d324b6c8,Tapak Kuda,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_012389d8d324b6c8,Tapak Kuda,3,2,0.66666666666666663,0.5
+Text - Unigram,Text - Unigram + Bigram,leaf_012389d8d324b6c8,Tapak Kuda,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_012389d8d324b6c8,Tapak Kuda,10,8,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_193e4fc967161d9a,Tapak Kuda,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_193e4fc967161d9a,Tapak Kuda,3,1,0.33333333333333331,0.20000000000000001
+Text - Unigram,Text - Unigram + Bigram,leaf_193e4fc967161d9a,Tapak Kuda,5,2,0.40000000000000002,0.25
+Text - Unigram,Text - Unigram + Bigram,leaf_193e4fc967161d9a,Tapak Kuda,10,10,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_d19ceb083d0a7e82,Tapak Kuda,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_d19ceb083d0a7e82,Tapak Kuda,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_d19ceb083d0a7e82,Tapak Kuda,5,5,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_d19ceb083d0a7e82,Tapak Kuda,10,9,0.90000000000000002,0.81818181818181823
+Text - Unigram,Text - Unigram + Bigram,leaf_8d727458048a81c7,Tapak Kuda,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_8d727458048a81c7,Tapak Kuda,3,1,0.33333333333333331,0.20000000000000001
+Text - Unigram,Text - Unigram + Bigram,leaf_8d727458048a81c7,Tapak Kuda,5,2,0.40000000000000002,0.25
+Text - Unigram,Text - Unigram + Bigram,leaf_8d727458048a81c7,Tapak Kuda,10,10,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_8f8d177305fb06f2,Tapak Kuda,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_8f8d177305fb06f2,Tapak Kuda,3,1,0.33333333333333331,0.20000000000000001
+Text - Unigram,Text - Unigram + Bigram,leaf_8f8d177305fb06f2,Tapak Kuda,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_8f8d177305fb06f2,Tapak Kuda,10,7,0.69999999999999996,0.53846153846153844
+Text - Unigram,Text - Unigram + Bigram,leaf_cef9b535077d5397,Tapak Kuda,1,0,0,0
+Text - Unigram,Text - Unigram + Bigram,leaf_cef9b535077d5397,Tapak Kuda,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_cef9b535077d5397,Tapak Kuda,5,4,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_cef9b535077d5397,Tapak Kuda,10,7,0.69999999999999996,0.53846153846153844
+Text - Unigram,Text - Unigram + Bigram,leaf_5fafb790c4773c55,Tapak Kuda,1,0,0,0
+Text - Unigram,Text - Unigram + Bigram,leaf_5fafb790c4773c55,Tapak Kuda,3,2,0.66666666666666663,0.5
+Text - Unigram,Text - Unigram + Bigram,leaf_5fafb790c4773c55,Tapak Kuda,5,5,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_5fafb790c4773c55,Tapak Kuda,10,9,0.90000000000000002,0.81818181818181823
+Text - Unigram,Text - Unigram + Bigram,leaf_055c97f32cf57da5,Tapak Kuda,1,1,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_055c97f32cf57da5,Tapak Kuda,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_055c97f32cf57da5,Tapak Kuda,5,5,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_055c97f32cf57da5,Tapak Kuda,10,8,0.80000000000000004,0.66666666666666663
+Text - Unigram,Text - Unigram + Bigram,leaf_41f02313a5460236,Tapak Kuda,1,0,0,0
+Text - Unigram,Text - Unigram + Bigram,leaf_41f02313a5460236,Tapak Kuda,3,3,1,1
+Text - Unigram,Text - Unigram + Bigram,leaf_41f02313a5460236,Tapak Kuda,5,3,0.59999999999999998,0.42857142857142855
+Text - Unigram,Text - Unigram + Bigram,leaf_41f02313a5460236,Tapak Kuda,10,9,0.90000000000000002,0.81818181818181823

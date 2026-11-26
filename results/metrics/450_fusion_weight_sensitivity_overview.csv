@@ -1,0 +1,16 @@
+﻿Indicator,Result
+Sample count,104
+Visual weight choices,11
+Text configurations,2
+Configuration-weight combinations,22
+Distinct retrieval methods,21
+Per-query diagnostics,2288
+Top-K detail records,9152
+Top-K summary records,88
+Endpoint/default checks,6
+Technical validation checks,169
+Failed technical checks,0
+Generated figures,4
+Best weight selected,False
+Independent evaluation completed,False
+Analysis scope,Full-Gallery Exploratory Sensitivity; no independent evaluation

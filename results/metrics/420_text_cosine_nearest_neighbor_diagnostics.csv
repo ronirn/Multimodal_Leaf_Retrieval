@@ -1,0 +1,209 @@
+﻿configuration,query_sample_id,query_class,nearest_sample_id,nearest_class,cosine_similarity,nearest_same_class,self_match_excluded
+Unigram,leaf_165d2f32c7fda707,Mangkok,leaf_23b789945271fb92,Mangkok,0.81633663816949442,True,True
+Unigram,leaf_8473270c3702f48b,Mangkok,leaf_0ebc8f4f3ee9c8d5,Mangkok,0.8229624610174826,True,True
+Unigram,leaf_8f425d66b1e193b9,Mangkok,leaf_de9e3e4ed5d89dfc,Mangkok,0.84540164816681307,True,True
+Unigram,leaf_0ebc8f4f3ee9c8d5,Mangkok,leaf_8473270c3702f48b,Mangkok,0.8229624610174826,True,True
+Unigram,leaf_b0c5f55e42499cae,Mangkok,leaf_a6da65cb0493ceef,Mangkok,0.79469245408869449,True,True
+Unigram,leaf_de9e3e4ed5d89dfc,Mangkok,leaf_8f425d66b1e193b9,Mangkok,0.84540164816681307,True,True
+Unigram,leaf_23b789945271fb92,Mangkok,leaf_de455d31a4df8c43,Mangkok,0.90360542539724897,True,True
+Unigram,leaf_84de0dc731018607,Mangkok,leaf_055c97f32cf57da5,Tapak Kuda,0.79981850867772741,False,True
+Unigram,leaf_36d4f083fa652592,Mangkok,leaf_8f09fd62c7391c0d,Mangkok,0.90237231990441347,True,True
+Unigram,leaf_c9d8d87fbc748d16,Mangkok,leaf_165d2f32c7fda707,Mangkok,0.60849516497559875,True,True
+Unigram,leaf_4de65b11758965f6,Mangkok,leaf_12439b9ebf0eb8d3,Mangkok,0.91359399673078068,True,True
+Unigram,leaf_8f09fd62c7391c0d,Mangkok,leaf_663a651dd51f9c94,Mangkok,0.9860966416490915,True,True
+Unigram,leaf_a6da65cb0493ceef,Mangkok,leaf_b0c5f55e42499cae,Mangkok,0.79469245408869449,True,True
+Unigram,leaf_1a80f5749cc68900,Mangkok,leaf_ef0854556175e2b0,Mangkok,1,True,True
+Unigram,leaf_ef0854556175e2b0,Mangkok,leaf_1a80f5749cc68900,Mangkok,1,True,True
+Unigram,leaf_fff6592ee517103e,Mangkok,leaf_36d4f083fa652592,Mangkok,0.74703215650754973,True,True
+Unigram,leaf_e9cfa616ea5f1f19,Mangkok,leaf_8f09fd62c7391c0d,Mangkok,0.94992815957954635,True,True
+Unigram,leaf_12439b9ebf0eb8d3,Mangkok,leaf_4de65b11758965f6,Mangkok,0.91359399673078068,True,True
+Unigram,leaf_de455d31a4df8c43,Mangkok,leaf_23b789945271fb92,Mangkok,0.90360542539724897,True,True
+Unigram,leaf_663a651dd51f9c94,Mangkok,leaf_8f09fd62c7391c0d,Mangkok,0.9860966416490915,True,True
+Unigram,leaf_c29e2560b188fb2c,Salam,leaf_1ebaf9512209a61f,Salam,0.77087995037716306,True,True
+Unigram,leaf_c4840a77b6d0c158,Salam,leaf_22cacefa73426c68,Sambang Darah,0.8161595253362991,False,True
+Unigram,leaf_fd4b025e69b9f321,Salam,leaf_ca3c3b7a5db35c1d,Salam,0.78356896944859467,True,True
+Unigram,leaf_45414f432e49469a,Salam,leaf_b8ebef3e9731e352,Salam,0.82531459007596031,True,True
+Unigram,leaf_1da6bca6d5320ae2,Salam,leaf_22cacefa73426c68,Sambang Darah,0.90529160536975761,False,True
+Unigram,leaf_b8ebef3e9731e352,Salam,leaf_45414f432e49469a,Salam,0.82531459007596031,True,True
+Unigram,leaf_8809ccde35d4b945,Salam,leaf_68b0c81b496519cd,Salam,0.95756488908108883,True,True
+Unigram,leaf_1ebaf9512209a61f,Salam,leaf_c29e2560b188fb2c,Salam,0.77087995037716306,True,True
+Unigram,leaf_68b0c81b496519cd,Salam,leaf_8809ccde35d4b945,Salam,0.95756488908108883,True,True
+Unigram,leaf_0a8999109a734f1d,Salam,leaf_ac463b36b6e61052,Salam,0.88397166508890623,True,True
+Unigram,leaf_ca3c3b7a5db35c1d,Salam,leaf_a57a1270adf22253,Salam,0.89726941657008974,True,True
+Unigram,leaf_a838808299383884,Salam,leaf_68b0c81b496519cd,Salam,0.78125936639043891,True,True
+Unigram,leaf_a7704c0316865cd7,Salam,leaf_fdd0a74681efeff6,Salam,0.87789649515310286,True,True
+Unigram,leaf_ac463b36b6e61052,Salam,leaf_0a8999109a734f1d,Salam,0.88397166508890623,True,True
+Unigram,leaf_fdd0a74681efeff6,Salam,leaf_a7704c0316865cd7,Salam,0.87789649515310286,True,True
+Unigram,leaf_9a710afa1505390e,Salam,leaf_1da6bca6d5320ae2,Salam,0.82900321641686348,True,True
+Unigram,leaf_d12754f94f5ff7fc,Salam,leaf_ac5e952a9ae56c36,Sambang Darah,0.70152274702233897,False,True
+Unigram,leaf_9c7d463a5bb1a561,Salam,leaf_ca3c3b7a5db35c1d,Salam,0.82686988471562839,True,True
+Unigram,leaf_a57a1270adf22253,Salam,leaf_c289208cb093f769,Sambang Darah,0.94000219354372438,False,True
+Unigram,leaf_df16548c53396aeb,Sambang Darah,leaf_62ef0ed49ad4e2d3,Sambang Darah,0.95504955411735226,True,True
+Unigram,leaf_1a45e1e109be76ee,Sambang Darah,leaf_22cacefa73426c68,Sambang Darah,0.88979889202261453,True,True
+Unigram,leaf_ad660412d798bd65,Sambang Darah,leaf_d9d0b97961feaeac,Sambang Darah,0.83949974802609706,True,True
+Unigram,leaf_b230b822f6a38f1c,Sambang Darah,leaf_ad660412d798bd65,Sambang Darah,0.72482732758643975,True,True
+Unigram,leaf_22cacefa73426c68,Sambang Darah,leaf_1da6bca6d5320ae2,Salam,0.90529160536975761,False,True
+Unigram,leaf_519627b0b7c509da,Sambang Darah,leaf_22cacefa73426c68,Sambang Darah,0.89010483982887301,True,True
+Unigram,leaf_e57489e729c801d7,Sambang Darah,leaf_8809ccde35d4b945,Salam,0.78322276447639527,False,True
+Unigram,leaf_62ef0ed49ad4e2d3,Sambang Darah,leaf_df16548c53396aeb,Sambang Darah,0.95504955411735226,True,True
+Unigram,leaf_ce6b898792146850,Sambang Darah,leaf_df16548c53396aeb,Sambang Darah,0.87738413449595865,True,True
+Unigram,leaf_3c3fafa9c7913736,Sambang Darah,leaf_ce6b898792146850,Sambang Darah,0.75309008612203054,True,True
+Unigram,leaf_eacbf33f28cb6b28,Sambang Darah,leaf_8809ccde35d4b945,Salam,0.86646940478480083,False,True
+Unigram,leaf_0e58a931923c4e40,Sambang Darah,leaf_519627b0b7c509da,Sambang Darah,0.82742887487869632,True,True
+Unigram,leaf_a21b39e63066049c,Sambang Darah,leaf_1ebaf9512209a61f,Salam,0.75272445038254987,False,True
+Unigram,leaf_ad626da03abf4532,Sambang Darah,leaf_a21b39e63066049c,Sambang Darah,0.67155610443967129,True,True
+Unigram,leaf_45d4826ed41c51b4,Sambang Darah,leaf_45414f432e49469a,Salam,0.81137517900119716,False,True
+Unigram,leaf_c289208cb093f769,Sambang Darah,leaf_a57a1270adf22253,Salam,0.94000219354372438,False,True
+Unigram,leaf_620d73b8cfb217b6,Sambang Darah,leaf_6e53ecd8713a9128,Sambang Darah,0.83820646246630581,True,True
+Unigram,leaf_d9d0b97961feaeac,Sambang Darah,leaf_ad660412d798bd65,Sambang Darah,0.83949974802609706,True,True
+Unigram,leaf_6e53ecd8713a9128,Sambang Darah,leaf_ac5e952a9ae56c36,Sambang Darah,0.90382632916610972,True,True
+Unigram,leaf_ac5e952a9ae56c36,Sambang Darah,leaf_6e53ecd8713a9128,Sambang Darah,0.90382632916610972,True,True
+Unigram,leaf_1d4f34320b1b8b8d,Sirih,leaf_6fcc4b52889490ca,Sirih,0.63709169820884504,True,True
+Unigram,leaf_d0f42a660bf2b3ee,Sirih,leaf_a280fa2ae09d329b,Sirih,0.66569207952301201,True,True
+Unigram,leaf_1ef1bffd5f4186c1,Sirih,leaf_a280fa2ae09d329b,Sirih,0.76828518225954834,True,True
+Unigram,leaf_a280fa2ae09d329b,Sirih,leaf_1ef1bffd5f4186c1,Sirih,0.76828518225954834,True,True
+Unigram,leaf_6fcc4b52889490ca,Sirih,leaf_d0f42a660bf2b3ee,Sirih,0.65635098539498893,True,True
+Unigram,leaf_1193856cea5a1287,Sirih,leaf_7f9c59b7594e5833,Sirih,0.82215027703050803,True,True
+Unigram,leaf_3f1cc0b714c4164e,Sirih,leaf_68b0c81b496519cd,Salam,0.74958364564609303,False,True
+Unigram,leaf_347efec2afc78e44,Sirih,leaf_0ebc8f4f3ee9c8d5,Mangkok,0.72773859948087982,False,True
+Unigram,leaf_9dad4bfe9db99263,Sirih,leaf_57905de77bc7f811,Sirih,0.66318908546735955,True,True
+Unigram,leaf_57905de77bc7f811,Sirih,leaf_338b7ee25be7d52d,Sirih,0.87874984236939635,True,True
+Unigram,leaf_1b922f2bd904d1fc,Sirih,leaf_2574445c571a7dc3,Sirih,0.7939244566531628,True,True
+Unigram,leaf_6397705392627f3c,Sirih,leaf_2574445c571a7dc3,Sirih,1,True,True
+Unigram,leaf_c8bf421408781594,Sirih,leaf_66c00e535609f186,Sirih,0.73234372991506902,True,True
+Unigram,leaf_66c00e535609f186,Sirih,leaf_2574445c571a7dc3,Sirih,0.8161949772922209,True,True
+Unigram,leaf_2574445c571a7dc3,Sirih,leaf_6397705392627f3c,Sirih,1,True,True
+Unigram,leaf_afba9495e801278e,Sirih,leaf_7f9c59b7594e5833,Sirih,0.74768464051561923,True,True
+Unigram,leaf_693f93e999e7c6a3,Sirih,leaf_7f9c59b7594e5833,Sirih,0.89543715272629953,True,True
+Unigram,leaf_7f9c59b7594e5833,Sirih,leaf_693f93e999e7c6a3,Sirih,0.89543715272629953,True,True
+Unigram,leaf_338b7ee25be7d52d,Sirih,leaf_57905de77bc7f811,Sirih,0.87874984236939635,True,True
+Unigram,leaf_47ab03f4e71a0717,Sirih,leaf_693f93e999e7c6a3,Sirih,0.75530644351003373,True,True
+Unigram,leaf_7be37d0f3c7e488a,Tapak Kuda,leaf_328651beb5d48483,Tapak Kuda,0.77701536402622329,True,True
+Unigram,leaf_328651beb5d48483,Tapak Kuda,leaf_8129d1a748a118de,Tapak Kuda,0.92436729702995213,True,True
+Unigram,leaf_22bf36f7b3abd78c,Tapak Kuda,leaf_8f8d177305fb06f2,Tapak Kuda,1,True,True
+Unigram,leaf_8129d1a748a118de,Tapak Kuda,leaf_328651beb5d48483,Tapak Kuda,0.92436729702995213,True,True
+Unigram,leaf_549670d83912aed7,Tapak Kuda,leaf_8129d1a748a118de,Tapak Kuda,0.8575830934393881,True,True
+Unigram,leaf_655b2ffd3499bbea,Tapak Kuda,leaf_28712bf465655732,Tapak Kuda,0.91390724557166958,True,True
+Unigram,leaf_43ae297ca838aebb,Tapak Kuda,leaf_721244faca19b94f,Tapak Kuda,1,True,True
+Unigram,leaf_28712bf465655732,Tapak Kuda,leaf_655b2ffd3499bbea,Tapak Kuda,0.91390724557166958,True,True
+Unigram,leaf_721244faca19b94f,Tapak Kuda,leaf_43ae297ca838aebb,Tapak Kuda,1,True,True
+Unigram,leaf_bb707568bb3ed9ce,Tapak Kuda,leaf_655b2ffd3499bbea,Tapak Kuda,0.81640061950315923,True,True
+Unigram,leaf_d755ad14cfc3f8bf,Tapak Kuda,leaf_d19ceb083d0a7e82,Tapak Kuda,0.99999999999999989,True,True
+Unigram,leaf_2976a10d6fff3cd5,Tapak Kuda,leaf_055c97f32cf57da5,Tapak Kuda,1,True,True
+Unigram,leaf_acea8a79416b27c0,Tapak Kuda,leaf_012389d8d324b6c8,Tapak Kuda,1,True,True
+Unigram,leaf_f72f88757c4de8ba,Tapak Kuda,leaf_012389d8d324b6c8,Tapak Kuda,1,True,True
+Unigram,leaf_93d488369f0a2cc4,Tapak Kuda,leaf_193e4fc967161d9a,Tapak Kuda,0.87813846991741051,True,True
+Unigram,leaf_25803393f335987a,Tapak Kuda,leaf_193e4fc967161d9a,Tapak Kuda,0.80267197033984805,True,True
+Unigram,leaf_012389d8d324b6c8,Tapak Kuda,leaf_acea8a79416b27c0,Tapak Kuda,1,True,True
+Unigram,leaf_193e4fc967161d9a,Tapak Kuda,leaf_8d727458048a81c7,Tapak Kuda,1,True,True
+Unigram,leaf_d19ceb083d0a7e82,Tapak Kuda,leaf_d755ad14cfc3f8bf,Tapak Kuda,0.99999999999999989,True,True
+Unigram,leaf_8d727458048a81c7,Tapak Kuda,leaf_193e4fc967161d9a,Tapak Kuda,1,True,True
+Unigram,leaf_8f8d177305fb06f2,Tapak Kuda,leaf_22bf36f7b3abd78c,Tapak Kuda,1,True,True
+Unigram,leaf_cef9b535077d5397,Tapak Kuda,leaf_5fafb790c4773c55,Tapak Kuda,0.84562955503057724,True,True
+Unigram,leaf_5fafb790c4773c55,Tapak Kuda,leaf_41f02313a5460236,Tapak Kuda,0.89595308601805312,True,True
+Unigram,leaf_055c97f32cf57da5,Tapak Kuda,leaf_2976a10d6fff3cd5,Tapak Kuda,1,True,True
+Unigram,leaf_41f02313a5460236,Tapak Kuda,leaf_5fafb790c4773c55,Tapak Kuda,0.89595308601805312,True,True
+Unigram + Bigram,leaf_165d2f32c7fda707,Mangkok,leaf_23b789945271fb92,Mangkok,0.63854715972863818,True,True
+Unigram + Bigram,leaf_8473270c3702f48b,Mangkok,leaf_0ebc8f4f3ee9c8d5,Mangkok,0.77722443481422843,True,True
+Unigram + Bigram,leaf_8f425d66b1e193b9,Mangkok,leaf_165d2f32c7fda707,Mangkok,0.5360450870833865,True,True
+Unigram + Bigram,leaf_0ebc8f4f3ee9c8d5,Mangkok,leaf_8473270c3702f48b,Mangkok,0.77722443481422843,True,True
+Unigram + Bigram,leaf_b0c5f55e42499cae,Mangkok,leaf_de9e3e4ed5d89dfc,Mangkok,0.58101934327225013,True,True
+Unigram + Bigram,leaf_de9e3e4ed5d89dfc,Mangkok,leaf_12439b9ebf0eb8d3,Mangkok,0.60700088729635282,True,True
+Unigram + Bigram,leaf_23b789945271fb92,Mangkok,leaf_de455d31a4df8c43,Mangkok,0.89432865838819753,True,True
+Unigram + Bigram,leaf_84de0dc731018607,Mangkok,leaf_055c97f32cf57da5,Tapak Kuda,0.61300528052152159,False,True
+Unigram + Bigram,leaf_36d4f083fa652592,Mangkok,leaf_8f09fd62c7391c0d,Mangkok,0.86807238471343895,True,True
+Unigram + Bigram,leaf_c9d8d87fbc748d16,Mangkok,leaf_165d2f32c7fda707,Mangkok,0.4882624976938143,True,True
+Unigram + Bigram,leaf_4de65b11758965f6,Mangkok,leaf_12439b9ebf0eb8d3,Mangkok,0.78767414986745998,True,True
+Unigram + Bigram,leaf_8f09fd62c7391c0d,Mangkok,leaf_663a651dd51f9c94,Mangkok,0.87361461583005495,True,True
+Unigram + Bigram,leaf_a6da65cb0493ceef,Mangkok,leaf_12439b9ebf0eb8d3,Mangkok,0.64998736059908013,True,True
+Unigram + Bigram,leaf_1a80f5749cc68900,Mangkok,leaf_ef0854556175e2b0,Mangkok,1,True,True
+Unigram + Bigram,leaf_ef0854556175e2b0,Mangkok,leaf_1a80f5749cc68900,Mangkok,1,True,True
+Unigram + Bigram,leaf_fff6592ee517103e,Mangkok,leaf_36d4f083fa652592,Mangkok,0.71284113134378346,True,True
+Unigram + Bigram,leaf_e9cfa616ea5f1f19,Mangkok,leaf_8f09fd62c7391c0d,Mangkok,0.83808006024839643,True,True
+Unigram + Bigram,leaf_12439b9ebf0eb8d3,Mangkok,leaf_4de65b11758965f6,Mangkok,0.78767414986745998,True,True
+Unigram + Bigram,leaf_de455d31a4df8c43,Mangkok,leaf_23b789945271fb92,Mangkok,0.89432865838819753,True,True
+Unigram + Bigram,leaf_663a651dd51f9c94,Mangkok,leaf_8f09fd62c7391c0d,Mangkok,0.87361461583005495,True,True
+Unigram + Bigram,leaf_c29e2560b188fb2c,Salam,leaf_1ebaf9512209a61f,Salam,0.68404103300743779,True,True
+Unigram + Bigram,leaf_c4840a77b6d0c158,Salam,leaf_1a45e1e109be76ee,Sambang Darah,0.78282530234176406,False,True
+Unigram + Bigram,leaf_fd4b025e69b9f321,Salam,leaf_ca3c3b7a5db35c1d,Salam,0.6606361275779612,True,True
+Unigram + Bigram,leaf_45414f432e49469a,Salam,leaf_b8ebef3e9731e352,Salam,0.71225155795930228,True,True
+Unigram + Bigram,leaf_1da6bca6d5320ae2,Salam,leaf_22cacefa73426c68,Sambang Darah,0.86739808515291927,False,True
+Unigram + Bigram,leaf_b8ebef3e9731e352,Salam,leaf_45414f432e49469a,Salam,0.71225155795930228,True,True
+Unigram + Bigram,leaf_8809ccde35d4b945,Salam,leaf_68b0c81b496519cd,Salam,0.9214637095327316,True,True
+Unigram + Bigram,leaf_1ebaf9512209a61f,Salam,leaf_c29e2560b188fb2c,Salam,0.68404103300743779,True,True
+Unigram + Bigram,leaf_68b0c81b496519cd,Salam,leaf_8809ccde35d4b945,Salam,0.9214637095327316,True,True
+Unigram + Bigram,leaf_0a8999109a734f1d,Salam,leaf_ac463b36b6e61052,Salam,0.83120057698727323,True,True
+Unigram + Bigram,leaf_ca3c3b7a5db35c1d,Salam,leaf_a57a1270adf22253,Salam,0.76520764687138465,True,True
+Unigram + Bigram,leaf_a838808299383884,Salam,leaf_ac463b36b6e61052,Salam,0.66163291928853329,True,True
+Unigram + Bigram,leaf_a7704c0316865cd7,Salam,leaf_fdd0a74681efeff6,Salam,0.72947539131579187,True,True
+Unigram + Bigram,leaf_ac463b36b6e61052,Salam,leaf_0a8999109a734f1d,Salam,0.83120057698727323,True,True
+Unigram + Bigram,leaf_fdd0a74681efeff6,Salam,leaf_a7704c0316865cd7,Salam,0.72947539131579187,True,True
+Unigram + Bigram,leaf_9a710afa1505390e,Salam,leaf_0e58a931923c4e40,Sambang Darah,0.69026211208570243,False,True
+Unigram + Bigram,leaf_d12754f94f5ff7fc,Salam,leaf_ac5e952a9ae56c36,Sambang Darah,0.60814030762290106,False,True
+Unigram + Bigram,leaf_9c7d463a5bb1a561,Salam,leaf_ca3c3b7a5db35c1d,Salam,0.76156098169852482,True,True
+Unigram + Bigram,leaf_a57a1270adf22253,Salam,leaf_ca3c3b7a5db35c1d,Salam,0.76520764687138465,True,True
+Unigram + Bigram,leaf_df16548c53396aeb,Sambang Darah,leaf_62ef0ed49ad4e2d3,Sambang Darah,0.82234666007679225,True,True
+Unigram + Bigram,leaf_1a45e1e109be76ee,Sambang Darah,leaf_c4840a77b6d0c158,Salam,0.78282530234176406,False,True
+Unigram + Bigram,leaf_ad660412d798bd65,Sambang Darah,leaf_d9d0b97961feaeac,Sambang Darah,0.79052249833342148,True,True
+Unigram + Bigram,leaf_b230b822f6a38f1c,Sambang Darah,leaf_ad660412d798bd65,Sambang Darah,0.65772163851840837,True,True
+Unigram + Bigram,leaf_22cacefa73426c68,Sambang Darah,leaf_519627b0b7c509da,Sambang Darah,0.87499335638537301,True,True
+Unigram + Bigram,leaf_519627b0b7c509da,Sambang Darah,leaf_22cacefa73426c68,Sambang Darah,0.87499335638537301,True,True
+Unigram + Bigram,leaf_e57489e729c801d7,Sambang Darah,leaf_8809ccde35d4b945,Salam,0.80302490383772951,False,True
+Unigram + Bigram,leaf_62ef0ed49ad4e2d3,Sambang Darah,leaf_df16548c53396aeb,Sambang Darah,0.82234666007679225,True,True
+Unigram + Bigram,leaf_ce6b898792146850,Sambang Darah,leaf_df16548c53396aeb,Sambang Darah,0.79127462650368829,True,True
+Unigram + Bigram,leaf_3c3fafa9c7913736,Sambang Darah,leaf_ce6b898792146850,Sambang Darah,0.69126641664821642,True,True
+Unigram + Bigram,leaf_eacbf33f28cb6b28,Sambang Darah,leaf_8809ccde35d4b945,Salam,0.63878513468804021,False,True
+Unigram + Bigram,leaf_0e58a931923c4e40,Sambang Darah,leaf_519627b0b7c509da,Sambang Darah,0.74253185483742234,True,True
+Unigram + Bigram,leaf_a21b39e63066049c,Sambang Darah,leaf_45d4826ed41c51b4,Sambang Darah,0.72742771945803708,True,True
+Unigram + Bigram,leaf_ad626da03abf4532,Sambang Darah,leaf_a21b39e63066049c,Sambang Darah,0.61133785487010261,True,True
+Unigram + Bigram,leaf_45d4826ed41c51b4,Sambang Darah,leaf_a21b39e63066049c,Sambang Darah,0.72742771945803708,True,True
+Unigram + Bigram,leaf_c289208cb093f769,Sambang Darah,leaf_ca3c3b7a5db35c1d,Salam,0.69946504921329034,False,True
+Unigram + Bigram,leaf_620d73b8cfb217b6,Sambang Darah,leaf_6e53ecd8713a9128,Sambang Darah,0.69569383229323822,True,True
+Unigram + Bigram,leaf_d9d0b97961feaeac,Sambang Darah,leaf_ad660412d798bd65,Sambang Darah,0.79052249833342148,True,True
+Unigram + Bigram,leaf_6e53ecd8713a9128,Sambang Darah,leaf_ac5e952a9ae56c36,Sambang Darah,0.87544626444110574,True,True
+Unigram + Bigram,leaf_ac5e952a9ae56c36,Sambang Darah,leaf_6e53ecd8713a9128,Sambang Darah,0.87544626444110574,True,True
+Unigram + Bigram,leaf_1d4f34320b1b8b8d,Sirih,leaf_6fcc4b52889490ca,Sirih,0.4371902582607658,True,True
+Unigram + Bigram,leaf_d0f42a660bf2b3ee,Sirih,leaf_7f9c59b7594e5833,Sirih,0.54967888862201775,True,True
+Unigram + Bigram,leaf_1ef1bffd5f4186c1,Sirih,leaf_a280fa2ae09d329b,Sirih,0.57450283376023192,True,True
+Unigram + Bigram,leaf_a280fa2ae09d329b,Sirih,leaf_1ef1bffd5f4186c1,Sirih,0.57450283376023192,True,True
+Unigram + Bigram,leaf_6fcc4b52889490ca,Sirih,leaf_afba9495e801278e,Sirih,0.55870562616061703,True,True
+Unigram + Bigram,leaf_1193856cea5a1287,Sirih,leaf_7f9c59b7594e5833,Sirih,0.77638265547516516,True,True
+Unigram + Bigram,leaf_3f1cc0b714c4164e,Sirih,leaf_1193856cea5a1287,Sirih,0.55934336260560613,True,True
+Unigram + Bigram,leaf_347efec2afc78e44,Sirih,leaf_57905de77bc7f811,Sirih,0.6846522343080842,True,True
+Unigram + Bigram,leaf_9dad4bfe9db99263,Sirih,leaf_1193856cea5a1287,Sirih,0.58403924222708548,True,True
+Unigram + Bigram,leaf_57905de77bc7f811,Sirih,leaf_338b7ee25be7d52d,Sirih,0.68531624510735456,True,True
+Unigram + Bigram,leaf_1b922f2bd904d1fc,Sirih,leaf_2574445c571a7dc3,Sirih,0.67745551902902934,True,True
+Unigram + Bigram,leaf_6397705392627f3c,Sirih,leaf_2574445c571a7dc3,Sirih,1,True,True
+Unigram + Bigram,leaf_c8bf421408781594,Sirih,leaf_66c00e535609f186,Sirih,0.51705239933010494,True,True
+Unigram + Bigram,leaf_66c00e535609f186,Sirih,leaf_2574445c571a7dc3,Sirih,0.62799556447415661,True,True
+Unigram + Bigram,leaf_2574445c571a7dc3,Sirih,leaf_6397705392627f3c,Sirih,1,True,True
+Unigram + Bigram,leaf_afba9495e801278e,Sirih,leaf_7f9c59b7594e5833,Sirih,0.63330008586832287,True,True
+Unigram + Bigram,leaf_693f93e999e7c6a3,Sirih,leaf_7f9c59b7594e5833,Sirih,0.78893412872123758,True,True
+Unigram + Bigram,leaf_7f9c59b7594e5833,Sirih,leaf_693f93e999e7c6a3,Sirih,0.78893412872123758,True,True
+Unigram + Bigram,leaf_338b7ee25be7d52d,Sirih,leaf_57905de77bc7f811,Sirih,0.68531624510735456,True,True
+Unigram + Bigram,leaf_47ab03f4e71a0717,Sirih,leaf_7f9c59b7594e5833,Sirih,0.57293793522895842,True,True
+Unigram + Bigram,leaf_7be37d0f3c7e488a,Tapak Kuda,leaf_d19ceb083d0a7e82,Tapak Kuda,0.66271241425474936,True,True
+Unigram + Bigram,leaf_328651beb5d48483,Tapak Kuda,leaf_8129d1a748a118de,Tapak Kuda,0.82963733779149307,True,True
+Unigram + Bigram,leaf_22bf36f7b3abd78c,Tapak Kuda,leaf_8f8d177305fb06f2,Tapak Kuda,1,True,True
+Unigram + Bigram,leaf_8129d1a748a118de,Tapak Kuda,leaf_328651beb5d48483,Tapak Kuda,0.82963733779149307,True,True
+Unigram + Bigram,leaf_549670d83912aed7,Tapak Kuda,leaf_8129d1a748a118de,Tapak Kuda,0.70550210336120678,True,True
+Unigram + Bigram,leaf_655b2ffd3499bbea,Tapak Kuda,leaf_28712bf465655732,Tapak Kuda,0.81462608559663308,True,True
+Unigram + Bigram,leaf_43ae297ca838aebb,Tapak Kuda,leaf_721244faca19b94f,Tapak Kuda,0.99999999999999989,True,True
+Unigram + Bigram,leaf_28712bf465655732,Tapak Kuda,leaf_43ae297ca838aebb,Tapak Kuda,0.87397519746709795,True,True
+Unigram + Bigram,leaf_721244faca19b94f,Tapak Kuda,leaf_43ae297ca838aebb,Tapak Kuda,0.99999999999999989,True,True
+Unigram + Bigram,leaf_bb707568bb3ed9ce,Tapak Kuda,leaf_655b2ffd3499bbea,Tapak Kuda,0.75982773643966051,True,True
+Unigram + Bigram,leaf_d755ad14cfc3f8bf,Tapak Kuda,leaf_d19ceb083d0a7e82,Tapak Kuda,1,True,True
+Unigram + Bigram,leaf_2976a10d6fff3cd5,Tapak Kuda,leaf_055c97f32cf57da5,Tapak Kuda,1,True,True
+Unigram + Bigram,leaf_acea8a79416b27c0,Tapak Kuda,leaf_012389d8d324b6c8,Tapak Kuda,1,True,True
+Unigram + Bigram,leaf_f72f88757c4de8ba,Tapak Kuda,leaf_012389d8d324b6c8,Tapak Kuda,1,True,True
+Unigram + Bigram,leaf_93d488369f0a2cc4,Tapak Kuda,leaf_193e4fc967161d9a,Tapak Kuda,0.85056515239427888,True,True
+Unigram + Bigram,leaf_25803393f335987a,Tapak Kuda,leaf_012389d8d324b6c8,Tapak Kuda,0.78329831645284598,True,True
+Unigram + Bigram,leaf_012389d8d324b6c8,Tapak Kuda,leaf_acea8a79416b27c0,Tapak Kuda,1,True,True
+Unigram + Bigram,leaf_193e4fc967161d9a,Tapak Kuda,leaf_8d727458048a81c7,Tapak Kuda,0.99999999999999989,True,True
+Unigram + Bigram,leaf_d19ceb083d0a7e82,Tapak Kuda,leaf_d755ad14cfc3f8bf,Tapak Kuda,1,True,True
+Unigram + Bigram,leaf_8d727458048a81c7,Tapak Kuda,leaf_193e4fc967161d9a,Tapak Kuda,0.99999999999999989,True,True
+Unigram + Bigram,leaf_8f8d177305fb06f2,Tapak Kuda,leaf_22bf36f7b3abd78c,Tapak Kuda,1,True,True
+Unigram + Bigram,leaf_cef9b535077d5397,Tapak Kuda,leaf_93d488369f0a2cc4,Tapak Kuda,0.76403541750212434,True,True
+Unigram + Bigram,leaf_5fafb790c4773c55,Tapak Kuda,leaf_012389d8d324b6c8,Tapak Kuda,0.86150621536578842,True,True
+Unigram + Bigram,leaf_055c97f32cf57da5,Tapak Kuda,leaf_2976a10d6fff3cd5,Tapak Kuda,1,True,True
+Unigram + Bigram,leaf_41f02313a5460236,Tapak Kuda,leaf_193e4fc967161d9a,Tapak Kuda,0.83095094312921824,True,True

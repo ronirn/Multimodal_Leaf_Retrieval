@@ -1,0 +1,19 @@
+﻿Indicator,Result
+Gallery samples,104
+Plant classes,5
+Visual feature dimensions,143
+Text configurations,2
+Supported Top-K,"(1, 3, 5, 10)"
+Default visual weight,0.5
+Full-gallery Top-1 checks,208
+Representative Top-10 records,100
+Representative query-K cases,40
+External visual supported,True
+External text supported,True
+Missing modality fallback,True
+Gallery self-match excluded,True
+External self-match automatically excluded,False
+Technical validation checks,22
+Passed checks,22
+Failed checks,0
+Independent evaluation completed,False

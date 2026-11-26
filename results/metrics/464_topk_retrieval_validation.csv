@@ -1,0 +1,23 @@
+﻿check,passed
+All gallery samples are unique,True
+Gallery alignment preserved,True
+208 gallery Top-1 results,True
+Top-1 agrees with Cell 13,True
+Top-1 scores agree with Cell 13,True
+No gallery self-matches,True
+Representative Top-10 rows = 100,True
+Representative query and K cases = 40,True
+Rank ordering descending,True
+External visual uses image-only mode,True
+External visual reproduces gallery vector,True
+OOV text falls back to visual modality,True
+External known text uses text-only mode,True
+Rejects absent modalities,True
+Rejects all-OOV text-only query,True
+Rejects unknown gallery ID,True
+Rejects mixed query interfaces,True
+Rejects incorrect visual vector dimension,True
+Rejects invalid alpha,True
+Rejects unsupported TF-IDF configuration,True
+Rejects excessive Top-K,True
+Rejects multimodal mode with only one modality,True
