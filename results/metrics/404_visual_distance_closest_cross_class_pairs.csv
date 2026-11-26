@@ -1,0 +1,16 @@
+﻿rank,sample_id_i,sample_id_j,class_i,class_j,euclidean_distance,different_classes,self_match_excluded
+1,leaf_0ebc8f4f3ee9c8d5,leaf_1d4f34320b1b8b8d,Mangkok,Sirih,0.81505447015207999,True,True
+2,leaf_9dad4bfe9db99263,leaf_549670d83912aed7,Sirih,Tapak Kuda,0.85500852185960896,True,True
+3,leaf_1d4f34320b1b8b8d,leaf_5fafb790c4773c55,Sirih,Tapak Kuda,0.8623321572839957,True,True
+4,leaf_4de65b11758965f6,leaf_ac5e952a9ae56c36,Mangkok,Sambang Darah,0.88844628094885092,True,True
+5,leaf_8f425d66b1e193b9,leaf_1d4f34320b1b8b8d,Mangkok,Sirih,0.97883694387899867,True,True
+6,leaf_84de0dc731018607,leaf_8129d1a748a118de,Mangkok,Tapak Kuda,1.0084823929815367,True,True
+7,leaf_0ebc8f4f3ee9c8d5,leaf_347efec2afc78e44,Mangkok,Sirih,1.0241384077018296,True,True
+8,leaf_a6da65cb0493ceef,leaf_ac5e952a9ae56c36,Mangkok,Sambang Darah,1.0343582422721154,True,True
+9,leaf_8f425d66b1e193b9,leaf_347efec2afc78e44,Mangkok,Sirih,1.070803845560232,True,True
+10,leaf_6e53ecd8713a9128,leaf_338b7ee25be7d52d,Sambang Darah,Sirih,1.0873307216962875,True,True
+11,leaf_4de65b11758965f6,leaf_8129d1a748a118de,Mangkok,Tapak Kuda,1.090900212414657,True,True
+12,leaf_0ebc8f4f3ee9c8d5,leaf_c8bf421408781594,Mangkok,Sirih,1.1076967149389991,True,True
+13,leaf_b0c5f55e42499cae,leaf_1d4f34320b1b8b8d,Mangkok,Sirih,1.1100814142561182,True,True
+14,leaf_b0c5f55e42499cae,leaf_347efec2afc78e44,Mangkok,Sirih,1.1446428017552037,True,True
+15,leaf_8473270c3702f48b,leaf_43ae297ca838aebb,Mangkok,Tapak Kuda,1.1467141032771671,True,True

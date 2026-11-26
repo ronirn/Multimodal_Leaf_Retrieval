@@ -1,0 +1,23 @@
+﻿configuration,visual_weight,text_weight,weight_sum,retrieval_mode,unique_method_key,is_balanced
+Unigram,0,1,1,Text Only,text_only::Unigram,False
+Unigram,0.10000000000000001,0.90000000000000002,1,Multimodal,multimodal::Unigram::0.1,False
+Unigram,0.20000000000000001,0.80000000000000004,1,Multimodal,multimodal::Unigram::0.2,False
+Unigram,0.29999999999999999,0.69999999999999996,1,Multimodal,multimodal::Unigram::0.3,False
+Unigram,0.40000000000000002,0.59999999999999998,1,Multimodal,multimodal::Unigram::0.4,False
+Unigram,0.5,0.5,1,Multimodal,multimodal::Unigram::0.5,True
+Unigram,0.59999999999999998,0.40000000000000002,1,Multimodal,multimodal::Unigram::0.6,False
+Unigram,0.69999999999999996,0.30000000000000004,1,Multimodal,multimodal::Unigram::0.7,False
+Unigram,0.80000000000000004,0.19999999999999996,1,Multimodal,multimodal::Unigram::0.8,False
+Unigram,0.90000000000000002,0.099999999999999978,1,Multimodal,multimodal::Unigram::0.9,False
+Unigram,1,0,1,Image Only,image_only,False
+Unigram + Bigram,0,1,1,Text Only,text_only::Unigram + Bigram,False
+Unigram + Bigram,0.10000000000000001,0.90000000000000002,1,Multimodal,multimodal::Unigram + Bigram::0.1,False
+Unigram + Bigram,0.20000000000000001,0.80000000000000004,1,Multimodal,multimodal::Unigram + Bigram::0.2,False
+Unigram + Bigram,0.29999999999999999,0.69999999999999996,1,Multimodal,multimodal::Unigram + Bigram::0.3,False
+Unigram + Bigram,0.40000000000000002,0.59999999999999998,1,Multimodal,multimodal::Unigram + Bigram::0.4,False
+Unigram + Bigram,0.5,0.5,1,Multimodal,multimodal::Unigram + Bigram::0.5,True
+Unigram + Bigram,0.59999999999999998,0.40000000000000002,1,Multimodal,multimodal::Unigram + Bigram::0.6,False
+Unigram + Bigram,0.69999999999999996,0.30000000000000004,1,Multimodal,multimodal::Unigram + Bigram::0.7,False
+Unigram + Bigram,0.80000000000000004,0.19999999999999996,1,Multimodal,multimodal::Unigram + Bigram::0.8,False
+Unigram + Bigram,0.90000000000000002,0.099999999999999978,1,Multimodal,multimodal::Unigram + Bigram::0.9,False
+Unigram + Bigram,1,0,1,Image Only,image_only,False

@@ -1,0 +1,26 @@
+﻿query_sample_id,query_class,rank,retrieved_sample_id,retrieved_class,euclidean_distance,self_match_excluded
+leaf_165d2f32c7fda707,Mangkok,1,leaf_a6da65cb0493ceef,Mangkok,1.2315805320896911,True
+leaf_165d2f32c7fda707,Mangkok,2,leaf_ac5e952a9ae56c36,Sambang Darah,1.2538225016774733,True
+leaf_165d2f32c7fda707,Mangkok,3,leaf_4de65b11758965f6,Mangkok,1.4088917625068587,True
+leaf_165d2f32c7fda707,Mangkok,4,leaf_12439b9ebf0eb8d3,Mangkok,1.4387853860744408,True
+leaf_165d2f32c7fda707,Mangkok,5,leaf_c9d8d87fbc748d16,Mangkok,1.465236666938005,True
+leaf_c29e2560b188fb2c,Salam,1,leaf_22bf36f7b3abd78c,Tapak Kuda,1.7705774699942418,True
+leaf_c29e2560b188fb2c,Salam,2,leaf_1ebaf9512209a61f,Salam,1.8365898648132779,True
+leaf_c29e2560b188fb2c,Salam,3,leaf_68b0c81b496519cd,Salam,1.8612262796360208,True
+leaf_c29e2560b188fb2c,Salam,4,leaf_8f8d177305fb06f2,Tapak Kuda,1.8709565935094681,True
+leaf_c29e2560b188fb2c,Salam,5,leaf_0a8999109a734f1d,Salam,2.0955048475867208,True
+leaf_df16548c53396aeb,Sambang Darah,1,leaf_62ef0ed49ad4e2d3,Sambang Darah,1.0590507897331771,True
+leaf_df16548c53396aeb,Sambang Darah,2,leaf_ce6b898792146850,Sambang Darah,1.2745604248857856,True
+leaf_df16548c53396aeb,Sambang Darah,3,leaf_1ebaf9512209a61f,Salam,1.2807704334584213,True
+leaf_df16548c53396aeb,Sambang Darah,4,leaf_c4840a77b6d0c158,Salam,1.5381664338380212,True
+leaf_df16548c53396aeb,Sambang Darah,5,leaf_68b0c81b496519cd,Salam,1.5837615191498562,True
+leaf_1d4f34320b1b8b8d,Sirih,1,leaf_0ebc8f4f3ee9c8d5,Mangkok,0.81505447015207999,True
+leaf_1d4f34320b1b8b8d,Sirih,2,leaf_5fafb790c4773c55,Tapak Kuda,0.8623321572839957,True
+leaf_1d4f34320b1b8b8d,Sirih,3,leaf_c8bf421408781594,Sirih,0.87672271642483579,True
+leaf_1d4f34320b1b8b8d,Sirih,4,leaf_8f425d66b1e193b9,Mangkok,0.97883694387899867,True
+leaf_1d4f34320b1b8b8d,Sirih,5,leaf_d0f42a660bf2b3ee,Sirih,1.0398704769217038,True
+leaf_7be37d0f3c7e488a,Tapak Kuda,1,leaf_22bf36f7b3abd78c,Tapak Kuda,1.0754101674493282,True
+leaf_7be37d0f3c7e488a,Tapak Kuda,2,leaf_41f02313a5460236,Tapak Kuda,1.0921406248168535,True
+leaf_7be37d0f3c7e488a,Tapak Kuda,3,leaf_055c97f32cf57da5,Tapak Kuda,1.1146377573783846,True
+leaf_7be37d0f3c7e488a,Tapak Kuda,4,leaf_2976a10d6fff3cd5,Tapak Kuda,1.1521223795196269,True
+leaf_7be37d0f3c7e488a,Tapak Kuda,5,leaf_8129d1a748a118de,Tapak Kuda,1.2082368403009711,True

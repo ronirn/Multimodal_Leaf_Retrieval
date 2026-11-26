@@ -1,0 +1,6 @@
+﻿scenario_id,scenario_name,retrieval_method,text_configuration,visual_weight,text_weight,weight_sum,weights_valid
+C01,Image Only,Image Only,,1,0,1,True
+C02,Text Only - Unigram,Text Only,Unigram,0,1,1,True
+C03,Text Only - Unigram + Bigram,Text Only,Unigram + Bigram,0,1,1,True
+C04,Multimodal - Unigram,Multimodal,Unigram,0.5,0.5,1,True
+C05,Multimodal - Unigram + Bigram,Multimodal,Unigram + Bigram,0.5,0.5,1,True

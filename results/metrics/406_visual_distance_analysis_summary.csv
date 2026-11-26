@@ -1,0 +1,28 @@
+﻿Indicator,Result
+Input distance matrix,"(104, 104)"
+Samples,104
+Classes,5
+Unique sample pairs,5356
+Within-class pairs,1041
+Cross-class pairs,4315
+Mean within-class distance,1.9904857666329956
+Mean cross-class distance,2.3750018281219463
+Cross-minus-within mean gap,0.3845160614889507
+Standardized mean separation,0.5841402361742108
+Empirical pairwise separation rate,0.673151873978025
+Central distance ranges overlap,True
+Class-pair combinations,15
+Nearest-neighbor diagnostic queries,104
+Nearest-neighbor class agreement percent,84.61538461538461
+Positive distance margins,88
+Closest cross-class pairs reported,15
+Technical validation checks,24
+Passed validation checks,24
+Failed validation checks,0
+Generated figures,4
+Original distance matrix modified,False
+Self-matches included in statistics,False
+Distance-to-similarity conversion applied,False
+Multimodal fusion completed,False
+Independent retrieval evaluation completed,False
+Analysis scope,Full-Gallery Exploratory Distance Analysis

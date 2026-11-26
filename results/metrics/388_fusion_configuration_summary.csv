@@ -1,0 +1,33 @@
+﻿Indicator,Result
+Dataset samples,104
+Dataset classes,5
+Visual feature dimension,143
+Unigram feature dimension,68
+Combined feature dimension,261
+Fusion method,Score-Level Late Fusion
+Fusion strategy,Weighted Sum
+Visual distance method,euclidean
+Visual similarity conversion,inverse_distance
+Visual distance scale,1.0
+Text similarity method,cosine
+Default visual weight,0.5
+Default text weight,0.5
+Weight configurations,11
+Primary scenarios,5
+Configuration-weight combinations,22
+Unique retrieval methods,21
+Top-K values,"[1, 3, 5, 10]"
+Self-match exclusion,True
+Tie-breaking method,similarity_descending_then_sample_id_ascending
+Missing modality policy,use_available_modality
+Validation checks,41
+Validation checks passed,41
+Validation checks failed,0
+Generated figures,2
+Score matrices calculated,False
+Fusion weights optimized,False
+Final text configuration selected,False
+Independent retrieval evaluation completed,False
+Dataset samples modified,False
+Feature matrices modified,False
+Fusion configuration completed,True

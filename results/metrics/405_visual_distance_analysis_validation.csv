@@ -1,0 +1,25 @@
+﻿category,validation_check,passed,status
+Input Integrity,Distance matrix shape valid,True,Passed
+Input Integrity,Distance matrix finite and nonnegative,True,Passed
+Input Integrity,Diagonal distances zero,True,Passed
+Input Integrity,Distance matrix symmetric,True,Passed
+Input Integrity,Previous unique-pair distances preserved,True,Passed
+Input Integrity,Previous pair class masks preserved,True,Passed
+Distribution Analysis,Empirical separation rate within valid bounds,True,Passed
+Distribution Analysis,Global pair distributions reconcile,True,Passed
+Distribution Analysis,Global distance means finite,True,Passed
+Class Pair Analysis,Five within-class combinations,True,Passed
+Class Pair Analysis,Ten cross-class combinations,True,Passed
+Class Pair Analysis,Class-pair counts reconcile,True,Passed
+Class Pair Analysis,Class mean matrix symmetric,True,Passed
+Class Pair Analysis,Class median matrix symmetric,True,Passed
+Class Pair Analysis,Class-pair distance statistics finite,True,Passed
+Nearest Neighbors,One diagnostic row per sample,True,Passed
+Nearest Neighbors,All self-matches excluded,True,Passed
+Nearest Neighbors,All nearest distances finite,True,Passed
+Nearest Neighbors,Class query counts reconcile,True,Passed
+Nearest Neighbors,Global nearest class agreement in valid range,True,Passed
+Closest Cross-Class Pairs,Expected number of closest cross-class pairs,True,Passed
+Closest Cross-Class Pairs,All selected pairs are cross-class,True,Passed
+Closest Cross-Class Pairs,Closest cross-class pairs sorted ascending,True,Passed
+Closest Cross-Class Pairs,No repeated closest-pair records,True,Passed

@@ -1,0 +1,23 @@
+﻿Indicator,Result
+Input visual matrix,"(104, 143)"
+Distance matrix,"(104, 104)"
+Unique sample pairs,5356
+Within-class pairs,1041
+Cross-class pairs,4315
+Near-zero off-diagonal pairs,0
+Maximum symmetry error,0.0
+Maximum diagonal error,0.0
+Maximum manual error,4.440892098500626e-16
+Maximum sklearn cross-check error,2.6645352591003757e-15
+Maximum group decomposition error,8.881784197001252e-16
+Maximum triangle inequality violation,0.0
+Total validation checks,26
+Validation checks passed,26
+Validation checks failed,0
+Generated figures,2
+Visual feature order modified,False
+Visual normalizer refitted,False
+Distance-to-similarity applied,False
+Fusion weights applied,False
+Independent evaluation completed,False
+Analysis scope,Full-Gallery Exploratory Development

@@ -1,0 +1,27 @@
+﻿category,validation_check,passed,status
+Input Data,Normalized visual matrix dimensions valid,True,Passed
+Input Data,Visual matrix contains finite values,True,Passed
+Input Data,Visual sample IDs unique,True,Passed
+Input Data,Sample ID and label order preserved,True,Passed
+Cross-Implementation,SciPy and sklearn Euclidean distances consistent,True,Passed
+Distance Matrix,Distance matrix shape is 104 x 104,True,Passed
+Distance Matrix,Distance matrix uses float64,True,Passed
+Distance Matrix,All distance values finite,True,Passed
+Distance Matrix,All Euclidean distances nonnegative,True,Passed
+Distance Matrix,Diagonal distances equal zero,True,Passed
+Distance Matrix,Distance matrix is symmetric,True,Passed
+Distance Matrix,Maximum distance is positive,True,Passed
+Distance Matrix,Minimum distance is zero,True,Passed
+Pair Inventory,Unique pair count correct,True,Passed
+Pair Inventory,Within-class pair count correct,True,Passed
+Pair Inventory,Cross-class pair count correct,True,Passed
+Pair Inventory,Within and cross-class counts reconcile,True,Passed
+Manual Verification,Ten representative sample pairs checked,True,Passed
+Manual Verification,Manual Euclidean calculation consistent,True,Passed
+Manual Verification,HSV-GLCM-Hu squared-distance decomposition valid,True,Passed
+Metric Properties,Sampled triangle inequality satisfied,True,Passed
+Metric Properties,Pairwise distances invariant under simultaneous reordering,True,Passed
+Neighbor Preview,Five neighbors generated for each representative class,True,Passed
+Neighbor Preview,Self-matches excluded,True,Passed
+Neighbor Preview,Neighbors sorted by ascending distance,True,Passed
+Neighbor Preview,No repeated retrieved sample per query,True,Passed

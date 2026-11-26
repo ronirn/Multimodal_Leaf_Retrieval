@@ -1,0 +1,42 @@
+﻿category,validation_check,passed,status
+Dataset,Multimodal dataset contains 104 samples,True,Passed
+Dataset,All samples aligned,True,Passed
+Dataset,Alignment signature available,True,Passed
+Similarity,Euclidean distance configured,True,Passed
+Similarity,Cosine similarity configured,True,Passed
+Similarity,Positive visual distance scale,True,Passed
+Fusion,Weighted score-level late fusion configured,True,Passed
+Fusion,Default weights sum to one,True,Passed
+Fusion,Eleven fusion weights configured,True,Passed
+Fusion,Fusion weights span zero to one,True,Passed
+Fusion,Fusion weights use step 0.1,True,Passed
+Fusion,All weight combinations sum to one,True,Passed
+Fusion,Two TF-IDF configurations retained,True,Passed
+Scenarios,Five primary retrieval scenarios,True,Passed
+Scenarios,Scenario identifiers unique,True,Passed
+Scenarios,Scenario names unique,True,Passed
+Scenarios,All scenario weights valid,True,Passed
+Scenarios,22 configuration-weight records,True,Passed
+Scenarios,21 unique retrieval methods,True,Passed
+Retrieval,Top-K values valid for 104 samples,True,Passed
+Retrieval,Self-match exclusion enabled,True,Passed
+Retrieval,Deterministic tie-breaking configured,True,Passed
+Missing Modalities,Single-modality fallback configured,True,Passed
+Evaluation Protection,Reference-only fitting required,True,Passed
+Mathematical Sanity Tests,Zero distance produces similarity one,True,Passed
+Mathematical Sanity Tests,Inverse distance formula reproduced,True,Passed
+Mathematical Sanity Tests,"Converted scores bounded in [0,1]",True,Passed
+Mathematical Sanity Tests,Similarity decreases with increasing distance,True,Passed
+Mathematical Sanity Tests,Balanced fusion formula reproduced,True,Passed
+Mathematical Sanity Tests,Alpha zero reproduces text scores,True,Passed
+Mathematical Sanity Tests,Alpha one reproduces image scores,True,Passed
+Mathematical Sanity Tests,Image-only fallback preserved,True,Passed
+Mathematical Sanity Tests,Text-only fallback preserved,True,Passed
+Mathematical Sanity Tests,Balanced fusion effective weights valid,True,Passed
+Mathematical Sanity Tests,Reject negative Euclidean distance,True,Passed
+Mathematical Sanity Tests,Reject NaN Euclidean distance,True,Passed
+Mathematical Sanity Tests,Reject invalid fusion weight,True,Passed
+Mathematical Sanity Tests,Reject mismatched modality shapes,True,Passed
+Mathematical Sanity Tests,Reject missing image and text scores,True,Passed
+Mathematical Sanity Tests,Reject out-of-range similarity,True,Passed
+Mathematical Sanity Tests,Deterministic ranking resolves ties by sample ID,True,Passed
