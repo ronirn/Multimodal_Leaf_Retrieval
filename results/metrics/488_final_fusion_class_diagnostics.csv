@@ -1,0 +1,31 @@
+﻿text_configuration,method,query_class,number_of_queries,gallery_top1_same_class_rate,gallery_top5_same_class_share
+Unigram,Text Only,Mangkok,20,0.94999999999999996,0.90999999999999992
+Unigram,Text Only,Salam,19,0.78947368421052633,0.58947368421052637
+Unigram,Text Only,Sambang Darah,20,0.69999999999999996,0.67000000000000004
+Unigram,Text Only,Sirih,20,0.90000000000000002,0.90999999999999992
+Unigram,Text Only,Tapak Kuda,25,1,0.9840000000000001
+Unigram,Visual Only,Mangkok,20,0.90000000000000002,0.80999999999999994
+Unigram,Visual Only,Salam,19,0.78947368421052633,0.58947368421052637
+Unigram,Visual Only,Sambang Darah,20,0.90000000000000002,0.52000000000000002
+Unigram,Visual Only,Sirih,20,0.75,0.67999999999999994
+Unigram,Visual Only,Tapak Kuda,25,0.88,0.80799999999999994
+Unigram,Weighted Fusion,Mangkok,20,0.94999999999999996,0.94000000000000006
+Unigram,Weighted Fusion,Salam,19,0.68421052631578949,0.63157894736842102
+Unigram,Weighted Fusion,Sambang Darah,20,0.80000000000000004,0.73999999999999999
+Unigram,Weighted Fusion,Sirih,20,0.90000000000000002,0.90999999999999992
+Unigram,Weighted Fusion,Tapak Kuda,25,1,0.9840000000000001
+Unigram + Bigram,Text Only,Mangkok,20,0.94999999999999996,0.96999999999999997
+Unigram + Bigram,Text Only,Salam,19,0.78947368421052633,0.54736842105263162
+Unigram + Bigram,Text Only,Sambang Darah,20,0.80000000000000004,0.69999999999999996
+Unigram + Bigram,Text Only,Sirih,20,1,0.93000000000000005
+Unigram + Bigram,Text Only,Tapak Kuda,25,1,0.9840000000000001
+Unigram + Bigram,Visual Only,Mangkok,20,0.90000000000000002,0.80999999999999994
+Unigram + Bigram,Visual Only,Salam,19,0.78947368421052633,0.58947368421052637
+Unigram + Bigram,Visual Only,Sambang Darah,20,0.90000000000000002,0.52000000000000002
+Unigram + Bigram,Visual Only,Sirih,20,0.75,0.67999999999999994
+Unigram + Bigram,Visual Only,Tapak Kuda,25,0.88,0.80799999999999994
+Unigram + Bigram,Weighted Fusion,Mangkok,20,1,0.95999999999999996
+Unigram + Bigram,Weighted Fusion,Salam,19,0.78947368421052633,0.61052631578947369
+Unigram + Bigram,Weighted Fusion,Sambang Darah,20,0.84999999999999998,0.73999999999999999
+Unigram + Bigram,Weighted Fusion,Sirih,20,1,0.94999999999999996
+Unigram + Bigram,Weighted Fusion,Tapak Kuda,25,1,0.9840000000000001

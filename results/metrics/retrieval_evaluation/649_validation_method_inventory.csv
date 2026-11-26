@@ -1,0 +1,6 @@
+﻿method,modality,text_configuration,visual_weight_alpha,query_count,gallery_count,ranked_pairs,ranking_partition,used_test_scores,selection_performed
+Visual Only,Visual,N/A,1.0,21,62,1302,validation,False,False
+Text Only - Unigram,Text,Unigram,0.0,21,62,1302,validation,False,False
+Text Only - Unigram + Bigram,Text,Unigram + Bigram,0.0,21,62,1302,validation,False,False
+Fusion - Unigram (alpha=0.5),Weighted Fusion,Unigram,0.5,21,62,1302,validation,False,False
+Fusion - Unigram + Bigram (alpha=0.5),Weighted Fusion,Unigram + Bigram,0.5,21,62,1302,validation,False,False

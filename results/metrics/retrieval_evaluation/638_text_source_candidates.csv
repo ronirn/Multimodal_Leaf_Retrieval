@@ -1,0 +1,3 @@
+﻿source,valid_text_rows,available_columns
+D:\Project\Multimodal_Leaf_Retrieval\dataset\processed\metadata_processed.csv,104,cleaned_description | tokenized_description | original_description
+Notebook05/gallery_metadata.csv,104,cleaned_description | tokenized_description | original_description

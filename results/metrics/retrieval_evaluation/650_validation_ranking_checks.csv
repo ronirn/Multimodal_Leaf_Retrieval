@@ -1,0 +1,14 @@
+﻿validation_check,passed
+Five distinct retrieval configurations,True
+All gallery candidates ranked,True
+Top-K row count matches expectation,True
+One summary per query and method,True
+No self-matches,True
+Complete ranking positions,True
+"All similarity scores within [0,1]",True
+Gallery candidates are unique per ranking,True
+Query IDs match validation partition,True
+Gallery IDs match gallery partition,True
+No test partition used,True
+Fusion formula verified,True
+Deterministic ranking order verified,True

@@ -1,0 +1,13 @@
+﻿parameter,definition
+relevance,binary: query class equals gallery class
+precision_at_k,relevant candidates in top K / K
+recall_at_k,relevant candidates in top K / all relevant gallery candidates
+mrr_at_k,"reciprocal of rank of first relevant candidate within top K, or 0"
+ap_at_k,"sum(precision at relevant ranks <= K) / min(total relevant gallery, K)"
+map_at_k,arithmetic mean of AP@K across validation queries (macro query average)
+ndcg_at_k,DCG@K / IDCG@K with binary relevance and log2 discount
+undefined_relevance,blocked: every validation class must have at least one relevant gallery item
+ranking_ties,similarity descending; sample_id ascending
+evaluation_partition,validation only
+fusion_weight,alpha=0.5 for demonstration; no parameter selection here
+methodological_approval,pending upstream data/leakage review

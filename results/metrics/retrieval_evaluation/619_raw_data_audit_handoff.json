@@ -1,0 +1,21 @@
+{
+  "notebook": "06_multimodal_retrieval_evaluation.ipynb",
+  "cell": 2,
+  "sample_count": 104,
+  "class_count": 5,
+  "text_column": null,
+  "image_column": "processed_image_path",
+  "group_column": null,
+  "text_missing_count": 104,
+  "images_readable_count": 104,
+  "target_label_mention_count": 0,
+  "suspected_class_template_count": 0,
+  "exact_duplicate_group_count": 0,
+  "potential_near_duplicate_pair_count": 80,
+  "provisional_group_count": 104,
+  "ready_for_split_planning": false,
+  "upstream_leakage_safe_confirmed": false,
+  "readiness_status": "REQUIRES_DATA_OR_LEAKAGE_REVIEW",
+  "important_policy": "Do not use full-gallery TF-IDF or globally fitted visual scaling for independent test evaluation.",
+  "next_cell": "Cell 3 - Group-Aware Dataset Splitting"
+}

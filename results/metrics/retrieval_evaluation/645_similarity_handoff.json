@@ -1,0 +1,33 @@
+{
+  "notebook": "06_multimodal_retrieval_evaluation.ipynb",
+  "cell": 5,
+  "sample_count": 104,
+  "gallery_count": 62,
+  "query_counts": {
+    "gallery": 62,
+    "validation": 21,
+    "test": 21
+  },
+  "visual_similarity_formula": "1/(1+distance/gallery_scale)",
+  "visual_scale": 14.511795283177172,
+  "visual_scale_fit_on": "gallery_only",
+  "tfidf_fit_on": "gallery_only_in_cell4",
+  "text_configs": [
+    "Unigram",
+    "Unigram + Bigram"
+  ],
+  "ranking_done": false,
+  "fusion_weight_selection_done": false,
+  "test_metrics_computed": false,
+  "test_scores_excluded_from_visualizations": true,
+  "approved_for_independent_evaluation": false,
+  "review_reasons": [
+    "Cell 2 readiness audit requires review.",
+    "Possible near-duplicate images cross partitions; manual verification is required.",
+    "Cell 3 split remains provisional; independent review is required.",
+    "Reference HSV/GLCM/Hu extractor may differ from the original Notebook 03 implementation.",
+    "Identical text descriptions occur across dataset partitions; review possible inflation of text retrieval performance.",
+    "Feature/split methodology has not yet been approved for independent evaluation."
+  ],
+  "next_cell": "Cell 6 - Validation Retrieval Ranking"
+}

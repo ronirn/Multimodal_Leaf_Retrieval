@@ -1,0 +1,7 @@
+﻿text_configuration,partition,query_count,zero_vector_queries,text_vocabulary_size,reference_gallery_count,independent_test_metrics_computed
+Unigram,gallery,62,0,66,62,False
+Unigram,validation,21,0,66,62,False
+Unigram,test,21,0,66,62,False
+Unigram + Bigram,gallery,62,0,233,62,False
+Unigram + Bigram,validation,21,0,233,62,False
+Unigram + Bigram,test,21,0,233,62,False

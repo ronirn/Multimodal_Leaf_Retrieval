@@ -1,0 +1,48 @@
+{
+  "notebook": "06_multimodal_retrieval_evaluation.ipynb",
+  "cell": 7,
+  "partition": "validation",
+  "gallery_count": 62,
+  "query_count": 21,
+  "methods": [
+    "Visual Only",
+    "Text Only - Unigram",
+    "Text Only - Unigram + Bigram",
+    "Fusion - Unigram (alpha=0.5)",
+    "Fusion - Unigram + Bigram (alpha=0.5)"
+  ],
+  "top_k_values": [
+    1,
+    3,
+    5,
+    10
+  ],
+  "primary_selection_metric": "mAP@5",
+  "metric_definitions": {
+    "relevance": "binary: query class equals gallery class",
+    "precision_at_k": "relevant candidates in top K / K",
+    "recall_at_k": "relevant candidates in top K / all relevant gallery candidates",
+    "mrr_at_k": "reciprocal of rank of first relevant candidate within top K, or 0",
+    "ap_at_k": "sum(precision at relevant ranks <= K) / min(total relevant gallery, K)",
+    "map_at_k": "arithmetic mean of AP@K across validation queries (macro query average)",
+    "ndcg_at_k": "DCG@K / IDCG@K with binary relevance and log2 discount",
+    "undefined_relevance": "blocked: every validation class must have at least one relevant gallery item",
+    "ranking_ties": "similarity descending; sample_id ascending",
+    "evaluation_partition": "validation only",
+    "fusion_weight": "alpha=0.5 for demonstration; no parameter selection here",
+    "methodological_approval": "pending upstream data/leakage review"
+  },
+  "default_alpha_for_comparison": 0.5,
+  "alpha_optimized": false,
+  "test_evaluated": false,
+  "independent_evaluation_approved": false,
+  "methodological_review_reasons": [
+    "Cell 2 readiness audit requires review.",
+    "Possible near-duplicate images cross partitions; manual verification is required.",
+    "Cell 3 split remains provisional; independent review is required.",
+    "Reference HSV/GLCM/Hu extractor may differ from the original Notebook 03 implementation.",
+    "Identical text descriptions occur across dataset partitions; review possible inflation of text retrieval performance.",
+    "Feature/split methodology has not yet been approved for independent evaluation."
+  ],
+  "next_cell": "Cell 8 - Fusion Alpha Sensitivity on Validation"
+}

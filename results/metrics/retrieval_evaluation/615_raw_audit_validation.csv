@@ -1,0 +1,11 @@
+﻿category,validation_check,passed,status
+Alignment,All 104 metadata rows matched by sample_id,True,Passed
+Alignment,Original gallery index order preserved,True,Passed
+Text,104 text audit records,True,Passed
+Images,104 image audit records,True,Passed
+Grouping,104 provisional group assignments,True,Passed
+Grouping,Every sample assigned one group,True,Passed
+Classes,Five class-level audit records,True,Passed
+Integrity,Text audit preserves sample order,True,Passed
+Integrity,Image audit preserves sample order,True,Passed
+Grouping,Identical images share the same split group,True,Passed

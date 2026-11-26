@@ -1,0 +1,13 @@
+﻿indicator,result
+samples,104
+source_text_file,D:\Project\Multimodal_Leaf_Retrieval\dataset\processed\metadata_processed.csv
+recovered_text_count,104
+unique_text_count,95
+visual_feature_dimensions,143
+visual_extractor_provenance,reference_extractor_unverified_against_notebook03
+visual_scaler_fit_policy,gallery_only
+text_vectorizer_fit_policy,gallery_only
+validation_or_test_fitting_performed,False
+text_zero_vector_warning,False
+pending_review_items,5
+feature_approved_for_independent_evaluation,False

@@ -1,0 +1,10 @@
+﻿criterion,passed
+Raw text complete,False
+All images readable,True
+No explicit target label detected,True
+No class-level text template detected,True
+No cross-class identical image conflict,True
+No outstanding near-duplicate image pairs,False
+At least three provisional groups per class,True
+Ready for split planning,False
+Upstream preprocessing leakage-free confirmed,False

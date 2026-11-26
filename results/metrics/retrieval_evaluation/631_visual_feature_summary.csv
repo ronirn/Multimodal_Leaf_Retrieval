@@ -1,0 +1,4 @@
+﻿split,n_samples,visual_dim,mean_l2_norm,median_l2_norm,max_absolute_scaled_value,constant_gallery_feature_count,scaler_fit_on
+gallery,62,143,10.487453972828723,9.98002191021392,7.8102496759066495,24,gallery_only
+validation,21,143,14.042064013655315,9.010734334636057,55.439969010943884,24,gallery_only
+test,21,143,11.296602903270308,9.0689360560943,33.58554118487106,24,gallery_only

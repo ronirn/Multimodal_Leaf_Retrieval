@@ -1,0 +1,14 @@
+﻿artifact_key,filename,file_exists,size_matches,sha256_matches,passed
+visual_distance,visual_euclidean_distance.npy,True,True,True,True
+visual_similarity,visual_similarity.npy,True,True,True,True
+visual_features,visual_features_normalized.npy,True,True,True,True
+text_similarity_unigram,text_cosine_unigram.npy,True,True,True,True
+default_fusion_unigram,fusion_default_unigram_alpha_0p5.npy,True,True,True,True
+tfidf_features_unigram,tfidf_features_unigram.npz,True,True,True,True
+text_similarity_unigram_bigram,text_cosine_unigram_bigram.npy,True,True,True,True
+default_fusion_unigram_bigram,fusion_default_unigram_bigram_alpha_0p5.npy,True,True,True,True
+tfidf_features_unigram_bigram,tfidf_features_unigram_bigram.npz,True,True,True,True
+alpha_grid,fusion_all_alpha_grid.npz,True,True,True,True
+gallery_index,gallery_index.csv,True,True,True,True
+gallery_metadata,gallery_metadata.csv,True,True,True,True
+config,fusion_artifact_config.json,True,True,True,True

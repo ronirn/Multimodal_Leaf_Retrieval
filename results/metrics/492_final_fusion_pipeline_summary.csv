@@ -1,0 +1,30 @@
+﻿indicator,result
+Notebook,05_multimodal_fusion.ipynb
+Total planned cells,20
+Completed cells,20
+Sample count,104
+Number of classes,5
+Visual feature dimensions,143
+TF-IDF Unigram dimensions,68
+TF-IDF Unigram + Bigram dimensions,261
+Visual distance method,Euclidean Distance
+Visual similarity,Inverse-Distance Similarity
+Text similarity,Cosine Similarity
+Fusion method,Weighted Score-Level Late Fusion
+Default visual weight,0.5
+Default text weight,0.5
+Alpha configurations per TF-IDF,11
+Total alpha/configuration combinations,22
+Text configurations,2
+Final modality comparison rows,6
+Final class diagnostic rows,30
+Final query diagnostic rows,624
+Final Top-K detail rows,2496
+Final validation checks,59
+Final validation checks passed,59
+Final validation checks failed,0
+Artifact files audited,13
+Final summary figures,3
+Final optimal weight selected,False
+Independent evaluation completed,False
+Analysis scope,Full-Gallery Exploratory Analysis

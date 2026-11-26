@@ -1,0 +1,106 @@
+﻿method,query_sample_id,tied_score_groups,candidates_in_ties,top_score_tie_count,tie_policy
+Visual Only,leaf_8473270c3702f48b,0,0,1,score_desc_then_sample_id_asc
+Visual Only,leaf_23b789945271fb92,0,0,1,score_desc_then_sample_id_asc
+Visual Only,leaf_ef0854556175e2b0,0,0,1,score_desc_then_sample_id_asc
+Visual Only,leaf_de455d31a4df8c43,0,0,1,score_desc_then_sample_id_asc
+Visual Only,leaf_8809ccde35d4b945,0,0,1,score_desc_then_sample_id_asc
+Visual Only,leaf_68b0c81b496519cd,0,0,1,score_desc_then_sample_id_asc
+Visual Only,leaf_a838808299383884,0,0,1,score_desc_then_sample_id_asc
+Visual Only,leaf_d12754f94f5ff7fc,0,0,1,score_desc_then_sample_id_asc
+Visual Only,leaf_ad660412d798bd65,0,0,1,score_desc_then_sample_id_asc
+Visual Only,leaf_b230b822f6a38f1c,0,0,1,score_desc_then_sample_id_asc
+Visual Only,leaf_3c3fafa9c7913736,0,0,1,score_desc_then_sample_id_asc
+Visual Only,leaf_620d73b8cfb217b6,0,0,1,score_desc_then_sample_id_asc
+Visual Only,leaf_a280fa2ae09d329b,0,0,1,score_desc_then_sample_id_asc
+Visual Only,leaf_347efec2afc78e44,0,0,1,score_desc_then_sample_id_asc
+Visual Only,leaf_57905de77bc7f811,0,0,1,score_desc_then_sample_id_asc
+Visual Only,leaf_7f9c59b7594e5833,0,0,1,score_desc_then_sample_id_asc
+Visual Only,leaf_328651beb5d48483,0,0,1,score_desc_then_sample_id_asc
+Visual Only,leaf_2976a10d6fff3cd5,0,0,1,score_desc_then_sample_id_asc
+Visual Only,leaf_25803393f335987a,0,0,1,score_desc_then_sample_id_asc
+Visual Only,leaf_012389d8d324b6c8,0,0,1,score_desc_then_sample_id_asc
+Visual Only,leaf_055c97f32cf57da5,0,0,1,score_desc_then_sample_id_asc
+Text Only - Unigram,leaf_8473270c3702f48b,3,6,1,score_desc_then_sample_id_asc
+Text Only - Unigram,leaf_23b789945271fb92,3,6,1,score_desc_then_sample_id_asc
+Text Only - Unigram,leaf_ef0854556175e2b0,3,6,1,score_desc_then_sample_id_asc
+Text Only - Unigram,leaf_de455d31a4df8c43,3,6,1,score_desc_then_sample_id_asc
+Text Only - Unigram,leaf_8809ccde35d4b945,3,6,1,score_desc_then_sample_id_asc
+Text Only - Unigram,leaf_68b0c81b496519cd,3,6,1,score_desc_then_sample_id_asc
+Text Only - Unigram,leaf_a838808299383884,3,6,1,score_desc_then_sample_id_asc
+Text Only - Unigram,leaf_d12754f94f5ff7fc,3,6,1,score_desc_then_sample_id_asc
+Text Only - Unigram,leaf_ad660412d798bd65,3,6,1,score_desc_then_sample_id_asc
+Text Only - Unigram,leaf_b230b822f6a38f1c,3,6,1,score_desc_then_sample_id_asc
+Text Only - Unigram,leaf_3c3fafa9c7913736,3,6,1,score_desc_then_sample_id_asc
+Text Only - Unigram,leaf_620d73b8cfb217b6,3,6,1,score_desc_then_sample_id_asc
+Text Only - Unigram,leaf_a280fa2ae09d329b,3,6,1,score_desc_then_sample_id_asc
+Text Only - Unigram,leaf_347efec2afc78e44,3,6,1,score_desc_then_sample_id_asc
+Text Only - Unigram,leaf_57905de77bc7f811,3,6,1,score_desc_then_sample_id_asc
+Text Only - Unigram,leaf_7f9c59b7594e5833,3,6,1,score_desc_then_sample_id_asc
+Text Only - Unigram,leaf_328651beb5d48483,3,6,1,score_desc_then_sample_id_asc
+Text Only - Unigram,leaf_2976a10d6fff3cd5,3,6,1,score_desc_then_sample_id_asc
+Text Only - Unigram,leaf_25803393f335987a,3,6,2,score_desc_then_sample_id_asc
+Text Only - Unigram,leaf_012389d8d324b6c8,3,6,1,score_desc_then_sample_id_asc
+Text Only - Unigram,leaf_055c97f32cf57da5,3,6,1,score_desc_then_sample_id_asc
+Text Only - Unigram + Bigram,leaf_8473270c3702f48b,3,6,1,score_desc_then_sample_id_asc
+Text Only - Unigram + Bigram,leaf_23b789945271fb92,3,6,1,score_desc_then_sample_id_asc
+Text Only - Unigram + Bigram,leaf_ef0854556175e2b0,3,6,1,score_desc_then_sample_id_asc
+Text Only - Unigram + Bigram,leaf_de455d31a4df8c43,3,6,1,score_desc_then_sample_id_asc
+Text Only - Unigram + Bigram,leaf_8809ccde35d4b945,3,6,1,score_desc_then_sample_id_asc
+Text Only - Unigram + Bigram,leaf_68b0c81b496519cd,3,6,1,score_desc_then_sample_id_asc
+Text Only - Unigram + Bigram,leaf_a838808299383884,3,6,1,score_desc_then_sample_id_asc
+Text Only - Unigram + Bigram,leaf_d12754f94f5ff7fc,3,6,1,score_desc_then_sample_id_asc
+Text Only - Unigram + Bigram,leaf_ad660412d798bd65,3,6,1,score_desc_then_sample_id_asc
+Text Only - Unigram + Bigram,leaf_b230b822f6a38f1c,3,6,1,score_desc_then_sample_id_asc
+Text Only - Unigram + Bigram,leaf_3c3fafa9c7913736,3,6,1,score_desc_then_sample_id_asc
+Text Only - Unigram + Bigram,leaf_620d73b8cfb217b6,3,6,1,score_desc_then_sample_id_asc
+Text Only - Unigram + Bigram,leaf_a280fa2ae09d329b,3,6,1,score_desc_then_sample_id_asc
+Text Only - Unigram + Bigram,leaf_347efec2afc78e44,3,6,1,score_desc_then_sample_id_asc
+Text Only - Unigram + Bigram,leaf_57905de77bc7f811,3,6,1,score_desc_then_sample_id_asc
+Text Only - Unigram + Bigram,leaf_7f9c59b7594e5833,3,6,1,score_desc_then_sample_id_asc
+Text Only - Unigram + Bigram,leaf_328651beb5d48483,3,6,1,score_desc_then_sample_id_asc
+Text Only - Unigram + Bigram,leaf_2976a10d6fff3cd5,3,6,1,score_desc_then_sample_id_asc
+Text Only - Unigram + Bigram,leaf_25803393f335987a,3,6,1,score_desc_then_sample_id_asc
+Text Only - Unigram + Bigram,leaf_012389d8d324b6c8,3,6,1,score_desc_then_sample_id_asc
+Text Only - Unigram + Bigram,leaf_055c97f32cf57da5,3,6,1,score_desc_then_sample_id_asc
+Fusion - Unigram (alpha=0.5),leaf_8473270c3702f48b,0,0,1,score_desc_then_sample_id_asc
+Fusion - Unigram (alpha=0.5),leaf_23b789945271fb92,0,0,1,score_desc_then_sample_id_asc
+Fusion - Unigram (alpha=0.5),leaf_ef0854556175e2b0,0,0,1,score_desc_then_sample_id_asc
+Fusion - Unigram (alpha=0.5),leaf_de455d31a4df8c43,0,0,1,score_desc_then_sample_id_asc
+Fusion - Unigram (alpha=0.5),leaf_8809ccde35d4b945,0,0,1,score_desc_then_sample_id_asc
+Fusion - Unigram (alpha=0.5),leaf_68b0c81b496519cd,0,0,1,score_desc_then_sample_id_asc
+Fusion - Unigram (alpha=0.5),leaf_a838808299383884,0,0,1,score_desc_then_sample_id_asc
+Fusion - Unigram (alpha=0.5),leaf_d12754f94f5ff7fc,0,0,1,score_desc_then_sample_id_asc
+Fusion - Unigram (alpha=0.5),leaf_ad660412d798bd65,0,0,1,score_desc_then_sample_id_asc
+Fusion - Unigram (alpha=0.5),leaf_b230b822f6a38f1c,0,0,1,score_desc_then_sample_id_asc
+Fusion - Unigram (alpha=0.5),leaf_3c3fafa9c7913736,0,0,1,score_desc_then_sample_id_asc
+Fusion - Unigram (alpha=0.5),leaf_620d73b8cfb217b6,0,0,1,score_desc_then_sample_id_asc
+Fusion - Unigram (alpha=0.5),leaf_a280fa2ae09d329b,0,0,1,score_desc_then_sample_id_asc
+Fusion - Unigram (alpha=0.5),leaf_347efec2afc78e44,0,0,1,score_desc_then_sample_id_asc
+Fusion - Unigram (alpha=0.5),leaf_57905de77bc7f811,0,0,1,score_desc_then_sample_id_asc
+Fusion - Unigram (alpha=0.5),leaf_7f9c59b7594e5833,0,0,1,score_desc_then_sample_id_asc
+Fusion - Unigram (alpha=0.5),leaf_328651beb5d48483,0,0,1,score_desc_then_sample_id_asc
+Fusion - Unigram (alpha=0.5),leaf_2976a10d6fff3cd5,0,0,1,score_desc_then_sample_id_asc
+Fusion - Unigram (alpha=0.5),leaf_25803393f335987a,0,0,1,score_desc_then_sample_id_asc
+Fusion - Unigram (alpha=0.5),leaf_012389d8d324b6c8,0,0,1,score_desc_then_sample_id_asc
+Fusion - Unigram (alpha=0.5),leaf_055c97f32cf57da5,0,0,1,score_desc_then_sample_id_asc
+Fusion - Unigram + Bigram (alpha=0.5),leaf_8473270c3702f48b,0,0,1,score_desc_then_sample_id_asc
+Fusion - Unigram + Bigram (alpha=0.5),leaf_23b789945271fb92,0,0,1,score_desc_then_sample_id_asc
+Fusion - Unigram + Bigram (alpha=0.5),leaf_ef0854556175e2b0,0,0,1,score_desc_then_sample_id_asc
+Fusion - Unigram + Bigram (alpha=0.5),leaf_de455d31a4df8c43,0,0,1,score_desc_then_sample_id_asc
+Fusion - Unigram + Bigram (alpha=0.5),leaf_8809ccde35d4b945,0,0,1,score_desc_then_sample_id_asc
+Fusion - Unigram + Bigram (alpha=0.5),leaf_68b0c81b496519cd,0,0,1,score_desc_then_sample_id_asc
+Fusion - Unigram + Bigram (alpha=0.5),leaf_a838808299383884,0,0,1,score_desc_then_sample_id_asc
+Fusion - Unigram + Bigram (alpha=0.5),leaf_d12754f94f5ff7fc,0,0,1,score_desc_then_sample_id_asc
+Fusion - Unigram + Bigram (alpha=0.5),leaf_ad660412d798bd65,0,0,1,score_desc_then_sample_id_asc
+Fusion - Unigram + Bigram (alpha=0.5),leaf_b230b822f6a38f1c,0,0,1,score_desc_then_sample_id_asc
+Fusion - Unigram + Bigram (alpha=0.5),leaf_3c3fafa9c7913736,0,0,1,score_desc_then_sample_id_asc
+Fusion - Unigram + Bigram (alpha=0.5),leaf_620d73b8cfb217b6,0,0,1,score_desc_then_sample_id_asc
+Fusion - Unigram + Bigram (alpha=0.5),leaf_a280fa2ae09d329b,0,0,1,score_desc_then_sample_id_asc
+Fusion - Unigram + Bigram (alpha=0.5),leaf_347efec2afc78e44,0,0,1,score_desc_then_sample_id_asc
+Fusion - Unigram + Bigram (alpha=0.5),leaf_57905de77bc7f811,0,0,1,score_desc_then_sample_id_asc
+Fusion - Unigram + Bigram (alpha=0.5),leaf_7f9c59b7594e5833,0,0,1,score_desc_then_sample_id_asc
+Fusion - Unigram + Bigram (alpha=0.5),leaf_328651beb5d48483,0,0,1,score_desc_then_sample_id_asc
+Fusion - Unigram + Bigram (alpha=0.5),leaf_2976a10d6fff3cd5,0,0,1,score_desc_then_sample_id_asc
+Fusion - Unigram + Bigram (alpha=0.5),leaf_25803393f335987a,0,0,1,score_desc_then_sample_id_asc
+Fusion - Unigram + Bigram (alpha=0.5),leaf_012389d8d324b6c8,0,0,1,score_desc_then_sample_id_asc
+Fusion - Unigram + Bigram (alpha=0.5),leaf_055c97f32cf57da5,0,0,1,score_desc_then_sample_id_asc

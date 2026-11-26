@@ -1,0 +1,105 @@
+﻿matrix_row_index,sample_id,class_label,split_group_id,split,split_seed
+0,leaf_165d2f32c7fda707,Mangkok,group_000,gallery,42
+1,leaf_8473270c3702f48b,Mangkok,group_001,validation,42
+2,leaf_8f425d66b1e193b9,Mangkok,group_002,test,42
+3,leaf_0ebc8f4f3ee9c8d5,Mangkok,group_003,test,42
+4,leaf_b0c5f55e42499cae,Mangkok,group_004,gallery,42
+5,leaf_de9e3e4ed5d89dfc,Mangkok,group_005,gallery,42
+6,leaf_23b789945271fb92,Mangkok,group_006,validation,42
+7,leaf_84de0dc731018607,Mangkok,group_007,gallery,42
+8,leaf_36d4f083fa652592,Mangkok,group_008,gallery,42
+9,leaf_c9d8d87fbc748d16,Mangkok,group_009,gallery,42
+10,leaf_4de65b11758965f6,Mangkok,group_010,gallery,42
+11,leaf_8f09fd62c7391c0d,Mangkok,group_011,gallery,42
+12,leaf_a6da65cb0493ceef,Mangkok,group_012,gallery,42
+13,leaf_1a80f5749cc68900,Mangkok,group_013,test,42
+14,leaf_ef0854556175e2b0,Mangkok,group_014,validation,42
+15,leaf_fff6592ee517103e,Mangkok,group_015,gallery,42
+16,leaf_e9cfa616ea5f1f19,Mangkok,group_016,test,42
+17,leaf_12439b9ebf0eb8d3,Mangkok,group_017,gallery,42
+18,leaf_de455d31a4df8c43,Mangkok,group_018,validation,42
+19,leaf_663a651dd51f9c94,Mangkok,group_019,gallery,42
+20,leaf_c29e2560b188fb2c,Salam,group_020,gallery,42
+21,leaf_c4840a77b6d0c158,Salam,group_021,gallery,42
+22,leaf_fd4b025e69b9f321,Salam,group_022,test,42
+23,leaf_45414f432e49469a,Salam,group_023,test,42
+24,leaf_1da6bca6d5320ae2,Salam,group_024,gallery,42
+25,leaf_b8ebef3e9731e352,Salam,group_025,gallery,42
+26,leaf_8809ccde35d4b945,Salam,group_026,validation,42
+27,leaf_1ebaf9512209a61f,Salam,group_027,test,42
+28,leaf_68b0c81b496519cd,Salam,group_028,validation,42
+29,leaf_0a8999109a734f1d,Salam,group_029,gallery,42
+30,leaf_ca3c3b7a5db35c1d,Salam,group_030,gallery,42
+31,leaf_a838808299383884,Salam,group_031,validation,42
+32,leaf_a7704c0316865cd7,Salam,group_032,gallery,42
+33,leaf_ac463b36b6e61052,Salam,group_033,gallery,42
+34,leaf_fdd0a74681efeff6,Salam,group_034,gallery,42
+35,leaf_9a710afa1505390e,Salam,group_035,gallery,42
+36,leaf_d12754f94f5ff7fc,Salam,group_036,validation,42
+37,leaf_9c7d463a5bb1a561,Salam,group_037,test,42
+38,leaf_a57a1270adf22253,Salam,group_038,gallery,42
+39,leaf_df16548c53396aeb,Sambang Darah,group_039,gallery,42
+40,leaf_1a45e1e109be76ee,Sambang Darah,group_040,test,42
+41,leaf_ad660412d798bd65,Sambang Darah,group_041,validation,42
+42,leaf_b230b822f6a38f1c,Sambang Darah,group_042,validation,42
+43,leaf_22cacefa73426c68,Sambang Darah,group_043,gallery,42
+44,leaf_519627b0b7c509da,Sambang Darah,group_044,test,42
+45,leaf_e57489e729c801d7,Sambang Darah,group_045,gallery,42
+46,leaf_62ef0ed49ad4e2d3,Sambang Darah,group_046,gallery,42
+47,leaf_ce6b898792146850,Sambang Darah,group_047,test,42
+48,leaf_3c3fafa9c7913736,Sambang Darah,group_048,validation,42
+49,leaf_eacbf33f28cb6b28,Sambang Darah,group_049,gallery,42
+50,leaf_0e58a931923c4e40,Sambang Darah,group_050,gallery,42
+51,leaf_a21b39e63066049c,Sambang Darah,group_051,gallery,42
+52,leaf_ad626da03abf4532,Sambang Darah,group_052,gallery,42
+53,leaf_45d4826ed41c51b4,Sambang Darah,group_053,gallery,42
+54,leaf_c289208cb093f769,Sambang Darah,group_054,gallery,42
+55,leaf_620d73b8cfb217b6,Sambang Darah,group_055,validation,42
+56,leaf_d9d0b97961feaeac,Sambang Darah,group_056,test,42
+57,leaf_6e53ecd8713a9128,Sambang Darah,group_057,gallery,42
+58,leaf_ac5e952a9ae56c36,Sambang Darah,group_058,gallery,42
+59,leaf_1d4f34320b1b8b8d,Sirih,group_059,gallery,42
+60,leaf_d0f42a660bf2b3ee,Sirih,group_060,gallery,42
+61,leaf_1ef1bffd5f4186c1,Sirih,group_061,test,42
+62,leaf_a280fa2ae09d329b,Sirih,group_062,validation,42
+63,leaf_6fcc4b52889490ca,Sirih,group_063,gallery,42
+64,leaf_1193856cea5a1287,Sirih,group_064,gallery,42
+65,leaf_3f1cc0b714c4164e,Sirih,group_065,test,42
+66,leaf_347efec2afc78e44,Sirih,group_066,validation,42
+67,leaf_9dad4bfe9db99263,Sirih,group_067,gallery,42
+68,leaf_57905de77bc7f811,Sirih,group_068,validation,42
+69,leaf_1b922f2bd904d1fc,Sirih,group_069,gallery,42
+70,leaf_6397705392627f3c,Sirih,group_070,gallery,42
+71,leaf_c8bf421408781594,Sirih,group_071,gallery,42
+72,leaf_66c00e535609f186,Sirih,group_072,gallery,42
+73,leaf_2574445c571a7dc3,Sirih,group_073,gallery,42
+74,leaf_afba9495e801278e,Sirih,group_074,gallery,42
+75,leaf_693f93e999e7c6a3,Sirih,group_075,test,42
+76,leaf_7f9c59b7594e5833,Sirih,group_076,validation,42
+77,leaf_338b7ee25be7d52d,Sirih,group_077,gallery,42
+78,leaf_47ab03f4e71a0717,Sirih,group_078,test,42
+79,leaf_7be37d0f3c7e488a,Tapak Kuda,group_079,gallery,42
+80,leaf_328651beb5d48483,Tapak Kuda,group_080,validation,42
+81,leaf_22bf36f7b3abd78c,Tapak Kuda,group_081,gallery,42
+82,leaf_8129d1a748a118de,Tapak Kuda,group_082,gallery,42
+83,leaf_549670d83912aed7,Tapak Kuda,group_083,gallery,42
+84,leaf_655b2ffd3499bbea,Tapak Kuda,group_084,test,42
+85,leaf_43ae297ca838aebb,Tapak Kuda,group_085,gallery,42
+86,leaf_28712bf465655732,Tapak Kuda,group_086,gallery,42
+87,leaf_721244faca19b94f,Tapak Kuda,group_087,gallery,42
+88,leaf_bb707568bb3ed9ce,Tapak Kuda,group_088,gallery,42
+89,leaf_d755ad14cfc3f8bf,Tapak Kuda,group_089,test,42
+90,leaf_2976a10d6fff3cd5,Tapak Kuda,group_090,validation,42
+91,leaf_acea8a79416b27c0,Tapak Kuda,group_091,gallery,42
+92,leaf_f72f88757c4de8ba,Tapak Kuda,group_092,test,42
+93,leaf_93d488369f0a2cc4,Tapak Kuda,group_093,test,42
+94,leaf_25803393f335987a,Tapak Kuda,group_094,validation,42
+95,leaf_012389d8d324b6c8,Tapak Kuda,group_095,validation,42
+96,leaf_193e4fc967161d9a,Tapak Kuda,group_096,gallery,42
+97,leaf_d19ceb083d0a7e82,Tapak Kuda,group_097,gallery,42
+98,leaf_8d727458048a81c7,Tapak Kuda,group_098,gallery,42
+99,leaf_8f8d177305fb06f2,Tapak Kuda,group_099,test,42
+100,leaf_cef9b535077d5397,Tapak Kuda,group_100,gallery,42
+101,leaf_5fafb790c4773c55,Tapak Kuda,group_101,gallery,42
+102,leaf_055c97f32cf57da5,Tapak Kuda,group_102,validation,42
+103,leaf_41f02313a5460236,Tapak Kuda,group_103,gallery,42

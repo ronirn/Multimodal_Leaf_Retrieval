@@ -1,0 +1,14 @@
+﻿artifact_key,filename,file_exists,expected_size_bytes,actual_size_bytes,sha256_matches,passed
+visual_distance,visual_euclidean_distance.npy,True,86656,86656,True,True
+visual_similarity,visual_similarity.npy,True,86656,86656,True,True
+visual_features,visual_features_normalized.npy,True,119104,119104,True,True
+text_similarity_unigram,text_cosine_unigram.npy,True,86656,86656,True,True
+default_fusion_unigram,fusion_default_unigram_alpha_0p5.npy,True,86656,86656,True,True
+tfidf_features_unigram,tfidf_features_unigram.npz,True,11080,11080,True,True
+text_similarity_unigram_bigram,text_cosine_unigram_bigram.npy,True,86656,86656,True,True
+default_fusion_unigram_bigram,fusion_default_unigram_bigram_alpha_0p5.npy,True,86656,86656,True,True
+tfidf_features_unigram_bigram,tfidf_features_unigram_bigram.npz,True,18183,18183,True,True
+alpha_grid,fusion_all_alpha_grid.npz,True,1405319,1405319,True,True
+gallery_index,gallery_index.csv,True,3690,3690,True,True
+gallery_metadata,gallery_metadata.csv,True,159209,159209,True,True
+config,fusion_artifact_config.json,True,1845,1845,True,True

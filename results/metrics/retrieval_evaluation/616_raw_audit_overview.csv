@@ -1,0 +1,19 @@
+﻿indicator,result
+Dataset samples,104
+Plant classes,5
+Selected text column,
+Selected image column,processed_image_path
+Selected group column,
+Missing descriptions,104
+Repeated-text samples,0
+Explicit class-name mentions,0
+Suspected class-level text templates,0
+Images found,104
+Images readable,104
+Exact duplicate groups,0
+Possible near-duplicate pairs,80
+Provisional split groups,104
+Group-aware split appears feasible,True
+Ready for split planning,False
+Upstream leakage safety confirmed,False
+Readiness status,REQUIRES_DATA_OR_LEAKAGE_REVIEW

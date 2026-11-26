@@ -1,0 +1,43 @@
+{
+  "notebook": "05_multimodal_fusion.ipynb",
+  "cell": 20,
+  "project": "Multimodal Medicinal Leaf Retrieval",
+  "method": "Weighted Score-Level Late Fusion",
+  "sample_count": 104,
+  "class_count": 5,
+  "sample_alignment_signature": "2f3f33e97394bf3dd2bee7fbb2ff54b554874fc7a9cde45dd99352ea07c368d6",
+  "text_configurations": [
+    "Unigram",
+    "Unigram + Bigram"
+  ],
+  "default_visual_weight": 0.5,
+  "default_text_weight": 0.5,
+  "alpha_grid": [
+    0.0,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0
+  ],
+  "top_k_values": [
+    1,
+    3,
+    5,
+    10
+  ],
+  "technical_checks": 59,
+  "technical_checks_passed": 59,
+  "technical_checks_failed": 0,
+  "artifact_integrity_passed": true,
+  "final_optimal_weight_selected": false,
+  "independent_evaluation_completed": false,
+  "analysis_scope": "Full-Gallery Exploratory Analysis",
+  "summary_report": "493_final_fusion_summary.md",
+  "next_recommended_stage": "Independent Retrieval Evaluation"
+}

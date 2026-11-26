@@ -1,0 +1,67 @@
+{
+  "notebook": "06_multimodal_retrieval_evaluation.ipynb",
+  "random_state": 42,
+  "sample_count": 104,
+  "class_count": 5,
+  "split_ratios": {
+    "gallery": 0.6,
+    "validation": 0.2,
+    "test": 0.2
+  },
+  "fit_policy": "gallery_only",
+  "relevance_policy": "same_plant_class",
+  "top_k_values": [
+    1,
+    3,
+    5,
+    10
+  ],
+  "alpha_grid": [
+    0.0,
+    0.1,
+    0.2,
+    0.30000000000000004,
+    0.4,
+    0.5,
+    0.6000000000000001,
+    0.7000000000000001,
+    0.8,
+    0.9,
+    1.0
+  ],
+  "default_alpha": 0.5,
+  "text_configurations": [
+    "Unigram",
+    "Unigram + Bigram"
+  ],
+  "methods": [
+    "Visual Only",
+    "Text Only",
+    "Weighted Fusion"
+  ],
+  "metrics": [
+    "Precision@K",
+    "Recall@K",
+    "MRR@K",
+    "mAP@K",
+    "nDCG@K"
+  ],
+  "primary_selection_metric": "mAP@5",
+  "validation_policy": "select_alpha_and_text_configuration",
+  "test_policy": "evaluate_once_after_configuration_is_frozen",
+  "tie_breaking": "similarity_descending_then_sample_id_ascending",
+  "require_leakage_audit": true,
+  "allow_full_gallery_tfidf_for_test": false,
+  "allow_full_gallery_scaler_for_test": false,
+  "allow_test_set_for_weight_selection": false,
+  "source_artifact_directory": "D:\\Project\\Multimodal_Leaf_Retrieval\\results\\artifacts\\multimodal_fusion",
+  "source_alignment_signature": "2f3f33e97394bf3dd2bee7fbb2ff54b554874fc7a9cde45dd99352ea07c368d6",
+  "independent_evaluation_completed": false,
+  "notes": [
+    "Stratified partitioning is provisional until duplicate and grouping audits are completed.",
+    "All learned feature transformations must be fitted on gallery data only.",
+    "Validation selects alpha and the TF-IDF configuration.",
+    "Test queries remain unused until model selection is frozen.",
+    "Identical class-level text descriptions must be disclosed as a limitation."
+  ]
+}

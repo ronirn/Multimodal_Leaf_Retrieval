@@ -1,0 +1,81 @@
+﻿sample_id_i,sample_id_j,class_i,class_j,same_class,dhash_hamming_distance,manual_review_required
+leaf_8473270c3702f48b,leaf_8f425d66b1e193b9,Mangkok,Mangkok,True,3,True
+leaf_b0c5f55e42499cae,leaf_de455d31a4df8c43,Mangkok,Mangkok,True,4,True
+leaf_23b789945271fb92,leaf_de455d31a4df8c43,Mangkok,Mangkok,True,4,True
+leaf_12439b9ebf0eb8d3,leaf_de455d31a4df8c43,Mangkok,Mangkok,True,4,True
+leaf_c29e2560b188fb2c,leaf_45414f432e49469a,Salam,Salam,True,2,True
+leaf_c29e2560b188fb2c,leaf_1da6bca6d5320ae2,Salam,Salam,True,4,True
+leaf_c29e2560b188fb2c,leaf_b8ebef3e9731e352,Salam,Salam,True,3,True
+leaf_c29e2560b188fb2c,leaf_68b0c81b496519cd,Salam,Salam,True,1,True
+leaf_c29e2560b188fb2c,leaf_a838808299383884,Salam,Salam,True,0,True
+leaf_c29e2560b188fb2c,leaf_ac463b36b6e61052,Salam,Salam,True,1,True
+leaf_c29e2560b188fb2c,leaf_fdd0a74681efeff6,Salam,Salam,True,3,True
+leaf_c29e2560b188fb2c,leaf_df16548c53396aeb,Salam,Sambang Darah,False,1,True
+leaf_c29e2560b188fb2c,leaf_c289208cb093f769,Salam,Sambang Darah,False,3,True
+leaf_c29e2560b188fb2c,leaf_1b922f2bd904d1fc,Salam,Sirih,False,4,True
+leaf_c29e2560b188fb2c,leaf_6397705392627f3c,Salam,Sirih,False,3,True
+leaf_c4840a77b6d0c158,leaf_fd4b025e69b9f321,Salam,Salam,True,3,True
+leaf_c4840a77b6d0c158,leaf_1ebaf9512209a61f,Salam,Salam,True,3,True
+leaf_c4840a77b6d0c158,leaf_eacbf33f28cb6b28,Salam,Sambang Darah,False,2,True
+leaf_fd4b025e69b9f321,leaf_1ebaf9512209a61f,Salam,Salam,True,4,True
+leaf_fd4b025e69b9f321,leaf_0a8999109a734f1d,Salam,Salam,True,4,True
+leaf_fd4b025e69b9f321,leaf_ca3c3b7a5db35c1d,Salam,Salam,True,4,True
+leaf_fd4b025e69b9f321,leaf_eacbf33f28cb6b28,Salam,Sambang Darah,False,3,True
+leaf_45414f432e49469a,leaf_b8ebef3e9731e352,Salam,Salam,True,1,True
+leaf_45414f432e49469a,leaf_68b0c81b496519cd,Salam,Salam,True,3,True
+leaf_45414f432e49469a,leaf_ca3c3b7a5db35c1d,Salam,Salam,True,4,True
+leaf_45414f432e49469a,leaf_a838808299383884,Salam,Salam,True,2,True
+leaf_45414f432e49469a,leaf_ac463b36b6e61052,Salam,Salam,True,1,True
+leaf_45414f432e49469a,leaf_df16548c53396aeb,Salam,Sambang Darah,False,3,True
+leaf_45414f432e49469a,leaf_6397705392627f3c,Salam,Sirih,False,3,True
+leaf_1da6bca6d5320ae2,leaf_0a8999109a734f1d,Salam,Salam,True,4,True
+leaf_1da6bca6d5320ae2,leaf_ca3c3b7a5db35c1d,Salam,Salam,True,4,True
+leaf_1da6bca6d5320ae2,leaf_a838808299383884,Salam,Salam,True,4,True
+leaf_1da6bca6d5320ae2,leaf_fdd0a74681efeff6,Salam,Salam,True,1,True
+leaf_1da6bca6d5320ae2,leaf_e57489e729c801d7,Salam,Sambang Darah,False,3,True
+leaf_b8ebef3e9731e352,leaf_68b0c81b496519cd,Salam,Salam,True,4,True
+leaf_b8ebef3e9731e352,leaf_a838808299383884,Salam,Salam,True,3,True
+leaf_b8ebef3e9731e352,leaf_ac463b36b6e61052,Salam,Salam,True,2,True
+leaf_b8ebef3e9731e352,leaf_df16548c53396aeb,Salam,Sambang Darah,False,4,True
+leaf_b8ebef3e9731e352,leaf_6397705392627f3c,Salam,Sirih,False,4,True
+leaf_1ebaf9512209a61f,leaf_0a8999109a734f1d,Salam,Salam,True,4,True
+leaf_1ebaf9512209a61f,leaf_eacbf33f28cb6b28,Salam,Sambang Darah,False,3,True
+leaf_68b0c81b496519cd,leaf_a838808299383884,Salam,Salam,True,1,True
+leaf_68b0c81b496519cd,leaf_ac463b36b6e61052,Salam,Salam,True,2,True
+leaf_68b0c81b496519cd,leaf_fdd0a74681efeff6,Salam,Salam,True,4,True
+leaf_68b0c81b496519cd,leaf_df16548c53396aeb,Salam,Sambang Darah,False,2,True
+leaf_68b0c81b496519cd,leaf_c289208cb093f769,Salam,Sambang Darah,False,4,True
+leaf_68b0c81b496519cd,leaf_6397705392627f3c,Salam,Sirih,False,2,True
+leaf_a838808299383884,leaf_ac463b36b6e61052,Salam,Salam,True,1,True
+leaf_a838808299383884,leaf_fdd0a74681efeff6,Salam,Salam,True,3,True
+leaf_a838808299383884,leaf_df16548c53396aeb,Salam,Sambang Darah,False,1,True
+leaf_a838808299383884,leaf_c289208cb093f769,Salam,Sambang Darah,False,3,True
+leaf_a838808299383884,leaf_1b922f2bd904d1fc,Salam,Sirih,False,4,True
+leaf_a838808299383884,leaf_6397705392627f3c,Salam,Sirih,False,3,True
+leaf_a7704c0316865cd7,leaf_45d4826ed41c51b4,Salam,Sambang Darah,False,4,True
+leaf_ac463b36b6e61052,leaf_fdd0a74681efeff6,Salam,Salam,True,4,True
+leaf_ac463b36b6e61052,leaf_df16548c53396aeb,Salam,Sambang Darah,False,2,True
+leaf_ac463b36b6e61052,leaf_c289208cb093f769,Salam,Sambang Darah,False,4,True
+leaf_ac463b36b6e61052,leaf_6397705392627f3c,Salam,Sirih,False,4,True
+leaf_fdd0a74681efeff6,leaf_df16548c53396aeb,Salam,Sambang Darah,False,4,True
+leaf_fdd0a74681efeff6,leaf_e57489e729c801d7,Salam,Sambang Darah,False,2,True
+leaf_fdd0a74681efeff6,leaf_c289208cb093f769,Salam,Sambang Darah,False,4,True
+leaf_d12754f94f5ff7fc,leaf_9c7d463a5bb1a561,Salam,Salam,True,4,True
+leaf_d12754f94f5ff7fc,leaf_eacbf33f28cb6b28,Salam,Sambang Darah,False,4,True
+leaf_9c7d463a5bb1a561,leaf_a57a1270adf22253,Salam,Salam,True,4,True
+leaf_df16548c53396aeb,leaf_c289208cb093f769,Sambang Darah,Sambang Darah,True,4,True
+leaf_df16548c53396aeb,leaf_1b922f2bd904d1fc,Sambang Darah,Sirih,False,3,True
+leaf_df16548c53396aeb,leaf_6397705392627f3c,Sambang Darah,Sirih,False,4,True
+leaf_e57489e729c801d7,leaf_c289208cb093f769,Sambang Darah,Sambang Darah,True,4,True
+leaf_62ef0ed49ad4e2d3,leaf_ce6b898792146850,Sambang Darah,Sambang Darah,True,3,True
+leaf_62ef0ed49ad4e2d3,leaf_a21b39e63066049c,Sambang Darah,Sambang Darah,True,4,True
+leaf_ce6b898792146850,leaf_a21b39e63066049c,Sambang Darah,Sambang Darah,True,3,True
+leaf_eacbf33f28cb6b28,leaf_ad626da03abf4532,Sambang Darah,Sambang Darah,True,3,True
+leaf_eacbf33f28cb6b28,leaf_c289208cb093f769,Sambang Darah,Sambang Darah,True,4,True
+leaf_1193856cea5a1287,leaf_347efec2afc78e44,Sirih,Sirih,True,4,True
+leaf_655b2ffd3499bbea,leaf_bb707568bb3ed9ce,Tapak Kuda,Tapak Kuda,True,4,True
+leaf_f72f88757c4de8ba,leaf_93d488369f0a2cc4,Tapak Kuda,Tapak Kuda,True,4,True
+leaf_f72f88757c4de8ba,leaf_012389d8d324b6c8,Tapak Kuda,Tapak Kuda,True,4,True
+leaf_f72f88757c4de8ba,leaf_8d727458048a81c7,Tapak Kuda,Tapak Kuda,True,1,True
+leaf_93d488369f0a2cc4,leaf_012389d8d324b6c8,Tapak Kuda,Tapak Kuda,True,4,True
+leaf_25803393f335987a,leaf_012389d8d324b6c8,Tapak Kuda,Tapak Kuda,True,4,True

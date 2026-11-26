@@ -1,0 +1,11 @@
+﻿category,validation_check,passed
+Structure,All 104 samples assigned,True
+Structure,Sample IDs remain unique and aligned,True
+Structure,All three splits are nonempty,True
+Structure,Atomic groups never cross splits,True
+Structure,Partitions are collectively exhaustive,True
+Structure,"Gallery, validation and test are disjoint",True
+Structure,Every plant class appears in each split,True
+Structure,Each validation/test class exists in gallery,True
+Methodology,No retrieval score used for split selection,True
+Structure,No exact duplicate image crosses splits,True

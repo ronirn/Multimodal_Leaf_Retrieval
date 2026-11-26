@@ -1,0 +1,9 @@
+﻿risk,severity,finding_count,requires_review,recommended_action
+Missing raw text descriptions,High,104,True,Locate complete raw text before splitting.
+Missing/unreadable image files,High,0,False,Repair raw image paths and unreadable files.
+Target class name inside description,High,0,False,Review and exclude direct class-name clues.
+Single repeated description within class,High,0,False,Review whether text is class-template metadata rather than sample-specific information.
+Exact text shared across different classes,Medium,0,False,Review ambiguous or copied descriptions.
+Identical image associated with different classes,High,0,False,Resolve image-label conflicts.
+Possible near-duplicate images,Medium,80,True,Manually review perceptual-hash matches before splitting.
+Insufficient split groups per class,High,0,False,Reconsider split ratios or gather independent groups.
