@@ -1,0 +1,9 @@
+﻿validation_check,expected,actual,passed,status
+Euclidean distance of identical vectors,0,0,True,Passed
+Euclidean distance of orthogonal unit vectors,1.4142135623730951,1.4142135623730951,True,Passed
+Cosine similarity of identical vectors,1,1,True,Passed
+Cosine similarity of orthogonal vectors,0,0,True,Passed
+Zero distance produces similarity one,1,1,True,Passed
+Inverse-distance similarity calculation,0.41421356237309509,0.41421356237309509,True,Passed
+Weighted score fusion calculation,0.69999999999999996,0.69999999999999996,True,Passed
+Sparse and dense cosine similarity consistency,0,0,True,Passed

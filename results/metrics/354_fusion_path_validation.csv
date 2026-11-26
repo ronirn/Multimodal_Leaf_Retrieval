@@ -1,0 +1,13 @@
+﻿validation_check,passed,status
+Project root detected,True,Passed
+Required input directories available,True,Passed
+All required input artifacts available,True,Passed
+All required input files nonempty,True,Passed
+Visual artifact manifest available,True,Passed
+Text artifact manifest available,True,Passed
+Output directories available,True,Passed
+Output directories writable,True,Passed
+Required input paths unique,True,Passed
+Planned output paths unique,True,Passed
+Input and output paths do not overlap,True,Passed
+Previous library checks passed,True,Passed

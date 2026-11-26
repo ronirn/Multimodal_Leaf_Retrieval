@@ -1,0 +1,30 @@
+﻿Indicator,Result
+Total documents,104
+Total configurations,2
+Total classes,5
+Baseline matrix shape,"(104, 68)"
+Alternative matrix shape,"(104, 261)"
+Baseline nonzero elements,2086
+Alternative nonzero elements,4166
+Baseline sparsity percent,70.50339366515837
+Alternative sparsity percent,84.65222516946655
+Mean unigram contribution percent,36.348407932012364
+Mean bigram contribution percent,63.65159206798766
+Minimum bigram contribution percent,59.07486003797943
+Maximum bigram contribution percent,70.50101905628956
+Maximum renormalized unigram difference,1.6653345369377348e-16
+Document-level analysis records,208
+Feature-level analysis records,329
+Total matrix validation checks,32
+Matrix validation checks passed,32
+Matrix validation checks failed,0
+Analysis scope,Exploratory Full-Gallery Analysis
+Contribution method,Squared L2 Vector Energy
+Original matrices unchanged,True
+TF-IDF refitted,False
+Feature selection applied,False
+Samples removed,0
+Descriptions modified,0
+Generated figures,4
+Retrieval performance evaluated,False
+TF-IDF matrix analysis completed,True

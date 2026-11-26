@@ -1,0 +1,28 @@
+﻿category,name,relative_path,available
+Input Directory,Project Root,.,True
+Input Directory,Notebooks,notebooks,True
+Input Directory,Dataset,dataset,True
+Input Directory,Processed Dataset,dataset/processed,True
+Input Directory,Visual Features,dataset/features/visual,True
+Required Input File,Processed Text Dataset,dataset/processed/metadata_processed.csv,True
+Required Input File,Normalized Visual Features,dataset/features/visual/visual_features_normalized.npy,True
+Required Input File,Visual Sample IDs,dataset/features/visual/visual_sample_ids.npy,True
+Required Input File,Visual Feature Metadata,dataset/features/visual/visual_feature_metadata.csv,True
+Required Input File,Visual Feature Configuration,dataset/features/visual/visual_feature_config.json,True
+Required Input File,Visual Feature Manifest,dataset/features/visual/visual_feature_manifest.json,True
+Additional Visual File,Raw Visual Features,dataset/features/visual/visual_features_raw.npy,True
+Additional Visual File,Baseline Visual Features,dataset/features/visual/visual_features_baseline.npy,True
+Additional Visual File,Visual Feature Names,dataset/features/visual/visual_feature_names.json,True
+Additional Visual File,Proposed Visual Normalizer,dataset/features/visual/visual_normalizer.joblib,True
+Additional Visual File,Baseline Visual Normalizer,dataset/features/visual/baseline_visual_normalizer.joblib,True
+Output Directory,Text Feature Artifacts,dataset/features/text,True
+Output Directory,Text Feature Visualizations,results/figures/text_feature_extraction,True
+Output Directory,Metrics and Reports,results/metrics,True
+Planned Output File,TF-IDF Feature Matrix,dataset/features/text/tfidf_features.npz,False
+Planned Output File,Fitted TF-IDF Vectorizer,dataset/features/text/tfidf_vectorizer.joblib,False
+Planned Output File,Text Sample IDs,dataset/features/text/text_sample_ids.npy,False
+Planned Output File,Text Feature Metadata,dataset/features/text/text_feature_metadata.csv,False
+Planned Output File,Text Feature Names,dataset/features/text/text_feature_names.json,False
+Planned Output File,Vocabulary Statistics,dataset/features/text/text_vocabulary.csv,False
+Planned Output File,Text Feature Configuration,dataset/features/text/text_feature_config.json,False
+Planned Output File,Text Feature Manifest,dataset/features/text/text_feature_manifest.json,False

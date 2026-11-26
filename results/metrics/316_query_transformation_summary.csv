@@ -1,0 +1,31 @@
+﻿Indicator,Result
+Reference documents,104
+TF-IDF configurations,2
+Raw preprocessing parity passed,104
+Existing document consistency records,208
+Existing document consistency passed,208
+Maximum vector difference,1.6653345369377348e-16
+Maximum cosine similarity difference,6.661338147750939e-16
+Query test cases,16
+Total query test records,32
+Query test records passed,32
+Usable query records,16
+Rejected query records,16
+Query matching records,80
+Active query term records,135
+Top-K,5
+Total validation checks,61
+Validation checks passed,61
+Validation checks failed,0
+Generated figures,4
+Analysis scope,Exploratory Full-Gallery Query Transformation
+Vocabulary refitted,False
+IDF recalculated,False
+Original corpus modified,False
+Features removed,0
+Samples removed,0
+Invalid query ranking generated,False
+Final text configuration selected,False
+Independent retrieval evaluation completed,False
+Manual data review still required,True
+Query transformation consistency completed,True

@@ -1,0 +1,131 @@
+﻿artifact,validation_check,passed,status
+hsv_features.npy,Array shape preserved,True,Passed
+hsv_features.npy,Data type preserved,True,Passed
+hsv_features.npy,Exact array values preserved,True,Passed
+hsv_features.npy,All values are finite,True,Passed
+glcm_features.npy,Array shape preserved,True,Passed
+glcm_features.npy,Data type preserved,True,Passed
+glcm_features.npy,Exact array values preserved,True,Passed
+glcm_features.npy,All values are finite,True,Passed
+hu_features.npy,Array shape preserved,True,Passed
+hu_features.npy,Data type preserved,True,Passed
+hu_features.npy,Exact array values preserved,True,Passed
+hu_features.npy,All values are finite,True,Passed
+hu_raw_moments.npy,Array shape preserved,True,Passed
+hu_raw_moments.npy,Data type preserved,True,Passed
+hu_raw_moments.npy,Exact array values preserved,True,Passed
+hu_raw_moments.npy,All values are finite,True,Passed
+visual_features_raw.npy,Array shape preserved,True,Passed
+visual_features_raw.npy,Data type preserved,True,Passed
+visual_features_raw.npy,Exact array values preserved,True,Passed
+visual_features_raw.npy,All values are finite,True,Passed
+visual_features_baseline.npy,Array shape preserved,True,Passed
+visual_features_baseline.npy,Data type preserved,True,Passed
+visual_features_baseline.npy,Exact array values preserved,True,Passed
+visual_features_baseline.npy,All values are finite,True,Passed
+visual_features_normalized.npy,Array shape preserved,True,Passed
+visual_features_normalized.npy,Data type preserved,True,Passed
+visual_features_normalized.npy,Exact array values preserved,True,Passed
+visual_features_normalized.npy,All values are finite,True,Passed
+visual_sample_ids.npy,Array shape preserved,True,Passed
+visual_sample_ids.npy,Data type preserved,True,Passed
+visual_sample_ids.npy,Exact array values preserved,True,Passed
+visual_feature_metadata.csv,Metadata row count preserved,True,Passed
+visual_feature_metadata.csv,Metadata sample IDs are unique,True,Passed
+visual_feature_metadata.csv,Metadata feature row indices are correct,True,Passed
+visual_feature_metadata.csv,Metadata aligned with saved sample IDs,True,Passed
+visual_feature_metadata.csv,sample_id values preserved,True,Passed
+visual_feature_metadata.csv,nama_file values preserved,True,Passed
+visual_feature_metadata.csv,kelas values preserved,True,Passed
+visual_feature_metadata.csv,tampilan_daun values preserved,True,Passed
+visual_feature_metadata.csv,processed_image_path values preserved,True,Passed
+visual_feature_metadata.csv,mask_path values preserved,True,Passed
+visual_feature_metadata.csv,validation_status values preserved,True,Passed
+visual_feature_names.json,Feature name order preserved,True,Passed
+visual_feature_index.csv,Feature index order preserved,True,Passed
+visual_feature_index.csv,Feature names match saved index,True,Passed
+visual_feature_config.json,Feature dimension preserved,True,Passed
+visual_feature_config.json,Feature group order preserved,True,Passed
+visual_feature_config.json,Configuration content preserved,True,Passed
+visual_normalizer.joblib,HSV: mean preserved,True,Passed
+visual_normalizer.joblib,HSV: variance preserved,True,Passed
+visual_normalizer.joblib,HSV: raw_std preserved,True,Passed
+visual_normalizer.joblib,HSV: effective_scale preserved,True,Passed
+visual_normalizer.joblib,HSV: constant_mask preserved,True,Passed
+visual_normalizer.joblib,HSV: floor_applied_mask preserved,True,Passed
+visual_normalizer.joblib,HSV: group weight preserved,True,Passed
+visual_normalizer.joblib,HSV: feature order preserved,True,Passed
+visual_normalizer.joblib,GLCM: mean preserved,True,Passed
+visual_normalizer.joblib,GLCM: variance preserved,True,Passed
+visual_normalizer.joblib,GLCM: raw_std preserved,True,Passed
+visual_normalizer.joblib,GLCM: effective_scale preserved,True,Passed
+visual_normalizer.joblib,GLCM: constant_mask preserved,True,Passed
+visual_normalizer.joblib,GLCM: floor_applied_mask preserved,True,Passed
+visual_normalizer.joblib,GLCM: group weight preserved,True,Passed
+visual_normalizer.joblib,GLCM: feature order preserved,True,Passed
+visual_normalizer.joblib,Hu Moments: mean preserved,True,Passed
+visual_normalizer.joblib,Hu Moments: variance preserved,True,Passed
+visual_normalizer.joblib,Hu Moments: raw_std preserved,True,Passed
+visual_normalizer.joblib,Hu Moments: effective_scale preserved,True,Passed
+visual_normalizer.joblib,Hu Moments: constant_mask preserved,True,Passed
+visual_normalizer.joblib,Hu Moments: floor_applied_mask preserved,True,Passed
+visual_normalizer.joblib,Hu Moments: group weight preserved,True,Passed
+visual_normalizer.joblib,Hu Moments: feature order preserved,True,Passed
+baseline_visual_normalizer.joblib,HSV: mean preserved,True,Passed
+baseline_visual_normalizer.joblib,HSV: variance preserved,True,Passed
+baseline_visual_normalizer.joblib,HSV: raw_std preserved,True,Passed
+baseline_visual_normalizer.joblib,HSV: effective_scale preserved,True,Passed
+baseline_visual_normalizer.joblib,HSV: constant_mask preserved,True,Passed
+baseline_visual_normalizer.joblib,HSV: floor_applied_mask preserved,True,Passed
+baseline_visual_normalizer.joblib,HSV: group weight preserved,True,Passed
+baseline_visual_normalizer.joblib,HSV: feature order preserved,True,Passed
+baseline_visual_normalizer.joblib,GLCM: mean preserved,True,Passed
+baseline_visual_normalizer.joblib,GLCM: variance preserved,True,Passed
+baseline_visual_normalizer.joblib,GLCM: raw_std preserved,True,Passed
+baseline_visual_normalizer.joblib,GLCM: effective_scale preserved,True,Passed
+baseline_visual_normalizer.joblib,GLCM: constant_mask preserved,True,Passed
+baseline_visual_normalizer.joblib,GLCM: floor_applied_mask preserved,True,Passed
+baseline_visual_normalizer.joblib,GLCM: group weight preserved,True,Passed
+baseline_visual_normalizer.joblib,GLCM: feature order preserved,True,Passed
+baseline_visual_normalizer.joblib,Hu Moments: mean preserved,True,Passed
+baseline_visual_normalizer.joblib,Hu Moments: variance preserved,True,Passed
+baseline_visual_normalizer.joblib,Hu Moments: raw_std preserved,True,Passed
+baseline_visual_normalizer.joblib,Hu Moments: effective_scale preserved,True,Passed
+baseline_visual_normalizer.joblib,Hu Moments: constant_mask preserved,True,Passed
+baseline_visual_normalizer.joblib,Hu Moments: floor_applied_mask preserved,True,Passed
+baseline_visual_normalizer.joblib,Hu Moments: group weight preserved,True,Passed
+baseline_visual_normalizer.joblib,Hu Moments: feature order preserved,True,Passed
+visual_features_raw.npy,Raw feature groups reconstruct saved matrix,True,Passed
+visual_features_normalized.npy,Saved proposed normalizer reconstructs matrix,True,Passed
+visual_features_baseline.npy,Saved baseline normalizer reconstructs matrix,True,Passed
+visual_normalizer.joblib,Single-query reconstruction: leaf_165d2f32c7fda707,True,Passed
+visual_normalizer.joblib,Single-query reconstruction: leaf_ad626da03abf4532,True,Passed
+visual_normalizer.joblib,Single-query reconstruction: leaf_41f02313a5460236,True,Passed
+hsv_features.npy,SHA-256 checksum matches manifest,True,Passed
+hsv_features.npy,File size matches manifest,True,Passed
+glcm_features.npy,SHA-256 checksum matches manifest,True,Passed
+glcm_features.npy,File size matches manifest,True,Passed
+hu_features.npy,SHA-256 checksum matches manifest,True,Passed
+hu_features.npy,File size matches manifest,True,Passed
+hu_raw_moments.npy,SHA-256 checksum matches manifest,True,Passed
+hu_raw_moments.npy,File size matches manifest,True,Passed
+visual_features_raw.npy,SHA-256 checksum matches manifest,True,Passed
+visual_features_raw.npy,File size matches manifest,True,Passed
+visual_features_baseline.npy,SHA-256 checksum matches manifest,True,Passed
+visual_features_baseline.npy,File size matches manifest,True,Passed
+visual_features_normalized.npy,SHA-256 checksum matches manifest,True,Passed
+visual_features_normalized.npy,File size matches manifest,True,Passed
+visual_sample_ids.npy,SHA-256 checksum matches manifest,True,Passed
+visual_sample_ids.npy,File size matches manifest,True,Passed
+visual_feature_metadata.csv,SHA-256 checksum matches manifest,True,Passed
+visual_feature_metadata.csv,File size matches manifest,True,Passed
+visual_feature_index.csv,SHA-256 checksum matches manifest,True,Passed
+visual_feature_index.csv,File size matches manifest,True,Passed
+visual_normalizer.joblib,SHA-256 checksum matches manifest,True,Passed
+visual_normalizer.joblib,File size matches manifest,True,Passed
+baseline_visual_normalizer.joblib,SHA-256 checksum matches manifest,True,Passed
+baseline_visual_normalizer.joblib,File size matches manifest,True,Passed
+visual_feature_names.json,SHA-256 checksum matches manifest,True,Passed
+visual_feature_names.json,File size matches manifest,True,Passed
+visual_feature_config.json,SHA-256 checksum matches manifest,True,Passed
+visual_feature_config.json,File size matches manifest,True,Passed

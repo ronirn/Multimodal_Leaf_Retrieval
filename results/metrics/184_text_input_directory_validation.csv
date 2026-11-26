@@ -1,0 +1,6 @@
+﻿directory_name,relative_path,exists,status
+Project Root,.,True,Available
+Notebooks,notebooks,True,Available
+Dataset,dataset,True,Available
+Processed Dataset,dataset/processed,True,Available
+Visual Features,dataset/features/visual,True,Available

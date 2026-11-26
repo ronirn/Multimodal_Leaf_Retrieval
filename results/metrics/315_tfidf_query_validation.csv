@@ -1,0 +1,62 @@
+﻿configuration,validation_check,passed,status
+Overall,Raw descriptions reproduce stored cleaned text,True,Passed
+Overall,Raw descriptions reproduce validated corpus,True,Passed
+Unigram,Batch transformation reproduces reference matrix,True,Passed
+Unigram + Bigram,Batch transformation reproduces reference matrix,True,Passed
+Unigram,All individual document transformations consistent,True,Passed
+Unigram + Bigram,All individual document transformations consistent,True,Passed
+Unigram,Q01 - Morphology Query,True,Passed
+Unigram,Q02 - Morphology Query,True,Passed
+Unigram,Q03 - Morphology Query,True,Passed
+Unigram,Q04 - Morphology Query,True,Passed
+Unigram,Q05 - Morphology Query,True,Passed
+Unigram,Q06 - Case and Punctuation Variation,True,Passed
+Unigram,Q07 - Single Known Token,True,Passed
+Unigram,Q08 - Partial OOV,True,Passed
+Unigram,Q09 - All OOV,True,Passed
+Unigram,Q10 - Empty String,True,Passed
+Unigram,Q11 - Whitespace Only,True,Passed
+Unigram,Q12 - Punctuation Only,True,Passed
+Unigram,Q13 - Class Name Only,True,Passed
+Unigram,Q14 - Invalid Short Tokens,True,Passed
+Unigram,Q15 - Missing Input,True,Passed
+Unigram,Q16 - Invalid Input Type,True,Passed
+Unigram + Bigram,Q01 - Morphology Query,True,Passed
+Unigram + Bigram,Q02 - Morphology Query,True,Passed
+Unigram + Bigram,Q03 - Morphology Query,True,Passed
+Unigram + Bigram,Q04 - Morphology Query,True,Passed
+Unigram + Bigram,Q05 - Morphology Query,True,Passed
+Unigram + Bigram,Q06 - Case and Punctuation Variation,True,Passed
+Unigram + Bigram,Q07 - Single Known Token,True,Passed
+Unigram + Bigram,Q08 - Partial OOV,True,Passed
+Unigram + Bigram,Q09 - All OOV,True,Passed
+Unigram + Bigram,Q10 - Empty String,True,Passed
+Unigram + Bigram,Q11 - Whitespace Only,True,Passed
+Unigram + Bigram,Q12 - Punctuation Only,True,Passed
+Unigram + Bigram,Q13 - Class Name Only,True,Passed
+Unigram + Bigram,Q14 - Invalid Short Tokens,True,Passed
+Unigram + Bigram,Q15 - Missing Input,True,Passed
+Unigram + Bigram,Q16 - Invalid Input Type,True,Passed
+Unigram,Case and punctuation invariance,True,Passed
+Unigram,Optional self-match exclusion,True,Passed
+Unigram + Bigram,Case and punctuation invariance,True,Passed
+Unigram + Bigram,Optional self-match exclusion,True,Passed
+Unigram,Vocabulary unchanged,True,Passed
+Unigram,IDF weights unchanged,True,Passed
+Unigram,Feature order unchanged,True,Passed
+Unigram,Vectorizer parameters unchanged,True,Passed
+Unigram,Original reference matrix unchanged,True,Passed
+Unigram + Bigram,Vocabulary unchanged,True,Passed
+Unigram + Bigram,IDF weights unchanged,True,Passed
+Unigram + Bigram,Feature order unchanged,True,Passed
+Unigram + Bigram,Vectorizer parameters unchanged,True,Passed
+Unigram + Bigram,Original reference matrix unchanged,True,Passed
+Overall,Original corpus unchanged,True,Passed
+Overall,Image-text alignment preserved,True,Passed
+Overall,Existing document records reconcile,True,Passed
+Overall,Query test records reconcile,True,Passed
+Overall,Invalid queries return no matches,True,Passed
+Overall,Usable query vectors have unit L2 norm,True,Passed
+Overall,Query matching record counts reconcile,True,Passed
+Overall,Vocabulary coverage within valid range,True,Passed
+Overall,Known and OOV term counts reconcile,True,Passed

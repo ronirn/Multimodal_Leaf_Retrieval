@@ -1,0 +1,81 @@
+﻿configuration,query_id,query_type,illustrative_target_class,rank,reference_index,sample_id,kelas,cosine_similarity
+Unigram,Q01,Morphology Query,Mangkok,1,17,leaf_12439b9ebf0eb8d3,Mangkok,0.71057612607034915
+Unigram,Q01,Morphology Query,Mangkok,2,10,leaf_4de65b11758965f6,Mangkok,0.69002556661080194
+Unigram,Q01,Morphology Query,Mangkok,3,5,leaf_de9e3e4ed5d89dfc,Mangkok,0.6664594233677068
+Unigram,Q01,Morphology Query,Mangkok,4,3,leaf_0ebc8f4f3ee9c8d5,Mangkok,0.66307877652712499
+Unigram,Q01,Morphology Query,Mangkok,5,6,leaf_23b789945271fb92,Mangkok,0.64689728965807913
+Unigram,Q02,Morphology Query,Salam,1,51,leaf_a21b39e63066049c,Sambang Darah,0.67098006352104722
+Unigram,Q02,Morphology Query,Salam,2,27,leaf_1ebaf9512209a61f,Salam,0.63375885730833237
+Unigram,Q02,Morphology Query,Salam,3,26,leaf_8809ccde35d4b945,Salam,0.57695912254662329
+Unigram,Q02,Morphology Query,Salam,4,34,leaf_fdd0a74681efeff6,Salam,0.5631336575807675
+Unigram,Q02,Morphology Query,Salam,5,32,leaf_a7704c0316865cd7,Salam,0.55142030433411471
+Unigram,Q03,Morphology Query,Sambang Darah,1,47,leaf_ce6b898792146850,Sambang Darah,0.64581398486068931
+Unigram,Q03,Morphology Query,Sambang Darah,2,39,leaf_df16548c53396aeb,Sambang Darah,0.5857568614677725
+Unigram,Q03,Morphology Query,Sambang Darah,3,45,leaf_e57489e729c801d7,Sambang Darah,0.51665561560126549
+Unigram,Q03,Morphology Query,Sambang Darah,4,48,leaf_3c3fafa9c7913736,Sambang Darah,0.50716413153132134
+Unigram,Q03,Morphology Query,Sambang Darah,5,46,leaf_62ef0ed49ad4e2d3,Sambang Darah,0.5046213755487019
+Unigram,Q04,Morphology Query,Sirih,1,76,leaf_7f9c59b7594e5833,Sirih,0.58512427503812381
+Unigram,Q04,Morphology Query,Sirih,2,64,leaf_1193856cea5a1287,Sirih,0.53591247843733958
+Unigram,Q04,Morphology Query,Sirih,3,67,leaf_9dad4bfe9db99263,Sirih,0.53079010533762727
+Unigram,Q04,Morphology Query,Sirih,4,66,leaf_347efec2afc78e44,Sirih,0.49544712227749121
+Unigram,Q04,Morphology Query,Sirih,5,29,leaf_0a8999109a734f1d,Salam,0.46220794351142286
+Unigram,Q05,Morphology Query,Tapak Kuda,1,96,leaf_193e4fc967161d9a,Tapak Kuda,0.70208858655352491
+Unigram,Q05,Morphology Query,Tapak Kuda,2,98,leaf_8d727458048a81c7,Tapak Kuda,0.70208858655352491
+Unigram,Q05,Morphology Query,Tapak Kuda,3,80,leaf_328651beb5d48483,Tapak Kuda,0.68213603295906544
+Unigram,Q05,Morphology Query,Tapak Kuda,4,88,leaf_bb707568bb3ed9ce,Tapak Kuda,0.67829338906981329
+Unigram,Q05,Morphology Query,Tapak Kuda,5,95,leaf_012389d8d324b6c8,Tapak Kuda,0.6722522025103933
+Unigram,Q06,Case and Punctuation Variation,Salam,1,51,leaf_a21b39e63066049c,Sambang Darah,0.67098006352104722
+Unigram,Q06,Case and Punctuation Variation,Salam,2,27,leaf_1ebaf9512209a61f,Salam,0.63375885730833237
+Unigram,Q06,Case and Punctuation Variation,Salam,3,26,leaf_8809ccde35d4b945,Salam,0.57695912254662329
+Unigram,Q06,Case and Punctuation Variation,Salam,4,34,leaf_fdd0a74681efeff6,Salam,0.5631336575807675
+Unigram,Q06,Case and Punctuation Variation,Salam,5,32,leaf_a7704c0316865cd7,Salam,0.55142030433411471
+Unigram,Q07,Single Known Token,,1,71,leaf_c8bf421408781594,Sirih,0.20753412814348521
+Unigram,Q07,Single Known Token,,2,58,leaf_ac5e952a9ae56c36,Sambang Darah,0.1527804529333939
+Unigram,Q07,Single Known Token,,3,103,leaf_41f02313a5460236,Tapak Kuda,0.15215343768712619
+Unigram,Q07,Single Known Token,,4,0,leaf_165d2f32c7fda707,Mangkok,0.14630677434906736
+Unigram,Q07,Single Known Token,,5,51,leaf_a21b39e63066049c,Sambang Darah,0.14436432717124267
+Unigram,Q08,Partial OOV,,1,71,leaf_c8bf421408781594,Sirih,0.20753412814348521
+Unigram,Q08,Partial OOV,,2,58,leaf_ac5e952a9ae56c36,Sambang Darah,0.1527804529333939
+Unigram,Q08,Partial OOV,,3,103,leaf_41f02313a5460236,Tapak Kuda,0.15215343768712619
+Unigram,Q08,Partial OOV,,4,0,leaf_165d2f32c7fda707,Mangkok,0.14630677434906736
+Unigram,Q08,Partial OOV,,5,51,leaf_a21b39e63066049c,Sambang Darah,0.14436432717124267
+Unigram + Bigram,Q01,Morphology Query,Mangkok,1,17,leaf_12439b9ebf0eb8d3,Mangkok,0.62512922366373858
+Unigram + Bigram,Q01,Morphology Query,Mangkok,2,3,leaf_0ebc8f4f3ee9c8d5,Mangkok,0.59762838016707875
+Unigram + Bigram,Q01,Morphology Query,Mangkok,3,10,leaf_4de65b11758965f6,Mangkok,0.59363078640653755
+Unigram + Bigram,Q01,Morphology Query,Mangkok,4,6,leaf_23b789945271fb92,Mangkok,0.58874856459965341
+Unigram + Bigram,Q01,Morphology Query,Mangkok,5,11,leaf_8f09fd62c7391c0d,Mangkok,0.58397251896875624
+Unigram + Bigram,Q02,Morphology Query,Salam,1,51,leaf_a21b39e63066049c,Sambang Darah,0.59798914984605267
+Unigram + Bigram,Q02,Morphology Query,Salam,2,27,leaf_1ebaf9512209a61f,Salam,0.56611257184694663
+Unigram + Bigram,Q02,Morphology Query,Salam,3,32,leaf_a7704c0316865cd7,Salam,0.49312328520456672
+Unigram + Bigram,Q02,Morphology Query,Salam,4,34,leaf_fdd0a74681efeff6,Salam,0.49236248627384915
+Unigram + Bigram,Q02,Morphology Query,Salam,5,26,leaf_8809ccde35d4b945,Salam,0.49122614027247991
+Unigram + Bigram,Q03,Morphology Query,Sambang Darah,1,47,leaf_ce6b898792146850,Sambang Darah,0.60079100417326725
+Unigram + Bigram,Q03,Morphology Query,Sambang Darah,2,39,leaf_df16548c53396aeb,Sambang Darah,0.5165934491850388
+Unigram + Bigram,Q03,Morphology Query,Sambang Darah,3,46,leaf_62ef0ed49ad4e2d3,Sambang Darah,0.48804740997258589
+Unigram + Bigram,Q03,Morphology Query,Sambang Darah,4,48,leaf_3c3fafa9c7913736,Sambang Darah,0.46651624607489722
+Unigram + Bigram,Q03,Morphology Query,Sambang Darah,5,45,leaf_e57489e729c801d7,Sambang Darah,0.45743517537654782
+Unigram + Bigram,Q04,Morphology Query,Sirih,1,76,leaf_7f9c59b7594e5833,Sirih,0.51858315882462791
+Unigram + Bigram,Q04,Morphology Query,Sirih,2,64,leaf_1193856cea5a1287,Sirih,0.47850566237241088
+Unigram + Bigram,Q04,Morphology Query,Sirih,3,66,leaf_347efec2afc78e44,Sirih,0.40957130082373722
+Unigram + Bigram,Q04,Morphology Query,Sirih,4,74,leaf_afba9495e801278e,Sirih,0.38737668997227043
+Unigram + Bigram,Q04,Morphology Query,Sirih,5,75,leaf_693f93e999e7c6a3,Sirih,0.3807902288576166
+Unigram + Bigram,Q05,Morphology Query,Tapak Kuda,1,96,leaf_193e4fc967161d9a,Tapak Kuda,0.6050590765339624
+Unigram + Bigram,Q05,Morphology Query,Tapak Kuda,2,98,leaf_8d727458048a81c7,Tapak Kuda,0.6050590765339624
+Unigram + Bigram,Q05,Morphology Query,Tapak Kuda,3,97,leaf_d19ceb083d0a7e82,Tapak Kuda,0.57870213658314329
+Unigram + Bigram,Q05,Morphology Query,Tapak Kuda,4,89,leaf_d755ad14cfc3f8bf,Tapak Kuda,0.57870213658314329
+Unigram + Bigram,Q05,Morphology Query,Tapak Kuda,5,93,leaf_93d488369f0a2cc4,Tapak Kuda,0.57425929784252727
+Unigram + Bigram,Q06,Case and Punctuation Variation,Salam,1,51,leaf_a21b39e63066049c,Sambang Darah,0.59798914984605267
+Unigram + Bigram,Q06,Case and Punctuation Variation,Salam,2,27,leaf_1ebaf9512209a61f,Salam,0.56611257184694663
+Unigram + Bigram,Q06,Case and Punctuation Variation,Salam,3,32,leaf_a7704c0316865cd7,Salam,0.49312328520456672
+Unigram + Bigram,Q06,Case and Punctuation Variation,Salam,4,34,leaf_fdd0a74681efeff6,Salam,0.49236248627384915
+Unigram + Bigram,Q06,Case and Punctuation Variation,Salam,5,26,leaf_8809ccde35d4b945,Salam,0.49122614027247991
+Unigram + Bigram,Q07,Single Known Token,,1,71,leaf_c8bf421408781594,Sirih,0.11455599373501063
+Unigram + Bigram,Q07,Single Known Token,,2,103,leaf_41f02313a5460236,Tapak Kuda,0.093917787629391028
+Unigram + Bigram,Q07,Single Known Token,,3,58,leaf_ac5e952a9ae56c36,Sambang Darah,0.091542402999072195
+Unigram + Bigram,Q07,Single Known Token,,4,51,leaf_a21b39e63066049c,Sambang Darah,0.088320547714642303
+Unigram + Bigram,Q07,Single Known Token,,5,96,leaf_193e4fc967161d9a,Tapak Kuda,0.085781975848271144
+Unigram + Bigram,Q08,Partial OOV,,1,71,leaf_c8bf421408781594,Sirih,0.11455599373501063
+Unigram + Bigram,Q08,Partial OOV,,2,103,leaf_41f02313a5460236,Tapak Kuda,0.093917787629391028
+Unigram + Bigram,Q08,Partial OOV,,3,58,leaf_ac5e952a9ae56c36,Sambang Darah,0.091542402999072195
+Unigram + Bigram,Q08,Partial OOV,,4,51,leaf_a21b39e63066049c,Sambang Darah,0.088320547714642303
+Unigram + Bigram,Q08,Partial OOV,,5,96,leaf_193e4fc967161d9a,Tapak Kuda,0.085781975848271144

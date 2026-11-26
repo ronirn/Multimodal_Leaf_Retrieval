@@ -1,0 +1,262 @@
+﻿feature_index,term,ngram_type,document_frequency,idf_weight
+0,agak,Unigram,3,4.2676659890376332
+1,agak asimetris,Bigram,3,4.2676659890376332
+2,asimetris,Unigram,3,4.2676659890376332
+3,asimetris dengan,Bigram,3,4.2676659890376332
+4,berbentuk,Unigram,104,1
+5,berbentuk berbentuk,Bigram,10,3.2560650773591528
+6,berbentuk bulat,Bigram,9,3.3513752571634776
+7,berbentuk elips,Bigram,13,3.0149030205422647
+8,berbentuk hati,Bigram,10,3.2560650773591528
+9,berbentuk lonjong,Bigram,27,2.3217558399823197
+10,berbentuk membulat,Bigram,20,2.6094379124341005
+11,berbentuk menyerupai,Bigram,25,2.3958638121360414
+12,bercabang,Unigram,2,4.5553480614894131
+13,bercabang terlihat,Bigram,1,4.9608131695975786
+14,bergelombang,Unigram,48,1.7621400520468966
+15,bergelombang halus,Bigram,48,1.7621400520468966
+16,berkerut,Unigram,43,1.8697707162392621
+17,berkerut detail,Bigram,2,4.5553480614894131
+18,berkerut halus,Bigram,8,3.456735772821304
+19,berkerut jelas,Bigram,1,4.9608131695975786
+20,berkerut permukaan,Bigram,3,4.2676659890376332
+21,berkerut tulang,Bigram,5,3.8622008809294686
+22,berkerut urat,Bigram,16,2.8207470061013074
+23,berlekuk,Unigram,18,2.7095213709910828
+24,berlekuk membulat,Bigram,18,2.7095213709910828
+25,berlipat,Unigram,5,3.8622008809294686
+26,berlipat urat,Bigram,1,4.9608131695975786
+27,berwarna,Unigram,104,1
+28,berwarna hijau,Bigram,99,1.0487901641694319
+29,berwarna merah,Bigram,5,3.8622008809294686
+30,bulat,Unigram,9,3.3513752571634776
+31,bulat telur,Bigram,9,3.3513752571634776
+32,cerah,Unigram,1,4.9608131695975786
+33,cerah berbentuk,Bigram,1,4.9608131695975786
+34,dan,Unigram,104,1
+35,dan bercabang,Bigram,1,4.9608131695975786
+36,dan hijau,Bigram,1,4.9608131695975786
+37,dan jelas,Bigram,1,4.9608131695975786
+38,dan kerutan,Bigram,1,4.9608131695975786
+39,dan lipatan,Bigram,1,4.9608131695975786
+40,dan ujung,Bigram,104,1
+41,dan urat,Bigram,5,3.8622008809294686
+42,dari,Unigram,8,3.456735772821304
+43,dari pangkal,Bigram,8,3.456735772821304
+44,daun,Unigram,104,1
+45,daun bercabang,Bigram,1,4.9608131695975786
+46,daun berwarna,Bigram,104,1
+47,daun halus,Bigram,1,4.9608131695975786
+48,daun jelas,Bigram,1,4.9608131695975786
+49,daun menonjol,Bigram,3,4.2676659890376332
+50,daun tampak,Bigram,1,4.9608131695975786
+51,daun terang,Bigram,1,4.9608131695975786
+52,daun terlihat,Bigram,7,3.5745188084776873
+53,daun tidak,Bigram,2,4.5553480614894131
+54,dengan,Unigram,104,1
+55,dengan tepi,Bigram,104,1
+56,detail,Unigram,12,3.0890109926959868
+57,detail halus,Bigram,7,3.5745188084776873
+58,detail tekstur,Bigram,2,4.5553480614894131
+59,detail urat,Bigram,3,4.2676659890376332
+60,elips,Unigram,13,3.0149030205422647
+61,elips dengan,Bigram,13,3.0149030205422647
+62,ginjal,Unigram,25,2.3958638121360414
+63,ginjal dengan,Bigram,25,2.3958638121360414
+64,halus,Unigram,63,1.4950772667978516
+65,halus dan,Bigram,49,1.7419373447293773
+66,halus kurang,Bigram,10,3.2560650773591528
+67,halus terlihat,Bigram,1,4.9608131695975786
+68,halus tulang,Bigram,2,4.5553480614894131
+69,halus urat,Bigram,6,3.7080502011022101
+70,hati,Unigram,24,2.435084525289323
+71,hati agak,Bigram,2,4.5553480614894131
+72,hati dengan,Bigram,20,2.6094379124341005
+73,hati lebar,Bigram,2,4.5553480614894131
+74,hijau,Unigram,99,1.0487901641694319
+75,hijau cerah,Bigram,1,4.9608131695975786
+76,hijau kekuningan,Bigram,10,3.2560650773591528
+77,hijau pucat,Bigram,5,3.8622008809294686
+78,hijau sedang,Bigram,23,2.4759065198095778
+79,hijau tua,Bigram,48,1.7621400520468966
+80,hijau zaitun,Bigram,13,3.0149030205422647
+81,hingga,Unigram,2,4.5553480614894131
+82,hingga runcing,Bigram,1,4.9608131695975786
+83,hingga tua,Bigram,1,4.9608131695975786
+84,jelas,Unigram,32,2.1574527886910433
+85,jelas dan,Bigram,2,4.5553480614894131
+86,jelas dari,Bigram,1,4.9608131695975786
+87,jelas sedikit,Bigram,3,4.2676659890376332
+88,jelas urat,Bigram,2,4.5553480614894131
+89,kekuningan,Unigram,10,3.2560650773591528
+90,kekuningan berbentuk,Bigram,10,3.2560650773591528
+91,kerutan,Unigram,1,4.9608131695975786
+92,kerutan jelas,Bigram,1,4.9608131695975786
+93,keunguan,Unigram,5,3.8622008809294686
+94,keunguan berbentuk,Bigram,5,3.8622008809294686
+95,kurang,Unigram,10,3.2560650773591528
+96,kurang jelas,Bigram,10,3.2560650773591528
+97,kusam,Unigram,41,1.9162907318741551
+98,kusam berkerut,Bigram,1,4.9608131695975786
+99,kusam detail,Bigram,3,4.2676659890376332
+100,kusam permukaan,Bigram,1,4.9608131695975786
+101,kusam tulang,Bigram,12,3.0890109926959868
+102,kusam urat,Bigram,24,2.435084525289323
+103,lebar,Unigram,5,3.8622008809294686
+104,lebar dengan,Bigram,5,3.8622008809294686
+105,lipatan,Unigram,6,3.7080502011022101
+106,lipatan dan,Bigram,2,4.5553480614894131
+107,lipatan halus,Bigram,1,4.9608131695975786
+108,lipatan memanjang,Bigram,3,4.2676659890376332
+109,lonjong,Unigram,27,2.3217558399823197
+110,lonjong dengan,Bigram,7,3.5745188084776873
+111,lonjong memanjang,Bigram,19,2.6582280766035327
+112,lonjong terlipat,Bigram,1,4.9608131695975786
+113,melengkung,Unigram,5,3.8622008809294686
+114,melengkung terlihat,Bigram,2,4.5553480614894131
+115,memanjang,Unigram,24,2.435084525289323
+116,memanjang dengan,Bigram,21,2.5629178967992075
+117,memanjang jelas,Bigram,2,4.5553480614894131
+118,memanjang terlipat,Bigram,2,4.5553480614894131
+119,membulat,Unigram,45,1.8253189536684284
+120,membulat dan,Bigram,18,2.7095213709910828
+121,membulat dengan,Bigram,4,4.0445224377234226
+122,membulat lebar,Bigram,2,4.5553480614894131
+123,membulat menyerupai,Bigram,14,2.9459101490553135
+124,membulat permukaan,Bigram,45,1.8253189536684284
+125,mengilap,Unigram,30,2.2199731456723772
+126,mengilap berkerut,Bigram,11,3.1690537003695232
+127,mengilap detail,Bigram,1,4.9608131695975786
+128,mengilap lipatan,Bigram,5,3.8622008809294686
+129,mengilap tulang,Bigram,6,3.7080502011022101
+130,mengilap urat,Bigram,7,3.5745188084776873
+131,menjari,Unigram,21,2.5629178967992075
+132,menjari halus,Bigram,2,4.5553480614894131
+133,menjari jelas,Bigram,2,4.5553480614894131
+134,menjari menonjol,Bigram,2,4.5553480614894131
+135,menjari samar,Bigram,3,4.2676659890376332
+136,menjari sedikit,Bigram,1,4.9608131695975786
+137,menjari terang,Bigram,2,4.5553480614894131
+138,menjari terlihat,Bigram,9,3.3513752571634776
+139,menonjol,Unigram,9,3.3513752571634776
+140,menonjol berkerut,Bigram,1,4.9608131695975786
+141,menonjol permukaan,Bigram,2,4.5553480614894131
+142,menonjol sedikit,Bigram,1,4.9608131695975786
+143,menyerupai,Unigram,39,1.965080896043587
+144,menyerupai ginjal,Bigram,25,2.3958638121360414
+145,menyerupai hati,Bigram,14,2.9459101490553135
+146,menyirip,Unigram,24,2.435084525289323
+147,menyirip dan,Bigram,1,4.9608131695975786
+148,menyirip jelas,Bigram,6,3.7080502011022101
+149,menyirip melengkung,Bigram,2,4.5553480614894131
+150,menyirip menonjol,Bigram,1,4.9608131695975786
+151,menyirip samar,Bigram,3,4.2676659890376332
+152,menyirip sedikit,Bigram,2,4.5553480614894131
+153,menyirip teratur,Bigram,1,4.9608131695975786
+154,menyirip terlihat,Bigram,3,4.2676659890376332
+155,merah,Unigram,5,3.8622008809294686
+156,merah keunguan,Bigram,5,3.8622008809294686
+157,meruncing,Unigram,41,1.9162907318741551
+158,meruncing permukaan,Bigram,41,1.9162907318741551
+159,pangkal,Unigram,8,3.456735772821304
+160,pangkal jelas,Bigram,3,4.2676659890376332
+161,pangkal terlihat,Bigram,4,4.0445224377234226
+162,permukaan,Unigram,104,1
+163,permukaan berkerut,Bigram,2,4.5553480614894131
+164,permukaan melengkung,Bigram,3,4.2676659890376332
+165,permukaan sedikit,Bigram,1,4.9608131695975786
+166,permukaan tampak,Bigram,104,1
+167,pucat,Unigram,5,3.8622008809294686
+168,pucat berbentuk,Bigram,5,3.8622008809294686
+169,rata,Unigram,38,1.990398704027877
+170,rata dan,Bigram,36,2.0430424375132992
+171,rata detail,Bigram,1,4.9608131695975786
+172,rata tulang,Bigram,3,4.2676659890376332
+173,rata urat,Bigram,1,4.9608131695975786
+174,relatif,Unigram,5,3.8622008809294686
+175,relatif rata,Bigram,5,3.8622008809294686
+176,runcing,Unigram,18,2.7095213709910828
+177,runcing permukaan,Bigram,18,2.7095213709910828
+178,samar,Unigram,9,3.3513752571634776
+179,samar detail,Bigram,2,4.5553480614894131
+180,sangat,Unigram,4,4.0445224377234226
+181,sangat mengilap,Bigram,4,4.0445224377234226
+182,sedang,Unigram,23,2.4759065198095778
+183,sedang berbentuk,Bigram,22,2.5184661342283734
+184,sedang hingga,Bigram,1,4.9608131695975786
+185,sedikit,Unigram,19,2.6582280766035327
+186,sedikit berkerut,Bigram,9,3.3513752571634776
+187,sedikit berlipat,Bigram,4,4.0445224377234226
+188,sedikit mengilap,Bigram,5,3.8622008809294686
+189,sedikit terlipat,Bigram,1,4.9608131695975786
+190,tampak,Unigram,104,1
+191,tampak berkerut,Bigram,19,2.6582280766035327
+192,tampak berlipat,Bigram,1,4.9608131695975786
+193,tampak detail,Bigram,2,4.5553480614894131
+194,tampak kusam,Bigram,41,1.9162907318741551
+195,tampak mengilap,Bigram,21,2.5629178967992075
+196,tampak relatif,Bigram,5,3.8622008809294686
+197,tampak sangat,Bigram,4,4.0445224377234226
+198,tampak sedikit,Bigram,9,3.3513752571634776
+199,tampak urat,Bigram,2,4.5553480614894131
+200,tekstur,Unigram,2,4.5553480614894131
+201,tekstur tidak,Bigram,2,4.5553480614894131
+202,telur,Unigram,9,3.3513752571634776
+203,telur agak,Bigram,1,4.9608131695975786
+204,telur dengan,Bigram,1,4.9608131695975786
+205,telur lebar,Bigram,1,4.9608131695975786
+206,telur memanjang,Bigram,4,4.0445224377234226
+207,telur terlipat,Bigram,2,4.5553480614894131
+208,tengah,Unigram,25,2.3958638121360414
+209,tengah dan,Bigram,2,4.5553480614894131
+210,tengah jelas,Bigram,3,4.2676659890376332
+211,tengah samar,Bigram,2,4.5553480614894131
+212,tengah terang,Bigram,14,2.9459101490553135
+213,tengah terlihat,Bigram,3,4.2676659890376332
+214,tengah tipis,Bigram,1,4.9608131695975786
+215,tepi,Unigram,104,1
+216,tepi bergelombang,Bigram,48,1.7621400520468966
+217,tepi berlekuk,Bigram,18,2.7095213709910828
+218,tepi daun,Bigram,2,4.5553480614894131
+219,tepi rata,Bigram,36,2.0430424375132992
+220,terang,Unigram,17,2.7635885922613586
+221,terang dan,Bigram,3,4.2676659890376332
+222,terang urat,Bigram,6,3.7080502011022101
+223,teratur,Unigram,1,4.9608131695975786
+224,teratur terlihat,Bigram,1,4.9608131695975786
+225,terlihat,Unigram,35,2.0704414117014132
+226,terlihat detail,Bigram,1,4.9608131695975786
+227,terlihat jelas,Bigram,2,4.5553480614894131
+228,terlihat sedikit,Bigram,2,4.5553480614894131
+229,terlipat,Unigram,6,3.7080502011022101
+230,terlipat dengan,Bigram,5,3.8622008809294686
+231,tidak,Unigram,2,4.5553480614894131
+232,tidak terlihat,Bigram,2,4.5553480614894131
+233,tipis,Unigram,1,4.9608131695975786
+234,tipis terlihat,Bigram,1,4.9608131695975786
+235,tua,Unigram,50,1.7221347174331973
+236,tua berbentuk,Bigram,49,1.7419373447293773
+237,tua dan,Bigram,1,4.9608131695975786
+238,tulang,Unigram,28,2.2866645201710494
+239,tulang daun,Bigram,4,4.0445224377234226
+240,tulang tengah,Bigram,24,2.435084525289323
+241,tumpul,Unigram,1,4.9608131695975786
+242,tumpul hingga,Bigram,1,4.9608131695975786
+243,ujung,Unigram,104,1
+244,ujung membulat,Bigram,45,1.8253189536684284
+245,ujung meruncing,Bigram,41,1.9162907318741551
+246,ujung runcing,Bigram,17,2.7635885922613586
+247,ujung tumpul,Bigram,1,4.9608131695975786
+248,urat,Unigram,73,1.3498952569533536
+249,urat dari,Bigram,7,3.5745188084776873
+250,urat daun,Bigram,11,3.1690537003695232
+251,urat halus,Bigram,4,4.0445224377234226
+252,urat menjari,Bigram,21,2.5629178967992075
+253,urat menonjol,Bigram,3,4.2676659890376332
+254,urat menyirip,Bigram,24,2.435084525289323
+255,urat samar,Bigram,1,4.9608131695975786
+256,urat tengah,Bigram,1,4.9608131695975786
+257,urat terlihat,Bigram,1,4.9608131695975786
+258,zaitun,Unigram,13,3.0149030205422647
+259,zaitun berbentuk,Bigram,12,3.0890109926959868
+260,zaitun tua,Bigram,1,4.9608131695975786

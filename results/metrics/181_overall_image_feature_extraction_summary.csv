@@ -1,0 +1,45 @@
+﻿Category,Indicator,Result
+Dataset,Total samples,104
+Dataset,Total classes,5
+Dataset,Samples passing initial checks,34
+Dataset,Samples requiring review,70
+Extraction,Successfully extracted samples,104
+Extraction,Failed extractions,0
+Extraction,HSV feature dimension,64
+Extraction,GLCM feature dimension,72
+Extraction,Hu Moments feature dimension,7
+Quality,Constant features,0
+Quality,Low variance features,15
+Quality,High zero ratio features,3
+Quality,Highly correlated feature pairs,374
+Quality,Total outlier values,696
+Quality,Samples containing outliers,103
+Quality,NaN values,0
+Quality,Infinite values,0
+Normalization,Normalization method,StandardScaler with HSV SD Floor
+Normalization,HSV standard deviation floor,0.001
+Normalization,Features adjusted by SD floor,15
+Normalization,Group balancing applied,True
+Normalization,Normalization fit scope,Full Dataset - Gallery Development
+Concatenation,Combined feature matrix shape,"(104, 143)"
+Concatenation,Total visual feature dimension,143
+Concatenation,Total visual feature values,14872
+Concatenation,Total normalized feature variance,2.838570183743569
+Matching,Total unique image pairs,5356
+Matching,Minimum pairwise distance,0.20882603826912924
+Matching,Maximum pairwise distance,5.3663327594918755
+Matching,Mean pairwise distance,2.300266723564441
+Matching,Distance reconstruction maximum difference,1.7763568394002505e-15
+Computation,Mean HSV extraction time (ms),0.6012057692714734
+Computation,Mean GLCM extraction time (ms),3.4662923077173846
+Computation,Mean Hu Moments extraction time (ms),0.41013365377623884
+Computation,Total mean feature extraction time (ms),4.477631730765097
+Storage,Total saved artifacts,15
+Storage,Total storage size (KiB),681.5205078125
+Storage,Save-load validation checks,130
+Storage,Save-load validation checks passed,130
+Readiness,Numerical feature validation completed,True
+Readiness,Image feature extraction completed,True
+Readiness,Manual dataset review completed,False
+Readiness,Independent retrieval evaluation completed,False
+Readiness,Multimodal late fusion completed,False

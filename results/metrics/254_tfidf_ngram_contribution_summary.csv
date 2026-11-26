@@ -1,0 +1,3 @@
+﻿ngram_type,feature_dimension,mean_contribution_percent,std_contribution_percent,minimum_contribution_percent,median_contribution_percent,maximum_contribution_percent
+Unigram,68,36.348407932012364,2.4458622553247595,29.49898094371045,36.588462656402172,40.925139962020573
+Bigram,193,63.651592067987657,2.44586225532476,59.074860037979427,63.411537343597821,70.501019056289564

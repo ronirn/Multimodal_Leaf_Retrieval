@@ -1,0 +1,35 @@
+﻿Indicator,Result
+Total documents,104
+Total classes,5
+Unigram vocabulary size,68
+Bigram vocabulary size,193
+Combined vocabulary size,261
+Unigram occurrences,2188
+Bigram occurrences,2084
+Combined occurrences,4272
+Vocabulary increase percent,283.8235294117647
+Unigram count matrix shape,"(104, 68)"
+Combined count matrix shape,"(104, 261)"
+Unigram nonzero elements,2086
+Combined nonzero elements,4166
+Rare unigram terms,5
+Rare bigram terms,51
+Common unigram terms,10
+Common bigram terms,5
+Universal unigram terms,9
+Universal bigram terms,4
+Class-specific unigram terms,21
+Class-specific bigram terms,117
+Document count consistency checks,208
+Document count consistency checks passed,208
+Total vocabulary validation checks,47
+Vocabulary validation checks passed,47
+Vocabulary validation checks failed,0
+Vocabulary fit scope,Full Dataset - Gallery Development
+Vocabulary terms removed,0
+Samples removed,0
+Descriptions modified,0
+TF-IDF vectorizers fitted,False
+Feature selection applied,False
+Generated visualizations,5
+Vocabulary analysis completed,True

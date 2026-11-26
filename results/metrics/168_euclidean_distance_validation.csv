@@ -1,0 +1,6 @@
+﻿validation_check,passed
+Distance matrix is finite,True
+All distances are non-negative,True
+Distance matrix is symmetric,True
+Self-distance equals zero,True
+Group-wise distance consistency,True

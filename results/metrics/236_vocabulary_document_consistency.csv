@@ -1,0 +1,209 @@
+﻿configuration,sample_id,expected_term_occurrences,actual_term_occurrences,expected_unique_terms,actual_unique_terms,passed
+Unigram,leaf_165d2f32c7fda707,20,20,17,17,True
+Unigram,leaf_8473270c3702f48b,23,23,21,21,True
+Unigram,leaf_8f425d66b1e193b9,21,21,18,18,True
+Unigram,leaf_0ebc8f4f3ee9c8d5,21,21,19,19,True
+Unigram,leaf_b0c5f55e42499cae,22,22,20,20,True
+Unigram,leaf_de9e3e4ed5d89dfc,22,22,19,19,True
+Unigram,leaf_23b789945271fb92,22,22,21,21,True
+Unigram,leaf_84de0dc731018607,21,21,19,19,True
+Unigram,leaf_36d4f083fa652592,23,23,22,22,True
+Unigram,leaf_c9d8d87fbc748d16,20,20,18,18,True
+Unigram,leaf_4de65b11758965f6,22,22,20,20,True
+Unigram,leaf_8f09fd62c7391c0d,22,22,21,21,True
+Unigram,leaf_a6da65cb0493ceef,23,23,20,20,True
+Unigram,leaf_1a80f5749cc68900,20,20,18,18,True
+Unigram,leaf_ef0854556175e2b0,20,20,18,18,True
+Unigram,leaf_fff6592ee517103e,22,22,20,20,True
+Unigram,leaf_e9cfa616ea5f1f19,22,22,21,21,True
+Unigram,leaf_12439b9ebf0eb8d3,22,22,20,20,True
+Unigram,leaf_de455d31a4df8c43,22,22,21,21,True
+Unigram,leaf_663a651dd51f9c94,23,23,21,21,True
+Unigram,leaf_c29e2560b188fb2c,20,20,20,20,True
+Unigram,leaf_c4840a77b6d0c158,22,22,21,21,True
+Unigram,leaf_fd4b025e69b9f321,21,21,21,21,True
+Unigram,leaf_45414f432e49469a,21,21,21,21,True
+Unigram,leaf_1da6bca6d5320ae2,20,20,20,20,True
+Unigram,leaf_b8ebef3e9731e352,20,20,20,20,True
+Unigram,leaf_8809ccde35d4b945,21,21,21,21,True
+Unigram,leaf_1ebaf9512209a61f,20,20,20,20,True
+Unigram,leaf_68b0c81b496519cd,20,20,20,20,True
+Unigram,leaf_0a8999109a734f1d,20,20,19,19,True
+Unigram,leaf_ca3c3b7a5db35c1d,22,22,22,22,True
+Unigram,leaf_a838808299383884,20,20,19,19,True
+Unigram,leaf_a7704c0316865cd7,21,21,21,21,True
+Unigram,leaf_ac463b36b6e61052,19,19,18,18,True
+Unigram,leaf_fdd0a74681efeff6,21,21,21,21,True
+Unigram,leaf_9a710afa1505390e,20,20,20,20,True
+Unigram,leaf_d12754f94f5ff7fc,21,21,19,19,True
+Unigram,leaf_9c7d463a5bb1a561,21,21,21,21,True
+Unigram,leaf_a57a1270adf22253,23,23,22,22,True
+Unigram,leaf_df16548c53396aeb,23,23,22,22,True
+Unigram,leaf_1a45e1e109be76ee,22,22,21,21,True
+Unigram,leaf_ad660412d798bd65,19,19,19,19,True
+Unigram,leaf_b230b822f6a38f1c,19,19,19,19,True
+Unigram,leaf_22cacefa73426c68,21,21,21,21,True
+Unigram,leaf_519627b0b7c509da,21,21,21,21,True
+Unigram,leaf_e57489e729c801d7,21,21,21,21,True
+Unigram,leaf_62ef0ed49ad4e2d3,20,20,20,20,True
+Unigram,leaf_ce6b898792146850,20,20,20,20,True
+Unigram,leaf_3c3fafa9c7913736,20,20,19,19,True
+Unigram,leaf_eacbf33f28cb6b28,22,22,22,22,True
+Unigram,leaf_0e58a931923c4e40,20,20,20,20,True
+Unigram,leaf_a21b39e63066049c,20,20,20,20,True
+Unigram,leaf_ad626da03abf4532,21,21,21,21,True
+Unigram,leaf_45d4826ed41c51b4,22,22,22,22,True
+Unigram,leaf_c289208cb093f769,23,23,23,23,True
+Unigram,leaf_620d73b8cfb217b6,20,20,20,20,True
+Unigram,leaf_d9d0b97961feaeac,19,19,19,19,True
+Unigram,leaf_6e53ecd8713a9128,20,20,20,20,True
+Unigram,leaf_ac5e952a9ae56c36,18,18,18,18,True
+Unigram,leaf_1d4f34320b1b8b8d,23,23,22,22,True
+Unigram,leaf_d0f42a660bf2b3ee,22,22,22,22,True
+Unigram,leaf_1ef1bffd5f4186c1,21,21,20,20,True
+Unigram,leaf_a280fa2ae09d329b,20,20,19,19,True
+Unigram,leaf_6fcc4b52889490ca,22,22,22,22,True
+Unigram,leaf_1193856cea5a1287,20,20,19,19,True
+Unigram,leaf_3f1cc0b714c4164e,23,23,21,21,True
+Unigram,leaf_347efec2afc78e44,21,21,19,19,True
+Unigram,leaf_9dad4bfe9db99263,20,20,19,19,True
+Unigram,leaf_57905de77bc7f811,23,23,21,21,True
+Unigram,leaf_1b922f2bd904d1fc,18,18,18,18,True
+Unigram,leaf_6397705392627f3c,21,21,20,20,True
+Unigram,leaf_c8bf421408781594,23,23,20,20,True
+Unigram,leaf_66c00e535609f186,21,21,20,20,True
+Unigram,leaf_2574445c571a7dc3,21,21,20,20,True
+Unigram,leaf_afba9495e801278e,21,21,20,20,True
+Unigram,leaf_693f93e999e7c6a3,22,22,21,21,True
+Unigram,leaf_7f9c59b7594e5833,20,20,19,19,True
+Unigram,leaf_338b7ee25be7d52d,22,22,20,20,True
+Unigram,leaf_47ab03f4e71a0717,24,24,23,23,True
+Unigram,leaf_7be37d0f3c7e488a,23,23,22,22,True
+Unigram,leaf_328651beb5d48483,20,20,19,19,True
+Unigram,leaf_22bf36f7b3abd78c,23,23,19,19,True
+Unigram,leaf_8129d1a748a118de,22,22,21,21,True
+Unigram,leaf_549670d83912aed7,21,21,20,20,True
+Unigram,leaf_655b2ffd3499bbea,22,22,20,20,True
+Unigram,leaf_43ae297ca838aebb,20,20,19,19,True
+Unigram,leaf_28712bf465655732,20,20,19,19,True
+Unigram,leaf_721244faca19b94f,20,20,19,19,True
+Unigram,leaf_bb707568bb3ed9ce,20,20,19,19,True
+Unigram,leaf_d755ad14cfc3f8bf,20,20,19,19,True
+Unigram,leaf_2976a10d6fff3cd5,22,22,21,21,True
+Unigram,leaf_acea8a79416b27c0,21,21,20,20,True
+Unigram,leaf_f72f88757c4de8ba,21,21,20,20,True
+Unigram,leaf_93d488369f0a2cc4,20,20,19,19,True
+Unigram,leaf_25803393f335987a,21,21,20,20,True
+Unigram,leaf_012389d8d324b6c8,21,21,20,20,True
+Unigram,leaf_193e4fc967161d9a,20,20,19,19,True
+Unigram,leaf_d19ceb083d0a7e82,20,20,19,19,True
+Unigram,leaf_8d727458048a81c7,20,20,19,19,True
+Unigram,leaf_8f8d177305fb06f2,23,23,19,19,True
+Unigram,leaf_cef9b535077d5397,20,20,20,20,True
+Unigram,leaf_5fafb790c4773c55,21,21,20,20,True
+Unigram,leaf_055c97f32cf57da5,22,22,21,21,True
+Unigram,leaf_41f02313a5460236,20,20,20,20,True
+Unigram + Bigram,leaf_165d2f32c7fda707,39,39,36,36,True
+Unigram + Bigram,leaf_8473270c3702f48b,45,45,43,43,True
+Unigram + Bigram,leaf_8f425d66b1e193b9,41,41,38,38,True
+Unigram + Bigram,leaf_0ebc8f4f3ee9c8d5,41,41,39,39,True
+Unigram + Bigram,leaf_b0c5f55e42499cae,43,43,41,41,True
+Unigram + Bigram,leaf_de9e3e4ed5d89dfc,43,43,40,40,True
+Unigram + Bigram,leaf_23b789945271fb92,43,43,42,42,True
+Unigram + Bigram,leaf_84de0dc731018607,41,41,39,39,True
+Unigram + Bigram,leaf_36d4f083fa652592,45,45,44,44,True
+Unigram + Bigram,leaf_c9d8d87fbc748d16,39,39,37,37,True
+Unigram + Bigram,leaf_4de65b11758965f6,43,43,41,41,True
+Unigram + Bigram,leaf_8f09fd62c7391c0d,43,43,42,42,True
+Unigram + Bigram,leaf_a6da65cb0493ceef,45,45,42,42,True
+Unigram + Bigram,leaf_1a80f5749cc68900,39,39,37,37,True
+Unigram + Bigram,leaf_ef0854556175e2b0,39,39,37,37,True
+Unigram + Bigram,leaf_fff6592ee517103e,43,43,41,41,True
+Unigram + Bigram,leaf_e9cfa616ea5f1f19,43,43,42,42,True
+Unigram + Bigram,leaf_12439b9ebf0eb8d3,43,43,41,41,True
+Unigram + Bigram,leaf_de455d31a4df8c43,43,43,42,42,True
+Unigram + Bigram,leaf_663a651dd51f9c94,45,45,43,43,True
+Unigram + Bigram,leaf_c29e2560b188fb2c,39,39,39,39,True
+Unigram + Bigram,leaf_c4840a77b6d0c158,43,43,42,42,True
+Unigram + Bigram,leaf_fd4b025e69b9f321,41,41,41,41,True
+Unigram + Bigram,leaf_45414f432e49469a,41,41,41,41,True
+Unigram + Bigram,leaf_1da6bca6d5320ae2,39,39,39,39,True
+Unigram + Bigram,leaf_b8ebef3e9731e352,39,39,39,39,True
+Unigram + Bigram,leaf_8809ccde35d4b945,41,41,41,41,True
+Unigram + Bigram,leaf_1ebaf9512209a61f,39,39,39,39,True
+Unigram + Bigram,leaf_68b0c81b496519cd,39,39,39,39,True
+Unigram + Bigram,leaf_0a8999109a734f1d,39,39,38,38,True
+Unigram + Bigram,leaf_ca3c3b7a5db35c1d,43,43,43,43,True
+Unigram + Bigram,leaf_a838808299383884,39,39,38,38,True
+Unigram + Bigram,leaf_a7704c0316865cd7,41,41,41,41,True
+Unigram + Bigram,leaf_ac463b36b6e61052,37,37,36,36,True
+Unigram + Bigram,leaf_fdd0a74681efeff6,41,41,41,41,True
+Unigram + Bigram,leaf_9a710afa1505390e,39,39,39,39,True
+Unigram + Bigram,leaf_d12754f94f5ff7fc,41,41,39,39,True
+Unigram + Bigram,leaf_9c7d463a5bb1a561,41,41,41,41,True
+Unigram + Bigram,leaf_a57a1270adf22253,45,45,44,44,True
+Unigram + Bigram,leaf_df16548c53396aeb,45,45,44,44,True
+Unigram + Bigram,leaf_1a45e1e109be76ee,43,43,42,42,True
+Unigram + Bigram,leaf_ad660412d798bd65,37,37,37,37,True
+Unigram + Bigram,leaf_b230b822f6a38f1c,37,37,37,37,True
+Unigram + Bigram,leaf_22cacefa73426c68,41,41,41,41,True
+Unigram + Bigram,leaf_519627b0b7c509da,41,41,41,41,True
+Unigram + Bigram,leaf_e57489e729c801d7,41,41,41,41,True
+Unigram + Bigram,leaf_62ef0ed49ad4e2d3,39,39,39,39,True
+Unigram + Bigram,leaf_ce6b898792146850,39,39,39,39,True
+Unigram + Bigram,leaf_3c3fafa9c7913736,39,39,38,38,True
+Unigram + Bigram,leaf_eacbf33f28cb6b28,43,43,43,43,True
+Unigram + Bigram,leaf_0e58a931923c4e40,39,39,39,39,True
+Unigram + Bigram,leaf_a21b39e63066049c,39,39,39,39,True
+Unigram + Bigram,leaf_ad626da03abf4532,41,41,41,41,True
+Unigram + Bigram,leaf_45d4826ed41c51b4,43,43,43,43,True
+Unigram + Bigram,leaf_c289208cb093f769,45,45,45,45,True
+Unigram + Bigram,leaf_620d73b8cfb217b6,39,39,39,39,True
+Unigram + Bigram,leaf_d9d0b97961feaeac,37,37,37,37,True
+Unigram + Bigram,leaf_6e53ecd8713a9128,39,39,39,39,True
+Unigram + Bigram,leaf_ac5e952a9ae56c36,35,35,35,35,True
+Unigram + Bigram,leaf_1d4f34320b1b8b8d,45,45,44,44,True
+Unigram + Bigram,leaf_d0f42a660bf2b3ee,43,43,43,43,True
+Unigram + Bigram,leaf_1ef1bffd5f4186c1,41,41,40,40,True
+Unigram + Bigram,leaf_a280fa2ae09d329b,39,39,38,38,True
+Unigram + Bigram,leaf_6fcc4b52889490ca,43,43,43,43,True
+Unigram + Bigram,leaf_1193856cea5a1287,39,39,38,38,True
+Unigram + Bigram,leaf_3f1cc0b714c4164e,45,45,43,43,True
+Unigram + Bigram,leaf_347efec2afc78e44,41,41,39,39,True
+Unigram + Bigram,leaf_9dad4bfe9db99263,39,39,38,38,True
+Unigram + Bigram,leaf_57905de77bc7f811,45,45,43,43,True
+Unigram + Bigram,leaf_1b922f2bd904d1fc,35,35,35,35,True
+Unigram + Bigram,leaf_6397705392627f3c,41,41,40,40,True
+Unigram + Bigram,leaf_c8bf421408781594,45,45,42,42,True
+Unigram + Bigram,leaf_66c00e535609f186,41,41,40,40,True
+Unigram + Bigram,leaf_2574445c571a7dc3,41,41,40,40,True
+Unigram + Bigram,leaf_afba9495e801278e,41,41,40,40,True
+Unigram + Bigram,leaf_693f93e999e7c6a3,43,43,42,42,True
+Unigram + Bigram,leaf_7f9c59b7594e5833,39,39,38,38,True
+Unigram + Bigram,leaf_338b7ee25be7d52d,43,43,41,41,True
+Unigram + Bigram,leaf_47ab03f4e71a0717,47,47,46,46,True
+Unigram + Bigram,leaf_7be37d0f3c7e488a,45,45,44,44,True
+Unigram + Bigram,leaf_328651beb5d48483,39,39,38,38,True
+Unigram + Bigram,leaf_22bf36f7b3abd78c,45,45,39,39,True
+Unigram + Bigram,leaf_8129d1a748a118de,43,43,42,42,True
+Unigram + Bigram,leaf_549670d83912aed7,41,41,40,40,True
+Unigram + Bigram,leaf_655b2ffd3499bbea,43,43,41,41,True
+Unigram + Bigram,leaf_43ae297ca838aebb,39,39,38,38,True
+Unigram + Bigram,leaf_28712bf465655732,39,39,38,38,True
+Unigram + Bigram,leaf_721244faca19b94f,39,39,38,38,True
+Unigram + Bigram,leaf_bb707568bb3ed9ce,39,39,38,38,True
+Unigram + Bigram,leaf_d755ad14cfc3f8bf,39,39,38,38,True
+Unigram + Bigram,leaf_2976a10d6fff3cd5,43,43,42,42,True
+Unigram + Bigram,leaf_acea8a79416b27c0,41,41,40,40,True
+Unigram + Bigram,leaf_f72f88757c4de8ba,41,41,40,40,True
+Unigram + Bigram,leaf_93d488369f0a2cc4,39,39,38,38,True
+Unigram + Bigram,leaf_25803393f335987a,41,41,40,40,True
+Unigram + Bigram,leaf_012389d8d324b6c8,41,41,40,40,True
+Unigram + Bigram,leaf_193e4fc967161d9a,39,39,38,38,True
+Unigram + Bigram,leaf_d19ceb083d0a7e82,39,39,38,38,True
+Unigram + Bigram,leaf_8d727458048a81c7,39,39,38,38,True
+Unigram + Bigram,leaf_8f8d177305fb06f2,45,45,39,39,True
+Unigram + Bigram,leaf_cef9b535077d5397,39,39,39,39,True
+Unigram + Bigram,leaf_5fafb790c4773c55,41,41,40,40,True
+Unigram + Bigram,leaf_055c97f32cf57da5,43,43,42,42,True
+Unigram + Bigram,leaf_41f02313a5460236,39,39,39,39,True

@@ -1,0 +1,40 @@
+﻿configuration,validation_check,passed,status
+Unigram,Correct matrix dimensions,True,Passed
+Unigram,Sparse CSR representation,True,Passed
+Unigram,Correct float64 data type,True,Passed
+Unigram,Finite matrix values,True,Passed
+Unigram,Nonnegative matrix values,True,Passed
+Unigram,No empty document vectors,True,Passed
+Unigram,L2 normalization valid,True,Passed
+Unigram,Nonzero element counts reconcile,True,Passed
+Unigram,Feature variances finite and nonnegative,True,Passed
+Unigram,Correlation matrix symmetric,True,Passed
+Unigram,Nonconstant correlation diagonal valid,True,Passed
+Unigram,Exact descriptions have identical vectors,True,Passed
+Unigram,Document distances finite,True,Passed
+Unigram,All document technical checks passed,True,Passed
+Unigram + Bigram,Correct matrix dimensions,True,Passed
+Unigram + Bigram,Sparse CSR representation,True,Passed
+Unigram + Bigram,Correct float64 data type,True,Passed
+Unigram + Bigram,Finite matrix values,True,Passed
+Unigram + Bigram,Nonnegative matrix values,True,Passed
+Unigram + Bigram,No empty document vectors,True,Passed
+Unigram + Bigram,L2 normalization valid,True,Passed
+Unigram + Bigram,Nonzero element counts reconcile,True,Passed
+Unigram + Bigram,Feature variances finite and nonnegative,True,Passed
+Unigram + Bigram,Correlation matrix symmetric,True,Passed
+Unigram + Bigram,Nonconstant correlation diagonal valid,True,Passed
+Unigram + Bigram,Exact descriptions have identical vectors,True,Passed
+Unigram + Bigram,Document distances finite,True,Passed
+Unigram + Bigram,All document technical checks passed,True,Passed
+Overall,Original TF-IDF matrices unchanged,True,Passed
+Overall,Original text corpus unchanged,True,Passed
+Overall,Image-text alignment preserved,True,Passed
+Overall,Artifact sample-feature mapping valid,True,Passed
+Overall,Artifact weights positive,True,Passed
+Overall,Artifact energy within valid range,True,Passed
+Overall,Artifact masks reconcile,True,Passed
+Overall,Artifact and remaining energy reconcile,True,Passed
+Overall,Feature-level records reconcile,True,Passed
+Overall,Document-level records reconcile,True,Passed
+Overall,Readiness counts reconcile,True,Passed

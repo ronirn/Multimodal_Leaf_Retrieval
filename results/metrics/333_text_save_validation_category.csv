@@ -1,0 +1,7 @@
+﻿category,total_checks,passed_checks,success_rate_percent
+Input Alignment,2,2,100
+Unigram,36,36,100
+Unigram + Bigram,36,36,100
+Shared Artifacts,13,13,100
+Query Validation,1,1,100
+Artifact Integrity,20,20,100

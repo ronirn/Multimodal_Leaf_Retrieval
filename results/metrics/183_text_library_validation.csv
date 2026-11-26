@@ -1,0 +1,7 @@
+﻿validation_check,passed,status
+CountVectorizer,True,Passed
+TF-IDF Vectorizer,True,Passed
+Sparse CSR Matrix,True,Passed
+L2 Normalization,True,Passed
+Cosine Similarity,True,Passed
+Query Transformation,True,Passed

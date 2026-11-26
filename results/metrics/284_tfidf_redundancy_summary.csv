@@ -1,0 +1,5 @@
+﻿configuration,pair_type,high_correlation_pairs,identical_feature_pairs
+Unigram,Unigram-Unigram,12,10
+Unigram + Bigram,Unigram-Bigram,103,81
+Unigram + Bigram,Unigram-Unigram,12,10
+Unigram + Bigram,Bigram-Bigram,94,75

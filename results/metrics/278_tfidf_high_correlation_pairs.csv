@@ -1,0 +1,222 @@
+﻿configuration,feature_index_a,feature_index_b,term_a,term_b,ngram_type_a,ngram_type_b,pearson_correlation,absolute_correlation,identical_columns
+Unigram,0,1,agak,asimetris,Unigram,Unigram,1,1,True
+Unigram,8,14,berwarna,dengan,Unigram,Unigram,1,1,True
+Unigram,8,55,berwarna,tepi,Unigram,Unigram,1,1,True
+Unigram,8,65,berwarna,ujung,Unigram,Unigram,1,1,True
+Unigram,9,53,bulat,telur,Unigram,Unigram,1,1,True
+Unigram,12,41,dari,pangkal,Unigram,Unigram,1,1,True
+Unigram,14,55,dengan,tepi,Unigram,Unigram,1,1,True
+Unigram,14,65,dengan,ujung,Unigram,Unigram,1,1,True
+Unigram,15,26,detail,kurang,Unigram,Unigram,0.95410262019307723,0.95410262019307723,False
+Unigram,25,39,keunguan,merah,Unigram,Unigram,0.99999999999999778,0.99999999999999778,True
+Unigram,52,60,tekstur,tidak,Unigram,Unigram,1,1,False
+Unigram,55,65,tepi,ujung,Unigram,Unigram,1,1,True
+Unigram + Bigram,0,1,agak,agak asimetris,Unigram,Bigram,0.99999999999999778,0.99999999999999778,True
+Unigram + Bigram,0,2,agak,asimetris,Unigram,Unigram,0.99999999999999778,0.99999999999999778,True
+Unigram + Bigram,0,3,agak,asimetris dengan,Unigram,Bigram,0.99999999999999778,0.99999999999999778,True
+Unigram + Bigram,1,2,agak asimetris,asimetris,Bigram,Unigram,0.99999999999999778,0.99999999999999778,True
+Unigram + Bigram,1,3,agak asimetris,asimetris dengan,Bigram,Bigram,0.99999999999999778,0.99999999999999778,True
+Unigram + Bigram,2,3,asimetris,asimetris dengan,Unigram,Bigram,0.99999999999999778,0.99999999999999778,True
+Unigram + Bigram,5,8,berbentuk berbentuk,berbentuk hati,Bigram,Bigram,0.99999999999999745,0.99999999999999745,True
+Unigram + Bigram,6,30,berbentuk bulat,bulat,Bigram,Unigram,0.99999999999999933,0.99999999999999933,True
+Unigram + Bigram,6,31,berbentuk bulat,bulat telur,Bigram,Bigram,0.99999999999999933,0.99999999999999933,True
+Unigram + Bigram,6,202,berbentuk bulat,telur,Bigram,Unigram,0.99999999999999933,0.99999999999999933,True
+Unigram + Bigram,7,60,berbentuk elips,elips,Bigram,Unigram,1,1,True
+Unigram + Bigram,7,61,berbentuk elips,elips dengan,Bigram,Bigram,1,1,True
+Unigram + Bigram,9,109,berbentuk lonjong,lonjong,Bigram,Unigram,1,1,True
+Unigram + Bigram,11,62,berbentuk menyerupai,ginjal,Bigram,Unigram,1,1,True
+Unigram + Bigram,11,63,berbentuk menyerupai,ginjal dengan,Bigram,Bigram,1,1,True
+Unigram + Bigram,11,144,berbentuk menyerupai,menyerupai ginjal,Bigram,Bigram,1,1,True
+Unigram + Bigram,13,45,bercabang terlihat,daun bercabang,Bigram,Bigram,0.99999999999999811,0.99999999999999811,True
+Unigram + Bigram,14,15,bergelombang,bergelombang halus,Unigram,Bigram,1,1,True
+Unigram + Bigram,14,65,bergelombang,halus dan,Unigram,Bigram,0.98220163413251127,0.98220163413251127,False
+Unigram + Bigram,14,216,bergelombang,tepi bergelombang,Unigram,Bigram,1,1,True
+Unigram + Bigram,15,65,bergelombang halus,halus dan,Bigram,Bigram,0.98220163413251127,0.98220163413251127,False
+Unigram + Bigram,15,216,bergelombang halus,tepi bergelombang,Bigram,Bigram,1,1,True
+Unigram + Bigram,20,164,berkerut permukaan,permukaan melengkung,Bigram,Bigram,1,1,True
+Unigram + Bigram,23,24,berlekuk,berlekuk membulat,Unigram,Bigram,0.99999999999999978,0.99999999999999978,True
+Unigram + Bigram,23,120,berlekuk,membulat dan,Unigram,Bigram,0.99999999999999978,0.99999999999999978,True
+Unigram + Bigram,23,217,berlekuk,tepi berlekuk,Unigram,Bigram,0.99999999999999978,0.99999999999999978,True
+Unigram + Bigram,24,120,berlekuk membulat,membulat dan,Bigram,Bigram,0.99999999999999978,0.99999999999999978,True
+Unigram + Bigram,24,217,berlekuk membulat,tepi berlekuk,Bigram,Bigram,0.99999999999999978,0.99999999999999978,True
+Unigram + Bigram,26,36,berlipat urat,dan hijau,Bigram,Bigram,1,1,True
+Unigram + Bigram,26,192,berlipat urat,tampak berlipat,Bigram,Bigram,1,1,True
+Unigram + Bigram,26,237,berlipat urat,tua dan,Bigram,Bigram,1,1,True
+Unigram + Bigram,27,40,berwarna,dan ujung,Unigram,Bigram,1,1,True
+Unigram + Bigram,27,46,berwarna,daun berwarna,Unigram,Bigram,1,1,True
+Unigram + Bigram,27,54,berwarna,dengan,Unigram,Unigram,1,1,True
+Unigram + Bigram,27,55,berwarna,dengan tepi,Unigram,Bigram,1,1,True
+Unigram + Bigram,27,166,berwarna,permukaan tampak,Unigram,Bigram,1,1,True
+Unigram + Bigram,27,215,berwarna,tepi,Unigram,Unigram,1,1,True
+Unigram + Bigram,27,243,berwarna,ujung,Unigram,Unigram,1,1,True
+Unigram + Bigram,28,74,berwarna hijau,hijau,Bigram,Unigram,0.95114796183495476,0.95114796183495476,False
+Unigram + Bigram,29,93,berwarna merah,keunguan,Bigram,Unigram,1,1,True
+Unigram + Bigram,29,94,berwarna merah,keunguan berbentuk,Bigram,Bigram,1,1,True
+Unigram + Bigram,29,155,berwarna merah,merah,Bigram,Unigram,1,1,True
+Unigram + Bigram,29,156,berwarna merah,merah keunguan,Bigram,Bigram,1,1,True
+Unigram + Bigram,30,31,bulat,bulat telur,Unigram,Bigram,0.99999999999999933,0.99999999999999933,True
+Unigram + Bigram,30,202,bulat,telur,Unigram,Unigram,0.99999999999999933,0.99999999999999933,True
+Unigram + Bigram,31,202,bulat telur,telur,Bigram,Unigram,0.99999999999999933,0.99999999999999933,True
+Unigram + Bigram,32,33,cerah,cerah berbentuk,Unigram,Bigram,1,1,True
+Unigram + Bigram,32,75,cerah,hijau cerah,Unigram,Bigram,1,1,True
+Unigram + Bigram,33,75,cerah berbentuk,hijau cerah,Bigram,Bigram,1,1,True
+Unigram + Bigram,35,51,dan bercabang,daun terang,Bigram,Bigram,1,1,True
+Unigram + Bigram,36,192,dan hijau,tampak berlipat,Bigram,Bigram,1,1,True
+Unigram + Bigram,36,237,dan hijau,tua dan,Bigram,Bigram,1,1,True
+Unigram + Bigram,38,91,dan kerutan,kerutan,Bigram,Unigram,1,1,True
+Unigram + Bigram,38,92,dan kerutan,kerutan jelas,Bigram,Bigram,1,1,True
+Unigram + Bigram,39,107,dan lipatan,lipatan halus,Bigram,Bigram,1,1,True
+Unigram + Bigram,39,147,dan lipatan,menyirip dan,Bigram,Bigram,1,1,True
+Unigram + Bigram,40,46,dan ujung,daun berwarna,Bigram,Bigram,1,1,True
+Unigram + Bigram,40,54,dan ujung,dengan,Bigram,Unigram,1,1,True
+Unigram + Bigram,40,55,dan ujung,dengan tepi,Bigram,Bigram,1,1,True
+Unigram + Bigram,40,166,dan ujung,permukaan tampak,Bigram,Bigram,1,1,True
+Unigram + Bigram,40,215,dan ujung,tepi,Bigram,Unigram,1,1,True
+Unigram + Bigram,40,243,dan ujung,ujung,Bigram,Unigram,1,1,True
+Unigram + Bigram,42,43,dari,dari pangkal,Unigram,Bigram,0.99999999999999922,0.99999999999999922,True
+Unigram + Bigram,42,159,dari,pangkal,Unigram,Unigram,0.99999999999999922,0.99999999999999922,True
+Unigram + Bigram,42,249,dari,urat dari,Unigram,Bigram,0.95086805133050012,0.95086805133050012,False
+Unigram + Bigram,43,159,dari pangkal,pangkal,Bigram,Unigram,0.99999999999999922,0.99999999999999922,True
+Unigram + Bigram,43,249,dari pangkal,urat dari,Bigram,Bigram,0.95086805133050012,0.95086805133050012,False
+Unigram + Bigram,46,54,daun berwarna,dengan,Bigram,Unigram,1,1,True
+Unigram + Bigram,46,55,daun berwarna,dengan tepi,Bigram,Bigram,1,1,True
+Unigram + Bigram,46,166,daun berwarna,permukaan tampak,Bigram,Bigram,1,1,True
+Unigram + Bigram,46,215,daun berwarna,tepi,Bigram,Unigram,1,1,True
+Unigram + Bigram,46,243,daun berwarna,ujung,Bigram,Unigram,1,1,True
+Unigram + Bigram,47,67,daun halus,halus terlihat,Bigram,Bigram,1,1,True
+Unigram + Bigram,48,86,daun jelas,jelas dari,Bigram,Bigram,1,1,True
+Unigram + Bigram,48,203,daun jelas,telur agak,Bigram,Bigram,1,1,True
+Unigram + Bigram,53,58,daun tidak,detail tekstur,Bigram,Bigram,1,1,True
+Unigram + Bigram,53,85,daun tidak,jelas dan,Bigram,Bigram,1,1,True
+Unigram + Bigram,53,193,daun tidak,tampak detail,Bigram,Bigram,1,1,True
+Unigram + Bigram,53,200,daun tidak,tekstur,Bigram,Unigram,1,1,True
+Unigram + Bigram,53,201,daun tidak,tekstur tidak,Bigram,Bigram,1,1,True
+Unigram + Bigram,53,218,daun tidak,tepi daun,Bigram,Bigram,1,1,True
+Unigram + Bigram,53,227,daun tidak,terlihat jelas,Bigram,Bigram,1,1,False
+Unigram + Bigram,53,231,daun tidak,tidak,Bigram,Unigram,1,1,False
+Unigram + Bigram,53,232,daun tidak,tidak terlihat,Bigram,Bigram,1,1,False
+Unigram + Bigram,54,55,dengan,dengan tepi,Unigram,Bigram,1,1,True
+Unigram + Bigram,54,166,dengan,permukaan tampak,Unigram,Bigram,1,1,True
+Unigram + Bigram,54,215,dengan,tepi,Unigram,Unigram,1,1,True
+Unigram + Bigram,54,243,dengan,ujung,Unigram,Unigram,1,1,True
+Unigram + Bigram,55,166,dengan tepi,permukaan tampak,Bigram,Bigram,1,1,True
+Unigram + Bigram,55,215,dengan tepi,tepi,Bigram,Unigram,1,1,True
+Unigram + Bigram,55,243,dengan tepi,ujung,Bigram,Unigram,1,1,True
+Unigram + Bigram,56,66,detail,halus kurang,Unigram,Bigram,0.95421774776038915,0.95421774776038915,False
+Unigram + Bigram,56,95,detail,kurang,Unigram,Unigram,0.95421774776038915,0.95421774776038915,False
+Unigram + Bigram,56,96,detail,kurang jelas,Unigram,Bigram,0.95421774776038915,0.95421774776038915,False
+Unigram + Bigram,58,85,detail tekstur,jelas dan,Bigram,Bigram,1,1,True
+Unigram + Bigram,58,193,detail tekstur,tampak detail,Bigram,Bigram,1,1,True
+Unigram + Bigram,58,200,detail tekstur,tekstur,Bigram,Unigram,1,1,True
+Unigram + Bigram,58,201,detail tekstur,tekstur tidak,Bigram,Bigram,1,1,True
+Unigram + Bigram,58,218,detail tekstur,tepi daun,Bigram,Bigram,1,1,True
+Unigram + Bigram,58,227,detail tekstur,terlihat jelas,Bigram,Bigram,1,1,False
+Unigram + Bigram,58,231,detail tekstur,tidak,Bigram,Unigram,1,1,False
+Unigram + Bigram,58,232,detail tekstur,tidak terlihat,Bigram,Bigram,1,1,False
+Unigram + Bigram,59,99,detail urat,kusam detail,Bigram,Bigram,0.99999999999999589,0.99999999999999589,True
+Unigram + Bigram,60,61,elips,elips dengan,Unigram,Bigram,1,1,True
+Unigram + Bigram,62,63,ginjal,ginjal dengan,Unigram,Bigram,1,1,True
+Unigram + Bigram,62,144,ginjal,menyerupai ginjal,Unigram,Bigram,1,1,True
+Unigram + Bigram,63,144,ginjal dengan,menyerupai ginjal,Bigram,Bigram,1,1,True
+Unigram + Bigram,65,216,halus dan,tepi bergelombang,Bigram,Bigram,0.98220163413251127,0.98220163413251127,False
+Unigram + Bigram,66,95,halus kurang,kurang,Bigram,Unigram,0.99999999999999611,0.99999999999999611,True
+Unigram + Bigram,66,96,halus kurang,kurang jelas,Bigram,Bigram,0.99999999999999611,0.99999999999999611,True
+Unigram + Bigram,76,89,hijau kekuningan,kekuningan,Bigram,Unigram,1,1,True
+Unigram + Bigram,76,90,hijau kekuningan,kekuningan berbentuk,Bigram,Bigram,1,1,True
+Unigram + Bigram,77,167,hijau pucat,pucat,Bigram,Unigram,1,1,True
+Unigram + Bigram,77,168,hijau pucat,pucat berbentuk,Bigram,Bigram,1,1,True
+Unigram + Bigram,78,182,hijau sedang,sedang,Bigram,Unigram,0.99999999999999734,0.99999999999999734,True
+Unigram + Bigram,78,183,hijau sedang,sedang berbentuk,Bigram,Bigram,0.98225150093972313,0.98225150093972313,False
+Unigram + Bigram,79,235,hijau tua,tua,Bigram,Unigram,0.96945843724715897,0.96945843724715897,False
+Unigram + Bigram,79,236,hijau tua,tua berbentuk,Bigram,Bigram,0.95801586605933875,0.95801586605933875,False
+Unigram + Bigram,80,258,hijau zaitun,zaitun,Bigram,Unigram,1,1,True
+Unigram + Bigram,80,259,hijau zaitun,zaitun berbentuk,Bigram,Bigram,0.95587767396433809,0.95587767396433809,False
+Unigram + Bigram,82,241,hingga runcing,tumpul,Bigram,Unigram,1,1,True
+Unigram + Bigram,82,242,hingga runcing,tumpul hingga,Bigram,Bigram,1,1,True
+Unigram + Bigram,82,247,hingga runcing,ujung tumpul,Bigram,Bigram,1,1,True
+Unigram + Bigram,83,184,hingga tua,sedang hingga,Bigram,Bigram,1,1,True
+Unigram + Bigram,85,193,jelas dan,tampak detail,Bigram,Bigram,1,1,True
+Unigram + Bigram,85,200,jelas dan,tekstur,Bigram,Unigram,1,1,True
+Unigram + Bigram,85,201,jelas dan,tekstur tidak,Bigram,Bigram,1,1,True
+Unigram + Bigram,85,218,jelas dan,tepi daun,Bigram,Bigram,1,1,True
+Unigram + Bigram,85,227,jelas dan,terlihat jelas,Bigram,Bigram,1,1,False
+Unigram + Bigram,85,231,jelas dan,tidak,Bigram,Unigram,1,1,False
+Unigram + Bigram,85,232,jelas dan,tidak terlihat,Bigram,Bigram,1,1,False
+Unigram + Bigram,86,203,jelas dari,telur agak,Bigram,Bigram,1,1,True
+Unigram + Bigram,89,90,kekuningan,kekuningan berbentuk,Unigram,Bigram,1,1,True
+Unigram + Bigram,91,92,kerutan,kerutan jelas,Unigram,Bigram,1,1,True
+Unigram + Bigram,93,94,keunguan,keunguan berbentuk,Unigram,Bigram,1,1,True
+Unigram + Bigram,93,155,keunguan,merah,Unigram,Unigram,1,1,True
+Unigram + Bigram,93,156,keunguan,merah keunguan,Unigram,Bigram,1,1,True
+Unigram + Bigram,94,155,keunguan berbentuk,merah,Bigram,Unigram,1,1,True
+Unigram + Bigram,94,156,keunguan berbentuk,merah keunguan,Bigram,Bigram,1,1,True
+Unigram + Bigram,95,96,kurang,kurang jelas,Unigram,Bigram,0.99999999999999611,0.99999999999999611,True
+Unigram + Bigram,97,194,kusam,tampak kusam,Unigram,Bigram,1,1,True
+Unigram + Bigram,100,165,kusam permukaan,permukaan sedikit,Bigram,Bigram,1,1,True
+Unigram + Bigram,103,104,lebar,lebar dengan,Unigram,Bigram,0.99999999999999967,0.99999999999999967,True
+Unigram + Bigram,107,147,lipatan halus,menyirip dan,Bigram,Bigram,1,1,True
+Unigram + Bigram,114,149,melengkung terlihat,menyirip melengkung,Bigram,Bigram,1,1,True
+Unigram + Bigram,117,118,memanjang jelas,memanjang terlipat,Bigram,Bigram,1,1,True
+Unigram + Bigram,119,124,membulat,membulat permukaan,Unigram,Bigram,0.96897142976343442,0.96897142976343442,False
+Unigram + Bigram,119,244,membulat,ujung membulat,Unigram,Bigram,0.96897142976343442,0.96897142976343442,False
+Unigram + Bigram,120,217,membulat dan,tepi berlekuk,Bigram,Bigram,0.99999999999999978,0.99999999999999978,True
+Unigram + Bigram,123,145,membulat menyerupai,menyerupai hati,Bigram,Bigram,1,1,True
+Unigram + Bigram,124,244,membulat permukaan,ujung membulat,Bigram,Bigram,0.99999999999999933,0.99999999999999933,True
+Unigram + Bigram,131,252,menjari,urat menjari,Unigram,Bigram,1,1,True
+Unigram + Bigram,136,189,menjari sedikit,sedikit terlipat,Bigram,Bigram,1,1,True
+Unigram + Bigram,141,163,menonjol permukaan,permukaan berkerut,Bigram,Bigram,1,1,True
+Unigram + Bigram,146,254,menyirip,urat menyirip,Unigram,Bigram,1,1,True
+Unigram + Bigram,153,223,menyirip teratur,teratur,Bigram,Unigram,1,1,True
+Unigram + Bigram,153,224,menyirip teratur,teratur terlihat,Bigram,Bigram,1,1,True
+Unigram + Bigram,155,156,merah,merah keunguan,Unigram,Bigram,1,1,True
+Unigram + Bigram,157,158,meruncing,meruncing permukaan,Unigram,Bigram,1,1,True
+Unigram + Bigram,157,245,meruncing,ujung meruncing,Unigram,Bigram,1,1,True
+Unigram + Bigram,158,245,meruncing permukaan,ujung meruncing,Bigram,Bigram,1,1,True
+Unigram + Bigram,159,249,pangkal,urat dari,Unigram,Bigram,0.95086805133050012,0.95086805133050012,False
+Unigram + Bigram,166,215,permukaan tampak,tepi,Bigram,Unigram,1,1,True
+Unigram + Bigram,166,243,permukaan tampak,ujung,Bigram,Unigram,1,1,True
+Unigram + Bigram,167,168,pucat,pucat berbentuk,Unigram,Bigram,1,1,True
+Unigram + Bigram,170,219,rata dan,tepi rata,Bigram,Bigram,1,1,True
+Unigram + Bigram,174,175,relatif,relatif rata,Unigram,Bigram,1,1,True
+Unigram + Bigram,174,196,relatif,tampak relatif,Unigram,Bigram,1,1,True
+Unigram + Bigram,175,196,relatif rata,tampak relatif,Bigram,Bigram,1,1,True
+Unigram + Bigram,176,177,runcing,runcing permukaan,Unigram,Bigram,1,1,True
+Unigram + Bigram,176,246,runcing,ujung runcing,Unigram,Bigram,0.97010243104702054,0.97010243104702054,False
+Unigram + Bigram,177,246,runcing permukaan,ujung runcing,Bigram,Bigram,0.97010243104702054,0.97010243104702054,False
+Unigram + Bigram,180,181,sangat,sangat mengilap,Unigram,Bigram,1,1,True
+Unigram + Bigram,180,197,sangat,tampak sangat,Unigram,Bigram,1,1,True
+Unigram + Bigram,181,197,sangat mengilap,tampak sangat,Bigram,Bigram,1,1,True
+Unigram + Bigram,182,183,sedang,sedang berbentuk,Unigram,Bigram,0.98225150093972313,0.98225150093972313,False
+Unigram + Bigram,192,237,tampak berlipat,tua dan,Bigram,Bigram,1,1,True
+Unigram + Bigram,193,200,tampak detail,tekstur,Bigram,Unigram,1,1,True
+Unigram + Bigram,193,201,tampak detail,tekstur tidak,Bigram,Bigram,1,1,True
+Unigram + Bigram,193,218,tampak detail,tepi daun,Bigram,Bigram,1,1,True
+Unigram + Bigram,193,227,tampak detail,terlihat jelas,Bigram,Bigram,1,1,False
+Unigram + Bigram,193,231,tampak detail,tidak,Bigram,Unigram,1,1,False
+Unigram + Bigram,193,232,tampak detail,tidak terlihat,Bigram,Bigram,1,1,False
+Unigram + Bigram,200,201,tekstur,tekstur tidak,Unigram,Bigram,1,1,True
+Unigram + Bigram,200,218,tekstur,tepi daun,Unigram,Bigram,1,1,True
+Unigram + Bigram,200,227,tekstur,terlihat jelas,Unigram,Bigram,1,1,False
+Unigram + Bigram,200,231,tekstur,tidak,Unigram,Unigram,1,1,False
+Unigram + Bigram,200,232,tekstur,tidak terlihat,Unigram,Bigram,1,1,False
+Unigram + Bigram,201,218,tekstur tidak,tepi daun,Bigram,Bigram,1,1,True
+Unigram + Bigram,201,227,tekstur tidak,terlihat jelas,Bigram,Bigram,1,1,False
+Unigram + Bigram,201,231,tekstur tidak,tidak,Bigram,Unigram,1,1,False
+Unigram + Bigram,201,232,tekstur tidak,tidak terlihat,Bigram,Bigram,1,1,False
+Unigram + Bigram,208,240,tengah,tulang tengah,Unigram,Bigram,0.9733251154827891,0.9733251154827891,False
+Unigram + Bigram,214,233,tengah tipis,tipis,Bigram,Unigram,1,1,True
+Unigram + Bigram,214,234,tengah tipis,tipis terlihat,Bigram,Bigram,1,1,True
+Unigram + Bigram,215,243,tepi,ujung,Unigram,Unigram,1,1,True
+Unigram + Bigram,218,227,tepi daun,terlihat jelas,Bigram,Bigram,1,1,False
+Unigram + Bigram,218,231,tepi daun,tidak,Bigram,Unigram,1,1,False
+Unigram + Bigram,218,232,tepi daun,tidak terlihat,Bigram,Bigram,1,1,False
+Unigram + Bigram,223,224,teratur,teratur terlihat,Unigram,Bigram,1,1,True
+Unigram + Bigram,227,231,terlihat jelas,tidak,Bigram,Unigram,1,1,True
+Unigram + Bigram,227,232,terlihat jelas,tidak terlihat,Bigram,Bigram,1,1,True
+Unigram + Bigram,231,232,tidak,tidak terlihat,Unigram,Bigram,1,1,True
+Unigram + Bigram,233,234,tipis,tipis terlihat,Unigram,Bigram,1,1,True
+Unigram + Bigram,235,236,tua,tua berbentuk,Unigram,Bigram,0.98897309569815828,0.98897309569815828,False
+Unigram + Bigram,241,242,tumpul,tumpul hingga,Unigram,Bigram,1,1,True
+Unigram + Bigram,241,247,tumpul,ujung tumpul,Unigram,Bigram,1,1,True
+Unigram + Bigram,242,247,tumpul hingga,ujung tumpul,Bigram,Bigram,1,1,True
+Unigram + Bigram,258,259,zaitun,zaitun berbentuk,Unigram,Bigram,0.95587767396433809,0.95587767396433809,False

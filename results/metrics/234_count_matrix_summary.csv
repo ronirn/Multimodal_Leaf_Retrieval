@@ -1,0 +1,3 @@
+﻿configuration,number_of_documents,vocabulary_size,total_elements,nonzero_elements,zero_elements,density_percent,sparsity_percent,minimum_nonzero_terms_per_document,maximum_nonzero_terms_per_document,mean_nonzero_terms_per_document,empty_documents,sparse_memory_bytes,dense_memory_bytes,memory_reduction_percent,matrix_format,data_type,construction_time_ms
+Unigram,104,68,7072,2086,4986,29.49660633484163,70.50339366515837,17,23,20.057692307692307,0,25452,56576,55.012726244343888,csr,int64,2.713699999731034
+Unigram + Bigram,104,261,27144,4166,22978,15.347774830533451,84.652225169466547,35,46,40.057692307692307,0,50412,217152,76.784924845269671,csr,int64,5.3925000011076918

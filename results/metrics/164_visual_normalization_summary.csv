@@ -1,0 +1,22 @@
+﻿Indicator,Result
+Total samples,104
+HSV feature dimension,64
+GLCM feature dimension,72
+Hu Moments feature dimension,7
+Total visual feature dimension,143
+HSV SD floor,0.001
+Features adjusted by SD floor,15
+Constant reference features,0
+Group balancing applied,True
+Mathematical validation checks,21
+Mathematical checks passed,21
+Single-query consistency checks,9
+Single-query consistency checks passed,9
+Total NaN values,0
+Total infinite values,0
+Features removed,0
+Samples removed,0
+Generated visualizations,4
+Normalization fit scope,Full Dataset - Gallery Development
+Evaluation requires reference-only refit,True
+Final feature concatenation completed,False

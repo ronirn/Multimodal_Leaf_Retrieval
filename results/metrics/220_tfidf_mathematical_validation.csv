@@ -1,0 +1,3 @@
+﻿configuration,test_documents,test_feature_dimension,idf_maximum_difference,tfidf_maximum_difference,minimum_vector_norm,maximum_vector_norm,query_consistency,unknown_query_nonzero_values,passed
+Unigram,3,6,0,0,0.99999999999999989,1.0000000000000002,True,0,True
+Unigram + Bigram,3,12,0,0,0.99999999999999978,1,True,0,True

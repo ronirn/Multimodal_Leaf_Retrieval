@@ -1,0 +1,63 @@
+﻿category,validation_check,passed,status
+Input Artifacts,All required input artifacts available,True,Passed
+Metadata,Visual metadata required columns available,True,Passed
+Metadata,Text metadata required columns available,True,Passed
+Metadata,Processed metadata required columns available,True,Passed
+Sample Identity,Visual feature IDs valid and unique,True,Passed
+Sample Identity,Text feature IDs valid and unique,True,Passed
+Sample Identity,Visual metadata IDs valid and unique,True,Passed
+Sample Identity,Text metadata IDs valid and unique,True,Passed
+Sample Identity,Processed metadata IDs valid and unique,True,Passed
+Sample Coverage,No Missing Text Sample,True,Passed
+Sample Coverage,No Missing Visual Sample,True,Passed
+Sample Coverage,No Missing Source Metadata,True,Passed
+Sample Coverage,No Unrepresented Source Sample,True,Passed
+Row Order,Visual and text feature order identical,True,Passed
+Row Order,Saved visual IDs match Cell 4 visual IDs,True,Passed
+Row Order,Visual metadata order matches visual matrix,True,Passed
+Row Order,Text metadata order matches text matrix,True,Passed
+Row Order,Text label order matches validated labels,True,Passed
+Feature Matrix,Visual - Normalized dimensions valid,True,Passed
+Feature Matrix,Visual - Normalized finite values,True,Passed
+Feature Matrix,Visual - Raw dimensions valid,True,Passed
+Feature Matrix,Visual - Raw finite values,True,Passed
+Feature Matrix,Visual - Baseline dimensions valid,True,Passed
+Feature Matrix,Visual - Baseline finite values,True,Passed
+Feature Matrix,Text - Unigram dimensions valid,True,Passed
+Feature Matrix,Text - Unigram finite values,True,Passed
+Feature Matrix,Text - Unigram + Bigram dimensions valid,True,Passed
+Feature Matrix,Text - Unigram + Bigram finite values,True,Passed
+Text Features,Unigram CSR format,True,Passed
+Text Features,Unigram nonnegative weights,True,Passed
+Text Features,Unigram no zero document vectors,True,Passed
+Text Features,Unigram unit L2 norm,True,Passed
+Text Features,Unigram vocabulary dimension,True,Passed
+Text Features,Unigram + Bigram CSR format,True,Passed
+Text Features,Unigram + Bigram nonnegative weights,True,Passed
+Text Features,Unigram + Bigram no zero document vectors,True,Passed
+Text Features,Unigram + Bigram unit L2 norm,True,Passed
+Text Features,Unigram + Bigram vocabulary dimension,True,Passed
+Metadata,Source metadata aligned with feature order,True,Passed
+Metadata,nama_file consistent across all sources,True,Passed
+Metadata,kelas consistent across all sources,True,Passed
+Metadata,tampilan_daun consistent across all sources,True,Passed
+Metadata,TF-IDF label array matches source metadata,True,Passed
+Text Corpus,Validated corpus matches aligned source descriptions,True,Passed
+Text Corpus,All aligned descriptions nonempty,True,Passed
+Text Corpus,Unigram row features reproduced,True,Passed
+Text Corpus,Unigram + Bigram row features reproduced,True,Passed
+Overall Alignment,All source samples technically valid,True,Passed
+Overall Alignment,All sample-level identity checks passed,True,Passed
+Metadata Integration,Integrated metadata sample IDs unique,True,Passed
+Metadata Integration,Integrated metadata order matches both modalities,True,Passed
+Metadata Integration,Original metadata and review flags preserved,True,Passed
+Class Distribution,Class-level counts reconcile,True,Passed
+Class Distribution,All classes have complete alignment,True,Passed
+Artifact Integrity,visual_features_normalized.npy checksum matches manifest,True,Passed
+Artifact Integrity,visual_features_raw.npy checksum matches manifest,True,Passed
+Artifact Integrity,visual_features_baseline.npy checksum matches manifest,True,Passed
+Artifact Integrity,visual_sample_ids.npy checksum matches manifest,True,Passed
+Artifact Integrity,visual_feature_metadata.csv checksum matches manifest,True,Passed
+Overall Alignment,Expected total sample count,True,Passed
+Overall Alignment,No samples failed alignment,True,Passed
+Overall Alignment,All modality row counts identical,True,Passed

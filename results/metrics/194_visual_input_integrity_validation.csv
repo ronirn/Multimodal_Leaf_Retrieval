@@ -1,0 +1,5 @@
+﻿filename,size_matches,checksum_matches,passed
+visual_features_normalized.npy,True,True,True
+visual_sample_ids.npy,True,True,True
+visual_feature_metadata.csv,True,True,True
+visual_feature_config.json,True,True,True

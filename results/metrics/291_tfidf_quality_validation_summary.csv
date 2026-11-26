@@ -1,0 +1,36 @@
+﻿Indicator,Result
+Total documents,104
+Total configurations,2
+Total feature records,329
+Total document quality records,208
+Exact duplicate description groups,8
+Exact duplicate description members,17
+Exact duplicate description pairs,10
+Near-duplicate description pairs,75
+Cross-class near-duplicate pairs,5
+Constant feature records,0
+Low-variance feature records,0
+High-sparsity feature records,160
+High-correlation feature pairs,221
+Identical feature column pairs,176
+Identical document vector pairs,20
+Cross-class identical document pairs,0
+Documents with potential artifact features,104
+Mean artifact energy percent,2.5018490930827957
+Minimum artifact energy percent,0.6614594185936931
+Maximum artifact energy percent,8.19484263540754
+Technical validation checks,39
+Technical validation checks passed,39
+Technical validation checks failed,0
+Original TF-IDF matrices unchanged,True
+Generated figures,5
+Analysis scope,Exploratory Full-Gallery Analysis
+Features removed,0
+Samples removed,0
+Descriptions modified,0
+Vectorizers refitted,False
+Feature selection applied,False
+Manual data review still required,True
+Independent evaluation requires reference-only refit,True
+Independent retrieval evaluation completed,False
+Text feature quality validation completed,True

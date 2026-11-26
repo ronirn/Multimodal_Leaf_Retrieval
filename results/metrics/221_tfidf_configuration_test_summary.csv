@@ -1,0 +1,3 @@
+﻿configuration,total_checks,passed_checks,failed_checks,success_rate
+Unigram,13,13,0,100
+Unigram + Bigram,13,13,0,100

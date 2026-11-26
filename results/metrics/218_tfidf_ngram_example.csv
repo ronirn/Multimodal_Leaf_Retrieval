@@ -1,0 +1,18 @@
+﻿term,ngram_type
+daun,Unigram
+berwarna,Unigram
+hijau,Unigram
+tua,Unigram
+berbentuk,Unigram
+oval,Unigram
+dengan,Unigram
+permukaan,Unigram
+licin,Unigram
+daun berwarna,Bigram
+berwarna hijau,Bigram
+hijau tua,Bigram
+tua berbentuk,Bigram
+berbentuk oval,Bigram
+oval dengan,Bigram
+dengan permukaan,Bigram
+permukaan licin,Bigram

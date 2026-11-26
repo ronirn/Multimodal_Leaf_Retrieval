@@ -1,0 +1,4 @@
+﻿feature_group,start_index,end_index,start_column,end_column,feature_dimension,feature_names_match,feature_values_match,maximum_difference,passed
+HSV,0,63,1,64,64,True,True,0,True
+GLCM,64,135,65,136,72,True,True,0,True
+Hu Moments,136,142,137,143,7,True,True,0,True

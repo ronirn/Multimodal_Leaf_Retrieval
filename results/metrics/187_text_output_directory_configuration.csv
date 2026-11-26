@@ -1,0 +1,4 @@
+﻿directory_name,relative_path,previously_exists,exists,status
+Text Feature Artifacts,dataset/features/text,False,True,Created
+Text Feature Visualizations,results/figures/text_feature_extraction,False,True,Created
+Metrics and Reports,results/metrics,True,True,Already Available

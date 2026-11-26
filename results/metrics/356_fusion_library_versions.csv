@@ -1,0 +1,13 @@
+﻿Library,Version
+Python,3.13.14
+NumPy,2.5.5
+Pandas,3.1.1
+SciPy,1.18.1
+Scikit-learn,1.9.1
+Joblib,1.6.0
+OpenCV,5.1.0
+Pillow,13.0.0
+Matplotlib,3.11.2
+Seaborn,0.13.2
+TQDM,4.70.1
+IPython,9.19.1

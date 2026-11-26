@@ -1,0 +1,3 @@
+﻿configuration,flagged_artifact_features,documents_with_flagged_features,mean_artifact_energy_percent,maximum_artifact_energy_percent,automatic_removal_applied,manual_review_required
+Unigram,0,0,0,0,False,True
+Unigram + Bigram,4,104,2.5018490930827957,8.1948426354075412,False,True

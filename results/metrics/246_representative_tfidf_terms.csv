@@ -1,0 +1,101 @@
+﻿configuration,sample_id,kelas,rank,feature_index,term,tfidf_weight
+Unigram,leaf_165d2f32c7fda707,Mangkok,1,33,membulat,0.50926589015245483
+Unigram,leaf_165d2f32c7fda707,Mangkok,2,63,tulang,0.31899089197659264
+Unigram,leaf_165d2f32c7fda707,Mangkok,3,34,mengilap,0.30968741048605675
+Unigram,leaf_165d2f32c7fda707,Mangkok,4,13,daun,0.27900104205292969
+Unigram,leaf_165d2f32c7fda707,Mangkok,5,51,tampak,0.27900104205292969
+Unigram,leaf_165d2f32c7fda707,Mangkok,6,5,berkerut,0.2608339891154034
+Unigram,leaf_165d2f32c7fda707,Mangkok,7,4,bergelombang,0.24581945538214395
+Unigram,leaf_165d2f32c7fda707,Mangkok,8,62,tua,0.24023869035969483
+Unigram,leaf_165d2f32c7fda707,Mangkok,9,18,halus,0.20856405769312328
+Unigram,leaf_165d2f32c7fda707,Mangkok,10,20,hijau,0.14630677434906736
+Unigram,leaf_c29e2560b188fb2c,Salam,1,61,tipis,0.5465286578697135
+Unigram,leaf_c29e2560b188fb2c,Salam,2,46,runcing,0.29850571423095695
+Unigram,leaf_c29e2560b188fb2c,Salam,3,49,sedang,0.27276856052052645
+Unigram,leaf_c29e2560b188fb2c,Salam,4,32,memanjang,0.26827123536152847
+Unigram,leaf_c29e2560b188fb2c,Salam,5,54,tengah,0.26395032203793828
+Unigram,leaf_c29e2560b188fb2c,Salam,6,30,lonjong,0.25578590842792015
+Unigram,leaf_c29e2560b188fb2c,Salam,7,63,tulang,0.25191992693180865
+Unigram,leaf_c29e2560b188fb2c,Salam,8,58,terlihat,0.22809880704030627
+Unigram,leaf_c29e2560b188fb2c,Salam,9,44,rata,0.21928056855771813
+Unigram,leaf_c29e2560b188fb2c,Salam,10,27,kusam,0.21111615494769997
+Unigram,leaf_df16548c53396aeb,Sambang Darah,1,25,keunguan,0.38726709371134654
+Unigram,leaf_df16548c53396aeb,Sambang Darah,2,39,merah,0.38726709371134654
+Unigram,leaf_df16548c53396aeb,Sambang Darah,3,47,samar,0.33604605140721533
+Unigram,leaf_df16548c53396aeb,Sambang Darah,4,46,runcing,0.27168666235713135
+Unigram,leaf_df16548c53396aeb,Sambang Darah,5,32,memanjang,0.24416858059007096
+Unigram,leaf_df16548c53396aeb,Sambang Darah,6,38,menyirip,0.24416858059007096
+Unigram,leaf_df16548c53396aeb,Sambang Darah,7,54,tengah,0.24023587691555304
+Unigram,leaf_df16548c53396aeb,Sambang Darah,8,30,lonjong,0.23280498973966218
+Unigram,leaf_df16548c53396aeb,Sambang Darah,9,63,tulang,0.22928634483827745
+Unigram,leaf_df16548c53396aeb,Sambang Darah,10,11,dan,0.20054218081900893
+Unigram,leaf_1d4f34320b1b8b8d,Sirih,1,0,agak,0.3795480071734928
+Unigram,leaf_1d4f34320b1b8b8d,Sirih,2,1,asimetris,0.3795480071734928
+Unigram,leaf_1d4f34320b1b8b8d,Sirih,3,12,dari,0.30742733317691229
+Unigram,leaf_1d4f34320b1b8b8d,Sirih,4,41,pangkal,0.30742733317691229
+Unigram,leaf_1d4f34320b1b8b8d,Sirih,5,9,bulat,0.29805701838296628
+Unigram,leaf_1d4f34320b1b8b8d,Sirih,6,53,telur,0.29805701838296628
+Unigram,leaf_1d4f34320b1b8b8d,Sirih,7,67,zaitun,0.26813261305067654
+Unigram,leaf_1d4f34320b1b8b8d,Sirih,8,46,runcing,0.24097327189974402
+Unigram,leaf_1d4f34320b1b8b8d,Sirih,9,22,jelas,0.19187464731822509
+Unigram,leaf_1d4f34320b1b8b8d,Sirih,10,13,daun,0.17787146798668824
+Unigram,leaf_7be37d0f3c7e488a,Tapak Kuda,1,33,membulat,0.3782349324893976
+Unigram,leaf_7be37d0f3c7e488a,Tapak Kuda,2,47,samar,0.3472289573261419
+Unigram,leaf_7be37d0f3c7e488a,Tapak Kuda,3,26,kurang,0.33735406961093178
+Unigram,leaf_7be37d0f3c7e488a,Tapak Kuda,4,15,detail,0.32004594647232537
+Unigram,leaf_7be37d0f3c7e488a,Tapak Kuda,5,6,berlekuk,0.28072782314995753
+Unigram,leaf_7be37d0f3c7e488a,Tapak Kuda,6,35,menjari,0.26553854484540873
+Unigram,leaf_7be37d0f3c7e488a,Tapak Kuda,7,49,sedang,0.25652347867427744
+Unigram,leaf_7be37d0f3c7e488a,Tapak Kuda,8,17,ginjal,0.24823042170680235
+Unigram,leaf_7be37d0f3c7e488a,Tapak Kuda,9,22,jelas,0.22352915588796629
+Unigram,leaf_7be37d0f3c7e488a,Tapak Kuda,10,37,menyerupai,0.20359790779509587
+Unigram + Bigram,leaf_165d2f32c7fda707,Mangkok,1,50,daun tampak,0.37586527771484485
+Unigram + Bigram,leaf_165d2f32c7fda707,Mangkok,2,121,membulat dengan,0.30644079857620476
+Unigram + Bigram,leaf_165d2f32c7fda707,Mangkok,3,239,tulang daun,0.30644079857620476
+Unigram + Bigram,leaf_165d2f32c7fda707,Mangkok,4,21,berkerut tulang,0.29262686520783293
+Unigram + Bigram,leaf_165d2f32c7fda707,Mangkok,5,119,membulat,0.27659740126613486
+Unigram + Bigram,leaf_165d2f32c7fda707,Mangkok,6,126,mengilap berkerut,0.24010927411710462
+Unigram + Bigram,leaf_165d2f32c7fda707,Mangkok,7,10,berbentuk membulat,0.1977089384553965
+Unigram + Bigram,leaf_165d2f32c7fda707,Mangkok,8,195,tampak mengilap,0.19418426256091481
+Unigram + Bigram,leaf_165d2f32c7fda707,Mangkok,9,238,tulang,0.17325340937693381
+Unigram + Bigram,leaf_165d2f32c7fda707,Mangkok,10,125,mengilap,0.16820041279348022
+Unigram + Bigram,leaf_c29e2560b188fb2c,Salam,1,214,tengah tipis,0.34177642472378961
+Unigram + Bigram,leaf_c29e2560b188fb2c,Salam,2,233,tipis,0.34177642472378961
+Unigram + Bigram,leaf_c29e2560b188fb2c,Salam,3,234,tipis terlihat,0.34177642472378961
+Unigram + Bigram,leaf_c29e2560b188fb2c,Salam,4,101,kusam tulang,0.21281816043512905
+Unigram + Bigram,leaf_c29e2560b188fb2c,Salam,5,246,ujung runcing,0.19039810534674059
+Unigram + Bigram,leaf_c29e2560b188fb2c,Salam,6,176,runcing,0.18667313104338382
+Unigram + Bigram,leaf_c29e2560b188fb2c,Salam,7,177,runcing permukaan,0.18667313104338382
+Unigram + Bigram,leaf_c29e2560b188fb2c,Salam,8,111,lonjong memanjang,0.18313926710439901
+Unigram + Bigram,leaf_c29e2560b188fb2c,Salam,9,116,memanjang dengan,0.17657284918466384
+Unigram + Bigram,leaf_c29e2560b188fb2c,Salam,10,183,sedang berbentuk,0.17351033423706649
+Unigram + Bigram,leaf_df16548c53396aeb,Sambang Darah,1,209,tengah dan,0.27701795850851735
+Unigram + Bigram,leaf_df16548c53396aeb,Sambang Darah,2,151,menyirip samar,0.25952355427543333
+Unigram + Bigram,leaf_df16548c53396aeb,Sambang Darah,3,29,berwarna merah,0.23486657637200731
+Unigram + Bigram,leaf_df16548c53396aeb,Sambang Darah,4,41,dan urat,0.23486657637200731
+Unigram + Bigram,leaf_df16548c53396aeb,Sambang Darah,5,93,keunguan,0.23486657637200731
+Unigram + Bigram,leaf_df16548c53396aeb,Sambang Darah,6,94,keunguan berbentuk,0.23486657637200731
+Unigram + Bigram,leaf_df16548c53396aeb,Sambang Darah,7,155,merah,0.23486657637200731
+Unigram + Bigram,leaf_df16548c53396aeb,Sambang Darah,8,156,merah keunguan,0.23486657637200731
+Unigram + Bigram,leaf_df16548c53396aeb,Sambang Darah,9,178,samar,0.20380245799084731
+Unigram + Bigram,leaf_df16548c53396aeb,Sambang Darah,10,101,kusam tulang,0.18784766991596863
+Unigram + Bigram,leaf_1d4f34320b1b8b8d,Sirih,1,48,daun jelas,0.26991257963314735
+Unigram + Bigram,leaf_1d4f34320b1b8b8d,Sirih,2,86,jelas dari,0.26991257963314735
+Unigram + Bigram,leaf_1d4f34320b1b8b8d,Sirih,3,203,telur agak,0.26991257963314735
+Unigram + Bigram,leaf_1d4f34320b1b8b8d,Sirih,4,0,agak,0.23219917717788927
+Unigram + Bigram,leaf_1d4f34320b1b8b8d,Sirih,5,1,agak asimetris,0.23219917717788927
+Unigram + Bigram,leaf_1d4f34320b1b8b8d,Sirih,6,2,asimetris,0.23219917717788927
+Unigram + Bigram,leaf_1d4f34320b1b8b8d,Sirih,7,3,asimetris dengan,0.23219917717788927
+Unigram + Bigram,leaf_1d4f34320b1b8b8d,Sirih,8,42,dari,0.18807732475602698
+Unigram + Bigram,leaf_1d4f34320b1b8b8d,Sirih,9,43,dari pangkal,0.18807732475602698
+Unigram + Bigram,leaf_1d4f34320b1b8b8d,Sirih,10,159,pangkal,0.18807732475602698
+Unigram + Bigram,leaf_7be37d0f3c7e488a,Tapak Kuda,1,179,samar detail,0.28420839926020069
+Unigram + Bigram,leaf_7be37d0f3c7e488a,Tapak Kuda,2,199,tampak urat,0.28420839926020069
+Unigram + Bigram,leaf_7be37d0f3c7e488a,Tapak Kuda,3,135,menjari samar,0.26625990000092681
+Unigram + Bigram,leaf_7be37d0f3c7e488a,Tapak Kuda,4,119,membulat,0.22776348632810797
+Unigram + Bigram,leaf_7be37d0f3c7e488a,Tapak Kuda,5,57,detail halus,0.22301441184513196
+Unigram + Bigram,leaf_7be37d0f3c7e488a,Tapak Kuda,6,178,samar,0.20909247423066293
+Unigram + Bigram,leaf_7be37d0f3c7e488a,Tapak Kuda,7,66,halus kurang,0.20314606722295508
+Unigram + Bigram,leaf_7be37d0f3c7e488a,Tapak Kuda,8,95,kurang,0.20314606722295508
+Unigram + Bigram,leaf_7be37d0f3c7e488a,Tapak Kuda,9,96,kurang jelas,0.20314606722295508
+Unigram + Bigram,leaf_7be37d0f3c7e488a,Tapak Kuda,10,56,detail,0.1927235543104131

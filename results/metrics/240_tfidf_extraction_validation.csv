@@ -1,0 +1,41 @@
+﻿configuration,validation_check,passed,status
+Unigram,Correct document count,True,Passed
+Unigram,Correct feature dimension,True,Passed
+Unigram,Vocabulary order consistency,True,Passed
+Unigram,Vocabulary index consistency,True,Passed
+Unigram,Sparse CSR matrix,True,Passed
+Unigram,Float64 data type,True,Passed
+Unigram,Finite TF-IDF values,True,Passed
+Unigram,Positive stored TF-IDF values,True,Passed
+Unigram,TF-IDF values within normalized range,True,Passed
+Unigram,Finite IDF weights,True,Passed
+Unigram,Valid minimum IDF weight,True,Passed
+Unigram,Expected IDF consistency,True,Passed
+Unigram,Manual IDF consistency,True,Passed
+Unigram,Manual TF-IDF consistency,True,Passed
+Unigram,L2 normalization consistency,True,Passed
+Unigram,No empty feature vectors,True,Passed
+Unigram,Nonzero positions match count matrix,True,Passed
+Unigram,All document calculations consistent,True,Passed
+Unigram,Original corpus unchanged,True,Passed
+Unigram,Image-text alignment preserved,True,Passed
+Unigram + Bigram,Correct document count,True,Passed
+Unigram + Bigram,Correct feature dimension,True,Passed
+Unigram + Bigram,Vocabulary order consistency,True,Passed
+Unigram + Bigram,Vocabulary index consistency,True,Passed
+Unigram + Bigram,Sparse CSR matrix,True,Passed
+Unigram + Bigram,Float64 data type,True,Passed
+Unigram + Bigram,Finite TF-IDF values,True,Passed
+Unigram + Bigram,Positive stored TF-IDF values,True,Passed
+Unigram + Bigram,TF-IDF values within normalized range,True,Passed
+Unigram + Bigram,Finite IDF weights,True,Passed
+Unigram + Bigram,Valid minimum IDF weight,True,Passed
+Unigram + Bigram,Expected IDF consistency,True,Passed
+Unigram + Bigram,Manual IDF consistency,True,Passed
+Unigram + Bigram,Manual TF-IDF consistency,True,Passed
+Unigram + Bigram,L2 normalization consistency,True,Passed
+Unigram + Bigram,No empty feature vectors,True,Passed
+Unigram + Bigram,Nonzero positions match count matrix,True,Passed
+Unigram + Bigram,All document calculations consistent,True,Passed
+Unigram + Bigram,Original corpus unchanged,True,Passed
+Unigram + Bigram,Image-text alignment preserved,True,Passed

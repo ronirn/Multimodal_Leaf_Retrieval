@@ -1,0 +1,167 @@
+{
+    "schema_version": "1.0.0",
+    "project": "Multimodal Medicinal Plant Leaf Retrieval Using Visual and Textual Features",
+    "created_at_utc": "2026-11-26T12:09:32.670746+00:00",
+    "feature_extraction_method": "TF-IDF",
+    "reference_fit_scope": "Full Dataset - Gallery Development",
+    "number_of_samples": 104,
+    "number_of_classes": 5,
+    "class_distribution": {
+        "Mangkok": 20,
+        "Salam": 19,
+        "Sambang Darah": 20,
+        "Sirih": 20,
+        "Tapak Kuda": 25
+    },
+    "baseline_configuration": "Unigram",
+    "alternative_configuration": "Unigram + Bigram",
+    "configurations": {
+        "Unigram": {
+            "slug": "unigram",
+            "matrix_shape": [
+                104,
+                68
+            ],
+            "feature_dimension": 68,
+            "nonzero_values": 2086,
+            "sparsity_percent": 70.50339366515837,
+            "matrix_format": "CSR",
+            "matrix_dtype": "float64",
+            "ngram_range": [
+                1,
+                1
+            ],
+            "vectorizer_parameters": {
+                "analyzer": "word",
+                "binary": false,
+                "decode_error": "strict",
+                "dtype": "<class 'numpy.float64'>",
+                "encoding": "utf-8",
+                "input": "content",
+                "lowercase": true,
+                "max_df": 1.0,
+                "max_features": null,
+                "min_df": 1,
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "norm": "l2",
+                "preprocessor": null,
+                "smooth_idf": true,
+                "stop_words": null,
+                "strip_accents": null,
+                "sublinear_tf": false,
+                "token_pattern": "(?u)\\b\\w\\w+\\b",
+                "tokenizer": null,
+                "use_idf": true,
+                "vocabulary": null
+            },
+            "files": {
+                "matrix": "tfidf_unigram_features.npz",
+                "vectorizer": "tfidf_unigram_vectorizer.joblib",
+                "feature_names": "tfidf_unigram_feature_names.npy",
+                "idf": "tfidf_unigram_idf_weights.npy",
+                "vocabulary": "tfidf_unigram_vocabulary.csv"
+            }
+        },
+        "Unigram + Bigram": {
+            "slug": "unigram_bigram",
+            "matrix_shape": [
+                104,
+                261
+            ],
+            "feature_dimension": 261,
+            "nonzero_values": 4166,
+            "sparsity_percent": 84.65222516946656,
+            "matrix_format": "CSR",
+            "matrix_dtype": "float64",
+            "ngram_range": [
+                1,
+                2
+            ],
+            "vectorizer_parameters": {
+                "analyzer": "word",
+                "binary": false,
+                "decode_error": "strict",
+                "dtype": "<class 'numpy.float64'>",
+                "encoding": "utf-8",
+                "input": "content",
+                "lowercase": true,
+                "max_df": 1.0,
+                "max_features": null,
+                "min_df": 1,
+                "ngram_range": [
+                    1,
+                    2
+                ],
+                "norm": "l2",
+                "preprocessor": null,
+                "smooth_idf": true,
+                "stop_words": null,
+                "strip_accents": null,
+                "sublinear_tf": false,
+                "token_pattern": "(?u)\\b\\w\\w+\\b",
+                "tokenizer": null,
+                "use_idf": true,
+                "vocabulary": null
+            },
+            "files": {
+                "matrix": "tfidf_unigram_bigram_features.npz",
+                "vectorizer": "tfidf_unigram_bigram_vectorizer.joblib",
+                "feature_names": "tfidf_unigram_bigram_feature_names.npy",
+                "idf": "tfidf_unigram_bigram_idf_weights.npy",
+                "vocabulary": "tfidf_unigram_bigram_vocabulary.csv"
+            }
+        }
+    },
+    "text_matching_method": "Cosine Similarity",
+    "text_normalization": "L2",
+    "matrix_storage_format": "Compressed Sparse CSR NPZ",
+    "query_preprocessing_file": "text_query_preprocessing_config.json",
+    "sample_ids_file": "text_sample_ids.npy",
+    "class_labels_file": "text_class_labels.npy",
+    "metadata_file": "multimodal_feature_metadata.csv",
+    "corpus_file": "text_corpus.json",
+    "visual_artifact_checksums": {
+        "normalized_visual": {
+            "filename": "visual_features_normalized.npy",
+            "sha256": "ee895109bff88e88a2ee5e11dadfbf90496b5772a9d0630248064c0969be2647"
+        },
+        "raw_visual": {
+            "filename": "visual_features_raw.npy",
+            "sha256": "fc8f1e228d396ba81d7cd7022ff5aefe51ae83a0e301b0ec4f858a0c2a8e487f"
+        },
+        "baseline_visual": {
+            "filename": "visual_features_baseline.npy",
+            "sha256": "b7f86896292501dc54261d4e63fa47c3f494f7d3936aaf2e45c343a12d1e1567"
+        },
+        "visual_sample_ids": {
+            "filename": "visual_sample_ids.npy",
+            "sha256": "758d6eb8617c04fa4f7635f03204da8de8452f18f4aeb43919f2f56bd78d4869"
+        },
+        "visual_metadata": {
+            "filename": "visual_feature_metadata.csv",
+            "sha256": "5481f6e929630663a1a1c7d01baddb5ff0042efb1e9dfe7be3f14924a764179d"
+        }
+    },
+    "fusion_method": "Score-Level Late Fusion",
+    "feature_selection_applied": false,
+    "features_removed": 0,
+    "samples_removed": 0,
+    "final_text_configuration_selected": false,
+    "manual_data_review_required": true,
+    "evaluation_requires_reference_only_refit": true,
+    "independent_retrieval_evaluation_completed": false,
+    "query_vectorizer_operation": "transform",
+    "self_match_policy": "Exclude query sample ID when applicable",
+    "zero_vector_policy": "Do not generate text-only ranking",
+    "software_versions": {
+        "python": "3.13.14",
+        "numpy": "2.5.5",
+        "pandas": "3.1.1",
+        "scipy": "1.18.1",
+        "scikit_learn": "1.9.1",
+        "joblib": "1.6.0"
+    }
+}

@@ -1,0 +1,41 @@
+﻿Indicator,Result
+Total source samples,104
+Total visual samples,104
+Total text samples,104
+Total aligned samples,104
+Failed alignment samples,0
+Alignment success rate (%),100.0
+Total classes,5
+Visual feature matrix shape,"(104, 143)"
+Unigram feature matrix shape,"(104, 68)"
+Combined feature matrix shape,"(104, 261)"
+Missing visual samples,0
+Missing text samples,0
+Missing source records,0
+Duplicate visual IDs,0
+Duplicate text IDs,0
+Exact row order preserved,True
+Class labels consistent,True
+Filenames consistent,True
+Leaf views consistent,True
+Descriptions consistent,True
+Source initial checks passed,34
+Source pending review,70
+Additional visual checksum verified,True
+Total validation checks,62
+Validation checks passed,62
+Validation checks failed,0
+Generated figures,3
+Samples removed,0
+Feature matrices reordered,False
+Feature selection applied,False
+Vectorizers refitted,False
+Visual features renormalized,False
+Raw visual features retained,True
+Review flags preserved,True
+Final text configuration selected,False
+Multimodal feature concatenation applied,False
+Multimodal score fusion completed,False
+Independent retrieval evaluation completed,False
+Alignment scope,Full-Gallery Multimodal Dataset
+Image-text sample alignment completed,True

@@ -1,0 +1,11 @@
+﻿configuration,kelas,number_of_documents,unique_unigrams,unique_bigrams,total_unique_terms,total_term_occurrences,vocabulary_coverage_percent
+Unigram,Mangkok,20,38,0,38,433,55.882352941176471
+Unigram,Salam,19,41,0,41,393,60.294117647058819
+Unigram,Sambang Darah,20,44,0,44,411,64.705882352941174
+Unigram,Sirih,20,44,0,44,428,64.705882352941174
+Unigram,Tapak Kuda,25,36,0,36,523,52.941176470588239
+Unigram + Bigram,Mangkok,20,38,69,107,846,40.996168582375482
+Unigram + Bigram,Salam,19,41,70,111,767,42.528735632183903
+Unigram + Bigram,Sambang Darah,20,44,75,119,802,45.593869731800766
+Unigram + Bigram,Sirih,20,44,89,133,836,50.957854406130267
+Unigram + Bigram,Tapak Kuda,25,36,59,95,1021,36.398467432950191

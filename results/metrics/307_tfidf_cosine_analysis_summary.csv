@@ -1,0 +1,36 @@
+﻿Indicator,Result
+Total documents,104
+Total classes,5
+Total configurations,2
+Unigram similarity matrix shape,"(104, 104)"
+Combined similarity matrix shape,"(104, 104)"
+Unique document pairs per configuration,5356
+Within-class pairs per configuration,1041
+Cross-class pairs per configuration,4315
+Total pair-level records,10712
+Class-level pair records,30
+Exploratory Top-K match records,2080
+Exploratory query-level records,832
+Representative match records,50
+Baseline within-class mean,0.5390587373983556
+Baseline cross-class mean,0.30389744882563563
+Baseline mean similarity gap,0.23516128857272
+Alternative within-class mean,0.4236656399380405
+Alternative cross-class mean,0.18860892990569975
+Alternative mean similarity gap,0.23505671003234077
+Total validation checks,41
+Validation checks passed,41
+Validation checks failed,0
+Original TF-IDF matrices unchanged,True
+Generated figures,5
+Analysis scope,Exploratory Full-Gallery Analysis
+Self-matches excluded from ranking,True
+Feature selection applied,False
+Features removed,0
+Samples removed,0
+Descriptions modified,0
+Vectorizers refitted,False
+Final text configuration selected,False
+Independent retrieval evaluation completed,False
+Manual data review still required,True
+Cosine similarity analysis completed,True

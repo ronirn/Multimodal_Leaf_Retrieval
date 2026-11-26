@@ -1,0 +1,6 @@
+﻿feature_matrix,number_of_samples,feature_dimension,expected_dimension,matrix_format,nan_values,infinite_values,passed
+Visual - Normalized,104,143,143,Dense,0,0,True
+Visual - Raw,104,143,143,Dense,0,0,True
+Visual - Baseline,104,143,143,Dense,0,0,True
+Text - Unigram,104,68,68,csr,0,0,True
+Text - Unigram + Bigram,104,261,261,csr,0,0,True

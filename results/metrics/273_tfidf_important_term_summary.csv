@@ -1,0 +1,30 @@
+﻿Indicator,Result
+Total documents,104
+Total classes,5
+Global term records,329
+Class-level term records,1645
+Top global term records,30
+Top class term records,100
+Top discriminative term records,100
+Top bigram records,50
+Universal term records,22
+Potential artifact terms,4
+Documents with potential artifacts,104
+Documents with adjacent repeated words,10
+Documents with possible cross-sentence bigrams,104
+High-ranked potential artifact records,2
+Representative term records,50
+Original descriptions available,True
+Total validation checks,32
+Validation checks passed,32
+Validation checks failed,0
+Analysis scope,Exploratory Full-Gallery Analysis
+Original matrices unchanged,True
+Vectorizers refitted,False
+Feature selection applied,False
+Features removed,0
+Samples removed,0
+Descriptions modified,0
+Retrieval performance evaluated,False
+Generated figures,7
+Important term visualization completed,True

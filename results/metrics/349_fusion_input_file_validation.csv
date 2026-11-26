@@ -1,0 +1,33 @@
+﻿artifact,modality,filename,relative_path,exists,size_bytes,size_kib,passed,status
+Processed Metadata,Dataset,metadata_processed.csv,dataset/processed/metadata_processed.csv,True,150719,147.1865234375,True,Available
+hsv_features,Visual,hsv_features.npy,dataset/features/visual/hsv_features.npy,True,53376,52.125,True,Available
+glcm_features,Visual,glcm_features.npy,dataset/features/visual/glcm_features.npy,True,60032,58.625,True,Available
+hu_features,Visual,hu_features.npy,dataset/features/visual/hu_features.npy,True,5952,5.8125,True,Available
+hu_raw_moments,Visual,hu_raw_moments.npy,dataset/features/visual/hu_raw_moments.npy,True,5952,5.8125,True,Available
+raw_features,Visual,visual_features_raw.npy,dataset/features/visual/visual_features_raw.npy,True,119104,116.3125,True,Available
+baseline_features,Visual,visual_features_baseline.npy,dataset/features/visual/visual_features_baseline.npy,True,119104,116.3125,True,Available
+normalized_features,Visual,visual_features_normalized.npy,dataset/features/visual/visual_features_normalized.npy,True,119104,116.3125,True,Available
+sample_ids,Visual,visual_sample_ids.npy,dataset/features/visual/visual_sample_ids.npy,True,8864,8.65625,True,Available
+metadata,Visual,visual_feature_metadata.csv,dataset/features/visual/visual_feature_metadata.csv,True,162971,159.1513671875,True,Available
+feature_index,Visual,visual_feature_index.csv,dataset/features/visual/visual_feature_index.csv,True,6442,6.291015625,True,Available
+normalizer,Visual,visual_normalizer.joblib,dataset/features/visual/visual_normalizer.joblib,True,5086,4.966796875,True,Available
+baseline_normalizer,Visual,baseline_visual_normalizer.joblib,dataset/features/visual/baseline_visual_normalizer.joblib,True,5034,4.916015625,True,Available
+feature_names,Visual,visual_feature_names.json,dataset/features/visual/visual_feature_names.json,True,3367,3.2880859375,True,Available
+configuration,Visual,visual_feature_config.json,dataset/features/visual/visual_feature_config.json,True,18450,18.017578125,True,Available
+matrix,Text - Unigram,tfidf_unigram_features.npz,dataset/features/text/tfidf_unigram_features.npz,True,11080,10.8203125,True,Available
+vectorizer,Text - Unigram,tfidf_unigram_vectorizer.joblib,dataset/features/text/tfidf_unigram_vectorizer.joblib,True,1454,1.419921875,True,Available
+feature_names,Text - Unigram,tfidf_unigram_feature_names.npy,dataset/features/text/tfidf_unigram_feature_names.npy,True,3392,3.3125,True,Available
+idf_weights,Text - Unigram,tfidf_unigram_idf_weights.npy,dataset/features/text/tfidf_unigram_idf_weights.npy,True,672,0.65625,True,Available
+vocabulary,Text - Unigram,tfidf_unigram_vocabulary.csv,dataset/features/text/tfidf_unigram_vocabulary.csv,True,2697,2.6337890625,True,Available
+matrix,Text - Unigram + Bigram,tfidf_unigram_bigram_features.npz,dataset/features/text/tfidf_unigram_bigram_features.npz,True,18183,17.7568359375,True,Available
+vectorizer,Text - Unigram + Bigram,tfidf_unigram_bigram_vectorizer.joblib,dataset/features/text/tfidf_unigram_bigram_vectorizer.joblib,True,3168,3.09375,True,Available
+feature_names,Text - Unigram + Bigram,tfidf_unigram_bigram_feature_names.npy,dataset/features/text/tfidf_unigram_bigram_feature_names.npy,True,21008,20.515625,True,Available
+idf_weights,Text - Unigram + Bigram,tfidf_unigram_bigram_idf_weights.npy,dataset/features/text/tfidf_unigram_bigram_idf_weights.npy,True,2216,2.1640625,True,Available
+vocabulary,Text - Unigram + Bigram,tfidf_unigram_bigram_vocabulary.csv,dataset/features/text/tfidf_unigram_bigram_vocabulary.csv,True,11827,11.5498046875,True,Available
+sample_ids,Text - Shared,text_sample_ids.npy,dataset/features/text/text_sample_ids.npy,True,8864,8.65625,True,Available
+class_labels,Text - Shared,text_class_labels.npy,dataset/features/text/text_class_labels.npy,True,5536,5.40625,True,Available
+metadata,Text - Shared,multimodal_feature_metadata.csv,dataset/features/text/multimodal_feature_metadata.csv,True,157750,154.052734375,True,Available
+corpus,Text - Shared,text_corpus.json,dataset/features/text/text_corpus.json,True,20771,20.2841796875,True,Available
+preprocessing_config,Text - Shared,text_query_preprocessing_config.json,dataset/features/text/text_query_preprocessing_config.json,True,628,0.61328125,True,Available
+feature_config,Text - Shared,text_feature_extraction_config.json,dataset/features/text/text_feature_extraction_config.json,True,6257,6.1103515625,True,Available
+manifest,Text - Shared,text_feature_artifact_manifest.csv,dataset/features/text/text_feature_artifact_manifest.csv,True,3301,3.2236328125,True,Available

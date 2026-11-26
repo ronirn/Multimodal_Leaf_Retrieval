@@ -1,0 +1,105 @@
+﻿sample_id,original_text_row_index,aligned_text_row_index,visual_row_index,kelas,text_quality_status,final_dataset_status,visual_validation_status,aligned
+leaf_165d2f32c7fda707,0,0,0,Mangkok,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_8473270c3702f48b,1,1,1,Mangkok,Passed Initial Check,Ready - Initial Checks Passed,Passed Initial Check,True
+leaf_8f425d66b1e193b9,2,2,2,Mangkok,Passed Initial Check,Ready - Initial Checks Passed,Passed Initial Check,True
+leaf_0ebc8f4f3ee9c8d5,3,3,3,Mangkok,Passed Initial Check,Ready - Initial Checks Passed,Passed Initial Check,True
+leaf_b0c5f55e42499cae,4,4,4,Mangkok,Passed Initial Check,Ready - Initial Checks Passed,Passed Initial Check,True
+leaf_de9e3e4ed5d89dfc,5,5,5,Mangkok,Passed Initial Check,Ready - Initial Checks Passed,Passed Initial Check,True
+leaf_23b789945271fb92,6,6,6,Mangkok,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_84de0dc731018607,7,7,7,Mangkok,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_36d4f083fa652592,8,8,8,Mangkok,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_c9d8d87fbc748d16,9,9,9,Mangkok,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_4de65b11758965f6,10,10,10,Mangkok,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_8f09fd62c7391c0d,11,11,11,Mangkok,Passed Initial Check,Ready - Initial Checks Passed,Passed Initial Check,True
+leaf_a6da65cb0493ceef,12,12,12,Mangkok,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_1a80f5749cc68900,13,13,13,Mangkok,Needs Review,Ready - Pending Review,Needs Review,True
+leaf_ef0854556175e2b0,14,14,14,Mangkok,Needs Review,Ready - Pending Review,Needs Review,True
+leaf_fff6592ee517103e,15,15,15,Mangkok,Passed Initial Check,Ready - Initial Checks Passed,Passed Initial Check,True
+leaf_e9cfa616ea5f1f19,16,16,16,Mangkok,Passed Initial Check,Ready - Initial Checks Passed,Passed Initial Check,True
+leaf_12439b9ebf0eb8d3,17,17,17,Mangkok,Passed Initial Check,Ready - Initial Checks Passed,Passed Initial Check,True
+leaf_de455d31a4df8c43,18,18,18,Mangkok,Passed Initial Check,Ready - Initial Checks Passed,Passed Initial Check,True
+leaf_663a651dd51f9c94,19,19,19,Mangkok,Passed Initial Check,Ready - Initial Checks Passed,Passed Initial Check,True
+leaf_c29e2560b188fb2c,20,20,20,Salam,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_c4840a77b6d0c158,21,21,21,Salam,Passed Initial Check,Ready - Initial Checks Passed,Passed Initial Check,True
+leaf_fd4b025e69b9f321,22,22,22,Salam,Passed Initial Check,Ready - Initial Checks Passed,Passed Initial Check,True
+leaf_45414f432e49469a,23,23,23,Salam,Passed Initial Check,Ready - Initial Checks Passed,Passed Initial Check,True
+leaf_1da6bca6d5320ae2,24,24,24,Salam,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_b8ebef3e9731e352,25,25,25,Salam,Passed Initial Check,Ready - Initial Checks Passed,Passed Initial Check,True
+leaf_8809ccde35d4b945,26,26,26,Salam,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_1ebaf9512209a61f,27,27,27,Salam,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_68b0c81b496519cd,28,28,28,Salam,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_0a8999109a734f1d,29,29,29,Salam,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_ca3c3b7a5db35c1d,30,30,30,Salam,Passed Initial Check,Ready - Initial Checks Passed,Passed Initial Check,True
+leaf_a838808299383884,31,31,31,Salam,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_a7704c0316865cd7,32,32,32,Salam,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_ac463b36b6e61052,33,33,33,Salam,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_fdd0a74681efeff6,34,34,34,Salam,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_9a710afa1505390e,35,35,35,Salam,Passed Initial Check,Ready - Initial Checks Passed,Passed Initial Check,True
+leaf_d12754f94f5ff7fc,36,36,36,Salam,Passed Initial Check,Ready - Initial Checks Passed,Passed Initial Check,True
+leaf_9c7d463a5bb1a561,37,37,37,Salam,Passed Initial Check,Ready - Initial Checks Passed,Passed Initial Check,True
+leaf_a57a1270adf22253,38,38,38,Salam,Passed Initial Check,Ready - Initial Checks Passed,Passed Initial Check,True
+leaf_df16548c53396aeb,39,39,39,Sambang Darah,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_1a45e1e109be76ee,40,40,40,Sambang Darah,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_ad660412d798bd65,41,41,41,Sambang Darah,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_b230b822f6a38f1c,42,42,42,Sambang Darah,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_22cacefa73426c68,43,43,43,Sambang Darah,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_519627b0b7c509da,44,44,44,Sambang Darah,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_e57489e729c801d7,45,45,45,Sambang Darah,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_62ef0ed49ad4e2d3,46,46,46,Sambang Darah,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_ce6b898792146850,47,47,47,Sambang Darah,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_3c3fafa9c7913736,48,48,48,Sambang Darah,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_eacbf33f28cb6b28,49,49,49,Sambang Darah,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_0e58a931923c4e40,50,50,50,Sambang Darah,Passed Initial Check,Ready - Initial Checks Passed,Passed Initial Check,True
+leaf_a21b39e63066049c,51,51,51,Sambang Darah,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_ad626da03abf4532,52,52,52,Sambang Darah,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_45d4826ed41c51b4,53,53,53,Sambang Darah,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_c289208cb093f769,54,54,54,Sambang Darah,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_620d73b8cfb217b6,55,55,55,Sambang Darah,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_d9d0b97961feaeac,56,56,56,Sambang Darah,Passed Initial Check,Ready - Initial Checks Passed,Passed Initial Check,True
+leaf_6e53ecd8713a9128,57,57,57,Sambang Darah,Passed Initial Check,Ready - Initial Checks Passed,Passed Initial Check,True
+leaf_ac5e952a9ae56c36,58,58,58,Sambang Darah,Passed Initial Check,Ready - Initial Checks Passed,Passed Initial Check,True
+leaf_1d4f34320b1b8b8d,59,59,59,Sirih,Passed Initial Check,Ready - Initial Checks Passed,Passed Initial Check,True
+leaf_d0f42a660bf2b3ee,60,60,60,Sirih,Passed Initial Check,Ready - Initial Checks Passed,Passed Initial Check,True
+leaf_1ef1bffd5f4186c1,61,61,61,Sirih,Passed Initial Check,Ready - Initial Checks Passed,Passed Initial Check,True
+leaf_a280fa2ae09d329b,62,62,62,Sirih,Passed Initial Check,Ready - Initial Checks Passed,Passed Initial Check,True
+leaf_6fcc4b52889490ca,63,63,63,Sirih,Passed Initial Check,Ready - Initial Checks Passed,Passed Initial Check,True
+leaf_1193856cea5a1287,64,64,64,Sirih,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_3f1cc0b714c4164e,65,65,65,Sirih,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_347efec2afc78e44,66,66,66,Sirih,Passed Initial Check,Ready - Initial Checks Passed,Passed Initial Check,True
+leaf_9dad4bfe9db99263,67,67,67,Sirih,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_57905de77bc7f811,68,68,68,Sirih,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_1b922f2bd904d1fc,69,69,69,Sirih,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_6397705392627f3c,70,70,70,Sirih,Needs Review,Ready - Pending Review,Needs Review,True
+leaf_c8bf421408781594,71,71,71,Sirih,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_66c00e535609f186,72,72,72,Sirih,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_2574445c571a7dc3,73,73,73,Sirih,Needs Review,Ready - Pending Review,Needs Review,True
+leaf_afba9495e801278e,74,74,74,Sirih,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_693f93e999e7c6a3,75,75,75,Sirih,Passed Initial Check,Ready - Initial Checks Passed,Passed Initial Check,True
+leaf_7f9c59b7594e5833,76,76,76,Sirih,Passed Initial Check,Ready - Initial Checks Passed,Passed Initial Check,True
+leaf_338b7ee25be7d52d,77,77,77,Sirih,Passed Initial Check,Ready - Initial Checks Passed,Passed Initial Check,True
+leaf_47ab03f4e71a0717,78,78,78,Sirih,Passed Initial Check,Ready - Initial Checks Passed,Passed Initial Check,True
+leaf_7be37d0f3c7e488a,79,79,79,Tapak Kuda,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_328651beb5d48483,80,80,80,Tapak Kuda,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_22bf36f7b3abd78c,81,81,81,Tapak Kuda,Needs Review,Ready - Pending Review,Needs Review,True
+leaf_8129d1a748a118de,82,82,82,Tapak Kuda,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_549670d83912aed7,83,83,83,Tapak Kuda,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_655b2ffd3499bbea,84,84,84,Tapak Kuda,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_43ae297ca838aebb,85,85,85,Tapak Kuda,Needs Review,Ready - Pending Review,Needs Review,True
+leaf_28712bf465655732,86,86,86,Tapak Kuda,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_721244faca19b94f,87,87,87,Tapak Kuda,Needs Review,Ready - Pending Review,Needs Review,True
+leaf_bb707568bb3ed9ce,88,88,88,Tapak Kuda,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_d755ad14cfc3f8bf,89,89,89,Tapak Kuda,Needs Review,Ready - Pending Review,Needs Review,True
+leaf_2976a10d6fff3cd5,90,90,90,Tapak Kuda,Needs Review,Ready - Pending Review,Needs Review,True
+leaf_acea8a79416b27c0,91,91,91,Tapak Kuda,Needs Review,Ready - Pending Review,Needs Review,True
+leaf_f72f88757c4de8ba,92,92,92,Tapak Kuda,Needs Review,Ready - Pending Review,Needs Review,True
+leaf_93d488369f0a2cc4,93,93,93,Tapak Kuda,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_25803393f335987a,94,94,94,Tapak Kuda,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_012389d8d324b6c8,95,95,95,Tapak Kuda,Needs Review,Ready - Pending Review,Needs Review,True
+leaf_193e4fc967161d9a,96,96,96,Tapak Kuda,Needs Review,Ready - Pending Review,Needs Review,True
+leaf_d19ceb083d0a7e82,97,97,97,Tapak Kuda,Needs Review,Ready - Pending Review,Needs Review,True
+leaf_8d727458048a81c7,98,98,98,Tapak Kuda,Needs Review,Ready - Pending Review,Needs Review,True
+leaf_8f8d177305fb06f2,99,99,99,Tapak Kuda,Needs Review,Ready - Pending Review,Needs Review,True
+leaf_cef9b535077d5397,100,100,100,Tapak Kuda,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_5fafb790c4773c55,101,101,101,Tapak Kuda,Passed Initial Check,Ready - Pending Review,Needs Review,True
+leaf_055c97f32cf57da5,102,102,102,Tapak Kuda,Needs Review,Ready - Pending Review,Needs Review,True
+leaf_41f02313a5460236,103,103,103,Tapak Kuda,Passed Initial Check,Ready - Pending Review,Needs Review,True

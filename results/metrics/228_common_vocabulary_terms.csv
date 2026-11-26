@@ -1,0 +1,16 @@
+﻿configuration,feature_index,term,ngram_type,term_frequency,document_frequency,document_frequency_ratio,document_frequency_percent,expected_idf,rare_term,common_term,universal_term
+Unigram + Bigram,44,daun,Unigram,121,104,1,100,1,False,True,True
+Unigram + Bigram,4,berbentuk,Unigram,114,104,1,100,1,False,True,True
+Unigram + Bigram,34,dan,Unigram,114,104,1,100,1,False,True,True
+Unigram + Bigram,162,permukaan,Unigram,110,104,1,100,1,False,True,True
+Unigram + Bigram,190,tampak,Unigram,105,104,1,100,1,False,True,True
+Unigram + Bigram,27,berwarna,Unigram,104,104,1,100,1,False,True,True
+Unigram + Bigram,40,dan ujung,Bigram,104,104,1,100,1,False,True,True
+Unigram + Bigram,46,daun berwarna,Bigram,104,104,1,100,1,False,True,True
+Unigram + Bigram,54,dengan,Unigram,104,104,1,100,1,False,True,True
+Unigram + Bigram,55,dengan tepi,Bigram,104,104,1,100,1,False,True,True
+Unigram + Bigram,166,permukaan tampak,Bigram,104,104,1,100,1,False,True,True
+Unigram + Bigram,215,tepi,Unigram,104,104,1,100,1,False,True,True
+Unigram + Bigram,243,ujung,Unigram,104,104,1,100,1,False,True,True
+Unigram + Bigram,74,hijau,Unigram,100,99,0.95192307692307687,95.192307692307693,1.0487901641694319,False,True,False
+Unigram + Bigram,28,berwarna hijau,Bigram,99,99,0.95192307692307687,95.192307692307693,1.0487901641694319,False,True,False

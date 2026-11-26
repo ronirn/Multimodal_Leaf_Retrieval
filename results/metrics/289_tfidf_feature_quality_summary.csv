@@ -1,0 +1,3 @@
+﻿configuration,number_of_documents,feature_dimension,constant_features,low_variance_features,high_sparsity_features,high_correlation_pairs,high_correlation_feature_members,identical_feature_pairs,identical_feature_members,identical_document_pairs,identical_document_members,cross_class_identical_document_pairs,identical_vectors_different_descriptions,technical_valid_documents,technical_failed_documents,nan_values,infinite_values
+Unigram,104,68,0,0,19,12,16,10,12,10,17,0,0,104,0,0,0
+Unigram + Bigram,104,261,0,0,141,209,152,166,138,10,17,0,0,104,0,0,0

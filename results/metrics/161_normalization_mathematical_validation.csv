@@ -1,0 +1,22 @@
+﻿feature_group,validation_check,passed,status
+HSV,Feature dimension preserved,True,Passed
+HSV,Standardized values are finite,True,Passed
+HSV,Normalized values are finite,True,Passed
+HSV,Reference feature means are near zero,True,Passed
+HSV,Standardized SD matches expected SD,True,Passed
+HSV,Group balancing SD is correct,True,Passed
+HSV,Group balancing formula is correct,True,Passed
+GLCM,Feature dimension preserved,True,Passed
+GLCM,Standardized values are finite,True,Passed
+GLCM,Normalized values are finite,True,Passed
+GLCM,Reference feature means are near zero,True,Passed
+GLCM,Standardized SD matches expected SD,True,Passed
+GLCM,Group balancing SD is correct,True,Passed
+GLCM,Group balancing formula is correct,True,Passed
+Hu Moments,Feature dimension preserved,True,Passed
+Hu Moments,Standardized values are finite,True,Passed
+Hu Moments,Normalized values are finite,True,Passed
+Hu Moments,Reference feature means are near zero,True,Passed
+Hu Moments,Standardized SD matches expected SD,True,Passed
+Hu Moments,Group balancing SD is correct,True,Passed
+Hu Moments,Group balancing formula is correct,True,Passed

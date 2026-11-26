@@ -1,0 +1,42 @@
+﻿configuration,validation_check,passed,status
+Unigram,Correct similarity matrix dimensions,True,Passed
+Unigram,All similarity values finite,True,Passed
+Unigram,Similarity scores within valid range,True,Passed
+Unigram,Similarity matrix symmetric,True,Passed
+Unigram,Self-similarity diagonal equals one,True,Passed
+Unigram,Cosine similarity matches L2 dot product,True,Passed
+Unigram,Identical document vectors have cosine one,True,Passed
+Unigram,Unique document pair count correct,True,Passed
+Unigram,Within and cross-class counts reconcile,True,Passed
+Unigram + Bigram,Correct similarity matrix dimensions,True,Passed
+Unigram + Bigram,All similarity values finite,True,Passed
+Unigram + Bigram,Similarity scores within valid range,True,Passed
+Unigram + Bigram,Similarity matrix symmetric,True,Passed
+Unigram + Bigram,Self-similarity diagonal equals one,True,Passed
+Unigram + Bigram,Cosine similarity matches L2 dot product,True,Passed
+Unigram + Bigram,Identical document vectors have cosine one,True,Passed
+Unigram + Bigram,Unique document pair count correct,True,Passed
+Unigram + Bigram,Within and cross-class counts reconcile,True,Passed
+Unigram,Class-level similarity matrix symmetric,True,Passed
+Unigram + Bigram,Class-level similarity matrix symmetric,True,Passed
+Unigram,No self-matches in Top-K results,True,Passed
+Unigram,Correct Top-K match record count,True,Passed
+Unigram,Each query has unique reference candidates,True,Passed
+Unigram,Similarity ranking descending,True,Passed
+Unigram,Top-K class agreement within valid range,True,Passed
+Unigram,Correct query-level Top-K record count,True,Passed
+Unigram,Top-K scores match original similarity matrix,True,Passed
+Unigram + Bigram,No self-matches in Top-K results,True,Passed
+Unigram + Bigram,Correct Top-K match record count,True,Passed
+Unigram + Bigram,Each query has unique reference candidates,True,Passed
+Unigram + Bigram,Similarity ranking descending,True,Passed
+Unigram + Bigram,Top-K class agreement within valid range,True,Passed
+Unigram + Bigram,Correct query-level Top-K record count,True,Passed
+Unigram + Bigram,Top-K scores match original similarity matrix,True,Passed
+Overall,Original TF-IDF matrices unchanged,True,Passed
+Overall,Original text corpus unchanged,True,Passed
+Overall,Image-text sample alignment preserved,True,Passed
+Overall,Pair-level records reconcile,True,Passed
+Overall,Configuration comparison records reconcile,True,Passed
+Overall,Class-pair records reconcile,True,Passed
+Overall,All comparison differences finite,True,Passed

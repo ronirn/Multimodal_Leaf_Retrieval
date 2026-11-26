@@ -1,0 +1,19 @@
+﻿validation_check,passed,status
+Unique sample identifiers,True,Passed
+Nonempty cleaned descriptions,True,Passed
+Nonempty original descriptions,True,Passed
+Lowercase text consistency,True,Passed
+Whitespace consistency,True,Passed
+Character validity,True,Passed
+Nonempty token sequences,True,Passed
+Stored JSON tokens valid,True,Passed
+Token sequence consistency,True,Passed
+Tokenized description consistency,True,Passed
+Token count consistency,True,Passed
+Unique token count consistency,True,Passed
+Lexical diversity consistency,True,Passed
+No configured class-label leakage,True,Passed
+Duplicate token flags consistent,True,Passed
+Image-text sample alignment,True,Passed
+Original corpus preserved,True,Passed
+Original review statuses preserved,True,Passed

@@ -1,0 +1,38 @@
+{
+    "notebook": "04_text_feature_extraction.ipynb",
+    "created_at_utc": "2026-11-26T12:13:37.444788+00:00",
+    "technical_status": "Completed",
+    "number_of_samples": 104,
+    "number_of_classes": 5,
+    "visual_feature_dimension": 143,
+    "text_configurations": {
+        "unigram": {
+            "feature_dimension": 68,
+            "matrix_file": "tfidf_unigram_features.npz",
+            "vectorizer_file": "tfidf_unigram_vectorizer.joblib"
+        },
+        "unigram_bigram": {
+            "feature_dimension": 261,
+            "matrix_file": "tfidf_unigram_bigram_features.npz",
+            "vectorizer_file": "tfidf_unigram_bigram_vectorizer.joblib"
+        }
+    },
+    "sample_ids_file": "text_sample_ids.npy",
+    "labels_file": "text_class_labels.npy",
+    "metadata_file": "multimodal_feature_metadata.csv",
+    "corpus_file": "text_corpus.json",
+    "preprocessing_config_file": "text_query_preprocessing_config.json",
+    "feature_config_file": "text_feature_extraction_config.json",
+    "artifact_manifest_file": "text_feature_artifact_manifest.csv",
+    "visual_matching_method": "Euclidean Distance",
+    "text_matching_method": "Cosine Similarity",
+    "planned_fusion_method": "Score-Level Late Fusion",
+    "reference_fit_scope": "Full Dataset - Gallery Development",
+    "final_text_configuration_selected": false,
+    "final_fusion_weights_selected": false,
+    "manual_data_review_required": true,
+    "evaluation_requires_reference_only_refit": true,
+    "independent_retrieval_evaluation_completed": false,
+    "ready_for_fusion_development": true,
+    "next_stage": "Multimodal Fusion"
+}

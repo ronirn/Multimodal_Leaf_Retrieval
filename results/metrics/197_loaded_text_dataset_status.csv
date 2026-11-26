@@ -1,0 +1,9 @@
+﻿status_category,status,number_of_samples,percentage
+text_quality_status,Passed Initial Check,87,83.65384615384616
+text_quality_status,Needs Review,17,16.346153846153847
+tokenization_status,Passed Initial Check,87,83.65384615384616
+tokenization_status,Needs Review,17,16.346153846153847
+final_dataset_status,Ready - Pending Review,70,67.307692307692307
+final_dataset_status,Ready - Initial Checks Passed,34,32.692307692307693
+visual_validation_status,Needs Review,70,67.307692307692307
+visual_validation_status,Passed Initial Check,34,32.692307692307693

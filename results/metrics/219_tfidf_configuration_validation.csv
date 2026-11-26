@@ -1,0 +1,27 @@
+﻿configuration,validation_check,passed,status
+Unigram,Correct document count,True,Passed
+Unigram,Sparse CSR format,True,Passed
+Unigram,Float64 data type,True,Passed
+Unigram,Finite numerical values,True,Passed
+Unigram,Nonnegative TF-IDF values,True,Passed
+Unigram,Feature order consistency,True,Passed
+Unigram,Manual IDF consistency,True,Passed
+Unigram,Manual TF-IDF consistency,True,Passed
+Unigram,L2 normalization consistency,True,Passed
+Unigram,Query transformation consistency,True,Passed
+Unigram,Unknown-word query produces zero vector,True,Passed
+Unigram,Vocabulary and IDF preserved,True,Passed
+Unigram,Cosine Similarity consistency,True,Passed
+Unigram + Bigram,Correct document count,True,Passed
+Unigram + Bigram,Sparse CSR format,True,Passed
+Unigram + Bigram,Float64 data type,True,Passed
+Unigram + Bigram,Finite numerical values,True,Passed
+Unigram + Bigram,Nonnegative TF-IDF values,True,Passed
+Unigram + Bigram,Feature order consistency,True,Passed
+Unigram + Bigram,Manual IDF consistency,True,Passed
+Unigram + Bigram,Manual TF-IDF consistency,True,Passed
+Unigram + Bigram,L2 normalization consistency,True,Passed
+Unigram + Bigram,Query transformation consistency,True,Passed
+Unigram + Bigram,Unknown-word query produces zero vector,True,Passed
+Unigram + Bigram,Vocabulary and IDF preserved,True,Passed
+Unigram + Bigram,Cosine Similarity consistency,True,Passed

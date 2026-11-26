@@ -1,0 +1,8 @@
+﻿validation_check,passed,status
+Baseline unigram vocabulary preserved,True,Passed
+Combined vocabulary dimension correct,True,Passed
+Unigram counts identical across configurations,True,Passed
+Bigram occurrence consistency,True,Passed
+Corpus unchanged,True,Passed
+Sample alignment preserved,True,Passed
+TF-IDF vectorizers remain unfitted,True,Passed

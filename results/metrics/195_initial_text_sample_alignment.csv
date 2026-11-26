@@ -1,0 +1,6 @@
+﻿validation_check,passed
+Unique text sample IDs,True
+Unique visual sample IDs,True
+Equal sample counts,True
+All text IDs exist in visual data,True
+All visual IDs exist in text data,True

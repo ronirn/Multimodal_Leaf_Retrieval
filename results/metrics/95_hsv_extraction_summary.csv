@@ -11,4 +11,4 @@ Samples containing NaN,0.0
 Samples containing infinity,0.0
 Background exclusion tests passed,5.0
 Synthetic channel tests passed,3.0
-Mean extraction time (ms),1.6528
+Mean extraction time (ms),0.6466

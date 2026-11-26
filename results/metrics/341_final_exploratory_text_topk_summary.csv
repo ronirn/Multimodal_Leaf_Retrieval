@@ -1,0 +1,9 @@
+﻿configuration,top_k,number_of_queries,mean_class_agreement_percent,std_class_agreement_percent,self_matches_excluded,independent_evaluation,analysis_scope
+Unigram,1,104,87.5,33.071891388307385,True,False,Full Dataset - Gallery Development
+Unigram,3,104,84.615384615384613,28.088336282316206,True,False,Full Dataset - Gallery Development
+Unigram,5,104,82.307692307692307,24.385949975611318,True,False,Full Dataset - Gallery Development
+Unigram,10,104,74.038461538461547,23.839173916429058,True,False,Full Dataset - Gallery Development
+Unigram + Bigram,1,104,91.34615384615384,28.115752917718169,True,False,Full Dataset - Gallery Development
+Unigram + Bigram,3,104,83.333333333333329,27.735009811261456,True,False,Full Dataset - Gallery Development
+Unigram + Bigram,5,104,83.65384615384616,24.457879503801742,True,False,Full Dataset - Gallery Development
+Unigram + Bigram,10,104,76.923076923076934,23.699923850775225,True,False,Full Dataset - Gallery Development

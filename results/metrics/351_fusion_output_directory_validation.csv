@@ -1,0 +1,4 @@
+﻿directory,relative_path,exists,writable,passed,error,status
+Fusion Features,dataset/features/fusion,True,True,True,,Ready
+Fusion Figures,results/figures/multimodal_fusion,True,True,True,,Ready
+Metrics,results/metrics,True,True,True,,Ready

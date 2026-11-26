@@ -1,0 +1,109 @@
+﻿category,validation_check,passed,status
+Input Alignment,Input sample IDs and labels aligned,True,Passed
+Input Alignment,Input corpus and metadata aligned,True,Passed
+Unigram,Saved matrix dimensions preserved,True,Passed
+Unigram,Sparse CSR format preserved,True,Passed
+Unigram,Matrix dtype preserved,True,Passed
+Unigram,Nonzero value count preserved,True,Passed
+Unigram,Matrix values exactly preserved,True,Passed
+Unigram,Matrix values finite,True,Passed
+Unigram,Matrix values nonnegative,True,Passed
+Unigram,Unit L2 norm preserved,True,Passed
+Unigram,Vectorizer parameters preserved,True,Passed
+Unigram,Vocabulary mapping preserved,True,Passed
+Unigram,Vectorizer IDF exactly preserved,True,Passed
+Unigram,Vectorizer feature order preserved,True,Passed
+Unigram,Saved feature names preserved,True,Passed
+Unigram,Saved IDF array preserved,True,Passed
+Unigram,Vocabulary report feature indices preserved,True,Passed
+Unigram,Vocabulary report terms preserved,True,Passed
+Unigram,Vocabulary report IDF preserved,True,Passed
+Unigram,Vocabulary report document frequency preserved,True,Passed
+Unigram,Reloaded vectorizer reproduces reference matrix,True,Passed
+Unigram,Reloaded cosine similarity consistent,True,Passed
+Unigram + Bigram,Saved matrix dimensions preserved,True,Passed
+Unigram + Bigram,Sparse CSR format preserved,True,Passed
+Unigram + Bigram,Matrix dtype preserved,True,Passed
+Unigram + Bigram,Nonzero value count preserved,True,Passed
+Unigram + Bigram,Matrix values exactly preserved,True,Passed
+Unigram + Bigram,Matrix values finite,True,Passed
+Unigram + Bigram,Matrix values nonnegative,True,Passed
+Unigram + Bigram,Unit L2 norm preserved,True,Passed
+Unigram + Bigram,Vectorizer parameters preserved,True,Passed
+Unigram + Bigram,Vocabulary mapping preserved,True,Passed
+Unigram + Bigram,Vectorizer IDF exactly preserved,True,Passed
+Unigram + Bigram,Vectorizer feature order preserved,True,Passed
+Unigram + Bigram,Saved feature names preserved,True,Passed
+Unigram + Bigram,Saved IDF array preserved,True,Passed
+Unigram + Bigram,Vocabulary report feature indices preserved,True,Passed
+Unigram + Bigram,Vocabulary report terms preserved,True,Passed
+Unigram + Bigram,Vocabulary report IDF preserved,True,Passed
+Unigram + Bigram,Vocabulary report document frequency preserved,True,Passed
+Unigram + Bigram,Reloaded vectorizer reproduces reference matrix,True,Passed
+Unigram + Bigram,Reloaded cosine similarity consistent,True,Passed
+Shared Artifacts,Sample IDs exactly preserved,True,Passed
+Shared Artifacts,Class labels exactly preserved,True,Passed
+Shared Artifacts,Metadata column order preserved,True,Passed
+Shared Artifacts,Metadata values and review flags preserved,True,Passed
+Shared Artifacts,Metadata sample ID order preserved,True,Passed
+Shared Artifacts,Metadata class labels preserved,True,Passed
+Shared Artifacts,Text corpus exactly preserved,True,Passed
+Shared Artifacts,Corpus sample ID order preserved,True,Passed
+Shared Artifacts,Corpus document count preserved,True,Passed
+Shared Artifacts,Query preprocessing configuration preserved,True,Passed
+Shared Artifacts,Feature extraction configuration preserved,True,Passed
+Shared Artifacts,Reloaded image-text sample order identical,True,Passed
+Shared Artifacts,Reference-only refitting requirement preserved,True,Passed
+Unigram,Reloaded query consistency - Q01,True,Passed
+Unigram,Reloaded query consistency - Q02,True,Passed
+Unigram,Reloaded query consistency - Q03,True,Passed
+Unigram,Reloaded query consistency - Q04,True,Passed
+Unigram,Reloaded query consistency - Q05,True,Passed
+Unigram,Reloaded query consistency - Q06,True,Passed
+Unigram,Reloaded query consistency - Q07,True,Passed
+Unigram,Reloaded query consistency - Q08,True,Passed
+Unigram,Reloaded query consistency - Q09,True,Passed
+Unigram,Reloaded query consistency - Q10,True,Passed
+Unigram,Reloaded query consistency - Q11,True,Passed
+Unigram,Reloaded query consistency - Q12,True,Passed
+Unigram,Reloaded query consistency - Q13,True,Passed
+Unigram,Reloaded query consistency - Q14,True,Passed
+Unigram,Reloaded query consistency - Q15,True,Passed
+Unigram,Reloaded query consistency - Q16,True,Passed
+Unigram + Bigram,Reloaded query consistency - Q01,True,Passed
+Unigram + Bigram,Reloaded query consistency - Q02,True,Passed
+Unigram + Bigram,Reloaded query consistency - Q03,True,Passed
+Unigram + Bigram,Reloaded query consistency - Q04,True,Passed
+Unigram + Bigram,Reloaded query consistency - Q05,True,Passed
+Unigram + Bigram,Reloaded query consistency - Q06,True,Passed
+Unigram + Bigram,Reloaded query consistency - Q07,True,Passed
+Unigram + Bigram,Reloaded query consistency - Q08,True,Passed
+Unigram + Bigram,Reloaded query consistency - Q09,True,Passed
+Unigram + Bigram,Reloaded query consistency - Q10,True,Passed
+Unigram + Bigram,Reloaded query consistency - Q11,True,Passed
+Unigram + Bigram,Reloaded query consistency - Q12,True,Passed
+Unigram + Bigram,Reloaded query consistency - Q13,True,Passed
+Unigram + Bigram,Reloaded query consistency - Q14,True,Passed
+Unigram + Bigram,Reloaded query consistency - Q15,True,Passed
+Unigram + Bigram,Reloaded query consistency - Q16,True,Passed
+Query Validation,All expected query records evaluated,True,Passed
+Artifact Integrity,tfidf_unigram_features.npz integrity verified,True,Passed
+Artifact Integrity,tfidf_unigram_vectorizer.joblib integrity verified,True,Passed
+Artifact Integrity,tfidf_unigram_feature_names.npy integrity verified,True,Passed
+Artifact Integrity,tfidf_unigram_idf_weights.npy integrity verified,True,Passed
+Artifact Integrity,tfidf_unigram_vocabulary.csv integrity verified,True,Passed
+Artifact Integrity,tfidf_unigram_bigram_features.npz integrity verified,True,Passed
+Artifact Integrity,tfidf_unigram_bigram_vectorizer.joblib integrity verified,True,Passed
+Artifact Integrity,tfidf_unigram_bigram_feature_names.npy integrity verified,True,Passed
+Artifact Integrity,tfidf_unigram_bigram_idf_weights.npy integrity verified,True,Passed
+Artifact Integrity,tfidf_unigram_bigram_vocabulary.csv integrity verified,True,Passed
+Artifact Integrity,text_sample_ids.npy integrity verified,True,Passed
+Artifact Integrity,text_class_labels.npy integrity verified,True,Passed
+Artifact Integrity,multimodal_feature_metadata.csv integrity verified,True,Passed
+Artifact Integrity,text_corpus.json integrity verified,True,Passed
+Artifact Integrity,text_query_preprocessing_config.json integrity verified,True,Passed
+Artifact Integrity,text_feature_extraction_config.json integrity verified,True,Passed
+Artifact Integrity,Manifest contains all expected payload artifacts,True,Passed
+Artifact Integrity,Manifest filenames preserved,True,Passed
+Artifact Integrity,Manifest checksums preserved,True,Passed
+Artifact Integrity,Manifest file sizes preserved,True,Passed

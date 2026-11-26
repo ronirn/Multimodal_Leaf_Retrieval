@@ -1,0 +1,6 @@
+﻿source,total_ids,unique_ids,duplicate_ids,empty_ids,invalid_ids,passed
+Visual feature IDs,104,104,0,0,0,True
+Text feature IDs,104,104,0,0,0,True
+Visual metadata IDs,104,104,0,0,0,True
+Text metadata IDs,104,104,0,0,0,True
+Processed metadata IDs,104,104,0,0,0,True

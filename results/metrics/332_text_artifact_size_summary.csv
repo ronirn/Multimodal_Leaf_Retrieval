@@ -1,0 +1,4 @@
+﻿configuration,number_of_artifacts,total_size_bytes,total_size_kib
+Unigram,5,19295,18.8427734375
+Unigram + Bigram,5,56402,55.080078125
+Shared,6,199806,195.123046875

@@ -1,0 +1,9 @@
+﻿column_name,matching_records,total_records,passed
+sample_id,104,104,True
+nama_file,104,104,True
+kelas,104,104,True
+tampilan_daun,104,104,True
+image_hash,104,104,True
+processed_image_path,104,104,True
+mask_path,104,104,True
+cleaned_description,104,104,True

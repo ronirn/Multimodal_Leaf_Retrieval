@@ -1,0 +1,33 @@
+﻿configuration,query_id,query_type,query_status,usable_for_matching,maximum_vector_difference,maximum_cosine_difference,passed
+Unigram,Q01,Morphology Query,Valid,True,0,0,True
+Unigram,Q02,Morphology Query,Valid,True,0,0,True
+Unigram,Q03,Morphology Query,Valid,True,0,0,True
+Unigram,Q04,Morphology Query,Valid,True,0,0,True
+Unigram,Q05,Morphology Query,Valid,True,0,0,True
+Unigram,Q06,Case and Punctuation Variation,Valid,True,0,0,True
+Unigram,Q07,Single Known Token,Valid,True,0,0,True
+Unigram,Q08,Partial OOV,Valid - Partial OOV,True,0,0,True
+Unigram,Q09,All OOV,All OOV,False,0,,True
+Unigram,Q10,Empty String,Empty Query,False,,,True
+Unigram,Q11,Whitespace Only,Empty Query,False,,,True
+Unigram,Q12,Punctuation Only,Empty Query,False,,,True
+Unigram,Q13,Class Name Only,Empty Query,False,,,True
+Unigram,Q14,Invalid Short Tokens,No Valid Tokens,False,,,True
+Unigram,Q15,Missing Input,Empty Query,False,,,True
+Unigram,Q16,Invalid Input Type,Invalid Input,False,,,True
+Unigram + Bigram,Q01,Morphology Query,Valid - Partial OOV,True,0,0,True
+Unigram + Bigram,Q02,Morphology Query,Valid - Partial OOV,True,0,0,True
+Unigram + Bigram,Q03,Morphology Query,Valid - Partial OOV,True,0,0,True
+Unigram + Bigram,Q04,Morphology Query,Valid - Partial OOV,True,0,0,True
+Unigram + Bigram,Q05,Morphology Query,Valid - Partial OOV,True,0,0,True
+Unigram + Bigram,Q06,Case and Punctuation Variation,Valid - Partial OOV,True,0,0,True
+Unigram + Bigram,Q07,Single Known Token,Valid,True,0,0,True
+Unigram + Bigram,Q08,Partial OOV,Valid - Partial OOV,True,0,0,True
+Unigram + Bigram,Q09,All OOV,All OOV,False,0,,True
+Unigram + Bigram,Q10,Empty String,Empty Query,False,,,True
+Unigram + Bigram,Q11,Whitespace Only,Empty Query,False,,,True
+Unigram + Bigram,Q12,Punctuation Only,Empty Query,False,,,True
+Unigram + Bigram,Q13,Class Name Only,Empty Query,False,,,True
+Unigram + Bigram,Q14,Invalid Short Tokens,No Valid Tokens,False,,,True
+Unigram + Bigram,Q15,Missing Input,Empty Query,False,,,True
+Unigram + Bigram,Q16,Invalid Input Type,Invalid Input,False,,,True

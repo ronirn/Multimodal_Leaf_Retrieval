@@ -1,0 +1,3 @@
+﻿configuration,Ready - Initial Checks Passed,Ready - Pending Review,Failed,total_documents
+Unigram,31,73,0,104
+Unigram + Bigram,0,104,0,104

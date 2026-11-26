@@ -1,0 +1,6 @@
+﻿file_description,filename,available,status
+Raw Visual Features,visual_features_raw.npy,True,Available
+Baseline Visual Features,visual_features_baseline.npy,True,Available
+Visual Feature Names,visual_feature_names.json,True,Available
+Proposed Visual Normalizer,visual_normalizer.joblib,True,Available
+Baseline Visual Normalizer,baseline_visual_normalizer.joblib,True,Available

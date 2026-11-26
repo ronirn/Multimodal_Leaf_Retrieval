@@ -1,0 +1,136 @@
+﻿configuration,query_id,feature_index,term,ngram_type,tfidf_weight
+Unigram,Q01,2,berbentuk,Unigram,0.22234244910827905
+Unigram,Q01,4,bergelombang,Unigram,0.39179853484389732
+Unigram,Q01,13,daun,Unigram,0.22234244910827905
+Unigram,Q01,14,dengan,Unigram,0.22234244910827905
+Unigram,Q01,19,hati,Unigram,0.54142265713849913
+Unigram,Q01,33,membulat,Unigram,0.40584588656239973
+Unigram,Q01,37,menyerupai,Unigram,0.43692089912222265
+Unigram,Q01,55,tepi,Unigram,0.22234244910827905
+Unigram,Q02,2,berbentuk,Unigram,0.20514534603988016
+Unigram,Q02,13,daun,Unigram,0.20514534603988016
+Unigram,Q02,14,dengan,Unigram,0.20514534603988016
+Unigram,Q02,20,hijau,Unigram,0.21515442115176084
+Unigram,Q02,30,lonjong,Unigram,0.47629740521328562
+Unigram,Q02,32,memanjang,Unigram,0.49954625757683546
+Unigram,Q02,46,runcing,Unigram,0.55584569925441618
+Unigram,Q02,65,ujung,Unigram,0.20514534603988016
+Unigram,Q03,2,berbentuk,Unigram,0.14047675598892373
+Unigram,Q03,8,berwarna,Unigram,0.14047675598892373
+Unigram,Q03,13,daun,Unigram,0.14047675598892373
+Unigram,Q03,14,dengan,Unigram,0.14047675598892373
+Unigram,Q03,16,elips,Unigram,0.42352379594698486
+Unigram,Q03,25,keunguan,Unigram,0.54254945073053529
+Unigram,Q03,38,menyirip,Unigram,0.3420727746714724
+Unigram,Q03,39,merah,Unigram,0.54254945073053529
+Unigram,Q03,66,urat,Unigram,0.18962890662164175
+Unigram,Q04,2,berbentuk,Unigram,0.22608762479169447
+Unigram,Q04,11,dan,Unigram,0.22608762479169447
+Unigram,Q04,13,daun,Unigram,0.22608762479169447
+Unigram,Q04,14,dengan,Unigram,0.22608762479169447
+Unigram,Q04,19,hati,Unigram,0.55054247648967392
+Unigram,Q04,40,meruncing,Unigram,0.43324961997976558
+Unigram,Q04,44,rata,Unigram,0.4500045153821296
+Unigram,Q04,55,tepi,Unigram,0.22608762479169447
+Unigram,Q04,65,ujung,Unigram,0.22608762479169447
+Unigram,Q05,6,berlekuk,Unigram,0.50027304298271202
+Unigram,Q05,11,dan,Unigram,0.1846352083946558
+Unigram,Q05,13,daun,Unigram,0.1846352083946558
+Unigram,Q05,14,dengan,Unigram,0.1846352083946558
+Unigram,Q05,17,ginjal,Unigram,0.44236081423895246
+Unigram,Q05,35,menjari,Unigram,0.47320487997391464
+Unigram,Q05,37,menyerupai,Unigram,0.36282312075336465
+Unigram,Q05,55,tepi,Unigram,0.1846352083946558
+Unigram,Q05,66,urat,Unigram,0.24923819207853987
+Unigram,Q06,2,berbentuk,Unigram,0.20514534603988016
+Unigram,Q06,13,daun,Unigram,0.20514534603988016
+Unigram,Q06,14,dengan,Unigram,0.20514534603988016
+Unigram,Q06,20,hijau,Unigram,0.21515442115176084
+Unigram,Q06,30,lonjong,Unigram,0.47629740521328562
+Unigram,Q06,32,memanjang,Unigram,0.49954625757683546
+Unigram,Q06,46,runcing,Unigram,0.55584569925441618
+Unigram,Q06,65,ujung,Unigram,0.20514534603988016
+Unigram,Q07,20,hijau,Unigram,1
+Unigram,Q08,20,hijau,Unigram,1
+Unigram + Bigram,Q01,4,berbentuk,Unigram,0.13446357391537547
+Unigram + Bigram,Q01,10,berbentuk membulat,Bigram,0.35087434761616576
+Unigram + Bigram,Q01,14,bergelombang,Unigram,0.23694364913765148
+Unigram + Bigram,Q01,44,daun,Unigram,0.13446357391537547
+Unigram + Bigram,Q01,54,dengan,Unigram,0.13446357391537547
+Unigram + Bigram,Q01,55,dengan tepi,Bigram,0.13446357391537547
+Unigram + Bigram,Q01,70,hati,Unigram,0.32743016805642788
+Unigram + Bigram,Q01,72,hati dengan,Bigram,0.35087434761616576
+Unigram + Bigram,Q01,119,membulat,Unigram,0.24543891004573057
+Unigram + Bigram,Q01,123,membulat menyerupai,Bigram,0.39611760707555393
+Unigram + Bigram,Q01,143,menyerupai,Unigram,0.26423180031484916
+Unigram + Bigram,Q01,145,menyerupai hati,Bigram,0.39611760707555393
+Unigram + Bigram,Q01,215,tepi,Unigram,0.13446357391537547
+Unigram + Bigram,Q01,216,tepi bergelombang,Bigram,0.23694364913765148
+Unigram + Bigram,Q02,4,berbentuk,Unigram,0.14082502721111739
+Unigram + Bigram,Q02,9,berbentuk lonjong,Bigram,0.32696132934308092
+Unigram + Bigram,Q02,44,daun,Unigram,0.14082502721111739
+Unigram + Bigram,Q02,54,dengan,Unigram,0.14082502721111739
+Unigram + Bigram,Q02,74,hijau,Unigram,0.14769590340791253
+Unigram + Bigram,Q02,109,lonjong,Unigram,0.32696132934308092
+Unigram + Bigram,Q02,111,lonjong memanjang,Bigram,0.37434504122104872
+Unigram + Bigram,Q02,115,memanjang,Unigram,0.3429208445352398
+Unigram + Bigram,Q02,116,memanjang dengan,Bigram,0.36092298255660815
+Unigram + Bigram,Q02,176,runcing,Unigram,0.38156842079892334
+Unigram + Bigram,Q02,243,ujung,Unigram,0.14082502721111739
+Unigram + Bigram,Q02,246,ujung runcing,Bigram,0.38918243870553942
+Unigram + Bigram,Q03,4,berbentuk,Unigram,0.091084885237068258
+Unigram + Bigram,Q03,7,berbentuk elips,Bigram,0.27461209562698263
+Unigram + Bigram,Q03,27,berwarna,Unigram,0.091084885237068258
+Unigram + Bigram,Q03,29,berwarna merah,Bigram,0.35178812400196457
+Unigram + Bigram,Q03,44,daun,Unigram,0.091084885237068258
+Unigram + Bigram,Q03,46,daun berwarna,Bigram,0.091084885237068258
+Unigram + Bigram,Q03,54,dengan,Unigram,0.091084885237068258
+Unigram + Bigram,Q03,60,elips,Unigram,0.27461209562698263
+Unigram + Bigram,Q03,61,elips dengan,Bigram,0.27461209562698263
+Unigram + Bigram,Q03,93,keunguan,Unigram,0.35178812400196457
+Unigram + Bigram,Q03,94,keunguan berbentuk,Bigram,0.35178812400196457
+Unigram + Bigram,Q03,146,menyirip,Unigram,0.22179939452853881
+Unigram + Bigram,Q03,155,merah,Unigram,0.35178812400196457
+Unigram + Bigram,Q03,156,merah keunguan,Bigram,0.35178812400196457
+Unigram + Bigram,Q03,248,urat,Unigram,0.12295505456165898
+Unigram + Bigram,Q03,254,urat menyirip,Bigram,0.22179939452853881
+Unigram + Bigram,Q04,4,berbentuk,Unigram,0.14936888461626888
+Unigram + Bigram,Q04,8,berbentuk hati,Bigram,0.48635480884312193
+Unigram + Bigram,Q04,34,dan,Unigram,0.14936888461626888
+Unigram + Bigram,Q04,44,daun,Unigram,0.14936888461626888
+Unigram + Bigram,Q04,54,dengan,Unigram,0.14936888461626888
+Unigram + Bigram,Q04,70,hati,Unigram,0.36372585948880276
+Unigram + Bigram,Q04,72,hati dengan,Bigram,0.38976883045568672
+Unigram + Bigram,Q04,157,meruncing,Unigram,0.28623420922053611
+Unigram + Bigram,Q04,169,rata,Unigram,0.29730363436231105
+Unigram + Bigram,Q04,215,tepi,Unigram,0.14936888461626888
+Unigram + Bigram,Q04,219,tepi rata,Bigram,0.30516697011506472
+Unigram + Bigram,Q04,243,ujung,Unigram,0.14936888461626888
+Unigram + Bigram,Q04,245,ujung meruncing,Bigram,0.28623420922053611
+Unigram + Bigram,Q05,23,berlekuk,Unigram,0.36627075199274123
+Unigram + Bigram,Q05,34,dan,Unigram,0.13517913381829777
+Unigram + Bigram,Q05,44,daun,Unigram,0.13517913381829777
+Unigram + Bigram,Q05,54,dengan,Unigram,0.13517913381829777
+Unigram + Bigram,Q05,62,ginjal,Unigram,0.32387079487115494
+Unigram + Bigram,Q05,63,ginjal dengan,Bigram,0.32387079487115494
+Unigram + Bigram,Q05,131,menjari,Unigram,0.34645302133673034
+Unigram + Bigram,Q05,143,menyerupai,Unigram,0.26563793341005654
+Unigram + Bigram,Q05,144,menyerupai ginjal,Bigram,0.32387079487115494
+Unigram + Bigram,Q05,215,tepi,Unigram,0.13517913381829777
+Unigram + Bigram,Q05,217,tepi berlekuk,Bigram,0.36627075199274123
+Unigram + Bigram,Q05,248,urat,Unigram,0.18247767158038283
+Unigram + Bigram,Q05,252,urat menjari,Bigram,0.34645302133673034
+Unigram + Bigram,Q06,4,berbentuk,Unigram,0.14082502721111739
+Unigram + Bigram,Q06,9,berbentuk lonjong,Bigram,0.32696132934308092
+Unigram + Bigram,Q06,44,daun,Unigram,0.14082502721111739
+Unigram + Bigram,Q06,54,dengan,Unigram,0.14082502721111739
+Unigram + Bigram,Q06,74,hijau,Unigram,0.14769590340791253
+Unigram + Bigram,Q06,109,lonjong,Unigram,0.32696132934308092
+Unigram + Bigram,Q06,111,lonjong memanjang,Bigram,0.37434504122104872
+Unigram + Bigram,Q06,115,memanjang,Unigram,0.3429208445352398
+Unigram + Bigram,Q06,116,memanjang dengan,Bigram,0.36092298255660815
+Unigram + Bigram,Q06,176,runcing,Unigram,0.38156842079892334
+Unigram + Bigram,Q06,243,ujung,Unigram,0.14082502721111739
+Unigram + Bigram,Q06,246,ujung runcing,Bigram,0.38918243870553942
+Unigram + Bigram,Q07,74,hijau,Unigram,1
+Unigram + Bigram,Q08,74,hijau,Unigram,1

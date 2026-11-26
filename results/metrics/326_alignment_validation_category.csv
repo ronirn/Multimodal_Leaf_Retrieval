@@ -1,0 +1,13 @@
+﻿category,total_checks,passed_checks,success_rate_percent
+Input Artifacts,1,1,100
+Metadata,8,8,100
+Sample Identity,5,5,100
+Sample Coverage,4,4,100
+Row Order,5,5,100
+Feature Matrix,10,10,100
+Text Features,10,10,100
+Text Corpus,4,4,100
+Overall Alignment,5,5,100
+Metadata Integration,3,3,100
+Class Distribution,2,2,100
+Artifact Integrity,5,5,100

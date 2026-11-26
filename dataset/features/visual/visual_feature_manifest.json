@@ -1,0 +1,121 @@
+{
+    "schema_version": "1.0",
+    "total_artifacts": 14,
+    "total_samples": 104,
+    "feature_dimension": 143,
+    "hash_algorithm": "SHA-256",
+    "artifacts": [
+        {
+            "filename": "hsv_features.npy",
+            "format": ".npy",
+            "relative_path": "dataset/features/visual/hsv_features.npy",
+            "size_bytes": 53376,
+            "size_kb": 52.125,
+            "sha256": "94d72ed42a2e5b214f1f6563ce047e059ec37a550ce65bc08b8e2372158cc2b9"
+        },
+        {
+            "filename": "glcm_features.npy",
+            "format": ".npy",
+            "relative_path": "dataset/features/visual/glcm_features.npy",
+            "size_bytes": 60032,
+            "size_kb": 58.625,
+            "sha256": "6be0b76ec5630a8fb502836141a2c1ec625c4669064d385c5e9613e997be7c53"
+        },
+        {
+            "filename": "hu_features.npy",
+            "format": ".npy",
+            "relative_path": "dataset/features/visual/hu_features.npy",
+            "size_bytes": 5952,
+            "size_kb": 5.8125,
+            "sha256": "165fc78b99ebcf8bbcf7270b30ea768076fa3dc5784d6813ff62499242b635a0"
+        },
+        {
+            "filename": "hu_raw_moments.npy",
+            "format": ".npy",
+            "relative_path": "dataset/features/visual/hu_raw_moments.npy",
+            "size_bytes": 5952,
+            "size_kb": 5.8125,
+            "sha256": "31ad406af5bc9562c99c8b5a2b145a11acf3ce0f3e95a5ed9ca220592d0aec31"
+        },
+        {
+            "filename": "visual_features_raw.npy",
+            "format": ".npy",
+            "relative_path": "dataset/features/visual/visual_features_raw.npy",
+            "size_bytes": 119104,
+            "size_kb": 116.3125,
+            "sha256": "fc8f1e228d396ba81d7cd7022ff5aefe51ae83a0e301b0ec4f858a0c2a8e487f"
+        },
+        {
+            "filename": "visual_features_baseline.npy",
+            "format": ".npy",
+            "relative_path": "dataset/features/visual/visual_features_baseline.npy",
+            "size_bytes": 119104,
+            "size_kb": 116.3125,
+            "sha256": "b7f86896292501dc54261d4e63fa47c3f494f7d3936aaf2e45c343a12d1e1567"
+        },
+        {
+            "filename": "visual_features_normalized.npy",
+            "format": ".npy",
+            "relative_path": "dataset/features/visual/visual_features_normalized.npy",
+            "size_bytes": 119104,
+            "size_kb": 116.3125,
+            "sha256": "ee895109bff88e88a2ee5e11dadfbf90496b5772a9d0630248064c0969be2647"
+        },
+        {
+            "filename": "visual_sample_ids.npy",
+            "format": ".npy",
+            "relative_path": "dataset/features/visual/visual_sample_ids.npy",
+            "size_bytes": 8864,
+            "size_kb": 8.65625,
+            "sha256": "758d6eb8617c04fa4f7635f03204da8de8452f18f4aeb43919f2f56bd78d4869"
+        },
+        {
+            "filename": "visual_feature_metadata.csv",
+            "format": ".csv",
+            "relative_path": "dataset/features/visual/visual_feature_metadata.csv",
+            "size_bytes": 162971,
+            "size_kb": 159.1513671875,
+            "sha256": "5481f6e929630663a1a1c7d01baddb5ff0042efb1e9dfe7be3f14924a764179d"
+        },
+        {
+            "filename": "visual_feature_index.csv",
+            "format": ".csv",
+            "relative_path": "dataset/features/visual/visual_feature_index.csv",
+            "size_bytes": 6442,
+            "size_kb": 6.291015625,
+            "sha256": "e512bec7e96bd856454ca63fcf6a5bf8e961b4ee411e2823d352f123ed2daf05"
+        },
+        {
+            "filename": "visual_normalizer.joblib",
+            "format": ".joblib",
+            "relative_path": "dataset/features/visual/visual_normalizer.joblib",
+            "size_bytes": 5086,
+            "size_kb": 4.966796875,
+            "sha256": "c7a3ba95de82f7cde26c43dc082ef6b0684096c311f9b3af16f5b47d671511a6"
+        },
+        {
+            "filename": "baseline_visual_normalizer.joblib",
+            "format": ".joblib",
+            "relative_path": "dataset/features/visual/baseline_visual_normalizer.joblib",
+            "size_bytes": 5034,
+            "size_kb": 4.916015625,
+            "sha256": "5e7f0b263396369e66aaf0aca2bc9e4cf969f95a19d371baf2520a05f0794073"
+        },
+        {
+            "filename": "visual_feature_names.json",
+            "format": ".json",
+            "relative_path": "dataset/features/visual/visual_feature_names.json",
+            "size_bytes": 3367,
+            "size_kb": 3.2880859375,
+            "sha256": "1719bd9a07dc915d4d1f6b14f0237b8ecbab75e90cdbc79677f6cc71b4124273"
+        },
+        {
+            "filename": "visual_feature_config.json",
+            "format": ".json",
+            "relative_path": "dataset/features/visual/visual_feature_config.json",
+            "size_bytes": 18450,
+            "size_kb": 18.017578125,
+            "sha256": "cab08e72f4bbb39c2636b08aad8fae25ce7ab94233afd2581fbb4e00aa3a77a5"
+        }
+    ]
+}

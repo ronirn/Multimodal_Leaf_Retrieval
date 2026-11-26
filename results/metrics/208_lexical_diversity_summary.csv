@@ -1,0 +1,10 @@
+﻿Indicator,Result
+Total corpus tokens,2188
+Unique corpus tokens,68
+Corpus type-token ratio,0.031078610603290677
+Minimum document lexical diversity,0.82608695652173914
+Maximum document lexical diversity,1
+Mean document lexical diversity,0.95430582718197121
+Median document lexical diversity,0.95238095238095233
+Lexical diversity standard deviation,0.042409377450418818
+Low lexical diversity documents,0

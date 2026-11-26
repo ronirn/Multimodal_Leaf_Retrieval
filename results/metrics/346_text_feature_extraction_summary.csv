@@ -1,0 +1,55 @@
+﻿Indicator,Result
+Notebook,04_text_feature_extraction.ipynb
+Total documents,104
+Total classes,5
+Mean document length,21.03846153846154
+Total word tokens,2188
+TF-IDF configurations,2
+Unigram feature dimension,68
+Bigram feature dimension,193
+Combined feature dimension,261
+Unigram matrix shape,"(104, 68)"
+Combined matrix shape,"(104, 261)"
+Unigram nonzero elements,2086
+Combined nonzero elements,4166
+Unigram sparsity percent,70.50339366515837
+Combined sparsity percent,84.65222516946655
+Unigram identical document pairs,10
+Combined identical document pairs,10
+Unigram high-correlation pairs,12
+Combined high-correlation pairs,209
+Unigram within-class similarity,0.5390587373983556
+Unigram cross-class similarity,0.30389744882563563
+Unigram mean similarity gap,0.23516128857272
+Combined within-class similarity,0.4236656399380405
+Combined cross-class similarity,0.18860892990569975
+Combined mean similarity gap,0.23505671003234077
+Existing document consistency records,208
+Existing document consistency passed,208
+New query test records,32
+New query test records passed,32
+Image-text aligned samples,104
+Text payload artifacts,16
+Text artifacts including manifest,17
+Save-load validation checks,108
+Save-load validation passed,108
+Final artifact integrity checks,21
+Final artifact integrity passed,21
+Validation stages summarized,11
+Validation stages passed,11
+Final summary figures,3
+Research limitations documented,9
+Feature extraction method,TF-IDF
+Text matching method,Cosine Similarity
+Text feature normalization,L2
+Feature storage format,Sparse CSR NPZ
+Feature selection applied,False
+Samples removed,0
+Features removed,0
+Manual data review required,True
+Final text configuration selected,False
+Independent retrieval evaluation completed,False
+Evaluation requires reference-only refit,True
+Multimodal score fusion completed,False
+Ready for multimodal fusion development,True
+Analysis scope,Full Dataset - Gallery Development

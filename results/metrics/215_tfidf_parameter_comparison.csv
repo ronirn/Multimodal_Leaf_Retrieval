@@ -1,0 +1,20 @@
+﻿parameter,baseline_value,alternative_value,same_configuration
+input,content,content,True
+analyzer,word,word,True
+lowercase,True,True,True
+strip_accents,None,None,True
+tokenizer,None,None,True
+preprocessor,None,None,True
+token_pattern,(?u)\b\w\w+\b,(?u)\b\w\w+\b,True
+stop_words,None,None,True
+min_df,1,1,True
+max_df,1.0,1.0,True
+max_features,None,None,True
+vocabulary,None,None,True
+binary,False,False,True
+use_idf,True,True,True
+smooth_idf,True,True,True
+sublinear_tf,False,False,True
+norm,l2,l2,True
+dtype,float64,float64,True
+ngram_range,"(1, 1)","(1, 2)",False

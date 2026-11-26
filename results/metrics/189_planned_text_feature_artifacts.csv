@@ -1,0 +1,9 @@
+﻿artifact_name,filename,format,relative_path,already_exists,status
+TF-IDF Feature Matrix,tfidf_features.npz,.npz,dataset/features/text/tfidf_features.npz,False,Planned
+Fitted TF-IDF Vectorizer,tfidf_vectorizer.joblib,.joblib,dataset/features/text/tfidf_vectorizer.joblib,False,Planned
+Text Sample IDs,text_sample_ids.npy,.npy,dataset/features/text/text_sample_ids.npy,False,Planned
+Text Feature Metadata,text_feature_metadata.csv,.csv,dataset/features/text/text_feature_metadata.csv,False,Planned
+Text Feature Names,text_feature_names.json,.json,dataset/features/text/text_feature_names.json,False,Planned
+Vocabulary Statistics,text_vocabulary.csv,.csv,dataset/features/text/text_vocabulary.csv,False,Planned
+Text Feature Configuration,text_feature_config.json,.json,dataset/features/text/text_feature_config.json,False,Planned
+Text Feature Manifest,text_feature_manifest.json,.json,dataset/features/text/text_feature_manifest.json,False,Planned

@@ -1,0 +1,37 @@
+﻿Indicator,Result
+Total input documents,104
+Feature extraction method,TF-IDF
+Total configurations,2
+Baseline configuration,Unigram
+Alternative configuration,Unigram + Bigram
+Default configuration,Unigram
+Baseline n-gram range,"(1, 1)"
+Alternative n-gram range,"(1, 2)"
+Previous unique unigram tokens,68
+Total unigram occurrences,2188
+Total bigram occurrences,2084
+Total combined n-gram occurrences,4272
+Tokenization compatibility checks,104
+Compatible documents,104
+Minimum document frequency,1
+Maximum document frequency,1.0
+Stopword removal applied,False
+Stemming applied,False
+Smooth IDF,True
+Sublinear TF,False
+Vector normalization,l2
+Matrix format,CSR
+Feature data type,float64
+Text matching method,Cosine Similarity
+Synthetic validation checks,26
+Synthetic checks passed,26
+Synthetic checks failed,0
+Main vectorizers remain unfitted,True
+Samples removed,0
+Descriptions modified,0
+Actual TF-IDF vocabulary fitted,False
+Actual TF-IDF feature matrix generated,False
+Final configuration selected by evaluation,False
+Future normalization fit scope,Full Dataset - Gallery Development
+Evaluation requires reference-only refit,True
+TF-IDF configuration completed,True

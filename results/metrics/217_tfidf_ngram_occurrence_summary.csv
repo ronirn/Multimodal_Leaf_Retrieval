@@ -1,0 +1,3 @@
+﻿configuration,unigram_occurrences,bigram_occurrences,total_ngram_occurrences
+Unigram,2188,0,2188
+Unigram + Bigram,2188,2084,4272

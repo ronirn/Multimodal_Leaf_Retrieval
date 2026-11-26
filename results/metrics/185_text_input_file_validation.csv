@@ -1,0 +1,7 @@
+﻿file_description,filename,relative_path,exists,size_bytes,size_kib,valid,status
+Processed Text Dataset,metadata_processed.csv,dataset/processed/metadata_processed.csv,True,150719,147.1865234375,True,Available
+Normalized Visual Features,visual_features_normalized.npy,dataset/features/visual/visual_features_normalized.npy,True,119104,116.3125,True,Available
+Visual Sample IDs,visual_sample_ids.npy,dataset/features/visual/visual_sample_ids.npy,True,8864,8.65625,True,Available
+Visual Feature Metadata,visual_feature_metadata.csv,dataset/features/visual/visual_feature_metadata.csv,True,162971,159.1513671875,True,Available
+Visual Feature Configuration,visual_feature_config.json,dataset/features/visual/visual_feature_config.json,True,18450,18.017578125,True,Available
+Visual Feature Manifest,visual_feature_manifest.json,dataset/features/visual/visual_feature_manifest.json,True,5039,4.9208984375,True,Available

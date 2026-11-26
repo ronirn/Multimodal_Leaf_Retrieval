@@ -1,0 +1,41 @@
+﻿configuration,validation_check,passed,status
+Unigram,Correct document count,True,Passed
+Unigram,Correct vocabulary dimension,True,Passed
+Unigram,Sparse CSR matrix,True,Passed
+Unigram,Integer count data type,True,Passed
+Unigram,Finite numerical values,True,Passed
+Unigram,Positive stored counts,True,Passed
+Unigram,Unique vocabulary terms,True,Passed
+Unigram,Vocabulary matches independent tokens,True,Passed
+Unigram,Vocabulary index consistency,True,Passed
+Unigram,Total occurrence consistency,True,Passed
+Unigram,Document occurrence consistency,True,Passed
+Unigram,Individual document count consistency,True,Passed
+Unigram,Term frequency consistency,True,Passed
+Unigram,Document frequency consistency,True,Passed
+Unigram,Valid document frequency range,True,Passed
+Unigram,Term frequency not below document frequency,True,Passed
+Unigram,Expected IDF finite and at least one,True,Passed
+Unigram,No empty document vectors,True,Passed
+Unigram,Class term frequencies reconcile,True,Passed
+Unigram,Class document frequencies reconcile,True,Passed
+Unigram + Bigram,Correct document count,True,Passed
+Unigram + Bigram,Correct vocabulary dimension,True,Passed
+Unigram + Bigram,Sparse CSR matrix,True,Passed
+Unigram + Bigram,Integer count data type,True,Passed
+Unigram + Bigram,Finite numerical values,True,Passed
+Unigram + Bigram,Positive stored counts,True,Passed
+Unigram + Bigram,Unique vocabulary terms,True,Passed
+Unigram + Bigram,Vocabulary matches independent tokens,True,Passed
+Unigram + Bigram,Vocabulary index consistency,True,Passed
+Unigram + Bigram,Total occurrence consistency,True,Passed
+Unigram + Bigram,Document occurrence consistency,True,Passed
+Unigram + Bigram,Individual document count consistency,True,Passed
+Unigram + Bigram,Term frequency consistency,True,Passed
+Unigram + Bigram,Document frequency consistency,True,Passed
+Unigram + Bigram,Valid document frequency range,True,Passed
+Unigram + Bigram,Term frequency not below document frequency,True,Passed
+Unigram + Bigram,Expected IDF finite and at least one,True,Passed
+Unigram + Bigram,No empty document vectors,True,Passed
+Unigram + Bigram,Class term frequencies reconcile,True,Passed
+Unigram + Bigram,Class document frequencies reconcile,True,Passed

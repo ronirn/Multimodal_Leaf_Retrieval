@@ -1,0 +1,39 @@
+﻿Indicator,Result
+Total text documents,104
+Total classes,5
+Feature method,TF-IDF
+Default configuration,Unigram
+Baseline feature dimension,68
+Alternative feature dimension,261
+Baseline matrix shape,"(104, 68)"
+Alternative matrix shape,"(104, 261)"
+Baseline nonzero elements,2086
+Alternative nonzero elements,4166
+Matrix format,CSR
+Data type,float64
+Normalization,L2
+Maximum IDF difference,0.0
+Maximum TF-IDF difference,1.1102230246251565e-16
+Maximum L2 norm deviation,2.220446049250313e-16
+Total empty vectors,0
+Total NaN values,0
+Total infinite values,0
+Technical validation checks,40
+Technical validation checks passed,40
+Individual document checks,208
+Individual document checks passed,208
+Individual IDF checks,329
+Individual IDF checks passed,329
+Shared unigram IDF consistency,True
+Aligned text and visual samples,104
+Fit scope,Full Dataset - Gallery Development
+Samples removed,0
+Descriptions modified,0
+Feature selection applied,False
+Vectorizers fitted,2
+TF-IDF matrices generated,2
+Generated figures,2
+Evaluation requires reference-only refit,True
+Final configuration selected by evaluation,False
+Permanent feature artifacts saved,False
+TF-IDF feature extraction completed,True

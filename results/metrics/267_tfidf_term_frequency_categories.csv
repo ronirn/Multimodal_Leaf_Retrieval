@@ -1,0 +1,9 @@
+﻿configuration,term_category,number_of_terms,mean_squared_weight_share_percent,std_squared_weight_share_percent
+Unigram,Rare,5,1.4242178077807246,6.3493239189693202
+Unigram,Intermediate,53,83.025895931980585,6.8198290810698028
+Unigram,Common Non-Universal,1,1.4900831652187263,0.51578591871978174
+Unigram,Universal,9,14.059803095019957,3.4133791847205837
+Unigram + Bigram,Rare,56,5.7108413920452099,10.063891739122704
+Unigram + Bigram,Intermediate,190,86.149959589969654,9.87765268033883
+Unigram + Bigram,Common Non-Universal,2,1.0669747186744241,0.32460520244215385
+Unigram + Bigram,Universal,13,7.0722242993107187,1.3443748664584365

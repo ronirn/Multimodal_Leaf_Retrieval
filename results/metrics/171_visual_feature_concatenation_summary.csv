@@ -1,0 +1,25 @@
+﻿Indicator,Result
+Total samples,104
+HSV feature dimension,64
+GLCM feature dimension,72
+Hu Moments feature dimension,7
+Combined feature dimension,143
+Total combined feature values,14872
+NaN values,0
+Infinite values,0
+Feature group validation checks passed,3
+Total unique image pairs,5356
+Euclidean distance consistency passed,True
+Maximum distance reconstruction difference,1.7763568394002505e-15
+Distance matrix checks passed,5
+Single-query consistency checks passed,3
+Minimum pairwise distance,0.20882603826912924
+Maximum pairwise distance,5.3663327594918755
+Mean pairwise distance,2.300266723564441
+Total combined feature variance,2.838570183743569
+Features removed,0
+Samples removed,0
+Generated visualizations,4
+Normalization fit scope,Full Dataset - Gallery Development
+Final feature concatenation completed,True
+Multimodal fusion completed,False

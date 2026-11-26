@@ -1,0 +1,17 @@
+﻿Indicator,Result
+Project root detected,True
+Required input directories,5
+Available input directories,5
+Required input files,6
+Available required input files,6
+Missing required input files,0
+Additional visual artifacts,5
+Available additional visual artifacts,5
+Output directories,3
+Available output directories,3
+Writable output directories,3
+Planned text feature artifacts,8
+Library functionality tests passed,6
+Processed dataset loaded,False
+TF-IDF extraction completed,False
+Path configuration completed,True

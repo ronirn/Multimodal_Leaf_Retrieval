@@ -1,0 +1,6 @@
+﻿directory,relative_path,exists,passed,status
+Dataset,dataset,True,True,Available
+Processed Dataset,dataset/processed,True,True,Available
+Feature Dataset,dataset/features,True,True,Available
+Visual Features,dataset/features/visual,True,True,Available
+Text Features,dataset/features/text,True,True,Available

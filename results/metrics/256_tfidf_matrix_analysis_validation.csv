@@ -1,0 +1,33 @@
+﻿configuration,validation_check,passed,status
+Unigram,Correct matrix shape,True,Passed
+Unigram,Sparse CSR format,True,Passed
+Unigram,Float64 data type,True,Passed
+Unigram,Finite positive stored weights,True,Passed
+Unigram,No empty document vectors,True,Passed
+Unigram,All document L2 norms equal one,True,Passed
+Unigram,Count matrix support preserved,True,Passed
+Unigram,Nonzero elements reconcile,True,Passed
+Unigram,Density and sparsity reconcile,True,Passed
+Unigram,Total squared weights reconcile,True,Passed
+Unigram,All vocabulary features occur,True,Passed
+Unigram,Class mean profiles reconcile,True,Passed
+Unigram + Bigram,Correct matrix shape,True,Passed
+Unigram + Bigram,Sparse CSR format,True,Passed
+Unigram + Bigram,Float64 data type,True,Passed
+Unigram + Bigram,Finite positive stored weights,True,Passed
+Unigram + Bigram,No empty document vectors,True,Passed
+Unigram + Bigram,All document L2 norms equal one,True,Passed
+Unigram + Bigram,Count matrix support preserved,True,Passed
+Unigram + Bigram,Nonzero elements reconcile,True,Passed
+Unigram + Bigram,Density and sparsity reconcile,True,Passed
+Unigram + Bigram,Total squared weights reconcile,True,Passed
+Unigram + Bigram,All vocabulary features occur,True,Passed
+Unigram + Bigram,Class mean profiles reconcile,True,Passed
+Cross Configuration,Unigram dimension consistent,True,Passed
+Cross Configuration,Bigram dimension consistent,True,Passed
+Cross Configuration,Unigram and bigram energy sum to one,True,Passed
+Cross Configuration,Contribution percentages sum to 100,True,Passed
+Cross Configuration,Renormalized unigram matches baseline,True,Passed
+Cross Configuration,Original TF-IDF matrices unchanged,True,Passed
+Cross Configuration,Original corpus unchanged,True,Passed
+Cross Configuration,Image-text alignment preserved,True,Passed

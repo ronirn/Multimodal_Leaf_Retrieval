@@ -1,0 +1,5 @@
+﻿artifact_type,term,affected_documents,affected_classes,mean_tfidf_weight,maximum_tfidf_weight
+Possible Cross-Sentence Bigram,membulat permukaan,45,2,0.13100725465922328,0.1634549252111781
+Possible Cross-Sentence Bigram,meruncing permukaan,41,3,0.13461133997970084,0.16726115903225758
+Possible Cross-Sentence Bigram,runcing permukaan,18,3,0.18237991652753033,0.228173775561649
+Adjacent Repeated Word,berbentuk berbentuk,10,1,0.21503505077906779,0.2467110276285952

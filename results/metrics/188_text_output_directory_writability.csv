@@ -1,0 +1,4 @@
+﻿directory_name,relative_path,writable,error_message,status
+Text Feature Artifacts,dataset/features/text,True,,Passed
+Text Feature Visualizations,results/figures/text_feature_extraction,True,,Passed
+Metrics and Reports,results/metrics,True,,Passed

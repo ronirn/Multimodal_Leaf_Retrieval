@@ -1,0 +1,6 @@
+﻿modality,required_files,available_files,total_size_bytes,total_size_kib,missing_or_invalid_files
+Dataset,1,1,150719,147.1865234375,0
+Visual,14,14,692838,676.599609375,0
+Text - Unigram,5,5,19295,18.8427734375,0
+Text - Unigram + Bigram,5,5,56402,55.080078125,0
+Text - Shared,7,7,203107,198.3466796875,0

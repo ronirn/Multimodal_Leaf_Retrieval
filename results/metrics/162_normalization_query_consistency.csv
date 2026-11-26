@@ -1,0 +1,10 @@
+﻿sample_id,feature_group,maximum_difference,passed
+leaf_165d2f32c7fda707,HSV,0,True
+leaf_165d2f32c7fda707,GLCM,0,True
+leaf_165d2f32c7fda707,Hu Moments,0,True
+leaf_ad626da03abf4532,HSV,0,True
+leaf_ad626da03abf4532,GLCM,0,True
+leaf_ad626da03abf4532,Hu Moments,0,True
+leaf_41f02313a5460236,HSV,0,True
+leaf_41f02313a5460236,GLCM,0,True
+leaf_41f02313a5460236,Hu Moments,0,True

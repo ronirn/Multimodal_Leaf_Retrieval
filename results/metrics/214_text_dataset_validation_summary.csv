@@ -1,0 +1,38 @@
+﻿Indicator,Result
+Total documents,104
+Total classes,5
+Technically valid documents,104
+Technically failed documents,0
+Initial checks passed,87
+Text documents requiring review,17
+Pending multimodal review,70
+Empty descriptions,0
+Invalid character documents,0
+Token sequence mismatches,0
+Token count mismatches,0
+Class-label leakage documents,0
+Exact duplicate groups,8
+Documents in exact duplicate groups,17
+Cross-class exact duplicate groups,0
+Duplicate token flags consistent,True
+Near duplicate threshold,0.85
+Total near-duplicate pairs,65
+Within-class near-duplicate pairs,60
+Cross-class near-duplicate pairs,5
+Samples involved in near duplicates,57
+Total unique document pairs,5356
+Total corpus tokens,2188
+Unique corpus tokens,68
+Corpus type-token ratio,0.031078610603290677
+Mean document lexical diversity,0.9543058271819712
+Minimum document lexical diversity,0.8260869565217391
+Maximum document lexical diversity,1.0
+Low lexical diversity documents,0
+Technical validation checks,18
+Technical validation checks passed,18
+Samples removed,0
+Descriptions modified,0
+Generated visualizations,4
+Manual dataset review completed,False
+TF-IDF fitted,False
+Text dataset validation completed,True

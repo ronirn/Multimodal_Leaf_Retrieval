@@ -12,8 +12,8 @@ Total extracted feature values,14872
 Total NaN values,0
 Total infinity values,0
 Representative consistency tests passed,5
-Total batch processing time (seconds),0.7299
-Mean feature extraction time (ms),4.6309
-Mean end-to-end processing time (ms),6.8628
+Total batch processing time (seconds),0.6974
+Mean feature extraction time (ms),4.4776
+Mean end-to-end processing time (ms),6.5246
 Normalization fitted,False
 Feature concatenation completed,False

@@ -1,0 +1,25 @@
+﻿Indicator,Result
+Project root detected,True
+Required input directories,5
+Available input directories,5
+Required visual payload artifacts,14
+Required text artifacts including manifest,17
+Total required input files,32
+Available required input files,32
+Missing or invalid input files,0
+Visual manifest available,True
+Text handoff available,True
+Supporting artifact paths,3
+Available supporting artifacts,3
+Output directories,3
+Writable output directories,3
+Planned fusion artifacts,11
+Total validation checks,12
+Validation checks passed,12
+Validation checks failed,0
+Visual features loaded,False
+Text features loaded,False
+Artifact checksums verified,False
+Multimodal alignment validated,False
+Fusion calculation completed,False
+Path configuration checks passed,True

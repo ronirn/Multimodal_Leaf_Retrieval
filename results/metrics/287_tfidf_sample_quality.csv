@@ -1,0 +1,209 @@
+﻿configuration,row_index,sample_id,kelas,nonzero_features,l2_norm,finite_values,nonnegative_values,technical_valid,exact_duplicate_description,identical_document_vector,cross_class_identical_vector,near_duplicate_description,cross_class_near_duplicate,source_repeated_word_review,potential_artifact_feature_review,quality_review_required,text_feature_quality_status
+Unigram,0,leaf_165d2f32c7fda707,Mangkok,17,1,True,True,True,False,False,False,False,False,False,False,False,Ready - Initial Checks Passed
+Unigram,1,leaf_8473270c3702f48b,Mangkok,21,1,True,True,True,False,False,False,False,False,False,False,False,Ready - Initial Checks Passed
+Unigram,2,leaf_8f425d66b1e193b9,Mangkok,18,1,True,True,True,False,False,False,False,False,False,False,False,Ready - Initial Checks Passed
+Unigram,3,leaf_0ebc8f4f3ee9c8d5,Mangkok,19,1,True,True,True,False,False,False,False,False,False,False,False,Ready - Initial Checks Passed
+Unigram,4,leaf_b0c5f55e42499cae,Mangkok,20,1.0000000000000002,True,True,True,False,False,False,True,False,False,False,True,Ready - Pending Review
+Unigram,5,leaf_de9e3e4ed5d89dfc,Mangkok,19,1,True,True,True,False,False,False,True,False,False,False,True,Ready - Pending Review
+Unigram,6,leaf_23b789945271fb92,Mangkok,21,1,True,True,True,False,False,False,True,False,False,False,True,Ready - Pending Review
+Unigram,7,leaf_84de0dc731018607,Mangkok,19,1,True,True,True,False,False,False,False,False,False,False,False,Ready - Initial Checks Passed
+Unigram,8,leaf_36d4f083fa652592,Mangkok,22,1,True,True,True,False,False,False,True,False,False,False,True,Ready - Pending Review
+Unigram,9,leaf_c9d8d87fbc748d16,Mangkok,18,1,True,True,True,False,False,False,False,False,False,False,False,Ready - Initial Checks Passed
+Unigram,10,leaf_4de65b11758965f6,Mangkok,20,1,True,True,True,False,False,False,True,False,False,False,True,Ready - Pending Review
+Unigram,11,leaf_8f09fd62c7391c0d,Mangkok,21,1.0000000000000002,True,True,True,False,False,False,True,False,False,False,True,Ready - Pending Review
+Unigram,12,leaf_a6da65cb0493ceef,Mangkok,20,0.99999999999999989,True,True,True,False,False,False,False,False,False,False,False,Ready - Initial Checks Passed
+Unigram,13,leaf_1a80f5749cc68900,Mangkok,18,1,True,True,True,True,True,False,True,False,False,False,True,Ready - Pending Review
+Unigram,14,leaf_ef0854556175e2b0,Mangkok,18,1,True,True,True,True,True,False,True,False,False,False,True,Ready - Pending Review
+Unigram,15,leaf_fff6592ee517103e,Mangkok,20,1,True,True,True,False,False,False,False,False,False,False,False,Ready - Initial Checks Passed
+Unigram,16,leaf_e9cfa616ea5f1f19,Mangkok,21,1,True,True,True,False,False,False,True,False,False,False,True,Ready - Pending Review
+Unigram,17,leaf_12439b9ebf0eb8d3,Mangkok,20,1,True,True,True,False,False,False,True,False,False,False,True,Ready - Pending Review
+Unigram,18,leaf_de455d31a4df8c43,Mangkok,21,1,True,True,True,False,False,False,True,False,False,False,True,Ready - Pending Review
+Unigram,19,leaf_663a651dd51f9c94,Mangkok,21,1,True,True,True,False,False,False,True,False,False,False,True,Ready - Pending Review
+Unigram,20,leaf_c29e2560b188fb2c,Salam,20,0.99999999999999989,True,True,True,False,False,False,False,False,False,False,False,Ready - Initial Checks Passed
+Unigram,21,leaf_c4840a77b6d0c158,Salam,21,0.99999999999999989,True,True,True,False,False,False,False,False,False,False,False,Ready - Initial Checks Passed
+Unigram,22,leaf_fd4b025e69b9f321,Salam,21,0.99999999999999978,True,True,True,False,False,False,False,False,False,False,False,Ready - Initial Checks Passed
+Unigram,23,leaf_45414f432e49469a,Salam,21,1,True,True,True,False,False,False,True,False,False,False,True,Ready - Pending Review
+Unigram,24,leaf_1da6bca6d5320ae2,Salam,20,1,True,True,True,False,False,False,True,True,False,False,True,Ready - Pending Review
+Unigram,25,leaf_b8ebef3e9731e352,Salam,20,1,True,True,True,False,False,False,True,False,False,False,True,Ready - Pending Review
+Unigram,26,leaf_8809ccde35d4b945,Salam,21,1,True,True,True,False,False,False,True,True,False,False,True,Ready - Pending Review
+Unigram,27,leaf_1ebaf9512209a61f,Salam,20,1,True,True,True,False,False,False,False,False,False,False,False,Ready - Initial Checks Passed
+Unigram,28,leaf_68b0c81b496519cd,Salam,20,1,True,True,True,False,False,False,True,False,False,False,True,Ready - Pending Review
+Unigram,29,leaf_0a8999109a734f1d,Salam,19,1,True,True,True,False,False,False,True,False,False,False,True,Ready - Pending Review
+Unigram,30,leaf_ca3c3b7a5db35c1d,Salam,22,0.99999999999999989,True,True,True,False,False,False,True,True,False,False,True,Ready - Pending Review
+Unigram,31,leaf_a838808299383884,Salam,19,0.99999999999999989,True,True,True,False,False,False,False,False,False,False,False,Ready - Initial Checks Passed
+Unigram,32,leaf_a7704c0316865cd7,Salam,21,0.99999999999999989,True,True,True,False,False,False,False,False,False,False,False,Ready - Initial Checks Passed
+Unigram,33,leaf_ac463b36b6e61052,Salam,18,1,True,True,True,False,False,False,True,False,False,False,True,Ready - Pending Review
+Unigram,34,leaf_fdd0a74681efeff6,Salam,21,1.0000000000000002,True,True,True,False,False,False,False,False,False,False,False,Ready - Initial Checks Passed
+Unigram,35,leaf_9a710afa1505390e,Salam,20,1,True,True,True,False,False,False,False,False,False,False,False,Ready - Initial Checks Passed
+Unigram,36,leaf_d12754f94f5ff7fc,Salam,19,1,True,True,True,False,False,False,False,False,False,False,False,Ready - Initial Checks Passed
+Unigram,37,leaf_9c7d463a5bb1a561,Salam,21,1,True,True,True,False,False,False,True,False,False,False,True,Ready - Pending Review
+Unigram,38,leaf_a57a1270adf22253,Salam,22,0.99999999999999978,True,True,True,False,False,False,True,True,False,False,True,Ready - Pending Review
+Unigram,39,leaf_df16548c53396aeb,Sambang Darah,22,1.0000000000000002,True,True,True,False,False,False,True,False,False,False,True,Ready - Pending Review
+Unigram,40,leaf_1a45e1e109be76ee,Sambang Darah,21,0.99999999999999989,True,True,True,False,False,False,True,True,False,False,True,Ready - Pending Review
+Unigram,41,leaf_ad660412d798bd65,Sambang Darah,19,0.99999999999999989,True,True,True,False,False,False,True,False,False,False,True,Ready - Pending Review
+Unigram,42,leaf_b230b822f6a38f1c,Sambang Darah,19,1,True,True,True,False,False,False,True,False,False,False,True,Ready - Pending Review
+Unigram,43,leaf_22cacefa73426c68,Sambang Darah,21,0.99999999999999978,True,True,True,False,False,False,True,True,False,False,True,Ready - Pending Review
+Unigram,44,leaf_519627b0b7c509da,Sambang Darah,21,1,True,True,True,False,False,False,True,False,False,False,True,Ready - Pending Review
+Unigram,45,leaf_e57489e729c801d7,Sambang Darah,21,1,True,True,True,False,False,False,False,False,False,False,False,Ready - Initial Checks Passed
+Unigram,46,leaf_62ef0ed49ad4e2d3,Sambang Darah,20,1,True,True,True,False,False,False,True,False,False,False,True,Ready - Pending Review
+Unigram,47,leaf_ce6b898792146850,Sambang Darah,20,1,True,True,True,False,False,False,False,False,False,False,False,Ready - Initial Checks Passed
+Unigram,48,leaf_3c3fafa9c7913736,Sambang Darah,19,1,True,True,True,False,False,False,False,False,False,False,False,Ready - Initial Checks Passed
+Unigram,49,leaf_eacbf33f28cb6b28,Sambang Darah,22,1,True,True,True,False,False,False,True,True,False,False,True,Ready - Pending Review
+Unigram,50,leaf_0e58a931923c4e40,Sambang Darah,20,1,True,True,True,False,False,False,False,False,False,False,False,Ready - Initial Checks Passed
+Unigram,51,leaf_a21b39e63066049c,Sambang Darah,20,1,True,True,True,False,False,False,True,False,False,False,True,Ready - Pending Review
+Unigram,52,leaf_ad626da03abf4532,Sambang Darah,21,1,True,True,True,False,False,False,True,False,False,False,True,Ready - Pending Review
+Unigram,53,leaf_45d4826ed41c51b4,Sambang Darah,22,1,True,True,True,False,False,False,False,False,False,False,False,Ready - Initial Checks Passed
+Unigram,54,leaf_c289208cb093f769,Sambang Darah,23,1,True,True,True,False,False,False,True,True,False,False,True,Ready - Pending Review
+Unigram,55,leaf_620d73b8cfb217b6,Sambang Darah,20,0.99999999999999978,True,True,True,False,False,False,True,False,False,False,True,Ready - Pending Review
+Unigram,56,leaf_d9d0b97961feaeac,Sambang Darah,19,1,True,True,True,False,False,False,True,False,False,False,True,Ready - Pending Review
+Unigram,57,leaf_6e53ecd8713a9128,Sambang Darah,20,1,True,True,True,False,False,False,True,False,False,False,True,Ready - Pending Review
+Unigram,58,leaf_ac5e952a9ae56c36,Sambang Darah,18,1,True,True,True,False,False,False,True,False,False,False,True,Ready - Pending Review
+Unigram,59,leaf_1d4f34320b1b8b8d,Sirih,22,0.99999999999999989,True,True,True,False,False,False,False,False,False,False,False,Ready - Initial Checks Passed
+Unigram,60,leaf_d0f42a660bf2b3ee,Sirih,22,1,True,True,True,False,False,False,False,False,False,False,False,Ready - Initial Checks Passed
+Unigram,61,leaf_1ef1bffd5f4186c1,Sirih,20,0.99999999999999989,True,True,True,False,False,False,False,False,False,False,False,Ready - Initial Checks Passed
+Unigram,62,leaf_a280fa2ae09d329b,Sirih,19,1,True,True,True,False,False,False,False,False,False,False,False,Ready - Initial Checks Passed
+Unigram,63,leaf_6fcc4b52889490ca,Sirih,22,0.99999999999999989,True,True,True,False,False,False,False,False,False,False,False,Ready - Initial Checks Passed
+Unigram,64,leaf_1193856cea5a1287,Sirih,19,0.99999999999999978,True,True,True,False,False,False,False,False,True,False,True,Ready - Pending Review
+Unigram,65,leaf_3f1cc0b714c4164e,Sirih,21,1,True,True,True,False,False,False,False,False,True,False,True,Ready - Pending Review
+Unigram,66,leaf_347efec2afc78e44,Sirih,19,0.99999999999999989,True,True,True,False,False,False,False,False,True,False,True,Ready - Pending Review
+Unigram,67,leaf_9dad4bfe9db99263,Sirih,19,1,True,True,True,False,False,False,False,False,True,False,True,Ready - Pending Review
+Unigram,68,leaf_57905de77bc7f811,Sirih,21,1,True,True,True,False,False,False,True,False,True,False,True,Ready - Pending Review
+Unigram,69,leaf_1b922f2bd904d1fc,Sirih,18,0.99999999999999989,True,True,True,False,False,False,False,False,False,False,False,Ready - Initial Checks Passed
+Unigram,70,leaf_6397705392627f3c,Sirih,20,0.99999999999999989,True,True,True,True,True,False,True,False,False,False,True,Ready - Pending Review
+Unigram,71,leaf_c8bf421408781594,Sirih,20,1,True,True,True,False,False,False,False,False,False,False,False,Ready - Initial Checks Passed
+Unigram,72,leaf_66c00e535609f186,Sirih,20,1,True,True,True,False,False,False,False,False,False,False,False,Ready - Initial Checks Passed
+Unigram,73,leaf_2574445c571a7dc3,Sirih,20,0.99999999999999989,True,True,True,True,True,False,True,False,False,False,True,Ready - Pending Review
+Unigram,74,leaf_afba9495e801278e,Sirih,20,1,True,True,True,False,False,False,False,False,True,False,True,Ready - Pending Review
+Unigram,75,leaf_693f93e999e7c6a3,Sirih,21,0.99999999999999989,True,True,True,False,False,False,False,False,True,False,True,Ready - Pending Review
+Unigram,76,leaf_7f9c59b7594e5833,Sirih,19,0.99999999999999989,True,True,True,False,False,False,False,False,True,False,True,Ready - Pending Review
+Unigram,77,leaf_338b7ee25be7d52d,Sirih,20,0.99999999999999989,True,True,True,False,False,False,True,False,True,False,True,Ready - Pending Review
+Unigram,78,leaf_47ab03f4e71a0717,Sirih,23,0.99999999999999989,True,True,True,False,False,False,False,False,True,False,True,Ready - Pending Review
+Unigram,79,leaf_7be37d0f3c7e488a,Tapak Kuda,22,1,True,True,True,False,False,False,False,False,False,False,False,Ready - Initial Checks Passed
+Unigram,80,leaf_328651beb5d48483,Tapak Kuda,19,1,True,True,True,False,False,False,True,False,False,False,True,Ready - Pending Review
+Unigram,81,leaf_22bf36f7b3abd78c,Tapak Kuda,19,1,True,True,True,True,True,False,True,False,False,False,True,Ready - Pending Review
+Unigram,82,leaf_8129d1a748a118de,Tapak Kuda,21,1,True,True,True,False,False,False,True,False,False,False,True,Ready - Pending Review
+Unigram,83,leaf_549670d83912aed7,Tapak Kuda,20,1,True,True,True,False,False,False,True,False,False,False,True,Ready - Pending Review
+Unigram,84,leaf_655b2ffd3499bbea,Tapak Kuda,20,0.99999999999999989,True,True,True,False,False,False,True,False,False,False,True,Ready - Pending Review
+Unigram,85,leaf_43ae297ca838aebb,Tapak Kuda,19,1,True,True,True,True,True,False,True,False,False,False,True,Ready - Pending Review
+Unigram,86,leaf_28712bf465655732,Tapak Kuda,19,0.99999999999999989,True,True,True,False,False,False,True,False,False,False,True,Ready - Pending Review
+Unigram,87,leaf_721244faca19b94f,Tapak Kuda,19,1,True,True,True,True,True,False,True,False,False,False,True,Ready - Pending Review
+Unigram,88,leaf_bb707568bb3ed9ce,Tapak Kuda,19,1,True,True,True,False,False,False,True,False,False,False,True,Ready - Pending Review
+Unigram,89,leaf_d755ad14cfc3f8bf,Tapak Kuda,19,0.99999999999999989,True,True,True,True,True,False,True,False,False,False,True,Ready - Pending Review
+Unigram,90,leaf_2976a10d6fff3cd5,Tapak Kuda,21,1,True,True,True,True,True,False,True,False,False,False,True,Ready - Pending Review
+Unigram,91,leaf_acea8a79416b27c0,Tapak Kuda,20,0.99999999999999989,True,True,True,True,True,False,True,False,False,False,True,Ready - Pending Review
+Unigram,92,leaf_f72f88757c4de8ba,Tapak Kuda,20,0.99999999999999989,True,True,True,True,True,False,True,False,False,False,True,Ready - Pending Review
+Unigram,93,leaf_93d488369f0a2cc4,Tapak Kuda,19,0.99999999999999978,True,True,True,False,False,False,True,False,False,False,True,Ready - Pending Review
+Unigram,94,leaf_25803393f335987a,Tapak Kuda,20,0.99999999999999989,True,True,True,False,False,False,True,False,False,False,True,Ready - Pending Review
+Unigram,95,leaf_012389d8d324b6c8,Tapak Kuda,20,0.99999999999999989,True,True,True,True,True,False,True,False,False,False,True,Ready - Pending Review
+Unigram,96,leaf_193e4fc967161d9a,Tapak Kuda,19,1,True,True,True,True,True,False,True,False,False,False,True,Ready - Pending Review
+Unigram,97,leaf_d19ceb083d0a7e82,Tapak Kuda,19,0.99999999999999989,True,True,True,True,True,False,True,False,False,False,True,Ready - Pending Review
+Unigram,98,leaf_8d727458048a81c7,Tapak Kuda,19,1,True,True,True,True,True,False,True,False,False,False,True,Ready - Pending Review
+Unigram,99,leaf_8f8d177305fb06f2,Tapak Kuda,19,1,True,True,True,True,True,False,True,False,False,False,True,Ready - Pending Review
+Unigram,100,leaf_cef9b535077d5397,Tapak Kuda,20,0.99999999999999989,True,True,True,False,False,False,True,False,False,False,True,Ready - Pending Review
+Unigram,101,leaf_5fafb790c4773c55,Tapak Kuda,20,0.99999999999999989,True,True,True,False,False,False,True,False,False,False,True,Ready - Pending Review
+Unigram,102,leaf_055c97f32cf57da5,Tapak Kuda,21,1,True,True,True,True,True,False,True,False,False,False,True,Ready - Pending Review
+Unigram,103,leaf_41f02313a5460236,Tapak Kuda,20,1,True,True,True,False,False,False,True,False,False,False,True,Ready - Pending Review
+Unigram + Bigram,0,leaf_165d2f32c7fda707,Mangkok,36,1.0000000000000002,True,True,True,False,False,False,False,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,1,leaf_8473270c3702f48b,Mangkok,43,1,True,True,True,False,False,False,False,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,2,leaf_8f425d66b1e193b9,Mangkok,38,1.0000000000000002,True,True,True,False,False,False,False,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,3,leaf_0ebc8f4f3ee9c8d5,Mangkok,39,0.99999999999999989,True,True,True,False,False,False,False,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,4,leaf_b0c5f55e42499cae,Mangkok,41,0.99999999999999989,True,True,True,False,False,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,5,leaf_de9e3e4ed5d89dfc,Mangkok,40,1,True,True,True,False,False,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,6,leaf_23b789945271fb92,Mangkok,42,0.99999999999999989,True,True,True,False,False,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,7,leaf_84de0dc731018607,Mangkok,39,1,True,True,True,False,False,False,False,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,8,leaf_36d4f083fa652592,Mangkok,44,1,True,True,True,False,False,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,9,leaf_c9d8d87fbc748d16,Mangkok,37,1,True,True,True,False,False,False,False,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,10,leaf_4de65b11758965f6,Mangkok,41,1,True,True,True,False,False,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,11,leaf_8f09fd62c7391c0d,Mangkok,42,1,True,True,True,False,False,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,12,leaf_a6da65cb0493ceef,Mangkok,42,1,True,True,True,False,False,False,False,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,13,leaf_1a80f5749cc68900,Mangkok,37,1,True,True,True,True,True,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,14,leaf_ef0854556175e2b0,Mangkok,37,1,True,True,True,True,True,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,15,leaf_fff6592ee517103e,Mangkok,41,1,True,True,True,False,False,False,False,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,16,leaf_e9cfa616ea5f1f19,Mangkok,42,1,True,True,True,False,False,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,17,leaf_12439b9ebf0eb8d3,Mangkok,41,1,True,True,True,False,False,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,18,leaf_de455d31a4df8c43,Mangkok,42,1,True,True,True,False,False,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,19,leaf_663a651dd51f9c94,Mangkok,43,1,True,True,True,False,False,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,20,leaf_c29e2560b188fb2c,Salam,39,1,True,True,True,False,False,False,False,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,21,leaf_c4840a77b6d0c158,Salam,42,1,True,True,True,False,False,False,False,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,22,leaf_fd4b025e69b9f321,Salam,41,1,True,True,True,False,False,False,False,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,23,leaf_45414f432e49469a,Salam,41,1,True,True,True,False,False,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,24,leaf_1da6bca6d5320ae2,Salam,39,1,True,True,True,False,False,False,True,True,False,True,True,Ready - Pending Review
+Unigram + Bigram,25,leaf_b8ebef3e9731e352,Salam,39,1,True,True,True,False,False,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,26,leaf_8809ccde35d4b945,Salam,41,1,True,True,True,False,False,False,True,True,False,True,True,Ready - Pending Review
+Unigram + Bigram,27,leaf_1ebaf9512209a61f,Salam,39,0.99999999999999989,True,True,True,False,False,False,False,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,28,leaf_68b0c81b496519cd,Salam,39,1,True,True,True,False,False,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,29,leaf_0a8999109a734f1d,Salam,38,0.99999999999999978,True,True,True,False,False,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,30,leaf_ca3c3b7a5db35c1d,Salam,43,0.99999999999999989,True,True,True,False,False,False,True,True,False,True,True,Ready - Pending Review
+Unigram + Bigram,31,leaf_a838808299383884,Salam,38,0.99999999999999978,True,True,True,False,False,False,False,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,32,leaf_a7704c0316865cd7,Salam,41,1,True,True,True,False,False,False,False,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,33,leaf_ac463b36b6e61052,Salam,36,0.99999999999999967,True,True,True,False,False,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,34,leaf_fdd0a74681efeff6,Salam,41,0.99999999999999989,True,True,True,False,False,False,False,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,35,leaf_9a710afa1505390e,Salam,39,1,True,True,True,False,False,False,False,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,36,leaf_d12754f94f5ff7fc,Salam,39,0.99999999999999989,True,True,True,False,False,False,False,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,37,leaf_9c7d463a5bb1a561,Salam,41,1,True,True,True,False,False,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,38,leaf_a57a1270adf22253,Salam,44,1,True,True,True,False,False,False,True,True,False,True,True,Ready - Pending Review
+Unigram + Bigram,39,leaf_df16548c53396aeb,Sambang Darah,44,0.99999999999999989,True,True,True,False,False,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,40,leaf_1a45e1e109be76ee,Sambang Darah,42,1,True,True,True,False,False,False,True,True,False,True,True,Ready - Pending Review
+Unigram + Bigram,41,leaf_ad660412d798bd65,Sambang Darah,37,1,True,True,True,False,False,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,42,leaf_b230b822f6a38f1c,Sambang Darah,37,1,True,True,True,False,False,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,43,leaf_22cacefa73426c68,Sambang Darah,41,1,True,True,True,False,False,False,True,True,False,True,True,Ready - Pending Review
+Unigram + Bigram,44,leaf_519627b0b7c509da,Sambang Darah,41,1,True,True,True,False,False,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,45,leaf_e57489e729c801d7,Sambang Darah,41,0.99999999999999978,True,True,True,False,False,False,False,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,46,leaf_62ef0ed49ad4e2d3,Sambang Darah,39,0.99999999999999989,True,True,True,False,False,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,47,leaf_ce6b898792146850,Sambang Darah,39,0.99999999999999978,True,True,True,False,False,False,False,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,48,leaf_3c3fafa9c7913736,Sambang Darah,38,0.99999999999999989,True,True,True,False,False,False,False,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,49,leaf_eacbf33f28cb6b28,Sambang Darah,43,1,True,True,True,False,False,False,True,True,False,True,True,Ready - Pending Review
+Unigram + Bigram,50,leaf_0e58a931923c4e40,Sambang Darah,39,0.99999999999999989,True,True,True,False,False,False,False,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,51,leaf_a21b39e63066049c,Sambang Darah,39,0.99999999999999989,True,True,True,False,False,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,52,leaf_ad626da03abf4532,Sambang Darah,41,0.99999999999999989,True,True,True,False,False,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,53,leaf_45d4826ed41c51b4,Sambang Darah,43,1,True,True,True,False,False,False,False,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,54,leaf_c289208cb093f769,Sambang Darah,45,1,True,True,True,False,False,False,True,True,False,True,True,Ready - Pending Review
+Unigram + Bigram,55,leaf_620d73b8cfb217b6,Sambang Darah,39,1,True,True,True,False,False,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,56,leaf_d9d0b97961feaeac,Sambang Darah,37,0.99999999999999989,True,True,True,False,False,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,57,leaf_6e53ecd8713a9128,Sambang Darah,39,1,True,True,True,False,False,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,58,leaf_ac5e952a9ae56c36,Sambang Darah,35,0.99999999999999989,True,True,True,False,False,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,59,leaf_1d4f34320b1b8b8d,Sirih,44,1,True,True,True,False,False,False,False,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,60,leaf_d0f42a660bf2b3ee,Sirih,43,1.0000000000000002,True,True,True,False,False,False,False,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,61,leaf_1ef1bffd5f4186c1,Sirih,40,1,True,True,True,False,False,False,False,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,62,leaf_a280fa2ae09d329b,Sirih,38,1.0000000000000002,True,True,True,False,False,False,False,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,63,leaf_6fcc4b52889490ca,Sirih,43,1,True,True,True,False,False,False,False,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,64,leaf_1193856cea5a1287,Sirih,38,0.99999999999999989,True,True,True,False,False,False,False,False,True,True,True,Ready - Pending Review
+Unigram + Bigram,65,leaf_3f1cc0b714c4164e,Sirih,43,1,True,True,True,False,False,False,False,False,True,True,True,Ready - Pending Review
+Unigram + Bigram,66,leaf_347efec2afc78e44,Sirih,39,1,True,True,True,False,False,False,False,False,True,True,True,Ready - Pending Review
+Unigram + Bigram,67,leaf_9dad4bfe9db99263,Sirih,38,1,True,True,True,False,False,False,False,False,True,True,True,Ready - Pending Review
+Unigram + Bigram,68,leaf_57905de77bc7f811,Sirih,43,0.99999999999999989,True,True,True,False,False,False,True,False,True,True,True,Ready - Pending Review
+Unigram + Bigram,69,leaf_1b922f2bd904d1fc,Sirih,35,0.99999999999999989,True,True,True,False,False,False,False,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,70,leaf_6397705392627f3c,Sirih,40,1,True,True,True,True,True,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,71,leaf_c8bf421408781594,Sirih,42,0.99999999999999989,True,True,True,False,False,False,False,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,72,leaf_66c00e535609f186,Sirih,40,1,True,True,True,False,False,False,False,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,73,leaf_2574445c571a7dc3,Sirih,40,1,True,True,True,True,True,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,74,leaf_afba9495e801278e,Sirih,40,1,True,True,True,False,False,False,False,False,True,True,True,Ready - Pending Review
+Unigram + Bigram,75,leaf_693f93e999e7c6a3,Sirih,42,1,True,True,True,False,False,False,False,False,True,True,True,Ready - Pending Review
+Unigram + Bigram,76,leaf_7f9c59b7594e5833,Sirih,38,1,True,True,True,False,False,False,False,False,True,True,True,Ready - Pending Review
+Unigram + Bigram,77,leaf_338b7ee25be7d52d,Sirih,41,1.0000000000000002,True,True,True,False,False,False,True,False,True,True,True,Ready - Pending Review
+Unigram + Bigram,78,leaf_47ab03f4e71a0717,Sirih,46,1.0000000000000002,True,True,True,False,False,False,False,False,True,True,True,Ready - Pending Review
+Unigram + Bigram,79,leaf_7be37d0f3c7e488a,Tapak Kuda,44,0.99999999999999989,True,True,True,False,False,False,False,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,80,leaf_328651beb5d48483,Tapak Kuda,38,1,True,True,True,False,False,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,81,leaf_22bf36f7b3abd78c,Tapak Kuda,39,1,True,True,True,True,True,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,82,leaf_8129d1a748a118de,Tapak Kuda,42,0.99999999999999978,True,True,True,False,False,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,83,leaf_549670d83912aed7,Tapak Kuda,40,0.99999999999999978,True,True,True,False,False,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,84,leaf_655b2ffd3499bbea,Tapak Kuda,41,0.99999999999999989,True,True,True,False,False,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,85,leaf_43ae297ca838aebb,Tapak Kuda,38,0.99999999999999989,True,True,True,True,True,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,86,leaf_28712bf465655732,Tapak Kuda,38,1,True,True,True,False,False,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,87,leaf_721244faca19b94f,Tapak Kuda,38,0.99999999999999989,True,True,True,True,True,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,88,leaf_bb707568bb3ed9ce,Tapak Kuda,38,1,True,True,True,False,False,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,89,leaf_d755ad14cfc3f8bf,Tapak Kuda,38,1,True,True,True,True,True,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,90,leaf_2976a10d6fff3cd5,Tapak Kuda,42,1,True,True,True,True,True,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,91,leaf_acea8a79416b27c0,Tapak Kuda,40,0.99999999999999989,True,True,True,True,True,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,92,leaf_f72f88757c4de8ba,Tapak Kuda,40,0.99999999999999989,True,True,True,True,True,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,93,leaf_93d488369f0a2cc4,Tapak Kuda,38,1,True,True,True,False,False,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,94,leaf_25803393f335987a,Tapak Kuda,40,1,True,True,True,False,False,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,95,leaf_012389d8d324b6c8,Tapak Kuda,40,0.99999999999999989,True,True,True,True,True,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,96,leaf_193e4fc967161d9a,Tapak Kuda,38,1,True,True,True,True,True,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,97,leaf_d19ceb083d0a7e82,Tapak Kuda,38,1,True,True,True,True,True,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,98,leaf_8d727458048a81c7,Tapak Kuda,38,1,True,True,True,True,True,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,99,leaf_8f8d177305fb06f2,Tapak Kuda,39,1,True,True,True,True,True,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,100,leaf_cef9b535077d5397,Tapak Kuda,39,0.99999999999999989,True,True,True,False,False,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,101,leaf_5fafb790c4773c55,Tapak Kuda,40,1,True,True,True,False,False,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,102,leaf_055c97f32cf57da5,Tapak Kuda,42,1,True,True,True,True,True,False,True,False,False,True,True,Ready - Pending Review
+Unigram + Bigram,103,leaf_41f02313a5460236,Tapak Kuda,39,1,True,True,True,False,False,False,True,False,False,True,True,Ready - Pending Review

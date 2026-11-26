@@ -1,0 +1,4 @@
+﻿ngram_group,unique_terms,total_occurrences,minimum_term_frequency,maximum_term_frequency,mean_term_frequency,minimum_document_frequency,maximum_document_frequency,mean_document_frequency,rare_terms,common_terms,universal_terms,minimum_expected_idf,maximum_expected_idf
+Unigram,68,2188,1,121,32.176470588235297,1,104,30.676470588235293,5,10,9,1,4.9608131695975786
+Bigram,193,2084,1,104,10.797927461139896,1,104,10.777202072538859,51,5,4,1,4.9608131695975786
+Unigram + Bigram,261,4272,1,121,16.367816091954023,1,104,15.96168582375479,56,15,13,1,4.9608131695975786

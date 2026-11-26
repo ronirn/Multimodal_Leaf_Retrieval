@@ -1,0 +1,4 @@
+﻿artifact,filename,relative_path,available,status
+Visual Manifest JSON,visual_feature_manifest.json,dataset/features/visual/visual_feature_manifest.json,True,Available
+Visual Manifest CSV,174_visual_feature_artifact_manifest.csv,results/metrics/174_visual_feature_artifact_manifest.csv,True,Available
+Text Notebook Handoff,347_text_feature_extraction_handoff.json,results/metrics/347_text_feature_extraction_handoff.json,True,Available

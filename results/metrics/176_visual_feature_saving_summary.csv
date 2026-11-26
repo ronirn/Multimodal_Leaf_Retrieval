@@ -1,0 +1,24 @@
+﻿Indicator,Result
+Total samples,104
+Total visual feature dimension,143
+Raw feature matrix shape,"(104, 143)"
+Baseline feature matrix shape,"(104, 143)"
+Proposed feature matrix shape,"(104, 143)"
+Total saved arrays,8
+Total saved normalizers,2
+Total saved artifacts,15
+Total saved size (KB),681.5205
+Total saved size (MB),0.665547
+Save-load validation checks,130
+Validation checks passed,130
+Validation checks failed,0
+Single-query consistency checks passed,3
+Proposed reconstruction maximum difference,0.0
+Baseline reconstruction maximum difference,0.0
+Metadata alignment preserved,True
+Feature order preserved,True
+Raw features retained for evaluation,True
+Normalization fit scope,Full Dataset - Gallery Development
+Evaluation requires reference-only refit,True
+Visual feature saving completed,True
+Multimodal fusion completed,False

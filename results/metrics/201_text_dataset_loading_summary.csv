@@ -1,0 +1,31 @@
+﻿Indicator,Result
+Source file,metadata_processed.csv
+Source dataset shape,"(104, 44)"
+Total text samples,104
+Total classes,5
+Input text column,cleaned_description
+Unique sample IDs,104
+Unique descriptions,95
+Records in duplicate description groups,17
+Minimum word count,18
+Maximum word count,24
+Mean word count,21.03846153846154
+Empty descriptions,0
+Cleaned-tokenized matching descriptions,104
+Token count consistency,True
+Text quality initial checks passed,87
+Text quality samples requiring review,17
+Valid processed text samples,104
+Valid multimodal samples,104
+Visual feature matrix shape,"(104, 143)"
+Visual integrity checks passed,4
+Original sample order matches,True
+Final initial sample alignment,True
+Aligned samples,104
+Missing visual samples,0
+Missing text samples,0
+Samples removed,0
+Descriptions modified,0
+Class labels included in corpus,False
+TF-IDF fitted,False
+Text dataset loading completed,True

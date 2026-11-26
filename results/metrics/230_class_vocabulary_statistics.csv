@@ -1,0 +1,1646 @@
+﻿configuration,kelas,feature_index,term,ngram_type,class_documents,class_term_frequency,class_document_frequency,class_document_frequency_ratio
+Unigram,Mangkok,0,agak,Unigram,20,0,0,0
+Unigram,Mangkok,1,asimetris,Unigram,20,0,0,0
+Unigram,Mangkok,2,berbentuk,Unigram,20,20,20,1
+Unigram,Mangkok,3,bercabang,Unigram,20,2,2,0.10000000000000001
+Unigram,Mangkok,4,bergelombang,Unigram,20,20,20,1
+Unigram,Mangkok,5,berkerut,Unigram,20,14,14,0.69999999999999996
+Unigram,Mangkok,6,berlekuk,Unigram,20,0,0,0
+Unigram,Mangkok,7,berlipat,Unigram,20,0,0,0
+Unigram,Mangkok,8,berwarna,Unigram,20,20,20,1
+Unigram,Mangkok,9,bulat,Unigram,20,0,0,0
+Unigram,Mangkok,10,cerah,Unigram,20,0,0,0
+Unigram,Mangkok,11,dan,Unigram,20,22,20,1
+Unigram,Mangkok,12,dari,Unigram,20,0,0,0
+Unigram,Mangkok,13,daun,Unigram,20,29,20,1
+Unigram,Mangkok,14,dengan,Unigram,20,20,20,1
+Unigram,Mangkok,15,detail,Unigram,20,1,1,0.050000000000000003
+Unigram,Mangkok,16,elips,Unigram,20,0,0,0
+Unigram,Mangkok,17,ginjal,Unigram,20,0,0,0
+Unigram,Mangkok,18,halus,Unigram,20,24,20,1
+Unigram,Mangkok,19,hati,Unigram,20,14,14,0.69999999999999996
+Unigram,Mangkok,20,hijau,Unigram,20,20,20,1
+Unigram,Mangkok,21,hingga,Unigram,20,0,0,0
+Unigram,Mangkok,22,jelas,Unigram,20,4,4,0.20000000000000001
+Unigram,Mangkok,23,kekuningan,Unigram,20,3,3,0.14999999999999999
+Unigram,Mangkok,24,kerutan,Unigram,20,1,1,0.050000000000000003
+Unigram,Mangkok,25,keunguan,Unigram,20,0,0,0
+Unigram,Mangkok,26,kurang,Unigram,20,1,1,0.050000000000000003
+Unigram,Mangkok,27,kusam,Unigram,20,5,5,0.25
+Unigram,Mangkok,28,lebar,Unigram,20,2,2,0.10000000000000001
+Unigram,Mangkok,29,lipatan,Unigram,20,1,1,0.050000000000000003
+Unigram,Mangkok,30,lonjong,Unigram,20,0,0,0
+Unigram,Mangkok,31,melengkung,Unigram,20,3,3,0.14999999999999999
+Unigram,Mangkok,32,memanjang,Unigram,20,0,0,0
+Unigram,Mangkok,33,membulat,Unigram,20,40,20,1
+Unigram,Mangkok,34,mengilap,Unigram,20,14,14,0.69999999999999996
+Unigram,Mangkok,35,menjari,Unigram,20,0,0,0
+Unigram,Mangkok,36,menonjol,Unigram,20,2,2,0.10000000000000001
+Unigram,Mangkok,37,menyerupai,Unigram,20,14,14,0.69999999999999996
+Unigram,Mangkok,38,menyirip,Unigram,20,0,0,0
+Unigram,Mangkok,39,merah,Unigram,20,0,0,0
+Unigram,Mangkok,40,meruncing,Unigram,20,0,0,0
+Unigram,Mangkok,41,pangkal,Unigram,20,0,0,0
+Unigram,Mangkok,42,permukaan,Unigram,20,23,20,1
+Unigram,Mangkok,43,pucat,Unigram,20,0,0,0
+Unigram,Mangkok,44,rata,Unigram,20,0,0,0
+Unigram,Mangkok,45,relatif,Unigram,20,0,0,0
+Unigram,Mangkok,46,runcing,Unigram,20,0,0,0
+Unigram,Mangkok,47,samar,Unigram,20,0,0,0
+Unigram,Mangkok,48,sangat,Unigram,20,2,2,0.10000000000000001
+Unigram,Mangkok,49,sedang,Unigram,20,6,6,0.29999999999999999
+Unigram,Mangkok,50,sedikit,Unigram,20,3,3,0.14999999999999999
+Unigram,Mangkok,51,tampak,Unigram,20,21,20,1
+Unigram,Mangkok,52,tekstur,Unigram,20,0,0,0
+Unigram,Mangkok,53,telur,Unigram,20,0,0,0
+Unigram,Mangkok,54,tengah,Unigram,20,6,6,0.29999999999999999
+Unigram,Mangkok,55,tepi,Unigram,20,20,20,1
+Unigram,Mangkok,56,terang,Unigram,20,5,5,0.25
+Unigram,Mangkok,57,teratur,Unigram,20,0,0,0
+Unigram,Mangkok,58,terlihat,Unigram,20,5,5,0.25
+Unigram,Mangkok,59,terlipat,Unigram,20,0,0,0
+Unigram,Mangkok,60,tidak,Unigram,20,0,0,0
+Unigram,Mangkok,61,tipis,Unigram,20,0,0,0
+Unigram,Mangkok,62,tua,Unigram,20,9,9,0.45000000000000001
+Unigram,Mangkok,63,tulang,Unigram,20,9,9,0.45000000000000001
+Unigram,Mangkok,64,tumpul,Unigram,20,0,0,0
+Unigram,Mangkok,65,ujung,Unigram,20,20,20,1
+Unigram,Mangkok,66,urat,Unigram,20,6,6,0.29999999999999999
+Unigram,Mangkok,67,zaitun,Unigram,20,2,2,0.10000000000000001
+Unigram,Salam,0,agak,Unigram,19,0,0,0
+Unigram,Salam,1,asimetris,Unigram,19,0,0,0
+Unigram,Salam,2,berbentuk,Unigram,19,19,19,1
+Unigram,Salam,3,bercabang,Unigram,19,0,0,0
+Unigram,Salam,4,bergelombang,Unigram,19,10,10,0.52631578947368418
+Unigram,Salam,5,berkerut,Unigram,19,1,1,0.052631578947368418
+Unigram,Salam,6,berlekuk,Unigram,19,0,0,0
+Unigram,Salam,7,berlipat,Unigram,19,1,1,0.052631578947368418
+Unigram,Salam,8,berwarna,Unigram,19,19,19,1
+Unigram,Salam,9,bulat,Unigram,19,0,0,0
+Unigram,Salam,10,cerah,Unigram,19,0,0,0
+Unigram,Salam,11,dan,Unigram,19,22,19,1
+Unigram,Salam,12,dari,Unigram,19,0,0,0
+Unigram,Salam,13,daun,Unigram,19,19,19,1
+Unigram,Salam,14,dengan,Unigram,19,19,19,1
+Unigram,Salam,15,detail,Unigram,19,3,3,0.15789473684210525
+Unigram,Salam,16,elips,Unigram,19,3,3,0.15789473684210525
+Unigram,Salam,17,ginjal,Unigram,19,0,0,0
+Unigram,Salam,18,halus,Unigram,19,15,14,0.73684210526315785
+Unigram,Salam,19,hati,Unigram,19,0,0,0
+Unigram,Salam,20,hijau,Unigram,19,19,19,1
+Unigram,Salam,21,hingga,Unigram,19,0,0,0
+Unigram,Salam,22,jelas,Unigram,19,5,5,0.26315789473684209
+Unigram,Salam,23,kekuningan,Unigram,19,1,1,0.052631578947368418
+Unigram,Salam,24,kerutan,Unigram,19,0,0,0
+Unigram,Salam,25,keunguan,Unigram,19,0,0,0
+Unigram,Salam,26,kurang,Unigram,19,3,3,0.15789473684210525
+Unigram,Salam,27,kusam,Unigram,19,9,9,0.47368421052631576
+Unigram,Salam,28,lebar,Unigram,19,0,0,0
+Unigram,Salam,29,lipatan,Unigram,19,1,1,0.052631578947368418
+Unigram,Salam,30,lonjong,Unigram,19,16,16,0.84210526315789469
+Unigram,Salam,31,melengkung,Unigram,19,0,0,0
+Unigram,Salam,32,memanjang,Unigram,19,10,10,0.52631578947368418
+Unigram,Salam,33,membulat,Unigram,19,0,0,0
+Unigram,Salam,34,mengilap,Unigram,19,5,5,0.26315789473684209
+Unigram,Salam,35,menjari,Unigram,19,0,0,0
+Unigram,Salam,36,menonjol,Unigram,19,0,0,0
+Unigram,Salam,37,menyerupai,Unigram,19,0,0,0
+Unigram,Salam,38,menyirip,Unigram,19,8,8,0.42105263157894735
+Unigram,Salam,39,merah,Unigram,19,0,0,0
+Unigram,Salam,40,meruncing,Unigram,19,11,11,0.57894736842105265
+Unigram,Salam,41,pangkal,Unigram,19,0,0,0
+Unigram,Salam,42,permukaan,Unigram,19,19,19,1
+Unigram,Salam,43,pucat,Unigram,19,0,0,0
+Unigram,Salam,44,rata,Unigram,19,14,11,0.57894736842105265
+Unigram,Salam,45,relatif,Unigram,19,5,5,0.26315789473684209
+Unigram,Salam,46,runcing,Unigram,19,8,8,0.42105263157894735
+Unigram,Salam,47,samar,Unigram,19,2,2,0.10526315789473684
+Unigram,Salam,48,sangat,Unigram,19,1,1,0.052631578947368418
+Unigram,Salam,49,sedang,Unigram,19,4,4,0.21052631578947367
+Unigram,Salam,50,sedikit,Unigram,19,3,3,0.15789473684210525
+Unigram,Salam,51,tampak,Unigram,19,19,19,1
+Unigram,Salam,52,tekstur,Unigram,19,0,0,0
+Unigram,Salam,53,telur,Unigram,19,0,0,0
+Unigram,Salam,54,tengah,Unigram,19,12,12,0.63157894736842102
+Unigram,Salam,55,tepi,Unigram,19,19,19,1
+Unigram,Salam,56,terang,Unigram,19,6,6,0.31578947368421051
+Unigram,Salam,57,teratur,Unigram,19,0,0,0
+Unigram,Salam,58,terlihat,Unigram,19,4,4,0.21052631578947367
+Unigram,Salam,59,terlipat,Unigram,19,0,0,0
+Unigram,Salam,60,tidak,Unigram,19,0,0,0
+Unigram,Salam,61,tipis,Unigram,19,1,1,0.052631578947368418
+Unigram,Salam,62,tua,Unigram,19,10,10,0.52631578947368418
+Unigram,Salam,63,tulang,Unigram,19,12,12,0.63157894736842102
+Unigram,Salam,64,tumpul,Unigram,19,0,0,0
+Unigram,Salam,65,ujung,Unigram,19,19,19,1
+Unigram,Salam,66,urat,Unigram,19,11,11,0.57894736842105265
+Unigram,Salam,67,zaitun,Unigram,19,5,5,0.26315789473684209
+Unigram,Sambang Darah,0,agak,Unigram,20,0,0,0
+Unigram,Sambang Darah,1,asimetris,Unigram,20,0,0,0
+Unigram,Sambang Darah,2,berbentuk,Unigram,20,20,20,1
+Unigram,Sambang Darah,3,bercabang,Unigram,20,0,0,0
+Unigram,Sambang Darah,4,bergelombang,Unigram,20,8,8,0.40000000000000002
+Unigram,Sambang Darah,5,berkerut,Unigram,20,2,2,0.10000000000000001
+Unigram,Sambang Darah,6,berlekuk,Unigram,20,0,0,0
+Unigram,Sambang Darah,7,berlipat,Unigram,20,2,2,0.10000000000000001
+Unigram,Sambang Darah,8,berwarna,Unigram,20,20,20,1
+Unigram,Sambang Darah,9,bulat,Unigram,20,0,0,0
+Unigram,Sambang Darah,10,cerah,Unigram,20,0,0,0
+Unigram,Sambang Darah,11,dan,Unigram,20,22,20,1
+Unigram,Sambang Darah,12,dari,Unigram,20,0,0,0
+Unigram,Sambang Darah,13,daun,Unigram,20,20,20,1
+Unigram,Sambang Darah,14,dengan,Unigram,20,20,20,1
+Unigram,Sambang Darah,15,detail,Unigram,20,2,2,0.10000000000000001
+Unigram,Sambang Darah,16,elips,Unigram,20,10,10,0.5
+Unigram,Sambang Darah,17,ginjal,Unigram,20,0,0,0
+Unigram,Sambang Darah,18,halus,Unigram,20,10,10,0.5
+Unigram,Sambang Darah,19,hati,Unigram,20,0,0,0
+Unigram,Sambang Darah,20,hijau,Unigram,20,15,15,0.75
+Unigram,Sambang Darah,21,hingga,Unigram,20,1,1,0.050000000000000003
+Unigram,Sambang Darah,22,jelas,Unigram,20,7,7,0.34999999999999998
+Unigram,Sambang Darah,23,kekuningan,Unigram,20,0,0,0
+Unigram,Sambang Darah,24,kerutan,Unigram,20,0,0,0
+Unigram,Sambang Darah,25,keunguan,Unigram,20,5,5,0.25
+Unigram,Sambang Darah,26,kurang,Unigram,20,2,2,0.10000000000000001
+Unigram,Sambang Darah,27,kusam,Unigram,20,14,14,0.69999999999999996
+Unigram,Sambang Darah,28,lebar,Unigram,20,0,0,0
+Unigram,Sambang Darah,29,lipatan,Unigram,20,0,0,0
+Unigram,Sambang Darah,30,lonjong,Unigram,20,10,10,0.5
+Unigram,Sambang Darah,31,melengkung,Unigram,20,2,2,0.10000000000000001
+Unigram,Sambang Darah,32,memanjang,Unigram,20,9,9,0.45000000000000001
+Unigram,Sambang Darah,33,membulat,Unigram,20,0,0,0
+Unigram,Sambang Darah,34,mengilap,Unigram,20,6,6,0.29999999999999999
+Unigram,Sambang Darah,35,menjari,Unigram,20,0,0,0
+Unigram,Sambang Darah,36,menonjol,Unigram,20,1,1,0.050000000000000003
+Unigram,Sambang Darah,37,menyerupai,Unigram,20,0,0,0
+Unigram,Sambang Darah,38,menyirip,Unigram,20,16,16,0.80000000000000004
+Unigram,Sambang Darah,39,merah,Unigram,20,5,5,0.25
+Unigram,Sambang Darah,40,meruncing,Unigram,20,14,14,0.69999999999999996
+Unigram,Sambang Darah,41,pangkal,Unigram,20,0,0,0
+Unigram,Sambang Darah,42,permukaan,Unigram,20,21,20,1
+Unigram,Sambang Darah,43,pucat,Unigram,20,0,0,0
+Unigram,Sambang Darah,44,rata,Unigram,20,12,12,0.59999999999999998
+Unigram,Sambang Darah,45,relatif,Unigram,20,0,0,0
+Unigram,Sambang Darah,46,runcing,Unigram,20,6,6,0.29999999999999999
+Unigram,Sambang Darah,47,samar,Unigram,20,4,4,0.20000000000000001
+Unigram,Sambang Darah,48,sangat,Unigram,20,1,1,0.050000000000000003
+Unigram,Sambang Darah,49,sedang,Unigram,20,1,1,0.050000000000000003
+Unigram,Sambang Darah,50,sedikit,Unigram,20,5,5,0.25
+Unigram,Sambang Darah,51,tampak,Unigram,20,20,20,1
+Unigram,Sambang Darah,52,tekstur,Unigram,20,0,0,0
+Unigram,Sambang Darah,53,telur,Unigram,20,0,0,0
+Unigram,Sambang Darah,54,tengah,Unigram,20,7,7,0.34999999999999998
+Unigram,Sambang Darah,55,tepi,Unigram,20,20,20,1
+Unigram,Sambang Darah,56,terang,Unigram,20,4,4,0.20000000000000001
+Unigram,Sambang Darah,57,teratur,Unigram,20,1,1,0.050000000000000003
+Unigram,Sambang Darah,58,terlihat,Unigram,20,6,6,0.29999999999999999
+Unigram,Sambang Darah,59,terlipat,Unigram,20,0,0,0
+Unigram,Sambang Darah,60,tidak,Unigram,20,0,0,0
+Unigram,Sambang Darah,61,tipis,Unigram,20,0,0,0
+Unigram,Sambang Darah,62,tua,Unigram,20,10,10,0.5
+Unigram,Sambang Darah,63,tulang,Unigram,20,7,7,0.34999999999999998
+Unigram,Sambang Darah,64,tumpul,Unigram,20,1,1,0.050000000000000003
+Unigram,Sambang Darah,65,ujung,Unigram,20,20,20,1
+Unigram,Sambang Darah,66,urat,Unigram,20,18,18,0.90000000000000002
+Unigram,Sambang Darah,67,zaitun,Unigram,20,4,4,0.20000000000000001
+Unigram,Sirih,0,agak,Unigram,20,3,3,0.14999999999999999
+Unigram,Sirih,1,asimetris,Unigram,20,3,3,0.14999999999999999
+Unigram,Sirih,2,berbentuk,Unigram,20,30,20,1
+Unigram,Sirih,3,bercabang,Unigram,20,0,0,0
+Unigram,Sirih,4,bergelombang,Unigram,20,5,5,0.25
+Unigram,Sirih,5,berkerut,Unigram,20,10,10,0.5
+Unigram,Sirih,6,berlekuk,Unigram,20,0,0,0
+Unigram,Sirih,7,berlipat,Unigram,20,2,2,0.10000000000000001
+Unigram,Sirih,8,berwarna,Unigram,20,20,20,1
+Unigram,Sirih,9,bulat,Unigram,20,9,9,0.45000000000000001
+Unigram,Sirih,10,cerah,Unigram,20,0,0,0
+Unigram,Sirih,11,dan,Unigram,20,22,20,1
+Unigram,Sirih,12,dari,Unigram,20,8,8,0.40000000000000002
+Unigram,Sirih,13,daun,Unigram,20,26,20,1
+Unigram,Sirih,14,dengan,Unigram,20,20,20,1
+Unigram,Sirih,15,detail,Unigram,20,1,1,0.050000000000000003
+Unigram,Sirih,16,elips,Unigram,20,0,0,0
+Unigram,Sirih,17,ginjal,Unigram,20,0,0,0
+Unigram,Sirih,18,halus,Unigram,20,7,7,0.34999999999999998
+Unigram,Sirih,19,hati,Unigram,20,10,10,0.5
+Unigram,Sirih,20,hijau,Unigram,20,21,20,1
+Unigram,Sirih,21,hingga,Unigram,20,1,1,0.050000000000000003
+Unigram,Sirih,22,jelas,Unigram,20,8,8,0.40000000000000002
+Unigram,Sirih,23,kekuningan,Unigram,20,2,2,0.10000000000000001
+Unigram,Sirih,24,kerutan,Unigram,20,0,0,0
+Unigram,Sirih,25,keunguan,Unigram,20,0,0,0
+Unigram,Sirih,26,kurang,Unigram,20,1,1,0.050000000000000003
+Unigram,Sirih,27,kusam,Unigram,20,6,6,0.29999999999999999
+Unigram,Sirih,28,lebar,Unigram,20,3,3,0.14999999999999999
+Unigram,Sirih,29,lipatan,Unigram,20,4,4,0.20000000000000001
+Unigram,Sirih,30,lonjong,Unigram,20,1,1,0.050000000000000003
+Unigram,Sirih,31,melengkung,Unigram,20,0,0,0
+Unigram,Sirih,32,memanjang,Unigram,20,7,5,0.25
+Unigram,Sirih,33,membulat,Unigram,20,0,0,0
+Unigram,Sirih,34,mengilap,Unigram,20,5,5,0.25
+Unigram,Sirih,35,menjari,Unigram,20,0,0,0
+Unigram,Sirih,36,menonjol,Unigram,20,4,4,0.20000000000000001
+Unigram,Sirih,37,menyerupai,Unigram,20,0,0,0
+Unigram,Sirih,38,menyirip,Unigram,20,0,0,0
+Unigram,Sirih,39,merah,Unigram,20,0,0,0
+Unigram,Sirih,40,meruncing,Unigram,20,16,16,0.80000000000000004
+Unigram,Sirih,41,pangkal,Unigram,20,8,8,0.40000000000000002
+Unigram,Sirih,42,permukaan,Unigram,20,22,20,1
+Unigram,Sirih,43,pucat,Unigram,20,5,5,0.25
+Unigram,Sirih,44,rata,Unigram,20,15,15,0.75
+Unigram,Sirih,45,relatif,Unigram,20,0,0,0
+Unigram,Sirih,46,runcing,Unigram,20,4,4,0.20000000000000001
+Unigram,Sirih,47,samar,Unigram,20,0,0,0
+Unigram,Sirih,48,sangat,Unigram,20,0,0,0
+Unigram,Sirih,49,sedang,Unigram,20,3,3,0.14999999999999999
+Unigram,Sirih,50,sedikit,Unigram,20,4,4,0.20000000000000001
+Unigram,Sirih,51,tampak,Unigram,20,20,20,1
+Unigram,Sirih,52,tekstur,Unigram,20,0,0,0
+Unigram,Sirih,53,telur,Unigram,20,9,9,0.45000000000000001
+Unigram,Sirih,54,tengah,Unigram,20,0,0,0
+Unigram,Sirih,55,tepi,Unigram,20,20,20,1
+Unigram,Sirih,56,terang,Unigram,20,0,0,0
+Unigram,Sirih,57,teratur,Unigram,20,0,0,0
+Unigram,Sirih,58,terlihat,Unigram,20,9,9,0.45000000000000001
+Unigram,Sirih,59,terlipat,Unigram,20,5,5,0.25
+Unigram,Sirih,60,tidak,Unigram,20,0,0,0
+Unigram,Sirih,61,tipis,Unigram,20,0,0,0
+Unigram,Sirih,62,tua,Unigram,20,11,11,0.55000000000000004
+Unigram,Sirih,63,tulang,Unigram,20,0,0,0
+Unigram,Sirih,64,tumpul,Unigram,20,0,0,0
+Unigram,Sirih,65,ujung,Unigram,20,20,20,1
+Unigram,Sirih,66,urat,Unigram,20,17,17,0.84999999999999998
+Unigram,Sirih,67,zaitun,Unigram,20,1,1,0.050000000000000003
+Unigram,Tapak Kuda,0,agak,Unigram,25,0,0,0
+Unigram,Tapak Kuda,1,asimetris,Unigram,25,0,0,0
+Unigram,Tapak Kuda,2,berbentuk,Unigram,25,25,25,1
+Unigram,Tapak Kuda,3,bercabang,Unigram,25,0,0,0
+Unigram,Tapak Kuda,4,bergelombang,Unigram,25,5,5,0.20000000000000001
+Unigram,Tapak Kuda,5,berkerut,Unigram,25,16,16,0.64000000000000001
+Unigram,Tapak Kuda,6,berlekuk,Unigram,25,18,18,0.71999999999999997
+Unigram,Tapak Kuda,7,berlipat,Unigram,25,0,0,0
+Unigram,Tapak Kuda,8,berwarna,Unigram,25,25,25,1
+Unigram,Tapak Kuda,9,bulat,Unigram,25,0,0,0
+Unigram,Tapak Kuda,10,cerah,Unigram,25,1,1,0.040000000000000001
+Unigram,Tapak Kuda,11,dan,Unigram,25,26,25,1
+Unigram,Tapak Kuda,12,dari,Unigram,25,0,0,0
+Unigram,Tapak Kuda,13,daun,Unigram,25,27,25,1
+Unigram,Tapak Kuda,14,dengan,Unigram,25,25,25,1
+Unigram,Tapak Kuda,15,detail,Unigram,25,5,5,0.20000000000000001
+Unigram,Tapak Kuda,16,elips,Unigram,25,0,0,0
+Unigram,Tapak Kuda,17,ginjal,Unigram,25,25,25,1
+Unigram,Tapak Kuda,18,halus,Unigram,25,15,12,0.47999999999999998
+Unigram,Tapak Kuda,19,hati,Unigram,25,0,0,0
+Unigram,Tapak Kuda,20,hijau,Unigram,25,25,25,1
+Unigram,Tapak Kuda,21,hingga,Unigram,25,0,0,0
+Unigram,Tapak Kuda,22,jelas,Unigram,25,10,8,0.32000000000000001
+Unigram,Tapak Kuda,23,kekuningan,Unigram,25,4,4,0.16
+Unigram,Tapak Kuda,24,kerutan,Unigram,25,0,0,0
+Unigram,Tapak Kuda,25,keunguan,Unigram,25,0,0,0
+Unigram,Tapak Kuda,26,kurang,Unigram,25,3,3,0.12
+Unigram,Tapak Kuda,27,kusam,Unigram,25,7,7,0.28000000000000003
+Unigram,Tapak Kuda,28,lebar,Unigram,25,0,0,0
+Unigram,Tapak Kuda,29,lipatan,Unigram,25,0,0,0
+Unigram,Tapak Kuda,30,lonjong,Unigram,25,0,0,0
+Unigram,Tapak Kuda,31,melengkung,Unigram,25,0,0,0
+Unigram,Tapak Kuda,32,memanjang,Unigram,25,0,0,0
+Unigram,Tapak Kuda,33,membulat,Unigram,25,43,25,1
+Unigram,Tapak Kuda,34,mengilap,Unigram,25,0,0,0
+Unigram,Tapak Kuda,35,menjari,Unigram,25,21,21,0.83999999999999997
+Unigram,Tapak Kuda,36,menonjol,Unigram,25,2,2,0.080000000000000002
+Unigram,Tapak Kuda,37,menyerupai,Unigram,25,25,25,1
+Unigram,Tapak Kuda,38,menyirip,Unigram,25,0,0,0
+Unigram,Tapak Kuda,39,merah,Unigram,25,0,0,0
+Unigram,Tapak Kuda,40,meruncing,Unigram,25,0,0,0
+Unigram,Tapak Kuda,41,pangkal,Unigram,25,0,0,0
+Unigram,Tapak Kuda,42,permukaan,Unigram,25,25,25,1
+Unigram,Tapak Kuda,43,pucat,Unigram,25,0,0,0
+Unigram,Tapak Kuda,44,rata,Unigram,25,0,0,0
+Unigram,Tapak Kuda,45,relatif,Unigram,25,0,0,0
+Unigram,Tapak Kuda,46,runcing,Unigram,25,0,0,0
+Unigram,Tapak Kuda,47,samar,Unigram,25,3,3,0.12
+Unigram,Tapak Kuda,48,sangat,Unigram,25,0,0,0
+Unigram,Tapak Kuda,49,sedang,Unigram,25,9,9,0.35999999999999999
+Unigram,Tapak Kuda,50,sedikit,Unigram,25,4,4,0.16
+Unigram,Tapak Kuda,51,tampak,Unigram,25,25,25,1
+Unigram,Tapak Kuda,52,tekstur,Unigram,25,2,2,0.080000000000000002
+Unigram,Tapak Kuda,53,telur,Unigram,25,0,0,0
+Unigram,Tapak Kuda,54,tengah,Unigram,25,0,0,0
+Unigram,Tapak Kuda,55,tepi,Unigram,25,25,25,1
+Unigram,Tapak Kuda,56,terang,Unigram,25,2,2,0.080000000000000002
+Unigram,Tapak Kuda,57,teratur,Unigram,25,0,0,0
+Unigram,Tapak Kuda,58,terlihat,Unigram,25,13,11,0.44
+Unigram,Tapak Kuda,59,terlipat,Unigram,25,1,1,0.040000000000000001
+Unigram,Tapak Kuda,60,tidak,Unigram,25,4,2,0.080000000000000002
+Unigram,Tapak Kuda,61,tipis,Unigram,25,0,0,0
+Unigram,Tapak Kuda,62,tua,Unigram,25,10,10,0.40000000000000002
+Unigram,Tapak Kuda,63,tulang,Unigram,25,0,0,0
+Unigram,Tapak Kuda,64,tumpul,Unigram,25,0,0,0
+Unigram,Tapak Kuda,65,ujung,Unigram,25,25,25,1
+Unigram,Tapak Kuda,66,urat,Unigram,25,21,21,0.83999999999999997
+Unigram,Tapak Kuda,67,zaitun,Unigram,25,1,1,0.040000000000000001
+Unigram + Bigram,Mangkok,0,agak,Unigram,20,0,0,0
+Unigram + Bigram,Mangkok,1,agak asimetris,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,2,asimetris,Unigram,20,0,0,0
+Unigram + Bigram,Mangkok,3,asimetris dengan,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,4,berbentuk,Unigram,20,20,20,1
+Unigram + Bigram,Mangkok,5,berbentuk berbentuk,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,6,berbentuk bulat,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,7,berbentuk elips,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,8,berbentuk hati,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,9,berbentuk lonjong,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,10,berbentuk membulat,Bigram,20,20,20,1
+Unigram + Bigram,Mangkok,11,berbentuk menyerupai,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,12,bercabang,Unigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Mangkok,13,bercabang terlihat,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Mangkok,14,bergelombang,Unigram,20,20,20,1
+Unigram + Bigram,Mangkok,15,bergelombang halus,Bigram,20,20,20,1
+Unigram + Bigram,Mangkok,16,berkerut,Unigram,20,14,14,0.69999999999999996
+Unigram + Bigram,Mangkok,17,berkerut detail,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,18,berkerut halus,Bigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Mangkok,19,berkerut jelas,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,20,berkerut permukaan,Bigram,20,3,3,0.14999999999999999
+Unigram + Bigram,Mangkok,21,berkerut tulang,Bigram,20,5,5,0.25
+Unigram + Bigram,Mangkok,22,berkerut urat,Bigram,20,3,3,0.14999999999999999
+Unigram + Bigram,Mangkok,23,berlekuk,Unigram,20,0,0,0
+Unigram + Bigram,Mangkok,24,berlekuk membulat,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,25,berlipat,Unigram,20,0,0,0
+Unigram + Bigram,Mangkok,26,berlipat urat,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,27,berwarna,Unigram,20,20,20,1
+Unigram + Bigram,Mangkok,28,berwarna hijau,Bigram,20,20,20,1
+Unigram + Bigram,Mangkok,29,berwarna merah,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,30,bulat,Unigram,20,0,0,0
+Unigram + Bigram,Mangkok,31,bulat telur,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,32,cerah,Unigram,20,0,0,0
+Unigram + Bigram,Mangkok,33,cerah berbentuk,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,34,dan,Unigram,20,22,20,1
+Unigram + Bigram,Mangkok,35,dan bercabang,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Mangkok,36,dan hijau,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,37,dan jelas,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,38,dan kerutan,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Mangkok,39,dan lipatan,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,40,dan ujung,Bigram,20,20,20,1
+Unigram + Bigram,Mangkok,41,dan urat,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,42,dari,Unigram,20,0,0,0
+Unigram + Bigram,Mangkok,43,dari pangkal,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,44,daun,Unigram,20,29,20,1
+Unigram + Bigram,Mangkok,45,daun bercabang,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Mangkok,46,daun berwarna,Bigram,20,20,20,1
+Unigram + Bigram,Mangkok,47,daun halus,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Mangkok,48,daun jelas,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,49,daun menonjol,Bigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Mangkok,50,daun tampak,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Mangkok,51,daun terang,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Mangkok,52,daun terlihat,Bigram,20,3,3,0.14999999999999999
+Unigram + Bigram,Mangkok,53,daun tidak,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,54,dengan,Unigram,20,20,20,1
+Unigram + Bigram,Mangkok,55,dengan tepi,Bigram,20,20,20,1
+Unigram + Bigram,Mangkok,56,detail,Unigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Mangkok,57,detail halus,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Mangkok,58,detail tekstur,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,59,detail urat,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,60,elips,Unigram,20,0,0,0
+Unigram + Bigram,Mangkok,61,elips dengan,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,62,ginjal,Unigram,20,0,0,0
+Unigram + Bigram,Mangkok,63,ginjal dengan,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,64,halus,Unigram,20,24,20,1
+Unigram + Bigram,Mangkok,65,halus dan,Bigram,20,20,20,1
+Unigram + Bigram,Mangkok,66,halus kurang,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Mangkok,67,halus terlihat,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Mangkok,68,halus tulang,Bigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Mangkok,69,halus urat,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,70,hati,Unigram,20,14,14,0.69999999999999996
+Unigram + Bigram,Mangkok,71,hati agak,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,72,hati dengan,Bigram,20,14,14,0.69999999999999996
+Unigram + Bigram,Mangkok,73,hati lebar,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,74,hijau,Unigram,20,20,20,1
+Unigram + Bigram,Mangkok,75,hijau cerah,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,76,hijau kekuningan,Bigram,20,3,3,0.14999999999999999
+Unigram + Bigram,Mangkok,77,hijau pucat,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,78,hijau sedang,Bigram,20,6,6,0.29999999999999999
+Unigram + Bigram,Mangkok,79,hijau tua,Bigram,20,9,9,0.45000000000000001
+Unigram + Bigram,Mangkok,80,hijau zaitun,Bigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Mangkok,81,hingga,Unigram,20,0,0,0
+Unigram + Bigram,Mangkok,82,hingga runcing,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,83,hingga tua,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,84,jelas,Unigram,20,4,4,0.20000000000000001
+Unigram + Bigram,Mangkok,85,jelas dan,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,86,jelas dari,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,87,jelas sedikit,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,88,jelas urat,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,89,kekuningan,Unigram,20,3,3,0.14999999999999999
+Unigram + Bigram,Mangkok,90,kekuningan berbentuk,Bigram,20,3,3,0.14999999999999999
+Unigram + Bigram,Mangkok,91,kerutan,Unigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Mangkok,92,kerutan jelas,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Mangkok,93,keunguan,Unigram,20,0,0,0
+Unigram + Bigram,Mangkok,94,keunguan berbentuk,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,95,kurang,Unigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Mangkok,96,kurang jelas,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Mangkok,97,kusam,Unigram,20,5,5,0.25
+Unigram + Bigram,Mangkok,98,kusam berkerut,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Mangkok,99,kusam detail,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,100,kusam permukaan,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,101,kusam tulang,Bigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Mangkok,102,kusam urat,Bigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Mangkok,103,lebar,Unigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Mangkok,104,lebar dengan,Bigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Mangkok,105,lipatan,Unigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Mangkok,106,lipatan dan,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Mangkok,107,lipatan halus,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,108,lipatan memanjang,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,109,lonjong,Unigram,20,0,0,0
+Unigram + Bigram,Mangkok,110,lonjong dengan,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,111,lonjong memanjang,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,112,lonjong terlipat,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,113,melengkung,Unigram,20,3,3,0.14999999999999999
+Unigram + Bigram,Mangkok,114,melengkung terlihat,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,115,memanjang,Unigram,20,0,0,0
+Unigram + Bigram,Mangkok,116,memanjang dengan,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,117,memanjang jelas,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,118,memanjang terlipat,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,119,membulat,Unigram,20,40,20,1
+Unigram + Bigram,Mangkok,120,membulat dan,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,121,membulat dengan,Bigram,20,4,4,0.20000000000000001
+Unigram + Bigram,Mangkok,122,membulat lebar,Bigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Mangkok,123,membulat menyerupai,Bigram,20,14,14,0.69999999999999996
+Unigram + Bigram,Mangkok,124,membulat permukaan,Bigram,20,20,20,1
+Unigram + Bigram,Mangkok,125,mengilap,Unigram,20,14,14,0.69999999999999996
+Unigram + Bigram,Mangkok,126,mengilap berkerut,Bigram,20,11,11,0.55000000000000004
+Unigram + Bigram,Mangkok,127,mengilap detail,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Mangkok,128,mengilap lipatan,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Mangkok,129,mengilap tulang,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,130,mengilap urat,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Mangkok,131,menjari,Unigram,20,0,0,0
+Unigram + Bigram,Mangkok,132,menjari halus,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,133,menjari jelas,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,134,menjari menonjol,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,135,menjari samar,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,136,menjari sedikit,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,137,menjari terang,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,138,menjari terlihat,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,139,menonjol,Unigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Mangkok,140,menonjol berkerut,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,141,menonjol permukaan,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,142,menonjol sedikit,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Mangkok,143,menyerupai,Unigram,20,14,14,0.69999999999999996
+Unigram + Bigram,Mangkok,144,menyerupai ginjal,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,145,menyerupai hati,Bigram,20,14,14,0.69999999999999996
+Unigram + Bigram,Mangkok,146,menyirip,Unigram,20,0,0,0
+Unigram + Bigram,Mangkok,147,menyirip dan,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,148,menyirip jelas,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,149,menyirip melengkung,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,150,menyirip menonjol,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,151,menyirip samar,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,152,menyirip sedikit,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,153,menyirip teratur,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,154,menyirip terlihat,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,155,merah,Unigram,20,0,0,0
+Unigram + Bigram,Mangkok,156,merah keunguan,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,157,meruncing,Unigram,20,0,0,0
+Unigram + Bigram,Mangkok,158,meruncing permukaan,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,159,pangkal,Unigram,20,0,0,0
+Unigram + Bigram,Mangkok,160,pangkal jelas,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,161,pangkal terlihat,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,162,permukaan,Unigram,20,23,20,1
+Unigram + Bigram,Mangkok,163,permukaan berkerut,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,164,permukaan melengkung,Bigram,20,3,3,0.14999999999999999
+Unigram + Bigram,Mangkok,165,permukaan sedikit,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,166,permukaan tampak,Bigram,20,20,20,1
+Unigram + Bigram,Mangkok,167,pucat,Unigram,20,0,0,0
+Unigram + Bigram,Mangkok,168,pucat berbentuk,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,169,rata,Unigram,20,0,0,0
+Unigram + Bigram,Mangkok,170,rata dan,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,171,rata detail,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,172,rata tulang,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,173,rata urat,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,174,relatif,Unigram,20,0,0,0
+Unigram + Bigram,Mangkok,175,relatif rata,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,176,runcing,Unigram,20,0,0,0
+Unigram + Bigram,Mangkok,177,runcing permukaan,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,178,samar,Unigram,20,0,0,0
+Unigram + Bigram,Mangkok,179,samar detail,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,180,sangat,Unigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Mangkok,181,sangat mengilap,Bigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Mangkok,182,sedang,Unigram,20,6,6,0.29999999999999999
+Unigram + Bigram,Mangkok,183,sedang berbentuk,Bigram,20,6,6,0.29999999999999999
+Unigram + Bigram,Mangkok,184,sedang hingga,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,185,sedikit,Unigram,20,3,3,0.14999999999999999
+Unigram + Bigram,Mangkok,186,sedikit berkerut,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Mangkok,187,sedikit berlipat,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,188,sedikit mengilap,Bigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Mangkok,189,sedikit terlipat,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,190,tampak,Unigram,20,21,20,1
+Unigram + Bigram,Mangkok,191,tampak berkerut,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Mangkok,192,tampak berlipat,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,193,tampak detail,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,194,tampak kusam,Bigram,20,5,5,0.25
+Unigram + Bigram,Mangkok,195,tampak mengilap,Bigram,20,10,10,0.5
+Unigram + Bigram,Mangkok,196,tampak relatif,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,197,tampak sangat,Bigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Mangkok,198,tampak sedikit,Bigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Mangkok,199,tampak urat,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,200,tekstur,Unigram,20,0,0,0
+Unigram + Bigram,Mangkok,201,tekstur tidak,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,202,telur,Unigram,20,0,0,0
+Unigram + Bigram,Mangkok,203,telur agak,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,204,telur dengan,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,205,telur lebar,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,206,telur memanjang,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,207,telur terlipat,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,208,tengah,Unigram,20,6,6,0.29999999999999999
+Unigram + Bigram,Mangkok,209,tengah dan,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,210,tengah jelas,Bigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Mangkok,211,tengah samar,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,212,tengah terang,Bigram,20,4,4,0.20000000000000001
+Unigram + Bigram,Mangkok,213,tengah terlihat,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,214,tengah tipis,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,215,tepi,Unigram,20,20,20,1
+Unigram + Bigram,Mangkok,216,tepi bergelombang,Bigram,20,20,20,1
+Unigram + Bigram,Mangkok,217,tepi berlekuk,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,218,tepi daun,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,219,tepi rata,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,220,terang,Unigram,20,5,5,0.25
+Unigram + Bigram,Mangkok,221,terang dan,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Mangkok,222,terang urat,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,223,teratur,Unigram,20,0,0,0
+Unigram + Bigram,Mangkok,224,teratur terlihat,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,225,terlihat,Unigram,20,5,5,0.25
+Unigram + Bigram,Mangkok,226,terlihat detail,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,227,terlihat jelas,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,228,terlihat sedikit,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,229,terlipat,Unigram,20,0,0,0
+Unigram + Bigram,Mangkok,230,terlipat dengan,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,231,tidak,Unigram,20,0,0,0
+Unigram + Bigram,Mangkok,232,tidak terlihat,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,233,tipis,Unigram,20,0,0,0
+Unigram + Bigram,Mangkok,234,tipis terlihat,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,235,tua,Unigram,20,9,9,0.45000000000000001
+Unigram + Bigram,Mangkok,236,tua berbentuk,Bigram,20,9,9,0.45000000000000001
+Unigram + Bigram,Mangkok,237,tua dan,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,238,tulang,Unigram,20,9,9,0.45000000000000001
+Unigram + Bigram,Mangkok,239,tulang daun,Bigram,20,4,4,0.20000000000000001
+Unigram + Bigram,Mangkok,240,tulang tengah,Bigram,20,5,5,0.25
+Unigram + Bigram,Mangkok,241,tumpul,Unigram,20,0,0,0
+Unigram + Bigram,Mangkok,242,tumpul hingga,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,243,ujung,Unigram,20,20,20,1
+Unigram + Bigram,Mangkok,244,ujung membulat,Bigram,20,20,20,1
+Unigram + Bigram,Mangkok,245,ujung meruncing,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,246,ujung runcing,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,247,ujung tumpul,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,248,urat,Unigram,20,6,6,0.29999999999999999
+Unigram + Bigram,Mangkok,249,urat dari,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,250,urat daun,Bigram,20,5,5,0.25
+Unigram + Bigram,Mangkok,251,urat halus,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,252,urat menjari,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,253,urat menonjol,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,254,urat menyirip,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,255,urat samar,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,256,urat tengah,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Mangkok,257,urat terlihat,Bigram,20,0,0,0
+Unigram + Bigram,Mangkok,258,zaitun,Unigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Mangkok,259,zaitun berbentuk,Bigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Mangkok,260,zaitun tua,Bigram,20,0,0,0
+Unigram + Bigram,Salam,0,agak,Unigram,19,0,0,0
+Unigram + Bigram,Salam,1,agak asimetris,Bigram,19,0,0,0
+Unigram + Bigram,Salam,2,asimetris,Unigram,19,0,0,0
+Unigram + Bigram,Salam,3,asimetris dengan,Bigram,19,0,0,0
+Unigram + Bigram,Salam,4,berbentuk,Unigram,19,19,19,1
+Unigram + Bigram,Salam,5,berbentuk berbentuk,Bigram,19,0,0,0
+Unigram + Bigram,Salam,6,berbentuk bulat,Bigram,19,0,0,0
+Unigram + Bigram,Salam,7,berbentuk elips,Bigram,19,3,3,0.15789473684210525
+Unigram + Bigram,Salam,8,berbentuk hati,Bigram,19,0,0,0
+Unigram + Bigram,Salam,9,berbentuk lonjong,Bigram,19,16,16,0.84210526315789469
+Unigram + Bigram,Salam,10,berbentuk membulat,Bigram,19,0,0,0
+Unigram + Bigram,Salam,11,berbentuk menyerupai,Bigram,19,0,0,0
+Unigram + Bigram,Salam,12,bercabang,Unigram,19,0,0,0
+Unigram + Bigram,Salam,13,bercabang terlihat,Bigram,19,0,0,0
+Unigram + Bigram,Salam,14,bergelombang,Unigram,19,10,10,0.52631578947368418
+Unigram + Bigram,Salam,15,bergelombang halus,Bigram,19,10,10,0.52631578947368418
+Unigram + Bigram,Salam,16,berkerut,Unigram,19,1,1,0.052631578947368418
+Unigram + Bigram,Salam,17,berkerut detail,Bigram,19,0,0,0
+Unigram + Bigram,Salam,18,berkerut halus,Bigram,19,0,0,0
+Unigram + Bigram,Salam,19,berkerut jelas,Bigram,19,0,0,0
+Unigram + Bigram,Salam,20,berkerut permukaan,Bigram,19,0,0,0
+Unigram + Bigram,Salam,21,berkerut tulang,Bigram,19,0,0,0
+Unigram + Bigram,Salam,22,berkerut urat,Bigram,19,0,0,0
+Unigram + Bigram,Salam,23,berlekuk,Unigram,19,0,0,0
+Unigram + Bigram,Salam,24,berlekuk membulat,Bigram,19,0,0,0
+Unigram + Bigram,Salam,25,berlipat,Unigram,19,1,1,0.052631578947368418
+Unigram + Bigram,Salam,26,berlipat urat,Bigram,19,0,0,0
+Unigram + Bigram,Salam,27,berwarna,Unigram,19,19,19,1
+Unigram + Bigram,Salam,28,berwarna hijau,Bigram,19,19,19,1
+Unigram + Bigram,Salam,29,berwarna merah,Bigram,19,0,0,0
+Unigram + Bigram,Salam,30,bulat,Unigram,19,0,0,0
+Unigram + Bigram,Salam,31,bulat telur,Bigram,19,0,0,0
+Unigram + Bigram,Salam,32,cerah,Unigram,19,0,0,0
+Unigram + Bigram,Salam,33,cerah berbentuk,Bigram,19,0,0,0
+Unigram + Bigram,Salam,34,dan,Unigram,19,22,19,1
+Unigram + Bigram,Salam,35,dan bercabang,Bigram,19,0,0,0
+Unigram + Bigram,Salam,36,dan hijau,Bigram,19,0,0,0
+Unigram + Bigram,Salam,37,dan jelas,Bigram,19,0,0,0
+Unigram + Bigram,Salam,38,dan kerutan,Bigram,19,0,0,0
+Unigram + Bigram,Salam,39,dan lipatan,Bigram,19,1,1,0.052631578947368418
+Unigram + Bigram,Salam,40,dan ujung,Bigram,19,19,19,1
+Unigram + Bigram,Salam,41,dan urat,Bigram,19,2,2,0.10526315789473684
+Unigram + Bigram,Salam,42,dari,Unigram,19,0,0,0
+Unigram + Bigram,Salam,43,dari pangkal,Bigram,19,0,0,0
+Unigram + Bigram,Salam,44,daun,Unigram,19,19,19,1
+Unigram + Bigram,Salam,45,daun bercabang,Bigram,19,0,0,0
+Unigram + Bigram,Salam,46,daun berwarna,Bigram,19,19,19,1
+Unigram + Bigram,Salam,47,daun halus,Bigram,19,0,0,0
+Unigram + Bigram,Salam,48,daun jelas,Bigram,19,0,0,0
+Unigram + Bigram,Salam,49,daun menonjol,Bigram,19,0,0,0
+Unigram + Bigram,Salam,50,daun tampak,Bigram,19,0,0,0
+Unigram + Bigram,Salam,51,daun terang,Bigram,19,0,0,0
+Unigram + Bigram,Salam,52,daun terlihat,Bigram,19,0,0,0
+Unigram + Bigram,Salam,53,daun tidak,Bigram,19,0,0,0
+Unigram + Bigram,Salam,54,dengan,Unigram,19,19,19,1
+Unigram + Bigram,Salam,55,dengan tepi,Bigram,19,19,19,1
+Unigram + Bigram,Salam,56,detail,Unigram,19,3,3,0.15789473684210525
+Unigram + Bigram,Salam,57,detail halus,Bigram,19,1,1,0.052631578947368418
+Unigram + Bigram,Salam,58,detail tekstur,Bigram,19,0,0,0
+Unigram + Bigram,Salam,59,detail urat,Bigram,19,2,2,0.10526315789473684
+Unigram + Bigram,Salam,60,elips,Unigram,19,3,3,0.15789473684210525
+Unigram + Bigram,Salam,61,elips dengan,Bigram,19,3,3,0.15789473684210525
+Unigram + Bigram,Salam,62,ginjal,Unigram,19,0,0,0
+Unigram + Bigram,Salam,63,ginjal dengan,Bigram,19,0,0,0
+Unigram + Bigram,Salam,64,halus,Unigram,19,15,14,0.73684210526315785
+Unigram + Bigram,Salam,65,halus dan,Bigram,19,10,10,0.52631578947368418
+Unigram + Bigram,Salam,66,halus kurang,Bigram,19,3,3,0.15789473684210525
+Unigram + Bigram,Salam,67,halus terlihat,Bigram,19,0,0,0
+Unigram + Bigram,Salam,68,halus tulang,Bigram,19,0,0,0
+Unigram + Bigram,Salam,69,halus urat,Bigram,19,0,0,0
+Unigram + Bigram,Salam,70,hati,Unigram,19,0,0,0
+Unigram + Bigram,Salam,71,hati agak,Bigram,19,0,0,0
+Unigram + Bigram,Salam,72,hati dengan,Bigram,19,0,0,0
+Unigram + Bigram,Salam,73,hati lebar,Bigram,19,0,0,0
+Unigram + Bigram,Salam,74,hijau,Unigram,19,19,19,1
+Unigram + Bigram,Salam,75,hijau cerah,Bigram,19,0,0,0
+Unigram + Bigram,Salam,76,hijau kekuningan,Bigram,19,1,1,0.052631578947368418
+Unigram + Bigram,Salam,77,hijau pucat,Bigram,19,0,0,0
+Unigram + Bigram,Salam,78,hijau sedang,Bigram,19,4,4,0.21052631578947367
+Unigram + Bigram,Salam,79,hijau tua,Bigram,19,9,9,0.47368421052631576
+Unigram + Bigram,Salam,80,hijau zaitun,Bigram,19,5,5,0.26315789473684209
+Unigram + Bigram,Salam,81,hingga,Unigram,19,0,0,0
+Unigram + Bigram,Salam,82,hingga runcing,Bigram,19,0,0,0
+Unigram + Bigram,Salam,83,hingga tua,Bigram,19,0,0,0
+Unigram + Bigram,Salam,84,jelas,Unigram,19,5,5,0.26315789473684209
+Unigram + Bigram,Salam,85,jelas dan,Bigram,19,0,0,0
+Unigram + Bigram,Salam,86,jelas dari,Bigram,19,0,0,0
+Unigram + Bigram,Salam,87,jelas sedikit,Bigram,19,1,1,0.052631578947368418
+Unigram + Bigram,Salam,88,jelas urat,Bigram,19,0,0,0
+Unigram + Bigram,Salam,89,kekuningan,Unigram,19,1,1,0.052631578947368418
+Unigram + Bigram,Salam,90,kekuningan berbentuk,Bigram,19,1,1,0.052631578947368418
+Unigram + Bigram,Salam,91,kerutan,Unigram,19,0,0,0
+Unigram + Bigram,Salam,92,kerutan jelas,Bigram,19,0,0,0
+Unigram + Bigram,Salam,93,keunguan,Unigram,19,0,0,0
+Unigram + Bigram,Salam,94,keunguan berbentuk,Bigram,19,0,0,0
+Unigram + Bigram,Salam,95,kurang,Unigram,19,3,3,0.15789473684210525
+Unigram + Bigram,Salam,96,kurang jelas,Bigram,19,3,3,0.15789473684210525
+Unigram + Bigram,Salam,97,kusam,Unigram,19,9,9,0.47368421052631576
+Unigram + Bigram,Salam,98,kusam berkerut,Bigram,19,0,0,0
+Unigram + Bigram,Salam,99,kusam detail,Bigram,19,2,2,0.10526315789473684
+Unigram + Bigram,Salam,100,kusam permukaan,Bigram,19,0,0,0
+Unigram + Bigram,Salam,101,kusam tulang,Bigram,19,5,5,0.26315789473684209
+Unigram + Bigram,Salam,102,kusam urat,Bigram,19,2,2,0.10526315789473684
+Unigram + Bigram,Salam,103,lebar,Unigram,19,0,0,0
+Unigram + Bigram,Salam,104,lebar dengan,Bigram,19,0,0,0
+Unigram + Bigram,Salam,105,lipatan,Unigram,19,1,1,0.052631578947368418
+Unigram + Bigram,Salam,106,lipatan dan,Bigram,19,0,0,0
+Unigram + Bigram,Salam,107,lipatan halus,Bigram,19,1,1,0.052631578947368418
+Unigram + Bigram,Salam,108,lipatan memanjang,Bigram,19,0,0,0
+Unigram + Bigram,Salam,109,lonjong,Unigram,19,16,16,0.84210526315789469
+Unigram + Bigram,Salam,110,lonjong dengan,Bigram,19,6,6,0.31578947368421051
+Unigram + Bigram,Salam,111,lonjong memanjang,Bigram,19,10,10,0.52631578947368418
+Unigram + Bigram,Salam,112,lonjong terlipat,Bigram,19,0,0,0
+Unigram + Bigram,Salam,113,melengkung,Unigram,19,0,0,0
+Unigram + Bigram,Salam,114,melengkung terlihat,Bigram,19,0,0,0
+Unigram + Bigram,Salam,115,memanjang,Unigram,19,10,10,0.52631578947368418
+Unigram + Bigram,Salam,116,memanjang dengan,Bigram,19,10,10,0.52631578947368418
+Unigram + Bigram,Salam,117,memanjang jelas,Bigram,19,0,0,0
+Unigram + Bigram,Salam,118,memanjang terlipat,Bigram,19,0,0,0
+Unigram + Bigram,Salam,119,membulat,Unigram,19,0,0,0
+Unigram + Bigram,Salam,120,membulat dan,Bigram,19,0,0,0
+Unigram + Bigram,Salam,121,membulat dengan,Bigram,19,0,0,0
+Unigram + Bigram,Salam,122,membulat lebar,Bigram,19,0,0,0
+Unigram + Bigram,Salam,123,membulat menyerupai,Bigram,19,0,0,0
+Unigram + Bigram,Salam,124,membulat permukaan,Bigram,19,0,0,0
+Unigram + Bigram,Salam,125,mengilap,Unigram,19,5,5,0.26315789473684209
+Unigram + Bigram,Salam,126,mengilap berkerut,Bigram,19,0,0,0
+Unigram + Bigram,Salam,127,mengilap detail,Bigram,19,0,0,0
+Unigram + Bigram,Salam,128,mengilap lipatan,Bigram,19,0,0,0
+Unigram + Bigram,Salam,129,mengilap tulang,Bigram,19,4,4,0.21052631578947367
+Unigram + Bigram,Salam,130,mengilap urat,Bigram,19,1,1,0.052631578947368418
+Unigram + Bigram,Salam,131,menjari,Unigram,19,0,0,0
+Unigram + Bigram,Salam,132,menjari halus,Bigram,19,0,0,0
+Unigram + Bigram,Salam,133,menjari jelas,Bigram,19,0,0,0
+Unigram + Bigram,Salam,134,menjari menonjol,Bigram,19,0,0,0
+Unigram + Bigram,Salam,135,menjari samar,Bigram,19,0,0,0
+Unigram + Bigram,Salam,136,menjari sedikit,Bigram,19,0,0,0
+Unigram + Bigram,Salam,137,menjari terang,Bigram,19,0,0,0
+Unigram + Bigram,Salam,138,menjari terlihat,Bigram,19,0,0,0
+Unigram + Bigram,Salam,139,menonjol,Unigram,19,0,0,0
+Unigram + Bigram,Salam,140,menonjol berkerut,Bigram,19,0,0,0
+Unigram + Bigram,Salam,141,menonjol permukaan,Bigram,19,0,0,0
+Unigram + Bigram,Salam,142,menonjol sedikit,Bigram,19,0,0,0
+Unigram + Bigram,Salam,143,menyerupai,Unigram,19,0,0,0
+Unigram + Bigram,Salam,144,menyerupai ginjal,Bigram,19,0,0,0
+Unigram + Bigram,Salam,145,menyerupai hati,Bigram,19,0,0,0
+Unigram + Bigram,Salam,146,menyirip,Unigram,19,8,8,0.42105263157894735
+Unigram + Bigram,Salam,147,menyirip dan,Bigram,19,1,1,0.052631578947368418
+Unigram + Bigram,Salam,148,menyirip jelas,Bigram,19,2,2,0.10526315789473684
+Unigram + Bigram,Salam,149,menyirip melengkung,Bigram,19,0,0,0
+Unigram + Bigram,Salam,150,menyirip menonjol,Bigram,19,0,0,0
+Unigram + Bigram,Salam,151,menyirip samar,Bigram,19,1,1,0.052631578947368418
+Unigram + Bigram,Salam,152,menyirip sedikit,Bigram,19,1,1,0.052631578947368418
+Unigram + Bigram,Salam,153,menyirip teratur,Bigram,19,0,0,0
+Unigram + Bigram,Salam,154,menyirip terlihat,Bigram,19,0,0,0
+Unigram + Bigram,Salam,155,merah,Unigram,19,0,0,0
+Unigram + Bigram,Salam,156,merah keunguan,Bigram,19,0,0,0
+Unigram + Bigram,Salam,157,meruncing,Unigram,19,11,11,0.57894736842105265
+Unigram + Bigram,Salam,158,meruncing permukaan,Bigram,19,11,11,0.57894736842105265
+Unigram + Bigram,Salam,159,pangkal,Unigram,19,0,0,0
+Unigram + Bigram,Salam,160,pangkal jelas,Bigram,19,0,0,0
+Unigram + Bigram,Salam,161,pangkal terlihat,Bigram,19,0,0,0
+Unigram + Bigram,Salam,162,permukaan,Unigram,19,19,19,1
+Unigram + Bigram,Salam,163,permukaan berkerut,Bigram,19,0,0,0
+Unigram + Bigram,Salam,164,permukaan melengkung,Bigram,19,0,0,0
+Unigram + Bigram,Salam,165,permukaan sedikit,Bigram,19,0,0,0
+Unigram + Bigram,Salam,166,permukaan tampak,Bigram,19,19,19,1
+Unigram + Bigram,Salam,167,pucat,Unigram,19,0,0,0
+Unigram + Bigram,Salam,168,pucat berbentuk,Bigram,19,0,0,0
+Unigram + Bigram,Salam,169,rata,Unigram,19,14,11,0.57894736842105265
+Unigram + Bigram,Salam,170,rata dan,Bigram,19,9,9,0.47368421052631576
+Unigram + Bigram,Salam,171,rata detail,Bigram,19,1,1,0.052631578947368418
+Unigram + Bigram,Salam,172,rata tulang,Bigram,19,3,3,0.15789473684210525
+Unigram + Bigram,Salam,173,rata urat,Bigram,19,1,1,0.052631578947368418
+Unigram + Bigram,Salam,174,relatif,Unigram,19,5,5,0.26315789473684209
+Unigram + Bigram,Salam,175,relatif rata,Bigram,19,5,5,0.26315789473684209
+Unigram + Bigram,Salam,176,runcing,Unigram,19,8,8,0.42105263157894735
+Unigram + Bigram,Salam,177,runcing permukaan,Bigram,19,8,8,0.42105263157894735
+Unigram + Bigram,Salam,178,samar,Unigram,19,2,2,0.10526315789473684
+Unigram + Bigram,Salam,179,samar detail,Bigram,19,0,0,0
+Unigram + Bigram,Salam,180,sangat,Unigram,19,1,1,0.052631578947368418
+Unigram + Bigram,Salam,181,sangat mengilap,Bigram,19,1,1,0.052631578947368418
+Unigram + Bigram,Salam,182,sedang,Unigram,19,4,4,0.21052631578947367
+Unigram + Bigram,Salam,183,sedang berbentuk,Bigram,19,4,4,0.21052631578947367
+Unigram + Bigram,Salam,184,sedang hingga,Bigram,19,0,0,0
+Unigram + Bigram,Salam,185,sedikit,Unigram,19,3,3,0.15789473684210525
+Unigram + Bigram,Salam,186,sedikit berkerut,Bigram,19,1,1,0.052631578947368418
+Unigram + Bigram,Salam,187,sedikit berlipat,Bigram,19,1,1,0.052631578947368418
+Unigram + Bigram,Salam,188,sedikit mengilap,Bigram,19,1,1,0.052631578947368418
+Unigram + Bigram,Salam,189,sedikit terlipat,Bigram,19,0,0,0
+Unigram + Bigram,Salam,190,tampak,Unigram,19,19,19,1
+Unigram + Bigram,Salam,191,tampak berkerut,Bigram,19,0,0,0
+Unigram + Bigram,Salam,192,tampak berlipat,Bigram,19,0,0,0
+Unigram + Bigram,Salam,193,tampak detail,Bigram,19,0,0,0
+Unigram + Bigram,Salam,194,tampak kusam,Bigram,19,9,9,0.47368421052631576
+Unigram + Bigram,Salam,195,tampak mengilap,Bigram,19,3,3,0.15789473684210525
+Unigram + Bigram,Salam,196,tampak relatif,Bigram,19,5,5,0.26315789473684209
+Unigram + Bigram,Salam,197,tampak sangat,Bigram,19,1,1,0.052631578947368418
+Unigram + Bigram,Salam,198,tampak sedikit,Bigram,19,1,1,0.052631578947368418
+Unigram + Bigram,Salam,199,tampak urat,Bigram,19,0,0,0
+Unigram + Bigram,Salam,200,tekstur,Unigram,19,0,0,0
+Unigram + Bigram,Salam,201,tekstur tidak,Bigram,19,0,0,0
+Unigram + Bigram,Salam,202,telur,Unigram,19,0,0,0
+Unigram + Bigram,Salam,203,telur agak,Bigram,19,0,0,0
+Unigram + Bigram,Salam,204,telur dengan,Bigram,19,0,0,0
+Unigram + Bigram,Salam,205,telur lebar,Bigram,19,0,0,0
+Unigram + Bigram,Salam,206,telur memanjang,Bigram,19,0,0,0
+Unigram + Bigram,Salam,207,telur terlipat,Bigram,19,0,0,0
+Unigram + Bigram,Salam,208,tengah,Unigram,19,12,12,0.63157894736842102
+Unigram + Bigram,Salam,209,tengah dan,Bigram,19,1,1,0.052631578947368418
+Unigram + Bigram,Salam,210,tengah jelas,Bigram,19,0,0,0
+Unigram + Bigram,Salam,211,tengah samar,Bigram,19,1,1,0.052631578947368418
+Unigram + Bigram,Salam,212,tengah terang,Bigram,19,6,6,0.31578947368421051
+Unigram + Bigram,Salam,213,tengah terlihat,Bigram,19,3,3,0.15789473684210525
+Unigram + Bigram,Salam,214,tengah tipis,Bigram,19,1,1,0.052631578947368418
+Unigram + Bigram,Salam,215,tepi,Unigram,19,19,19,1
+Unigram + Bigram,Salam,216,tepi bergelombang,Bigram,19,10,10,0.52631578947368418
+Unigram + Bigram,Salam,217,tepi berlekuk,Bigram,19,0,0,0
+Unigram + Bigram,Salam,218,tepi daun,Bigram,19,0,0,0
+Unigram + Bigram,Salam,219,tepi rata,Bigram,19,9,9,0.47368421052631576
+Unigram + Bigram,Salam,220,terang,Unigram,19,6,6,0.31578947368421051
+Unigram + Bigram,Salam,221,terang dan,Bigram,19,1,1,0.052631578947368418
+Unigram + Bigram,Salam,222,terang urat,Bigram,19,3,3,0.15789473684210525
+Unigram + Bigram,Salam,223,teratur,Unigram,19,0,0,0
+Unigram + Bigram,Salam,224,teratur terlihat,Bigram,19,0,0,0
+Unigram + Bigram,Salam,225,terlihat,Unigram,19,4,4,0.21052631578947367
+Unigram + Bigram,Salam,226,terlihat detail,Bigram,19,0,0,0
+Unigram + Bigram,Salam,227,terlihat jelas,Bigram,19,0,0,0
+Unigram + Bigram,Salam,228,terlihat sedikit,Bigram,19,0,0,0
+Unigram + Bigram,Salam,229,terlipat,Unigram,19,0,0,0
+Unigram + Bigram,Salam,230,terlipat dengan,Bigram,19,0,0,0
+Unigram + Bigram,Salam,231,tidak,Unigram,19,0,0,0
+Unigram + Bigram,Salam,232,tidak terlihat,Bigram,19,0,0,0
+Unigram + Bigram,Salam,233,tipis,Unigram,19,1,1,0.052631578947368418
+Unigram + Bigram,Salam,234,tipis terlihat,Bigram,19,1,1,0.052631578947368418
+Unigram + Bigram,Salam,235,tua,Unigram,19,10,10,0.52631578947368418
+Unigram + Bigram,Salam,236,tua berbentuk,Bigram,19,10,10,0.52631578947368418
+Unigram + Bigram,Salam,237,tua dan,Bigram,19,0,0,0
+Unigram + Bigram,Salam,238,tulang,Unigram,19,12,12,0.63157894736842102
+Unigram + Bigram,Salam,239,tulang daun,Bigram,19,0,0,0
+Unigram + Bigram,Salam,240,tulang tengah,Bigram,19,12,12,0.63157894736842102
+Unigram + Bigram,Salam,241,tumpul,Unigram,19,0,0,0
+Unigram + Bigram,Salam,242,tumpul hingga,Bigram,19,0,0,0
+Unigram + Bigram,Salam,243,ujung,Unigram,19,19,19,1
+Unigram + Bigram,Salam,244,ujung membulat,Bigram,19,0,0,0
+Unigram + Bigram,Salam,245,ujung meruncing,Bigram,19,11,11,0.57894736842105265
+Unigram + Bigram,Salam,246,ujung runcing,Bigram,19,8,8,0.42105263157894735
+Unigram + Bigram,Salam,247,ujung tumpul,Bigram,19,0,0,0
+Unigram + Bigram,Salam,248,urat,Unigram,19,11,11,0.57894736842105265
+Unigram + Bigram,Salam,249,urat dari,Bigram,19,0,0,0
+Unigram + Bigram,Salam,250,urat daun,Bigram,19,0,0,0
+Unigram + Bigram,Salam,251,urat halus,Bigram,19,3,3,0.15789473684210525
+Unigram + Bigram,Salam,252,urat menjari,Bigram,19,0,0,0
+Unigram + Bigram,Salam,253,urat menonjol,Bigram,19,0,0,0
+Unigram + Bigram,Salam,254,urat menyirip,Bigram,19,8,8,0.42105263157894735
+Unigram + Bigram,Salam,255,urat samar,Bigram,19,0,0,0
+Unigram + Bigram,Salam,256,urat tengah,Bigram,19,0,0,0
+Unigram + Bigram,Salam,257,urat terlihat,Bigram,19,0,0,0
+Unigram + Bigram,Salam,258,zaitun,Unigram,19,5,5,0.26315789473684209
+Unigram + Bigram,Salam,259,zaitun berbentuk,Bigram,19,4,4,0.21052631578947367
+Unigram + Bigram,Salam,260,zaitun tua,Bigram,19,1,1,0.052631578947368418
+Unigram + Bigram,Sambang Darah,0,agak,Unigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,1,agak asimetris,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,2,asimetris,Unigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,3,asimetris dengan,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,4,berbentuk,Unigram,20,20,20,1
+Unigram + Bigram,Sambang Darah,5,berbentuk berbentuk,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,6,berbentuk bulat,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,7,berbentuk elips,Bigram,20,10,10,0.5
+Unigram + Bigram,Sambang Darah,8,berbentuk hati,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,9,berbentuk lonjong,Bigram,20,10,10,0.5
+Unigram + Bigram,Sambang Darah,10,berbentuk membulat,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,11,berbentuk menyerupai,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,12,bercabang,Unigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,13,bercabang terlihat,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,14,bergelombang,Unigram,20,8,8,0.40000000000000002
+Unigram + Bigram,Sambang Darah,15,bergelombang halus,Bigram,20,8,8,0.40000000000000002
+Unigram + Bigram,Sambang Darah,16,berkerut,Unigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Sambang Darah,17,berkerut detail,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,18,berkerut halus,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,19,berkerut jelas,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,20,berkerut permukaan,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,21,berkerut tulang,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,22,berkerut urat,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,23,berlekuk,Unigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,24,berlekuk membulat,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,25,berlipat,Unigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Sambang Darah,26,berlipat urat,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,27,berwarna,Unigram,20,20,20,1
+Unigram + Bigram,Sambang Darah,28,berwarna hijau,Bigram,20,15,15,0.75
+Unigram + Bigram,Sambang Darah,29,berwarna merah,Bigram,20,5,5,0.25
+Unigram + Bigram,Sambang Darah,30,bulat,Unigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,31,bulat telur,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,32,cerah,Unigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,33,cerah berbentuk,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,34,dan,Unigram,20,22,20,1
+Unigram + Bigram,Sambang Darah,35,dan bercabang,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,36,dan hijau,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,37,dan jelas,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,38,dan kerutan,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,39,dan lipatan,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,40,dan ujung,Bigram,20,20,20,1
+Unigram + Bigram,Sambang Darah,41,dan urat,Bigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Sambang Darah,42,dari,Unigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,43,dari pangkal,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,44,daun,Unigram,20,20,20,1
+Unigram + Bigram,Sambang Darah,45,daun bercabang,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,46,daun berwarna,Bigram,20,20,20,1
+Unigram + Bigram,Sambang Darah,47,daun halus,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,48,daun jelas,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,49,daun menonjol,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,50,daun tampak,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,51,daun terang,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,52,daun terlihat,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,53,daun tidak,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,54,dengan,Unigram,20,20,20,1
+Unigram + Bigram,Sambang Darah,55,dengan tepi,Bigram,20,20,20,1
+Unigram + Bigram,Sambang Darah,56,detail,Unigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Sambang Darah,57,detail halus,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sambang Darah,58,detail tekstur,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,59,detail urat,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sambang Darah,60,elips,Unigram,20,10,10,0.5
+Unigram + Bigram,Sambang Darah,61,elips dengan,Bigram,20,10,10,0.5
+Unigram + Bigram,Sambang Darah,62,ginjal,Unigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,63,ginjal dengan,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,64,halus,Unigram,20,10,10,0.5
+Unigram + Bigram,Sambang Darah,65,halus dan,Bigram,20,8,8,0.40000000000000002
+Unigram + Bigram,Sambang Darah,66,halus kurang,Bigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Sambang Darah,67,halus terlihat,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,68,halus tulang,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,69,halus urat,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,70,hati,Unigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,71,hati agak,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,72,hati dengan,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,73,hati lebar,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,74,hijau,Unigram,20,15,15,0.75
+Unigram + Bigram,Sambang Darah,75,hijau cerah,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,76,hijau kekuningan,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,77,hijau pucat,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,78,hijau sedang,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sambang Darah,79,hijau tua,Bigram,20,10,10,0.5
+Unigram + Bigram,Sambang Darah,80,hijau zaitun,Bigram,20,4,4,0.20000000000000001
+Unigram + Bigram,Sambang Darah,81,hingga,Unigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sambang Darah,82,hingga runcing,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sambang Darah,83,hingga tua,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,84,jelas,Unigram,20,7,7,0.34999999999999998
+Unigram + Bigram,Sambang Darah,85,jelas dan,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,86,jelas dari,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,87,jelas sedikit,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sambang Darah,88,jelas urat,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sambang Darah,89,kekuningan,Unigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,90,kekuningan berbentuk,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,91,kerutan,Unigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,92,kerutan jelas,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,93,keunguan,Unigram,20,5,5,0.25
+Unigram + Bigram,Sambang Darah,94,keunguan berbentuk,Bigram,20,5,5,0.25
+Unigram + Bigram,Sambang Darah,95,kurang,Unigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Sambang Darah,96,kurang jelas,Bigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Sambang Darah,97,kusam,Unigram,20,14,14,0.69999999999999996
+Unigram + Bigram,Sambang Darah,98,kusam berkerut,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,99,kusam detail,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sambang Darah,100,kusam permukaan,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sambang Darah,101,kusam tulang,Bigram,20,5,5,0.25
+Unigram + Bigram,Sambang Darah,102,kusam urat,Bigram,20,7,7,0.34999999999999998
+Unigram + Bigram,Sambang Darah,103,lebar,Unigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,104,lebar dengan,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,105,lipatan,Unigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,106,lipatan dan,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,107,lipatan halus,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,108,lipatan memanjang,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,109,lonjong,Unigram,20,10,10,0.5
+Unigram + Bigram,Sambang Darah,110,lonjong dengan,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sambang Darah,111,lonjong memanjang,Bigram,20,9,9,0.45000000000000001
+Unigram + Bigram,Sambang Darah,112,lonjong terlipat,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,113,melengkung,Unigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Sambang Darah,114,melengkung terlihat,Bigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Sambang Darah,115,memanjang,Unigram,20,9,9,0.45000000000000001
+Unigram + Bigram,Sambang Darah,116,memanjang dengan,Bigram,20,9,9,0.45000000000000001
+Unigram + Bigram,Sambang Darah,117,memanjang jelas,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,118,memanjang terlipat,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,119,membulat,Unigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,120,membulat dan,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,121,membulat dengan,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,122,membulat lebar,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,123,membulat menyerupai,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,124,membulat permukaan,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,125,mengilap,Unigram,20,6,6,0.29999999999999999
+Unigram + Bigram,Sambang Darah,126,mengilap berkerut,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,127,mengilap detail,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,128,mengilap lipatan,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,129,mengilap tulang,Bigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Sambang Darah,130,mengilap urat,Bigram,20,4,4,0.20000000000000001
+Unigram + Bigram,Sambang Darah,131,menjari,Unigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,132,menjari halus,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,133,menjari jelas,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,134,menjari menonjol,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,135,menjari samar,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,136,menjari sedikit,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,137,menjari terang,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,138,menjari terlihat,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,139,menonjol,Unigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sambang Darah,140,menonjol berkerut,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,141,menonjol permukaan,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,142,menonjol sedikit,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,143,menyerupai,Unigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,144,menyerupai ginjal,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,145,menyerupai hati,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,146,menyirip,Unigram,20,16,16,0.80000000000000004
+Unigram + Bigram,Sambang Darah,147,menyirip dan,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,148,menyirip jelas,Bigram,20,4,4,0.20000000000000001
+Unigram + Bigram,Sambang Darah,149,menyirip melengkung,Bigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Sambang Darah,150,menyirip menonjol,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sambang Darah,151,menyirip samar,Bigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Sambang Darah,152,menyirip sedikit,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sambang Darah,153,menyirip teratur,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sambang Darah,154,menyirip terlihat,Bigram,20,3,3,0.14999999999999999
+Unigram + Bigram,Sambang Darah,155,merah,Unigram,20,5,5,0.25
+Unigram + Bigram,Sambang Darah,156,merah keunguan,Bigram,20,5,5,0.25
+Unigram + Bigram,Sambang Darah,157,meruncing,Unigram,20,14,14,0.69999999999999996
+Unigram + Bigram,Sambang Darah,158,meruncing permukaan,Bigram,20,14,14,0.69999999999999996
+Unigram + Bigram,Sambang Darah,159,pangkal,Unigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,160,pangkal jelas,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,161,pangkal terlihat,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,162,permukaan,Unigram,20,21,20,1
+Unigram + Bigram,Sambang Darah,163,permukaan berkerut,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,164,permukaan melengkung,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,165,permukaan sedikit,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sambang Darah,166,permukaan tampak,Bigram,20,20,20,1
+Unigram + Bigram,Sambang Darah,167,pucat,Unigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,168,pucat berbentuk,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,169,rata,Unigram,20,12,12,0.59999999999999998
+Unigram + Bigram,Sambang Darah,170,rata dan,Bigram,20,12,12,0.59999999999999998
+Unigram + Bigram,Sambang Darah,171,rata detail,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,172,rata tulang,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,173,rata urat,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,174,relatif,Unigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,175,relatif rata,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,176,runcing,Unigram,20,6,6,0.29999999999999999
+Unigram + Bigram,Sambang Darah,177,runcing permukaan,Bigram,20,6,6,0.29999999999999999
+Unigram + Bigram,Sambang Darah,178,samar,Unigram,20,4,4,0.20000000000000001
+Unigram + Bigram,Sambang Darah,179,samar detail,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sambang Darah,180,sangat,Unigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sambang Darah,181,sangat mengilap,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sambang Darah,182,sedang,Unigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sambang Darah,183,sedang berbentuk,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sambang Darah,184,sedang hingga,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,185,sedikit,Unigram,20,5,5,0.25
+Unigram + Bigram,Sambang Darah,186,sedikit berkerut,Bigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Sambang Darah,187,sedikit berlipat,Bigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Sambang Darah,188,sedikit mengilap,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sambang Darah,189,sedikit terlipat,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,190,tampak,Unigram,20,20,20,1
+Unigram + Bigram,Sambang Darah,191,tampak berkerut,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,192,tampak berlipat,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,193,tampak detail,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,194,tampak kusam,Bigram,20,14,14,0.69999999999999996
+Unigram + Bigram,Sambang Darah,195,tampak mengilap,Bigram,20,4,4,0.20000000000000001
+Unigram + Bigram,Sambang Darah,196,tampak relatif,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,197,tampak sangat,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sambang Darah,198,tampak sedikit,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sambang Darah,199,tampak urat,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,200,tekstur,Unigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,201,tekstur tidak,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,202,telur,Unigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,203,telur agak,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,204,telur dengan,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,205,telur lebar,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,206,telur memanjang,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,207,telur terlipat,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,208,tengah,Unigram,20,7,7,0.34999999999999998
+Unigram + Bigram,Sambang Darah,209,tengah dan,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sambang Darah,210,tengah jelas,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sambang Darah,211,tengah samar,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sambang Darah,212,tengah terang,Bigram,20,4,4,0.20000000000000001
+Unigram + Bigram,Sambang Darah,213,tengah terlihat,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,214,tengah tipis,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,215,tepi,Unigram,20,20,20,1
+Unigram + Bigram,Sambang Darah,216,tepi bergelombang,Bigram,20,8,8,0.40000000000000002
+Unigram + Bigram,Sambang Darah,217,tepi berlekuk,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,218,tepi daun,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,219,tepi rata,Bigram,20,12,12,0.59999999999999998
+Unigram + Bigram,Sambang Darah,220,terang,Unigram,20,4,4,0.20000000000000001
+Unigram + Bigram,Sambang Darah,221,terang dan,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sambang Darah,222,terang urat,Bigram,20,3,3,0.14999999999999999
+Unigram + Bigram,Sambang Darah,223,teratur,Unigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sambang Darah,224,teratur terlihat,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sambang Darah,225,terlihat,Unigram,20,6,6,0.29999999999999999
+Unigram + Bigram,Sambang Darah,226,terlihat detail,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,227,terlihat jelas,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,228,terlihat sedikit,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sambang Darah,229,terlipat,Unigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,230,terlipat dengan,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,231,tidak,Unigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,232,tidak terlihat,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,233,tipis,Unigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,234,tipis terlihat,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,235,tua,Unigram,20,10,10,0.5
+Unigram + Bigram,Sambang Darah,236,tua berbentuk,Bigram,20,10,10,0.5
+Unigram + Bigram,Sambang Darah,237,tua dan,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,238,tulang,Unigram,20,7,7,0.34999999999999998
+Unigram + Bigram,Sambang Darah,239,tulang daun,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,240,tulang tengah,Bigram,20,7,7,0.34999999999999998
+Unigram + Bigram,Sambang Darah,241,tumpul,Unigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sambang Darah,242,tumpul hingga,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sambang Darah,243,ujung,Unigram,20,20,20,1
+Unigram + Bigram,Sambang Darah,244,ujung membulat,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,245,ujung meruncing,Bigram,20,14,14,0.69999999999999996
+Unigram + Bigram,Sambang Darah,246,ujung runcing,Bigram,20,5,5,0.25
+Unigram + Bigram,Sambang Darah,247,ujung tumpul,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sambang Darah,248,urat,Unigram,20,18,18,0.90000000000000002
+Unigram + Bigram,Sambang Darah,249,urat dari,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,250,urat daun,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,251,urat halus,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sambang Darah,252,urat menjari,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,253,urat menonjol,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,254,urat menyirip,Bigram,20,16,16,0.80000000000000004
+Unigram + Bigram,Sambang Darah,255,urat samar,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sambang Darah,256,urat tengah,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,257,urat terlihat,Bigram,20,0,0,0
+Unigram + Bigram,Sambang Darah,258,zaitun,Unigram,20,4,4,0.20000000000000001
+Unigram + Bigram,Sambang Darah,259,zaitun berbentuk,Bigram,20,4,4,0.20000000000000001
+Unigram + Bigram,Sambang Darah,260,zaitun tua,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,0,agak,Unigram,20,3,3,0.14999999999999999
+Unigram + Bigram,Sirih,1,agak asimetris,Bigram,20,3,3,0.14999999999999999
+Unigram + Bigram,Sirih,2,asimetris,Unigram,20,3,3,0.14999999999999999
+Unigram + Bigram,Sirih,3,asimetris dengan,Bigram,20,3,3,0.14999999999999999
+Unigram + Bigram,Sirih,4,berbentuk,Unigram,20,30,20,1
+Unigram + Bigram,Sirih,5,berbentuk berbentuk,Bigram,20,10,10,0.5
+Unigram + Bigram,Sirih,6,berbentuk bulat,Bigram,20,9,9,0.45000000000000001
+Unigram + Bigram,Sirih,7,berbentuk elips,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,8,berbentuk hati,Bigram,20,10,10,0.5
+Unigram + Bigram,Sirih,9,berbentuk lonjong,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sirih,10,berbentuk membulat,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,11,berbentuk menyerupai,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,12,bercabang,Unigram,20,0,0,0
+Unigram + Bigram,Sirih,13,bercabang terlihat,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,14,bergelombang,Unigram,20,5,5,0.25
+Unigram + Bigram,Sirih,15,bergelombang halus,Bigram,20,5,5,0.25
+Unigram + Bigram,Sirih,16,berkerut,Unigram,20,10,10,0.5
+Unigram + Bigram,Sirih,17,berkerut detail,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,18,berkerut halus,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sirih,19,berkerut jelas,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sirih,20,berkerut permukaan,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,21,berkerut tulang,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,22,berkerut urat,Bigram,20,5,5,0.25
+Unigram + Bigram,Sirih,23,berlekuk,Unigram,20,0,0,0
+Unigram + Bigram,Sirih,24,berlekuk membulat,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,25,berlipat,Unigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Sirih,26,berlipat urat,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sirih,27,berwarna,Unigram,20,20,20,1
+Unigram + Bigram,Sirih,28,berwarna hijau,Bigram,20,20,20,1
+Unigram + Bigram,Sirih,29,berwarna merah,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,30,bulat,Unigram,20,9,9,0.45000000000000001
+Unigram + Bigram,Sirih,31,bulat telur,Bigram,20,9,9,0.45000000000000001
+Unigram + Bigram,Sirih,32,cerah,Unigram,20,0,0,0
+Unigram + Bigram,Sirih,33,cerah berbentuk,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,34,dan,Unigram,20,22,20,1
+Unigram + Bigram,Sirih,35,dan bercabang,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,36,dan hijau,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sirih,37,dan jelas,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,38,dan kerutan,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,39,dan lipatan,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,40,dan ujung,Bigram,20,20,20,1
+Unigram + Bigram,Sirih,41,dan urat,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sirih,42,dari,Unigram,20,8,8,0.40000000000000002
+Unigram + Bigram,Sirih,43,dari pangkal,Bigram,20,8,8,0.40000000000000002
+Unigram + Bigram,Sirih,44,daun,Unigram,20,26,20,1
+Unigram + Bigram,Sirih,45,daun bercabang,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,46,daun berwarna,Bigram,20,20,20,1
+Unigram + Bigram,Sirih,47,daun halus,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,48,daun jelas,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sirih,49,daun menonjol,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sirih,50,daun tampak,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,51,daun terang,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,52,daun terlihat,Bigram,20,4,4,0.20000000000000001
+Unigram + Bigram,Sirih,53,daun tidak,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,54,dengan,Unigram,20,20,20,1
+Unigram + Bigram,Sirih,55,dengan tepi,Bigram,20,20,20,1
+Unigram + Bigram,Sirih,56,detail,Unigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sirih,57,detail halus,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sirih,58,detail tekstur,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,59,detail urat,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,60,elips,Unigram,20,0,0,0
+Unigram + Bigram,Sirih,61,elips dengan,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,62,ginjal,Unigram,20,0,0,0
+Unigram + Bigram,Sirih,63,ginjal dengan,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,64,halus,Unigram,20,7,7,0.34999999999999998
+Unigram + Bigram,Sirih,65,halus dan,Bigram,20,5,5,0.25
+Unigram + Bigram,Sirih,66,halus kurang,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sirih,67,halus terlihat,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,68,halus tulang,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,69,halus urat,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sirih,70,hati,Unigram,20,10,10,0.5
+Unigram + Bigram,Sirih,71,hati agak,Bigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Sirih,72,hati dengan,Bigram,20,6,6,0.29999999999999999
+Unigram + Bigram,Sirih,73,hati lebar,Bigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Sirih,74,hijau,Unigram,20,21,20,1
+Unigram + Bigram,Sirih,75,hijau cerah,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,76,hijau kekuningan,Bigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Sirih,77,hijau pucat,Bigram,20,5,5,0.25
+Unigram + Bigram,Sirih,78,hijau sedang,Bigram,20,3,3,0.14999999999999999
+Unigram + Bigram,Sirih,79,hijau tua,Bigram,20,10,10,0.5
+Unigram + Bigram,Sirih,80,hijau zaitun,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sirih,81,hingga,Unigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sirih,82,hingga runcing,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,83,hingga tua,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sirih,84,jelas,Unigram,20,8,8,0.40000000000000002
+Unigram + Bigram,Sirih,85,jelas dan,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,86,jelas dari,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sirih,87,jelas sedikit,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,88,jelas urat,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sirih,89,kekuningan,Unigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Sirih,90,kekuningan berbentuk,Bigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Sirih,91,kerutan,Unigram,20,0,0,0
+Unigram + Bigram,Sirih,92,kerutan jelas,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,93,keunguan,Unigram,20,0,0,0
+Unigram + Bigram,Sirih,94,keunguan berbentuk,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,95,kurang,Unigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sirih,96,kurang jelas,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sirih,97,kusam,Unigram,20,6,6,0.29999999999999999
+Unigram + Bigram,Sirih,98,kusam berkerut,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,99,kusam detail,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,100,kusam permukaan,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,101,kusam tulang,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,102,kusam urat,Bigram,20,6,6,0.29999999999999999
+Unigram + Bigram,Sirih,103,lebar,Unigram,20,3,3,0.14999999999999999
+Unigram + Bigram,Sirih,104,lebar dengan,Bigram,20,3,3,0.14999999999999999
+Unigram + Bigram,Sirih,105,lipatan,Unigram,20,4,4,0.20000000000000001
+Unigram + Bigram,Sirih,106,lipatan dan,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sirih,107,lipatan halus,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,108,lipatan memanjang,Bigram,20,3,3,0.14999999999999999
+Unigram + Bigram,Sirih,109,lonjong,Unigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sirih,110,lonjong dengan,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,111,lonjong memanjang,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,112,lonjong terlipat,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sirih,113,melengkung,Unigram,20,0,0,0
+Unigram + Bigram,Sirih,114,melengkung terlihat,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,115,memanjang,Unigram,20,7,5,0.25
+Unigram + Bigram,Sirih,116,memanjang dengan,Bigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Sirih,117,memanjang jelas,Bigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Sirih,118,memanjang terlipat,Bigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Sirih,119,membulat,Unigram,20,0,0,0
+Unigram + Bigram,Sirih,120,membulat dan,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,121,membulat dengan,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,122,membulat lebar,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,123,membulat menyerupai,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,124,membulat permukaan,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,125,mengilap,Unigram,20,5,5,0.25
+Unigram + Bigram,Sirih,126,mengilap berkerut,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,127,mengilap detail,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,128,mengilap lipatan,Bigram,20,4,4,0.20000000000000001
+Unigram + Bigram,Sirih,129,mengilap tulang,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,130,mengilap urat,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sirih,131,menjari,Unigram,20,0,0,0
+Unigram + Bigram,Sirih,132,menjari halus,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,133,menjari jelas,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,134,menjari menonjol,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,135,menjari samar,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,136,menjari sedikit,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,137,menjari terang,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,138,menjari terlihat,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,139,menonjol,Unigram,20,4,4,0.20000000000000001
+Unigram + Bigram,Sirih,140,menonjol berkerut,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sirih,141,menonjol permukaan,Bigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Sirih,142,menonjol sedikit,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,143,menyerupai,Unigram,20,0,0,0
+Unigram + Bigram,Sirih,144,menyerupai ginjal,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,145,menyerupai hati,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,146,menyirip,Unigram,20,0,0,0
+Unigram + Bigram,Sirih,147,menyirip dan,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,148,menyirip jelas,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,149,menyirip melengkung,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,150,menyirip menonjol,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,151,menyirip samar,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,152,menyirip sedikit,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,153,menyirip teratur,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,154,menyirip terlihat,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,155,merah,Unigram,20,0,0,0
+Unigram + Bigram,Sirih,156,merah keunguan,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,157,meruncing,Unigram,20,16,16,0.80000000000000004
+Unigram + Bigram,Sirih,158,meruncing permukaan,Bigram,20,16,16,0.80000000000000004
+Unigram + Bigram,Sirih,159,pangkal,Unigram,20,8,8,0.40000000000000002
+Unigram + Bigram,Sirih,160,pangkal jelas,Bigram,20,3,3,0.14999999999999999
+Unigram + Bigram,Sirih,161,pangkal terlihat,Bigram,20,4,4,0.20000000000000001
+Unigram + Bigram,Sirih,162,permukaan,Unigram,20,22,20,1
+Unigram + Bigram,Sirih,163,permukaan berkerut,Bigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Sirih,164,permukaan melengkung,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,165,permukaan sedikit,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,166,permukaan tampak,Bigram,20,20,20,1
+Unigram + Bigram,Sirih,167,pucat,Unigram,20,5,5,0.25
+Unigram + Bigram,Sirih,168,pucat berbentuk,Bigram,20,5,5,0.25
+Unigram + Bigram,Sirih,169,rata,Unigram,20,15,15,0.75
+Unigram + Bigram,Sirih,170,rata dan,Bigram,20,15,15,0.75
+Unigram + Bigram,Sirih,171,rata detail,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,172,rata tulang,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,173,rata urat,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,174,relatif,Unigram,20,0,0,0
+Unigram + Bigram,Sirih,175,relatif rata,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,176,runcing,Unigram,20,4,4,0.20000000000000001
+Unigram + Bigram,Sirih,177,runcing permukaan,Bigram,20,4,4,0.20000000000000001
+Unigram + Bigram,Sirih,178,samar,Unigram,20,0,0,0
+Unigram + Bigram,Sirih,179,samar detail,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,180,sangat,Unigram,20,0,0,0
+Unigram + Bigram,Sirih,181,sangat mengilap,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,182,sedang,Unigram,20,3,3,0.14999999999999999
+Unigram + Bigram,Sirih,183,sedang berbentuk,Bigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Sirih,184,sedang hingga,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sirih,185,sedikit,Unigram,20,4,4,0.20000000000000001
+Unigram + Bigram,Sirih,186,sedikit berkerut,Bigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Sirih,187,sedikit berlipat,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sirih,188,sedikit mengilap,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sirih,189,sedikit terlipat,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,190,tampak,Unigram,20,20,20,1
+Unigram + Bigram,Sirih,191,tampak berkerut,Bigram,20,5,5,0.25
+Unigram + Bigram,Sirih,192,tampak berlipat,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sirih,193,tampak detail,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,194,tampak kusam,Bigram,20,6,6,0.29999999999999999
+Unigram + Bigram,Sirih,195,tampak mengilap,Bigram,20,4,4,0.20000000000000001
+Unigram + Bigram,Sirih,196,tampak relatif,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,197,tampak sangat,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,198,tampak sedikit,Bigram,20,3,3,0.14999999999999999
+Unigram + Bigram,Sirih,199,tampak urat,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sirih,200,tekstur,Unigram,20,0,0,0
+Unigram + Bigram,Sirih,201,tekstur tidak,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,202,telur,Unigram,20,9,9,0.45000000000000001
+Unigram + Bigram,Sirih,203,telur agak,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sirih,204,telur dengan,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sirih,205,telur lebar,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sirih,206,telur memanjang,Bigram,20,4,4,0.20000000000000001
+Unigram + Bigram,Sirih,207,telur terlipat,Bigram,20,2,2,0.10000000000000001
+Unigram + Bigram,Sirih,208,tengah,Unigram,20,0,0,0
+Unigram + Bigram,Sirih,209,tengah dan,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,210,tengah jelas,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,211,tengah samar,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,212,tengah terang,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,213,tengah terlihat,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,214,tengah tipis,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,215,tepi,Unigram,20,20,20,1
+Unigram + Bigram,Sirih,216,tepi bergelombang,Bigram,20,5,5,0.25
+Unigram + Bigram,Sirih,217,tepi berlekuk,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,218,tepi daun,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,219,tepi rata,Bigram,20,15,15,0.75
+Unigram + Bigram,Sirih,220,terang,Unigram,20,0,0,0
+Unigram + Bigram,Sirih,221,terang dan,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,222,terang urat,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,223,teratur,Unigram,20,0,0,0
+Unigram + Bigram,Sirih,224,teratur terlihat,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,225,terlihat,Unigram,20,9,9,0.45000000000000001
+Unigram + Bigram,Sirih,226,terlihat detail,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sirih,227,terlihat jelas,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,228,terlihat sedikit,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sirih,229,terlipat,Unigram,20,5,5,0.25
+Unigram + Bigram,Sirih,230,terlipat dengan,Bigram,20,5,5,0.25
+Unigram + Bigram,Sirih,231,tidak,Unigram,20,0,0,0
+Unigram + Bigram,Sirih,232,tidak terlihat,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,233,tipis,Unigram,20,0,0,0
+Unigram + Bigram,Sirih,234,tipis terlihat,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,235,tua,Unigram,20,11,11,0.55000000000000004
+Unigram + Bigram,Sirih,236,tua berbentuk,Bigram,20,10,10,0.5
+Unigram + Bigram,Sirih,237,tua dan,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sirih,238,tulang,Unigram,20,0,0,0
+Unigram + Bigram,Sirih,239,tulang daun,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,240,tulang tengah,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,241,tumpul,Unigram,20,0,0,0
+Unigram + Bigram,Sirih,242,tumpul hingga,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,243,ujung,Unigram,20,20,20,1
+Unigram + Bigram,Sirih,244,ujung membulat,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,245,ujung meruncing,Bigram,20,16,16,0.80000000000000004
+Unigram + Bigram,Sirih,246,ujung runcing,Bigram,20,4,4,0.20000000000000001
+Unigram + Bigram,Sirih,247,ujung tumpul,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,248,urat,Unigram,20,17,17,0.84999999999999998
+Unigram + Bigram,Sirih,249,urat dari,Bigram,20,7,7,0.34999999999999998
+Unigram + Bigram,Sirih,250,urat daun,Bigram,20,6,6,0.29999999999999999
+Unigram + Bigram,Sirih,251,urat halus,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,252,urat menjari,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,253,urat menonjol,Bigram,20,3,3,0.14999999999999999
+Unigram + Bigram,Sirih,254,urat menyirip,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,255,urat samar,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,256,urat tengah,Bigram,20,0,0,0
+Unigram + Bigram,Sirih,257,urat terlihat,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sirih,258,zaitun,Unigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sirih,259,zaitun berbentuk,Bigram,20,1,1,0.050000000000000003
+Unigram + Bigram,Sirih,260,zaitun tua,Bigram,20,0,0,0
+Unigram + Bigram,Tapak Kuda,0,agak,Unigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,1,agak asimetris,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,2,asimetris,Unigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,3,asimetris dengan,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,4,berbentuk,Unigram,25,25,25,1
+Unigram + Bigram,Tapak Kuda,5,berbentuk berbentuk,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,6,berbentuk bulat,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,7,berbentuk elips,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,8,berbentuk hati,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,9,berbentuk lonjong,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,10,berbentuk membulat,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,11,berbentuk menyerupai,Bigram,25,25,25,1
+Unigram + Bigram,Tapak Kuda,12,bercabang,Unigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,13,bercabang terlihat,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,14,bergelombang,Unigram,25,5,5,0.20000000000000001
+Unigram + Bigram,Tapak Kuda,15,bergelombang halus,Bigram,25,5,5,0.20000000000000001
+Unigram + Bigram,Tapak Kuda,16,berkerut,Unigram,25,16,16,0.64000000000000001
+Unigram + Bigram,Tapak Kuda,17,berkerut detail,Bigram,25,2,2,0.080000000000000002
+Unigram + Bigram,Tapak Kuda,18,berkerut halus,Bigram,25,5,5,0.20000000000000001
+Unigram + Bigram,Tapak Kuda,19,berkerut jelas,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,20,berkerut permukaan,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,21,berkerut tulang,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,22,berkerut urat,Bigram,25,8,8,0.32000000000000001
+Unigram + Bigram,Tapak Kuda,23,berlekuk,Unigram,25,18,18,0.71999999999999997
+Unigram + Bigram,Tapak Kuda,24,berlekuk membulat,Bigram,25,18,18,0.71999999999999997
+Unigram + Bigram,Tapak Kuda,25,berlipat,Unigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,26,berlipat urat,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,27,berwarna,Unigram,25,25,25,1
+Unigram + Bigram,Tapak Kuda,28,berwarna hijau,Bigram,25,25,25,1
+Unigram + Bigram,Tapak Kuda,29,berwarna merah,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,30,bulat,Unigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,31,bulat telur,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,32,cerah,Unigram,25,1,1,0.040000000000000001
+Unigram + Bigram,Tapak Kuda,33,cerah berbentuk,Bigram,25,1,1,0.040000000000000001
+Unigram + Bigram,Tapak Kuda,34,dan,Unigram,25,26,25,1
+Unigram + Bigram,Tapak Kuda,35,dan bercabang,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,36,dan hijau,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,37,dan jelas,Bigram,25,1,1,0.040000000000000001
+Unigram + Bigram,Tapak Kuda,38,dan kerutan,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,39,dan lipatan,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,40,dan ujung,Bigram,25,25,25,1
+Unigram + Bigram,Tapak Kuda,41,dan urat,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,42,dari,Unigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,43,dari pangkal,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,44,daun,Unigram,25,27,25,1
+Unigram + Bigram,Tapak Kuda,45,daun bercabang,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,46,daun berwarna,Bigram,25,25,25,1
+Unigram + Bigram,Tapak Kuda,47,daun halus,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,48,daun jelas,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,49,daun menonjol,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,50,daun tampak,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,51,daun terang,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,52,daun terlihat,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,53,daun tidak,Bigram,25,2,2,0.080000000000000002
+Unigram + Bigram,Tapak Kuda,54,dengan,Unigram,25,25,25,1
+Unigram + Bigram,Tapak Kuda,55,dengan tepi,Bigram,25,25,25,1
+Unigram + Bigram,Tapak Kuda,56,detail,Unigram,25,5,5,0.20000000000000001
+Unigram + Bigram,Tapak Kuda,57,detail halus,Bigram,25,3,3,0.12
+Unigram + Bigram,Tapak Kuda,58,detail tekstur,Bigram,25,2,2,0.080000000000000002
+Unigram + Bigram,Tapak Kuda,59,detail urat,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,60,elips,Unigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,61,elips dengan,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,62,ginjal,Unigram,25,25,25,1
+Unigram + Bigram,Tapak Kuda,63,ginjal dengan,Bigram,25,25,25,1
+Unigram + Bigram,Tapak Kuda,64,halus,Unigram,25,15,12,0.47999999999999998
+Unigram + Bigram,Tapak Kuda,65,halus dan,Bigram,25,6,6,0.23999999999999999
+Unigram + Bigram,Tapak Kuda,66,halus kurang,Bigram,25,3,3,0.12
+Unigram + Bigram,Tapak Kuda,67,halus terlihat,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,68,halus tulang,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,69,halus urat,Bigram,25,5,5,0.20000000000000001
+Unigram + Bigram,Tapak Kuda,70,hati,Unigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,71,hati agak,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,72,hati dengan,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,73,hati lebar,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,74,hijau,Unigram,25,25,25,1
+Unigram + Bigram,Tapak Kuda,75,hijau cerah,Bigram,25,1,1,0.040000000000000001
+Unigram + Bigram,Tapak Kuda,76,hijau kekuningan,Bigram,25,4,4,0.16
+Unigram + Bigram,Tapak Kuda,77,hijau pucat,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,78,hijau sedang,Bigram,25,9,9,0.35999999999999999
+Unigram + Bigram,Tapak Kuda,79,hijau tua,Bigram,25,10,10,0.40000000000000002
+Unigram + Bigram,Tapak Kuda,80,hijau zaitun,Bigram,25,1,1,0.040000000000000001
+Unigram + Bigram,Tapak Kuda,81,hingga,Unigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,82,hingga runcing,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,83,hingga tua,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,84,jelas,Unigram,25,10,8,0.32000000000000001
+Unigram + Bigram,Tapak Kuda,85,jelas dan,Bigram,25,2,2,0.080000000000000002
+Unigram + Bigram,Tapak Kuda,86,jelas dari,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,87,jelas sedikit,Bigram,25,1,1,0.040000000000000001
+Unigram + Bigram,Tapak Kuda,88,jelas urat,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,89,kekuningan,Unigram,25,4,4,0.16
+Unigram + Bigram,Tapak Kuda,90,kekuningan berbentuk,Bigram,25,4,4,0.16
+Unigram + Bigram,Tapak Kuda,91,kerutan,Unigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,92,kerutan jelas,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,93,keunguan,Unigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,94,keunguan berbentuk,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,95,kurang,Unigram,25,3,3,0.12
+Unigram + Bigram,Tapak Kuda,96,kurang jelas,Bigram,25,3,3,0.12
+Unigram + Bigram,Tapak Kuda,97,kusam,Unigram,25,7,7,0.28000000000000003
+Unigram + Bigram,Tapak Kuda,98,kusam berkerut,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,99,kusam detail,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,100,kusam permukaan,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,101,kusam tulang,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,102,kusam urat,Bigram,25,7,7,0.28000000000000003
+Unigram + Bigram,Tapak Kuda,103,lebar,Unigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,104,lebar dengan,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,105,lipatan,Unigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,106,lipatan dan,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,107,lipatan halus,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,108,lipatan memanjang,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,109,lonjong,Unigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,110,lonjong dengan,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,111,lonjong memanjang,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,112,lonjong terlipat,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,113,melengkung,Unigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,114,melengkung terlihat,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,115,memanjang,Unigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,116,memanjang dengan,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,117,memanjang jelas,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,118,memanjang terlipat,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,119,membulat,Unigram,25,43,25,1
+Unigram + Bigram,Tapak Kuda,120,membulat dan,Bigram,25,18,18,0.71999999999999997
+Unigram + Bigram,Tapak Kuda,121,membulat dengan,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,122,membulat lebar,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,123,membulat menyerupai,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,124,membulat permukaan,Bigram,25,25,25,1
+Unigram + Bigram,Tapak Kuda,125,mengilap,Unigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,126,mengilap berkerut,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,127,mengilap detail,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,128,mengilap lipatan,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,129,mengilap tulang,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,130,mengilap urat,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,131,menjari,Unigram,25,21,21,0.83999999999999997
+Unigram + Bigram,Tapak Kuda,132,menjari halus,Bigram,25,2,2,0.080000000000000002
+Unigram + Bigram,Tapak Kuda,133,menjari jelas,Bigram,25,2,2,0.080000000000000002
+Unigram + Bigram,Tapak Kuda,134,menjari menonjol,Bigram,25,2,2,0.080000000000000002
+Unigram + Bigram,Tapak Kuda,135,menjari samar,Bigram,25,3,3,0.12
+Unigram + Bigram,Tapak Kuda,136,menjari sedikit,Bigram,25,1,1,0.040000000000000001
+Unigram + Bigram,Tapak Kuda,137,menjari terang,Bigram,25,2,2,0.080000000000000002
+Unigram + Bigram,Tapak Kuda,138,menjari terlihat,Bigram,25,9,9,0.35999999999999999
+Unigram + Bigram,Tapak Kuda,139,menonjol,Unigram,25,2,2,0.080000000000000002
+Unigram + Bigram,Tapak Kuda,140,menonjol berkerut,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,141,menonjol permukaan,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,142,menonjol sedikit,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,143,menyerupai,Unigram,25,25,25,1
+Unigram + Bigram,Tapak Kuda,144,menyerupai ginjal,Bigram,25,25,25,1
+Unigram + Bigram,Tapak Kuda,145,menyerupai hati,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,146,menyirip,Unigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,147,menyirip dan,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,148,menyirip jelas,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,149,menyirip melengkung,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,150,menyirip menonjol,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,151,menyirip samar,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,152,menyirip sedikit,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,153,menyirip teratur,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,154,menyirip terlihat,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,155,merah,Unigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,156,merah keunguan,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,157,meruncing,Unigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,158,meruncing permukaan,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,159,pangkal,Unigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,160,pangkal jelas,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,161,pangkal terlihat,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,162,permukaan,Unigram,25,25,25,1
+Unigram + Bigram,Tapak Kuda,163,permukaan berkerut,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,164,permukaan melengkung,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,165,permukaan sedikit,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,166,permukaan tampak,Bigram,25,25,25,1
+Unigram + Bigram,Tapak Kuda,167,pucat,Unigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,168,pucat berbentuk,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,169,rata,Unigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,170,rata dan,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,171,rata detail,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,172,rata tulang,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,173,rata urat,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,174,relatif,Unigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,175,relatif rata,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,176,runcing,Unigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,177,runcing permukaan,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,178,samar,Unigram,25,3,3,0.12
+Unigram + Bigram,Tapak Kuda,179,samar detail,Bigram,25,1,1,0.040000000000000001
+Unigram + Bigram,Tapak Kuda,180,sangat,Unigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,181,sangat mengilap,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,182,sedang,Unigram,25,9,9,0.35999999999999999
+Unigram + Bigram,Tapak Kuda,183,sedang berbentuk,Bigram,25,9,9,0.35999999999999999
+Unigram + Bigram,Tapak Kuda,184,sedang hingga,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,185,sedikit,Unigram,25,4,4,0.16
+Unigram + Bigram,Tapak Kuda,186,sedikit berkerut,Bigram,25,3,3,0.12
+Unigram + Bigram,Tapak Kuda,187,sedikit berlipat,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,188,sedikit mengilap,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,189,sedikit terlipat,Bigram,25,1,1,0.040000000000000001
+Unigram + Bigram,Tapak Kuda,190,tampak,Unigram,25,25,25,1
+Unigram + Bigram,Tapak Kuda,191,tampak berkerut,Bigram,25,13,13,0.52000000000000002
+Unigram + Bigram,Tapak Kuda,192,tampak berlipat,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,193,tampak detail,Bigram,25,2,2,0.080000000000000002
+Unigram + Bigram,Tapak Kuda,194,tampak kusam,Bigram,25,7,7,0.28000000000000003
+Unigram + Bigram,Tapak Kuda,195,tampak mengilap,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,196,tampak relatif,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,197,tampak sangat,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,198,tampak sedikit,Bigram,25,2,2,0.080000000000000002
+Unigram + Bigram,Tapak Kuda,199,tampak urat,Bigram,25,1,1,0.040000000000000001
+Unigram + Bigram,Tapak Kuda,200,tekstur,Unigram,25,2,2,0.080000000000000002
+Unigram + Bigram,Tapak Kuda,201,tekstur tidak,Bigram,25,2,2,0.080000000000000002
+Unigram + Bigram,Tapak Kuda,202,telur,Unigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,203,telur agak,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,204,telur dengan,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,205,telur lebar,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,206,telur memanjang,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,207,telur terlipat,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,208,tengah,Unigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,209,tengah dan,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,210,tengah jelas,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,211,tengah samar,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,212,tengah terang,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,213,tengah terlihat,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,214,tengah tipis,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,215,tepi,Unigram,25,25,25,1
+Unigram + Bigram,Tapak Kuda,216,tepi bergelombang,Bigram,25,5,5,0.20000000000000001
+Unigram + Bigram,Tapak Kuda,217,tepi berlekuk,Bigram,25,18,18,0.71999999999999997
+Unigram + Bigram,Tapak Kuda,218,tepi daun,Bigram,25,2,2,0.080000000000000002
+Unigram + Bigram,Tapak Kuda,219,tepi rata,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,220,terang,Unigram,25,2,2,0.080000000000000002
+Unigram + Bigram,Tapak Kuda,221,terang dan,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,222,terang urat,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,223,teratur,Unigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,224,teratur terlihat,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,225,terlihat,Unigram,25,13,11,0.44
+Unigram + Bigram,Tapak Kuda,226,terlihat detail,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,227,terlihat jelas,Bigram,25,4,2,0.080000000000000002
+Unigram + Bigram,Tapak Kuda,228,terlihat sedikit,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,229,terlipat,Unigram,25,1,1,0.040000000000000001
+Unigram + Bigram,Tapak Kuda,230,terlipat dengan,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,231,tidak,Unigram,25,4,2,0.080000000000000002
+Unigram + Bigram,Tapak Kuda,232,tidak terlihat,Bigram,25,4,2,0.080000000000000002
+Unigram + Bigram,Tapak Kuda,233,tipis,Unigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,234,tipis terlihat,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,235,tua,Unigram,25,10,10,0.40000000000000002
+Unigram + Bigram,Tapak Kuda,236,tua berbentuk,Bigram,25,10,10,0.40000000000000002
+Unigram + Bigram,Tapak Kuda,237,tua dan,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,238,tulang,Unigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,239,tulang daun,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,240,tulang tengah,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,241,tumpul,Unigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,242,tumpul hingga,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,243,ujung,Unigram,25,25,25,1
+Unigram + Bigram,Tapak Kuda,244,ujung membulat,Bigram,25,25,25,1
+Unigram + Bigram,Tapak Kuda,245,ujung meruncing,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,246,ujung runcing,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,247,ujung tumpul,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,248,urat,Unigram,25,21,21,0.83999999999999997
+Unigram + Bigram,Tapak Kuda,249,urat dari,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,250,urat daun,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,251,urat halus,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,252,urat menjari,Bigram,25,21,21,0.83999999999999997
+Unigram + Bigram,Tapak Kuda,253,urat menonjol,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,254,urat menyirip,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,255,urat samar,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,256,urat tengah,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,257,urat terlihat,Bigram,25,0,0,0
+Unigram + Bigram,Tapak Kuda,258,zaitun,Unigram,25,1,1,0.040000000000000001
+Unigram + Bigram,Tapak Kuda,259,zaitun berbentuk,Bigram,25,1,1,0.040000000000000001
+Unigram + Bigram,Tapak Kuda,260,zaitun tua,Bigram,25,0,0,0

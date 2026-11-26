@@ -1,0 +1,21 @@
+﻿configuration,row_index_a,row_index_b,sample_id_a,sample_id_b,class_a,class_b,same_class,exact_description_match,maximum_absolute_difference
+Unigram,13,14,leaf_1a80f5749cc68900,leaf_ef0854556175e2b0,Mangkok,Mangkok,True,True,0
+Unigram,70,73,leaf_6397705392627f3c,leaf_2574445c571a7dc3,Sirih,Sirih,True,True,0
+Unigram,81,99,leaf_22bf36f7b3abd78c,leaf_8f8d177305fb06f2,Tapak Kuda,Tapak Kuda,True,True,0
+Unigram,85,87,leaf_43ae297ca838aebb,leaf_721244faca19b94f,Tapak Kuda,Tapak Kuda,True,True,0
+Unigram,89,97,leaf_d755ad14cfc3f8bf,leaf_d19ceb083d0a7e82,Tapak Kuda,Tapak Kuda,True,True,0
+Unigram,90,102,leaf_2976a10d6fff3cd5,leaf_055c97f32cf57da5,Tapak Kuda,Tapak Kuda,True,True,0
+Unigram,91,92,leaf_acea8a79416b27c0,leaf_f72f88757c4de8ba,Tapak Kuda,Tapak Kuda,True,True,0
+Unigram,91,95,leaf_acea8a79416b27c0,leaf_012389d8d324b6c8,Tapak Kuda,Tapak Kuda,True,True,0
+Unigram,92,95,leaf_f72f88757c4de8ba,leaf_012389d8d324b6c8,Tapak Kuda,Tapak Kuda,True,True,0
+Unigram,96,98,leaf_193e4fc967161d9a,leaf_8d727458048a81c7,Tapak Kuda,Tapak Kuda,True,True,0
+Unigram + Bigram,13,14,leaf_1a80f5749cc68900,leaf_ef0854556175e2b0,Mangkok,Mangkok,True,True,0
+Unigram + Bigram,70,73,leaf_6397705392627f3c,leaf_2574445c571a7dc3,Sirih,Sirih,True,True,0
+Unigram + Bigram,81,99,leaf_22bf36f7b3abd78c,leaf_8f8d177305fb06f2,Tapak Kuda,Tapak Kuda,True,True,0
+Unigram + Bigram,85,87,leaf_43ae297ca838aebb,leaf_721244faca19b94f,Tapak Kuda,Tapak Kuda,True,True,0
+Unigram + Bigram,89,97,leaf_d755ad14cfc3f8bf,leaf_d19ceb083d0a7e82,Tapak Kuda,Tapak Kuda,True,True,0
+Unigram + Bigram,90,102,leaf_2976a10d6fff3cd5,leaf_055c97f32cf57da5,Tapak Kuda,Tapak Kuda,True,True,0
+Unigram + Bigram,91,92,leaf_acea8a79416b27c0,leaf_f72f88757c4de8ba,Tapak Kuda,Tapak Kuda,True,True,0
+Unigram + Bigram,91,95,leaf_acea8a79416b27c0,leaf_012389d8d324b6c8,Tapak Kuda,Tapak Kuda,True,True,0
+Unigram + Bigram,92,95,leaf_f72f88757c4de8ba,leaf_012389d8d324b6c8,Tapak Kuda,Tapak Kuda,True,True,0
+Unigram + Bigram,96,98,leaf_193e4fc967161d9a,leaf_8d727458048a81c7,Tapak Kuda,Tapak Kuda,True,True,0

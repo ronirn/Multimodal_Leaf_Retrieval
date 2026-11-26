@@ -1,0 +1,3 @@
+﻿configuration,kelas,feature_index,term,ngram_type,class_documents,other_documents,class_document_frequency,other_document_frequency,class_coverage_percent,other_coverage_percent,idf_weight,class_mean_tfidf,other_mean_tfidf,discriminative_score,observed_class_specific,class_rank,discriminative_rank,potential_writing_artifact
+Unigram + Bigram,Mangkok,124,membulat permukaan,Bigram,20,84,20,25,100,29.761904761904763,1.8253189536684284,0.12857324510667886,0.039569780446803204,0.089003464659875658,False,6,8,True
+Unigram + Bigram,Sirih,5,berbentuk berbentuk,Bigram,20,84,10,0,50,0,3.2560650773591528,0.10751752538953389,0,0.10751752538953389,True,1,1,True

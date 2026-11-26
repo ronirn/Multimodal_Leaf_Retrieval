@@ -1,0 +1,33 @@
+﻿configuration,validation_check,passed,status
+Unigram,Vocabulary dimension preserved,True,Passed
+Unigram,Feature names match original vocabulary,True,Passed
+Unigram,Global mean weights consistent,True,Passed
+Unigram,Document frequency consistent,True,Passed
+Unigram,Class-level record count correct,True,Passed
+Unigram,Class mean weights consistent,True,Passed
+Unigram,Class-rest mean weights consistent,True,Passed
+Unigram,Discriminative score consistent,True,Passed
+Unigram,Class rankings descending,True,Passed
+Unigram,Discriminative rankings descending,True,Passed
+Unigram,Term frequency category counts reconcile,True,Passed
+Unigram,Category vector energy sums to 100 percent,True,Passed
+Unigram + Bigram,Vocabulary dimension preserved,True,Passed
+Unigram + Bigram,Feature names match original vocabulary,True,Passed
+Unigram + Bigram,Global mean weights consistent,True,Passed
+Unigram + Bigram,Document frequency consistent,True,Passed
+Unigram + Bigram,Class-level record count correct,True,Passed
+Unigram + Bigram,Class mean weights consistent,True,Passed
+Unigram + Bigram,Class-rest mean weights consistent,True,Passed
+Unigram + Bigram,Discriminative score consistent,True,Passed
+Unigram + Bigram,Class rankings descending,True,Passed
+Unigram + Bigram,Discriminative rankings descending,True,Passed
+Unigram + Bigram,Term frequency category counts reconcile,True,Passed
+Unigram + Bigram,Category vector energy sums to 100 percent,True,Passed
+Overall,Original TF-IDF matrices unchanged,True,Passed
+Overall,Original text corpus unchanged,True,Passed
+Overall,Image-text alignment preserved,True,Passed
+Overall,Artifact sample IDs valid,True,Passed
+Overall,Artifact feature weights valid,True,Passed
+Overall,Representative feature weights valid,True,Passed
+Overall,Important bigrams contain two tokens,True,Passed
+Overall,All visualization files generated,True,Passed

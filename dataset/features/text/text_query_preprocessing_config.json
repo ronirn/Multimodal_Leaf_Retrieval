@@ -1,0 +1,22 @@
+{
+    "unicode_normalization": "NFKC",
+    "lowercase": true,
+    "punctuation_replacement": "space",
+    "underscore_replacement": "space",
+    "normalize_whitespace": true,
+    "remove_class_names": true,
+    "class_aliases": [
+        "mangkok",
+        "salam",
+        "sambang darah",
+        "sirih",
+        "tapak kuda"
+    ],
+    "stopword_removal": false,
+    "stemming": false,
+    "preserve_repeated_words": true,
+    "preserve_sentence_boundaries": false,
+    "vectorizer_operation": "transform",
+    "empty_query_policy": "reject_text_matching",
+    "all_oov_policy": "reject_text_matching"
+}
