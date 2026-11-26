@@ -1,0 +1,25 @@
+﻿Indicator,Result
+Number of samples,104
+Number of classes,5
+Visual feature dimension,143
+Unigram feature dimension,68
+Combined feature dimension,261
+Aligned samples,104
+Failed alignment samples,0
+Identity sources validated,5
+Pending manual reviews,70
+Exact duplicate text groups,8
+Exact duplicate text pairs,10
+Resolvable image paths,104
+Technical validation checks,57
+Passed technical checks,57
+Failed technical checks,0
+Generated figures,2
+Sample order modified,False
+Features concatenated across modalities,False
+Feature matrices refitted,False
+Similarity matrices calculated,False
+Fusion weights selected,False
+Independent evaluation completed,False
+Manual quality review still required,True
+Technical dataset validation completed,True

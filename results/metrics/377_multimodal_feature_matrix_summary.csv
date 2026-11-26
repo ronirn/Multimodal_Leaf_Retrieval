@@ -1,0 +1,4 @@
+﻿modality,number_of_samples,feature_dimension,expected_dimension,matrix_format,dtype,nonzero_values,zero_vector_rows,minimum_row_norm,maximum_row_norm,nan_values,infinite_values,passed
+Visual,104,143,143,Dense,float64,14872,0,1.0019817147896992,4.0927474010616312,0,0,True
+Text - Unigram,104,68,68,CSR,float64,2086,0,0.99999999999999978,1.0000000000000002,0,0,True
+Text - Unigram + Bigram,104,261,261,CSR,float64,4166,0,0.99999999999999978,1.0000000000000002,0,0,True

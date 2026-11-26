@@ -1,0 +1,58 @@
+﻿category,validation_check,passed,status
+Feature Matrices,Visual expected dimensions,True,Passed
+Feature Matrices,Visual finite values,True,Passed
+Feature Matrices,Visual float64 dtype,True,Passed
+Feature Matrices,Text - Unigram expected dimensions,True,Passed
+Feature Matrices,Text - Unigram finite values,True,Passed
+Feature Matrices,Text - Unigram float64 dtype,True,Passed
+Feature Matrices,Text - Unigram CSR format,True,Passed
+Feature Matrices,Text - Unigram nonnegative weights,True,Passed
+Feature Matrices,Text - Unigram unit L2 row norm,True,Passed
+Feature Matrices,Text - Unigram nonzero document vectors,True,Passed
+Feature Matrices,Text - Unigram + Bigram expected dimensions,True,Passed
+Feature Matrices,Text - Unigram + Bigram finite values,True,Passed
+Feature Matrices,Text - Unigram + Bigram float64 dtype,True,Passed
+Feature Matrices,Text - Unigram + Bigram CSR format,True,Passed
+Feature Matrices,Text - Unigram + Bigram nonnegative weights,True,Passed
+Feature Matrices,Text - Unigram + Bigram unit L2 row norm,True,Passed
+Feature Matrices,Text - Unigram + Bigram nonzero document vectors,True,Passed
+Sample Identity,Visual Matrix identity coverage,True,Passed
+Sample Identity,Text Matrix identity coverage,True,Passed
+Sample Identity,Visual Metadata identity coverage,True,Passed
+Sample Identity,Text Metadata identity coverage,True,Passed
+Sample Identity,Processed Metadata identity coverage,True,Passed
+Sample-Level Alignment,Visual-Text Sample ID,True,Passed
+Sample-Level Alignment,Visual Metadata Sample ID,True,Passed
+Sample-Level Alignment,Text Metadata Sample ID,True,Passed
+Sample-Level Alignment,Source Metadata Sample ID,True,Passed
+Sample-Level Alignment,Visual-Text Class Label,True,Passed
+Sample-Level Alignment,Visual Metadata Class,True,Passed
+Sample-Level Alignment,Text Metadata Class,True,Passed
+Sample-Level Alignment,Source Metadata Class,True,Passed
+Sample-Level Alignment,nama_file Consistency,True,Passed
+Sample-Level Alignment,tampilan_daun Consistency,True,Passed
+Sample-Level Alignment,processed_image_path Consistency,True,Passed
+Sample-Level Alignment,mask_path Consistency,True,Passed
+Sample-Level Alignment,Text Description Consistency,True,Passed
+Sample-Level Alignment,Source Technical Validity,True,Passed
+Sample-Level Alignment,Previous Alignment Status,True,Passed
+Sample-Level Alignment,multimodal_row_index Sequential,True,Passed
+Sample-Level Alignment,visual_feature_row Sequential,True,Passed
+Sample-Level Alignment,text_unigram_feature_row Sequential,True,Passed
+Sample-Level Alignment,text_combined_feature_row Sequential,True,Passed
+Overall Alignment,All samples correctly aligned,True,Passed
+Visual Representation,HSV-GLCM-Hu concatenation preserved,True,Passed
+Visual Representation,Normalized visual matrix preserved,True,Passed
+Visual Representation,Visual feature dimension is 143,True,Passed
+Text Representation,Unigram reference features reproduced,True,Passed
+Text Representation,Unigram vocabulary dimension,True,Passed
+Text Representation,Unigram + Bigram reference features reproduced,True,Passed
+Text Representation,Unigram + Bigram vocabulary dimension,True,Passed
+Class Distribution,Five expected plant classes preserved,True,Passed
+Class Distribution,Class distribution reconciles with dataset,True,Passed
+Quality Status,Original review status preserved,True,Passed
+Overall Dataset,Expected dataset sample count,True,Passed
+Overall Dataset,Expected number of classes,True,Passed
+Overall Dataset,All feature matrices have equal row count,True,Passed
+Overall Dataset,No failed sample alignment,True,Passed
+Overall Dataset,Text vectorizers remain fitted,True,Passed

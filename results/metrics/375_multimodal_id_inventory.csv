@@ -1,0 +1,6 @@
+﻿source,total_ids,unique_ids,duplicates,empty_ids,invalid_ids,missing_ids,extra_ids,passed
+Visual Matrix,104,104,0,0,0,0,0,True
+Text Matrix,104,104,0,0,0,0,0,True
+Visual Metadata,104,104,0,0,0,0,0,True
+Text Metadata,104,104,0,0,0,0,0,True
+Processed Metadata,104,104,0,0,0,0,0,True

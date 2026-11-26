@@ -1,0 +1,105 @@
+﻿row_index,sample_id,kelas,Visual-Text Sample ID,Visual Metadata Sample ID,Text Metadata Sample ID,Source Metadata Sample ID,Visual-Text Class Label,Visual Metadata Class,Text Metadata Class,Source Metadata Class,nama_file Consistency,tampilan_daun Consistency,processed_image_path Consistency,mask_path Consistency,Text Description Consistency,Source Technical Validity,Previous Alignment Status,multimodal_row_index Sequential,visual_feature_row Sequential,text_unigram_feature_row Sequential,text_combined_feature_row Sequential,alignment_passed,alignment_status
+0,leaf_165d2f32c7fda707,Mangkok,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+1,leaf_8473270c3702f48b,Mangkok,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+2,leaf_8f425d66b1e193b9,Mangkok,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+3,leaf_0ebc8f4f3ee9c8d5,Mangkok,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+4,leaf_b0c5f55e42499cae,Mangkok,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+5,leaf_de9e3e4ed5d89dfc,Mangkok,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+6,leaf_23b789945271fb92,Mangkok,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+7,leaf_84de0dc731018607,Mangkok,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+8,leaf_36d4f083fa652592,Mangkok,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+9,leaf_c9d8d87fbc748d16,Mangkok,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+10,leaf_4de65b11758965f6,Mangkok,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+11,leaf_8f09fd62c7391c0d,Mangkok,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+12,leaf_a6da65cb0493ceef,Mangkok,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+13,leaf_1a80f5749cc68900,Mangkok,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+14,leaf_ef0854556175e2b0,Mangkok,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+15,leaf_fff6592ee517103e,Mangkok,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+16,leaf_e9cfa616ea5f1f19,Mangkok,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+17,leaf_12439b9ebf0eb8d3,Mangkok,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+18,leaf_de455d31a4df8c43,Mangkok,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+19,leaf_663a651dd51f9c94,Mangkok,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+20,leaf_c29e2560b188fb2c,Salam,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+21,leaf_c4840a77b6d0c158,Salam,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+22,leaf_fd4b025e69b9f321,Salam,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+23,leaf_45414f432e49469a,Salam,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+24,leaf_1da6bca6d5320ae2,Salam,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+25,leaf_b8ebef3e9731e352,Salam,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+26,leaf_8809ccde35d4b945,Salam,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+27,leaf_1ebaf9512209a61f,Salam,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+28,leaf_68b0c81b496519cd,Salam,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+29,leaf_0a8999109a734f1d,Salam,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+30,leaf_ca3c3b7a5db35c1d,Salam,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+31,leaf_a838808299383884,Salam,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+32,leaf_a7704c0316865cd7,Salam,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+33,leaf_ac463b36b6e61052,Salam,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+34,leaf_fdd0a74681efeff6,Salam,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+35,leaf_9a710afa1505390e,Salam,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+36,leaf_d12754f94f5ff7fc,Salam,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+37,leaf_9c7d463a5bb1a561,Salam,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+38,leaf_a57a1270adf22253,Salam,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+39,leaf_df16548c53396aeb,Sambang Darah,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+40,leaf_1a45e1e109be76ee,Sambang Darah,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+41,leaf_ad660412d798bd65,Sambang Darah,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+42,leaf_b230b822f6a38f1c,Sambang Darah,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+43,leaf_22cacefa73426c68,Sambang Darah,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+44,leaf_519627b0b7c509da,Sambang Darah,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+45,leaf_e57489e729c801d7,Sambang Darah,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+46,leaf_62ef0ed49ad4e2d3,Sambang Darah,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+47,leaf_ce6b898792146850,Sambang Darah,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+48,leaf_3c3fafa9c7913736,Sambang Darah,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+49,leaf_eacbf33f28cb6b28,Sambang Darah,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+50,leaf_0e58a931923c4e40,Sambang Darah,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+51,leaf_a21b39e63066049c,Sambang Darah,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+52,leaf_ad626da03abf4532,Sambang Darah,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+53,leaf_45d4826ed41c51b4,Sambang Darah,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+54,leaf_c289208cb093f769,Sambang Darah,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+55,leaf_620d73b8cfb217b6,Sambang Darah,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+56,leaf_d9d0b97961feaeac,Sambang Darah,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+57,leaf_6e53ecd8713a9128,Sambang Darah,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+58,leaf_ac5e952a9ae56c36,Sambang Darah,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+59,leaf_1d4f34320b1b8b8d,Sirih,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+60,leaf_d0f42a660bf2b3ee,Sirih,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+61,leaf_1ef1bffd5f4186c1,Sirih,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+62,leaf_a280fa2ae09d329b,Sirih,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+63,leaf_6fcc4b52889490ca,Sirih,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+64,leaf_1193856cea5a1287,Sirih,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+65,leaf_3f1cc0b714c4164e,Sirih,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+66,leaf_347efec2afc78e44,Sirih,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+67,leaf_9dad4bfe9db99263,Sirih,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+68,leaf_57905de77bc7f811,Sirih,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+69,leaf_1b922f2bd904d1fc,Sirih,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+70,leaf_6397705392627f3c,Sirih,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+71,leaf_c8bf421408781594,Sirih,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+72,leaf_66c00e535609f186,Sirih,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+73,leaf_2574445c571a7dc3,Sirih,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+74,leaf_afba9495e801278e,Sirih,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+75,leaf_693f93e999e7c6a3,Sirih,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+76,leaf_7f9c59b7594e5833,Sirih,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+77,leaf_338b7ee25be7d52d,Sirih,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+78,leaf_47ab03f4e71a0717,Sirih,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+79,leaf_7be37d0f3c7e488a,Tapak Kuda,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+80,leaf_328651beb5d48483,Tapak Kuda,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+81,leaf_22bf36f7b3abd78c,Tapak Kuda,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+82,leaf_8129d1a748a118de,Tapak Kuda,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+83,leaf_549670d83912aed7,Tapak Kuda,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+84,leaf_655b2ffd3499bbea,Tapak Kuda,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+85,leaf_43ae297ca838aebb,Tapak Kuda,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+86,leaf_28712bf465655732,Tapak Kuda,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+87,leaf_721244faca19b94f,Tapak Kuda,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+88,leaf_bb707568bb3ed9ce,Tapak Kuda,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+89,leaf_d755ad14cfc3f8bf,Tapak Kuda,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+90,leaf_2976a10d6fff3cd5,Tapak Kuda,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+91,leaf_acea8a79416b27c0,Tapak Kuda,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+92,leaf_f72f88757c4de8ba,Tapak Kuda,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+93,leaf_93d488369f0a2cc4,Tapak Kuda,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+94,leaf_25803393f335987a,Tapak Kuda,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+95,leaf_012389d8d324b6c8,Tapak Kuda,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+96,leaf_193e4fc967161d9a,Tapak Kuda,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+97,leaf_d19ceb083d0a7e82,Tapak Kuda,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+98,leaf_8d727458048a81c7,Tapak Kuda,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+99,leaf_8f8d177305fb06f2,Tapak Kuda,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+100,leaf_cef9b535077d5397,Tapak Kuda,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+101,leaf_5fafb790c4773c55,Tapak Kuda,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+102,leaf_055c97f32cf57da5,Tapak Kuda,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
+103,leaf_41f02313a5460236,Tapak Kuda,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,Aligned
