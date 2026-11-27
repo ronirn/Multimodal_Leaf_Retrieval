@@ -1,19 +1,22 @@
 
 """LeafMatch AI - Multimodal Medicinal Plant Leaf Retrieval.
 
-Flask application:
-1. Dashboard
-2. Upload & Retrieval
-3. Model Evaluation
-
-Run from project root:
+Run from the project root:
     .venv\\Scripts\\python.exe app\\app.py
+
+Pages:
+1. Upload & Retrieval
+2. Model Evaluation
+
+The root URL redirects to Upload & Retrieval.
 """
 
 from __future__ import annotations
 
 import csv
 import json
+import math
+import re
 import sys
 
 from datetime import date
@@ -24,6 +27,7 @@ from flask import (
     Flask,
     abort,
     jsonify,
+    redirect,
     render_template,
     request,
     send_file,
@@ -42,21 +46,8 @@ if str(ROOT) not in sys.path:
 
 from core.preprocessing import preprocess_image
 from core.image_features import extract_features_from_preprocessed
-from core.gallery_loader import (
-    load_gallery_data,
-    search_gallery,
-)
+from core.gallery_loader import load_gallery_data, search_gallery
 
-
-METADATA_PATH = (
-    ROOT / "dataset" / "processed"
-    / "metadata_processed.csv"
-)
-
-ASSET_MANIFEST_PATH = (
-    ROOT / "static" / "images"
-    / "dataset" / "manifest.json"
-)
 
 EVAL_REGISTRY_PATH = (
     ROOT / "results" / "evaluation_07"
@@ -71,14 +62,6 @@ SPLIT_RUNS_DIR = (
     ROOT / "results" / "metrics"
     / "retrieval_evaluation" / "runs"
 )
-
-CLASS_ORDER = [
-    "Mangkok",
-    "Salam",
-    "Sambang Darah",
-    "Sirih",
-    "Tapak Kuda",
-]
 
 MAX_IMAGE_SIZE = 10 * 1024 * 1024
 
@@ -102,88 +85,20 @@ app.config["MAX_CONTENT_LENGTH"] = 11 * 1024 * 1024
 # ============================================================
 
 def _read_csv(path: Path) -> list[dict]:
-    """Read CSV file using UTF-8 encoding."""
 
-    with open(
-        path,
+    with path.open(
         newline="",
-        encoding="utf-8-sig",
-    ) as fh:
-        return list(csv.DictReader(fh))
+        encoding="utf-8-sig"
+    ) as file:
+        return list(csv.DictReader(file))
 
 
 # ============================================================
-# 4. DASHBOARD DATA
-# ============================================================
-
-@lru_cache(maxsize=1)
-def load_plant_classes() -> list[dict]:
-    """
-    Load plant class information from
-    processed dataset metadata.
-    """
-
-    rows = _read_csv(METADATA_PATH)
-
-    with open(
-        ASSET_MANIFEST_PATH,
-        encoding="utf-8",
-    ) as fh:
-        assets = json.load(fh)["classes"]
-
-    classes = []
-
-    for name in CLASS_ORDER:
-
-        class_rows = [
-            row
-            for row in rows
-            if row["kelas"] == name
-        ]
-
-        asset = assets[name]
-
-        source = next(
-            row
-            for row in class_rows
-            if row["image_path"] == asset["source"]
-        )
-
-        classes.append({
-            "name": name,
-            "slug": name.lower().replace(" ", "-"),
-            "samples": len(class_rows),
-
-            "front": sum(
-                row["tampilan_daun"] == "depan"
-                for row in class_rows
-            ),
-
-            "back": sum(
-                row["tampilan_daun"] == "belakang"
-                for row in class_rows
-            ),
-
-            "description": source["original_description"],
-            "source": asset["source"],
-            "card": asset["card"],
-            "texture": asset["texture"],
-            "thumb": asset["thumb"],
-        })
-
-    return classes
-
-
-# ============================================================
-# 5. EXPERIMENT SUMMARY
+# 4. EXPERIMENT SUMMARY
 # ============================================================
 
 @lru_cache(maxsize=1)
 def load_experiment_summary() -> dict:
-    """
-    Load locked experiment configuration and
-    dataset split information from Notebook 07.
-    """
 
     registry = _read_csv(EVAL_REGISTRY_PATH)
 
@@ -193,6 +108,7 @@ def load_experiment_summary() -> dict:
         )
 
     latest = registry[-1]
+
     run_id = latest["source_run_id"]
 
     provenance_path = (
@@ -201,11 +117,12 @@ def load_experiment_summary() -> dict:
         / "07_provenance.json"
     )
 
-    with open(
-        provenance_path,
-        encoding="utf-8",
-    ) as fh:
-        locked = json.load(fh)["locked_configuration"]
+    with provenance_path.open(
+        encoding="utf-8"
+    ) as file:
+        locked = json.load(file)[
+            "locked_configuration"
+        ]
 
     split_path = (
         SPLIT_RUNS_DIR
@@ -213,45 +130,42 @@ def load_experiment_summary() -> dict:
         / "751_final_dataset_split_inventory.csv"
     )
 
-    splits = _read_csv(split_path)
+    inventory = _read_csv(split_path)
 
     split_counts = {
-        name: sum(
-            row["split"] == name
-            for row in splits
+        split: sum(
+            row["split"] == split
+            for row in inventory
         )
-        for name in (
+        for split in (
             "gallery",
             "validation",
-            "test",
+            "test"
         )
     }
 
     return {
         "run_id": run_id,
-        "text_configuration": locked["text_configuration"],
+        "text_configuration": locked[
+            "text_configuration"
+        ],
         "alpha": float(locked["alpha"]),
         "validation_map5": float(
             latest["validation_map_at_5"]
         ),
         "test_status": latest["test_status"],
         "split_counts": split_counts,
-        "total_samples": len(splits),
+        "total_samples": len(inventory),
     }
 
 
 # ============================================================
-# 6. EVALUATION REPORT LOADER
+# 5. FIND EVALUATION REPORT
 # ============================================================
 
-def find_evaluation_report(run_id: str) -> Path | None:
-    """
-    Find the Notebook 07 evaluation report
-    for the selected experiment run.
-
-    Only reports containing the matching
-    experiment run ID are accepted.
-    """
+def find_evaluation_report(
+    run_id: str
+) -> Path | None:
 
     results_root = ROOT / "results"
 
@@ -268,6 +182,8 @@ def find_evaluation_report(run_id: str) -> Path | None:
         results_root
         / "evaluation_07"
         / "07_evaluation_report.md",
+
+        ROOT / "07_evaluation_report.md",
     ]
 
     if results_root.exists():
@@ -279,24 +195,19 @@ def find_evaluation_report(run_id: str) -> Path | None:
             )
         )
 
-    checked = set()
+    seen = set()
 
     for path in candidates:
 
-        if path in checked:
+        if path in seen or not path.is_file():
             continue
 
-        checked.add(path)
-
-        if not path.is_file():
-            continue
+        seen.add(path)
 
         try:
-            content = path.read_text(
+            if run_id in path.read_text(
                 encoding="utf-8-sig"
-            )
-
-            if run_id in content:
+            ):
                 return path
 
         except (OSError, UnicodeError):
@@ -305,96 +216,154 @@ def find_evaluation_report(run_id: str) -> Path | None:
     return None
 
 
-def load_validation_comparison(summary: dict) -> list[dict]:
-    """
-    Read validation mAP@5 from the Notebook 07 report.
+# ============================================================
+# 6. MARKDOWN REPORT HELPERS
+# ============================================================
 
-    Methods:
-    - Visual Only
-    - Text Only (Unigram + Bigram)
-    - Weighted Fusion (selected alpha)
+def _extract_report_section(
+    report: str,
+    start_pattern: str
+) -> str:
 
-    No model retraining or evaluation is performed.
-    """
+    match = re.search(
+        start_pattern,
+        report,
+        flags=re.MULTILINE | re.IGNORECASE
+    )
 
-    run_id = summary["run_id"]
-    alpha = summary["alpha"]
+    if not match:
+        return ""
 
-    report_path = find_evaluation_report(run_id)
+    level = len(match.group(0)) - len(
+        match.group(0).lstrip("#")
+    )
+
+    remaining = report[match.end():]
+
+    next_heading = re.search(
+        rf"(?m)^#{{1,{level}}}\s+",
+        remaining
+    )
+
+    if next_heading:
+        return remaining[:next_heading.start()]
+
+    return remaining
+
+
+def _read_markdown_rows(
+    section: str,
+    columns: int
+) -> list[list[str]]:
+
+    rows = []
+
+    for line in section.splitlines():
+
+        if not line.strip().startswith("|"):
+            continue
+
+        cells = [
+            cell.strip()
+            for cell in line.strip().strip("|").split("|")
+        ]
+
+        if len(cells) == columns:
+            rows.append(cells)
+
+    return rows
+
+
+def _score(text: str) -> float:
+
+    value = float(
+        text.replace(",", ".")
+    )
+
+    if (
+        not math.isfinite(value)
+        or not 0 <= value <= 1
+    ):
+        raise ValueError(
+            f"Invalid evaluation metric: {text}"
+        )
+
+    return value
+
+
+# ============================================================
+# 7. LOAD EVALUATION CHARTS
+# ============================================================
+
+def load_evaluation_charts(summary: dict) -> dict:
+
+    output = {
+        "comparison": [],
+        "metric_comparison": [],
+        "topk_performance": [],
+    }
+
+    report_path = find_evaluation_report(
+        summary["run_id"]
+    )
 
     if report_path is None:
+
         app.logger.warning(
-            "Evaluation report not found for run %s",
-            run_id,
+            "Notebook 07 report missing for %s",
+            summary["run_id"]
         )
-        return []
+
+        return output
 
     report = report_path.read_text(
         encoding="utf-8-sig"
     )
 
     # --------------------------------------------------------
-    # Extract validation section
+    # 7.1 VALIDATION METRICS
     # --------------------------------------------------------
 
-    if "### Validation" not in report:
-        app.logger.warning(
-            "Validation section not found in %s",
-            report_path,
-        )
-        return []
+    validation_section = _extract_report_section(
+        report,
+        r"^###\s+Validation\b[^\n]*"
+    )
 
-    validation_section = report.split(
-        "### Validation",
-        1,
-    )[1]
+    validation_metrics = {}
 
-    validation_section = validation_section.split(
-        "### Test",
-        1,
-    )[0]
-
-    # --------------------------------------------------------
-    # Parse validation metrics table
-    # --------------------------------------------------------
-
-    metrics = {}
-
-    for line in validation_section.splitlines():
-
-        line = line.strip()
-
-        if not line.startswith("|"):
-            continue
-
-        cells = [
-            cell.strip()
-            for cell in line.strip("|").split("|")
-        ]
-
-        # Expected columns:
-        # Method | Precision@5 | Recall@5 |
-        # MRR@5 | mAP@5 | nDCG@5
-
-        if len(cells) != 6:
-            continue
-
-        method_name = " ".join(cells[0].split())
+    for cells in _read_markdown_rows(
+        validation_section,
+        columns=6
+    ):
 
         try:
-            map_at_5 = float(
-                cells[4].replace(",", ".")
-            )
+            values = [
+                _score(cell)
+                for cell in cells[1:]
+            ]
+
         except ValueError:
             continue
 
-        if not 0 <= map_at_5 <= 1:
-            continue
+        method = " ".join(
+            cells[0].split()
+        )
 
-        metrics[method_name] = map_at_5
+        validation_metrics[method] = dict(
+            zip(
+                (
+                    "precision",
+                    "recall",
+                    "mrr",
+                    "map",
+                    "ndcg"
+                ),
+                values
+            )
+        )
 
     # --------------------------------------------------------
-    # Selected experiment configurations
+    # 7.2 MATCH MODEL CONFIGURATIONS
     # --------------------------------------------------------
 
     visual_key = "Visual Only"
@@ -405,182 +374,215 @@ def load_validation_comparison(summary: dict) -> list[dict]:
 
     fusion_key = (
         "Weighted Fusion - Unigram + Bigram "
-        f"(alpha={alpha:g})"
+        f"(alpha={summary['alpha']:g})"
     )
 
-    methods = [
-        {
-            "source_name": visual_key,
-            "label": "Visual Only",
-            "is_selected": False,
-        },
-        {
-            "source_name": text_key,
-            "label": "Text Only",
-            "is_selected": False,
-        },
-        {
-            "source_name": fusion_key,
-            "label": "Multimodal Fusion",
-            "is_selected": True,
-        },
-    ]
+    required = (
+        visual_key,
+        text_key,
+        fusion_key
+    )
 
-    missing = [
-        method["source_name"]
-        for method in methods
-        if method["source_name"] not in metrics
-    ]
+    if all(
+        key in validation_metrics
+        for key in required
+    ):
 
-    if missing:
+        visual = validation_metrics[visual_key]
+        textual = validation_metrics[text_key]
+        fusion = validation_metrics[fusion_key]
+
+        if abs(
+            fusion["map"]
+            - summary["validation_map5"]
+        ) > 0.001:
+            raise ValueError(
+                "Validation mAP@5 differs from registry."
+            )
+
+        # Comparison chart
+        output["comparison"] = [
+            {
+                "label": "Visual Only",
+                "map_at_5": visual["map"],
+                "is_selected": False,
+            },
+            {
+                "label": "Text Only",
+                "map_at_5": textual["map"],
+                "is_selected": False,
+            },
+            {
+                "label": "Multimodal Fusion",
+                "map_at_5": fusion["map"],
+                "is_selected": True,
+            },
+        ]
+
+        # Radar and grouped bar charts
+        metric_names = [
+            ("mAP@5", "map"),
+            ("Precision@5", "precision"),
+            ("Recall@5", "recall"),
+            ("MRR@5", "mrr"),
+            ("nDCG@5", "ndcg"),
+        ]
+
+        output["metric_comparison"] = [
+            {
+                "label": label,
+                "visual": visual[key],
+                "text": textual[key],
+                "fusion": fusion[key],
+            }
+            for label, key in metric_names
+        ]
+
+    else:
+
         app.logger.warning(
-            "Missing validation methods in report: %s",
-            missing,
-        )
-        return []
-
-    # --------------------------------------------------------
-    # Build comparison
-    # --------------------------------------------------------
-
-    comparison = []
-
-    for method in methods:
-
-        comparison.append({
-            "label": method["label"],
-            "map_at_5": metrics[
-                method["source_name"]
-            ],
-            "is_selected": method["is_selected"],
-        })
-
-    # --------------------------------------------------------
-    # Verify selected fusion against registry
-    # --------------------------------------------------------
-
-    fusion_score = comparison[-1]["map_at_5"]
-
-    registry_score = summary["validation_map5"]
-
-    if abs(fusion_score - registry_score) > 1e-3:
-        raise ValueError(
-            "Validation mAP@5 in evaluation report "
-            "does not match the experiment registry."
+            "Incomplete validation data: %s",
+            report_path
         )
 
-    return comparison
+    # --------------------------------------------------------
+    # 7.3 TOP-K PERFORMANCE
+    # --------------------------------------------------------
+
+    topk_section = _extract_report_section(
+        report,
+        r"^##\s+3\.\s+Performa konfigurasi[^\n]*"
+    )
+
+    topk_maps = {}
+
+    for cells in _read_markdown_rows(
+        topk_section,
+        columns=11
+    ):
+
+        try:
+            k = int(cells[0])
+            value = _score(cells[1])
+
+        except ValueError:
+            continue
+
+        if k in (1, 3, 5, 10):
+            topk_maps[k] = value
+
+    required_k = (1, 3, 5, 10)
+
+    if all(k in topk_maps for k in required_k):
+
+        if abs(
+            topk_maps[5]
+            - summary["validation_map5"]
+        ) > 0.001:
+            raise ValueError(
+                "Top-K mAP@5 differs from registry."
+            )
+
+        output["topk_performance"] = [
+            {
+                "k": k,
+                "fusion": topk_maps[k],
+            }
+            for k in required_k
+        ]
+
+    else:
+
+        app.logger.warning(
+            "Incomplete Top-K results: %s",
+            report_path
+        )
+
+    return output
 
 
 # ============================================================
-# 7. GLOBAL TEMPLATE DATA
+# 8. GLOBAL TEMPLATE DATA
 # ============================================================
 
 @app.context_processor
 def inject_globals():
     return {
-        "current_year": date.today().year,
+        "current_year": date.today().year
     }
 
 
 # ============================================================
-# 8. DASHBOARD ROUTE
+# 9. HOME -> REDIRECT TO RETRIEVAL
 # ============================================================
 
-@app.route("/")
-def dashboard():
-    """
-    Render Dashboard page.
-    """
+# Endpoint "dashboard" dipertahankan sebagai alias
+# sementara agar tautan lama pada base.html
+# tidak menyebabkan BuildError.
+#
+# Tidak ada halaman Dashboard yang dirender.
 
-    classes = load_plant_classes()
-
-    summary = load_experiment_summary()
-
-    leaf_of_day = classes[
-        date.today().toordinal() % len(classes)
-    ]
-
-    return render_template(
-        "dashboard.html",
-        active_page="dashboard",
-        classes=classes,
-        summary=summary,
-        leaf_of_day=leaf_of_day,
+@app.route("/", endpoint="dashboard")
+def home():
+    return redirect(
+        url_for("retrieval")
     )
 
 
 # ============================================================
-# 9. RETRIEVAL PAGE ROUTE
+# 10. UPLOAD & RETRIEVAL PAGE
 # ============================================================
 
 @app.route("/retrieval")
 def retrieval():
-    """
-    Render Upload & Retrieval page.
-    """
 
     return render_template(
         "retrieval.html",
-        active_page="retrieval",
+        active_page="retrieval"
     )
 
 
 # ============================================================
-# 10. EVALUATION PAGE ROUTE
+# 11. EVALUATION PAGE
 # ============================================================
 
 @app.route("/evaluation")
 def evaluation():
-    """
-    Render Model Evaluation page using
-    the locked Notebook 06/07 results.
-    """
 
-    # Load experiment information
     summary = load_experiment_summary()
 
-    # Load real validation comparison
-    comparison = load_validation_comparison(
+    charts = load_evaluation_charts(
         summary
     )
 
-    # Prepare template data
     evaluation_data = {
         **summary,
-        "comparison": comparison,
+        **charts
     }
 
     return render_template(
         "evaluation.html",
         active_page="evaluation",
-        evaluation=evaluation_data,
+        evaluation=evaluation_data
     )
 
 
 # ============================================================
-# 11. GALLERY IMAGE ENDPOINT
+# 12. GALLERY IMAGE ENDPOINT
 # ============================================================
 
 @app.route("/api/gallery-image/<sample_id>")
 def gallery_image(sample_id):
-    """
-    Serve gallery images based on sample IDs.
-
-    Only images registered in the gallery
-    and located inside the dataset directory
-    can be accessed.
-    """
 
     gallery = load_gallery_data()
 
     sample = next(
         (
-            row
-            for row in gallery["metadata"]
-            if row["sample_id"] == sample_id
+            item
+            for item in gallery["metadata"]
+            if item["sample_id"] == sample_id
         ),
-        None,
+        None
     )
 
     if sample is None:
@@ -613,65 +615,42 @@ def gallery_image(sample_id):
 
 
 # ============================================================
-# 12. MULTIMODAL RETRIEVAL API
+# 13. MULTIMODAL RETRIEVAL API
 # ============================================================
 
 @app.route("/api/retrieval", methods=["POST"])
 def api_retrieval():
-    """
-    Multimodal retrieval endpoint.
-
-    Input:
-        Image: JPG / PNG
-        Description: Indonesian text
-
-    Processing:
-        1. Image preprocessing
-        2. Visual feature extraction
-        3. Gallery-based visual normalization
-        4. TF-IDF feature transformation
-        5. Euclidean similarity
-        6. Cosine similarity
-        7. Weighted score-level late fusion
-        8. Top-5 ranking
-
-    Output:
-        JSON containing retrieval results.
-    """
 
     # --------------------------------------------------------
-    # Validate request
+    # VALIDATE INPUT
     # --------------------------------------------------------
 
     image_file = request.files.get("image")
 
     description = request.form.get(
         "description",
-        "",
+        ""
     ).strip()
 
     if image_file is None or not image_file.filename:
-        return jsonify({
-            "error": "Please upload a leaf image."
-        }), 400
+        return jsonify(
+            error="Please upload a leaf image."
+        ), 400
 
     if not description:
-        return jsonify({
-            "error": "Please enter a leaf description."
-        }), 400
+        return jsonify(
+            error="Please enter a leaf description."
+        ), 400
 
     if len(description) > 2000:
-        return jsonify({
-            "error": (
-                "Description is too long. "
-                "Maximum 2000 characters."
-            )
-        }), 400
+        return jsonify(
+            error="Description exceeds 2000 characters."
+        ), 400
 
     allowed_extensions = {
         ".jpg",
         ".jpeg",
-        ".png",
+        ".png"
     }
 
     extension = Path(
@@ -679,15 +658,12 @@ def api_retrieval():
     ).suffix.lower()
 
     if extension not in allowed_extensions:
-        return jsonify({
-            "error": (
-                "Only JPG, JPEG and PNG "
-                "images are supported."
-            )
-        }), 400
+        return jsonify(
+            error="Only JPG, JPEG and PNG images are supported."
+        ), 400
 
     # --------------------------------------------------------
-    # Read uploaded image
+    # READ IMAGE
     # --------------------------------------------------------
 
     image_bytes = image_file.read(
@@ -695,123 +671,124 @@ def api_retrieval():
     )
 
     if not image_bytes:
-        return jsonify({
-            "error": "Uploaded image is empty."
-        }), 400
+        return jsonify(
+            error="Uploaded image is empty."
+        ), 400
 
     if len(image_bytes) > MAX_IMAGE_SIZE:
-        return jsonify({
-            "error": "Maximum image size is 10 MB."
-        }), 400
+        return jsonify(
+            error="Maximum image size is 10 MB."
+        ), 400
 
     # --------------------------------------------------------
-    # Preprocessing and retrieval
+    # PREPROCESSING + RETRIEVAL
     # --------------------------------------------------------
 
     try:
 
-        # Original image preprocessing
         processed = preprocess_image(
             image_bytes
         )
 
         if not processed.technical_valid:
-            return jsonify({
-                "error": (
+            return jsonify(
+                error=(
                     "Image preprocessing failed. "
-                    "Please upload a clear leaf photograph."
+                    "Upload a clear leaf photo."
                 )
-            }), 400
+            ), 400
 
-        # HSV + GLCM + Hu Moments
-        query_visual_raw = (
+        raw_visual_features = (
             extract_features_from_preprocessed(
                 processed
             )
         )
 
-        # Multimodal retrieval using real gallery
         results = search_gallery(
-            query_visual_raw=query_visual_raw,
+            query_visual_raw=raw_visual_features,
             query_description=description,
-            top_k=5,
+            top_k=5
         )
 
         # ----------------------------------------------------
-        # Build JSON response
+        # BUILD RESULTS
         # ----------------------------------------------------
 
-        response_results = []
-
-        for item in results:
-
-            response_results.append({
+        response_results = [
+            {
                 "rank": item["rank"],
                 "sample_id": item["sample_id"],
                 "kelas": item["kelas"],
+
                 "nama_file": item.get(
                     "nama_file",
-                    "",
+                    ""
                 ),
+
                 "visual_similarity": item[
                     "visual_similarity"
                 ],
+
                 "text_similarity": item[
                     "text_similarity"
                 ],
+
                 "fusion_score": item[
                     "fusion_score"
                 ],
+
                 "image_url": url_for(
                     "gallery_image",
-                    sample_id=item["sample_id"],
+                    sample_id=item["sample_id"]
                 ),
-            })
+            }
+            for item in results
+        ]
 
-        return jsonify({
-            "success": True,
-            "gallery_size": 62,
-            "top_k": len(response_results),
-            "results": response_results,
-        })
+        return jsonify(
+            success=True,
+            gallery_size=load_gallery_data()["gallery_size"],
+            top_k=len(response_results),
+            results=response_results
+        )
 
-    except ValueError as exc:
+    except ValueError as error:
 
-        return jsonify({
-            "error": str(exc)
-        }), 400
+        return jsonify(
+            error=str(error)
+        ), 400
 
     except Exception:
 
         app.logger.exception(
-            "Multimodal retrieval failed."
+            "Multimodal retrieval failed"
         )
 
-        return jsonify({
-            "error": (
-                "Retrieval processing failed. "
-                "Please check the Flask terminal."
+        return jsonify(
+            error=(
+                "Retrieval failed. "
+                "See Flask terminal for details."
             )
-        }), 500
+        ), 500
 
 
 # ============================================================
-# 13. FILE SIZE ERROR HANDLER
+# 14. FILE SIZE ERROR HANDLER
 # ============================================================
 
 @app.errorhandler(413)
 def file_too_large(error):
 
-    return jsonify({
-        "error": (
-            "Upload is too large. "
+    return jsonify(
+        error=(
+            "Upload too large. "
             "Maximum image size is 10 MB."
         )
-    }), 413
+    ), 413
 
 
 # ============================================================
-# 14. RUN APPLICATION
+# 15. RUN FLASK
 # ============================================================
 
 if __name__ == "__main__":

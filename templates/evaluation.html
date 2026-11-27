@@ -3,507 +3,1305 @@
 
 {% block title %}Evaluation{% endblock %}
 
+{% block head %}
+<style>
+/* ==========================================
+   LEAFMATCH AI - EVALUATION
+   MINIMAL & CONSISTENT DESIGN
+   ========================================== */
+
+.ev-page {
+  font-family: "Poppins", sans-serif;
+  color: #26352C;
+}
+
+.ev-page svg text {
+  font-family: "Poppins", sans-serif;
+}
+
+/* HEADER */
+
+.ev-eyebrow {
+  color: #245C3B;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .08em;
+}
+
+.ev-title {
+  color: #26352C;
+  font-weight: 700;
+  letter-spacing: -.035em;
+}
+
+/* CARDS */
+
+.ev-card {
+  min-width: 0;
+  background: #FFFFFF;
+  border: 1px solid #E2E8E1;
+  border-radius: 21px;
+  box-shadow: 0 9px 28px rgba(22, 60, 32, .05);
+}
+
+.ev-stat {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  min-height: 108px;
+  padding: 20px;
+}
+
+.ev-stat--featured {
+  background: #EAF1E9;
+  border-color: #DDE5DC;
+}
+
+.ev-stat-value {
+  color: #245C3B;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -.04em;
+}
+
+/* PANELS */
+
+.ev-panel {
+  padding: 24px;
+}
+
+.ev-panel-title {
+  color: #26352C;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: -.025em;
+}
+
+.ev-panel-description {
+  color: #667268;
+  font-size: 12px;
+  line-height: 1.6;
+  margin-top: 4px;
+}
+
+/* CHART LEGENDS */
+
+.ev-legend-dot {
+  display: inline-block;
+  flex-shrink: 0;
+  width: 11px;
+  height: 11px;
+  border-radius: 3px;
+}
+
+.ev-c-dark {
+  background: #245C3B;
+}
+
+.ev-c-mid {
+  background: #6A9F76;
+}
+
+.ev-c-light {
+  background: #BED5C2;
+}
+
+.ev-c-accent {
+  background: #89B6A1;
+}
+
+/* RETRIEVAL PERFORMANCE BARS */
+
+.ev-bar-track {
+  position: relative;
+  overflow: hidden;
+  height: 28px;
+  background: #F1F5F1;
+  border-radius: 6px;
+}
+
+.ev-bar-fill {
+  height: 100%;
+  border-radius: 6px;
+  transition: width .5s ease;
+}
+
+.ev-bar--fusion {
+  background: #245C3B;
+}
+
+.ev-bar--text {
+  background: #6A9F76;
+}
+
+.ev-bar--visual {
+  background: #BED5C2;
+}
+
+/* EMPTY CHART STATE */
+
+.ev-chart-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 238px;
+  padding: 28px;
+  background: #F8F9F7;
+  border: 1px dashed #DDE5DC;
+  border-radius: 15px;
+  color: #667268;
+  text-align: center;
+}
+
+.ev-chart-empty strong {
+  color: #26352C;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.ev-chart-empty p {
+  max-width: 320px;
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+/* DONUT CHARTS */
+
+.ev-donut {
+  position: relative;
+  flex-shrink: 0;
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+}
+
+.ev-donut-center {
+  position: absolute;
+  inset: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #FFFFFF;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(255,255,255,.35);
+  text-align: center;
+}
+
+.ev-donut-value {
+  color: #26352C;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -.045em;
+  line-height: 1.15;
+}
+
+.ev-donut-caption {
+  color: #667268;
+  font-size: 11px;
+  margin-top: 3px;
+}
+
+/* FEATURE LEGEND ROWS */
+
+.ev-feature-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 11px 0;
+  border-bottom: 1px solid #E9EFE8;
+  font-size: 12px;
+}
+
+.ev-feature-row:last-child {
+  border-bottom: 0;
+}
+
+/* DATASET DISTRIBUTION */
+
+.ev-split-track {
+  display: flex;
+  width: 100%;
+  height: 39px;
+  overflow: hidden;
+  background: #EAF1E9;
+  border-radius: 9px;
+}
+
+.ev-split-segment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.ev-split-gallery {
+  background: #245C3B;
+  color: #FFFFFF;
+}
+
+.ev-split-validation {
+  background: #6A9F76;
+  color: #FFFFFF;
+}
+
+.ev-split-test {
+  background: #BED5C2;
+  color: #26352C;
+}
+
+/* PER-METRIC CHART STYLES */
+
+.ev-metric-chart {
+  display: flex;
+  align-items: stretch;
+  gap: 17px;
+  height: 265px;
+  padding: 20px 5px 0;
+  background: #FFFFFF;
+  border-bottom: 1px solid #E2E8E1;
+}
+
+.ev-metric-group {
+  display: flex;
+  flex: 1;
+  min-width: 0;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.ev-metric-bars {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 5px;
+  width: 100%;
+  height: 100%;
+}
+
+.ev-metric-bar {
+  position: relative;
+  width: 25%;
+  max-width: 34px;
+  min-width: 7px;
+  border-radius: 5px 5px 0 0;
+}
+
+.ev-metric-labels {
+  display: flex;
+  gap: 17px;
+  margin-top: 12px;
+}
+
+.ev-metric-labels span {
+  flex: 1;
+  min-width: 0;
+  color: #667268;
+  font-size: 11px;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
+/* STATUS AND FORMULA */
+
+.ev-warning {
+  padding: 16px 19px;
+  background: #F8F9F7;
+  border-left: 3px solid #6A9F76;
+  border-radius: 0 12px 12px 0;
+}
+
+.ev-formula {
+  padding: 17px;
+  background: #EAF1E9;
+  color: #245C3B;
+  border-radius: 13px;
+}
+
+.ev-soft-line {
+  height: 1px;
+  background: #E9EFE8;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 640px) {
+  .ev-panel {
+    padding: 18px;
+  }
+
+  .ev-stat {
+    padding: 15px;
+    min-height: 90px;
+  }
+
+  .ev-stat-value {
+    font-size: 23px;
+  }
+
+  .ev-donut {
+    width: 175px;
+    height: 175px;
+  }
+
+  .ev-donut-center {
+    inset: 37px;
+  }
+
+  .ev-split-segment {
+    font-size: 9px;
+  }
+
+  .ev-metric-chart {
+    gap: 8px;
+  }
+
+  .ev-metric-labels {
+    gap: 8px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ev-bar-fill {
+    transition: none;
+  }
+}
+</style>
+{% endblock %}
+
+
 {% block content %}
 
 {% set e = evaluation if evaluation is defined and evaluation else {} %}
 {% set splits = e.get("split_counts", {}) %}
 {% set comparison = e.get("comparison", []) %}
+{% set topk_data = e.get("topk_performance", []) %}
+{% set metric_data = e.get("metric_comparison", []) %}
 {% set validation_score = e.get("validation_map5") %}
 {% set alpha = e.get("alpha", 0.3) %}
 {% set test_status = e.get("test_status", "NOT_AVAILABLE") %}
+{% set total = e.get("total_samples", 0) %}
 
-<!-- HEADER -->
-<div class="mb-8">
-    <h1 class="text-[26px] font-semibold text-ink-700">
-        Model Evaluation
+{% set hsv_n = 64 %}
+{% set glcm_n = 72 %}
+{% set hu_n = 7 %}
+{% set tfidf_n = 233 %}
+{% set feature_total = hsv_n + glcm_n + hu_n + tfidf_n %}
+
+{% set hsv_pct = hsv_n / feature_total * 100 %}
+{% set glcm_pct = glcm_n / feature_total * 100 %}
+{% set hu_pct = hu_n / feature_total * 100 %}
+
+{% set gallery_pct = splits.get("gallery", 0) / total * 100 if total else 0 %}
+{% set validation_pct = splits.get("validation", 0) / total * 100 if total else 0 %}
+{% set test_pct = splits.get("test", 0) / total * 100 if total else 0 %}
+
+
+<div class="ev-page">
+
+  <!-- ==========================================
+       HEADER
+       ========================================== -->
+
+  <header class="mb-7">
+
+    <p class="ev-eyebrow">
+      MODEL EVALUATION
+    </p>
+
+    <h1 class="ev-title mt-1 text-[28px] sm:text-[32px]">
+      Evaluation of Retrieval Model
     </h1>
-    <p class="mt-2 text-sm text-ink-500">
-        Evaluate the retrieval performance of visual, textual,
-        and multimodal feature configurations.
+
+    <p class="mt-1 text-[12px] text-ink-500">
+      Performance analysis of visual, text, and multimodal fusion
+      for medicinal plant retrieval.
     </p>
-</div>
+
+  </header>
 
 
-<!-- METRIC OVERVIEW -->
-<div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-5 mb-8">
+  <!-- ==========================================
+       SUMMARY CARDS
+       ========================================== -->
 
-    <div class="bg-white rounded-2xl p-6 shadow-soft">
-        <p class="text-xs font-medium text-ink-500">
-            Validation mAP@5
+  <div class="mb-6 grid grid-cols-2 gap-4 xl:grid-cols-4">
+
+    <!-- VALIDATION MAP@5 -->
+
+    <div class="ev-card ev-stat ev-stat--featured">
+
+      <div>
+        <p class="text-[11px] font-medium text-ink-600">
+          Validation mAP@5
         </p>
 
-        <p class="text-[30px] font-semibold text-forest-900 mt-3">
-            {% if validation_score is not none %}
-                {{ "%.4f"|format(validation_score) }}
-            {% else %}
-                —
-            {% endif %}
+        <p class="ev-stat-value mt-1">
+          {% if validation_score is not none %}
+            {{ "%.4f"|format(validation_score) }}
+          {% else %}
+            —
+          {% endif %}
         </p>
+      </div>
 
-        <p class="text-xs text-ink-500 mt-2">
-            Selected multimodal configuration
-        </p>
     </div>
 
-    <div class="bg-white rounded-2xl p-6 shadow-soft">
-        <p class="text-xs font-medium text-ink-500">
-            Gallery Samples
+
+    <!-- GALLERY -->
+
+    <div class="ev-card ev-stat">
+
+      <div>
+        <p class="text-[11px] text-ink-600">
+          Gallery
         </p>
 
-        <p class="text-[30px] font-semibold text-forest-900 mt-3">
-            {{ splits.get("gallery", "—") }}
+        <p class="ev-stat-value mt-1">
+          {{ splits.get("gallery", "—") }}
         </p>
+      </div>
 
-        <p class="text-xs text-ink-500 mt-2">
-            Reference images for retrieval
-        </p>
     </div>
 
-    <div class="bg-white rounded-2xl p-6 shadow-soft">
-        <p class="text-xs font-medium text-ink-500">
-            Validation Samples
+
+    <!-- VALIDATION -->
+
+    <div class="ev-card ev-stat">
+
+      <div>
+        <p class="text-[11px] text-ink-600">
+          Validation
         </p>
 
-        <p class="text-[30px] font-semibold text-forest-900 mt-3">
-            {{ splits.get("validation", "—") }}
+        <p class="ev-stat-value mt-1">
+          {{ splits.get("validation", "—") }}
         </p>
+      </div>
 
-        <p class="text-xs text-ink-500 mt-2">
-            Used for configuration evaluation
-        </p>
     </div>
 
-    <div class="bg-white rounded-2xl p-6 shadow-soft">
-        <p class="text-xs font-medium text-ink-500">
-            Test Samples
+
+    <!-- TEST -->
+
+    <div class="ev-card ev-stat">
+
+      <div>
+        <p class="text-[11px] text-ink-600">
+          Test
         </p>
 
-        <p class="text-[30px] font-semibold text-forest-900 mt-3">
-            {{ splits.get("test", "—") }}
+        <p class="ev-stat-value mt-1">
+          {{ splits.get("test", "—") }}
         </p>
+      </div>
 
-        <p class="text-xs text-ink-500 mt-2">
-            Held-out evaluation samples
-        </p>
     </div>
 
-</div>
+  </div>
 
 
-<!-- PERFORMANCE COMPARISON -->
-<section class="bg-white rounded-2xl p-7 shadow-soft mb-7">
+  <!-- ==========================================
+       ROW 1: PERFORMANCE CHARTS
+       ========================================== -->
 
-    <div class="flex flex-wrap items-start justify-between gap-4 mb-8">
-        <div>
-            <h2 class="text-lg font-semibold text-forest-900">
-                Retrieval Performance Comparison
-            </h2>
-            <p class="text-xs text-ink-500 mt-2">
-                Comparison of three retrieval configurations
-                based on validation mAP@5.
-            </p>
-        </div>
-
-        <span class="text-xs text-gold-600 font-medium">
-            Metric: mAP@5
-        </span>
-    </div>
-
-    {% if comparison %}
-
-        <div class="space-y-8">
-
-            {% for item in comparison %}
-
-                <div>
-
-                    <div class="flex items-center justify-between gap-4 mb-3">
-
-                        <div class="flex items-center gap-3">
-                            <span class="text-sm font-semibold text-forest-900">
-                                {{ item.label }}
-                            </span>
-
-                            {% if item.is_selected %}
-                                <span class="text-xs text-gold-600">
-                                    Selected
-                                </span>
-                            {% endif %}
-                        </div>
-
-                        <span class="text-sm font-semibold text-forest-900">
-                            {{ "%.4f"|format(item.map_at_5) }}
-                        </span>
-
-                    </div>
-
-                    <div class="w-full h-4 rounded-full bg-sage-100 overflow-hidden">
-
-                        <div
-                            class="h-full rounded-full {% if item.is_selected %}bg-forest-900{% else %}bg-gold-400{% endif %}"
-                            style="width: {{ [100, [0, item.map_at_5 * 100]|max]|min }}%;"
-                        ></div>
-
-                    </div>
-
-                </div>
-
-            {% endfor %}
-
-        </div>
-
-    {% else %}
-
-        <div class="py-12 text-center border border-dashed border-sage-200 rounded-xl">
-
-            <p class="text-sm font-semibold text-forest-900">
-                Performance comparison not loaded yet
-            </p>
-
-            <p class="text-xs text-ink-500 mt-2">
-                The Visual Only, Text Only, and Multimodal Fusion
-                scores will be loaded from the experiment results.
-            </p>
-
-        </div>
-
-    {% endif %}
-
-    <div class="mt-8 pt-5 border-t border-sage-100">
-        <p class="text-xs leading-6 text-ink-500">
-            Higher mAP@5 indicates better retrieval ranking performance
-            across the evaluated queries. All configurations must
-            be compared using the same validation split.
-        </p>
-    </div>
-
-</section>
+  <div class="mb-5 grid grid-cols-1 gap-5 xl:grid-cols-2">
 
 
-<!-- RETRIEVAL CONFIGURATION -->
-<div class="grid grid-cols-1 xl:grid-cols-2 gap-6 mb-7">
+    <!-- RETRIEVAL PERFORMANCE -->
 
-    <!-- FEATURE CONFIGURATION -->
-    <section class="bg-white rounded-2xl p-7 shadow-soft">
+    <section class="ev-card ev-panel">
 
-        <h2 class="text-lg font-semibold text-forest-900 mb-2">
-            Feature Configuration
+      <div class="mb-7">
+
+        <h2 class="ev-panel-title">
+          Retrieval Performance
         </h2>
 
-        <p class="text-xs text-ink-500 mb-7">
-            Feature extraction and similarity methods.
+        <p class="ev-panel-description">
+          Validation mAP@5 across three configurations.
         </p>
 
-        <div class="space-y-5">
+      </div>
 
-            <div class="flex items-start justify-between gap-4 border-b border-sage-100 pb-4">
-                <div>
-                    <p class="text-sm font-semibold text-forest-900">
-                        HSV Histogram
-                    </p>
-                    <p class="text-xs text-ink-500 mt-1">
-                        Color characteristics
-                    </p>
-                </div>
-                <span class="text-sm font-medium text-ink-700">
-                    64 features
+
+      {% if comparison %}
+
+        <div class="space-y-6">
+
+          {% for item in comparison|reverse %}
+
+            <div>
+
+              <div class="mb-2 flex items-center justify-between gap-3">
+
+                <span class="text-[12px] font-semibold text-forest-900">
+                  {{ item.label }}
                 </span>
-            </div>
 
-            <div class="flex items-start justify-between gap-4 border-b border-sage-100 pb-4">
-                <div>
-                    <p class="text-sm font-semibold text-forest-900">
-                        GLCM
-                    </p>
-                    <p class="text-xs text-ink-500 mt-1">
-                        Texture characteristics
-                    </p>
-                </div>
-                <span class="text-sm font-medium text-ink-700">
-                    72 features
+                <span class="text-[12px] font-semibold text-forest-900">
+                  {{ "%.4f"|format(item.map_at_5) }}
                 </span>
+
+              </div>
+
+              <div class="ev-bar-track">
+
+                <div
+                  class="ev-bar-fill
+                    {% if item.is_selected %}
+                      ev-bar--fusion
+                    {% elif 'Text' in item.label %}
+                      ev-bar--text
+                    {% else %}
+                      ev-bar--visual
+                    {% endif %}"
+                  style="width: {{ (item.map_at_5 * 100)|round(2) }}%;"
+                ></div>
+
+              </div>
+
             </div>
 
-            <div class="flex items-start justify-between gap-4 border-b border-sage-100 pb-4">
-                <div>
-                    <p class="text-sm font-semibold text-forest-900">
-                        Hu Moments
-                    </p>
-                    <p class="text-xs text-ink-500 mt-1">
-                        Shape characteristics
-                    </p>
-                </div>
-                <span class="text-sm font-medium text-ink-700">
-                    7 features
-                </span>
-            </div>
-
-            <div class="flex items-start justify-between gap-4 border-b border-sage-100 pb-4">
-                <div>
-                    <p class="text-sm font-semibold text-forest-900">
-                        TF-IDF
-                    </p>
-                    <p class="text-xs text-ink-500 mt-1">
-                        {{ e.get("text_configuration", "Unigram + Bigram") }}
-                    </p>
-                </div>
-                <span class="text-sm font-medium text-ink-700">
-                    233 features
-                </span>
-            </div>
-
-            <div class="flex items-start justify-between gap-4">
-                <div>
-                    <p class="text-sm font-semibold text-forest-900">
-                        Similarity Methods
-                    </p>
-                    <p class="text-xs text-ink-500 mt-1">
-                        Image and text matching
-                    </p>
-                </div>
-                <div class="text-right text-xs text-ink-700 leading-6">
-                    <p>Euclidean Distance</p>
-                    <p>Cosine Similarity</p>
-                </div>
-            </div>
+          {% endfor %}
 
         </div>
+
+        <p class="mt-6 text-[11px] leading-6 text-ink-500">
+          Higher mAP@5 indicates better retrieval ranking performance.
+          The selected fusion weight was tuned using validation data.
+        </p>
+
+      {% else %}
+
+        <div class="ev-chart-empty">
+
+          <strong>
+            Comparison data unavailable
+          </strong>
+
+          <p>
+            Validation scores will appear when the
+            experiment report is loaded by Flask.
+          </p>
+
+        </div>
+
+      {% endif %}
 
     </section>
 
 
-    <!-- FUSION CONFIGURATION -->
-    <section class="bg-white rounded-2xl p-7 shadow-soft">
+    <!-- PERFORMANCE BY TOP-K -->
 
-        <h2 class="text-lg font-semibold text-forest-900 mb-2">
+    <section class="ev-card ev-panel">
+
+      <div class="mb-5">
+
+        <h2 class="ev-panel-title">
+          Performance by Top-K
+        </h2>
+
+        <p class="ev-panel-description">
+          Retrieval ranking quality at different K values.
+        </p>
+
+      </div>
+
+
+      {% if topk_data|length > 1 %}
+
+        <svg
+          viewBox="0 0 520 270"
+          class="w-full"
+          role="img"
+          aria-label="Line chart of retrieval performance by K"
+        >
+
+          <!-- GRID AND Y-AXIS -->
+
+          {% for tick in [0, 0.25, 0.5, 0.75, 1.0] %}
+
+            <line
+              x1="65"
+              x2="470"
+              y1="{{ 220 - tick * 175 }}"
+              y2="{{ 220 - tick * 175 }}"
+              stroke="#E2E8E1"
+              stroke-width="1"
+            />
+
+            <text
+              x="52"
+              y="{{ 224 - tick * 175 }}"
+              text-anchor="end"
+              fill="#667268"
+              font-size="11"
+            >
+              {{ "%.2f"|format(tick) }}
+            </text>
+
+          {% endfor %}
+
+
+          <!-- FUSION LINE -->
+
+          <polyline
+            fill="none"
+            stroke="#245C3B"
+            stroke-width="3.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            points="{% for item in topk_data %}{{ 70 + loop.index0 * (390 / ((topk_data|length) - 1)) }},{{ 220 - item.fusion * 175 }} {% endfor %}"
+          />
+
+
+          <!-- FUSION POINTS -->
+
+          {% for item in topk_data %}
+
+            <circle
+              cx="{{ 70 + loop.index0 * (390 / ((topk_data|length) - 1)) }}"
+              cy="{{ 220 - item.fusion * 175 }}"
+              r="5"
+              fill="white"
+              stroke="#245C3B"
+              stroke-width="3"
+            />
+
+          {% endfor %}
+
+
+          <!-- OPTIONAL TEXT LINE -->
+
+          {% if topk_data[0].get("text") is not none %}
+
+            <polyline
+              fill="none"
+              stroke="#6A9F76"
+              stroke-width="3"
+              stroke-linejoin="round"
+              points="{% for item in topk_data %}{{ 70 + loop.index0 * (390 / ((topk_data|length) - 1)) }},{{ 220 - item.text * 175 }} {% endfor %}"
+            />
+
+          {% endif %}
+
+
+          <!-- OPTIONAL VISUAL LINE -->
+
+          {% if topk_data[0].get("visual") is not none %}
+
+            <polyline
+              fill="none"
+              stroke="#BED5C2"
+              stroke-width="3"
+              stroke-linejoin="round"
+              points="{% for item in topk_data %}{{ 70 + loop.index0 * (390 / ((topk_data|length) - 1)) }},{{ 220 - item.visual * 175 }} {% endfor %}"
+            />
+
+          {% endif %}
+
+
+          <!-- X-AXIS LABELS -->
+
+          {% for item in topk_data %}
+
+            <text
+              x="{{ 70 + loop.index0 * (390 / ((topk_data|length) - 1)) }}"
+              y="244"
+              text-anchor="middle"
+              fill="#667268"
+              font-size="12"
+            >
+              {{ item.k }}
+            </text>
+
+          {% endfor %}
+
+
+          <text
+            x="267"
+            y="264"
+            text-anchor="middle"
+            font-size="12"
+            fill="#667268"
+          >
+            K
+          </text>
+
+        </svg>
+
+
+        <!-- CHART LEGEND -->
+
+        <div class="mt-3 flex flex-wrap justify-center gap-4 text-[11px]">
+
+          <span class="flex items-center gap-2">
+            <span class="ev-legend-dot ev-c-dark"></span>
             Multimodal Fusion
-        </h2>
+          </span>
 
-        <p class="text-xs text-ink-500 mb-8">
-            Weighted Score-Level Late Fusion
-        </p>
+          {% if topk_data[0].get("text") is not none %}
 
-        <div class="flex items-center justify-between mb-3">
-            <span class="text-sm text-ink-700">
-                Visual Modality
+            <span class="flex items-center gap-2">
+              <span class="ev-legend-dot ev-c-mid"></span>
+              Text Only
             </span>
-            <span class="text-sm font-semibold text-forest-900">
-                {{ "%.0f"|format(alpha * 100) }}%
+
+          {% endif %}
+
+          {% if topk_data[0].get("visual") is not none %}
+
+            <span class="flex items-center gap-2">
+              <span class="ev-legend-dot ev-c-light"></span>
+              Visual Only
             </span>
+
+          {% endif %}
+
         </div>
 
-        <div class="w-full h-3 bg-sage-100 rounded-full overflow-hidden mb-7">
-            <div
-                class="h-full bg-forest-900 rounded-full"
-                style="width: {{ alpha * 100 }}%;"
-            ></div>
+
+      {% else %}
+
+        <div class="ev-chart-empty">
+
+          <strong>
+            Top-K performance data not connected
+          </strong>
+
+          <p>
+            This chart will use the saved Notebook 07 results
+            for K = 1, 3, 5, and 10.
+          </p>
+
         </div>
 
-        <div class="flex items-center justify-between mb-3">
-            <span class="text-sm text-ink-700">
-                Text Modality
-            </span>
-            <span class="text-sm font-semibold text-forest-900">
-                {{ "%.0f"|format((1 - alpha) * 100) }}%
-            </span>
-        </div>
-
-        <div class="w-full h-3 bg-sage-100 rounded-full overflow-hidden mb-8">
-            <div
-                class="h-full bg-gold-400 rounded-full"
-                style="width: {{ (1 - alpha) * 100 }}%;"
-            ></div>
-        </div>
-
-        <div class="rounded-xl bg-sage-50 p-5">
-            <p class="text-xs font-semibold text-forest-900 mb-3">
-                Fusion Formula
-            </p>
-
-            <p class="text-sm font-medium text-ink-700">
-                S<sub>final</sub> =
-                {{ "%.2f"|format(alpha) }} × S<sub>visual</sub>
-                +
-                {{ "%.2f"|format(1 - alpha) }} × S<sub>text</sub>
-            </p>
-        </div>
-
-        <p class="text-xs text-ink-500 leading-6 mt-6">
-            Individual similarity scores are combined after feature
-            extraction. Candidates are ranked by their final
-            fusion scores.
-        </p>
+      {% endif %}
 
     </section>
 
-</div>
+  </div>
 
 
-<!-- DATASET OVERVIEW -->
-<section class="bg-white rounded-2xl p-7 shadow-soft mb-7">
+  <!-- ==========================================
+       ROW 2: FEATURE AND FUSION DISTRIBUTION
+       ========================================== -->
 
-    <h2 class="text-lg font-semibold text-forest-900">
+  <div class="mb-5 grid grid-cols-1 gap-5 xl:grid-cols-2">
+
+
+    <!-- FEATURE DISTRIBUTION -->
+
+    <section class="ev-card ev-panel">
+
+      <div class="mb-6">
+
+        <h2 class="ev-panel-title">
+          Feature Distribution
+        </h2>
+
+        <p class="ev-panel-description">
+          Number of extracted visual and textual features.
+        </p>
+
+      </div>
+
+
+      <div class="flex flex-wrap items-center justify-center gap-8">
+
+        <!-- FEATURE DONUT -->
+
+        <div
+          class="ev-donut"
+          style="
+            background: conic-gradient(
+              #245C3B 0% {{ hsv_pct }}%,
+              #6A9F76 {{ hsv_pct }}% {{ hsv_pct + glcm_pct }}%,
+              #89B6A1 {{ hsv_pct + glcm_pct }}% {{ hsv_pct + glcm_pct + hu_pct }}%,
+              #BED5C2 {{ hsv_pct + glcm_pct + hu_pct }}% 100%
+            );
+          "
+          role="img"
+          aria-label="Feature distribution: HSV 64, GLCM 72, Hu Moments 7, TF-IDF 233"
+        >
+
+          <div class="ev-donut-center">
+
+            <span class="ev-donut-value">
+              {{ feature_total }}
+            </span>
+
+            <span class="ev-donut-caption">
+              Features
+            </span>
+
+          </div>
+
+        </div>
+
+
+        <!-- FEATURE LEGENDS -->
+
+        <div class="min-w-[180px] flex-1">
+
+          <div class="ev-feature-row">
+
+            <span class="flex items-center gap-2">
+              <span class="ev-legend-dot ev-c-dark"></span>
+              HSV Histogram
+            </span>
+
+            <strong>{{ hsv_n }}</strong>
+
+          </div>
+
+
+          <div class="ev-feature-row">
+
+            <span class="flex items-center gap-2">
+              <span class="ev-legend-dot ev-c-mid"></span>
+              GLCM
+            </span>
+
+            <strong>{{ glcm_n }}</strong>
+
+          </div>
+
+
+          <div class="ev-feature-row">
+
+            <span class="flex items-center gap-2">
+              <span class="ev-legend-dot ev-c-accent"></span>
+              Hu Moments
+            </span>
+
+            <strong>{{ hu_n }}</strong>
+
+          </div>
+
+
+          <div class="ev-feature-row">
+
+            <span class="flex items-center gap-2">
+              <span class="ev-legend-dot ev-c-light"></span>
+              TF-IDF
+            </span>
+
+            <strong>{{ tfidf_n }}</strong>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <p class="mt-5 text-[11px] leading-5 text-ink-500">
+        Feature counts describe vector dimensions,
+        not their relative importance in retrieval.
+      </p>
+
+    </section>
+
+
+    <!-- MULTIMODAL FUSION -->
+
+    <section class="ev-card ev-panel">
+
+      <div class="mb-6">
+
+        <h2 class="ev-panel-title">
+          Multimodal Fusion
+        </h2>
+
+        <p class="ev-panel-description">
+          Modality weights in score-level late fusion.
+        </p>
+
+      </div>
+
+
+      <div class="flex flex-wrap items-center justify-center gap-8">
+
+        <!-- FUSION DONUT -->
+
+        <div
+          class="ev-donut"
+          style="
+            background: conic-gradient(
+              #245C3B 0% {{ alpha * 100 }}%,
+              #BED5C2 {{ alpha * 100 }}% 100%
+            );
+          "
+          role="img"
+          aria-label="Visual weight {{ (alpha * 100)|round }} percent and text weight {{ ((1-alpha) * 100)|round }} percent"
+        >
+
+          <div class="ev-donut-center">
+
+            <span class="text-[24px] font-bold text-forest-900">
+              {{ "%.0f"|format(alpha * 100) }}/{{ "%.0f"|format((1-alpha) * 100) }}
+            </span>
+
+            <span class="ev-donut-caption">
+              Fusion Weights
+            </span>
+
+          </div>
+
+        </div>
+
+
+        <!-- FUSION LEGEND AND FORMULA -->
+
+        <div class="min-w-[190px] flex-1">
+
+          <div class="ev-feature-row">
+
+            <span class="flex items-center gap-2">
+              <span class="ev-legend-dot ev-c-dark"></span>
+              Visual Modality
+            </span>
+
+            <strong>
+              {{ "%.0f"|format(alpha * 100) }}%
+            </strong>
+
+          </div>
+
+
+          <div class="ev-feature-row">
+
+            <span class="flex items-center gap-2">
+              <span class="ev-legend-dot ev-c-light"></span>
+              Text Modality
+            </span>
+
+            <strong>
+              {{ "%.0f"|format((1-alpha) * 100) }}%
+            </strong>
+
+          </div>
+
+
+          <div class="ev-formula mt-6">
+
+            <p class="mb-2 text-[11px] font-semibold">
+              Fusion Formula
+            </p>
+
+            <p class="text-[12px] font-medium leading-6">
+              S<sub>final</sub> =
+              {{ "%.2f"|format(alpha) }} × S<sub>visual</sub>
+              +
+              {{ "%.2f"|format(1-alpha) }} × S<sub>text</sub>
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </div>
+
+
+  <!-- ==========================================
+       ROW 3: DATASET DISTRIBUTION
+       ========================================== -->
+
+  <section class="ev-card ev-panel mb-5">
+
+    <div class="mb-6">
+
+      <h2 class="ev-panel-title">
         Dataset Distribution
-    </h2>
+      </h2>
 
-    <p class="text-xs text-ink-500 mt-2 mb-7">
-        Gallery, validation, and test partitions.
-    </p>
+      <p class="ev-panel-description">
+        Split of data into gallery, validation, and test sets.
+      </p>
 
-    {% set total = e.get("total_samples", 0) %}
+    </div>
+
 
     {% if total > 0 %}
 
-        <div class="flex w-full h-6 rounded-lg overflow-hidden">
+      <!-- DATASET STACKED BAR -->
 
-            <div
-                class="bg-forest-900"
-                style="width: {{ splits.get('gallery', 0) / total * 100 }}%"
-                title="Gallery"
-            ></div>
+      <div
+        class="ev-split-track"
+        role="img"
+        aria-label="Gallery {{ splits.get('gallery', 0) }}, validation {{ splits.get('validation', 0) }}, test {{ splits.get('test', 0) }}"
+      >
 
-            <div
-                class="bg-gold-400"
-                style="width: {{ splits.get('validation', 0) / total * 100 }}%"
-                title="Validation"
-            ></div>
+        <div
+          class="ev-split-segment ev-split-gallery"
+          style="width: {{ gallery_pct }}%;"
+        >
+          {{ splits.get("gallery", 0) }}
+          ({{ "%.1f"|format(gallery_pct) }}%)
+        </div>
 
-            <div
-                class="bg-sage-400"
-                style="width: {{ splits.get('test', 0) / total * 100 }}%"
-                title="Test"
-            ></div>
+
+        <div
+          class="ev-split-segment ev-split-validation"
+          style="width: {{ validation_pct }}%;"
+        >
+          {{ splits.get("validation", 0) }}
+          ({{ "%.1f"|format(validation_pct) }}%)
+        </div>
+
+
+        <div
+          class="ev-split-segment ev-split-test"
+          style="width: {{ test_pct }}%;"
+        >
+          {{ splits.get("test", 0) }}
+          ({{ "%.1f"|format(test_pct) }}%)
+        </div>
+
+      </div>
+
+
+      <!-- SPLIT LEGENDS -->
+
+      <div class="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-3">
+
+        <div class="flex items-center gap-3">
+
+          <span class="ev-legend-dot ev-c-dark"></span>
+
+          <div>
+            <p class="text-[12px] font-semibold">
+              Gallery
+            </p>
+
+            <p class="text-[11px] text-ink-500">
+              {{ splits.get("gallery", 0) }} samples
+            </p>
+          </div>
 
         </div>
+
+
+        <div class="flex items-center gap-3">
+
+          <span class="ev-legend-dot ev-c-mid"></span>
+
+          <div>
+            <p class="text-[12px] font-semibold">
+              Validation
+            </p>
+
+            <p class="text-[11px] text-ink-500">
+              {{ splits.get("validation", 0) }} samples
+            </p>
+          </div>
+
+        </div>
+
+
+        <div class="flex items-center gap-3">
+
+          <span class="ev-legend-dot ev-c-light"></span>
+
+          <div>
+            <p class="text-[12px] font-semibold">
+              Test
+            </p>
+
+            <p class="text-[11px] text-ink-500">
+              {{ splits.get("test", 0) }} samples
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
 
     {% else %}
 
-        <div class="h-6 w-full bg-sage-100 rounded-lg"></div>
+      <div class="ev-chart-empty">
+
+        <strong>
+          Dataset split unavailable
+        </strong>
+
+        <p>
+          The experiment inventory could not be loaded.
+        </p>
+
+      </div>
 
     {% endif %}
 
-    <div class="grid grid-cols-1 sm:grid-cols-3 gap-5 mt-7">
+  </section>
 
-        <div class="flex items-center gap-3">
-            <div class="w-3 h-3 rounded-sm bg-forest-900"></div>
-            <div>
-                <p class="text-sm font-semibold text-forest-900">
-                    Gallery
-                </p>
-                <p class="text-xs text-ink-500 mt-1">
-                    {{ splits.get("gallery", "—") }} samples
-                </p>
-            </div>
-        </div>
+</div>
 
-        <div class="flex items-center gap-3">
-            <div class="w-3 h-3 rounded-sm bg-gold-400"></div>
-            <div>
-                <p class="text-sm font-semibold text-forest-900">
-                    Validation
-                </p>
-                <p class="text-xs text-ink-500 mt-1">
-                    {{ splits.get("validation", "—") }} samples
-                </p>
-            </div>
-        </div>
-
-        <div class="flex items-center gap-3">
-            <div class="w-3 h-3 rounded-sm bg-sage-400"></div>
-            <div>
-                <p class="text-sm font-semibold text-forest-900">
-                    Test
-                </p>
-                <p class="text-xs text-ink-500 mt-1">
-                    {{ splits.get("test", "—") }} samples
-                </p>
-            </div>
-        </div>
-
-    </div>
-
-</section>
+{% endblock %}
 
 
-<!-- EXPERIMENT STATUS -->
-<section class="bg-white rounded-2xl p-7 shadow-soft mb-7">
+{% block scripts %}
+<script>
+"use strict";
 
-    <h2 class="text-lg font-semibold text-forest-900">
-        Experiment Status
-    </h2>
+/* ==========================================
+   RADAR CHART SUPPORT
+   ========================================== */
 
-    <p class="text-xs text-ink-500 mt-2 mb-6">
-        Evaluation provenance and interpretation.
-    </p>
+const radarElement = document.getElementById("ev-radar-chart");
+const radarDataElement = document.getElementById("ev-metric-data");
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+if (radarElement && radarDataElement) {
 
-        <div>
-            <p class="text-xs text-ink-500">
-                Experiment Run
-            </p>
+  const metrics = JSON.parse(radarDataElement.textContent);
 
-            <p class="text-sm font-medium text-forest-900 mt-2 break-all">
-                {{ e.get("run_id", "Not loaded") }}
-            </p>
-        </div>
+  if (Array.isArray(metrics) && metrics.length >= 3) {
 
-        <div>
-            <p class="text-xs text-ink-500">
-                Test Evaluation Status
-            </p>
+    const ns = "http://www.w3.org/2000/svg";
+    const cx = 245;
+    const cy = 140;
+    const radius = 100;
 
-            <p class="text-sm font-medium text-forest-900 mt-2">
-                {{ test_status|replace("_", " ") }}
-            </p>
-        </div>
+    const add = (tag, attributes, textValue) => {
 
-    </div>
+      const el = document.createElementNS(ns, tag);
 
-    {% if test_status == "PROVISIONAL_AUDIT_UNRESOLVED" %}
+      for (const [key, value] of Object.entries(attributes)) {
+        el.setAttribute(key, String(value));
+      }
 
-        <div class="mt-7 border-l-2 border-gold-400 bg-sage-50 rounded-r-xl p-5">
-            <p class="text-sm font-semibold text-forest-900">
-                Test Results Are Provisional
-            </p>
+      if (textValue !== undefined) {
+        el.textContent = textValue;
+      }
 
-            <p class="text-xs text-ink-600 leading-6 mt-2">
-                The test evaluation has unresolved audit findings.
-                Its performance must not be presented as a final
-                independently validated result. Validation results
-                and test results should be interpreted separately.
-            </p>
-        </div>
+      radarElement.appendChild(el);
 
-    {% endif %}
-
-</section>
+      return el;
+    };
 
 
-<!-- METRIC EXPLANATION -->
-<section class="bg-white rounded-2xl p-7 shadow-soft">
+    const point = (index, value, extended = false) => {
 
-    <h2 class="text-lg font-semibold text-forest-900 mb-5">
-        Understanding the Evaluation Metric
-    </h2>
+      const angle =
+        -Math.PI / 2 +
+        (2 * Math.PI * index / metrics.length);
 
-    <h3 class="text-sm font-semibold text-forest-900">
-        Mean Average Precision at 5 (mAP@5)
-    </h3>
+      const r = extended ? radius + 27 : radius * value;
 
-    <p class="text-sm text-ink-600 leading-7 mt-3">
-        mAP@5 evaluates how effectively relevant medicinal leaf
-        samples are ranked within the first five retrieval results.
-        Average Precision at 5 is calculated for each query,
-        and the average across queries produces mAP@5.
-    </p>
+      return [
+        cx + Math.cos(angle) * r,
+        cy + Math.sin(angle) * r
+      ];
+    };
 
-    <p class="text-sm text-ink-600 leading-7 mt-3">
-        A higher score indicates better ranking performance on
-        the evaluated split. It does not, by itself, establish
-        performance on new photographs outside the dataset.
-    </p>
 
-</section>
+    // RADAR GRID
 
+    [0.25, 0.5, 0.75, 1.0].forEach(level => {
+
+      const points = metrics.map((_, index) =>
+        point(index, level).join(",")
+      ).join(" ");
+
+      add("polygon", {
+        points,
+        fill: "none",
+        stroke: "#E2E8E1",
+        "stroke-width": 1
+      });
+
+    });
+
+
+    // AXES AND LABELS
+
+    metrics.forEach((metric, index) => {
+
+      const [x, y] = point(index, 1);
+
+      add("line", {
+        x1: cx,
+        y1: cy,
+        x2: x,
+        y2: y,
+        stroke: "#E2E8E1",
+        "stroke-width": 1
+      });
+
+      const [lx, ly] = point(index, 1, true);
+
+      add("text", {
+        x: lx,
+        y: ly,
+        fill: "#26352C",
+        "font-size": 11,
+        "font-family": "Poppins, sans-serif",
+        "text-anchor": "middle",
+        "dominant-baseline": "middle"
+      }, metric.label);
+
+    });
+
+
+    // VISUAL, TEXT AND FUSION SERIES
+
+    const series = [
+      {
+        key: "visual",
+        stroke: "#BED5C2",
+        fill: "rgba(190,213,194,0.12)"
+      },
+      {
+        key: "text",
+        stroke: "#6A9F76",
+        fill: "rgba(106,159,118,0.10)"
+      },
+      {
+        key: "fusion",
+        stroke: "#245C3B",
+        fill: "rgba(36,92,59,0.12)"
+      }
+    ];
+
+
+    series.forEach(item => {
+
+      const points = metrics.map((metric, index) => {
+
+        const value = Math.max(
+          0,
+          Math.min(1, Number(metric[item.key]) || 0)
+        );
+
+        return point(index, value).join(",");
+
+      }).join(" ");
+
+      add("polygon", {
+        points,
+        stroke: item.stroke,
+        fill: item.fill,
+        "stroke-width": 2.5,
+        "stroke-linejoin": "round"
+      });
+
+    });
+
+  }
+}
+</script>
 {% endblock %}

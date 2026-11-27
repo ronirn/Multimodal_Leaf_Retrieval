@@ -3,56 +3,303 @@
 
 {% block title %}Upload & Retrieval{% endblock %}
 
+{% block head %}
+<style>
+  /* ============================================
+     LEAFMATCH AI - RETRIEVAL DESIGN
+     ============================================ */
+
+  .retrieval-heading {
+    color: #26352C;
+    letter-spacing: -0.035em;
+  }
+
+  .retrieval-panel {
+    background: #FFFFFF;
+    border: 1px solid #E2E8E1;
+    border-radius: 22px;
+    box-shadow: 0 12px 32px rgba(38, 53, 44, 0.07);
+  }
+
+  .retrieval-icon-box {
+    background: #EAF1E9;
+    color: #245C3B;
+    border-radius: 15px;
+  }
+
+  .leaf-upload-zone {
+    border: 1.5px dashed #C8D8C9;
+    background: #F8F9F7;
+    transition:
+      border-color 0.2s ease,
+      background 0.2s ease,
+      transform 0.2s ease;
+  }
+
+  .leaf-upload-zone:hover {
+    border-color: #245C3B;
+    background: #EAF1E9;
+  }
+
+  .leaf-upload-zone:focus-within {
+    outline: 2px solid #245C3B;
+    outline-offset: 3px;
+  }
+
+  .leaf-upload-preview {
+    max-height: 240px;
+    max-width: 100%;
+    border-radius: 12px;
+    object-fit: contain;
+    box-shadow: 0 7px 18px rgba(38, 53, 44, 0.12);
+  }
+
+  .leaf-description-field {
+    background: #FFFFFF;
+    border: 1px solid #DDE5DC;
+    border-radius: 15px;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .leaf-description-field:focus {
+    border-color: #245C3B;
+    box-shadow: 0 0 0 4px rgba(36, 92, 59, 0.09);
+    outline: none;
+  }
+
+  .leaf-search-button {
+    background: #245C3B;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 9px 22px rgba(36, 92, 59, 0.15);
+    transition:
+      filter 0.2s ease,
+      transform 0.2s ease,
+      box-shadow 0.2s ease;
+  }
+
+  .leaf-search-button:hover:not(:disabled) {
+    filter: brightness(1.08);
+    transform: translateY(-1px);
+    box-shadow: 0 12px 25px rgba(36, 92, 59, 0.20);
+  }
+
+  .leaf-search-button:disabled:not(.is-loading) {
+    opacity: 0.60;
+    cursor: not-allowed;
+  }
+
+  .leaf-search-button.is-loading {
+    cursor: progress;
+    filter: none;
+  }
+
+  /* ============================================
+     LOADING ANIMATION
+     ============================================ */
+
+  @keyframes leafSpinner {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes leafPulse {
+    0%, 100% {
+      opacity: 0.55;
+      transform: scale(0.98);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1.02);
+    }
+  }
+
+  @keyframes leafCardEnter {
+    from {
+      opacity: 0;
+      transform: translateY(14px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .leaf-spinner {
+    animation: leafSpinner 0.85s linear infinite;
+  }
+
+  .leaf-loading-copy {
+    animation: leafPulse 1.5s ease-in-out infinite;
+  }
+
+  .leaf-result-enter {
+    animation: leafCardEnter 0.38s ease both;
+  }
+
+  .leaf-result-card {
+    background: #FFFFFF;
+    border: 1px solid #E2E8E1;
+    border-radius: 19px;
+    box-shadow: 0 8px 24px rgba(38, 53, 44, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .leaf-result-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 14px 30px rgba(38, 53, 44, 0.12);
+  }
+
+  .leaf-result-card--best {
+    border: 1.5px solid #245C3B;
+    box-shadow: 0 9px 26px rgba(36, 92, 59, 0.13);
+  }
+
+  .leaf-rank-badge {
+    background: #EAF1E9;
+    color: #245C3B;
+  }
+
+  .leaf-rank-badge--best {
+    background: #EAF1E9;
+    color: #245C3B;
+  }
+
+  .leaf-score-pill {
+    background: #EAF1E9;
+    color: #245C3B;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .leaf-spinner,
+    .leaf-loading-copy,
+    .leaf-result-enter {
+      animation: none;
+    }
+
+    .leaf-result-card,
+    .leaf-search-button {
+      transition: none;
+    }
+  }
+</style>
+{% endblock %}
+
+
 {% block content %}
 
-<div class="mb-8">
-  <h1 class="text-[26px] font-semibold text-ink-700">
+<!-- ============================================ -->
+<!-- PAGE HEADER -->
+<!-- ============================================ -->
+
+<div class="mb-7">
+
+  <h1 class="retrieval-heading text-[28px] font-bold
+             sm:text-[32px]">
     Upload & Retrieval
   </h1>
-  <p class="mt-2 text-sm text-ink-500">
+
+  <p class="mt-2 text-[13px] text-ink-600">
     Find similar medicinal leaves using image and text features.
   </p>
+
+  <div class="mt-4 h-[3px] w-14 rounded-full bg-[#245C3B]"></div>
+
 </div>
+
+
+<!-- ============================================ -->
+<!-- RETRIEVAL FORM -->
+<!-- ============================================ -->
 
 <form id="retrieval-form">
 
-  <div class="grid grid-cols-1 xl:grid-cols-2 gap-6">
+  <div class="grid grid-cols-1 xl:grid-cols-2 gap-5">
 
-    <!-- IMAGE UPLOAD -->
-    <section class="bg-white rounded-2xl p-7 shadow-soft">
+    <!-- IMAGE UPLOAD PANEL -->
+    <section class="retrieval-panel p-6">
 
-      <h2 class="text-lg font-semibold text-forest-900">
-        Upload Leaf Image
-      </h2>
+      <div class="mb-5 flex items-center gap-4">
 
-      <p class="text-xs text-ink-500 mt-1 mb-5">
-        Select a clear photograph of a medicinal leaf.
-      </p>
+        <div class="retrieval-icon-box flex h-12 w-12
+                    shrink-0 items-center justify-center">
 
-      <label
-        for="leaf-image"
-        class="flex flex-col items-center justify-center min-h-[300px]
-               border-2 border-dashed border-sage-200 rounded-xl
-               bg-sage-50 cursor-pointer hover:border-gold-500
-               transition overflow-hidden"
-      >
+          <svg
+            viewBox="0 0 24 24"
+            class="h-6 w-6"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <path d="M4 7h4l2-3h4l2 3h4v12H4z"/>
+            <circle cx="12" cy="13" r="3.5"/>
+          </svg>
 
-        <div id="upload-placeholder" class="text-center p-6">
-          <div class="text-4xl mb-4">🌿</div>
+        </div>
 
-          <p class="font-medium text-forest-900">
-            Click to upload a leaf image
-          </p>
+        <div>
+          <h2 class="text-[17px] font-semibold text-[#26352C]">
+            Upload Leaf Image
+          </h2>
 
-          <p class="text-xs text-ink-500 mt-2">
-            JPG, JPEG or PNG · Maximum 10 MB
+          <p class="mt-1 text-[11px] text-ink-500">
+            Select a clear photograph of a medicinal leaf.
           </p>
         </div>
 
+      </div>
+
+      <!-- UPLOAD AREA -->
+      <label
+        for="leaf-image"
+        class="leaf-upload-zone flex min-h-[260px]
+               cursor-pointer flex-col items-center
+               justify-center rounded-2xl p-5"
+      >
+
+        <!-- EMPTY STATE -->
+        <div id="upload-placeholder" class="text-center">
+
+          <div class="mx-auto mb-4 flex h-14 w-14
+                      items-center justify-center rounded-2xl
+                      bg-[#EAF1E9] text-[#245C3B]">
+
+            <svg
+              viewBox="0 0 24 24"
+              class="h-7 w-7"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.7"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <rect x="3" y="3" width="18" height="18" rx="3"/>
+              <circle cx="8.5" cy="8.5" r="1.5"/>
+              <path d="m4 18 5-5 4 3 3-5 5 7"/>
+            </svg>
+
+          </div>
+
+          <p class="text-[13px] font-semibold text-[#26352C]">
+            Click to upload a leaf image
+          </p>
+
+          <p class="mt-2 text-[11px] text-ink-500">
+            JPG, JPEG or PNG · Maximum 10 MB
+          </p>
+
+        </div>
+
+        <!-- SELECTED IMAGE -->
         <img
           id="image-preview"
           alt="Selected leaf preview"
-          class="hidden max-h-[280px] w-full object-contain p-4"
+          class="leaf-upload-preview hidden"
         >
 
         <input
@@ -60,30 +307,107 @@
           name="image"
           type="file"
           accept=".jpg,.jpeg,.png,image/jpeg,image/png"
-          class="hidden"
+          class="sr-only"
         >
 
       </label>
 
-      <p id="image-filename" class="text-xs text-ink-500 mt-3"></p>
-      <p id="image-error" class="text-xs text-red-600 mt-2" role="alert"></p>
+      <!-- FILE NAME -->
+      <div id="image-file-info" class="hidden mt-3">
+
+        <div class="inline-flex max-w-full items-center
+                    gap-2 rounded-xl border border-[#DDE5DC]
+                    bg-[#F8F9F7] px-4 py-2">
+
+          <svg
+            viewBox="0 0 24 24"
+            class="h-4 w-4 shrink-0 text-[#245C3B]"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <rect x="3" y="3" width="18" height="18" rx="2"/>
+            <circle cx="8.5" cy="8.5" r="1.5"/>
+            <path d="m4 18 5-5 4 3 3-5 5 7"/>
+          </svg>
+
+          <span
+            id="image-filename"
+            class="truncate text-[11px] font-medium text-[#26352C]"
+          ></span>
+
+          <svg
+            viewBox="0 0 24 24"
+            class="h-4 w-4 shrink-0 text-[#245C3B]"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <circle cx="12" cy="12" r="9"/>
+            <path d="m8 12 2.5 2.5L16 9"/>
+          </svg>
+
+        </div>
+
+      </div>
+
+      <p
+        id="image-error"
+        class="mt-2 text-xs text-red-600"
+        role="alert"
+      ></p>
 
     </section>
 
-    <!-- TEXT DESCRIPTION -->
-    <section class="bg-white rounded-2xl p-7 shadow-soft">
 
-      <h2 class="text-lg font-semibold text-forest-900">
-        Leaf Description
-      </h2>
+    <!-- TEXT DESCRIPTION PANEL -->
+    <section class="retrieval-panel p-6">
 
-      <p class="text-xs text-ink-500 mt-1 mb-5">
-        Describe the physical characteristics of the leaf.
-      </p>
+      <div class="mb-5 flex items-center gap-4">
+
+        <div class="retrieval-icon-box flex h-12 w-12
+                    shrink-0 items-center justify-center">
+
+          <svg
+            viewBox="0 0 24 24"
+            class="h-6 w-6"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <rect x="5" y="3" width="14" height="18" rx="2"/>
+            <path d="M9 8h6M9 12h6M9 16h4"/>
+          </svg>
+
+        </div>
+
+        <div>
+
+          <h2 class="text-[17px] font-semibold text-[#26352C]">
+            Leaf Description
+          </h2>
+
+          <p class="mt-1 text-[11px] text-ink-500">
+            Describe the physical characteristics of the leaf.
+          </p>
+
+        </div>
+
+      </div>
 
       <label
         for="leaf-description"
-        class="block text-sm font-medium text-ink-700 mb-3"
+        class="mb-3 block text-[13px] font-semibold
+               text-[#26352C]"
       >
         Description
       </label>
@@ -91,50 +415,120 @@
       <textarea
         id="leaf-description"
         name="description"
-        rows="8"
-        placeholder="Contoh: Daun berwarna hijau tua, berbentuk lonjong, permukaan halus, dan ujung meruncing..."
-        class="w-full rounded-xl border border-sage-200 bg-sage-50
-               p-4 text-sm text-ink-700 outline-none
-               focus:border-forest-700 focus:ring-2
-               focus:ring-forest-700/10 resize-none"
+        rows="7"
+        maxlength="2000"
+        placeholder="Contoh: Daun berwarna hijau tua, berbentuk lonjong, memiliki permukaan halus, tepi rata, dan ujung meruncing..."
+        class="leaf-description-field w-full resize-none
+               p-4 text-[13px] leading-7 text-[#26352C]"
       ></textarea>
 
-      <p class="mt-3 text-xs text-ink-500">
-        Include color, shape, texture, margin, and leaf tip.
-        Use Indonesian descriptions for the current TF-IDF model.
-      </p>
+      <div class="mt-4 flex items-start gap-2">
+
+        <svg
+          viewBox="0 0 24 24"
+          class="mt-0.5 h-4 w-4 shrink-0 text-[#245C3B]"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"
+        >
+          <circle cx="12" cy="12" r="9"/>
+          <path d="M12 11v5M12 8h.01"/>
+        </svg>
+
+        <p class="text-[11px] leading-5 text-ink-600">
+          Include color, shape, texture, margin, and leaf tip.
+          Use Indonesian descriptions for the current TF-IDF model.
+        </p>
+
+      </div>
 
     </section>
 
   </div>
 
+
+  <!-- ============================================ -->
   <!-- SEARCH BUTTON -->
-  <div class="mt-7">
+  <!-- ============================================ -->
+
+  <div class="mt-6">
 
     <button
       id="search-button"
       type="submit"
       disabled
-      class="w-full rounded-xl bg-forest-900 py-4 text-sm
-             font-semibold text-white transition
-             hover:bg-forest-800
-             disabled:opacity-60 disabled:cursor-not-allowed"
+      class="leaf-search-button flex w-full items-center
+             justify-center gap-3 px-5 py-[17px]
+             text-[15px] font-semibold"
     >
-      Find Similar Leaves
+
+      <!-- SEARCH ICON -->
+      <svg
+        id="search-icon"
+        viewBox="0 0 24 24"
+        class="h-5 w-5"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2.2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        aria-hidden="true"
+      >
+        <circle cx="10.5" cy="10.5" r="7"/>
+        <path d="m16 16 5 5"/>
+      </svg>
+
+      <!-- SPINNER: SHOWN DURING SEARCH -->
+      <svg
+        id="search-spinner"
+        viewBox="0 0 24 24"
+        class="leaf-spinner hidden h-5 w-5"
+        fill="none"
+        aria-hidden="true"
+      >
+        <circle
+          cx="12"
+          cy="12"
+          r="9"
+          stroke="white"
+          stroke-opacity=".25"
+          stroke-width="3"
+        />
+        <path
+          d="M12 3a9 9 0 0 1 9 9"
+          stroke="white"
+          stroke-width="3"
+          stroke-linecap="round"
+        />
+      </svg>
+
+      <span id="search-button-text">
+        Find Similar Leaves
+      </span>
+
     </button>
 
-    <p
-      id="search-status"
-      class="text-center text-xs text-ink-500 mt-3"
-      role="status"
-      aria-live="polite"
-    >
-      Upload an image and enter a description to start.
-    </p>
+    <!-- SEARCH STATUS -->
+    <div class="mt-3 flex justify-center">
+
+      <p
+        id="search-status"
+        class="rounded-full px-4 py-2
+               text-center text-[11px] text-ink-600"
+        role="status"
+        aria-live="polite"
+      >
+        Upload an image and enter a description to start.
+      </p>
+
+    </div>
 
     <p
       id="search-error"
-      class="text-center text-sm text-red-600 mt-2"
+      class="mt-2 text-center text-[12px] text-red-600"
       role="alert"
     ></p>
 
@@ -142,43 +536,107 @@
 
 </form>
 
+
+<!-- ============================================ -->
 <!-- RETRIEVAL RESULTS -->
-<section class="mt-12">
+<!-- ============================================ -->
 
-  <div class="flex items-center justify-between mb-5">
-    <h2 class="text-xl font-semibold text-ink-700">
-      Retrieval Results
-    </h2>
+<section class="mt-10" aria-labelledby="results-title">
 
-    <span class="text-xs text-gold-600">
+  <div class="mb-5 flex flex-wrap items-center
+              justify-between gap-3">
+
+    <div class="flex items-center gap-3">
+
+      <svg
+        viewBox="0 0 24 24"
+        class="h-7 w-7 text-[#245C3B]"
+        fill="currentColor"
+        aria-hidden="true"
+      >
+        <path d="M21 3C10 4 4 9 4 17c0 2 1 3.5 2 4l3-4c3-4 6-6 10-9-3 4-6 7-9 11 9 1 15-7 11-16Z"/>
+      </svg>
+
+      <h2
+        id="results-title"
+        class="text-[22px] font-bold tracking-tight
+               text-[#26352C]"
+      >
+        Retrieval Results
+      </h2>
+
+    </div>
+
+    <span
+      class="rounded-full bg-[#EAF1E9] px-4 py-2
+             text-[11px] font-semibold text-[#245C3B]"
+    >
       Top-5 Similar Leaves
     </span>
-  </div>
-
-  <div
-    id="results-empty"
-    class="bg-white border border-sage-100 rounded-2xl
-           min-h-[230px] flex flex-col items-center
-           justify-center text-center p-8 shadow-soft"
-  >
-
-    <div class="text-4xl mb-4">🍃</div>
-
-    <h3 class="font-semibold text-forest-900">
-      No results yet
-    </h3>
-
-    <p class="text-xs text-ink-500 mt-2 max-w-sm">
-      Upload a leaf image and enter its description.
-      Similar medicinal leaves will appear here.
-    </p>
 
   </div>
 
+
+  <!-- EMPTY STATE -->
+  <div id="results-empty">
+
+    <div class="retrieval-panel flex min-h-[200px]
+                flex-col items-center justify-center p-8
+                text-center">
+
+      <div class="mb-4 text-4xl">🍃</div>
+
+      <h3 class="font-semibold text-[#26352C]">
+        No results yet
+      </h3>
+
+      <p class="mt-2 max-w-md text-[12px] leading-6
+                text-ink-500">
+        Upload a leaf image and enter its description.
+        Your Top-5 similar medicinal leaves will appear here.
+      </p>
+
+    </div>
+
+  </div>
+
+
+  <!-- LOADING STATE -->
+  <div id="results-loading" class="hidden">
+
+    <div class="retrieval-panel flex min-h-[220px]
+                flex-col items-center justify-center p-8
+                text-center">
+
+      <div
+        class="leaf-spinner h-12 w-12 rounded-full border-4
+               border-[#DDE5DC] border-t-[#245C3B]"
+        aria-hidden="true"
+      ></div>
+
+      <h3 class="leaf-loading-copy mt-5 text-[15px]
+                 font-semibold text-[#26352C]">
+        Searching Similar Leaves...
+      </h3>
+
+      <p class="mt-2 max-w-sm text-[12px] leading-6
+                text-ink-500">
+        Processing visual and textual features,
+        calculating similarity, and ranking
+        the most relevant leaves.
+      </p>
+
+    </div>
+
+  </div>
+
+
+  <!-- ACTUAL RESULTS -->
   <div
     id="results-grid"
-    class="hidden grid grid-cols-1 md:grid-cols-2
-           xl:grid-cols-3 gap-5"
+    class="hidden grid grid-cols-1 gap-4
+           md:grid-cols-2 2xl:grid-cols-3"
+    aria-live="polite"
   ></div>
 
 </section>
@@ -187,23 +645,35 @@
 
 
 {% block scripts %}
-
 <script>
+"use strict";
+
+// ============================================
+// ELEMENT REFERENCES
+// ============================================
+
 const form = document.getElementById("retrieval-form");
+
 const input = document.getElementById("leaf-image");
 const description = document.getElementById("leaf-description");
 
 const preview = document.getElementById("image-preview");
 const placeholder = document.getElementById("upload-placeholder");
 
+const fileInfo = document.getElementById("image-file-info");
 const filename = document.getElementById("image-filename");
 const imageError = document.getElementById("image-error");
 
 const searchButton = document.getElementById("search-button");
+const searchButtonText = document.getElementById("search-button-text");
+const searchIcon = document.getElementById("search-icon");
+const searchSpinner = document.getElementById("search-spinner");
+
 const searchStatus = document.getElementById("search-status");
 const searchError = document.getElementById("search-error");
 
 const resultsEmpty = document.getElementById("results-empty");
+const resultsLoading = document.getElementById("results-loading");
 const resultsGrid = document.getElementById("results-grid");
 
 const MAX_FILE_SIZE = 10 * 1024 * 1024;
@@ -212,9 +682,9 @@ let previewUrl = null;
 let isLoading = false;
 
 
-// ------------------------------------------------------------
-// VALIDATE INPUT
-// ------------------------------------------------------------
+// ============================================
+// VALIDATION
+// ============================================
 
 function isValidImage(file) {
   return Boolean(
@@ -223,6 +693,7 @@ function isValidImage(file) {
     file.size <= MAX_FILE_SIZE
   );
 }
+
 
 function updateButton() {
   const file = input.files[0];
@@ -235,15 +706,17 @@ function updateButton() {
 }
 
 
-// ------------------------------------------------------------
+// ============================================
 // IMAGE PREVIEW
-// ------------------------------------------------------------
+// ============================================
 
 input.addEventListener("change", function () {
   const file = this.files[0];
 
   imageError.textContent = "";
   filename.textContent = "";
+
+  fileInfo.classList.add("hidden");
 
   if (previewUrl) {
     URL.revokeObjectURL(previewUrl);
@@ -270,73 +743,114 @@ input.addEventListener("change", function () {
   previewUrl = URL.createObjectURL(file);
 
   preview.src = previewUrl;
+
   preview.classList.remove("hidden");
   placeholder.classList.add("hidden");
 
   filename.textContent = file.name;
+  fileInfo.classList.remove("hidden");
 
   updateButton();
 });
 
+
 description.addEventListener("input", updateButton);
 
 
-// ------------------------------------------------------------
-// CREATE RESULT CARD
-// ------------------------------------------------------------
+// ============================================
+// HELPER: FORMAT SCORES
+// ============================================
 
-function createResultCard(item) {
+function formatScore(value) {
+  const number = Number(value);
+
+  if (!Number.isFinite(number)) {
+    return "N/A";
+  }
+
+  return number.toFixed(4);
+}
+
+
+// ============================================
+// RESULT CARD
+// ============================================
+
+function createResultCard(item, index) {
   const card = document.createElement("article");
 
+  const best = item.rank === 1;
+
   card.className =
-    "bg-white rounded-2xl overflow-hidden shadow-card " +
-    "border border-sage-100";
+    "leaf-result-card leaf-result-enter flex min-w-0 " +
+    "items-center gap-4 p-4" +
+    (best ? " leaf-result-card--best" : "");
 
+  card.style.animationDelay = `${index * 70}ms`;
+
+  // Image
   if (item.image_url) {
-    const img = document.createElement("img");
+    const image = document.createElement("img");
 
-    img.src = item.image_url;
-    img.alt = item.kelas || "Medicinal leaf";
-    img.loading = "lazy";
+    image.src = item.image_url;
+    image.alt = item.kelas || "Medicinal leaf";
+    image.loading = "lazy";
 
-    img.className =
-      "w-full h-48 object-contain bg-sage-50 p-3";
+    image.className =
+      "h-[132px] w-[102px] shrink-0 rounded-xl " +
+      "bg-sage-50 object-contain p-2";
 
-    card.appendChild(img);
+    card.appendChild(image);
   }
 
   const body = document.createElement("div");
-  body.className = "p-5";
 
-  const rank = document.createElement("p");
+  body.className = "min-w-0 flex-1";
+
+  // Rank
+  const rank = document.createElement("span");
+
   rank.className =
-    "text-xs font-semibold text-gold-600 mb-2";
+    "inline-flex rounded-full px-3 py-1 " +
+    "text-[11px] font-semibold " +
+    (best
+      ? "leaf-rank-badge--best"
+      : "leaf-rank-badge");
+
   rank.textContent = `Rank #${item.rank}`;
 
+  // Plant name
   const title = document.createElement("h3");
+
   title.className =
-    "font-semibold text-lg text-forest-900";
+    "mt-2 text-[16px] font-bold text-forest-950";
+
   title.textContent = item.kelas || "Unknown leaf";
 
-  const score = document.createElement("p");
-  score.className =
-    "text-sm font-semibold text-forest-700 mt-3";
+  // Fusion score
+  const fusion = document.createElement("div");
 
-  score.textContent =
-    `Fusion Score: ${Number(item.fusion_score).toFixed(4)}`;
+  fusion.className =
+    "leaf-score-pill mt-3 inline-flex rounded-full " +
+    "px-3 py-1.5 text-[11px] font-semibold";
 
-  const details = document.createElement("p");
-  details.className =
-    "text-xs text-ink-500 mt-2 leading-6";
+  fusion.textContent =
+    `Fusion Score: ${formatScore(item.fusion_score)}`;
 
-  details.textContent =
-    `Visual: ${Number(item.visual_similarity).toFixed(4)} | ` +
-    `Text: ${Number(item.text_similarity).toFixed(4)}`;
+  // Modality scores
+  const scores = document.createElement("p");
+
+  scores.className =
+    "mt-2 text-[10px] leading-5 text-ink-600";
+
+  scores.textContent =
+    `Visual: ${formatScore(item.visual_similarity)} | ` +
+    `Text: ${formatScore(item.text_similarity)}`;
 
   body.appendChild(rank);
   body.appendChild(title);
-  body.appendChild(score);
-  body.appendChild(details);
+  body.appendChild(fusion);
+  body.appendChild(scores);
 
   card.appendChild(body);
 
@@ -344,9 +858,9 @@ function createResultCard(item) {
 }
 
 
-// ------------------------------------------------------------
-// DISPLAY RESULTS
-// ------------------------------------------------------------
+// ============================================
+// RESULTS DISPLAY
+// ============================================
 
 function displayResults(results) {
   resultsGrid.replaceChildren();
@@ -357,34 +871,86 @@ function displayResults(results) {
     return;
   }
 
-  for (const item of results) {
-    resultsGrid.appendChild(createResultCard(item));
-  }
+  results.forEach((item, index) => {
+    const card = createResultCard(item, index);
+    resultsGrid.appendChild(card);
+  });
 
   resultsEmpty.classList.add("hidden");
   resultsGrid.classList.remove("hidden");
 }
 
 
-// ------------------------------------------------------------
-// MULTIMODAL RETRIEVAL REQUEST
-// ------------------------------------------------------------
+// ============================================
+// LOADING STATE
+// ============================================
+
+function setLoading(loading) {
+  isLoading = loading;
+
+  form.setAttribute(
+    "aria-busy",
+    loading ? "true" : "false"
+  );
+
+  resultsLoading.setAttribute(
+    "aria-busy",
+    loading ? "true" : "false"
+  );
+
+  // Prevent input changes during retrieval
+  input.disabled = loading;
+  description.readOnly = loading;
+
+  if (loading) {
+    searchButton.classList.add("is-loading");
+
+    searchIcon.classList.add("hidden");
+    searchSpinner.classList.remove("hidden");
+
+    searchButtonText.textContent =
+      "Searching Similar Leaves...";
+
+    resultsEmpty.classList.add("hidden");
+    resultsGrid.classList.add("hidden");
+    resultsLoading.classList.remove("hidden");
+
+    searchStatus.textContent =
+      "Processing image and text features...";
+
+  } else {
+    searchButton.classList.remove("is-loading");
+
+    searchSpinner.classList.add("hidden");
+    searchIcon.classList.remove("hidden");
+
+    searchButtonText.textContent =
+      "Find Similar Leaves";
+
+    resultsLoading.classList.add("hidden");
+  }
+
+  updateButton();
+}
+
+
+// ============================================
+// SEARCH REQUEST
+// ============================================
 
 form.addEventListener("submit", async function (event) {
   event.preventDefault();
 
-  if (searchButton.disabled) return;
+  if (isLoading || searchButton.disabled) {
+    return;
+  }
 
-  isLoading = true;
-  updateButton();
-
-  searchButton.textContent = "Searching Similar Leaves...";
-  searchStatus.textContent =
-    "Processing image and text features...";
+  const formData = new FormData(form);
 
   searchError.textContent = "";
 
-  const formData = new FormData(form);
+  // Spinner appears before the request starts
+  setLoading(true);
 
   try {
     const response = await fetch("/api/retrieval", {
@@ -409,26 +975,47 @@ form.addEventListener("submit", async function (event) {
       );
     }
 
+    if (!Array.isArray(data.results)) {
+      throw new Error(
+        "Invalid retrieval result format."
+      );
+    }
+
+    // Hide spinner and display real results
+    setLoading(false);
     displayResults(data.results);
 
     searchStatus.textContent =
-      `Found ${data.results.length} similar leaves.`;
+      `✓ Found ${data.results.length} similar leaves.`;
+
+    searchStatus.className =
+      "rounded-full bg-sage-100 px-5 py-2 " +
+      "text-center text-[11px] font-medium text-forest-800";
 
   } catch (error) {
+    setLoading(false);
+
+    resultsGrid.classList.add("hidden");
+    resultsEmpty.classList.remove("hidden");
+
     searchError.textContent =
       error.message || "An unexpected error occurred.";
 
     searchStatus.textContent =
       "Retrieval could not be completed.";
-  } finally {
-    isLoading = false;
 
-    searchButton.textContent = "Find Similar Leaves";
-    updateButton();
+    searchStatus.className =
+      "rounded-full px-4 py-2 " +
+      "text-center text-[11px] text-red-600";
   }
 });
 
-updateButton();
-</script>
 
+// ============================================
+// INITIAL STATE
+// ============================================
+
+updateButton();
+
+</script>
 {% endblock %}

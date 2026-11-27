@@ -1,95 +1,1051 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% block title %}LeafMatch AI{% endblock %} · Multimodal Medicinal Plant Leaf Retrieval</title>
+
+  <title>
+    {% block title %}LeafMatch AI{% endblock %}
+    · Multimodal Medicinal Plant Leaf Retrieval
+  </title>
+
   <link rel="icon" href="data:,">
+
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
+
   <script>
     tailwind.config = {
       theme: {
         extend: {
-          fontFamily: { sans: ['Poppins', 'ui-sans-serif', 'system-ui', 'sans-serif'] },
+          fontFamily: {
+            sans: [
+              "Poppins",
+              "ui-sans-serif",
+              "system-ui",
+              "sans-serif"
+            ]
+          },
+
           colors: {
-            forest: { 950: '#0f2418', 900: '#163322', 800: '#1f4430', 700: '#2b5a3f' },
-            sage: { 50: '#f6f6ee', 100: '#efeee0', 200: '#e2e2cc', 400: '#a3b18a', 600: '#6b7b5a' },
-            gold: { 300: '#e2cf8f', 400: '#d3b865', 500: '#c6a84f', 600: '#a98d3a' },
-            ink: { 500: '#6a7065', 600: '#565c53', 700: '#3f453d' },
+            forest: {
+              950: "#26352C",
+              900: "#245C3B",
+              800: "#245C3B",
+              700: "#245C3B"
+            },
+
+            sage: {
+              50: "#F8F9F7",
+              100: "#EAF1E9",
+              200: "#DDE5DC",
+              400: "#BED5C2",
+              600: "#6A9F76"
+            },
+
+            gold: {
+              300: "#6A9F76",
+              400: "#6A9F76",
+              500: "#245C3B",
+              600: "#245C3B"
+            },
+
+            ink: {
+              500: "#657568",
+              600: "#47584C",
+              700: "#26352C"
+            }
           },
+
           boxShadow: {
-            soft: '0 10px 30px -12px rgba(22, 51, 34, 0.28)',
-            card: '0 18px 40px -18px rgba(22, 51, 34, 0.45)',
-          },
-        },
-      },
+            soft:
+              "0 12px 35px rgba(26, 59, 31, 0.09)",
+
+            card:
+              "0 10px 28px rgba(23, 57, 32, 0.12)",
+
+            premium:
+              "0 16px 42px rgba(16, 57, 35, 0.13)"
+          }
+        }
+      }
     };
   </script>
-  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-  {% block head %}{% endblock %}
-</head>
-<body class="bg-[#fbfbf7] font-sans text-ink-700 antialiased">
-  <div class="flex min-h-screen">
 
-    {# ---------------- Sidebar ---------------- #}
-    <aside class="fixed inset-y-0 left-0 z-20 flex w-[248px] flex-col border-r border-sage-100 bg-white px-7 pb-8 pt-9">
-      <a href="{{ url_for('dashboard') }}" class="flex items-center gap-3">
-        <span class="flex h-9 w-9 items-center justify-center rounded-full bg-gold-500 text-white shadow-sm">
-          <svg viewBox="0 0 24 24" class="h-5 w-5" fill="currentColor" aria-hidden="true">
-            <path d="M20.5 3.5c-7.6.2-13.4 2.8-15.4 8.3-.9 2.4-.6 4.8.5 6.6L3.3 20.7l1 1 2.3-2.3c1.8 1.1 4.2 1.4 6.6.5 5.5-2 8.1-7.8 8.3-15.4zM8.4 17.1c1.6-3.8 4.3-6.9 8.1-9.3-3 3-5.2 6.2-6.7 9.9l-1.4-.6z"/>
+  <!-- Custom stylesheet -->
+  <link
+    rel="stylesheet"
+    href="{{ url_for('static', filename='css/style.css') }}"
+  >
+
+  <!-- ========================================
+       BOTANICAL LAYOUT STYLES
+       ======================================== -->
+  <style>
+    :root {
+      --botanical-dark: #26352C;
+      --botanical-green: #245C3B;
+      --botanical-gold: #245C3B;
+      --botanical-bg: #F8F9F7;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--botanical-bg);
+      color: #26352C;
+      font-family: "Poppins", sans-serif;
+    }
+
+    /* ========================================
+       SIDEBAR
+       ======================================== */
+
+    .botanical-sidebar {
+      background: #FFFFFF;
+      border-right: 1px solid #DDE5DC;
+    }
+
+    .botanical-brand {
+      letter-spacing: -0.045em;
+    }
+
+    /* ========================================
+       NAVIGATION
+       ======================================== */
+
+    .botanical-nav-link {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      min-height: 52px;
+      padding: 0 18px;
+      border-radius: 14px;
+      color: #3F5547;
+      font-size: 14px;
+      font-weight: 500;
+      text-decoration: none;
+
+      transition:
+        background 180ms ease,
+        color 180ms ease,
+        box-shadow 180ms ease,
+        transform 180ms ease;
+    }
+
+    .botanical-nav-link:hover {
+      background: #EAF1E9;
+      color: #245C3B;
+      transform: translateX(2px);
+    }
+
+    .botanical-nav-link--active,
+    .botanical-nav-link--active:hover {
+      background: #245C3B;
+      color: white;
+      font-weight: 600;
+
+      box-shadow:
+        0 7px 17px rgba(35, 98, 39, 0.18);
+
+      transform: none;
+    }
+
+    .botanical-nav-link svg {
+      flex-shrink: 0;
+      width: 22px;
+      height: 22px;
+    }
+
+    /* ========================================
+       PROMO CARD
+       ======================================== */
+
+    .botanical-promo {
+      background: #FFFFFF;
+      border: 1px solid #DDE5DC;
+
+      box-shadow:
+        0 12px 32px rgba(27, 71, 35, 0.10);
+    }
+
+    .botanical-primary-button {
+      background: #245C3B;
+
+      box-shadow:
+        inset 0 1px rgba(255, 255, 255, 0.14),
+        0 7px 14px rgba(26, 83, 37, 0.13);
+
+      transition:
+        transform 180ms ease,
+        filter 180ms ease;
+    }
+
+    .botanical-primary-button:hover {
+      filter: brightness(1.08);
+      transform: translateY(-1px);
+    }
+
+    /* ========================================
+       MAIN CONTENT
+       ======================================== */
+
+    .botanical-main {
+      position: relative;
+      isolation: isolate;
+      min-height: 100vh;
+      background: #F8F9F7;
+    }
+
+    .botanical-corner {
+      position: absolute;
+      top: 0;
+      right: 0;
+
+      width: 245px;
+      height: 190px;
+
+      pointer-events: none;
+      overflow: hidden;
+      opacity: 0.72;
+      z-index: 0;
+    }
+
+    .botanical-sidebar-decor {
+      position: absolute;
+      bottom: -10px;
+      left: -30px;
+
+      width: 250px;
+      opacity: 0.52;
+      pointer-events: none;
+    }
+
+    .botanical-main,
+    .botanical-sidebar {
+      scrollbar-width: thin;
+      scrollbar-color: #cbd9c2 transparent;
+    }
+
+    /* ========================================
+       MOBILE NAVIGATION
+       ======================================== */
+
+    .mobile-nav-link {
+      color: #47584C;
+      padding: 7px 11px;
+      border-radius: 9px;
+      font-weight: 500;
+      transition: background 180ms ease;
+    }
+
+    .mobile-nav-link:hover {
+      background: #EAF1E9;
+    }
+
+    .mobile-nav-link--active {
+      color: #ffffff;
+      background: #245C3B;
+      font-weight: 600;
+    }
+
+    .mobile-nav-link--active:hover {
+      background: #245C3B;
+    }
+
+    @media (max-width: 1023px) {
+      .botanical-corner {
+        opacity: 0.32;
+        width: 180px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .botanical-nav-link,
+      .botanical-primary-button,
+      .mobile-nav-link {
+        transition: none;
+      }
+    }
+  </style>
+
+  {% block head %}{% endblock %}
+
+  <!-- ========================================
+       FLAT COLORS FOR EXISTING PAGES
+       ======================================== -->
+  <style>
+    /* Retrieval */
+
+    .retrieval-panel,
+    .leaf-result-card {
+      background: #FFFFFF !important;
+      border-color: #DDE5DC !important;
+    }
+
+    .retrieval-icon-box,
+    .leaf-rank-badge,
+    .leaf-rank-badge--best,
+    .leaf-score-pill {
+      background: #EAF1E9 !important;
+      color: #245C3B !important;
+    }
+
+    .leaf-upload-zone,
+    .ev-chart-empty {
+      background: #F8F9F7 !important;
+    }
+
+    .leaf-upload-zone:hover {
+      background: #EAF1E9 !important;
+      border-color: #245C3B !important;
+    }
+
+    .leaf-description-field {
+      background: #FFFFFF !important;
+      border-color: #DDE5DC !important;
+    }
+
+    .leaf-search-button {
+      background: #245C3B !important;
+      color: #FFFFFF !important;
+    }
+
+    .leaf-result-card--best {
+      border-color: #245C3B !important;
+    }
+
+    /* Evaluation */
+
+    .ev-card {
+      background: #FFFFFF !important;
+      border-color: #DDE5DC !important;
+    }
+
+    .ev-stat--featured,
+    .ev-stat-icon,
+    .ev-formula {
+      background: #EAF1E9 !important;
+    }
+
+    .ev-stat-value,
+    .ev-formula {
+      color: #245C3B !important;
+    }
+
+    .ev-bar--fusion,
+    .ev-c-dark,
+    .ev-split-gallery {
+      background: #245C3B !important;
+    }
+
+    .ev-bar--text,
+    .ev-c-mid,
+    .ev-split-validation {
+      background: #6A9F76 !important;
+    }
+
+    .ev-bar--visual,
+    .ev-c-light,
+    .ev-split-test {
+      background: #BED5C2 !important;
+    }
+
+    .ev-split-validation {
+      color: #FFFFFF !important;
+    }
+
+    .ev-split-test {
+      color: #26352C !important;
+    }
+
+    .ev-warning,
+    .ev-chart-empty {
+      background: #F8F9F7 !important;
+    }
+  </style>
+
+</head>
+
+
+<body class="font-sans antialiased">
+
+  <div class="min-h-screen">
+
+    <!-- ========================================
+         DESKTOP SIDEBAR
+         ======================================== -->
+
+    <aside
+      class="botanical-sidebar fixed inset-y-0 left-0 z-30
+             hidden w-[276px] flex-col overflow-y-auto
+             px-[15px] pb-6 pt-8 lg:flex"
+    >
+
+      <!-- ========================================
+           BRAND
+           ======================================== -->
+
+      <a
+        href="{{ url_for('retrieval') }}"
+        class="relative z-10 flex items-center gap-3
+               border-b border-sage-200/70 px-3 pb-8"
+        aria-label="LeafMatch AI Home"
+      >
+
+        <span
+          class="flex h-11 w-11 shrink-0 items-center
+                 justify-center rounded-xl"
+        >
+
+          <!-- LEAF LOGO -->
+          <svg
+            viewBox="0 0 48 48"
+            class="h-11 w-11"
+            fill="none"
+            aria-hidden="true"
+          >
+
+            <defs>
+              <linearGradient
+                id="leaf-logo-gradient"
+                x1="0"
+                y1="0"
+                x2="48"
+                y2="48"
+              >
+                <stop stop-color="#75B742"/>
+                <stop offset="1" stop-color="#216B32"/>
+              </linearGradient>
+            </defs>
+
+            <path
+              d="M8 37C4 26 10 14 22 10C31 7 38 5 44 4C43 13 40 26 32 34C25 42 15 43 8 37Z"
+              fill="url(#leaf-logo-gradient)"
+            />
+
+            <path
+              d="M8 40C17 28 26 19 39 11"
+              stroke="#F8FFF2"
+              stroke-width="2.4"
+              stroke-linecap="round"
+            />
+
           </svg>
+
         </span>
-        <span class="whitespace-nowrap text-[19px] font-medium tracking-tight text-ink-600">Leaf<span class="font-semibold text-forest-800">Match</span> <span class="font-semibold text-gold-500">AI</span></span>
+
+        <span
+          class="botanical-brand whitespace-nowrap
+                 text-[20px] font-semibold text-forest-950"
+        >
+          LeafMatch
+          <span class="text-gold-500">AI</span>
+        </span>
+
       </a>
 
-      <nav class="mt-14 flex flex-col gap-2" aria-label="Main navigation">
+
+      <!-- ========================================
+           NAVIGATION
+           ======================================== -->
+
+      <nav
+        class="relative z-10 mt-8 flex flex-col gap-2"
+        aria-label="Main navigation"
+      >
+
         {% set nav_items = [
-          ('dashboard', 'Dashboard', 'dashboard'),
           ('retrieval', 'Upload & Retrieval', 'upload'),
-          ('evaluation', 'Evaluation', 'chart'),
+          ('evaluation', 'Evaluation', 'chart')
         ] %}
+
         {% for endpoint, label, icon in nav_items %}
+
           {% set is_active = active_page == endpoint %}
-          <a href="{{ url_for(endpoint) }}"
-             class="nav-link group relative flex items-center gap-4 whitespace-nowrap rounded-xl px-3 py-3 text-[13.5px] transition
-                    {{ 'nav-link--active bg-sage-50 font-semibold text-forest-900' if is_active else 'font-medium text-gold-600 hover:bg-sage-50 hover:text-forest-800' }}"
-             {% if is_active %}aria-current="page"{% endif %}>
-            <span class="{{ 'text-forest-800' if is_active else 'text-gold-500 group-hover:text-forest-700' }}">
-              {% if icon == 'dashboard' %}
-                <svg viewBox="0 0 24 24" class="h-[18px] w-[18px]" fill="currentColor" aria-hidden="true"><rect x="3" y="3" width="8" height="8" rx="2"/><rect x="13" y="3" width="8" height="8" rx="2"/><rect x="3" y="13" width="8" height="8" rx="2"/><rect x="13" y="13" width="8" height="8" rx="2"/></svg>
-              {% elif icon == 'upload' %}
-                <svg viewBox="0 0 24 24" class="h-[18px] w-[18px]" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 16V4"/><path d="m7 9 5-5 5 5"/><path d="M4 16v3a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-3"/></svg>
-              {% else %}
-                <svg viewBox="0 0 24 24" class="h-[18px] w-[18px]" fill="currentColor" aria-hidden="true"><rect x="3" y="12" width="4" height="9" rx="1.2"/><rect x="10" y="7" width="4" height="14" rx="1.2"/><rect x="17" y="3" width="4" height="18" rx="1.2"/></svg>
-              {% endif %}
-            </span>
-            {{ label }}
+
+          <a
+            href="{{ url_for(endpoint) }}"
+            class="botanical-nav-link
+                   {{ 'botanical-nav-link--active' if is_active else '' }}"
+            {% if is_active %}
+              aria-current="page"
+            {% endif %}
+          >
+
+            {% if icon == 'upload' %}
+
+              <!-- UPLOAD ICON -->
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.9"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="M12 16V3"/>
+                <path d="m7 8 5-5 5 5"/>
+                <path d="M4 16v3a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-3"/>
+              </svg>
+
+            {% else %}
+
+              <!-- EVALUATION ICON -->
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <rect x="3" y="13" width="4" height="8" rx="1"/>
+                <rect x="10" y="8" width="4" height="13" rx="1"/>
+                <rect x="17" y="3" width="4" height="18" rx="1"/>
+              </svg>
+
+            {% endif %}
+
+            <span>{{ label }}</span>
+
           </a>
+
         {% endfor %}
+
       </nav>
 
-      <div class="mt-auto rounded-2xl bg-sage-100 px-5 pb-6 pt-6 text-center shadow-soft">
-        <p class="text-[13px] font-semibold leading-snug text-ink-700">Need to identify a medicinal leaf?</p>
-        <p class="mt-3 text-[11px] leading-relaxed text-ink-500">
-          Upload a leaf photo and a short description. LeafMatch AI ranks the most similar leaves in the collection.
-        </p>
-        <a href="{{ url_for('retrieval') }}"
-           class="mt-5 inline-flex w-full items-center justify-center rounded-lg bg-gold-500 px-4 py-2.5 text-[12px] font-semibold text-white shadow-soft transition hover:bg-gold-600">
-          Start Retrieval
-        </a>
+
+      <!-- SIDEBAR DIVIDER -->
+      <div
+        class="relative z-10 mt-7 border-t border-sage-200/70"
+      ></div>
+
+
+      <!-- ========================================
+           PROMO CARD
+           ======================================== -->
+
+      <div class="relative z-10 mt-auto pt-9">
+
+        <div
+          class="botanical-promo overflow-hidden rounded-[22px]
+                 px-5 pb-6 pt-5"
+        >
+
+          <!-- BOTANICAL ILLUSTRATION -->
+          <div
+            class="mx-auto mb-4 flex h-[125px]
+                   items-center justify-center"
+          >
+
+            <svg
+              viewBox="0 0 220 145"
+              class="h-[130px] w-[200px]"
+              fill="none"
+              aria-hidden="true"
+            >
+
+              <defs>
+                <linearGradient
+                  id="pot-grad"
+                  x1="20"
+                  y1="0"
+                  x2="180"
+                  y2="130"
+                >
+                  <stop stop-color="#F0EBD5"/>
+                  <stop offset="1" stop-color="#B8C8A3"/>
+                </linearGradient>
+
+                <linearGradient
+                  id="plant-grad"
+                  x1="0"
+                  y1="0"
+                  x2="1"
+                  y2="1"
+                >
+                  <stop stop-color="#7BBC46"/>
+                  <stop offset="1" stop-color="#246D35"/>
+                </linearGradient>
+              </defs>
+
+              <!-- PESTLE -->
+              <g transform="rotate(30 144 75)">
+
+                <rect
+                  x="137"
+                  y="9"
+                  width="15"
+                  height="88"
+                  rx="7"
+                  fill="#D8CFB6"
+                />
+
+                <ellipse
+                  cx="144.5"
+                  cy="12"
+                  rx="9"
+                  ry="11"
+                  fill="#EEE6D0"
+                />
+
+              </g>
+
+              <!-- LEAVES -->
+              <path
+                d="M105 82C88 59 85 39 93 19C114 30 123 52 105 82Z"
+                fill="url(#plant-grad)"
+              />
+
+              <path
+                d="M105 84C75 80 57 66 49 47C73 42 96 53 105 84Z"
+                fill="#4C9C3C"
+              />
+
+              <path
+                d="M112 84C117 56 135 39 159 34C160 60 143 78 112 84Z"
+                fill="#61AB42"
+              />
+
+              <path
+                d="M104 87C82 87 63 96 51 111C78 117 96 105 104 87Z"
+                fill="#7DBE55"
+              />
+
+              <!-- VEINS -->
+              <g
+                stroke="#CDE7A4"
+                stroke-width="1.2"
+                opacity=".9"
+              >
+                <path d="M104 82 95 29"/>
+                <path d="M105 84 58 52"/>
+                <path d="M111 84 151 43"/>
+              </g>
+
+              <!-- MORTAR -->
+              <ellipse
+                cx="110"
+                cy="92"
+                rx="53"
+                ry="14"
+                fill="#E9ECD9"
+              />
+
+              <path
+                d="M58 92C61 125 79 136 110 136C141 136 160 125 162 92Z"
+                fill="url(#pot-grad)"
+              />
+
+              <ellipse
+                cx="110"
+                cy="92"
+                rx="53"
+                ry="13"
+                fill="#F7F4E8"
+                stroke="#D9DEC8"
+                stroke-width="3"
+              />
+
+              <path
+                d="M73 100C81 122 96 127 115 127"
+                stroke="#FFFFFF"
+                stroke-width="5"
+                stroke-linecap="round"
+                opacity=".65"
+              />
+
+              <ellipse
+                cx="110"
+                cy="137"
+                rx="43"
+                ry="4"
+                fill="#4E693F"
+                opacity=".11"
+              />
+
+            </svg>
+
+          </div>
+
+
+          <!-- CARD TEXT -->
+          <h3
+            class="text-[17px] font-semibold
+                   leading-[1.4] tracking-tight
+                   text-forest-950"
+          >
+            Need to identify<br>
+            a medicinal leaf?
+          </h3>
+
+          <p
+            class="mt-3 text-[11.5px] leading-[1.85]
+                   text-ink-600"
+          >
+            Upload a leaf photo and a short
+            description. LeafMatch AI ranks
+            the most similar leaves in
+            the collection.
+          </p>
+
+
+          <!-- CTA -->
+          <a
+            href="{{ url_for('retrieval') }}"
+            class="botanical-primary-button mt-5 flex
+                   w-full items-center justify-center
+                   gap-2 rounded-xl px-4 py-3
+                   text-[12.5px] font-semibold text-white"
+          >
+
+            Start Retrieval
+
+            <svg
+              viewBox="0 0 24 24"
+              class="h-4 w-4"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <path d="M5 12h14"/>
+              <path d="m13 6 6 6-6 6"/>
+            </svg>
+
+          </a>
+
+        </div>
+
       </div>
+
+
+      <!-- ========================================
+           SIDEBAR BOTANICAL DECORATION
+           ======================================== -->
+
+      <div
+        class="botanical-sidebar-decor"
+        aria-hidden="true"
+      >
+
+        <svg viewBox="0 0 250 240" fill="none">
+
+          <g opacity=".75">
+
+            <path
+              d="M0 235C51 176 94 134 183 87"
+              stroke="#6D9D54"
+              stroke-width="3"
+            />
+
+            <path
+              d="M41 199C9 166 0 137 9 105C39 117 52 145 41 199Z"
+              fill="#98BC79"
+            />
+
+            <path
+              d="M74 167C74 119 91 90 130 69C136 112 114 145 74 167Z"
+              fill="#7EAA65"
+            />
+
+            <path
+              d="M106 146C144 113 183 106 225 115C198 150 156 160 106 146Z"
+              fill="#9CBD7B"
+            />
+
+            <path
+              d="M19 221C58 187 103 184 145 198C112 226 66 233 19 221Z"
+              fill="#B0CC91"
+            />
+
+            <path
+              d="M147 108C149 76 170 45 210 30C212 69 187 99 147 108Z"
+              fill="#A1C485"
+            />
+
+          </g>
+
+        </svg>
+
+      </div>
+
     </aside>
 
-    {# ---------------- Main ---------------- #}
-    <main class="ml-[248px] flex-1 px-11 pb-3 pt-8">
-      {% block content %}{% endblock %}
+
+    <!-- ========================================
+         MOBILE NAVIGATION
+         ======================================== -->
+
+    <header
+      class="sticky top-0 z-30 border-b
+             border-sage-200 bg-white/95
+             px-5 py-4 backdrop-blur-lg
+             lg:hidden"
+    >
+
+      <!-- MOBILE BRAND -->
+      <a
+        href="{{ url_for('retrieval') }}"
+        class="text-lg font-semibold text-forest-900"
+      >
+        LeafMatch
+        <span class="text-gold-500">AI</span>
+      </a>
+
+
+      <!-- MOBILE MENU -->
+      <nav
+        class="mt-3 flex flex-wrap gap-2 text-xs"
+        aria-label="Mobile navigation"
+      >
+
+        <a
+          href="{{ url_for('retrieval') }}"
+          class="mobile-nav-link
+                 {{ 'mobile-nav-link--active' if active_page == 'retrieval' else '' }}"
+          {% if active_page == 'retrieval' %}
+            aria-current="page"
+          {% endif %}
+        >
+          Upload & Retrieval
+        </a>
+
+        <a
+          href="{{ url_for('evaluation') }}"
+          class="mobile-nav-link
+                 {{ 'mobile-nav-link--active' if active_page == 'evaluation' else '' }}"
+          {% if active_page == 'evaluation' %}
+            aria-current="page"
+          {% endif %}
+        >
+          Evaluation
+        </a>
+
+      </nav>
+
+    </header>
+
+
+    <!-- ========================================
+         MAIN CONTENT
+         ======================================== -->
+
+    <main
+      class="botanical-main flex flex-col ml-0 min-w-0
+             px-5 pb-10 pt-7
+             sm:px-7
+             lg:ml-[276px] lg:px-9 lg:pt-8"
+    >
+
+      <!-- TOP RIGHT BOTANICAL DECORATION -->
+      <div
+        class="botanical-corner"
+        aria-hidden="true"
+      >
+
+        <svg viewBox="0 0 245 190" fill="none">
+
+          <path
+            d="M252 -7C205 34 161 61 103 92"
+            stroke="#79A05C"
+            stroke-width="3"
+          />
+
+          <path
+            d="M191 47C180 16 183 0 199 -22C219 10 217 30 191 47Z"
+            fill="#80B75B"
+          />
+
+          <path
+            d="M174 58C144 35 119 31 91 42C113 68 142 76 174 58Z"
+            fill="#93C26C"
+          />
+
+          <path
+            d="M137 79C139 42 153 18 182 4C187 38 168 65 137 79Z"
+            fill="#6EA84B"
+          />
+
+          <path
+            d="M111 92C73 80 47 87 25 106C57 121 87 114 111 92Z"
+            fill="#A0C57C"
+          />
+
+          <path
+            d="M218 22C207 -12 215 -40 237 -57C255 -16 248 6 218 22Z"
+            fill="#A4CA7C"
+          />
+
+          <g
+            stroke="#D4E6B2"
+            stroke-width="1.2"
+            opacity=".8"
+          >
+            <path d="M174 58 99 44"/>
+            <path d="M137 79 179 14"/>
+            <path d="M111 92 36 106"/>
+          </g>
+
+        </svg>
+
+      </div>
+
+
+      <!-- ========================================
+           CHILD PAGE CONTENT
+           ======================================== -->
+
+      <div
+        class="relative z-10 mx-auto
+               w-full max-w-[1320px]"
+      >
+
+        {% block content %}{% endblock %}
+
+      </div>
+
+
+      <!-- ========================================
+           COMPACT GROUP FOOTER
+           ======================================== -->
+
+      <footer
+        class="relative z-10 mx-auto mt-auto
+               w-full max-w-[1320px] pt-7"
+        aria-label="LeafMatch AI development team"
+      >
+
+        <div class="border-t border-sage-200 pt-3">
+
+          <!-- FOOTER HEADING -->
+          <div
+            class="flex items-center justify-between gap-3"
+          >
+
+            <p
+              class="text-[10px] font-semibold text-forest-900"
+            >
+              Team Members
+            </p>
+
+            <p
+              class="text-[10px] text-ink-500"
+            >
+              LeafMatch AI
+            </p>
+
+          </div>
+
+
+          <!-- GROUP MEMBERS -->
+          <div
+            class="mt-2 grid grid-cols-2
+                   gap-x-5 gap-y-3 lg:grid-cols-4"
+          >
+
+            <!-- MEMBER 1 -->
+            <div class="min-w-0">
+
+              <p
+                class="text-[11px] font-medium text-ink-700"
+              >
+                Aaman Alam
+              </p>
+
+              <p class="text-[10px] text-ink-500">
+                25/573133/PPA/07208
+              </p>
+
+            </div>
+
+
+            <!-- MEMBER 2 -->
+            <div class="min-w-0">
+
+              <p
+                class="text-[11px] font-medium text-ink-700"
+              >
+                Alfonsius Ricardo Bano
+              </p>
+
+              <p class="text-[10px] text-ink-500">
+                26/580115/PPA/07308
+              </p>
+
+            </div>
+
+
+            <!-- MEMBER 3 -->
+            <div class="min-w-0">
+
+              <p
+                class="text-[11px] font-medium text-ink-700"
+              >
+                Arifah Lailatul Isthi'anah
+              </p>
+
+              <p class="text-[10px] text-ink-500">
+                26/579852/PPA/07298
+              </p>
+
+            </div>
+
+
+            <!-- MEMBER 4 -->
+            <div class="min-w-0">
+
+              <p
+                class="text-[11px] font-medium text-ink-700"
+              >
+                Roni
+              </p>
+
+              <p class="text-[10px] text-ink-500">
+                26/580273/PPA/07309
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </footer>
+
     </main>
+
   </div>
 
-  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+  <!-- ========================================
+       EXISTING JAVASCRIPT
+       ======================================== -->
+
+  <script
+    src="{{ url_for('static', filename='js/main.js') }}"
+  ></script>
+
   {% block scripts %}{% endblock %}
+
 </body>
 </html>
