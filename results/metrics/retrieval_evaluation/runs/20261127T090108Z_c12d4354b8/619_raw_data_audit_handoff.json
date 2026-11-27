@@ -1,0 +1,11 @@
+{
+  "cell": 2,
+  "text_column": "cleaned_description",
+  "image_hash_source": "processed_images_recomputed",
+  "images_readable": 104,
+  "near_duplicate_pairs": 80,
+  "repeated_text_samples": 17,
+  "readiness_status": "REQUIRES_DATA_OR_LEAKAGE_REVIEW",
+  "leakage_confirmed": false,
+  "note": "Candidates require manual review; they do not prove leakage."
+}

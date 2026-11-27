@@ -27,5 +27,5 @@ Gallery-Only Fitting,Unigram: gallery matrix matches vectorizer,True,BLOCK,max_a
 Gallery-Only Fitting,Unigram + Bigram: IDF agrees with gallery,True,BLOCK,
 Gallery-Only Fitting,Unigram + Bigram: gallery matrix matches vectorizer,True,BLOCK,max_abs_error=1.110e-16
 Provenance,Independent specimen/capture group IDs verified,False,REVIEW,group_column=None
-Provenance,Visual extractor equivalence with Notebook 03 verified,False,REVIEW,Original Notebook 03 vectors require independent comparison; reference_extractor_unverified_against_notebook03
+Provenance,Visual extractor equivalence with Notebook 03 verified,False,REVIEW,Original Notebook 03 vectors require independent comparison; notebook03_raw_saved_vectors_manifest_sha256_verified
 Approval,Prior split and feature reviews formally approved,False,REVIEW,Cells 3 and 4 do not automatically approve independent evaluation.

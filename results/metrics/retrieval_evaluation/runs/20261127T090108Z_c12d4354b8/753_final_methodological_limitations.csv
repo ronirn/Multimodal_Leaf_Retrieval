@@ -1,0 +1,9 @@
+﻿limitation,count_or_size,status
+Cross-split visually similar images (dHash candidates),44,OPEN
+Identical descriptions across partitions,4,PENDING_REVIEW
+Specimen / capture identity not declared,1,PENDING_REVIEW
+Image pixel audit not recomputed in this environment,0,processed_images_recomputed
+Test partition inspected in earlier runs,1,PERMANENT - test is not an independent estimate
+Small validation set -> optimistic selection,21,Selection over 22 candidates on 21 queries
+Query visual features far outside gallery range (|z| > 10),7,"leaf_1a80f5749cc68900, leaf_3c3fafa9c7913736, leaf_45414f432e49469a, leaf_620d73b8cfb217b6, leaf_8809ccde35d4b945, leaf_a838808299383884, leaf_ef0854556175e2b0"
+Earlier runs used a different (unverified) visual extractor,1,Resolved for this run (NB03 vectors); earlier numbers are not comparable

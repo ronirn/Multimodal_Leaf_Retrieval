@@ -1,0 +1,2 @@
+﻿approval_decision,reviewer_name,review_date,review_notes,selection_lock_sha256,specimen_provenance_verified,cross_split_duplicate_review_completed,text_leakage_limitations_disclosed,test_prior_inspection_disclosed,authorization_phrase,approval_evidence_path
+PENDING,,,,29419a04188b6fc95c20b8af91f04d186c55bcda748e903f5f10573490264792,NO,NO,NO,NO,,

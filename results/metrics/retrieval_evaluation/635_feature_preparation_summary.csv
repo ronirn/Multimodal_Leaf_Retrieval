@@ -1,10 +1,10 @@
 ﻿indicator,result
 samples,104
-source_text_file,D:\Project\Multimodal_Leaf_Retrieval\dataset\processed\metadata_processed.csv
+source_text_file,text/multimodal_feature_metadata.csv:cleaned_description
 recovered_text_count,104
 unique_text_count,95
 visual_feature_dimensions,143
-visual_extractor_provenance,reference_extractor_unverified_against_notebook03
+visual_extractor_provenance,notebook03_raw_saved_vectors_manifest_sha256_verified
 visual_scaler_fit_policy,gallery_only
 text_vectorizer_fit_policy,gallery_only
 validation_or_test_fitting_performed,False

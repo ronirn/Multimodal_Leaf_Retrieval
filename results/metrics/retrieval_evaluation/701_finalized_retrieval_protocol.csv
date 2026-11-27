@@ -1,0 +1,8 @@
+﻿protocol_area,decision,constraint
+Data partition,Gallery/validation/test split frozen,Rebuild all downstream artifacts if confirmed duplicates require regrouping
+Text TF-IDF,Fit vocabulary/IDF only on gallery,No fit_transform on validation or test
+Visual descriptors,HSV64 + GLCM72 + Hu7,Verify extraction equivalence with Notebook 03
+Visual distance calibration,Gallery-derived Euclidean scale,Do not recalibrate with validation or test
+Fusion configuration,Unigram + Bigram; alpha=0.3,Locked in Cell 9 using validation mAP@5
+Test usage,Not authorized by Cell 12,Requires documented methodological signoff; no tuning on test
+Generalization claims,Conditional on source provenance,Repeated class text and name clues must be reported as limitations

@@ -2,5 +2,5 @@
 Raw Images,REVIEW,No unresolved near-duplicates across splits,candidate_pairs=44
 Raw Text,REVIEW,No identical descriptions cross partitions,cross_split_description_groups=4
 Provenance,REVIEW,Independent specimen/capture group IDs verified,group_column=None
-Provenance,REVIEW,Visual extractor equivalence with Notebook 03 verified,Original Notebook 03 vectors require independent comparison; reference_extractor_unverified_against_notebook03
+Provenance,REVIEW,Visual extractor equivalence with Notebook 03 verified,Original Notebook 03 vectors require independent comparison; notebook03_raw_saved_vectors_manifest_sha256_verified
 Approval,REVIEW,Prior split and feature reviews formally approved,Cells 3 and 4 do not automatically approve independent evaluation.

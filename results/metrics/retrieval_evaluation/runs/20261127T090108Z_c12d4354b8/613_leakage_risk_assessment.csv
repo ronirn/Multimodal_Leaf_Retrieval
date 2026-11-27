@@ -1,0 +1,10 @@
+﻿risk,severity,finding_count,requires_review
+Missing text descriptions,High,0,False
+Processed images not available for pixel audit,Medium,0,False
+Own class name inside description,High,0,False
+Class-level single-description template,High,0,False
+Identical text shared across classes,Medium,0,False
+Repeated identical descriptions,Medium,17,True
+Identical image with different classes,High,0,False
+Possible near-duplicate images (dHash),Medium,80,True
+No declared specimen/capture identity,Medium,1,True

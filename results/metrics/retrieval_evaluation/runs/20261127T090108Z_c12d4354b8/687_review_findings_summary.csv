@@ -1,0 +1,11 @@
+﻿issue_id,severity,finding_count,evidence_file,recommended_action,open
+IMG_EXACT_SPLIT,BLOCK,0,623/690,Group exact duplicates and rebuild the split.,False
+IMG_CLASS_CONFLICT,BLOCK,0,690,Resolve conflicting labels on identical images.,False
+IMG_PIXEL_AUDIT_UNAVAILABLE,REVIEW,0,608,Run the notebook where dataset/processed/images is available.,False
+IMG_NEAR_SPLIT,REVIEW,44,691,Inspect each cross-split pair; mark CONFIRMED_SAME / CONFIRMED_DISTINCT in 699.,True
+TEXT_CLASS_NAME,REVIEW,0,688,Remove or mask class names in descriptions.,False
+TEXT_REPEAT_SPLIT,REVIEW,4,689,Review identical descriptions shared across partitions.,True
+TEXT_CLASS_TEMPLATE,REVIEW,0,692,Document class-level description templates.,False
+SPECIMEN_PROVENANCE,REVIEW,1,693,Verify specimen/capture identity (which photos come from the same leaf/plant).,True
+VISUAL_EXTRACTOR,REVIEW,0,630/634,"Resolved technically in Cell 4 (NB03 manifest SHA-256, exact concatenation, normalizer reproduction).",False
+TEST_PREVIOUSLY_INSPECTED,REVIEW,1,registry,Cannot be undone; must be disclosed. Test can never be an independent estimate for this split.,True

@@ -1,0 +1,5 @@
+﻿category,validation_check,passed,severity_if_failed,detail
+Consistency,Test top-1 accuracy equals test Precision@1 (Cell 15),True,BLOCK,
+Consistency,Validation top-1 accuracy equals Precision@1 (Cell 9),True,BLOCK,
+Consistency,Confusion matrices sum to query counts,True,BLOCK,
+Consistency,Confusion diagonal equals top-1 correct count,True,BLOCK,

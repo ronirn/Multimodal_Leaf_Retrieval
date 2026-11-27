@@ -1,0 +1,6 @@
+﻿check,passed
+Every open issue has a review row,True
+Every cross-split pair has a decision row,True
+No duplicate pair keys in 699,True
+No duplicate issue IDs in 695,True
+Selection lock unchanged,True

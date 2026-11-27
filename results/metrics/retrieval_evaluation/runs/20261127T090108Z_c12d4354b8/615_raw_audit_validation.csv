@@ -1,0 +1,8 @@
+﻿category,validation_check,passed,severity_if_failed,detail
+Text,104 text audit records aligned,True,BLOCK,
+Text,All 104 cleaned descriptions available,True,BLOCK,
+Images,104 image audit records aligned,True,BLOCK,
+Images,Image hashes available for duplicate audit,True,REVIEW,processed_images_recomputed
+Images,Processed images recomputed in this run,True,REVIEW,readable=104
+Grouping,Every sample has one group,True,BLOCK,
+Grouping,Exact image duplicates share one group,True,BLOCK,

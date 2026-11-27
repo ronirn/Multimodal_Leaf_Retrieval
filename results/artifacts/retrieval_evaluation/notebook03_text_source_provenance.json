@@ -1,0 +1,14 @@
+{
+  "visual_source": "Notebook 03 visual_features_raw.npy",
+  "visual_sha256": "fc8f1e228d396ba81d7cd7022ff5aefe51ae83a0e301b0ec4f858a0c2a8e487f",
+  "text_source": "text/multimodal_feature_metadata.csv:cleaned_description",
+  "gallery_only_scaler": true,
+  "hsv_sd_floor": 0.001,
+  "group_weights": {
+    "HSV": 0.125,
+    "GLCM": 0.11785113019775793,
+    "Hu": 0.3779644730092272
+  },
+  "gallery_only_tfidf": true,
+  "test_evaluation_status": "PROVISIONAL_AUDIT_UNRESOLVED"
+}

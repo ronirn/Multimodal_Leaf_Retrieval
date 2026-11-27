@@ -1,0 +1,24 @@
+﻿category,validation_check,passed,severity_if_failed,detail
+Selection lock,Lock file equals in-memory lock,True,BLOCK,
+Selection lock,Lock SHA-256 unchanged since Cell 9,True,BLOCK,
+Selection lock,Validation evidence hash reproduces lock,True,BLOCK,
+Selection lock,Re-running selection rule gives the same configuration,True,BLOCK,
+Selection lock,Lock declares validation-only selection,True,BLOCK,
+Dataset,"104 unique IDs, three disjoint partitions",True,BLOCK,
+Dataset,Split fingerprint unchanged since Cell 3,True,BLOCK,
+Dataset,gallery: all five classes represented,True,BLOCK,n=62
+Dataset,validation: all five classes represented,True,BLOCK,n=21
+Dataset,test: all five classes represented,True,BLOCK,n=21
+Gallery-only fit,Feature matrices unchanged since Cell 4B,True,BLOCK,
+Gallery-only fit,Visual normalizer fitted on gallery rows only,True,BLOCK,
+Gallery-only fit,Unigram: vectorizer equals a fresh gallery-only fit,True,BLOCK,
+Gallery-only fit,Unigram + Bigram: vectorizer equals a fresh gallery-only fit,True,BLOCK,
+Raw images,Image pixel audit recomputed from processed images,True,REVIEW,processed_images_recomputed
+Raw images,No exact image duplicate crosses splits or classes,True,BLOCK,
+Raw images,No unresolved near-duplicate candidates across splits,False,REVIEW,candidate_pairs=44
+Raw text,No own-class names in descriptions,True,REVIEW,flagged=0
+Raw text,No identical descriptions across partitions,False,REVIEW,groups=4
+Raw text,No class-level single-description template,True,REVIEW,
+Provenance,Independent specimen/capture identity declared,False,REVIEW,group_column=None
+Provenance,Visual features = verified Notebook 03 vectors,True,BLOCK,manifest SHA-256 + exact concatenation + normalizer reproduction
+Test history,Test partition never inspected before,False,REVIEW,"legacy_test_files=3, registered_test_runs=0"

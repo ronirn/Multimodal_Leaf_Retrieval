@@ -1,0 +1,4 @@
+﻿check,passed
+Selected validation mAP@5 equals lock,True
+Selected test mAP@5 equals Cell 15,True
+Report contains status label,True

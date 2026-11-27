@@ -1,0 +1,23 @@
+﻿text_configuration,alpha_index,alpha
+Unigram,0,0.0
+Unigram,1,0.1
+Unigram,2,0.2
+Unigram,3,0.3
+Unigram,4,0.4
+Unigram,5,0.5
+Unigram,6,0.6
+Unigram,7,0.7
+Unigram,8,0.8
+Unigram,9,0.9
+Unigram,10,1.0
+Unigram + Bigram,0,0.0
+Unigram + Bigram,1,0.1
+Unigram + Bigram,2,0.2
+Unigram + Bigram,3,0.3
+Unigram + Bigram,4,0.4
+Unigram + Bigram,5,0.5
+Unigram + Bigram,6,0.6
+Unigram + Bigram,7,0.7
+Unigram + Bigram,8,0.8
+Unigram + Bigram,9,0.9
+Unigram + Bigram,10,1.0

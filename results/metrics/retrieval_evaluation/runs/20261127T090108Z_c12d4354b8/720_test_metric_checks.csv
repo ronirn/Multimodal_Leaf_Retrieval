@@ -1,0 +1,7 @@
+﻿category,validation_check,passed,severity_if_failed,detail
+Consistency,Per-query metrics reproduce from Cell 14 rankings,True,BLOCK,
+Consistency,Macro = mean of per-query metrics,True,BLOCK,
+Consistency,"Metric values in [0, 1]",True,BLOCK,
+Consistency,21 test queries per method,True,BLOCK,
+No tuning,Validation selection unchanged after test metrics,True,BLOCK,
+No tuning,Selection lock file unchanged,True,BLOCK,

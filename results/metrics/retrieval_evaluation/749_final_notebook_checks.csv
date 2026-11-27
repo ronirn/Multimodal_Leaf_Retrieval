@@ -1,0 +1,16 @@
+﻿area,check,passed,detail
+Selection,Frozen text configuration matches Cell 9,True,
+Selection,"Frozen alpha matches Cell 9 and is in [0,1]",True,
+Selection,"Configuration selected using validation, not test",True,
+Dataset,104 unique samples and five classes,True,"n=104, classes=5"
+Dataset,Three partitions are disjoint and complete,True,
+Dataset,Split labels match saved sample ID partitions,True,
+Dataset,Group IDs do not cross splits,True,
+Dataset,Similarity IDs retain split alignment,True,
+Metrics,All 40 macro/per-query/Cell-19 checks reconcile,True,
+Metrics,Selected validation mAP@5 matches Cell 9 lock,True,
+Metrics,Cell 19 synthesis checks all passed,True,
+Error Analysis,One diagnostic row per test query,True,
+Error Analysis,Top-1 correctness matches Precision@1,True,
+Error Analysis,Top-5 relevant counts match Cell 15,True,
+Artifacts,Required Cell 5-19 handoff files exist,True,

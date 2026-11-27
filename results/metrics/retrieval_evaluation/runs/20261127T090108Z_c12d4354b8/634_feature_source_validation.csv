@@ -1,0 +1,16 @@
+﻿category,validation_check,passed,severity_if_failed,detail
+Integrity,All Notebook 03 visual artifacts match manifest SHA-256,True,BLOCK,14/14
+Integrity,Text artifacts present in manifest match SHA-256,True,BLOCK,
+Visual,"HSV/GLCM/Hu shapes = (104,64)/(104,72)/(104,7)",True,BLOCK,
+Visual,"visual_features_raw.npy has shape (104, 143) and is finite",True,BLOCK,
+Visual,"raw == concatenate(HSV, GLCM, Hu) exactly",True,BLOCK,
+Visual,Feature names (143) follow HSV -> GLCM -> Hu order,True,BLOCK,
+Visual,visual_feature_index.csv names agree with feature names,True,BLOCK,
+Visual,"Notebook 03 config slices = HSV[0:64], GLCM[64:136], Hu[136:143]",True,BLOCK,
+Visual,Notebook 03 HSV SD floor / group balancing match protocol,True,BLOCK,
+Visual,Normalizer reproduces NB03 visual_features_normalized.npy,True,BLOCK,max_abs_error=0.000e+00
+Visual,Normalizer (floor=0) reproduces NB03 visual_features_baseline.npy,True,BLOCK,max_abs_error=0.000e+00
+Text,104 non-empty cleaned descriptions,True,BLOCK,
+Text,cleaned_description equals NB02 text_corpus.json (same order),True,BLOCK,
+Text,Legacy NB02 TF-IDF detected as full-dataset fit (therefore not reused),True,REVIEW,"legacy vocabulary sizes={'Unigram': 68, 'Unigram + Bigram': 261}"
+Text,Protocol TF-IDF parameters equal NB02 vectorizer parameters,True,BLOCK,

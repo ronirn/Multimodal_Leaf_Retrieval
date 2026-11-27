@@ -1,0 +1,13 @@
+﻿category,check,passed,detail
+Lock,Selected config and alpha unchanged,True,
+Lock,Lock SHA-256 matches Cells 11-12 and signoff,False,
+Data,Sample order and group split unchanged,True,
+Data,Cell 10 structural integrity passed,True,
+Review,All substantive findings have accepted dispositions,False,open=4
+Review,All cross-split near-duplicate pairs reviewed as distinct,False,open=44
+Review,Cell 12 reports no mandatory data repair,True,
+Evidence,Local evidence files for verified issues/pairs exist,True,files=0
+Signoff,"Reviewer identity, date and explanation recorded",False,
+Signoff,Four required provenance/limitation attestations marked YES,False,
+Signoff,Explicit approval phrase and decision provided,False,decision=PENDING
+Signoff,Supporting approval document exists locally,False,

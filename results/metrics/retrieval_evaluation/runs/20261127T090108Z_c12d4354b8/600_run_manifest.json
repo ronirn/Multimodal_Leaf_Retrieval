@@ -1,0 +1,22 @@
+{
+  "run_id": "20261127T090108Z_c12d4354b8",
+  "started_utc": "2026-11-27T09:01:08+00:00",
+  "pipeline_version": "06_wsf_final_v1.0",
+  "input_fingerprint": "c12d4354b88e7fb27fcb03a17d19b0fcb81128ac9711e3c3f1fea2e56737c0af",
+  "project_root": "D:\\Project\\Multimodal_Leaf_Retrieval",
+  "visual_source": "directory: D:\\Project\\Multimodal_Leaf_Retrieval\\dataset\\features\\visual",
+  "text_source": "directory: D:\\Project\\Multimodal_Leaf_Retrieval\\dataset\\features\\text",
+  "legacy_flat_file_count": 152,
+  "legacy_files_used_as_inputs": [],
+  "test_previously_inspected": true,
+  "stage_fingerprints": {
+    "split": "7f5cb9c76cdbb248e839213c65f5e4e74ace0754b4bfdda5a47e2b328d839c8c",
+    "features": "2339c38dc7dc7b51f43243bcdc376b457c7d380d217a6a8c95ae2b817934b088",
+    "selection_lock": "29419a04188b6fc95c20b8af91f04d186c55bcda748e903f5f10573490264792",
+    "test_ranking": "d9cfd4068f74fe2639357867e89374fa53fe0bda6a15a1049471fb70d2844bb8"
+  },
+  "finished_utc": "2026-11-27T09:01:30+00:00",
+  "technical_status": "TECHNICAL_COMPLETE",
+  "test_status": "PROVISIONAL_AUDIT_UNRESOLVED",
+  "output_count": 180
+}

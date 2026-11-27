@@ -1,0 +1,6 @@
+﻿category,validation_check,passed,severity_if_failed,detail
+Selection,Selection independent of candidate order,True,BLOCK,
+Selection,Selected candidate has maximal validation mAP@5,True,BLOCK,
+Selection,Exactly 22 candidates evaluated,True,BLOCK,
+Selection,Only validation partition used,True,BLOCK,
+Selection,Selected configuration is a genuine fusion (0 < alpha < 1),True,REVIEW,alpha=0.3

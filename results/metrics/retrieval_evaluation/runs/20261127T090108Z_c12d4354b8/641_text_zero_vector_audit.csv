@@ -1,0 +1,7 @@
+﻿text_configuration,split,zero_tfidf_queries,zero_rows_have_zero_scores
+Unigram,gallery,0,True
+Unigram,validation,0,True
+Unigram,test,0,True
+Unigram + Bigram,gallery,0,True
+Unigram + Bigram,validation,0,True
+Unigram + Bigram,test,0,True

@@ -1,0 +1,12 @@
+{
+  "cell": 10,
+  "structural_ok": true,
+  "open_review_items": [
+    "No unresolved near-duplicate candidates across splits",
+    "No identical descriptions across partitions",
+    "Independent specimen/capture identity declared",
+    "Test partition never inspected before"
+  ],
+  "selection_lock_sha256": "29419a04188b6fc95c20b8af91f04d186c55bcda748e903f5f10573490264792",
+  "test_scores_accessed": false
+}

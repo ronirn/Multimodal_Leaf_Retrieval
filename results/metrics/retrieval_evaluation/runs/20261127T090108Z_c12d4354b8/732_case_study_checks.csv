@@ -1,0 +1,4 @@
+﻿check,passed
+Each case has exactly 5 retrieved items,True
+Top-5 relevance agrees with Cell 16,True
+No duplicate gallery item within a case,True

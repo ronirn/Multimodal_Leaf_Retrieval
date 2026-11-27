@@ -1,0 +1,11 @@
+﻿category,validation_check,passed,severity_if_failed,detail
+Structure,All 104 samples assigned to exactly one split,True,BLOCK,
+Structure,"Gallery, validation and test are disjoint (sample_id)",True,BLOCK,
+Structure,Groups never cross splits,True,BLOCK,
+Structure,Every class appears in every split,True,BLOCK,
+Structure,Sample order preserved inside every split,True,BLOCK,
+Leakage,No exact duplicate image crosses splits,True,BLOCK,
+Leakage,No cross-split near-duplicate candidates,False,REVIEW,pairs=44
+Leakage,No identical description crosses splits,False,REVIEW,groups=4
+Methodology,No retrieval score used for splitting,True,BLOCK,
+Reproducibility,Split identical to legacy 620 assignment,True,REVIEW,legacy_available=True

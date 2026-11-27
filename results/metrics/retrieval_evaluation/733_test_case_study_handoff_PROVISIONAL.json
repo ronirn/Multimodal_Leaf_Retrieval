@@ -1,0 +1,31 @@
+{
+  "cell": 17,
+  "status": "PROVISIONAL_AUDIT_UNRESOLVED",
+  "text_configuration": "Unigram + Bigram",
+  "alpha": 0.3,
+  "selected_test_query_ids": [
+    "leaf_8f425d66b1e193b9",
+    "leaf_fd4b025e69b9f321",
+    "leaf_0ebc8f4f3ee9c8d5",
+    "leaf_1a45e1e109be76ee",
+    "leaf_1a80f5749cc68900",
+    "leaf_1ebaf9512209a61f",
+    "leaf_1ef1bffd5f4186c1",
+    "leaf_3f1cc0b714c4164e"
+  ],
+  "case_count": 8,
+  "missing_or_unreadable_images": 0,
+  "figures": [
+    "225_case_01_leaf_8f425d66b1e193b9_PROVISIONAL.png",
+    "225_case_02_leaf_fd4b025e69b9f321_PROVISIONAL.png",
+    "225_case_03_leaf_0ebc8f4f3ee9c8d5_PROVISIONAL.png",
+    "225_case_04_leaf_1a45e1e109be76ee_PROVISIONAL.png",
+    "225_case_05_leaf_1a80f5749cc68900_PROVISIONAL.png",
+    "225_case_06_leaf_1ebaf9512209a61f_PROVISIONAL.png",
+    "225_case_07_leaf_1ef1bffd5f4186c1_PROVISIONAL.png",
+    "225_case_08_leaf_3f1cc0b714c4164e_PROVISIONAL.png"
+  ],
+  "test_used_for_parameter_tuning": false,
+  "selection_lock_sha256": "6c4d7c1ccc217a8a69142079fee9c648e4d1d16728cd3a2dfcf5639d18e244aa",
+  "next_cell": "Cell 18 - Validation vs Test Results and Limitations"
+}

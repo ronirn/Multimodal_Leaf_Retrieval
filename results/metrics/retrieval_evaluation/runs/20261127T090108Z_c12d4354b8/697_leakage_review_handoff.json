@@ -1,0 +1,12 @@
+{
+  "cell": 11,
+  "open_issues": [
+    "IMG_NEAR_SPLIT",
+    "TEXT_REPEAT_SPLIT",
+    "SPECIMEN_PROVENANCE",
+    "TEST_PREVIOUSLY_INSPECTED"
+  ],
+  "review_dir": "D:\\Project\\Multimodal_Leaf_Retrieval\\results\\reviews\\retrieval_evaluation",
+  "cross_split_pairs": 44,
+  "decisions_auto_filled": false
+}

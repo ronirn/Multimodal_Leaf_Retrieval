@@ -1,0 +1,9 @@
+﻿check,passed
+expected_metric_rows,True
+complete_macro_k,True
+finite,True
+within_0_1,True
+all_queries_relevant_in_gallery,True
+recall_denominator_consistency,True
+precision_denominator_consistency,True
+locked_configuration_not_changed,True

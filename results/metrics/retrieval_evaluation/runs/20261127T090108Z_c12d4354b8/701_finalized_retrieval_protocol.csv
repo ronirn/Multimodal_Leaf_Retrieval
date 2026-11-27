@@ -1,0 +1,6 @@
+﻿protocol_area,decision,constraint
+Data partition,"Gallery/validation/test split frozen (seed 42, group-aware)",Rebuild all downstream outputs if confirmed duplicates require regrouping
+Visual features,"Notebook 03 143-D vectors, NB03 normalizer fitted on gallery",No alternative extractor
+Text features,"cleaned_description, TF-IDF fitted on gallery",Full-dataset NB02 TF-IDF not used
+Selection,"Unigram + Bigram, alpha=0.3 (validation mAP@5)",Test may not change alpha / TF-IDF / features
+Test reporting,Status label depends on Cell 13 gate,Previously inspected test is never 'independent'

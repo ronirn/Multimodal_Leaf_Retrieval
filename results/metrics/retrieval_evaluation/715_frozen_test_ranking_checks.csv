@@ -1,0 +1,8 @@
+﻿check,passed
+full_pair_count,True
+top10_count,True
+no_self_match,True
+unique_gallery_per_query,True
+scores_bounded,True
+test_only,True
+configuration_frozen,True

@@ -1,0 +1,5 @@
+﻿category,validation_check,passed,severity_if_failed,detail
+Raw images,No unresolved near-duplicate candidates across splits,False,REVIEW,candidate_pairs=44
+Raw text,No identical descriptions across partitions,False,REVIEW,groups=4
+Provenance,Independent specimen/capture identity declared,False,REVIEW,group_column=None
+Test history,Test partition never inspected before,False,REVIEW,"legacy_test_files=3, registered_test_runs=0"

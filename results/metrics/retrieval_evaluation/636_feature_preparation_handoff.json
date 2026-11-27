@@ -1,7 +1,7 @@
 {
-  "notebook": "06_multimodal_retrieval_evaluation.ipynb",
+  "notebook": "06_weighted_score_fusion.ipynb",
   "cell": 4,
-  "source_text_file": "D:\\Project\\Multimodal_Leaf_Retrieval\\dataset\\processed\\metadata_processed.csv",
+  "source_text_file": "text/multimodal_feature_metadata.csv:cleaned_description",
   "recovered_text_count": 104,
   "split_sample_ids": {
     "gallery": [
@@ -116,7 +116,7 @@
     ]
   },
   "visual_feature_dimensions": 143,
-  "visual_extractor_provenance": "reference_extractor_unverified_against_notebook03",
+  "visual_extractor_provenance": "notebook03_raw_saved_vectors_manifest_sha256_verified",
   "tfidf_vocabulary_sizes": {
     "Unigram": 66,
     "Unigram + Bigram": 233
@@ -128,8 +128,9 @@
     "Cell 2 readiness audit requires review.",
     "Possible near-duplicate images cross partitions; manual verification is required.",
     "Cell 3 split remains provisional; independent review is required.",
-    "Reference HSV/GLCM/Hu extractor may differ from the original Notebook 03 implementation.",
     "Identical text descriptions occur across dataset partitions; review possible inflation of text retrieval performance."
   ],
-  "next_cell": "Cell 5 - Leakage-Safe Similarity Calculation"
+  "next_cell": "Cell 5 - Leakage-Safe Similarity Calculation",
+  "visual_scaling": "Notebook03 gallery-only HSV floor + group balancing",
+  "tfidf_fit_policy": "gallery_only"
 }

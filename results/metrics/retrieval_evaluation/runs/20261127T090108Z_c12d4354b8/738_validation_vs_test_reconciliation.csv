@@ -1,0 +1,4 @@
+﻿check,passed
+Test mAP@5 equals mean per-query AP@5,True
+Validation mAP@5 equals selection lock,True
+Same frozen configuration on both partitions,True

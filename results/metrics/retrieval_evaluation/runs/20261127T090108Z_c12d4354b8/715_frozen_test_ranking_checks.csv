@@ -1,0 +1,8 @@
+﻿category,validation_check,passed,severity_if_failed,detail
+Ranking,Rows = 3 methods x queries x gallery,True,BLOCK,
+Ranking,No duplicate candidates within any ranking,True,BLOCK,
+Ranking,No self-match; test queries absent from gallery,True,BLOCK,
+Ranking,Scores non-increasing with rank,True,BLOCK,
+Formula,Selected scores = alpha*visual + (1-alpha)*text,True,BLOCK,
+Lock,alpha used == alpha in selection lock,True,BLOCK,
+Lock,Feature matrices unchanged since Cell 4B,True,BLOCK,

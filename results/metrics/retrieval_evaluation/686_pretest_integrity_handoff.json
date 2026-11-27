@@ -6,7 +6,7 @@
   "review_cleared": false,
   "approved_for_independent_evaluation": false,
   "selection_lock_path": "D:\\Project\\Multimodal_Leaf_Retrieval\\results\\metrics\\retrieval_evaluation\\678_validation_fusion_selection_lock.json",
-  "selection_lock_sha256": "6c4d7c1ccc217a8a69142079fee9c648e4d1d16728cd3a2dfcf5639d18e244aa",
+  "selection_lock_sha256": "93c74adeb747981035caa938b72fab1a24c7af6f84eddfae4f62615d03998f93",
   "selection_evidence_sha256": "01907ece9c875df733abc784e7f0ed1cc7750f6646dae75eeb17971f1781b8c6",
   "selected_text_configuration": "Unigram + Bigram",
   "selected_alpha": 0.3,

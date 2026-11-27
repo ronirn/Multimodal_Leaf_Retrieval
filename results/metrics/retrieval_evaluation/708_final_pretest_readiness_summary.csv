@@ -1,0 +1,2 @@
+﻿gate_status,sample_count,gallery_count,validation_count,test_count,selected_text_configuration,selected_alpha,structural_integrity_passed,review_findings_resolved,evidence_file_references_resolve,recorded_reviewer_decision,test_gate_open,test_metrics_computed,limitation_qualifier_required
+BLOCKED_INTEGRITY_OR_LOCK,104,62,21,21,Unigram + Bigram,0.3,False,False,True,PENDING,False,False,False

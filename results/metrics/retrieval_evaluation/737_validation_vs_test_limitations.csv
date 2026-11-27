@@ -1,0 +1,7 @@
+﻿limitation,audit_issue_id,flagged_count,interpretation,status
+Cross-split visually similar images,IMG_NEAR_SPLIT,44.0,Near-duplicate candidates are not confirmed same specimens; independence of test observations remains uncertain.,OPEN_OR_NOT_INDEPENDENTLY_VERIFIED
+Repeated descriptions across splits,TEXT_REPEAT_SPLIT,4.0,Repeated class-related descriptions can inflate text retrieval scores.,OPEN_OR_NOT_INDEPENDENTLY_VERIFIED
+Specimen or image-capture provenance,SPECIMEN_PROVENANCE,1.0,Independence of captures/specimens has not been established.,OPEN_OR_NOT_INDEPENDENTLY_VERIFIED
+Visual extractor reproducibility,VISUAL_EXTRACTOR,1.0,Equivalence to Notebook 03 has not been independently verified.,OPEN_OR_NOT_INDEPENDENTLY_VERIFIED
+Validation selection optimism,,,Validation was used to choose alpha and TF-IDF; validation scores are optimistically selected and not an unbiased generalization estimate.,OPEN_OR_NOT_INDEPENDENTLY_VERIFIED
+Test interpretation,,,Test metrics are descriptive/provisional; do not retune using test.,OPEN_OR_NOT_INDEPENDENTLY_VERIFIED

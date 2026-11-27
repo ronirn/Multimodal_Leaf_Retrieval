@@ -1,0 +1,6 @@
+﻿true_class,n_queries,top1_correct_count,top5_hit_count,top5_relevant_mean,mean_precision_at_5,repeated_query_description_count,top1_accuracy,top5_hit_rate,top1_error_rate
+Mangkok,4,4,4,4.75,0.95,0,1.0,1.0,0.0
+Salam,4,4,4,3.25,0.6499999999999999,0,1.0,1.0,0.0
+Sambang Darah,4,4,4,3.75,0.75,0,1.0,1.0,0.0
+Sirih,4,4,4,4.0,0.8,0,1.0,1.0,0.0
+Tapak Kuda,5,5,5,5.0,1.0,3,1.0,1.0,0.0

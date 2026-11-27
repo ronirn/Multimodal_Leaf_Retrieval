@@ -1,0 +1,21 @@
+{
+  "created_by": "Cell 4B",
+  "visual_source": "Notebook 03 visual_features_raw.npy (manifest SHA-256 verified)",
+  "visual_raw_sha256": "fc8f1e228d396ba81d7cd7022ff5aefe51ae83a0e301b0ec4f858a0c2a8e487f",
+  "visual_normalizer": "Notebook 03 algorithm, fitted on gallery only",
+  "text_source": "Notebook 02 cleaned_description",
+  "tfidf_fit": "gallery only",
+  "split_fingerprint": "7f5cb9c76cdbb248e839213c65f5e4e74ace0754b4bfdda5a47e2b328d839c8c",
+  "matrix_hashes": {
+    "visual/gallery": "13c7b933ce25e3cb1751ecdb4ff453eee3450b58b2970c57a33055643d34de4c",
+    "visual/validation": "6510245a71071a39d35698d9772fb90d14d3cee83467a6c5c5e4b1a4c6490b8e",
+    "visual/test": "a8eef76d898399ea0447766be170afd6d833fd3361adab00f5f306c796b01532",
+    "text/Unigram/gallery": "d26492dd89f7c3da0f2bb673b3061604c6b536eee2078a54f06242be307d5884",
+    "text/Unigram/validation": "ff323cc01c9275efac78efb8882d79b9cd99150ddf78b990d2701ca983d729d2",
+    "text/Unigram/test": "ffa16c0a6cb6ba230e0f4747bca565de7994bd1fe781a5a70486d1a04fb2da09",
+    "text/Unigram + Bigram/gallery": "d14d66afc73dc572cc5cce1ab0a6504de4491831736a0925fc8178c88ec44195",
+    "text/Unigram + Bigram/validation": "36b2f271937f39a46175a85676e2d6680ec622ea974bca04f22a1163e4e21567",
+    "text/Unigram + Bigram/test": "14d71d0fb30640e7092fa9fba73f424c80785eb7ca940eb4775a793d208cfb6a"
+  },
+  "feature_fingerprint": "2339c38dc7dc7b51f43243bcdc376b457c7d380d217a6a8c95ae2b817934b088"
+}

@@ -1,0 +1,16 @@
+﻿split,class_label,n_samples
+gallery,Mangkok,12
+gallery,Salam,11
+gallery,Sambang Darah,12
+gallery,Sirih,12
+gallery,Tapak Kuda,15
+test,Mangkok,4
+test,Salam,4
+test,Sambang Darah,4
+test,Sirih,4
+test,Tapak Kuda,5
+validation,Mangkok,4
+validation,Salam,4
+validation,Sambang Darah,4
+validation,Sirih,4
+validation,Tapak Kuda,5

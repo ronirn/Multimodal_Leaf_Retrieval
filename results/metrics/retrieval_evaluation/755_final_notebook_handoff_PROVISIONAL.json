@@ -1,0 +1,18 @@
+{
+  "notebook": "06_multimodal_retrieval_evaluation.ipynb",
+  "cell": 20,
+  "technical_status": "TECHNICAL_COMPLETE_PROVISIONAL",
+  "scientific_status": "PROVISIONAL_AUDIT_UNRESOLVED",
+  "frozen_text_configuration": "Unigram + Bigram",
+  "frozen_alpha": 0.3,
+  "selection_lock_sha256": "6c4d7c1ccc217a8a69142079fee9c648e4d1d16728cd3a2dfcf5639d18e244aa",
+  "gallery_count": 62,
+  "validation_query_count": 21,
+  "test_query_count": 21,
+  "technical_checks_passed": 15,
+  "technical_checks_total": 15,
+  "missing_essential_artifacts": [],
+  "test_used_for_tuning": false,
+  "independent_test_approved": false,
+  "recommendation": "Resolve specimen, repeated-text, and extractor provenance audit before independent claims."
+}

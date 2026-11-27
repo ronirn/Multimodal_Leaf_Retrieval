@@ -1,0 +1,6 @@
+﻿item,definition
+Relevance,same_plant_class
+AP,"AP@K normalized by min(R, K)"
+nDCG,"binary gain, log2(rank+1) discount, ideal = min(R, K) hits"
+Ranking ties,similarity_descending_then_sample_id_ascending
+Macro,mean over queries

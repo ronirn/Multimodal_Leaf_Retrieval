@@ -1,0 +1,23 @@
+﻿category,validation_check,passed,severity_if_failed,detail
+Visual fit,HSV: mean equals gallery mean,True,BLOCK,
+Visual fit,GLCM: mean equals gallery mean,True,BLOCK,
+Visual fit,Hu Moments: mean equals gallery mean,True,BLOCK,
+Visual fit,Normalizer fitted on exactly the gallery rows,True,BLOCK,
+Visual fit,Gallery-fitted parameters differ from full-dataset fit (no leakage),True,BLOCK,
+Visual fit,Batch transform == per-sample transform (no query-dependent state),True,BLOCK,
+Visual shape,"gallery: (62, 143), finite",True,BLOCK,
+Visual shape,"validation: (21, 143), finite",True,BLOCK,
+Visual shape,"test: (21, 143), finite",True,BLOCK,
+Visual diagnostic,No query feature with |z| > 10,False,REVIEW,"rows=13, samples=7"
+TF-IDF fit,Unigram: vocabulary built from gallery only,True,BLOCK,vocabulary=66
+TF-IDF fit,Unigram: IDF equals gallery document frequencies,True,BLOCK,
+TF-IDF fit,Unigram: vocabulary differs from legacy full-data vectorizer,True,REVIEW,gallery=66 vs full-data=68
+TF-IDF shape,"Unigram/gallery: sparse (62, 66)",True,BLOCK,
+TF-IDF shape,"Unigram/validation: sparse (21, 66)",True,BLOCK,
+TF-IDF shape,"Unigram/test: sparse (21, 66)",True,BLOCK,
+TF-IDF fit,Unigram + Bigram: vocabulary built from gallery only,True,BLOCK,vocabulary=233
+TF-IDF fit,Unigram + Bigram: IDF equals gallery document frequencies,True,BLOCK,
+TF-IDF fit,Unigram + Bigram: vocabulary differs from legacy full-data vectorizer,True,REVIEW,gallery=233 vs full-data=261
+TF-IDF shape,"Unigram + Bigram/gallery: sparse (62, 233)",True,BLOCK,
+TF-IDF shape,"Unigram + Bigram/validation: sparse (21, 233)",True,BLOCK,
+TF-IDF shape,"Unigram + Bigram/test: sparse (21, 233)",True,BLOCK,

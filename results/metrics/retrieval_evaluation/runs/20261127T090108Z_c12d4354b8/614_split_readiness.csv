@@ -1,0 +1,9 @@
+﻿criterion,passed
+Text complete,True
+Image pixel audit recomputed from processed images,True
+No own-class name in text,True
+No class-level text template,True
+No cross-class identical image,True
+No unreviewed near-duplicate image pairs,False
+At least three groups per class,True
+Specimen identity declared,False

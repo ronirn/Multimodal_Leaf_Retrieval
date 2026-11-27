@@ -1,0 +1,28 @@
+{
+  "candidate_count": 22,
+  "evidence_sha256": "1acf21f1747a795c3a1e84d65bce17ae5a742141fff646fd53cd174376f0a4ee",
+  "feature_fingerprint": "2339c38dc7dc7b51f43243bcdc376b457c7d380d217a6a8c95ae2b817934b088",
+  "legacy_alpha_reused": false,
+  "primary_metric": "mAP@5",
+  "selected_alpha": 0.3,
+  "selected_alpha_index": 3,
+  "selected_method_type": "Weighted Late Fusion",
+  "selected_text_configuration": "Unigram + Bigram",
+  "selected_using_test": false,
+  "selected_validation_map_at_5": 0.705238095238,
+  "selected_validation_mrr_at_5": 0.853174603175,
+  "selected_validation_ndcg_at_5": 0.771520190038,
+  "selection_partition": "validation",
+  "selection_tolerance": 1e-10,
+  "split_fingerprint": "7f5cb9c76cdbb248e839213c65f5e4e74ace0754b4bfdda5a47e2b328d839c8c",
+  "tie_break_rules": [
+    "max validation mAP@5",
+    "max validation nDCG@5 within tolerance",
+    "max validation MRR@5 within tolerance",
+    "alpha closest to 0.5",
+    "prefer Unigram if all above tied",
+    "smaller alpha"
+  ],
+  "tie_pool_size_after_metrics": 1,
+  "visual_distance_scale": 2.262902305636
+}

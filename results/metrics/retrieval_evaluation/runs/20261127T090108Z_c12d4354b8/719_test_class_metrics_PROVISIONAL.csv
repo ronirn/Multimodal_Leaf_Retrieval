@@ -1,0 +1,61 @@
+﻿method,role,query_class,k,mean_precision_at_k,mean_recall_at_k,mean_mrr_at_k,map_at_k,mean_ndcg_at_k,queries
+Weighted Fusion - Unigram + Bigram (alpha=0.3),selected_frozen,Mangkok,1,1.0,0.08333333333333333,1.0,1.0,1.0,4
+Weighted Fusion - Unigram + Bigram (alpha=0.3),selected_frozen,Mangkok,3,1.0,0.25,1.0,1.0,1.0,4
+Weighted Fusion - Unigram + Bigram (alpha=0.3),selected_frozen,Mangkok,5,1.0,0.4166666666666667,1.0,1.0,1.0,4
+Weighted Fusion - Unigram + Bigram (alpha=0.3),selected_frozen,Mangkok,10,0.875,0.7291666666666667,1.0,0.8559722222222222,0.9122328938329617,4
+Weighted Fusion - Unigram + Bigram (alpha=0.3),selected_frozen,Salam,1,1.0,0.09090909090909091,1.0,1.0,1.0,4
+Weighted Fusion - Unigram + Bigram (alpha=0.3),selected_frozen,Salam,3,0.5,0.13636363636363635,1.0,0.4722222222222222,0.6019590445170673,4
+Weighted Fusion - Unigram + Bigram (alpha=0.3),selected_frozen,Salam,5,0.55,0.25,1.0,0.43583333333333335,0.6064897801720596,4
+Weighted Fusion - Unigram + Bigram (alpha=0.3),selected_frozen,Salam,10,0.475,0.43181818181818177,1.0,0.33163690476190477,0.5376190029311072,4
+Weighted Fusion - Unigram + Bigram (alpha=0.3),selected_frozen,Sambang Darah,1,1.0,0.08333333333333333,1.0,1.0,1.0,4
+Weighted Fusion - Unigram + Bigram (alpha=0.3),selected_frozen,Sambang Darah,3,0.75,0.1875,1.0,0.75,0.8086598407528445,4
+Weighted Fusion - Unigram + Bigram (alpha=0.3),selected_frozen,Sambang Darah,5,0.7,0.2916666666666667,1.0,0.6625000000000001,0.7633095743637077,4
+Weighted Fusion - Unigram + Bigram (alpha=0.3),selected_frozen,Sambang Darah,10,0.45,0.375,1.0,0.39345238095238094,0.5702336050560942,4
+Weighted Fusion - Unigram + Bigram (alpha=0.3),selected_frozen,Sirih,1,1.0,0.08333333333333333,1.0,1.0,1.0,4
+Weighted Fusion - Unigram + Bigram (alpha=0.3),selected_frozen,Sirih,3,0.9166666666666666,0.22916666666666666,1.0,0.8888888888888888,0.9259795222585336,4
+Weighted Fusion - Unigram + Bigram (alpha=0.3),selected_frozen,Sirih,5,0.85,0.3541666666666667,1.0,0.8208333333333333,0.8809008950601972,4
+Weighted Fusion - Unigram + Bigram (alpha=0.3),selected_frozen,Sirih,10,0.55,0.45833333333333337,1.0,0.5070833333333333,0.6622535013761299,4
+Weighted Fusion - Unigram + Bigram (alpha=0.3),selected_frozen,Tapak Kuda,1,1.0,0.06666666666666667,1.0,1.0,1.0,5
+Weighted Fusion - Unigram + Bigram (alpha=0.3),selected_frozen,Tapak Kuda,3,1.0,0.2,1.0,1.0,1.0,5
+Weighted Fusion - Unigram + Bigram (alpha=0.3),selected_frozen,Tapak Kuda,5,1.0,0.3333333333333333,1.0,1.0,1.0,5
+Weighted Fusion - Unigram + Bigram (alpha=0.3),selected_frozen,Tapak Kuda,10,1.0,0.6666666666666666,1.0,1.0,1.0,5
+Visual Only,baseline_reporting_only,Mangkok,1,1.0,0.08333333333333333,1.0,1.0,1.0,4
+Visual Only,baseline_reporting_only,Mangkok,3,0.75,0.1875,1.0,0.7222222222222222,0.8086598407528445,4
+Visual Only,baseline_reporting_only,Mangkok,5,0.65,0.2708333333333333,1.0,0.5958333333333333,0.7305083049856222,4
+Visual Only,baseline_reporting_only,Mangkok,10,0.475,0.39583333333333337,1.0,0.39883928571428573,0.579499633025336,4
+Visual Only,baseline_reporting_only,Salam,1,0.75,0.06818181818181818,0.75,0.75,0.75,4
+Visual Only,baseline_reporting_only,Salam,3,0.75,0.20454545454545453,0.875,0.6805555555555556,0.75,4
+Visual Only,baseline_reporting_only,Salam,5,0.75,0.34090909090909094,0.875,0.6858333333333333,0.75,4
+Visual Only,baseline_reporting_only,Salam,10,0.45,0.40909090909090906,0.875,0.3896428571428571,0.5419970347525882,4
+Visual Only,baseline_reporting_only,Sambang Darah,1,0.75,0.0625,0.75,0.75,0.75,4
+Visual Only,baseline_reporting_only,Sambang Darah,3,0.5833333333333333,0.14583333333333331,0.8333333333333333,0.5277777777777778,0.617319681505689,4
+Visual Only,baseline_reporting_only,Sambang Darah,5,0.5,0.20833333333333331,0.8333333333333333,0.43666666666666665,0.5482729638577274,4
+Visual Only,baseline_reporting_only,Sambang Darah,10,0.35,0.2916666666666667,0.8333333333333333,0.2794940476190476,0.42817238520677003,4
+Visual Only,baseline_reporting_only,Sirih,1,1.0,0.08333333333333333,1.0,1.0,1.0,4
+Visual Only,baseline_reporting_only,Sirih,3,0.75,0.1875,1.0,0.75,0.8086598407528445,4
+Visual Only,baseline_reporting_only,Sirih,5,0.55,0.22916666666666666,1.0,0.5375000000000001,0.657474130064269,4
+Visual Only,baseline_reporting_only,Sirih,10,0.45,0.375,1.0,0.3653769841269841,0.5478747570835609,4
+Visual Only,baseline_reporting_only,Tapak Kuda,1,1.0,0.06666666666666667,1.0,1.0,1.0,5
+Visual Only,baseline_reporting_only,Tapak Kuda,3,0.8666666666666666,0.17333333333333334,1.0,0.8666666666666666,0.9061442547954487,5
+Visual Only,baseline_reporting_only,Tapak Kuda,5,0.68,0.22666666666666666,1.0,0.664,0.7658039025322478,5
+Visual Only,baseline_reporting_only,Tapak Kuda,10,0.5599999999999999,0.37333333333333335,1.0,0.48893650793650795,0.6532165739002261,5
+Text Only - Unigram + Bigram,baseline_reporting_only,Mangkok,1,1.0,0.08333333333333333,1.0,1.0,1.0,4
+Text Only - Unigram + Bigram,baseline_reporting_only,Mangkok,3,1.0,0.25,1.0,1.0,1.0,4
+Text Only - Unigram + Bigram,baseline_reporting_only,Mangkok,5,1.0,0.4166666666666667,1.0,1.0,1.0,4
+Text Only - Unigram + Bigram,baseline_reporting_only,Mangkok,10,0.85,0.7083333333333334,1.0,0.8238888888888889,0.8942167295349082,4
+Text Only - Unigram + Bigram,baseline_reporting_only,Salam,1,1.0,0.09090909090909091,1.0,1.0,1.0,4
+Text Only - Unigram + Bigram,baseline_reporting_only,Salam,3,0.5,0.13636363636363635,1.0,0.4722222222222222,0.6019590445170673,4
+Text Only - Unigram + Bigram,baseline_reporting_only,Salam,5,0.55,0.25,1.0,0.43583333333333335,0.6064897801720596,4
+Text Only - Unigram + Bigram,baseline_reporting_only,Salam,10,0.5,0.45454545454545453,1.0,0.35124007936507934,0.5531993837540589,4
+Text Only - Unigram + Bigram,baseline_reporting_only,Sambang Darah,1,0.75,0.0625,0.75,0.75,0.75,4
+Text Only - Unigram + Bigram,baseline_reporting_only,Sambang Darah,3,0.75,0.1875,0.875,0.7083333333333333,0.7653606369886217,4
+Text Only - Unigram + Bigram,baseline_reporting_only,Sambang Darah,5,0.75,0.3125,0.875,0.6775,0.764817358607021,4
+Text Only - Unigram + Bigram,baseline_reporting_only,Sambang Darah,10,0.45,0.375,0.875,0.3805357142857143,0.5501598781812429,4
+Text Only - Unigram + Bigram,baseline_reporting_only,Sirih,1,0.75,0.0625,0.75,0.75,0.75,4
+Text Only - Unigram + Bigram,baseline_reporting_only,Sirih,3,0.9166666666666666,0.22916666666666666,0.875,0.8472222222222222,0.8826803184943108,4
+Text Only - Unigram + Bigram,baseline_reporting_only,Sirih,5,0.85,0.3541666666666667,0.875,0.7883333333333333,0.8458915918428339,4
+Text Only - Unigram + Bigram,baseline_reporting_only,Sirih,10,0.525,0.4375,0.875,0.4697023809523809,0.6201293135579747,4
+Text Only - Unigram + Bigram,baseline_reporting_only,Tapak Kuda,1,1.0,0.06666666666666667,1.0,1.0,1.0,5
+Text Only - Unigram + Bigram,baseline_reporting_only,Tapak Kuda,3,1.0,0.2,1.0,1.0,1.0,5
+Text Only - Unigram + Bigram,baseline_reporting_only,Tapak Kuda,5,1.0,0.3333333333333333,1.0,1.0,1.0,5
+Text Only - Unigram + Bigram,baseline_reporting_only,Tapak Kuda,10,1.0,0.6666666666666666,1.0,1.0,1.0,5

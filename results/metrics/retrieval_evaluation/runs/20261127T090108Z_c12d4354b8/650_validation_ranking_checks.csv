@@ -1,0 +1,10 @@
+﻿category,validation_check,passed,severity_if_failed,detail
+Ranking,Five retrieval configurations ranked,True,BLOCK,
+Ranking,Every gallery candidate ranked exactly once per query (no duplicates),True,BLOCK,
+Ranking,Ranks are 1..N per query,True,BLOCK,
+Ranking,Scores non-increasing along rank,True,BLOCK,
+Ranking,No self-matches / no query in gallery,True,BLOCK,
+Ranking,No test sample used,True,BLOCK,
+Ranking,"Scores within [0, 1]",True,BLOCK,
+Formula,Fusion = 0.5*visual + 0.5*text verified,True,BLOCK,
+Determinism,Re-ranking reproduces identical order,True,BLOCK,

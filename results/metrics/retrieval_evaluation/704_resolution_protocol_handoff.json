@@ -1,0 +1,18 @@
+{
+  "notebook": "06_multimodal_retrieval_evaluation.ipynb",
+  "cell": 12,
+  "selection_lock_sha256": "93c74adeb747981035caa938b72fab1a24c7af6f84eddfae4f62615d03998f93",
+  "selected_text_configuration": "Unigram + Bigram",
+  "selected_alpha": 0.3,
+  "resolution_status": "HOLD_PENDING_REVIEW",
+  "structural_valid": true,
+  "documentation_complete": false,
+  "qualified_by_text_limitations": false,
+  "test_gate_open": false,
+  "formal_test_approval": false,
+  "test_scores_used": false,
+  "test_metrics_computed": false,
+  "manual_issue_decisions_file": "695_review_decision_template.csv",
+  "manual_pair_decisions_file": "699_near_duplicate_pair_decisions.csv",
+  "next_step": "Review evidence, repair data if required, and obtain signoff before test evaluation"
+}

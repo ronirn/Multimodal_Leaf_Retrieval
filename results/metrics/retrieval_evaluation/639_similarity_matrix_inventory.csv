@@ -1,10 +1,10 @@
 ﻿partition,modality,configuration,matrix_shape,query_count,gallery_count,scale_fitted_on,score_mean_exploratory,test_scores_sealed_from_tuning
-gallery,Visual,HSV64_GLCM72_Hu7,"(62, 62)",62,62,gallery_only,0.5157484251271693,False
+gallery,Visual,HSV64_GLCM72_Hu7,"(62, 62)",62,62,gallery_only,0.5106391794527187,False
 gallery,Text,Unigram,"(62, 62)",62,62,gallery_only,0.36421841464678084,False
 gallery,Text,Unigram + Bigram,"(62, 62)",62,62,gallery_only,0.254035727853771,False
-validation,Visual,HSV64_GLCM72_Hu7,"(21, 62)",21,62,gallery_only,0.4878283349743966,False
+validation,Visual,HSV64_GLCM72_Hu7,"(21, 62)",21,62,gallery_only,0.46903091963337706,False
 validation,Text,Unigram,"(21, 62)",21,62,gallery_only,0.3551563024020544,False
-validation,Text,Unigram + Bigram,"(21, 62)",21,62,gallery_only,0.24897008450291933,False
+validation,Text,Unigram + Bigram,"(21, 62)",21,62,gallery_only,0.24897008450291935,False
 test,Visual,HSV64_GLCM72_Hu7,"(21, 62)",21,62,gallery_only,,True
 test,Text,Unigram,"(21, 62)",21,62,gallery_only,,True
 test,Text,Unigram + Bigram,"(21, 62)",21,62,gallery_only,,True

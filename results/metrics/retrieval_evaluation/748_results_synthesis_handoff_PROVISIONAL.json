@@ -1,0 +1,18 @@
+{
+  "cell": 19,
+  "status": "PROVISIONAL_AUDIT_UNRESOLVED",
+  "selected_text_configuration": "Unigram + Bigram",
+  "selected_alpha": 0.3,
+  "selected_using_test": false,
+  "selection_lock_sha256": "6c4d7c1ccc217a8a69142079fee9c648e4d1d16728cd3a2dfcf5639d18e244aa",
+  "validation_query_count": 21,
+  "test_query_count": 21,
+  "validation_map_at_5": 0.7199999999999999,
+  "test_map_at_5_provisional": 0.8087301587301587,
+  "top1_correct_count": 21,
+  "top5_hit_count": 21,
+  "cross_split_near_image_pairs_flagged": 44,
+  "cross_split_repeated_description_groups": 4,
+  "independent_test_approved": false,
+  "next_cell": "Cell 20 - Final Notebook Audit and Output Inventory"
+}

@@ -1,0 +1,2 @@
+run_id,accessed_utc,test_ranking_fingerprint,selection_lock_sha256,selected_text_configuration,selected_alpha,status,identical_previous_runs
+20261127T090108Z_c12d4354b8,2026-11-27T09:01:19+00:00,d9cfd4068f74fe2639357867e89374fa53fe0bda6a15a1049471fb70d2844bb8,29419a04188b6fc95c20b8af91f04d186c55bcda748e903f5f10573490264792,Unigram + Bigram,0.3,PROVISIONAL_AUDIT_UNRESOLVED,

@@ -32,7 +32,6 @@
     "Cell 2 readiness audit requires review.",
     "Possible near-duplicate images cross partitions; manual verification is required.",
     "Cell 3 split remains provisional; independent review is required.",
-    "Reference HSV/GLCM/Hu extractor may differ from the original Notebook 03 implementation.",
     "Identical text descriptions occur across dataset partitions; review possible inflation of text retrieval performance.",
     "Feature/split methodology has not yet been approved for independent evaluation.",
     "Cell 3 split was not approved for independent evaluation.",

@@ -1,0 +1,16 @@
+{
+  "cell": 14,
+  "status": "PROVISIONAL_AUDIT_UNRESOLVED",
+  "selected_text_configuration": "Unigram + Bigram",
+  "selected_alpha": 0.3,
+  "selection_lock_sha256": "29419a04188b6fc95c20b8af91f04d186c55bcda748e903f5f10573490264792",
+  "input_fingerprint_sha256": "d9cfd4068f74fe2639357867e89374fa53fe0bda6a15a1049471fb70d2844bb8",
+  "identical_previous_runs": [],
+  "different_previous_runs": [],
+  "legacy_test_files_present": [
+    "711_frozen_test_full_rankings.csv",
+    "717_test_per_query_metrics_PROVISIONAL.csv",
+    "718_test_macro_metrics_PROVISIONAL.csv"
+  ],
+  "test_used_for_tuning": false
+}

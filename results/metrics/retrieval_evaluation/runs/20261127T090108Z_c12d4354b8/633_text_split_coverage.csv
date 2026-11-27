@@ -1,0 +1,7 @@
+﻿text_configuration,split,sample_count,feature_count,zero_vector_count,zero_vector_percent,mean_nonzero_features_per_sample
+Unigram,gallery,62,66,0,0.0,20.129032258064516
+Unigram,validation,21,66,0,0.0,19.714285714285715
+Unigram,test,21,66,0,0.0,20.095238095238095
+Unigram + Bigram,gallery,62,233,0,0.0,40.16129032258065
+Unigram + Bigram,validation,21,233,0,0.0,38.523809523809526
+Unigram + Bigram,test,21,233,0,0.0,39.666666666666664

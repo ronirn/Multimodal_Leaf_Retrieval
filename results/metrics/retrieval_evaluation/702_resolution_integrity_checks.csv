@@ -1,0 +1,9 @@
+﻿check,passed
+Selection lock unchanged since Cell 11,True
+Sample IDs and group split structurally consistent,True
+No hard structural findings inherited from Cell 10,True
+No non-waivable image problems,True
+No confirmed same-specimen near-duplicate pairs crossing splits,True
+All substantive reviews documented (not necessarily independently verified),False
+All cross-split near-duplicate pairs have distinctness evidence,False
+Test gate remains closed,True

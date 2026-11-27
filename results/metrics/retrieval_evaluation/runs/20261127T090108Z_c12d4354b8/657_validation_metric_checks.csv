@@ -1,0 +1,13 @@
+﻿category,validation_check,passed,severity_if_failed,detail
+Unit test,Precision@3 = 2/3,True,BLOCK,
+Unit test,Recall@3 = 2/3,True,BLOCK,
+Unit test,MRR@3 = 1,True,BLOCK,
+Unit test,AP@3 = (1 + 2/3)/3,True,BLOCK,
+Unit test,nDCG@3 = (1 + 1/2) / (1 + 1/log2(3) + 1/2),True,BLOCK,
+Unit test,All-miss@1 gives zeros,True,BLOCK,
+Unit test,Perfect@2 gives ones,True,BLOCK,
+Consistency,Per-query metrics match Cell 6 ranking table (K=5),True,BLOCK,
+Consistency,Macro = mean of per-query values,True,BLOCK,
+Consistency,"All metric values within [0, 1]",True,BLOCK,
+Consistency,Precision@1 == MRR@1 == AP@1 == nDCG@1,True,BLOCK,
+Consistency,Recall@K non-decreasing in K,True,BLOCK,

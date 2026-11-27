@@ -1,0 +1,6 @@
+﻿limitation,audit_issue,flagged_count,description,status
+Similar image pairs across splits,IMG_NEAR_SPLIT,44.0,Potential shared specimens; flagged visual pairs are not confirmed duplicates,OPEN_OR_UNVERIFIED
+Repeated descriptions across splits,TEXT_REPEAT_SPLIT,4.0,Text overlap may inflate apparent retrieval performance,OPEN_OR_UNVERIFIED
+Specimen/capture provenance,SPECIMEN_PROVENANCE,1.0,Independence of biological specimens or captures has not been established,OPEN_OR_UNVERIFIED
+Feature extractor equivalence,VISUAL_EXTRACTOR,1.0,Visual descriptors have not been independently matched to Notebook 03,OPEN_OR_UNVERIFIED
+Test is provisional,,,Exploratory test scores are not an approved independent test estimate,OPEN_OR_UNVERIFIED

@@ -1,0 +1,11 @@
+﻿check,passed
+selection_lock_unchanged,True
+all_20_metric_comparisons_present,True
+val_test_scores_in_range,True
+validation_selection_reconciled,True
+one_selected_alpha_candidate,True
+five_validation_baselines,True
+test_per_class_query_count,True
+top5_success_not_below_top1,True
+provisional_status_preserved,True
+no_test_based_reselection,True

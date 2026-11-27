@@ -1,0 +1,8 @@
+{
+  "cell": 5,
+  "visual_distance_scale": 2.262902305636101,
+  "visual_formula": "S_visual = 1 / (1 + d_euclidean / median_nonzero_gallery_distance)",
+  "text_formula": "S_text = cosine(TF-IDF_query, TF-IDF_gallery), clipped to [0, 1]",
+  "feature_fingerprint": "2339c38dc7dc7b51f43243bcdc376b457c7d380d217a6a8c95ae2b817934b088",
+  "test_statistics_sealed": true
+}

@@ -1,0 +1,6 @@
+﻿category,validation_check,passed,severity_if_failed,detail
+Grid,22 candidates (2 TF-IDF x 11 alpha),True,BLOCK,
+Grid,Per-query rows = 22 x queries x 4 K,True,BLOCK,
+Anchors,"alpha = 0, 0.5, 1 reproduce Cell 7 exactly",True,BLOCK,24/24
+Partition,Only validation queries used,True,BLOCK,
+Ranking,Top-10 lists have no duplicate gallery IDs,True,BLOCK,

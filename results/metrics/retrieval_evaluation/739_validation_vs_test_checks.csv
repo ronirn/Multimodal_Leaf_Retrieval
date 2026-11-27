@@ -1,0 +1,12 @@
+﻿check,passed
+frozen_text_configuration,True
+frozen_alpha,True
+same_k_grid,True
+macro_means_reconciled,True
+validation_query_count,True
+test_query_count,True
+validation_test_gallery_disjoint,True
+exactly_twenty_metric_comparisons,True
+class_gaps_not_imputed,True
+no_test_based_selection,True
+report_remains_provisional,True

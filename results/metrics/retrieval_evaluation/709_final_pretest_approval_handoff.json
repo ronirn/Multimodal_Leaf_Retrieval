@@ -1,0 +1,16 @@
+{
+  "notebook": "06_multimodal_retrieval_evaluation.ipynb",
+  "cell": 13,
+  "gate_status": "BLOCKED_INTEGRITY_OR_LOCK",
+  "test_gate_open": false,
+  "approval_type": "none",
+  "independent_verification_by_notebook": false,
+  "selection_lock_sha256": "93c74adeb747981035caa938b72fab1a24c7af6f84eddfae4f62615d03998f93",
+  "selected_text_configuration": "Unigram + Bigram",
+  "selected_alpha": 0.3,
+  "manual_signoff_path": "D:\\Project\\Multimodal_Leaf_Retrieval\\results\\metrics\\retrieval_evaluation\\705_final_pretest_signoff.csv",
+  "limitations_qualified": false,
+  "test_scores_accessed": false,
+  "test_metrics_computed": false,
+  "next_step": "Resolve audit/signoff gaps and rerun Cell 13"
+}

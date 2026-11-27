@@ -1,0 +1,3 @@
+﻿text_configuration,ngram_range,gallery_fit_documents,vocabulary_size_gallery_fit,legacy_full_data_vocabulary,fitted_on
+Unigram,"(1, 1)",62,66,68,gallery_only
+Unigram + Bigram,"(1, 2)",62,233,261,gallery_only

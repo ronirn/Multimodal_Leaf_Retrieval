@@ -1,0 +1,2 @@
+﻿method,visual_distance_scale,scale_source,fitted_partition,gallery_size,validation_used,test_used
+Euclidean -> 1 / (1 + d / scale),2.262902305636101,median_nonzero_gallery_gallery_euclidean_distance,gallery_only,62,False,False

@@ -1,0 +1,26 @@
+{
+  "status": "PROVISIONAL_AUDIT_UNRESOLVED",
+  "test_not_used_for_tuning": true,
+  "selected_alpha": 0.3,
+  "selected_text_configuration": "Unigram + Bigram",
+  "n_queries": 21,
+  "metrics_at_5": [
+    {
+      "k": 5,
+      "n_queries": 21,
+      "alpha": 0.3,
+      "text_configuration": "Unigram + Bigram",
+      "mean_precision_at_k": 0.8380952380952381,
+      "std_precision_at_k": 0.18567765206451337,
+      "mean_recall_at_k": 0.334054834054834,
+      "std_recall_at_k": 0.06378521380674117,
+      "mean_mrr_at_k": 1.0,
+      "std_mrr_at_k": 0.0,
+      "map_at_k": 0.8087301587301587,
+      "std_ap_at_k": 0.2282627048684529,
+      "mean_ndcg_at_k": 0.8721157963176636,
+      "std_ndcg_at_k": 0.15696576760761766
+    }
+  ],
+  "limitations": "44 near-image pairs; 4 repeated-text groups; specimen/extractor provenance requires audit"
+}

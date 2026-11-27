@@ -1,0 +1,12 @@
+﻿category,validation_check,passed,severity_if_failed,detail
+Lock,Selected configuration unchanged,True,BLOCK,
+Lock,Lock file SHA-256 unchanged,True,BLOCK,
+Data,Cell 10 structural integrity passed,True,BLOCK,
+Review,No data repair required,True,REVIEW,
+Review,All substantive findings have accepted dispositions,False,REVIEW,open=4
+Review,All cross-split near-duplicate pairs reviewed with evidence,False,REVIEW,open=44
+Signoff,Sign-off refers to the current selection lock,True,REVIEW,
+Signoff,"Reviewer name, ISO date and notes recorded",False,REVIEW,
+Signoff,All attestations = YES,False,REVIEW,
+Signoff,Decision APPROVE with exact authorization phrase,False,REVIEW,decision=PENDING
+Signoff,Approval evidence document exists,False,REVIEW,

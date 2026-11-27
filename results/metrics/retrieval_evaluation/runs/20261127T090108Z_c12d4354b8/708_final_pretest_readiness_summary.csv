@@ -1,0 +1,2 @@
+﻿gate_status,test_evaluation_status,recorded_reviewer_decision,human_approval_valid,test_previously_inspected,selected_text_configuration,selected_alpha,open_substantive_issues,open_pair_reviews,sample_count,gallery_count,validation_count,test_count
+HOLD_UNRESOLVED_REVIEW,PROVISIONAL_AUDIT_UNRESOLVED,PENDING,False,True,Unigram + Bigram,0.3,4,44,104,62,21,21

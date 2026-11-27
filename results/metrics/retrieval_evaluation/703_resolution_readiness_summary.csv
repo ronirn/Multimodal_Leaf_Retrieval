@@ -1,0 +1,2 @@
+﻿gate_status,locked_alpha,locked_text_config,open_substantive_issues,open_pair_reviews,documented_limitations,structural_valid,test_gate_open,formal_test_approval
+HOLD_PENDING_REVIEW,0.3,Unigram + Bigram,4,44,0,True,False,False

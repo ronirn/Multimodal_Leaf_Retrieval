@@ -1,0 +1,12 @@
+﻿check,passed
+ranking_complete,True
+one_result_per_query,True
+top1_confusion_total,True
+top1_errors_match,True
+top5_misses_match,True
+top1_precision_matches_cell15,True
+top5_relevant_count_matches_cell15,True
+top5_precision_matches_cell15,True
+gallery_relevance_matches_cell15,True
+locked_selection_unchanged,True
+no_test_tuning,True

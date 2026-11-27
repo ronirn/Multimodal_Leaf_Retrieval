@@ -1,0 +1,25 @@
+﻿cell7_method,text_configuration,alpha,k,max_abs_difference,passed
+Visual Only,Unigram,1.0,1,0.0,True
+Visual Only,Unigram,1.0,3,0.0,True
+Visual Only,Unigram,1.0,5,0.0,True
+Visual Only,Unigram,1.0,10,0.0,True
+Visual Only,Unigram + Bigram,1.0,1,0.0,True
+Visual Only,Unigram + Bigram,1.0,3,0.0,True
+Visual Only,Unigram + Bigram,1.0,5,0.0,True
+Visual Only,Unigram + Bigram,1.0,10,0.0,True
+Text Only - Unigram,Unigram,0.0,1,0.0,True
+Text Only - Unigram,Unigram,0.0,3,0.0,True
+Text Only - Unigram,Unigram,0.0,5,0.0,True
+Text Only - Unigram,Unigram,0.0,10,0.0,True
+Text Only - Unigram + Bigram,Unigram + Bigram,0.0,1,0.0,True
+Text Only - Unigram + Bigram,Unigram + Bigram,0.0,3,0.0,True
+Text Only - Unigram + Bigram,Unigram + Bigram,0.0,5,0.0,True
+Text Only - Unigram + Bigram,Unigram + Bigram,0.0,10,0.0,True
+Fusion - Unigram (alpha=0.5),Unigram,0.5,1,0.0,True
+Fusion - Unigram (alpha=0.5),Unigram,0.5,3,0.0,True
+Fusion - Unigram (alpha=0.5),Unigram,0.5,5,0.0,True
+Fusion - Unigram (alpha=0.5),Unigram,0.5,10,0.0,True
+Fusion - Unigram + Bigram (alpha=0.5),Unigram + Bigram,0.5,1,0.0,True
+Fusion - Unigram + Bigram (alpha=0.5),Unigram + Bigram,0.5,3,0.0,True
+Fusion - Unigram + Bigram (alpha=0.5),Unigram + Bigram,0.5,5,0.0,True
+Fusion - Unigram + Bigram (alpha=0.5),Unigram + Bigram,0.5,10,0.0,True

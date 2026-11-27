@@ -1,0 +1,4 @@
+﻿split,n_samples,visual_dim,mean_l2_norm,median_l2_norm,max_abs_value,constant_gallery_features,hsv_floor_applied_features,fitted_on
+gallery,62,143,1.6308122070800906,1.5445577224412614,1.1424099451919287,0,16,gallery_only
+validation,21,143,7.55962859611979,1.5469464172451948,120.53889923344882,0,16,gallery_only
+test,21,143,1.7056494223866197,1.5766500968619594,1.6341598223022853,0,16,gallery_only

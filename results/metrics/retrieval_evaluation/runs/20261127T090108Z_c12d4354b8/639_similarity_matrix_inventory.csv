@@ -1,0 +1,10 @@
+﻿partition,modality,configuration,matrix_shape,fitted_on,score_mean,score_std
+gallery,Visual,HSV64_GLCM72_Hu7,"(62, 62)",gallery_only,0.5106391794527187,0.08980000562641602
+gallery,Text,Unigram,"(62, 62)",gallery_only,0.36421841464678084,0.19126471828370759
+gallery,Text,Unigram + Bigram,"(62, 62)",gallery_only,0.254035727853771,0.18466243328912574
+validation,Visual,HSV64_GLCM72_Hu7,"(21, 62)",gallery_only,0.46903091963337706,0.12724079163033777
+validation,Text,Unigram,"(21, 62)",gallery_only,0.3551563024020544,0.16719441795845483
+validation,Text,Unigram + Bigram,"(21, 62)",gallery_only,0.24897008450291935,0.15690883892408097
+test,Visual,HSV64_GLCM72_Hu7,"(21, 62)",gallery_only,,
+test,Text,Unigram,"(21, 62)",gallery_only,,
+test,Text,Unigram + Bigram,"(21, 62)",gallery_only,,

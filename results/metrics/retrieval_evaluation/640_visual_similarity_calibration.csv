@@ -1,2 +1,2 @@
 ﻿method,visual_distance_scale,calibration_policy,fitted_partition,gallery_size,used_validation_or_test_to_calibrate,independent_evaluation_approved
-Euclidean to inverse-distance similarity,14.511795283177172,median_nonzero_gallery_gallery_euclidean_distance,gallery_only,62,False,False
+Euclidean to inverse-distance similarity,2.262902305636101,median_nonzero_gallery_gallery_euclidean_distance,gallery_only,62,False,False

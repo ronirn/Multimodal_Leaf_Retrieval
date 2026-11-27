@@ -1,0 +1,17 @@
+﻿category,validation_check,passed,severity_if_failed,detail
+Alignment,Visual and text sample_id arrays are identical,True,BLOCK,
+Alignment,Text metadata sample order matches sample_id array,True,BLOCK,
+Alignment,Visual metadata sample order matches sample_id array,True,BLOCK,
+Alignment,"Class labels agree (text labels, text metadata, visual metadata)",True,BLOCK,
+Dataset,Exactly 104 samples,True,BLOCK,
+Dataset,Exactly five plant classes,True,BLOCK,"['Mangkok', 'Salam', 'Sambang Darah', 'Sirih', 'Tapak Kuda']"
+Dataset,Sample IDs unique and non-null,True,BLOCK,
+Dataset,Every class has >= 10 samples,True,BLOCK,
+Optional NB05,Notebook 05 gallery_index order/labels match NB02/NB03,True,REVIEW,D:\Project\Multimodal_Leaf_Retrieval\results\artifacts\multimodal_fusion
+Protocol,Split ratios sum to 1,True,BLOCK,
+Protocol,"Alpha grid = 0.0, 0.1, ..., 1.0",True,BLOCK,
+Protocol,"Top-K values = (1, 3, 5, 10)",True,BLOCK,
+Protocol,Fitting policy = gallery_only,True,BLOCK,
+Protocol,Primary selection metric = mAP@5,True,BLOCK,
+Protocol,Visual groups cover 143 contiguous dims,True,BLOCK,
+Versioning,Fresh run directories created,True,BLOCK,

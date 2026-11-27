@@ -1,0 +1,211 @@
+﻿query_partition,method,text_configuration,alpha,query_sample_id,query_class,rank,gallery_sample_id,gallery_class,similarity_score,relevant
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_8473270c3702f48b,Mangkok,1,leaf_b0c5f55e42499cae,Mangkok,0.6571028666515721,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_8473270c3702f48b,Mangkok,2,leaf_de9e3e4ed5d89dfc,Mangkok,0.5792979602937385,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_8473270c3702f48b,Mangkok,3,leaf_8f09fd62c7391c0d,Mangkok,0.5461631892057142,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_8473270c3702f48b,Mangkok,4,leaf_12439b9ebf0eb8d3,Mangkok,0.5231587121972328,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_8473270c3702f48b,Mangkok,5,leaf_663a651dd51f9c94,Mangkok,0.5218413564971138,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_8473270c3702f48b,Mangkok,6,leaf_4de65b11758965f6,Mangkok,0.5049209397432894,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_8473270c3702f48b,Mangkok,7,leaf_43ae297ca838aebb,Tapak Kuda,0.47663576238280864,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_8473270c3702f48b,Mangkok,8,leaf_36d4f083fa652592,Mangkok,0.4716697214564955,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_8473270c3702f48b,Mangkok,9,leaf_165d2f32c7fda707,Mangkok,0.46602623268375354,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_8473270c3702f48b,Mangkok,10,leaf_721244faca19b94f,Tapak Kuda,0.4639517911080826,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_23b789945271fb92,Mangkok,1,leaf_8f09fd62c7391c0d,Mangkok,0.7688369356645414,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_23b789945271fb92,Mangkok,2,leaf_12439b9ebf0eb8d3,Mangkok,0.6833928281198255,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_23b789945271fb92,Mangkok,3,leaf_663a651dd51f9c94,Mangkok,0.6770216762646543,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_23b789945271fb92,Mangkok,4,leaf_36d4f083fa652592,Mangkok,0.6459124406984993,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_23b789945271fb92,Mangkok,5,leaf_165d2f32c7fda707,Mangkok,0.5943721250023113,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_23b789945271fb92,Mangkok,6,leaf_fff6592ee517103e,Mangkok,0.583818734372039,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_23b789945271fb92,Mangkok,7,leaf_4de65b11758965f6,Mangkok,0.5591497590129495,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_23b789945271fb92,Mangkok,8,leaf_de9e3e4ed5d89dfc,Mangkok,0.5390702664479043,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_23b789945271fb92,Mangkok,9,leaf_a6da65cb0493ceef,Mangkok,0.5314213878946222,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_23b789945271fb92,Mangkok,10,leaf_b0c5f55e42499cae,Mangkok,0.5071075095994453,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_ef0854556175e2b0,Mangkok,1,leaf_fff6592ee517103e,Mangkok,0.6567366685857953,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_ef0854556175e2b0,Mangkok,2,leaf_12439b9ebf0eb8d3,Mangkok,0.5205113355439394,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_ef0854556175e2b0,Mangkok,3,leaf_165d2f32c7fda707,Mangkok,0.5083071464513561,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_ef0854556175e2b0,Mangkok,4,leaf_8f09fd62c7391c0d,Mangkok,0.4706537506951326,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_ef0854556175e2b0,Mangkok,5,leaf_663a651dd51f9c94,Mangkok,0.4592194577661663,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_ef0854556175e2b0,Mangkok,6,leaf_c9d8d87fbc748d16,Mangkok,0.44167536111940253,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_ef0854556175e2b0,Mangkok,7,leaf_4de65b11758965f6,Mangkok,0.41982592708378785,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_ef0854556175e2b0,Mangkok,8,leaf_36d4f083fa652592,Mangkok,0.405994533461572,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_ef0854556175e2b0,Mangkok,9,leaf_a6da65cb0493ceef,Mangkok,0.40444694702874384,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_ef0854556175e2b0,Mangkok,10,leaf_41f02313a5460236,Tapak Kuda,0.39571264366098025,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_de455d31a4df8c43,Mangkok,1,leaf_8f09fd62c7391c0d,Mangkok,0.7872556066467586,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_de455d31a4df8c43,Mangkok,2,leaf_663a651dd51f9c94,Mangkok,0.663839044346893,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_de455d31a4df8c43,Mangkok,3,leaf_12439b9ebf0eb8d3,Mangkok,0.6402411389900221,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_de455d31a4df8c43,Mangkok,4,leaf_36d4f083fa652592,Mangkok,0.6351450063037621,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_de455d31a4df8c43,Mangkok,5,leaf_b0c5f55e42499cae,Mangkok,0.6252237389929765,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_de455d31a4df8c43,Mangkok,6,leaf_165d2f32c7fda707,Mangkok,0.5469642788093649,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_de455d31a4df8c43,Mangkok,7,leaf_de9e3e4ed5d89dfc,Mangkok,0.5426941181252571,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_de455d31a4df8c43,Mangkok,8,leaf_fff6592ee517103e,Mangkok,0.53628695096387,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_de455d31a4df8c43,Mangkok,9,leaf_4de65b11758965f6,Mangkok,0.5136699658894732,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_de455d31a4df8c43,Mangkok,10,leaf_a6da65cb0493ceef,Mangkok,0.48699901672320767,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_8809ccde35d4b945,Salam,1,leaf_e57489e729c801d7,Sambang Darah,0.5702228999650926,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_8809ccde35d4b945,Salam,2,leaf_eacbf33f28cb6b28,Sambang Darah,0.4585894811503115,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_8809ccde35d4b945,Salam,3,leaf_c29e2560b188fb2c,Salam,0.35475131043390745,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_8809ccde35d4b945,Salam,4,leaf_84de0dc731018607,Mangkok,0.31242384839614,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_8809ccde35d4b945,Salam,5,leaf_a21b39e63066049c,Sambang Darah,0.31055451893619473,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_8809ccde35d4b945,Salam,6,leaf_7be37d0f3c7e488a,Tapak Kuda,0.28927369462685787,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_8809ccde35d4b945,Salam,7,leaf_fdd0a74681efeff6,Salam,0.24608114875070497,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_8809ccde35d4b945,Salam,8,leaf_a7704c0316865cd7,Salam,0.24278254385555886,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_8809ccde35d4b945,Salam,9,leaf_62ef0ed49ad4e2d3,Sambang Darah,0.2352771532727901,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_8809ccde35d4b945,Salam,10,leaf_c4840a77b6d0c158,Salam,0.22699902424104712,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_68b0c81b496519cd,Salam,1,leaf_e57489e729c801d7,Sambang Darah,0.6879586173821397,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_68b0c81b496519cd,Salam,2,leaf_eacbf33f28cb6b28,Sambang Darah,0.564040036957482,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_68b0c81b496519cd,Salam,3,leaf_c29e2560b188fb2c,Salam,0.45888227390894787,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_68b0c81b496519cd,Salam,4,leaf_7be37d0f3c7e488a,Tapak Kuda,0.4516838053263765,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_68b0c81b496519cd,Salam,5,leaf_84de0dc731018607,Mangkok,0.4490328099865406,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_68b0c81b496519cd,Salam,6,leaf_ac463b36b6e61052,Salam,0.42137337401233244,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_68b0c81b496519cd,Salam,7,leaf_a21b39e63066049c,Sambang Darah,0.40804197323110675,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_68b0c81b496519cd,Salam,8,leaf_ad626da03abf4532,Sambang Darah,0.3712016210920289,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_68b0c81b496519cd,Salam,9,leaf_62ef0ed49ad4e2d3,Sambang Darah,0.35701032385554565,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_68b0c81b496519cd,Salam,10,leaf_1da6bca6d5320ae2,Salam,0.3468441966577047,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_a838808299383884,Salam,1,leaf_eacbf33f28cb6b28,Sambang Darah,0.5817734581116609,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_a838808299383884,Salam,2,leaf_ac463b36b6e61052,Salam,0.5747087713914206,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_a838808299383884,Salam,3,leaf_a7704c0316865cd7,Salam,0.4856042555005357,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_a838808299383884,Salam,4,leaf_fdd0a74681efeff6,Salam,0.4618352579447819,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_a838808299383884,Salam,5,leaf_0a8999109a734f1d,Salam,0.46023975485128665,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_a838808299383884,Salam,6,leaf_e57489e729c801d7,Sambang Darah,0.44403171539823333,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_a838808299383884,Salam,7,leaf_84de0dc731018607,Mangkok,0.38449481059482726,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_a838808299383884,Salam,8,leaf_7be37d0f3c7e488a,Tapak Kuda,0.360278022876618,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_a838808299383884,Salam,9,leaf_a21b39e63066049c,Sambang Darah,0.3391714998873369,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_a838808299383884,Salam,10,leaf_c29e2560b188fb2c,Salam,0.31130173437235076,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_d12754f94f5ff7fc,Salam,1,leaf_ac5e952a9ae56c36,Sambang Darah,0.6973469105627738,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_d12754f94f5ff7fc,Salam,2,leaf_6e53ecd8713a9128,Sambang Darah,0.6387383575217488,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_d12754f94f5ff7fc,Salam,3,leaf_0e58a931923c4e40,Sambang Darah,0.6265833683505976,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_d12754f94f5ff7fc,Salam,4,leaf_a57a1270adf22253,Salam,0.5481114503646408,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_d12754f94f5ff7fc,Salam,5,leaf_ca3c3b7a5db35c1d,Salam,0.5323161475249878,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_d12754f94f5ff7fc,Salam,6,leaf_9a710afa1505390e,Salam,0.5020296518907144,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_d12754f94f5ff7fc,Salam,7,leaf_22cacefa73426c68,Sambang Darah,0.48683874649676967,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_d12754f94f5ff7fc,Salam,8,leaf_c289208cb093f769,Sambang Darah,0.46846783514571155,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_d12754f94f5ff7fc,Salam,9,leaf_b8ebef3e9731e352,Salam,0.46524828261494355,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_d12754f94f5ff7fc,Salam,10,leaf_1da6bca6d5320ae2,Salam,0.4582021910784546,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_ad660412d798bd65,Sambang Darah,1,leaf_22cacefa73426c68,Sambang Darah,0.7147891327603489,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_ad660412d798bd65,Sambang Darah,2,leaf_1da6bca6d5320ae2,Salam,0.6422152952846797,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_ad660412d798bd65,Sambang Darah,3,leaf_ac5e952a9ae56c36,Sambang Darah,0.5745169701123866,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_ad660412d798bd65,Sambang Darah,4,leaf_c4840a77b6d0c158,Salam,0.564319801390458,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_ad660412d798bd65,Sambang Darah,5,leaf_b8ebef3e9731e352,Salam,0.5509520736908001,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_ad660412d798bd65,Sambang Darah,6,leaf_0e58a931923c4e40,Sambang Darah,0.5507764285748058,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_ad660412d798bd65,Sambang Darah,7,leaf_9a710afa1505390e,Salam,0.5485540373727765,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_ad660412d798bd65,Sambang Darah,8,leaf_6e53ecd8713a9128,Sambang Darah,0.5323957166599657,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_ad660412d798bd65,Sambang Darah,9,leaf_de9e3e4ed5d89dfc,Mangkok,0.4238335944977967,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_ad660412d798bd65,Sambang Darah,10,leaf_bb707568bb3ed9ce,Tapak Kuda,0.4197931086405673,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_b230b822f6a38f1c,Sambang Darah,1,leaf_22cacefa73426c68,Sambang Darah,0.736300243361301,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_b230b822f6a38f1c,Sambang Darah,2,leaf_1da6bca6d5320ae2,Salam,0.671305221347879,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_b230b822f6a38f1c,Sambang Darah,3,leaf_ac5e952a9ae56c36,Sambang Darah,0.6043111429657898,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_b230b822f6a38f1c,Sambang Darah,4,leaf_0e58a931923c4e40,Sambang Darah,0.5834232192796778,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_b230b822f6a38f1c,Sambang Darah,5,leaf_c4840a77b6d0c158,Salam,0.5819273511258318,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_b230b822f6a38f1c,Sambang Darah,6,leaf_9a710afa1505390e,Salam,0.5759983569105634,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_b230b822f6a38f1c,Sambang Darah,7,leaf_b8ebef3e9731e352,Salam,0.5730196895323366,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_b230b822f6a38f1c,Sambang Darah,8,leaf_6e53ecd8713a9128,Sambang Darah,0.5554713548796432,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_b230b822f6a38f1c,Sambang Darah,9,leaf_de9e3e4ed5d89dfc,Mangkok,0.43560030200524313,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_b230b822f6a38f1c,Sambang Darah,10,leaf_bb707568bb3ed9ce,Tapak Kuda,0.4320423358737766,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_3c3fafa9c7913736,Sambang Darah,1,leaf_62ef0ed49ad4e2d3,Sambang Darah,0.6503492186346614,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_3c3fafa9c7913736,Sambang Darah,2,leaf_df16548c53396aeb,Sambang Darah,0.6004968924760753,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_3c3fafa9c7913736,Sambang Darah,3,leaf_45d4826ed41c51b4,Sambang Darah,0.5733993012729103,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_3c3fafa9c7913736,Sambang Darah,4,leaf_e57489e729c801d7,Sambang Darah,0.5341190660142353,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_3c3fafa9c7913736,Sambang Darah,5,leaf_a21b39e63066049c,Sambang Darah,0.41970175082060274,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_3c3fafa9c7913736,Sambang Darah,6,leaf_c289208cb093f769,Sambang Darah,0.405796702987541,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_3c3fafa9c7913736,Sambang Darah,7,leaf_ca3c3b7a5db35c1d,Salam,0.3953096402605927,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_3c3fafa9c7913736,Sambang Darah,8,leaf_b8ebef3e9731e352,Salam,0.3857670558082143,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_3c3fafa9c7913736,Sambang Darah,9,leaf_a57a1270adf22253,Salam,0.38547248104577936,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_3c3fafa9c7913736,Sambang Darah,10,leaf_d0f42a660bf2b3ee,Sirih,0.35829259210047826,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_620d73b8cfb217b6,Sambang Darah,1,leaf_6e53ecd8713a9128,Sambang Darah,0.6597803027263265,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_620d73b8cfb217b6,Sambang Darah,2,leaf_ac5e952a9ae56c36,Sambang Darah,0.6134509299502056,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_620d73b8cfb217b6,Sambang Darah,3,leaf_0e58a931923c4e40,Sambang Darah,0.5210783410982431,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_620d73b8cfb217b6,Sambang Darah,4,leaf_b8ebef3e9731e352,Salam,0.46573064244639384,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_620d73b8cfb217b6,Sambang Darah,5,leaf_9a710afa1505390e,Salam,0.45536764752758896,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_620d73b8cfb217b6,Sambang Darah,6,leaf_22cacefa73426c68,Sambang Darah,0.4325827286008119,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_620d73b8cfb217b6,Sambang Darah,7,leaf_fff6592ee517103e,Mangkok,0.42272283124832355,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_620d73b8cfb217b6,Sambang Darah,8,leaf_1da6bca6d5320ae2,Salam,0.3991406070793663,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_620d73b8cfb217b6,Sambang Darah,9,leaf_36d4f083fa652592,Mangkok,0.3788256283821465,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_620d73b8cfb217b6,Sambang Darah,10,leaf_ca3c3b7a5db35c1d,Salam,0.35449958662762826,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_a280fa2ae09d329b,Sirih,1,leaf_6fcc4b52889490ca,Sirih,0.5595182786785977,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_a280fa2ae09d329b,Sirih,2,leaf_c8bf421408781594,Sirih,0.5012493742088536,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_a280fa2ae09d329b,Sirih,3,leaf_d0f42a660bf2b3ee,Sirih,0.47459258396812376,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_a280fa2ae09d329b,Sirih,4,leaf_66c00e535609f186,Sirih,0.47116798174112173,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_a280fa2ae09d329b,Sirih,5,leaf_6397705392627f3c,Sirih,0.4410469973268787,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_a280fa2ae09d329b,Sirih,6,leaf_2574445c571a7dc3,Sirih,0.4308993656056934,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_a280fa2ae09d329b,Sirih,7,leaf_6e53ecd8713a9128,Sambang Darah,0.4266854488420765,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_a280fa2ae09d329b,Sirih,8,leaf_4de65b11758965f6,Mangkok,0.4057513061651147,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_a280fa2ae09d329b,Sirih,9,leaf_1d4f34320b1b8b8d,Sirih,0.39978886486880927,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_a280fa2ae09d329b,Sirih,10,leaf_12439b9ebf0eb8d3,Mangkok,0.3943594841321662,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_347efec2afc78e44,Sirih,1,leaf_9dad4bfe9db99263,Sirih,0.5959896444654967,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_347efec2afc78e44,Sirih,2,leaf_338b7ee25be7d52d,Sirih,0.5475146324746332,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_347efec2afc78e44,Sirih,3,leaf_1193856cea5a1287,Sirih,0.511285674402812,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_347efec2afc78e44,Sirih,4,leaf_cef9b535077d5397,Tapak Kuda,0.4964224520162638,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_347efec2afc78e44,Sirih,5,leaf_8f09fd62c7391c0d,Mangkok,0.48134888283694865,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_347efec2afc78e44,Sirih,6,leaf_663a651dd51f9c94,Mangkok,0.4540695699906103,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_347efec2afc78e44,Sirih,7,leaf_b8ebef3e9731e352,Salam,0.4523272475711535,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_347efec2afc78e44,Sirih,8,leaf_5fafb790c4773c55,Tapak Kuda,0.44934982292102954,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_347efec2afc78e44,Sirih,9,leaf_de9e3e4ed5d89dfc,Mangkok,0.44889446768573527,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_347efec2afc78e44,Sirih,10,leaf_b0c5f55e42499cae,Mangkok,0.43114643110606166,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_57905de77bc7f811,Sirih,1,leaf_338b7ee25be7d52d,Sirih,0.6725175466274321,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_57905de77bc7f811,Sirih,2,leaf_9dad4bfe9db99263,Sirih,0.6239775498408947,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_57905de77bc7f811,Sirih,3,leaf_1193856cea5a1287,Sirih,0.5401454378044108,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_57905de77bc7f811,Sirih,4,leaf_1d4f34320b1b8b8d,Sirih,0.4068322853174072,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_57905de77bc7f811,Sirih,5,leaf_b8ebef3e9731e352,Salam,0.3780582462247168,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_57905de77bc7f811,Sirih,6,leaf_c8bf421408781594,Sirih,0.3489816760532747,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_57905de77bc7f811,Sirih,7,leaf_de9e3e4ed5d89dfc,Mangkok,0.34251688767133703,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_57905de77bc7f811,Sirih,8,leaf_45d4826ed41c51b4,Sambang Darah,0.3403955188119603,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_57905de77bc7f811,Sirih,9,leaf_cef9b535077d5397,Tapak Kuda,0.34004948136871815,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_57905de77bc7f811,Sirih,10,leaf_b0c5f55e42499cae,Mangkok,0.3293094467920904,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_7f9c59b7594e5833,Sirih,1,leaf_1193856cea5a1287,Sirih,0.7183476916456619,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_7f9c59b7594e5833,Sirih,2,leaf_afba9495e801278e,Sirih,0.6137479144147013,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_7f9c59b7594e5833,Sirih,3,leaf_d0f42a660bf2b3ee,Sirih,0.5728304553218552,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_7f9c59b7594e5833,Sirih,4,leaf_338b7ee25be7d52d,Sirih,0.4951974821747974,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_7f9c59b7594e5833,Sirih,5,leaf_6fcc4b52889490ca,Sirih,0.43648978418036416,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_7f9c59b7594e5833,Sirih,6,leaf_9dad4bfe9db99263,Sirih,0.43423682509003664,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_7f9c59b7594e5833,Sirih,7,leaf_8d727458048a81c7,Tapak Kuda,0.4025777385091784,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_7f9c59b7594e5833,Sirih,8,leaf_12439b9ebf0eb8d3,Mangkok,0.3964198226622939,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_7f9c59b7594e5833,Sirih,9,leaf_41f02313a5460236,Tapak Kuda,0.39393822221284475,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_7f9c59b7594e5833,Sirih,10,leaf_193e4fc967161d9a,Tapak Kuda,0.38580760006306236,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_328651beb5d48483,Tapak Kuda,1,leaf_8129d1a748a118de,Tapak Kuda,0.7775732738222069,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_328651beb5d48483,Tapak Kuda,2,leaf_193e4fc967161d9a,Tapak Kuda,0.7402516225175877,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_328651beb5d48483,Tapak Kuda,3,leaf_d19ceb083d0a7e82,Tapak Kuda,0.7208033510440226,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_328651beb5d48483,Tapak Kuda,4,leaf_8d727458048a81c7,Tapak Kuda,0.7205201414908503,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_328651beb5d48483,Tapak Kuda,5,leaf_acea8a79416b27c0,Tapak Kuda,0.6985535105159003,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_328651beb5d48483,Tapak Kuda,6,leaf_cef9b535077d5397,Tapak Kuda,0.6832145875831533,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_328651beb5d48483,Tapak Kuda,7,leaf_549670d83912aed7,Tapak Kuda,0.656684777746235,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_328651beb5d48483,Tapak Kuda,8,leaf_7be37d0f3c7e488a,Tapak Kuda,0.6209705759073163,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_328651beb5d48483,Tapak Kuda,9,leaf_41f02313a5460236,Tapak Kuda,0.61476788794303,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_328651beb5d48483,Tapak Kuda,10,leaf_5fafb790c4773c55,Tapak Kuda,0.5978885747567998,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_2976a10d6fff3cd5,Tapak Kuda,1,leaf_84de0dc731018607,Mangkok,0.6435413753615234,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_2976a10d6fff3cd5,Tapak Kuda,2,leaf_7be37d0f3c7e488a,Tapak Kuda,0.6104058232105883,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_2976a10d6fff3cd5,Tapak Kuda,3,leaf_41f02313a5460236,Tapak Kuda,0.5870015380184963,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_2976a10d6fff3cd5,Tapak Kuda,4,leaf_cef9b535077d5397,Tapak Kuda,0.49956012145537554,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_2976a10d6fff3cd5,Tapak Kuda,5,leaf_d19ceb083d0a7e82,Tapak Kuda,0.4988330271661163,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_2976a10d6fff3cd5,Tapak Kuda,6,leaf_5fafb790c4773c55,Tapak Kuda,0.4914006186255503,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_2976a10d6fff3cd5,Tapak Kuda,7,leaf_eacbf33f28cb6b28,Sambang Darah,0.48788112861995525,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_2976a10d6fff3cd5,Tapak Kuda,8,leaf_8129d1a748a118de,Tapak Kuda,0.47957564972679834,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_2976a10d6fff3cd5,Tapak Kuda,9,leaf_4de65b11758965f6,Mangkok,0.46188099553768125,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_2976a10d6fff3cd5,Tapak Kuda,10,leaf_193e4fc967161d9a,Tapak Kuda,0.46084565506564024,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_25803393f335987a,Tapak Kuda,1,leaf_acea8a79416b27c0,Tapak Kuda,0.8740261195943394,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_25803393f335987a,Tapak Kuda,2,leaf_8d727458048a81c7,Tapak Kuda,0.7646444158881495,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_25803393f335987a,Tapak Kuda,3,leaf_193e4fc967161d9a,Tapak Kuda,0.7599633444178846,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_25803393f335987a,Tapak Kuda,4,leaf_5fafb790c4773c55,Tapak Kuda,0.7045581457764953,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_25803393f335987a,Tapak Kuda,5,leaf_d19ceb083d0a7e82,Tapak Kuda,0.6617348773090754,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_25803393f335987a,Tapak Kuda,6,leaf_28712bf465655732,Tapak Kuda,0.6598641831743021,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_25803393f335987a,Tapak Kuda,7,leaf_41f02313a5460236,Tapak Kuda,0.625446518373537,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_25803393f335987a,Tapak Kuda,8,leaf_bb707568bb3ed9ce,Tapak Kuda,0.6150959564344322,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_25803393f335987a,Tapak Kuda,9,leaf_721244faca19b94f,Tapak Kuda,0.5987791793053676,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_25803393f335987a,Tapak Kuda,10,leaf_43ae297ca838aebb,Tapak Kuda,0.5892942350681996,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_012389d8d324b6c8,Tapak Kuda,1,leaf_acea8a79416b27c0,Tapak Kuda,0.910482734114231,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_012389d8d324b6c8,Tapak Kuda,2,leaf_5fafb790c4773c55,Tapak Kuda,0.755235047070599,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_012389d8d324b6c8,Tapak Kuda,3,leaf_8d727458048a81c7,Tapak Kuda,0.7324088163051755,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_012389d8d324b6c8,Tapak Kuda,4,leaf_193e4fc967161d9a,Tapak Kuda,0.7259674683795729,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_012389d8d324b6c8,Tapak Kuda,5,leaf_8129d1a748a118de,Tapak Kuda,0.6355863490572105,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_012389d8d324b6c8,Tapak Kuda,6,leaf_d19ceb083d0a7e82,Tapak Kuda,0.6353947764338361,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_012389d8d324b6c8,Tapak Kuda,7,leaf_28712bf465655732,Tapak Kuda,0.6298398800688314,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_012389d8d324b6c8,Tapak Kuda,8,leaf_549670d83912aed7,Tapak Kuda,0.6125025454324942,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_012389d8d324b6c8,Tapak Kuda,9,leaf_41f02313a5460236,Tapak Kuda,0.5975778565665681,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_012389d8d324b6c8,Tapak Kuda,10,leaf_bb707568bb3ed9ce,Tapak Kuda,0.5891929395335362,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_055c97f32cf57da5,Tapak Kuda,1,leaf_41f02313a5460236,Tapak Kuda,0.652979535915386,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_055c97f32cf57da5,Tapak Kuda,2,leaf_84de0dc731018607,Mangkok,0.6457302447582619,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_055c97f32cf57da5,Tapak Kuda,3,leaf_7be37d0f3c7e488a,Tapak Kuda,0.6139765171848642,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_055c97f32cf57da5,Tapak Kuda,4,leaf_5fafb790c4773c55,Tapak Kuda,0.508563594997555,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_055c97f32cf57da5,Tapak Kuda,5,leaf_cef9b535077d5397,Tapak Kuda,0.5049716062901068,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_055c97f32cf57da5,Tapak Kuda,6,leaf_eacbf33f28cb6b28,Sambang Darah,0.48751785206229964,False
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_055c97f32cf57da5,Tapak Kuda,7,leaf_8129d1a748a118de,Tapak Kuda,0.4778033770843457,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_055c97f32cf57da5,Tapak Kuda,8,leaf_193e4fc967161d9a,Tapak Kuda,0.468683796493457,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_055c97f32cf57da5,Tapak Kuda,9,leaf_d19ceb083d0a7e82,Tapak Kuda,0.4648009776301724,True
+validation,Weighted Fusion,Unigram + Bigram,0.3,leaf_055c97f32cf57da5,Tapak Kuda,10,leaf_4de65b11758965f6,Mangkok,0.45912535943783406,False

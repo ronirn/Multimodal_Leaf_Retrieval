@@ -1,0 +1,23 @@
+{
+  "notebook": "06_multimodal_retrieval_evaluation.ipynb",
+  "cell": 16,
+  "status": "PROVISIONAL_AUDIT_UNRESOLVED",
+  "selected_text_configuration": "Unigram + Bigram",
+  "selected_alpha": 0.3,
+  "selection_lock_sha256": "6c4d7c1ccc217a8a69142079fee9c648e4d1d16728cd3a2dfcf5639d18e244aa",
+  "test_queries": 21,
+  "gallery_size": 62,
+  "top1_correct_count": 21,
+  "top1_error_count": 0,
+  "top5_hit_count": 21,
+  "top5_miss_count": 0,
+  "top1_accuracy": 1.0,
+  "top5_hit_rate": 1.0,
+  "test_used_for_parameter_selection": false,
+  "known_limitations": [
+    "44 visually similar cross-split pairs remain subject to specimen review",
+    "4 repeated-description groups cross partitions",
+    "Specimen provenance and Notebook 03 visual extractor equivalence unverified"
+  ],
+  "next_cell": "Cell 17 - Error Case Study and Retrieval Examples"
+}
