@@ -1,0 +1,104 @@
+{
+  "classes": {
+    "Mangkok": {
+      "source": "dataset/raw/daun_mangkok/foto depan/mangkok 7.png",
+      "card": "images/dataset/mangkok_card.jpg",
+      "texture": "images/dataset/mangkok_texture.jpg",
+      "thumb": "images/dataset/mangkok_thumb.jpg",
+      "card_box": [
+        146,
+        0,
+        1102,
+        1195
+      ],
+      "texture_box": [
+        439,
+        358,
+        810,
+        836
+      ]
+    },
+    "Salam": {
+      "source": "dataset/raw/daun_salam/foto depan/daun salam 9.png",
+      "card": "images/dataset/salam_card.jpg",
+      "texture": "images/dataset/salam_texture.jpg",
+      "thumb": "images/dataset/salam_thumb.jpg",
+      "card_box": [
+        135,
+        0,
+        1138,
+        1254
+      ],
+      "texture_box": [
+        441,
+        376,
+        832,
+        878
+      ]
+    },
+    "Sambang Darah": {
+      "source": "dataset/raw/daun_sambang_darah/foto depan/sambang darah 6.png",
+      "card": "images/dataset/sambang-darah_card.jpg",
+      "texture": "images/dataset/sambang-darah_texture.jpg",
+      "thumb": "images/dataset/sambang-darah_thumb.jpg",
+      "card_box": [
+        66,
+        0,
+        1254,
+        1254
+      ],
+      "texture_box": [
+        422,
+        322,
+        898,
+        932
+      ]
+    },
+    "Sirih": {
+      "source": "dataset/raw/daun_sirih/foto depan/sirih 5.jpeg",
+      "card": "images/dataset/sirih_card.jpg",
+      "texture": "images/dataset/sirih_texture.jpg",
+      "thumb": "images/dataset/sirih_thumb.jpg",
+      "card_box": [
+        0,
+        0,
+        960,
+        1280
+      ],
+      "texture_box": [
+        281,
+        384,
+        679,
+        896
+      ]
+    },
+    "Tapak Kuda": {
+      "source": "dataset/raw/daun_tapak_kuda/foto depan/tapak kuda 12.png",
+      "card": "images/dataset/tapak-kuda_card.jpg",
+      "texture": "images/dataset/tapak-kuda_texture.jpg",
+      "thumb": "images/dataset/tapak-kuda_thumb.jpg",
+      "card_box": [
+        0,
+        0,
+        1122,
+        1402
+      ],
+      "texture_box": [
+        351,
+        421,
+        787,
+        981
+      ]
+    }
+  },
+  "hero": {
+    "source": "dataset/raw/daun_mangkok/foto depan/mangkok 7.png",
+    "box": [
+      300,
+      500,
+      1000,
+      780
+    ],
+    "file": "images/dataset/hero.jpg"
+  }
+}

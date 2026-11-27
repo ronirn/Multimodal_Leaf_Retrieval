@@ -1,0 +1,7 @@
+﻿comparison,rows_compared,expected_rows,max_abs_diff,tolerance,passed
+Validation macro (654),20,20,0.0,1e-09,True
+Validation per class (655),100,100,0.0,1e-09,True
+Alpha grid macro (663),88,88,0.0,1e-09,True
+Selected configuration by K (672),4,4,0.0,1e-09,True
+Test macro (718),12,12,0.0,1e-09,True
+Test per class (719),60,60,0.0,1e-09,True

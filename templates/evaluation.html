@@ -1,0 +1,509 @@
+
+{% extends "base.html" %}
+
+{% block title %}Evaluation{% endblock %}
+
+{% block content %}
+
+{% set e = evaluation if evaluation is defined and evaluation else {} %}
+{% set splits = e.get("split_counts", {}) %}
+{% set comparison = e.get("comparison", []) %}
+{% set validation_score = e.get("validation_map5") %}
+{% set alpha = e.get("alpha", 0.3) %}
+{% set test_status = e.get("test_status", "NOT_AVAILABLE") %}
+
+<!-- HEADER -->
+<div class="mb-8">
+    <h1 class="text-[26px] font-semibold text-ink-700">
+        Model Evaluation
+    </h1>
+    <p class="mt-2 text-sm text-ink-500">
+        Evaluate the retrieval performance of visual, textual,
+        and multimodal feature configurations.
+    </p>
+</div>
+
+
+<!-- METRIC OVERVIEW -->
+<div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-5 mb-8">
+
+    <div class="bg-white rounded-2xl p-6 shadow-soft">
+        <p class="text-xs font-medium text-ink-500">
+            Validation mAP@5
+        </p>
+
+        <p class="text-[30px] font-semibold text-forest-900 mt-3">
+            {% if validation_score is not none %}
+                {{ "%.4f"|format(validation_score) }}
+            {% else %}
+                —
+            {% endif %}
+        </p>
+
+        <p class="text-xs text-ink-500 mt-2">
+            Selected multimodal configuration
+        </p>
+    </div>
+
+    <div class="bg-white rounded-2xl p-6 shadow-soft">
+        <p class="text-xs font-medium text-ink-500">
+            Gallery Samples
+        </p>
+
+        <p class="text-[30px] font-semibold text-forest-900 mt-3">
+            {{ splits.get("gallery", "—") }}
+        </p>
+
+        <p class="text-xs text-ink-500 mt-2">
+            Reference images for retrieval
+        </p>
+    </div>
+
+    <div class="bg-white rounded-2xl p-6 shadow-soft">
+        <p class="text-xs font-medium text-ink-500">
+            Validation Samples
+        </p>
+
+        <p class="text-[30px] font-semibold text-forest-900 mt-3">
+            {{ splits.get("validation", "—") }}
+        </p>
+
+        <p class="text-xs text-ink-500 mt-2">
+            Used for configuration evaluation
+        </p>
+    </div>
+
+    <div class="bg-white rounded-2xl p-6 shadow-soft">
+        <p class="text-xs font-medium text-ink-500">
+            Test Samples
+        </p>
+
+        <p class="text-[30px] font-semibold text-forest-900 mt-3">
+            {{ splits.get("test", "—") }}
+        </p>
+
+        <p class="text-xs text-ink-500 mt-2">
+            Held-out evaluation samples
+        </p>
+    </div>
+
+</div>
+
+
+<!-- PERFORMANCE COMPARISON -->
+<section class="bg-white rounded-2xl p-7 shadow-soft mb-7">
+
+    <div class="flex flex-wrap items-start justify-between gap-4 mb-8">
+        <div>
+            <h2 class="text-lg font-semibold text-forest-900">
+                Retrieval Performance Comparison
+            </h2>
+            <p class="text-xs text-ink-500 mt-2">
+                Comparison of three retrieval configurations
+                based on validation mAP@5.
+            </p>
+        </div>
+
+        <span class="text-xs text-gold-600 font-medium">
+            Metric: mAP@5
+        </span>
+    </div>
+
+    {% if comparison %}
+
+        <div class="space-y-8">
+
+            {% for item in comparison %}
+
+                <div>
+
+                    <div class="flex items-center justify-between gap-4 mb-3">
+
+                        <div class="flex items-center gap-3">
+                            <span class="text-sm font-semibold text-forest-900">
+                                {{ item.label }}
+                            </span>
+
+                            {% if item.is_selected %}
+                                <span class="text-xs text-gold-600">
+                                    Selected
+                                </span>
+                            {% endif %}
+                        </div>
+
+                        <span class="text-sm font-semibold text-forest-900">
+                            {{ "%.4f"|format(item.map_at_5) }}
+                        </span>
+
+                    </div>
+
+                    <div class="w-full h-4 rounded-full bg-sage-100 overflow-hidden">
+
+                        <div
+                            class="h-full rounded-full {% if item.is_selected %}bg-forest-900{% else %}bg-gold-400{% endif %}"
+                            style="width: {{ [100, [0, item.map_at_5 * 100]|max]|min }}%;"
+                        ></div>
+
+                    </div>
+
+                </div>
+
+            {% endfor %}
+
+        </div>
+
+    {% else %}
+
+        <div class="py-12 text-center border border-dashed border-sage-200 rounded-xl">
+
+            <p class="text-sm font-semibold text-forest-900">
+                Performance comparison not loaded yet
+            </p>
+
+            <p class="text-xs text-ink-500 mt-2">
+                The Visual Only, Text Only, and Multimodal Fusion
+                scores will be loaded from the experiment results.
+            </p>
+
+        </div>
+
+    {% endif %}
+
+    <div class="mt-8 pt-5 border-t border-sage-100">
+        <p class="text-xs leading-6 text-ink-500">
+            Higher mAP@5 indicates better retrieval ranking performance
+            across the evaluated queries. All configurations must
+            be compared using the same validation split.
+        </p>
+    </div>
+
+</section>
+
+
+<!-- RETRIEVAL CONFIGURATION -->
+<div class="grid grid-cols-1 xl:grid-cols-2 gap-6 mb-7">
+
+    <!-- FEATURE CONFIGURATION -->
+    <section class="bg-white rounded-2xl p-7 shadow-soft">
+
+        <h2 class="text-lg font-semibold text-forest-900 mb-2">
+            Feature Configuration
+        </h2>
+
+        <p class="text-xs text-ink-500 mb-7">
+            Feature extraction and similarity methods.
+        </p>
+
+        <div class="space-y-5">
+
+            <div class="flex items-start justify-between gap-4 border-b border-sage-100 pb-4">
+                <div>
+                    <p class="text-sm font-semibold text-forest-900">
+                        HSV Histogram
+                    </p>
+                    <p class="text-xs text-ink-500 mt-1">
+                        Color characteristics
+                    </p>
+                </div>
+                <span class="text-sm font-medium text-ink-700">
+                    64 features
+                </span>
+            </div>
+
+            <div class="flex items-start justify-between gap-4 border-b border-sage-100 pb-4">
+                <div>
+                    <p class="text-sm font-semibold text-forest-900">
+                        GLCM
+                    </p>
+                    <p class="text-xs text-ink-500 mt-1">
+                        Texture characteristics
+                    </p>
+                </div>
+                <span class="text-sm font-medium text-ink-700">
+                    72 features
+                </span>
+            </div>
+
+            <div class="flex items-start justify-between gap-4 border-b border-sage-100 pb-4">
+                <div>
+                    <p class="text-sm font-semibold text-forest-900">
+                        Hu Moments
+                    </p>
+                    <p class="text-xs text-ink-500 mt-1">
+                        Shape characteristics
+                    </p>
+                </div>
+                <span class="text-sm font-medium text-ink-700">
+                    7 features
+                </span>
+            </div>
+
+            <div class="flex items-start justify-between gap-4 border-b border-sage-100 pb-4">
+                <div>
+                    <p class="text-sm font-semibold text-forest-900">
+                        TF-IDF
+                    </p>
+                    <p class="text-xs text-ink-500 mt-1">
+                        {{ e.get("text_configuration", "Unigram + Bigram") }}
+                    </p>
+                </div>
+                <span class="text-sm font-medium text-ink-700">
+                    233 features
+                </span>
+            </div>
+
+            <div class="flex items-start justify-between gap-4">
+                <div>
+                    <p class="text-sm font-semibold text-forest-900">
+                        Similarity Methods
+                    </p>
+                    <p class="text-xs text-ink-500 mt-1">
+                        Image and text matching
+                    </p>
+                </div>
+                <div class="text-right text-xs text-ink-700 leading-6">
+                    <p>Euclidean Distance</p>
+                    <p>Cosine Similarity</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FUSION CONFIGURATION -->
+    <section class="bg-white rounded-2xl p-7 shadow-soft">
+
+        <h2 class="text-lg font-semibold text-forest-900 mb-2">
+            Multimodal Fusion
+        </h2>
+
+        <p class="text-xs text-ink-500 mb-8">
+            Weighted Score-Level Late Fusion
+        </p>
+
+        <div class="flex items-center justify-between mb-3">
+            <span class="text-sm text-ink-700">
+                Visual Modality
+            </span>
+            <span class="text-sm font-semibold text-forest-900">
+                {{ "%.0f"|format(alpha * 100) }}%
+            </span>
+        </div>
+
+        <div class="w-full h-3 bg-sage-100 rounded-full overflow-hidden mb-7">
+            <div
+                class="h-full bg-forest-900 rounded-full"
+                style="width: {{ alpha * 100 }}%;"
+            ></div>
+        </div>
+
+        <div class="flex items-center justify-between mb-3">
+            <span class="text-sm text-ink-700">
+                Text Modality
+            </span>
+            <span class="text-sm font-semibold text-forest-900">
+                {{ "%.0f"|format((1 - alpha) * 100) }}%
+            </span>
+        </div>
+
+        <div class="w-full h-3 bg-sage-100 rounded-full overflow-hidden mb-8">
+            <div
+                class="h-full bg-gold-400 rounded-full"
+                style="width: {{ (1 - alpha) * 100 }}%;"
+            ></div>
+        </div>
+
+        <div class="rounded-xl bg-sage-50 p-5">
+            <p class="text-xs font-semibold text-forest-900 mb-3">
+                Fusion Formula
+            </p>
+
+            <p class="text-sm font-medium text-ink-700">
+                S<sub>final</sub> =
+                {{ "%.2f"|format(alpha) }} × S<sub>visual</sub>
+                +
+                {{ "%.2f"|format(1 - alpha) }} × S<sub>text</sub>
+            </p>
+        </div>
+
+        <p class="text-xs text-ink-500 leading-6 mt-6">
+            Individual similarity scores are combined after feature
+            extraction. Candidates are ranked by their final
+            fusion scores.
+        </p>
+
+    </section>
+
+</div>
+
+
+<!-- DATASET OVERVIEW -->
+<section class="bg-white rounded-2xl p-7 shadow-soft mb-7">
+
+    <h2 class="text-lg font-semibold text-forest-900">
+        Dataset Distribution
+    </h2>
+
+    <p class="text-xs text-ink-500 mt-2 mb-7">
+        Gallery, validation, and test partitions.
+    </p>
+
+    {% set total = e.get("total_samples", 0) %}
+
+    {% if total > 0 %}
+
+        <div class="flex w-full h-6 rounded-lg overflow-hidden">
+
+            <div
+                class="bg-forest-900"
+                style="width: {{ splits.get('gallery', 0) / total * 100 }}%"
+                title="Gallery"
+            ></div>
+
+            <div
+                class="bg-gold-400"
+                style="width: {{ splits.get('validation', 0) / total * 100 }}%"
+                title="Validation"
+            ></div>
+
+            <div
+                class="bg-sage-400"
+                style="width: {{ splits.get('test', 0) / total * 100 }}%"
+                title="Test"
+            ></div>
+
+        </div>
+
+    {% else %}
+
+        <div class="h-6 w-full bg-sage-100 rounded-lg"></div>
+
+    {% endif %}
+
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-5 mt-7">
+
+        <div class="flex items-center gap-3">
+            <div class="w-3 h-3 rounded-sm bg-forest-900"></div>
+            <div>
+                <p class="text-sm font-semibold text-forest-900">
+                    Gallery
+                </p>
+                <p class="text-xs text-ink-500 mt-1">
+                    {{ splits.get("gallery", "—") }} samples
+                </p>
+            </div>
+        </div>
+
+        <div class="flex items-center gap-3">
+            <div class="w-3 h-3 rounded-sm bg-gold-400"></div>
+            <div>
+                <p class="text-sm font-semibold text-forest-900">
+                    Validation
+                </p>
+                <p class="text-xs text-ink-500 mt-1">
+                    {{ splits.get("validation", "—") }} samples
+                </p>
+            </div>
+        </div>
+
+        <div class="flex items-center gap-3">
+            <div class="w-3 h-3 rounded-sm bg-sage-400"></div>
+            <div>
+                <p class="text-sm font-semibold text-forest-900">
+                    Test
+                </p>
+                <p class="text-xs text-ink-500 mt-1">
+                    {{ splits.get("test", "—") }} samples
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- EXPERIMENT STATUS -->
+<section class="bg-white rounded-2xl p-7 shadow-soft mb-7">
+
+    <h2 class="text-lg font-semibold text-forest-900">
+        Experiment Status
+    </h2>
+
+    <p class="text-xs text-ink-500 mt-2 mb-6">
+        Evaluation provenance and interpretation.
+    </p>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+        <div>
+            <p class="text-xs text-ink-500">
+                Experiment Run
+            </p>
+
+            <p class="text-sm font-medium text-forest-900 mt-2 break-all">
+                {{ e.get("run_id", "Not loaded") }}
+            </p>
+        </div>
+
+        <div>
+            <p class="text-xs text-ink-500">
+                Test Evaluation Status
+            </p>
+
+            <p class="text-sm font-medium text-forest-900 mt-2">
+                {{ test_status|replace("_", " ") }}
+            </p>
+        </div>
+
+    </div>
+
+    {% if test_status == "PROVISIONAL_AUDIT_UNRESOLVED" %}
+
+        <div class="mt-7 border-l-2 border-gold-400 bg-sage-50 rounded-r-xl p-5">
+            <p class="text-sm font-semibold text-forest-900">
+                Test Results Are Provisional
+            </p>
+
+            <p class="text-xs text-ink-600 leading-6 mt-2">
+                The test evaluation has unresolved audit findings.
+                Its performance must not be presented as a final
+                independently validated result. Validation results
+                and test results should be interpreted separately.
+            </p>
+        </div>
+
+    {% endif %}
+
+</section>
+
+
+<!-- METRIC EXPLANATION -->
+<section class="bg-white rounded-2xl p-7 shadow-soft">
+
+    <h2 class="text-lg font-semibold text-forest-900 mb-5">
+        Understanding the Evaluation Metric
+    </h2>
+
+    <h3 class="text-sm font-semibold text-forest-900">
+        Mean Average Precision at 5 (mAP@5)
+    </h3>
+
+    <p class="text-sm text-ink-600 leading-7 mt-3">
+        mAP@5 evaluates how effectively relevant medicinal leaf
+        samples are ranked within the first five retrieval results.
+        Average Precision at 5 is calculated for each query,
+        and the average across queries produces mAP@5.
+    </p>
+
+    <p class="text-sm text-ink-600 leading-7 mt-3">
+        A higher score indicates better ranking performance on
+        the evaluated split. It does not, by itself, establish
+        performance on new photographs outside the dataset.
+    </p>
+
+</section>
+
+{% endblock %}

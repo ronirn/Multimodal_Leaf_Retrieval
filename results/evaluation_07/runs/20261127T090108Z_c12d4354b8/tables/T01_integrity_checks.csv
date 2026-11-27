@@ -1,0 +1,59 @@
+﻿category,check,passed,severity_if_failed,detail,stage
+Run,Selected run is technically complete,True,BLOCK,,Cell 1 setup
+Run,"Handoff, manifest and folder carry the same run_id",True,BLOCK,,Cell 1 setup
+Run,Selected run is the latest completed run,True,REVIEW,latest=20261127T090108Z_c12d4354b8,Cell 1 setup
+Run,Pointer paths refer to this computer,True,INFO,"pointer from another computer/OS: run_id used, paths ignored",Cell 1 setup
+Lock,Handoff configuration equals selection lock,True,BLOCK,,Cell 1 setup
+Lock,Lock SHA-256 equals handoff and manifest fingerprints,True,BLOCK,,Cell 1 setup
+Lock,Lock declares validation-only selection,True,BLOCK,,Cell 1 setup
+Status,Test is not labelled independent when previously inspected,True,BLOCK,,Cell 1 setup
+Files,All required files present,True,BLOCK,[],Cell 2 integrity
+Files,Optional files present,True,REVIEW,[],Cell 2 integrity
+Schema,Required columns present,True,BLOCK,[],Cell 2 integrity
+Partitions,104 unique sample IDs,True,BLOCK,,Cell 2 integrity
+Partitions,Five expected classes,True,BLOCK,"['Mangkok', 'Salam', 'Sambang Darah', 'Sirih', 'Tapak Kuda']",Cell 2 integrity
+Partitions,Gallery/validation/test disjoint,True,BLOCK,"{'gallery': 62, 'validation': 21, 'test': 21}",Cell 2 integrity
+Partitions,Validation per-query IDs == validation partition,True,BLOCK,,Cell 2 integrity
+Partitions,Test per-query IDs == test partition,True,BLOCK,,Cell 2 integrity
+Partitions,val_rankings: candidates come from gallery only,True,BLOCK,,Cell 2 integrity
+Partitions,test_rankings: candidates come from gallery only,True,BLOCK,,Cell 2 integrity
+Partitions,test_baseline_rankings: candidates come from gallery only,True,BLOCK,,Cell 2 integrity
+Partitions,alpha_top10: candidates come from gallery only,True,BLOCK,,Cell 2 integrity
+Partitions,Stored class labels agree with split inventory,True,BLOCK,,Cell 2 integrity
+Duplicates,"val_per_query: unique by ['method', 'query_sample_id', 'k']",True,BLOCK,duplicates=0,Cell 2 integrity
+Duplicates,"alpha_per_query: unique by ['text_configuration', 'alpha', 'query_sample_id', 'k']",True,BLOCK,duplicates=0,Cell 2 integrity
+Duplicates,"test_per_query: unique by ['method', 'query_sample_id', 'k']",True,BLOCK,duplicates=0,Cell 2 integrity
+Duplicates,"val_rankings: unique by ['method', 'query_sample_id', 'gallery_sample_id']",True,BLOCK,duplicates=0,Cell 2 integrity
+Duplicates,"val_rankings: unique by ['method', 'query_sample_id', 'rank']",True,BLOCK,duplicates=0,Cell 2 integrity
+Duplicates,"test_rankings: unique by ['query_sample_id', 'gallery_sample_id']",True,BLOCK,duplicates=0,Cell 2 integrity
+Duplicates,"test_baseline_rankings: unique by ['method', 'query_sample_id', 'gallery_sample_id']",True,BLOCK,duplicates=0,Cell 2 integrity
+Duplicates,"alpha_top10: unique by ['text_configuration', 'alpha', 'query_sample_id', 'gallery_sample_id']",True,BLOCK,duplicates=0,Cell 2 integrity
+Values,"val_per_query: metrics finite and in [0, 1]",True,BLOCK,,Cell 2 integrity
+Values,"val_per_query: K values = (1, 3, 5, 10)",True,BLOCK,,Cell 2 integrity
+Values,"alpha_per_query: metrics finite and in [0, 1]",True,BLOCK,,Cell 2 integrity
+Values,"alpha_per_query: K values = (1, 3, 5, 10)",True,BLOCK,,Cell 2 integrity
+Values,"test_per_query: metrics finite and in [0, 1]",True,BLOCK,,Cell 2 integrity
+Values,"test_per_query: K values = (1, 3, 5, 10)",True,BLOCK,,Cell 2 integrity
+Values,"val_macro: macro metrics finite and in [0, 1]",True,BLOCK,,Cell 2 integrity
+Values,"alpha_macro: macro metrics finite and in [0, 1]",True,BLOCK,,Cell 2 integrity
+Values,"test_macro: macro metrics finite and in [0, 1]",True,BLOCK,,Cell 2 integrity
+Values,"selected_by_k: macro metrics finite and in [0, 1]",True,BLOCK,,Cell 2 integrity
+Values,"Ranking similarities finite and in [0, 1]",True,BLOCK,,Cell 2 integrity
+Lock,Frozen test ranking uses the locked TF-IDF and alpha,True,BLOCK,,Cell 2 integrity
+Lock,Test fusion score = alpha*visual + (1-alpha)*text,True,BLOCK,,Cell 2 integrity
+Lock,672 selected metrics refer to locked configuration,True,BLOCK,,Cell 2 integrity
+Lock,Selected method present in test macro table,True,BLOCK,,Cell 2 integrity
+Single run,All inventory paths belong to the source run,True,BLOCK,,Cell 2 integrity
+Single run,Status columns equal the handoff test status,True,BLOCK,,Cell 2 integrity
+Single run,Pre-test summary status equals handoff,True,BLOCK,,Cell 2 integrity
+Single run,Manifest split fingerprint equals lock,True,BLOCK,,Cell 2 integrity
+Single run,Manifest feature fingerprint equals lock,True,BLOCK,,Cell 2 integrity
+SHA-256,Inventory files present locally match recorded SHA-256 (except 600),True,REVIEW,"{'match': 177, 'mismatch': 1}; unexpected=[]",Cell 2 integrity
+SHA-256,All metrics-folder files of the inventory are present locally,True,REVIEW,[],Cell 2 integrity
+SHA-256,Notebook 06 figures/artifacts present locally (not required by Notebook 07),True,INFO,missing: {},Cell 2 integrity
+SHA-256,600_run_manifest.json rewritten after inventory (known Notebook 06 ordering),True,INFO,hash differs because Cell 20 re-saves the manifest after writing 750,Cell 2 integrity
+Notebook 06 audit,Notebook 06 final technical checks all passed,True,BLOCK,25/25 (technical only),Cell 2 integrity
+Per-query,All per-query metrics reproduced within tolerance,True,BLOCK,max diff 0.00e+00,Cell 3 verification
+Macro,All macro / per-class tables reproduced within tolerance,True,BLOCK,max diff 0.00e+00,Cell 3 verification
+Ranking,All saved rankings follow score-desc/sample_id-asc and cover the gallery,True,BLOCK,,Cell 3 verification
+Lock,Selection lock reproduces from saved validation evidence,True,BLOCK,,Cell 3 verification

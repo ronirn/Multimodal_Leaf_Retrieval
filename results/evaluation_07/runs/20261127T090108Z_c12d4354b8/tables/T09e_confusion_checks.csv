@@ -1,0 +1,3 @@
+﻿partition,matches_notebook06_matrix,total_equals_queries,diagonal_equals_top1_correct,top1_correct,queries
+validation,True,True,True,16,21
+test,True,True,True,21,21

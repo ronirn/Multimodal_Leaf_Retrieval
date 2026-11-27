@@ -1,0 +1,5 @@
+﻿comparison,rows_compared,rows_unmatched,R_matches_stored,max_abs_diff_precision_at_k,max_abs_diff_recall_at_k,max_abs_diff_mrr_at_k,max_abs_diff_ap_at_k,max_abs_diff_ndcg_at_k,max_abs_diff,tolerance,passed
+Validation 5 methods (646 -> 653),420,0,True,0.0,0.0,0.0,0.0,0.0,0.0,1e-09,True
+"Validation alpha grid, 22 candidates (665 -> 662)",1848,0,True,0.0,0.0,0.0,0.0,0.0,0.0,1e-09,True
+Test 3 methods (711/713 -> 717),252,0,True,0.0,0.0,0.0,0.0,0.0,0.0,1e-09,True
+Validation selected configuration (665 -> 673),84,0,True,0.0,0.0,0.0,0.0,0.0,0.0,1e-09,True

@@ -1,0 +1,6 @@
+﻿partition,query_sample_id,query_class,fusion_top1_class,first_relevant_rank,fusion_top5_classes,top1_visual_similarity,top1_text_similarity,query_visual_out_of_gallery_range,top1_identical_description,visual_only_top1_class,visual_only_top1_correct,text_only_top1_class,text_only_top1_correct
+validation,leaf_8809ccde35d4b945,Salam,Sambang Darah,3,Sambang Darah | Sambang Darah | Salam | Mangkok | Sambang Darah,0.01822076669483844,0.8067952427952015,True,False,Sambang Darah,False,Sambang Darah,False
+validation,leaf_68b0c81b496519cd,Salam,Sambang Darah,3,Sambang Darah | Sambang Darah | Salam | Tapak Kuda | Mangkok,0.562716831302537,0.7416336685591124,False,False,Sambang Darah,False,Sambang Darah,False
+validation,leaf_a838808299383884,Salam,Sambang Darah,2,Sambang Darah | Salam | Salam | Salam | Salam,0.362440833268073,0.6757731544731986,True,False,Salam,True,Salam,True
+validation,leaf_d12754f94f5ff7fc,Salam,Sambang Darah,4,Sambang Darah | Sambang Darah | Sambang Darah | Salam | Salam,0.5478210372629219,0.7614294276912819,False,False,Salam,True,Sambang Darah,False
+validation,leaf_2976a10d6fff3cd5,Tapak Kuda,Mangkok,2,Mangkok | Tapak Kuda | Tapak Kuda | Tapak Kuda | Tapak Kuda,0.5627068490281476,0.6781847437901132,False,False,Tapak Kuda,True,Mangkok,False

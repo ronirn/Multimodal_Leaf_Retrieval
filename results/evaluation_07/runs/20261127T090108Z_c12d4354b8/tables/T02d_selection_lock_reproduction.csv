@@ -1,0 +1,4 @@
+﻿check,value,reference,passed
+Recomputed validation mAP@5 of locked config equals lock value,0.7052380952380952,0.705238095238,True
+Locked config attains the maximum recorded validation mAP@5 (22 candidates),0.7052380952380952,0.7052380952380952,True
+Number of candidates with that maximum (lock tie pool),1.0,1.0,True

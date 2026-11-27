@@ -1,0 +1,31 @@
+/* LeafMatch AI - styles that Tailwind utilities do not cover. */
+
+.hero {
+  background-size: cover;
+  background-position: center;
+}
+
+/* Active sidebar item: dark indicator bar on the left edge (as in the reference). */
+.nav-link--active::before {
+  content: "";
+  position: absolute;
+  left: -28px;
+  top: 50%;
+  width: 4px;
+  height: 22px;
+  transform: translateY(-50%);
+  border-radius: 0 4px 4px 0;
+  background: #1f4430;
+}
+
+/* Horizontal plant collection: scrollable without a visible scrollbar. */
+.collection-track {
+  scrollbar-width: none;
+  scroll-snap-type: x mandatory;
+}
+.collection-track::-webkit-scrollbar {
+  display: none;
+}
+.plant-card {
+  scroll-snap-align: start;
+}

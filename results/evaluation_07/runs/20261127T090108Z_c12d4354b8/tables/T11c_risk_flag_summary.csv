@@ -1,0 +1,5 @@
+﻿partition,any_leakage_risk_flag,queries,mean_ap5,top1_correct_rate
+test,False,12,0.8277777777777778,1.0
+test,True,9,0.7492592592592593,1.0
+validation,False,15,0.7646666666666667,0.8666666666666667
+validation,True,6,0.5566666666666666,0.5

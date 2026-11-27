@@ -1,0 +1,21 @@
+﻿claim_id,statement,value,holds
+val_visual_map5,Validation mAP@5 Visual Only,0.5522222222222222,True
+val_text_u_map5,Validation mAP@5 Text Only Unigram,0.6246031746031746,True
+val_text_ub_map5,Validation mAP@5 Text Only Unigram+Bigram,0.6911111111111111,True
+val_fusion_map5,Validation mAP@5 locked fusion,0.7052380952380952,True
+val_fusion_minus_text_map5,Validation ΔmAP@5 fusion − text only (locked TF-IDF),0.014126984126984099,True
+val_fusion_minus_visual_map5,Validation ΔmAP@5 fusion − visual only,0.15301587301587305,True
+val_fusion_better_metrics_vs_text,Validation @5 metrics where fusion > text only (of 5),5,True
+test_fusion_map5,Test mAP@5 locked fusion,0.7941269841269841,True
+test_fusion_minus_text_map5,Test ΔmAP@5 fusion − text only,0.0033333333333334103,True
+test_fusion_minus_visual_map5,Test ΔmAP@5 fusion − visual only,0.20634920634920628,True
+test_fusion_better_metrics_vs_text,Test @5 metrics where fusion > text only (of 5),3,False
+test_status,Test status label,PROVISIONAL_AUDIT_UNRESOLVED,True
+test_independent,Test is an independent estimate,False,False
+locked_config,Locked configuration,Unigram + Bigram|0.3,True
+weakest_class_validation,Weakest class validation (mAP@5),Salam,True
+weakest_class_test,Weakest class test (mAP@5),Salam,True
+val_top1_errors,Validation top-1 errors,5,True
+test_top1_errors,Test top-1 errors,0,True
+visual_lowest_validation,Visual Only has the lowest validation mAP@5,True,True
+text_above_visual_validation,Both Text Only variants exceed Visual Only (validation mAP@5),True,True

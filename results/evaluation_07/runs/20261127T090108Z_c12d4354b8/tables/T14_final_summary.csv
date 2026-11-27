@@ -1,0 +1,12 @@
+﻿item,value
+Source run,20261127T090108Z_c12d4354b8
+Samples (gallery/validation/test),104 (62/21/21)
+Locked configuration,"Unigram + Bigram, alpha=0.3"
+Validation mAP@5 / nDCG@5,0.7052 / 0.7715
+Test mAP@5 / nDCG@5 (provisional),0.7941 / 0.8573
+Validation ΔmAP@5 vs Text Only / Visual Only,"+1,41 pp / +15,30 pp"
+Test ΔmAP@5 vs Text Only / Visual Only,"+0,33 pp / +20,63 pp"
+BLOCK checks passed,71/71
+Open REVIEW items (data/inventory),0
+Notebook 07 technical status,TECHNICAL_COMPLETE
+Methodological status of test results,PROVISIONAL_AUDIT_UNRESOLVED

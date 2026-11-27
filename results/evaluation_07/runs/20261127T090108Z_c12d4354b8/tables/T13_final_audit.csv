@@ -1,0 +1,21 @@
+﻿category,check,passed,severity_if_failed,detail
+Sources,All required source files loaded,True,BLOCK,
+Sources,Notebook 06 files unchanged during Notebook 07,True,BLOCK,[]
+Sources,All loaded files come from one run folder,True,BLOCK,
+Sources,"Run ID consistent (folder, manifest, handoff, provenance)",True,BLOCK,
+Sources,No Notebook 07 output written inside Notebook 06 folders,True,BLOCK,
+Lock,Selection lock SHA-256 unchanged,True,BLOCK,
+Lock,Test not used for model selection (lock + no selection in Notebook 07),True,BLOCK,
+Metrics,Per-query and macro metrics reproduced from rankings,True,BLOCK,
+Metrics,Confusion matrices reproduced from rankings,True,BLOCK,
+Metrics,Validation-vs-test values equal Notebook 06 table 734,True,BLOCK,
+Metrics,Per-class values consistent with Notebook 06 table 726,True,BLOCK,
+Outputs,All required figures saved and non-empty,True,BLOCK,figures=11
+Outputs,All required CSV tables saved,True,BLOCK,tables=30
+Outputs,Report and provenance saved,True,BLOCK,
+Outputs,Exported tables re-read equal in-memory tables,True,BLOCK,
+Conclusions,Numeric claims match source tables,True,BLOCK,14/14
+Conclusions,Narrative numbers appear as computed (mAP@5 values),True,BLOCK,
+Status,Test status label preserved in report and tables,True,BLOCK,
+Status,Report never presents test as independent when it is not,True,BLOCK,
+Status,Technical checks not presented as methodological approval,True,BLOCK,

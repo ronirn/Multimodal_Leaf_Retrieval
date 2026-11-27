@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page_title }}{% endblock %}
+
+{% block content %}
+<header>
+  <h1 class="text-[26px] font-semibold tracking-tight text-ink-600">{{ page_title }}</h1>
+  <p class="mt-1 text-[12.5px] text-ink-500">{{ page_subtitle }}</p>
+</header>
+
+<section class="mt-8 flex max-w-[640px] flex-col items-start rounded-[22px] bg-sage-100 px-8 py-10 shadow-soft">
+  <span class="rounded-full bg-gold-500/15 px-3 py-1 text-[11px] font-semibold text-gold-600">In development</span>
+  <p class="mt-4 text-[14px] leading-relaxed text-ink-500">
+    This page will be built in the next stage of the LeafMatch AI application.
+  </p>
+  <a href="{{ url_for('dashboard') }}"
+     class="mt-6 inline-flex items-center rounded-lg bg-gold-500 px-5 py-2.5 text-[12px] font-semibold text-white shadow-soft transition hover:bg-gold-600">
+    Back to Dashboard
+  </a>
+</section>
+{% endblock %}

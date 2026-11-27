@@ -1,0 +1,2 @@
+evaluated_utc,source_run_id,output_dir,superseded_dir,technical_status,test_status,validation_map_at_5,test_map_at_5
+2026-11-27T10:24:53+00:00,20261127T090108Z_c12d4354b8,results\evaluation_07\runs\20261127T090108Z_c12d4354b8,,TECHNICAL_COMPLETE,PROVISIONAL_AUDIT_UNRESOLVED,0.705238,0.794127

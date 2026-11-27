@@ -1,0 +1,15 @@
+﻿claim_id,notebook_value,source_value,matches
+val_visual_map5,0.5522222222222222,0.5522222222222222,True
+val_text_u_map5,0.6246031746031746,0.6246031746031746,True
+val_text_ub_map5,0.6911111111111111,0.6911111111111111,True
+val_fusion_map5,0.7052380952380952,0.7052380952380952,True
+val_fusion_minus_text_map5,0.014126984126984099,0.014126984126984099,True
+val_fusion_minus_visual_map5,0.15301587301587305,0.15301587301587305,True
+test_fusion_map5,0.7941269841269841,0.7941269841269841,True
+test_fusion_minus_text_map5,0.0033333333333334103,0.0033333333333334103,True
+test_fusion_minus_visual_map5,0.20634920634920628,0.20634920634920628,True
+test_status,PROVISIONAL_AUDIT_UNRESOLVED,PROVISIONAL_AUDIT_UNRESOLVED,True
+test_independent,False,False,True
+locked_config,Unigram + Bigram|0.3,Unigram + Bigram|0.3,True
+val_top1_errors,5,5,True
+test_top1_errors,0,0,True

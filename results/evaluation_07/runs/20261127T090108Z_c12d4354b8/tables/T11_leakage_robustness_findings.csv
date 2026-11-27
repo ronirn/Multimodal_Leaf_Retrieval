@@ -1,0 +1,11 @@
+﻿finding,count,category,evidence_file,interpretation
+Kandidat near-duplicate (dHash) total,80,Perlu ditinjau,624/611,Kemiripan hash bukan bukti spesimen yang sama.
+Kandidat near-duplicate lintas split,44,Perlu ditinjau,624/700,"Status review pasangan: {'AWAITING_PAIR_REVIEW': 44}. Per pasangan split: {'gallery - validation': 20, 'gallery - test': 18, 'test - validation': 6}."
+Query val/test dengan pasangan near-duplicate di gallery,12,Terkonfirmasi (fakta terukur),624,Jumlah query yang memiliki kandidat mirip di gallery; status kebocoran belum diketahui.
+Kelompok deskripsi identik lintas split,4,Terkonfirmasi (fakta terukur),625,Teks identik (hash sama). Apakah ini kebocoran atau deskripsi standar kelas perlu ditinjau.
+Query test dengan top-1 berdeskripsi identik,3,Terkonfirmasi (fakta terukur),722/728,Teks identik memberi cosine = 1 dan dapat mendominasi skor fusion.
+Query test dengan top-1 kandidat near-duplicate,2,Perlu ditinjau,722/728,Belum diketahui apakah gambar tersebut spesimen yang sama.
+Identitas spesimen/sesi foto tidak dideklarasikan,1,Tidak dapat diselesaikan dari CSV,698,Status: PENDING_REVIEW.
+Test pernah diperiksa pada run sebelumnya,1,Terkonfirmasi (fakta terukur),600/698,Permanen untuk split ini: test bukan estimasi independen.
+Query dengan fitur visual di luar rentang gallery (|z|>10),7,Terkonfirmasi (fakta terukur),637,"Per split: {'test': 2, 'validation': 5}. Penyebab (warna/segmentasi) perlu dicek visual."
+Audit piksel gambar pada run sumber,0,Terkonfirmasi (fakta terukur),619,Sumber hash: processed_images_recomputed.

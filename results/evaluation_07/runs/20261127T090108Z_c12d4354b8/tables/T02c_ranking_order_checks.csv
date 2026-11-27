@@ -1,0 +1,4 @@
+﻿ranking_file,order_matches_tie_policy_and_full_gallery
+val_rankings,True
+test_rankings,True
+test_baseline_rankings,True

@@ -1,0 +1,5 @@
+﻿example,case_type,available,partition,query_sample_id,query_class,image_source,note
+1,Retrieval benar (Top-5 seluruhnya relevan),True,test,leaf_f72f88757c4de8ba,Tapak Kuda,processed_images,
+2,Top-1 salah,True,validation,leaf_d12754f94f5ff7fc,Salam,processed_images,visual/text components not stored for validation fusion ranking
+3,"Top-1 benar, Top-5 parsial",True,test,leaf_1a45e1e109be76ee,Sambang Darah,processed_images,
+4,Top-5 gagal (tidak ada item relevan),False,,,,,Tidak ada query dengan kondisi ini pada run sumber.

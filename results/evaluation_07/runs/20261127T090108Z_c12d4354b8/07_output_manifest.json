@@ -1,0 +1,330 @@
+{
+  "source_run_id": "20261127T090108Z_c12d4354b8",
+  "technical_status": "TECHNICAL_COMPLETE",
+  "test_status": "PROVISIONAL_AUDIT_UNRESOLVED",
+  "finished_utc": "2026-11-27T10:25:03+00:00",
+  "outputs": [
+    {
+      "file": "figures\\F01_overall_metrics_by_k.png",
+      "kind": "png",
+      "cell": 4,
+      "sha256": "11026389873b8a0c63cf06b625e6aab9f4cb96b0922272c8d863e8fbcd8990b1",
+      "size_bytes": 136259
+    },
+    {
+      "file": "figures\\F02_method_comparison_at_5.png",
+      "kind": "png",
+      "cell": 5,
+      "sha256": "c399970d9130ab7ccae21f1233b8570d2a3d591cf25b584aa2b623ac24698aa1",
+      "size_bytes": 103512
+    },
+    {
+      "file": "figures\\F03_fusion_contribution_per_query.png",
+      "kind": "png",
+      "cell": 6,
+      "sha256": "7e93c59ace0b81c0ee0129ad4ad4b9b9b8f11d1c9fb80cd157b0b26343d4a80d",
+      "size_bytes": 159600
+    },
+    {
+      "file": "figures\\F04_alpha_sensitivity_validation.png",
+      "kind": "png",
+      "cell": 7,
+      "sha256": "b94b865bde1bba98b4a05d18b6930357f05a0234fdd43a6bc4234a1c950687bf",
+      "size_bytes": 193368
+    },
+    {
+      "file": "figures\\F05_validation_vs_test_gap.png",
+      "kind": "png",
+      "cell": 8,
+      "sha256": "b46cb348147df865ea9b82bc2448a9fac4856c87b85667ef5c62d1ac7db51c4f",
+      "size_bytes": 151521
+    },
+    {
+      "file": "figures\\F06_per_class_evaluation.png",
+      "kind": "png",
+      "cell": 9,
+      "sha256": "ede689f34d47e465257ab113b9ebe1df99a6a38d613598f0e73bfb2e596c22e9",
+      "size_bytes": 92107
+    },
+    {
+      "file": "figures\\F07_top1_confusion_matrices.png",
+      "kind": "png",
+      "cell": 10,
+      "sha256": "01fa2521f4c7e34a423540042430ca186b0b404d345c26aa180af3acc7c6df07",
+      "size_bytes": 159382
+    },
+    {
+      "file": "figures\\F08_example_1_test_leaf_f72f88757c4de8ba.png",
+      "kind": "png",
+      "cell": 11,
+      "sha256": "48e1236d72205fb1cc8c07132494f713f20999c77d886977cb7e49e80accb242",
+      "size_bytes": 1663228
+    },
+    {
+      "file": "figures\\F08_example_2_validation_leaf_d12754f94f5ff7fc.png",
+      "kind": "png",
+      "cell": 11,
+      "sha256": "edd9087c50ec30e86c297fec09da30950fc228835bb53b61b8323c3b650cba19",
+      "size_bytes": 1337637
+    },
+    {
+      "file": "figures\\F08_example_3_test_leaf_1a45e1e109be76ee.png",
+      "kind": "png",
+      "cell": 11,
+      "sha256": "86cbca35bbbe77e94aaf053ff807ba27a7c4ca26c998d90123656ed458f668e1",
+      "size_bytes": 1371312
+    },
+    {
+      "file": "figures\\F09_leakage_robustness.png",
+      "kind": "png",
+      "cell": 12,
+      "sha256": "f9dbced8a609b66da7780eefbb46bb3415294bcd96f150e8a8406844ce3489a5",
+      "size_bytes": 158398
+    },
+    {
+      "file": "tables\\T01_integrity_checks.csv",
+      "kind": "csv",
+      "cell": 15,
+      "sha256": "bcd34dd29fdf65381254fe8b23632cc59acf5e5a03e774fd616e45eb83b38f2e",
+      "size_bytes": 5696
+    },
+    {
+      "file": "tables\\T01b_source_files_loaded.csv",
+      "kind": "csv",
+      "cell": 15,
+      "sha256": "d72208829fb881e11d75073d72b7018a3072585550505ab96385a6f7d56f2539",
+      "size_bytes": 6308
+    },
+    {
+      "file": "tables\\T01c_notebook06_inventory_sha256.csv",
+      "kind": "csv",
+      "cell": 15,
+      "sha256": "45a45cd3b687bafb3ed4090bbe71ccb7ed75748ec93ffa065bbc9d7f78eb766f",
+      "size_bytes": 11361
+    },
+    {
+      "file": "tables\\T02_metric_verification_per_query.csv",
+      "kind": "csv",
+      "cell": 15,
+      "sha256": "137995ef957b33fec18a1f8acabded495633747746f4deec59711fe959c3412f",
+      "size_bytes": 563
+    },
+    {
+      "file": "tables\\T02b_metric_verification_macro.csv",
+      "kind": "csv",
+      "cell": 15,
+      "sha256": "4a0d6663785294e87e048be1ce138b9f74acd10e3733d8e02294a24b34c5060b",
+      "size_bytes": 350
+    },
+    {
+      "file": "tables\\T02c_ranking_order_checks.csv",
+      "kind": "csv",
+      "cell": 15,
+      "sha256": "3ec39142fe6fde2c3bf8761b2ff018f267629b3bb24c1ec77ef95b69b32fc3aa",
+      "size_bytes": 127
+    },
+    {
+      "file": "tables\\T02d_selection_lock_reproduction.csv",
+      "kind": "csv",
+      "cell": 15,
+      "sha256": "58dbb78737d73d79ec1bd82328cc6bde5b53afe7633359a7c63887787cbf289f",
+      "size_bytes": 325
+    },
+    {
+      "file": "tables\\T03_overall_performance_by_k.csv",
+      "kind": "csv",
+      "cell": 15,
+      "sha256": "f4c2d595175480c2e3a76d7b3269c76f71ff1a9e304b82b3d2517916ac254827",
+      "size_bytes": 1073
+    },
+    {
+      "file": "tables\\T04_method_comparison_all_k.csv",
+      "kind": "csv",
+      "cell": 15,
+      "sha256": "b513c83d54f864b021f62661a043a328d87e5dc0c14f39383b7cba515764d40b",
+      "size_bytes": 4930
+    },
+    {
+      "file": "tables\\T04b_method_comparison_at_5.csv",
+      "kind": "csv",
+      "cell": 15,
+      "sha256": "b5396e7ad84ddeee5eab353e36f5f517c6ab392a29c9538bd00341bd8603efd1",
+      "size_bytes": 1279
+    },
+    {
+      "file": "tables\\T04c_fusion_improvement_vs_baselines.csv",
+      "kind": "csv",
+      "cell": 15,
+      "sha256": "b0a119ee9a556998a60eb633092d60358e49ed131ab92d6508c1eda5d8373057",
+      "size_bytes": 5908
+    },
+    {
+      "file": "tables\\T05_fusion_contribution_vs_text_only.csv",
+      "kind": "csv",
+      "cell": 15,
+      "sha256": "39c69aaca47a01a346a25cbbc07667365138592f122cef78ea7166c95f35b2b8",
+      "size_bytes": 2822
+    },
+    {
+      "file": "tables\\T05b_paired_per_query_statistics.csv",
+      "kind": "csv",
+      "cell": 15,
+      "sha256": "f2257953dc232cd5c0a966ca37364307b100bf3ebd0913a3159d8c21a1bf154b",
+      "size_bytes": 3250
+    },
+    {
+      "file": "tables\\T05c_per_query_ap5_differences.csv",
+      "kind": "csv",
+      "cell": 15,
+      "sha256": "24d07f9100681de225caa0f7bd172b4d49d55ca8ab268e90e32d46ef6bc68996",
+      "size_bytes": 6029
+    },
+    {
+      "file": "tables\\T06_alpha_sensitivity.csv",
+      "kind": "csv",
+      "cell": 15,
+      "sha256": "c834b9b1a086eeec560b25880abc8fed3ed63503d636a22ebb2e0597e5fef8c4",
+      "size_bytes": 2844
+    },
+    {
+      "file": "tables\\T06b_alpha_sensitivity_summary.csv",
+      "kind": "csv",
+      "cell": 15,
+      "sha256": "dc43d3351da7d6ce4752e1b08600219cc700f721296aecf896c03a6f074ed6b1",
+      "size_bytes": 397
+    },
+    {
+      "file": "tables\\T07_validation_vs_test.csv",
+      "kind": "csv",
+      "cell": 15,
+      "sha256": "d5fe4fa274bbca1a59de9ee615af41ae1ef031d59b491c4ad019c61bc6ad210a",
+      "size_bytes": 7514
+    },
+    {
+      "file": "tables\\T08_per_class_evaluation.csv",
+      "kind": "csv",
+      "cell": 15,
+      "sha256": "769a4c3fd3208f301fd63d6127061a8aed26947543c65b794d1e3c4767430c04",
+      "size_bytes": 996
+    },
+    {
+      "file": "tables\\T09_confusion_matrix_validation.csv",
+      "kind": "csv",
+      "cell": 15,
+      "sha256": "96f54c641e1b9b508a08ec65d81d780ecbe422246cc4587e959d123fd46f8ba7",
+      "size_bytes": 161
+    },
+    {
+      "file": "tables\\T09_confusion_matrix_test.csv",
+      "kind": "csv",
+      "cell": 15,
+      "sha256": "616e3a5a8947eaf562ae9c268275f1868fd36dcedf96c00ff467441c175629fa",
+      "size_bytes": 161
+    },
+    {
+      "file": "tables\\T09b_error_attribution.csv",
+      "kind": "csv",
+      "cell": 15,
+      "sha256": "14e781e75391b75701039739897ceed1fabf75e1282ee4a8abdf5d8946324055",
+      "size_bytes": 1279
+    },
+    {
+      "file": "tables\\T09c_confused_class_pairs.csv",
+      "kind": "csv",
+      "cell": 15,
+      "sha256": "27922121c93d30e29ef80c77e4a3df538a859faaeba52a9c42e407d0a2d188e7",
+      "size_bytes": 118
+    },
+    {
+      "file": "tables\\T09d_top5_pattern.csv",
+      "kind": "csv",
+      "cell": 15,
+      "sha256": "b06c31bd44d7068c99ecfd4727acc1947b5b6952bc168de9d705b3d203caab5b",
+      "size_bytes": 167
+    },
+    {
+      "file": "tables\\T09e_confusion_checks.csv",
+      "kind": "csv",
+      "cell": 15,
+      "sha256": "0745632ee81b6d2863501877aab701ba4b0879c2ed37e24912f23fe80af2eb11",
+      "size_bytes": 171
+    },
+    {
+      "file": "tables\\T10_qualitative_examples.csv",
+      "kind": "csv",
+      "cell": 15,
+      "sha256": "f78bfa2d44f39709dcb948e6fc43988192be2c4ef80ef91e1e0b440e895ee0b1",
+      "size_bytes": 533
+    },
+    {
+      "file": "tables\\T10b_qualitative_top5_details.csv",
+      "kind": "csv",
+      "cell": 15,
+      "sha256": "e7656e2a6ec6f6016d57a443becbf3aafe065c5237756a983b39182f5f61d6ab",
+      "size_bytes": 1870
+    },
+    {
+      "file": "tables\\T11_leakage_robustness_findings.csv",
+      "kind": "csv",
+      "cell": 15,
+      "sha256": "69e69c113b7aef66f678b5e2747931d3b67c2999f6d61f35623f36f3490fbc1b",
+      "size_bytes": 1580
+    },
+    {
+      "file": "tables\\T11b_query_risk_flags.csv",
+      "kind": "csv",
+      "cell": 15,
+      "sha256": "3ddd14c57eb968760bfa94c0abd969aa9d8cc536bb3b49d0cc28a4257f4c62bf",
+      "size_bytes": 3938
+    },
+    {
+      "file": "tables\\T11c_risk_flag_summary.csv",
+      "kind": "csv",
+      "cell": 15,
+      "sha256": "b07b2fb2fee15dd3031f2965f328be9b496bd7be3ddc62d8d425071c63d0b95f",
+      "size_bytes": 246
+    },
+    {
+      "file": "tables\\T12_claims.csv",
+      "kind": "csv",
+      "cell": 15,
+      "sha256": "d265fed411ecb276cad892b00ea0ee9cde54ad0f09e6a8ae6fbaa33dc1c76cf2",
+      "size_bytes": 1571
+    },
+    {
+      "file": "07_evaluation_report.md",
+      "kind": "md",
+      "cell": 15,
+      "sha256": "08c70fa187f9faa68feadb27be6e1afb16734b9a8c819d723618a3b6f4713b5b",
+      "size_bytes": 18111
+    },
+    {
+      "file": "07_provenance.json",
+      "kind": "json",
+      "cell": 15,
+      "sha256": "880817c95ee852064b9f668d640f3469485990ce993ac32cc09b0de2985c514d",
+      "size_bytes": 6581
+    },
+    {
+      "file": "tables\\T13_final_audit.csv",
+      "kind": "csv",
+      "cell": 16,
+      "sha256": "80ff313cc7ffd7b45347714400044253fb50d85afcfc38bcecc2e16fe097effe",
+      "size_bytes": 1443
+    },
+    {
+      "file": "tables\\T13b_claim_audit.csv",
+      "kind": "csv",
+      "cell": 16,
+      "sha256": "2c1ca8b7631a9425b2cb0b54b2c5484e0415934b5727fffb9b92f616ab5945fe",
+      "size_bytes": 881
+    },
+    {
+      "file": "tables\\T14_final_summary.csv",
+      "kind": "csv",
+      "cell": 16,
+      "sha256": "739f6bb9cb9b8cd2e4e2f5c2cfbd462f6d6a299417fd0a949cfb9a95130f921a",
+      "size_bytes": 567
+    }
+  ]
+}
